@@ -6,12 +6,12 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 14:06:43 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 14:43:12 GMT</lastBuildDate>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
       <link>https://www.telefunken-elektroakustik.com/hey-audio-student-telefunken-factory-tour-tuesday-october-12th-2026-12pm-est/</link>
-      <description>마이크 공장 온라인(Zoom) 투어 등록 안내. 제목은 10월 6일, 본문은 10월 12일로 표기되어 날짜 불일치.</description>
+      <description>TELEFUNKEN Elektroakustik이 오디오 전공 학생과 애호가를 대상으로 마이크 공장 내부를 보여주는 Zoom 온라인 투어를 진행합니다. 회사는 이 교육용 투어를 전 세계 수천 명의 학생에게 제공해 왔다고 밝혔습니다. 페이지 제목은 10월 6일, 본문은 10월 12일(화) 오후 12시(미 동부시간)로 표기돼 날짜가 일치하지 않으므로 확인이 필요합니다. 참가하려면 Google 양식으로 등록해 Zoom 링크를 받아야 합니다.</description>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-79</guid>
       <category>행사</category>
@@ -20,7 +20,7 @@
     <item>
       <title>[행사] Sound Devices - Astral wireless</title>
       <link>https://www.sounddevices.com/trewlapalooza-2026/</link>
-      <description>Sound Devices가 2026년 10월 2~3일 LA에서 열리는 Trewlapalooza 2026에 참가해 Astral 무선 시스템 체험 및 10월 2일 오후 2시 세션을 진행한다고 안내.</description>
+      <description>Sound Devices가 2026년 10월 2~3일 미국 LA에서 열리는 Trewlapalooza 2026에 참가합니다. 현장에서는 Astral 무선 시스템을 직접 체험할 수 있으며 새로운 현장 녹음 워크플로를 소개합니다. 회사 세션은 10월 2일(금) 오후 2시에 진행됩니다. 입장권은 Tickettailor 행사 페이지에서 구매할 수 있습니다.</description>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-83</guid>
       <category>행사</category>
@@ -29,7 +29,7 @@
     <item>
       <title>[신제품] DJW Audio - Lustre</title>
       <link>https://www.kvraudio.com/news/djw-audio-releases-lustre-true-stereo-algorithmic-reverb-for-macos-vst3-au-and-aax-68736</link>
-      <description>DJW Audio가 macOS용(AU·VST3·AAX) 트루 스테레오 알고리즘 리버브 Lustre를 출시했습니다. 홀·플레이트·룸 등 7개 알고리즘 계열과 70개 프리셋을 제공하며 가격은 £149(정가 £199)입니다.</description>
+      <description>DJW Audio가 macOS용 트루 스테레오 알고리즘 리버브 플러그인 Lustre를 AU·VST3·AAX 포맷으로 출시했습니다. 홀·플레이트·룸·챔버·앰비언스·논리니어·스페이스 등 7개 알고리즘 계열과 계열별 10개씩 70개 프리셋을 제공하며, 16개 페이더로 잔향 시간·프리딜레이 등을 한 화면에서 조절합니다. IR 방식이 아닌 자체 알고리즘 엔진이며 Intel과 Apple Silicon Mac을 지원합니다. 가격은 £149(정가 £199)이고 14일 체험판이 제공됩니다.</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-106</guid>
       <category>신제품</category>
@@ -38,7 +38,7 @@
     <item>
       <title>[신제품] Benjamin Guerrero - ResoPlate, Sympiano v1.0.7</title>
       <link>https://www.kvraudio.com/news/benjamin-guerrero-releases-resoplate-physically-modeled-plate-reverb-and-updates-sympiano-to-v1-0-7-68752</link>
-      <description>Benjamin Guerrero가 4개의 독립 플레이트와 6종 금속 재질을 고를 수 있는 물리 모델링 플레이트 리버브 ResoPlate를 출시하고(10월 31일까지 $39, 정가 $59), 무료 피아노 플러그인 Sympiano를 v1.0.7로 업데이트했습니다.</description>
+      <description>Benjamin Guerrero가 실시간 물리 시뮬레이션 방식의 플레이트 리버브 플러그인 ResoPlate를 출시하고, 무료 피아노 현 공명 플러그인 Sympiano를 v1.0.7로 업데이트했습니다. ResoPlate는 독립 플레이트 4개와 6종 금속 재질, 사이드체인 입력을 제공하며 macOS와 Windows를 지원합니다. Sympiano에는 사용자 프리셋과 Windows Arm64 지원 등이 추가됐습니다. ResoPlate 가격은 10월 31일까지 $39, 이후 정가 $59입니다.</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-107</guid>
       <category>신제품</category>
@@ -47,7 +47,7 @@
     <item>
       <title>[신제품] xGG - Magic ACX</title>
       <link>https://www.kvraudio.com/news/xgg-releases-magic-acx---realtime-audiobook-audio-processor-and-analyzer-for-windows-vst3-68750</link>
-      <description>xGG가 오디오북 제작용 ACX 규격 대응 Windows VST3 실시간 프로세서·분석기 Magic ACX를 출시했습니다. 노이즈 감소, RMS·피크 제어, 노이즈 플로어 분석과 ACX 적합 여부 표시를 제공하며 가격은 $10입니다.</description>
+      <description>xGG가 오디오북 제작용 Windows VST3 실시간 오디오 프로세서·분석기 Magic ACX를 출시했습니다. 노이즈 감소, RMS 레벨 처리, 피크 제어 기능과 함께 노이즈 플로어·피크·RMS 분석 및 ACX 적합 여부 표시, 노이즈 프로파일 학습 기능을 제공합니다. Audible의 오디오북 플랫폼인 ACX 제출 기준에 맞춰 음원을 준비하려는 내레이터와 제작자를 대상으로 합니다. 가격은 $10이며 ko-fi.com에서 구매할 수 있습니다.</description>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-108</guid>
       <category>신제품</category>
@@ -56,7 +56,7 @@
     <item>
       <title>[업데이트] Mixed In Key - Wingman 3.0</title>
       <link>https://www.mixonline.com/technology/news-products/mixed-in-key-wingman-3-0-debuts</link>
-      <description>Mixed In Key가 DAW 속 음악을 분석해 코드 진행을 제안하는 Wingman을 3.0으로 업데이트해 패싱 코드 삽입·개별 코드 교체 등 편집 기능과 실제 녹음한 기타 연주, 장르별 드럼 패턴을 추가했습니다. 기존 사용자에게는 무료입니다.</description>
+      <description>Mixed In Key가 DAW에 있는 음악을 분석해 코드 진행과 베이스 라인을 제안하는 작곡 보조 플러그인 Wingman을 3.0으로 업데이트했습니다. 패싱 코드 삽입·개별 코드 교체 등 편집 기능이 늘었고, 코드에 맞춰 연주되는 기타 연주와 장르별 드럼 패턴이 추가됐습니다. 원본 오디오는 그대로 두고 제안을 들어보며 편집해 세션으로 내보낼 수 있습니다. macOS와 Windows를 지원하며 구독 없는 1회 구매 방식으로 현재 판매 중입니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-113</guid>
       <category>업데이트</category>
@@ -65,7 +65,7 @@
     <item>
       <title>[신제품] Two notes - Torpedo Captor X Pro</title>
       <link>https://www.gearnews.com/two-notes-torpedo-captor-x-pro-guitar/</link>
-      <description>Two notes가 4/8/16Ω 전환형 150W 리액티브 로드박스에 13단 패시브 어테뉴에이터와 스테레오 DynIR 엔진을 결합한 Torpedo Captor X Pro를 발표했습니다. 가격은 €999.99 / $1,099.99이며 2026년 4분기 말 출하 예정입니다.</description>
+      <description>Two notes가 기타 앰프용 리액티브 로드박스 겸 어테뉴에이터 Torpedo Captor X Pro를 발표했습니다. 4/8/16Ω 전환과 최대 150W를 지원하고, 13단계 패시브 어테뉴에이터와 24개 IR을 담은 트루 스테레오 DynIR 엔진, XLR 출력 2개를 갖췄습니다. 앰프 톤을 유지하며 조용히 연습·녹음하려는 투어 기타리스트 등을 겨냥합니다. 가격은 €999.99 / $1,099.99이며 예약 판매 중이고 2026년 4분기 말 출하 예정입니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-109</guid>
       <category>신제품</category>
@@ -74,7 +74,7 @@
     <item>
       <title>[신제품] Tim Exile - Finalist 2</title>
       <link>https://www.soundonsound.com/news/finalist-2-tim-exile</link>
-      <description>Tim Exile이 최대 64개 스템을 자동 배치해 믹스하는 자동 믹싱 툴 Finalist 2를 스탠드얼론 앱과 웹 브라우저 버전으로 출시했습니다. 10월 9일까지 영구 라이선스가 £99(정가 £149)입니다.</description>
+      <description>Tim Exile이 스템을 분석해 자동으로 믹스해 주는 믹싱 툴 Finalist 2를 출시했습니다. 최대 64개 스템을 파일명 기준으로 자동 배치하고, 장르별 프리셋으로 처리해 WAV·AIFF·FLAC으로 내보냅니다. AI가 아닌 직접 설계한 알고리즘 기반으로, 믹싱할 시간이나 기술이 부족한 음악가를 대상으로 합니다. Chrome·Edge 브라우저와 macOS·Windows 앱으로 쓸 수 있으며 영구 라이선스는 10월 9일까지 £99(정가 £149)입니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-110</guid>
       <category>신제품</category>
@@ -83,7 +83,7 @@
     <item>
       <title>[신제품] Desert Moon Audio - Desert Moon Audio 플러그인 15종</title>
       <link>https://www.kvraudio.com/news/desert-moon-audio-launches-with-15-analog-inspired-plugins-vst3-au-and-aax-68747</link>
-      <description>신생 개발사 Desert Moon Audio가 테이프·새추레이션·컴프레서·EQ·리버브·딜레이·모듈레이션 등 아날로그 계열 플러그인 15종(VST3·AU·AAX)을 출시했습니다. 개별 가격은 $19~64이며 번들은 30% 할인됩니다.</description>
+      <description>신생 개발사 Desert Moon Audio가 아날로그 계열 오디오 플러그인 15종을 첫 제품군으로 출시했습니다. 테이프, 새추레이션, 컴프레서, EQ, 리버브, 딜레이, 미터 등으로 구성되며 macOS는 AU·VST3·AAX, Windows는 VST3를 지원합니다. 1회 구매 라이선스로 최대 4대까지 설치할 수 있고 14일 체험판을 결제 정보 없이 쓸 수 있습니다. 개별 가격은 $19~$64이며 15종 전체 번들은 개별 구매 대비 30% 할인됩니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-111</guid>
       <category>신제품</category>
@@ -92,7 +92,7 @@
     <item>
       <title>[업데이트] FRCTL Audio - DLAY v1.3.0</title>
       <link>https://www.kvraudio.com/news/frctl-audio-updates-dlay-to-v1-3-0---modulation-band-ripple-motion-and-more-68720</link>
-      <description>FRCTL Audio가 멀티탭 딜레이 DLAY를 v1.3.0으로 무료 업데이트해 LFO 2개와 엔벨로프 팔로워를 갖춘 MOD 밴드, 리플 MOTION 노브, 딜레이 테일 킬 스위치 등을 추가했습니다.</description>
+      <description>FRCTL Audio가 최대 64탭을 타임라인 위 선으로 보여 주는 멀티탭 딜레이 플러그인 DLAY를 v1.3.0으로 업데이트했습니다. LFO 2개와 엔벨로프 팔로워를 22개 파라미터에 연결하는 MOD 밴드, 리플 MOTION 노브, 정지 시 잔향을 비우는 킬 스위치가 추가됐습니다. 기존 사용자에게는 무료 업데이트이며 VST3·AU·CLAP 포맷으로 Windows·macOS·Linux를 지원합니다. 신규 가격은 $34.99이고 14일 체험판이 제공됩니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-112</guid>
       <category>업데이트</category>
@@ -101,7 +101,7 @@
     <item>
       <title>[신제품] zynaptiq - LOUD, WIDE, MASTER III, ZAP VI</title>
       <link>https://www.kvraudio.com/news/zynaptiq-releases-loud-wide-master-iii-and-zap-vi-68729</link>
-      <description>zynaptiq가 최대 16채널 이머시브 포맷을 지원하는 멀티밴드 리미터 LOUD와 스펙트럼 처리 기반 스테레오 이미징·모노→스테레오 업믹싱 플러그인 WIDE를 출시하고, 이를 포함한 MASTER III·ZAP VI 번들을 선보였습니다. 두 신제품은 10월 15일까지 출시 기념가로 판매됩니다.</description>
+      <description>zynaptiq가 트랙·버스·마스터용 라우드니스 처리 플러그인 LOUD와 스테레오 이미징·모노→스테레오 업믹싱 플러그인 WIDE를 출시했습니다. LOUD는 멀티밴드 리미터를 포함하고 최대 16채널 이머시브 포맷을 지원하며, WIDE는 스펙트럼 처리 기반으로 100% 모노 호환을 내세웁니다. 두 제품을 포함한 7종 번들 MASTER III($499)와 16종 번들 ZAP VI($1,299)도 함께 선보였습니다. 10월 15일까지 출시 기념가로 LOUD는 $49(정가 $99), WIDE는 $99(정가 $149)입니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-104</guid>
       <category>신제품</category>
@@ -110,7 +110,7 @@
     <item>
       <title>[업데이트] TASCAM - CA-XLR2d</title>
       <link>https://tascam.com/us/learn/detail/96276</link>
-      <description>TASCAM이 카메라용 XLR 마이크 어댑터 CA-XLR2d의 호환 카메라 목록을 갱신해 캐논 EOS R6 V와의 호환성을 공식 확인했습니다.</description>
+      <description>TASCAM이 카메라에 XLR 마이크를 연결하는 어댑터 CA-XLR2d의 호환 카메라 목록을 갱신해 Canon EOS R6 V와의 호환성을 공식 확인했습니다. 앞서 Canon EOS R6 Mark III와 FUJIFILM 카메라 일부도 호환 목록에 추가된 바 있습니다. 전체 호환 카메라 목록은 TASCAM 제품 지원 페이지에서 확인할 수 있습니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-101</guid>
       <category>업데이트</category>
@@ -119,7 +119,7 @@
     <item>
       <title>[업데이트] Expressive E - Osmose 펌웨어 2.3</title>
       <link>https://www.soundonsound.com/news/expressive-e-update-osmose</link>
-      <description>Expressive E가 Osmose 무료 펌웨어 2.3을 공개해 트랜스포트·메트로놈·트랙 탐색·믹싱 등 DAW 컨트롤 기능을 추가하고, 900개 이상 프리셋을 쓸 수 있는 Ctrl-e 플랫폼을 모든 사용자에게 무료로 제공합니다.</description>
+      <description>Expressive E가 익스프레시브 신시사이저 Osmose용 펌웨어 2.3을 모든 사용자에게 무료로 공개했습니다. 트랜스포트, 메트로놈, 루프 관리, 트랙·씬·클립 탐색 등 DAW 컨트롤 기능이 추가됐습니다. 또한 Osmose 사용자는 900개 이상의 프리셋을 제공하는 Ctrl-e 플랫폼을 무료로 쓸 수 있으며, 이 라이선스는 프리셋에 한정됩니다. 업데이트는 Expressive E 웹사이트에서 바로 받을 수 있습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-114</guid>
       <category>업데이트</category>
@@ -128,7 +128,7 @@
     <item>
       <title>[신제품] Polyend - Polyend Loop</title>
       <link>https://www.soundonsound.com/news/polyend-introduce-loop</link>
-      <description>Polyend가 독립 루프 트랙 4개와 4트랙 드럼머신, 100종 이상의 이펙트를 갖춘 스탠드얼론 루퍼 Loop를 발표했습니다. 가격은 €599이며 2026년 10월 출하 예정입니다.</description>
+      <description>Polyend가 드럼머신과 이펙트 프로세서를 내장한 페달형 루퍼 Loop를 발표했습니다. 정방향·역방향·핑퐁 재생을 지원하는 독립 루프 트랙 4개, 350개 이상의 리듬 패턴과 500개 이상의 드럼 킷을 갖춘 4트랙 드럼 시퀀서, 100종 이상의 내장 이펙트를 제공합니다. 악기·라인 레벨 입력과 다이내믹 마이크 입력을 받으며, 기타리스트·송라이터·전자음악가를 위한 아이디어 스케치 장비로 소개됐습니다. 가격은 €599이며 2026년 10월 출하 예정입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-115</guid>
       <category>신제품</category>
@@ -137,7 +137,7 @@
     <item>
       <title>[업데이트] MuxLab - Symetrix Composer Control Module for MuxLab</title>
       <link>https://ravepubs.com/muxlab-symetrix-composer-module-av-over-ip-control/</link>
-      <description>MuxLab이 Symetrix Composer 소프트웨어에서 MuxLab AV-over-IP 제품(Muximus 관리 플랫폼 포함)의 비디오 라우팅·스위칭·프리셋 호출 등을 제어할 수 있는 컨트롤 모듈을 공개했으며, 모듈은 현재 바로 사용할 수 있습니다.</description>
+      <description>MuxLab이 Symetrix Composer 소프트웨어에서 자사 AV-over-IP 제품을 제어할 수 있는 컨트롤 모듈을 공개했습니다. Muximus 관리 플랫폼에 연결된 엔드포인트의 모니터링, 비디오 라우팅·스위칭, 프리셋 호출, API 명령을 Composer 안에서 실행할 수 있습니다. 회의실, 교육 시설, 기업, 디지털 사이니지 관제실, 의료 시설 등의 설치 현장을 대상으로 합니다. 모듈은 현재 바로 사용할 수 있으며 가격은 공개되지 않았습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-105</guid>
       <category>업데이트</category>
@@ -146,7 +146,7 @@
     <item>
       <title>[신제품] Antares - AutoTune Advanced</title>
       <link>https://www.einpresswire.com/article/944773528/introducing-autotune-advanced</link>
-      <description>Antares가 AutoTune 알고리즘을 새로 설계하고 가수의 자연스러운 비브라토를 인식·보존하는 DVA 엔진을 탑재한 실시간 보컬 튜닝 플러그인 AutoTune Advanced를 출시했습니다. Live(44.1kHz 기준 0.84ms)·Low Latency·High Quality 모드를 제공하며 영구 라이선스 또는 AutoTune Unlimited 구독으로 제공됩니다.</description>
+      <description>Antares가 AutoTune 알고리즘을 새로 설계한 실시간 보컬 튜닝 플러그인 AutoTune Advanced를 출시했습니다. 비브라토를 보존하는 DVA 엔진과 포먼트 디자이너를 갖췄고 Live(44.1kHz 기준 0.84ms)·Low Latency·High Quality 모드를 제공해 실시간 모니터링과 믹스 작업에 씁니다. 영구 라이선스 구매 또는 AutoTune Unlimited 구독으로 이용 가능하며 기존 구독자는 추가 비용 없이 받습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-102</guid>
       <category>신제품</category>
@@ -155,7 +155,7 @@
     <item>
       <title>[신제품] Synchro Arts - VocAlign 7 (Standard / Pro)</title>
       <link>https://www.synchroarts.com/vocalign</link>
-      <description>Synchro Arts가 여러 보컬 트랙을 한 작업 공간에서 동시에 타이밍·피치 정렬할 수 있는 멀티트랙 워크플로를 도입한 VocAlign 7을 출시했습니다. Pro 버전은 포먼트 제어와 RePitch 2 연동(SynchroLink 2.0)을 추가하며 VST3/AU/AAX를 지원합니다.</description>
+      <description>Synchro Arts가 보컬 타이밍·피치 정렬 플러그인 VocAlign 7을 Standard와 Pro 두 버전으로 출시했습니다. 여러 보컬 트랙을 한 작업 공간에서 다루는 멀티트랙 워크플로와 ARA 지원이 공통이며, Pro는 SmartPitch 피치 매칭, 포먼트 제어, RePitch 연동(SynchroLink 2.0)을 추가합니다. 하모니·더블·백보컬을 정리하는 보컬 편집 작업 시간을 줄이는 용도입니다. AU·VST3·AAX를 지원하며 VocAlign 3~6 사용자는 업그레이드 할인을 받을 수 있습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-103</guid>
       <category>신제품</category>
@@ -164,7 +164,7 @@
     <item>
       <title>[신제품] Yamaha - DM5</title>
       <link>https://kr.yamaha.com/ko/news/2026/20260911-dm5serieslaunching.html</link>
-      <description>야마하뮤직코리아가 DM7과 동일한 GUI를 채택하고 Dante를 기본 탑재한 컴팩트 디지털 믹싱 콘솔 DM5를 국내 공식 출시함. 한글 채널명 지원, 틸트 디스플레이 등을 갖춤.</description>
+      <description>야마하뮤직코리아가 컴팩트 디지털 믹싱 콘솔 DM5를 2026년 9월 11일 국내 공식 출시했습니다. DM7 시리즈와 GUI 및 데이터가 호환되며 Dante 네트워크를 기본 탑재했고, 한글 채널명 입력과 네 단계로 각도를 조절하는 틸트 디스플레이를 지원합니다. 중소규모 라이브 공연, 행사, 교회, 공연장, 강당을 주요 용도로 하며, Dante로 전용 I/O 박스를 연결하거나 옵션 PY-DSP 카드로 상위 콘솔의 플러그인을 추가할 수 있습니다. 전국 야마하 프로오디오 공식 판매점에서 구매할 수 있습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-52</guid>
       <category>신제품</category>
@@ -173,7 +173,7 @@
     <item>
       <title>[신제품] EAW - EAW NT119S, NT219S</title>
       <link>https://blog.naver.com/dasansr/224408414694</link>
-      <description>EAW가 Newport 라인업 액티브 서브우퍼 NT119S(싱글 19인치)와 NT219S(듀얼 19인치)를 새로 선보였다. NT119S 최대 SPL 135dB, NT219S 142dB.</description>
+      <description>EAW가 Newport 시리즈의 액티브 서브우퍼 NT119S(싱글 19인치)와 NT219S(듀얼 19인치)를 새로 선보였다고 다산SR이 소개했습니다. NT119S는 4000W 앰프 내장에 최대 SPL 136dB, NT219S는 8000W에 142dB이며 두 모델 모두 25Hz까지 재생합니다. NT206L·NT208L 라인어레이와 짝을 이루는 저역용으로 플라잉·그라운드 스택 방식으로 투어, 페스티벌, 아레나 공연에 씁니다. 공인 파트너를 통해 구매할 수 있습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-62</guid>
       <category>신제품</category>
@@ -182,7 +182,7 @@
     <item>
       <title>[신제품] 야마하뮤직코리아 - Yamaha DM5, DM5 Compact</title>
       <link>https://blog.naver.com/dasansr/224408250136</link>
-      <description>야마하가 DM7 기반 차세대 컴팩트 디지털 믹싱 콘솔 DM5 시리즈(DM5, DM5 Compact)를 공개했다. 13.3인치 틸팅 터치스크린, 64x64 Dante I/O 지원.</description>
+      <description>야마하가 DM7 기반의 컴팩트 디지털 믹싱 콘솔 DM5 시리즈(DM5, DM5 Compact)를 공개했다고 다산SR이 소개했습니다. DM5는 60 입력 채널, 아날로그 32인/16아웃, 듀얼 페이더 베이이고, DM5 Compact는 48 입력 채널, 16인/16아웃, 싱글 페이더 베이 구성입니다. 두 모델 모두 13.3인치 메인 화면과 96kHz 기준 최대 64×64 Dante I/O, USB 18채널을 지원하며, 제조사는 중소규모 라이브, 기업 행사, 교회, 극장, 방송 용도를 대상으로 제시했습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-63</guid>
       <category>신제품</category>
@@ -191,7 +191,7 @@
     <item>
       <title>[신제품] Focusrite - Focusrite ISA C8X</title>
       <link>https://blog.naver.com/sound8949/224404820027</link>
-      <description>Focusrite 최초의 ISA 오디오 인터페이스 ISA C8X가 국내에 입고되어 정식 출시를 앞두고 있다. 8채널 ISA 프리앰프를 2U 랙에 담았다.</description>
+      <description>Focusrite의 첫 ISA 오디오 인터페이스 ISA C8X가 국내에 입고되어 정식 출시를 앞두고 있다고 사운드캣이 전했습니다. 2U 랙 크기의 26인/28아웃 USB-C 인터페이스로, 8개의 마이크 프리앰프와 Lundahl LL1538 트랜스포머를 쓴 ISA 프리앰프, 24-bit/192kHz 변환을 갖췄습니다. 제조사는 모노·스테레오부터 7.1.4까지 모니터링을 지원하는 스튜디오 중심 장비로 소개했으며, 해외 가격은 2,299.99달러입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-96</guid>
       <category>신제품</category>
@@ -200,7 +200,7 @@
     <item>
       <title>[신제품] Waldorf - Waldorf Protein</title>
       <link>https://blog.naver.com/sound8949/224403812295</link>
-      <description>Waldorf의 8보이스 폴리포닉 웨이브테이블 신디사이저 Protein이 사운드캣에 정식 입고되었다.</description>
+      <description>Waldorf의 데스크톱형 웨이브테이블 신디사이저 Protein이 사운드캣에 정식 입고됐습니다. 8보이스 폴리포닉에 최대 4개 레이어를 지원하며, 오리지널 Microwave 1 ASIC 오실레이터를 기반으로 합니다. 아르페지에이터, 스텝 시퀀서, 코드 모드, 리버브·딜레이·모듈레이션 이펙트를 갖췄고, 무게 0.9kg의 휴대하기 쉬운 크기에 150개 이상의 팩토리 프리셋을 제공합니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-100</guid>
       <category>신제품</category>
@@ -209,7 +209,7 @@
     <item>
       <title>[행사] Solid State Logic - SSL Live L350 Plus, ORIGIN EVO, System T S500m</title>
       <link>https://solidstatelogic.com/media/from-live-to-studio-to-broadcast-solid-state-logic-to-showcase-powerful-workflow-solutions-at-university-of-texas-at-dallas</link>
-      <description>SSL이 10월 7일 오후 7시 텍사스대 댈러스에서 L350 Plus 라이브 믹싱, ORIGIN EVO 녹음, System T S500m 이머시브 믹싱을 잇는 라이브 데모 행사를 연다고 발표.</description>
+      <description>SSL이 2026년 10월 7일 오후 7시 미국 텍사스대 댈러스(UT Dallas)에서 라이브·녹음·방송 믹싱을 잇는 라이브 데모 행사를 연다고 발표했습니다. 공연장의 SSL Live L350 Plus, 스튜디오 녹음용 ORIGIN EVO, 이머시브 방송 믹싱용 System T S500m 콘솔 3대를 Dante로 연결해 같은 공연을 동시에 믹싱합니다. 엔지니어·교육자·학생을 대상으로 스냅샷, 라우팅, Dante 구성을 다룹니다. 입장은 무료 선착순이며 Eventbrite에서 등록할 수 있습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-2</guid>
       <category>행사</category>
@@ -218,7 +218,7 @@
     <item>
       <title>[행사] Sennheiser - Spectera</title>
       <link>https://newsroom.sennheiser.com/sennheiser-auf-der-leat-con</link>
-      <description>젠하이저가 함부르크 leat con(10월 6~8일)에서 핸드헬드 송신기가 추가된 Spectera 광대역 무선 시스템을 중심으로 전시한다. 파트너 SoundBase의 RF 계획 앱과 새 Remote View 기능도 함께 소개된다.</description>
+      <description>젠하이저가 10월 6~8일 함부르크 leat con에서 광대역 무선 시스템 Spectera를 중심으로 전시한다고 밝혔습니다. 새로 출시된 SKM 핸드헬드 송신기는 양방향 전송으로 배터리·RF 출력·오디오 레벨·신호 강도를 실시간 확인하고 게인과 로우컷을 원격 조정할 수 있습니다. 파트너 SoundBase의 RF 계획 앱은 Spectera를 지원하며, 새 Remote View 기능으로 제작팀이 모니터 데이터를 공유할 수 있습니다. 10월 8일에는 470~694MHz 대역 관련 패널 토론도 열립니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-3</guid>
       <category>행사</category>
@@ -227,7 +227,7 @@
     <item>
       <title>[행사] CODA Audio - APSi-PRO, ViFORCE</title>
       <link>https://codaaudio.com/events/coda-audio-deutschland-is-heading-to-leat-con-26/</link>
-      <description>CODA Audio 독일 법인이 2026년 10월 6~8일 함부르크 LEaT con(스탠드 A1-B09)에 참가해 APSi-PRO, ViFORCE, WIDEBAND Cardioid 기술을 선보인다.</description>
+      <description>CODA Audio 독일 법인이 2026년 10월 6~8일 함부르크 메세 LEaT con(스탠드 A1-B09)에 참가한다고 발표했습니다. 고정 설치용 라인소스 스피커 APSi-PRO와 4웨이 카디오이드 라인어레이 ViFORCE, 그리고 45Hz~21kHz 대역에서 지향성을 제어하는 WIDEBAND Cardioid 기술을 선보입니다. APSi-PRO는 투어용 APS-Pro 시리즈를 설치 현장용으로 발전시킨 제품입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-4</guid>
       <category>행사</category>
@@ -236,7 +236,7 @@
     <item>
       <title>[행사] IK Multimedia - TONEX Board</title>
       <link>https://www.ikmultimedia.com/news/?item_id=19811</link>
-      <description>9월 25~27일 독일 만하임 Guitar Summit 2026에서 TONEX Board 및 기타 장비 시연.</description>
+      <description>IK Multimedia가 9월 25~27일 독일 만하임에서 열리는 유럽 최대 기타 박람회 Guitar Summit 2026에 참가한다고 밝혔습니다. 부스(#142, Level 0)에서 기타 앰프·이펙트 모델링 페달보드 TONEX Board를 시연하며, 이 제품은 Tone Model 최대 4개 동시 사용, 76종 이펙트, 2,000개 Premium Tone Model, 5인치 터치스크린을 갖췄습니다. 현장 전문가가 장비 선택도 안내합니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-5</guid>
       <category>행사</category>
@@ -245,7 +245,7 @@
     <item>
       <title>[행사] RCF / TT+ Audio - RCF / TT+ Audio</title>
       <link>https://www.rcf.it/en/-/meet-rcf-at-amsterdam-dance-event-2026</link>
-      <description>RCF와 TT+ AUDIO가 10월 21~25일 암스테르담 Room Mate Aitana Hotel에서 열리는 ADE 'Meet Me At The Hotel 2026'에 참여.</description>
+      <description>RCF와 TT+ AUDIO가 10월 21~25일 암스테르담 Room Mate Aitana Hotel에서 ADE 기간 중 열리는 음악업계 B2B 행사 'Meet Me At The Hotel 2026'에 메인 스폰서로 참여합니다. RCF Arena 스테이지와 객실 오디오 시스템을 운영하고, 10월 22·23일에는 DJ를 위한 저역 관리·시스템 규모 산정 세션에서 FiRPHASE 기술을 다룹니다. 입장은 제한적이며 신청 후 초대를 받아야 참석할 수 있습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-6</guid>
       <category>행사</category>
@@ -254,7 +254,7 @@
     <item>
       <title>[업데이트] TASCAM - DR-10L Pro</title>
       <link>https://tascam.com/us/learn/detail/96185</link>
-      <description>DR-10L Pro 펌웨어 2.14 버전 공개. TASCAM Update Manager로 업데이트 가능.</description>
+      <description>TASCAM이 휴대용 소형 필드 레코더 DR-10L Pro의 펌웨어 2.14 버전을 2026년 9월 24일 공개했습니다. 업데이트는 TASCAM 지원 페이지에서 받을 수 있는 TASCAM Update Manager 소프트웨어로 진행합니다. 공지에는 구체적인 개선·수정 내용이 적혀 있지 않으며, 변경 사항은 별도의 릴리스 노트에서 확인하도록 안내하고 있습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-7</guid>
       <category>업데이트</category>
@@ -263,7 +263,7 @@
     <item>
       <title>[업데이트] NUGEN Audio - DialogCheck v1.2</title>
       <link>https://nugenaudio.com/nugen-audio-at-ibc-2026</link>
-      <description>대사 명료도/컴플라이언스 도구 DialogCheck v1.2를 IBC 2026(Pod P27)에서 공개하고 데모를 진행.</description>
+      <description>NUGEN Audio가 AI 기반 대사 명료도 측정 도구 DialogCheck v1.2를 IBC 2026(Pod P27)에서 공개하고 시연한다고 발표했습니다. v1.2는 확정 중인 업계 명료도 표준을 지원하며, v1.1에서 추가된 최대 9.1.6채널 이머시브 지원을 이어갑니다. 방송·스트리밍·포스트 프로덕션에서 대사 명료도 기준 준수를 객관적으로 확인하는 용도입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-8</guid>
       <category>업데이트</category>
@@ -272,7 +272,7 @@
     <item>
       <title>[행사] Void Acoustics - Void Acoustics</title>
       <link>https://voidacoustics.com/insights/church-facilities-expo/</link>
-      <description>2026년 9월 14~16일 미국 앨라배마주 버밍엄 Church Facilities Expo에 참가해 Demo Room L에서 최신 스피커 시연과 세션을 진행했다.</description>
+      <description>Void Acoustics가 2026년 9월 14~16일 미국 앨라배마주 버밍엄에서 열린 교회 시설 전문 박람회 Church Facilities Expo에 참가했다고 밝혔습니다. 행사 기간 Demo Room L에서 최신 스피커 제품을 시연하고 관련 세션을 진행했습니다. 교회·예배당 음향 설비를 담당하는 관계자를 대상으로 한 전시입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-9</guid>
       <category>행사</category>
@@ -281,7 +281,7 @@
     <item>
       <title>[신제품] DAS Audio - MIA Series (MIA-S110, MIA-S115 등)</title>
       <link>https://www.youtube.com/watch?v=SKZHL2pYEM0</link>
-      <description>DAS Audio가 공식 유튜브를 통해 설치용 신규 MIA 시리즈를 소개. 5~12인치 패시브 동축 포인트소스 스피커 7종과 로우프로파일 서브우퍼 MIA-S110·MIA-S115로 구성되며 INTEGRAL-MA 앰프 매트릭스용 전용 FIR 프리셋을 제공.</description>
+      <description>DAS Audio가 설치용 신규 MIA 시리즈와 전용 앰프 매트릭스 INTEGRAL-MA를 소개했습니다. MIA는 5~12인치 패시브 동축 포인트소스 스피커 7종과 로우프로파일 밴드패스 서브우퍼 MIA-S110·MIA-S115로 구성되며, 16옴 임피던스로 채널당 최대 8대까지 연결할 수 있습니다. INTEGRAL-MA는 모델별 전용 FIR 필터와 리미터, Dante·AES67을 갖춰 공간과 외관 조화가 중요한 설치 현장을 겨냥했습니다. 2026년 6월 11일 발표됐습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-53</guid>
       <category>신제품</category>
@@ -290,7 +290,7 @@
     <item>
       <title>[업데이트] MOTU - 16A, 848, 10pre 등 MOTU 인터페이스</title>
       <link>https://motu.com/en-us/news/motu-and-macos-golden-gate/</link>
-      <description>MOTU가 macOS Golden Gate(27.x) 출시에 따른 자사 제품 호환성 안내를 게시했다(9/15 갱신). 16A, 848, 10pre는 완전 호환으로 보이나 최종 테스트가 진행 중이며 Pro Audio V2 드라이버 설치를 권장한다.</description>
+      <description>MOTU가 macOS Golden Gate 출시에 맞춰 자사 제품 호환성 안내를 9월 15일 갱신했습니다. 16A, 848, 10pre는 완전 호환으로 보이며 Pro Audio V2 드라이버 설치를 권장하고, 828·UltraLite-mk5, M2·M4·M6, Digital Performer 11~12도 호환으로 안내됐습니다. 다만 최종 테스트는 진행 중이며 MachFive 등 일부 가상 악기는 호환되지 않아 UVI Workstation을 대안으로 제시했습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-54</guid>
       <category>업데이트</category>
@@ -299,7 +299,7 @@
     <item>
       <title>[업데이트] RTW - TMxCore, TouchMonitor 5, TouchControl 5</title>
       <link>https://www.rtw.com/pr-rtw-unveils-major-software-expansion-across-tmxcore-and-compact-line-at-ibc2026</link>
-      <description>RTW가 IBC2026에서 TMxCore, TouchMonitor 5, TouchControl 5용 메이저 소프트웨어 업데이트를 발표했다. LAWO HOME·Genelec IP 스피커 연동, NMOS IS-07, Prometheus/Grafana 외부 로깅, TMxCore 모니터 컨트롤, 서라운드·이머시브 계측기 등이 추가됐다.</description>
+      <description>RTW가 IBC2026에서 TMxCore와 Compact Line용 대규모 업데이트를 발표했습니다. LAWO HOME 연동, NMOS IS-07, Genelec IP 스피커 제어가 추가됐고 TMxCore는 Monitor Control 라이선스로 모니터 컨트롤러 기능도 갖췄습니다. Dialog Intelligibility 등 계측 기능도 확장됐습니다. 2026년 10월 제공, 라이선스는 Compact €495, TMxCore €995(부가세 별도)입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-55</guid>
       <category>업데이트</category>
@@ -308,7 +308,7 @@
     <item>
       <title>[업데이트] RTW - Compact Line, TMxCore (External Logging &amp; Integration license)</title>
       <link>https://www.rtw.com/pr-rtw-expands-ip-integration-with-lawo-home-and-nmos-is-07-support</link>
-      <description>RTW가 새 External Logging &amp; Integration 라이선스를 통해 Compact Line과 TMxCore에 LAWO HOME 및 NMOS IS-07 지원을 추가했다. 오디오 I/O 구성과 무관하게 전 모델에서 사용 가능하다.</description>
+      <description>RTW가 새 External Logging &amp; Integration 라이선스로 Compact Line과 TMxCore에 LAWO HOME 및 NMOS IS-07 지원을 추가했습니다. LAWO HOME 인프라에서 장비 검색·관리가 가능해지고, NMOS IS-07로 계측값과 상태 데이터를 네트워크 이벤트로 내보낼 수 있습니다. 외부 시스템이 RTW 화면 없이도 값을 감시할 수 있습니다. IBC2026 LAWO·RTW 부스에서 시연됐습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-56</guid>
       <category>업데이트</category>
@@ -317,7 +317,7 @@
     <item>
       <title>[업데이트] RTW - TouchControl 5, TouchMonitor 5, TMxCore</title>
       <link>https://www.rtw.com/pr-rtw-adds-genelec-smart-ip-loudspeaker-control-to-touchcontrol-5-touchmonitor-5-and-tmxcore</link>
-      <description>RTW 장비에서 Genelec Smart IP 스피커를 네트워크로 직접 제어(레벨, 뮤트, 프리셋 호출, 스탠바이 등)할 수 있도록 지원이 추가됐다.</description>
+      <description>RTW가 TouchControl 5, TouchMonitor 5, TMxCore에서 Genelec Smart IP 스피커를 네트워크로 직접 제어하는 기능을 추가했습니다. 레벨 조정, 뮤트, 프리셋 호출, LED 표시, 스탠바이를 제어하며 개별 스피커(유니캐스트)와 그룹(멀티캐스트)을 지원합니다. Genelec 제어 화면을 RTW 계측 화면과 함께 배치할 수 있어 네트워크 오디오 설비 설계자·설치업체를 대상으로 합니다. IBC2026 RTW 부스에서 시연됐으며 가격은 미공개입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-57</guid>
       <category>업데이트</category>
@@ -326,7 +326,7 @@
     <item>
       <title>[업데이트] RTW - TMxCore, RTW Network Display</title>
       <link>https://www.rtw.com/pr-stagetec-integrates-rtw-tmxcore-into-its-production-environment</link>
-      <description>RTW Network Display를 통해 TMxCore 계측 화면을 STAGETEC AVATUS 환경 안에서 바로 사용할 수 있는 연동이 발표됐다.</description>
+      <description>RTW가 화면이 없는 방송용 오디오 계측 플랫폼 TMxCore를 STAGETEC의 AVATUS 제작 환경에 통합했다고 발표했습니다. 브라우저 기반 인터페이스 RTW Network Display로 별도 RTW 전용 디스플레이 없이도 네트워크로 TMxCore 계측 화면을 볼 수 있습니다. 계측 하드웨어와 화면 표시를 분리해 AVATUS 워크플로 안에서 계측을 바로 활용하려는 방송 운영자를 위한 연동입니다. IBC2026 RTW·STAGETEC 부스에서 시연됐습니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-58</guid>
       <category>업데이트</category>
@@ -335,7 +335,7 @@
     <item>
       <title>[행사] Telos Alliance; Fraunhofer IDMT; NUGEN Audio; RTW; Steinberg - LEAP; LMMG</title>
       <link>https://www.telosalliance.com/LEAP-dialog-intelligibility-IBC2026</link>
-      <description>IBC2026에서 대화 명료도 측정의 공통 구현 규약과 제조사 공동 접근 발표.</description>
+      <description>Telos Alliance, NUGEN Audio, RTW, Steinberg가 Fraunhofer IDMT와 함께 IBC2026에서 대사 명료도 측정의 공통 기준을 발표했습니다. AI 기반 기술 LEAP는 청취 노력을 추정해 명료도를 객관적으로 평가하며, 제조사 모임 LMMG는 결과를 0~100 범위의 DIU로 표시하는 구현 규약을 마련했습니다. 신호 처리와 표시 방식을 통일해 제조사가 달라도 측정값을 비교할 수 있게 했으며, 관련 제품이 순차 출시될 예정입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-60</guid>
       <category>행사</category>
@@ -344,7 +344,7 @@
     <item>
       <title>[행사] Steinberg - Dialog Intelligibility 공동 발표 (IBC2026)</title>
       <link>https://www.steinberg.net/press/2026/dialog-intelligibility-at-ibc/</link>
-      <description>IBC에서 대사 명료도에 관한 오디오 제조사 공동 발표.</description>
+      <description>Steinberg가 Telos Alliance, NUGEN Audio, RTW, Fraunhofer IDMT와 함께 IBC2026에서 대사 명료도 측정 공동 발표를 했습니다. Fraunhofer IDMT의 AI 기반 LEAP 기술을 바탕으로 제조사 모임 LMMG가 결과를 0~100 범위의 DIU 단위로 표시하는 공통 구현 규약을 만들었습니다. 제조사가 달라도 같은 결과가 나오도록 신호 처리와 표시 방식을 통일했으며, 방송·포스트 프로덕션의 대사 품질 관리에 쓰일 예정입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-61</guid>
       <category>행사</category>
@@ -353,7 +353,7 @@
     <item>
       <title>[업데이트] Lawo - mc² Software Release 12.4, Power Core</title>
       <link>https://lawo.com/lawo-highlights-mc%c2%b2-and-power-core-innovations-at-ibc2026/</link>
-      <description>IBC2026(부스 8.B90)에서 mc² 콘솔 소프트웨어 릴리스 12.4(RTA 지원, 터치 줌 팝업, HOME API 확장 등)와 Power Core 신규 소프트웨어를 선보인다.</description>
+      <description>Lawo가 IBC2026에서 방송용 디지털 믹싱 콘솔 mc²의 소프트웨어 릴리스 12.4와 오디오 프로세서 Power Core의 새 소프트웨어 10.0을 선보였습니다. mc² 12.4는 실시간 분석기(RTA) 지원과 DirectOut PRODIGY 등 외부 장비를 제어하는 HOME API 확장을 담았습니다. Power Core 10.0은 HOME 기반 소프트웨어 옵션과 파라메트릭 4밴드+필터 2밴드의 6밴드 EQ를 제공해 라디오·TV 제작에 씁니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-64</guid>
       <category>업데이트</category>
@@ -362,7 +362,7 @@
     <item>
       <title>[신제품] Lawo - HOME Stream Share App (SSA)</title>
       <link>https://lawo.com/lawo-unveils-home-stream-share-app-at-ibc2026/</link>
-      <description>분산 제작 환경의 미디어 교환을 위한 NMOS 기반 HOME Apps 신제품 Stream Share App을 IBC2026에서 공개.</description>
+      <description>Lawo가 IBC2026(부스 8.B90)에서 분산 제작 환경의 미디어 교환용 소프트웨어 앱인 HOME Stream Share App(SSA)을 공개했습니다. 개방형 NMOS 표준 기반으로 HD/3G/UHD 영상 최대 128개, 오디오 512개, 메타데이터 128개 스트림을 양방향으로 주고받을 수 있습니다. 여러 미디어 흐름을 하나의 인스턴스로 묶고 스트림 관리와 실제 사용을 분리해, 방송 시설·중계차·클라우드·협력사 간 연동 시 반복 설정과 호환성 문제를 줄이는 것이 목적입니다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-65</guid>
       <category>신제품</category>

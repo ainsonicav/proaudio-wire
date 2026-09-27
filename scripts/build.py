@@ -39,6 +39,8 @@ def validate(items):
             errors.append(f"{tag}: type은 {sorted(TYPES)} 중 하나여야 함 ({it.get('type')!r})")
         if not str(it.get("link", "")).startswith("http"):
             errors.append(f"{tag}: link가 URL이 아님")
+        if len(str(it.get("summary", ""))) > 400:
+            errors.append(f"{tag}: summary가 너무 김 ({len(it['summary'])}자, 최대 280자 권장)")
         # 칸 밀림 감지: 회사/브랜드 칸에 문장·URL·구분값이 들어간 경우
         for k in ("company", "brand"):
             v = str(it.get(k, ""))
