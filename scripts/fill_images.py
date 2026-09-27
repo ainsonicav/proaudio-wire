@@ -6,7 +6,7 @@
   2) 원문 사이트가 자동 접속을 막으면 → 페이지 읽기 서비스(r.jina.ai)를 거쳐 다시 시도
   3) 대표 이미지 표시가 없으면 → 본문 안의 큰 사진
   4) 그래도 없으면 → "브랜드 + 제품명"으로 이미지 검색
-       - Google (저장소 Secret GOOGLE_API_KEY, GOOGLE_CSE_ID가 있을 때)
+       - Google 이미지 검색 (SerpApi 경유, 저장소 Secret SERPAPI_KEY가 있을 때)
        - 없거나 실패하면 DuckDuckGo → Bing 이미지 검색 (키 필요 없음)
        - 제목·주소에 브랜드명이 들어간 결과만 씀
   5) 모두 실패하면 사이트가 브랜드명 디자인 카드를 보여줌 (다음 실행 때 다시 시도)
@@ -45,8 +45,7 @@ BAD_SITES = ("pexels.com", "unsplash.com", "pixabay.com", "wallpaper", "shutters
 AUDIO_WORDS = ("audio", "sound", "mic", "speaker", "mixer", "console", "plugin", "plug-in", "headphone",
                "interface", "studio", "monitor", "amplifier", "amp", "wireless", "loudspeaker", "daw",
                "synth", "recording", "broadcast", "pro audio", "음향", "스피커", "마이크")
-GOOGLE_KEY = os.environ.get("GOOGLE_API_KEY", "").strip()
-GOOGLE_CX = os.environ.get("GOOGLE_CSE_ID", "").strip()
+SERPAPI_KEY = os.environ.get("SERPAPI_KEY", "").strip()
 SEARCH_LOG = {}  # 검색 엔진별: 결과 있음 / 관련 결과 없음 / 오류
 stats = {"original": 0, "reader": 0, "body": 0, "google": 0, "duckduckgo": 0, "bing": 0, "none": 0}
 
@@ -226,20 +225,29 @@ def relevant(brand, *texts):
     return any(w in blob for w in AUDIO_WORDS)
 
 
+SERP_BUDGET = {"left": 60}  # 한 번 실행에 쓰는 검색 횟수 상한 (무료 250회/월 안에서)
+
+
 def search_google(q, brand):
-    if not (GOOGLE_KEY and GOOGLE_CX):
+    """Google 이미지 검색 결과 (SerpApi 경유). 저장소 Secret SERPAPI_KEY 필요."""
+    if not SERPAPI_KEY or SERP_BUDGET["left"] <= 0:
         return []
-    url = ("https://www.googleapis.com/customsearch/v1?" + urllib.parse.urlencode(
-        {"key": GOOGLE_KEY, "cx": GOOGLE_CX, "q": q, "searchType": "image", "num": 8, "safe": "active"}))
+    SERP_BUDGET["left"] -= 1
+    url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(
+        {"engine": "google_images", "q": q, "api_key": SERPAPI_KEY, "hl": "en", "gl": "us", "safe": "active"})
     _, _, txt = get_text(url)
+    data = json.loads(txt)
+    if data.get("error"):
+        raise RuntimeError(data["error"][:80])
     out = []
-    for r in json.loads(txt).get("items", []):
-        ctx = (r.get("image") or {}).get("contextLink", "")
-        if relevant(brand, r.get("title", ""), r.get("link", ""), ctx):
-            out.append(("google", r["link"]))
-            thumb = (r.get("image") or {}).get("thumbnailLink")
-            if thumb:
-                out.append(("google", thumb))
+    for r in data.get("images_results", [])[:20]:
+        if (r.get("original_width") or 999) < 250:
+            continue
+        if relevant(brand, r.get("title", ""), r.get("link", ""), r.get("source", ""), r.get("original", "")):
+            if r.get("original"):
+                out.append(("google", r["original"]))
+            if r.get("thumbnail"):
+                out.append(("google", r["thumbnail"]))
     return out
 
 

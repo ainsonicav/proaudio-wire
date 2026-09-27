@@ -47,8 +47,9 @@ PRO AUDIO WIRE — https://news.ainsonic.com (GitHub Pages)
 2. 원문 사이트가 자동 접속을 막으면 페이지 읽기 서비스(r.jina.ai)로 우회
 3. 대표 이미지가 없으면 본문 속 큰 사진
 4. 그래도 없으면 "브랜드 + 제품명" 이미지 검색 — 브랜드명이 들어간 결과만 사용
-   - Google: 저장소 Secret `GOOGLE_API_KEY`, `GOOGLE_CSE_ID`를 등록하면 먼저 사용 (선택)
-   - 키가 없으면 DuckDuckGo → Bing 이미지 검색
+   - Google 이미지 검색: SerpApi 키를 저장소 Secret `SERPAPI_KEY`로 등록하면 사용 (무료 월 250회, 한 번 실행에 최대 60회)
+   - (Google 자체 검색 API는 신규 가입이 막혀 있고 2027-01-01 종료 예정이라 쓰지 않음)
+   - 키가 없거나 실패하면 DuckDuckGo → Bing (GitHub 서버에서는 대부분 막힘)
 5. 모두 실패하면 사이트는 브랜드명 디자인 카드를 보여주고, 3일 뒤 다시 시도(`imageTried`)
 
 모든 이미지는 저장 전에 실제로 열리는지 확인합니다. 검색으로 찾은 사진은 `imageSource: "search"`로 표시되고

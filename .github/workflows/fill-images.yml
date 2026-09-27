@@ -31,8 +31,7 @@ jobs:
 
       - name: 사진 없는 소식에 썸네일 채우기 (원문 → 우회 → 본문 → 이미지 검색)
         env:
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python3 scripts/fill_images.py
 
       - name: 형식 검사 + RSS 갱신
