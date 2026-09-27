@@ -8,14 +8,30 @@ PRO AUDIO WIRE — https://news.ainsonic.com (GitHub Pages)
 |---|---|
 | `index.html` | 화면. 열릴 때 `news.json`을 읽어서 그림 (데이터를 HTML에 넣지 않음) |
 | `news.json` | 소식 데이터 (배열, 위에 있을수록 먼저 표시 / 앞 6건이 "주요 6선") |
-| `rss.xml` | `scripts/build.py`가 `news.json`으로 자동 생성 |
-| `scripts/build.py` | `news.json` 형식 검사 + `rss.xml` 생성 |
+| `rss.xml`, `sitemap.xml`, `n/` | `scripts/build.py`가 `news.json`으로 자동 생성 |
+| `scripts/build.py` | `news.json` 형식 검사 + 생성 파일 만들기 (`scripts/pages.py` 사용) |
 
-## 자동 업데이트가 할 일
+## 자동 업데이트가 할 일 (토큰 절약 순서)
 
-1. `news.json`만 갱신해서 커밋 (index.html은 건드리지 않음)
-2. `python3 scripts/build.py` 실행 → 검사 통과 시 `rss.xml` 갱신
-3. 검사 실패(칸 밀림, 빈 값 등)면 커밋하지 않음
+1. `python3 scripts/build.py --brief` — news.json(140KB+)을 통째로 읽지 말고 이 요약만 봅니다
+   (가장 큰 id, 분류 비율, 최근 60일 소식의 원문 링크·제품명 → 중복 확인용).
+2. 새 소식만 작은 파일(예: `/tmp/new.json`, 아래 형식의 배열, `id` 생략 가능)에 씁니다.
+3. `python3 scripts/build.py --add /tmp/new.json` — id를 이어서 붙이고(국내 → 프로오디오 → 최신 순),
+   이미 있는 원문 링크는 건너뛰고, 검사 통과 시에만 news.json 맨 앞에 넣은 뒤 아래 파일을 모두 다시 만듭니다.
+   검사 실패면 new.json만 고쳐 다시 실행합니다(news.json은 그대로).
+4. `git add -A` 후 커밋 (index.html의 미리보기 목록, `n/`, sitemap.xml도 함께 바뀜).
+
+`build.py`가 만드는 파일 (손으로 고치지 않음):
+
+| 파일 | 역할 |
+|---|---|
+| `rss.xml` | 최신 40건 피드. 각 항목 링크는 아래 소식 페이지 |
+| `n/<id>.html` | 소식별 페이지. 구글이 제품명으로 찾을 수 있고, 메신저 공유 시 사진·요약 미리보기가 나옴 |
+| `sitemap.xml` | 구글에 알려 줄 주소 목록 (`robots.txt`에 등록됨) |
+| `index.html` | `PRERENDER` 표시 사이에 최신 30건을 미리 넣음 (검색엔진용, 화면은 JS가 다시 그림) |
+
+내용이 같으면 파일도 바뀌지 않아서, 소식이 없는 날엔 커밋이 생기지 않습니다.
+GitHub Actions(사진 채우기)도 같은 스크립트로 이 파일들을 다시 만들어 커밋합니다.
 
 ## news.json 항목 형식
 
