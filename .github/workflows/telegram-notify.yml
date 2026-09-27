@@ -5,7 +5,12 @@ on:
     branches: [main]
     paths:
       - "news.json"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "연결 테스트 메시지 보내기 (1 = 예)"
+        required: false
+        default: "1"
 
 jobs:
   notify:
@@ -23,4 +28,5 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TEST_MESSAGE: ${{ github.event_name == 'workflow_dispatch' && inputs.test || '0' }}
         run: python3 scripts/notify_telegram.py
