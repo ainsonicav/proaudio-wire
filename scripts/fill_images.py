@@ -345,10 +345,11 @@ def main():
         it.pop("imageChecked", None)  # 옛 버전 표시 정리
         if it.get("imageUrl") or it.get("status") == "hidden" or not str(it.get("link", "")).startswith("http"):
             continue
-        tried = it.get("imageTried")
-        if tried:
+        tried = it.get("imageTried") or ""
+        # 검색 키 없이 시도했던 항목은 키가 생기면 바로 다시 시도
+        if tried and not (SERPAPI_KEY and not tried.endswith(":g")):
             try:
-                if date.fromisoformat(tried) > today - timedelta(days=RETRY_DAYS):
+                if date.fromisoformat(tried[:10]) > today - timedelta(days=RETRY_DAYS):
                     continue
             except ValueError:
                 pass
@@ -366,7 +367,7 @@ def main():
             stats[src] += 1
             print(f"  {it['id']}: [{src}] {img[:100]}")
         else:
-            it["imageTried"] = today.isoformat()
+            it["imageTried"] = today.isoformat() + (":g" if SERPAPI_KEY else "")
             stats["none"] += 1
             print(f"  {it['id']}: 못 찾음")
         changed = True
