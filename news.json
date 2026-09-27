@@ -1,5 +1,33 @@
 [
   {
+    "id": "news-102",
+    "date": "2026-09-24",
+    "company": "Antares Audio Technologies",
+    "brand": "Antares",
+    "productName": "AutoTune Advanced",
+    "type": "신제품",
+    "summary": "Antares가 AutoTune 알고리즘을 새로 설계하고 가수의 자연스러운 비브라토를 인식·보존하는 DVA 엔진을 탑재한 실시간 보컬 튜닝 플러그인 AutoTune Advanced를 출시했습니다. Live(44.1kHz 기준 0.84ms)·Low Latency·High Quality 모드를 제공하며 영구 라이선스 또는 AutoTune Unlimited 구독으로 제공됩니다.",
+    "link": "https://www.einpresswire.com/article/944773528/introducing-autotune-advanced",
+    "evidence": "AutoTune Advanced is a real-time vocal tuning plugin built on a ground-up rebuild of the AutoTune algorithm, with the new (patent-pending) DVA™ engine that recognizes a singer's natural vibrato and leaves it intact.",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://img.einnews.com/facebook/1197203/autotune-advanced-main-ui.jpeg"
+  },
+  {
+    "id": "news-103",
+    "date": "2026-09-24",
+    "company": "Synchro Arts",
+    "brand": "Synchro Arts",
+    "productName": "VocAlign 7 (Standard / Pro)",
+    "type": "신제품",
+    "summary": "Synchro Arts가 여러 보컬 트랙을 한 작업 공간에서 동시에 타이밍·피치 정렬할 수 있는 멀티트랙 워크플로를 도입한 VocAlign 7을 출시했습니다. Pro 버전은 포먼트 제어와 RePitch 2 연동(SynchroLink 2.0)을 추가하며 VST3/AU/AAX를 지원합니다.",
+    "link": "https://www.synchroarts.com/vocalign",
+    "evidence": "The essential vocal editing time-saver that tightens the timing and pitch of multiple vocals in one workspace.",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://cdn.prod.website-files.com/65d51e7b54a239fbf125ec65/6ab3cb53f5774112c0001055_SynchroArts_VocAlign-7.avif"
+  },
+  {
     "id": "news-101",
     "date": "2026-09-25",
     "company": "TASCAM",

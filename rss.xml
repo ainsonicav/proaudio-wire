@@ -6,7 +6,7 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 05:09:42 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 05:23:27 GMT</lastBuildDate>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
@@ -33,6 +33,24 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-101</guid>
       <category>업데이트</category>
+    </item>
+
+    <item>
+      <title>[신제품] Antares - AutoTune Advanced</title>
+      <link>https://www.einpresswire.com/article/944773528/introducing-autotune-advanced</link>
+      <description>Antares가 AutoTune 알고리즘을 새로 설계하고 가수의 자연스러운 비브라토를 인식·보존하는 DVA 엔진을 탑재한 실시간 보컬 튜닝 플러그인 AutoTune Advanced를 출시했습니다. Live(44.1kHz 기준 0.84ms)·Low Latency·High Quality 모드를 제공하며 영구 라이선스 또는 AutoTune Unlimited 구독으로 제공됩니다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-102</guid>
+      <category>신제품</category>
+    </item>
+
+    <item>
+      <title>[신제품] Synchro Arts - VocAlign 7 (Standard / Pro)</title>
+      <link>https://www.synchroarts.com/vocalign</link>
+      <description>Synchro Arts가 여러 보컬 트랙을 한 작업 공간에서 동시에 타이밍·피치 정렬할 수 있는 멀티트랙 워크플로를 도입한 VocAlign 7을 출시했습니다. Pro 버전은 포먼트 제어와 RePitch 2 연동(SynchroLink 2.0)을 추가하며 VST3/AU/AAX를 지원합니다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-103</guid>
+      <category>신제품</category>
     </item>
 
     <item>
@@ -348,24 +366,6 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-77</guid>
       <category>업데이트</category>
-    </item>
-
-    <item>
-      <title>[행사] Alcons Audio - CRMSQ / CRMSC-SRHV</title>
-      <link>https://www.alconsaudio.com/pro-ribbon-immersive-experience-drives-successful-cedia-2026/</link>
-      <description>CEDIA Expo 2026에서 13.8.6채널 Pro-Ribbon Immersive Experience 시연과 수상 소식.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-78</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[행사] Telefunken - Supernova Ska Festival 공식 마이크 스폰서</title>
-      <link>https://www.telefunken-elektroakustik.com/telefunken-elektroakustik-returns-to-supernova-ska-festival-as-official-microphone-sponsor-for-2026/</link>
-      <description>9월 12~13일 버지니아 Fort Monroe에서 열리는 Supernova 스카 페스티벌에 공식 마이크 스폰서로 참여해 두 무대에 마이크를 공급.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-80</guid>
-      <category>행사</category>
     </item>
 
   </channel>
