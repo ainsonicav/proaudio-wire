@@ -128,9 +128,7 @@
     "link": "https://www.kvraudio.com/news/desert-moon-audio-launches-with-15-analog-inspired-plugins-vst3-au-and-aax-68747",
     "evidence": "Desert Moon Audio has released its first line of 15 audio plugins for macOS and Windows, covering tape, saturation, compression, EQ, reverb, delay and modulation.",
     "status": "published",
-    "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.annalowebooks.com%2Fassets%2Faudio%2Fdesert-moon-audio.jpg&w=640&default=1",
-    "imageSource": "search"
+    "isDomestic": false
   },
   {
     "id": "news-112",

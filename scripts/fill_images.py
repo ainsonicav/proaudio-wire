@@ -40,7 +40,8 @@ BAD_HINTS = ("logo", "favicon", "default-og", "og-default", "placeholder", "blan
 BAD_SITES = ("pexels.com", "unsplash.com", "pixabay.com", "wallpaper", "shutterstock", "istockphoto",
              "gettyimages", "pinterest", "pinimg.com", "freepik", "dreamstime", "123rf", "alamy",
              "depositphotos", "vecteezy", "clipart", "wikimedia.org/wikipedia/commons/thumb", "wallup",
-             "facts.net", "srcdn.com", "wallhaven", "hdqwalls", "nature", "travel")
+             "facts.net", "srcdn.com", "wallhaven", "hdqwalls", "nature", "travel",
+             "books", "novel", "audiobook", "kindle", "goodreads", "amazon.com/images/i/")
 # 브랜드명만으로 찾을 때는 음향 관련 단어가 함께 있어야 함
 AUDIO_WORDS = ("audio", "sound", "mic", "speaker", "mixer", "console", "plugin", "plug-in", "headphone",
                "interface", "studio", "monitor", "amplifier", "amp", "wireless", "loudspeaker", "daw",
