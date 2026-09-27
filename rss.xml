@@ -6,7 +6,7 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 14:43:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 16:01:56 GMT</lastBuildDate>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
@@ -15,6 +15,7 @@
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-79</guid>
       <category>행사</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -24,6 +25,7 @@
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-83</guid>
       <category>행사</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -33,6 +35,7 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-106</guid>
       <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -42,6 +45,7 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-107</guid>
       <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -51,6 +55,7 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-108</guid>
       <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -60,6 +65,7 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-113</guid>
       <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -69,6 +75,7 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-109</guid>
       <category>신제품</category>
+      <category>기타</category>
     </item>
 
     <item>
@@ -78,6 +85,7 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-110</guid>
       <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -87,6 +95,7 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-111</guid>
       <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -96,6 +105,7 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-112</guid>
       <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -105,6 +115,7 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-104</guid>
       <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -114,6 +125,7 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-101</guid>
       <category>업데이트</category>
+      <category>컨슈머오디오</category>
     </item>
 
     <item>
@@ -123,6 +135,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-114</guid>
       <category>업데이트</category>
+      <category>기타</category>
     </item>
 
     <item>
@@ -132,6 +145,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-115</guid>
       <category>신제품</category>
+      <category>기타</category>
     </item>
 
     <item>
@@ -141,6 +155,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-105</guid>
       <category>업데이트</category>
+      <category>기타</category>
     </item>
 
     <item>
@@ -150,6 +165,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-102</guid>
       <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -159,6 +175,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-103</guid>
       <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -168,6 +185,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-52</guid>
       <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -177,6 +195,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-62</guid>
       <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -186,6 +205,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-63</guid>
       <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -195,6 +215,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-96</guid>
       <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -204,6 +225,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-100</guid>
       <category>신제품</category>
+      <category>기타</category>
     </item>
 
     <item>
@@ -213,6 +235,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-2</guid>
       <category>행사</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -222,6 +245,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-3</guid>
       <category>행사</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -231,6 +255,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-4</guid>
       <category>행사</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -240,6 +265,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-5</guid>
       <category>행사</category>
+      <category>기타</category>
     </item>
 
     <item>
@@ -249,6 +275,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-6</guid>
       <category>행사</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -258,6 +285,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-7</guid>
       <category>업데이트</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -267,6 +295,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-8</guid>
       <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -276,6 +305,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-9</guid>
       <category>행사</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -285,6 +315,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-53</guid>
       <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -294,6 +325,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-54</guid>
       <category>업데이트</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -303,6 +335,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-55</guid>
       <category>업데이트</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -312,6 +345,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-56</guid>
       <category>업데이트</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -321,6 +355,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-57</guid>
       <category>업데이트</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -330,6 +365,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-58</guid>
       <category>업데이트</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -339,6 +375,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-60</guid>
       <category>행사</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -348,6 +385,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-61</guid>
       <category>행사</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -357,6 +395,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-64</guid>
       <category>업데이트</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -366,6 +405,7 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-65</guid>
       <category>신제품</category>
+      <category>기타</category>
     </item>
 
   </channel>

@@ -17,7 +17,9 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE_URL = "https://news.ainsonic.com"
 RSS_LIMIT = 40
 TYPES = {"신제품", "업데이트", "행사"}
-REQUIRED = ["id", "date", "company", "brand", "type", "summary", "link"]
+# 분류와 목표 비율 (프로오디오 60 : 컨슈머오디오 10 : 레코딩소프트웨어 20 : 기타 10)
+CATEGORY_RATIO = {"프로오디오": 60, "컨슈머오디오": 10, "레코딩소프트웨어": 20, "기타": 10}
+REQUIRED = ["id", "date", "company", "brand", "type", "summary", "link", "category"]
 
 
 def validate(items):
@@ -37,6 +39,8 @@ def validate(items):
             errors.append(f"{tag}: date 형식 오류 ({it.get('date')!r}) — YYYY-MM-DD 필요")
         if it.get("type") not in TYPES:
             errors.append(f"{tag}: type은 {sorted(TYPES)} 중 하나여야 함 ({it.get('type')!r})")
+        if it.get("category") not in CATEGORY_RATIO:
+            errors.append(f"{tag}: category는 {list(CATEGORY_RATIO)} 중 하나여야 함 ({it.get('category')!r})")
         if not str(it.get("link", "")).startswith("http"):
             errors.append(f"{tag}: link가 URL이 아님")
         if len(str(it.get("summary", ""))) > 400:
@@ -47,6 +51,24 @@ def validate(items):
             if len(v) > 60 or v.startswith("http") or v in TYPES:
                 errors.append(f"{tag}: '{k}' 값이 이상함 (칸 밀림 의심): {v[:50]!r}")
     return errors
+
+
+def ratio_report(items, days=7):
+    """최근 N일(게시일 기준) 분류 비율. 목표보다 많은 분류를 표시."""
+    today = datetime.now(timezone.utc).date()
+    recent = [i for i in items if i.get("status") != "hidden" and
+              0 <= (today - datetime.strptime(i["date"], "%Y-%m-%d").date()).days < days]
+    lines = []
+    for label, group in ((f"최근 {days}일", recent), ("전체", [i for i in items if i.get("status") != "hidden"])):
+        n = len(group) or 1
+        parts = []
+        for cat, goal in CATEGORY_RATIO.items():
+            k = sum(1 for i in group if i.get("category") == cat)
+            pct = round(k * 100 / n)
+            mark = " ▲초과" if cat != "프로오디오" and pct > goal else (" ▼부족" if cat == "프로오디오" and pct < goal else "")
+            parts.append(f"{cat} {k}건 {pct}%(목표 {goal}%){mark}")
+        lines.append(f"{label} {len(group)}건: " + " · ".join(parts))
+    return lines
 
 
 def build_rss(items):
@@ -79,6 +101,7 @@ def build_rss(items):
             f"      <pubDate>{format_datetime(d, usegmt=True)}</pubDate>",
             f'      <guid isPermaLink="false">{escape(it["id"])}</guid>',
             f"      <category>{escape(it['type'])}</category>",
+            f"      <category>{escape(it.get('category', ''))}</category>",
             "    </item>",
         ]
     out += ["", "  </channel>", "</rss>", ""]
@@ -95,6 +118,8 @@ def main():
         sys.exit(1)
     (ROOT / "rss.xml").write_text(build_rss(items), encoding="utf-8")
     print(f"OK: {len(items)}건 검사 통과, rss.xml 생성 (최신 {min(len(items), RSS_LIMIT)}건)")
+    for line in ratio_report(items):
+        print("  분류 비율 —", line)
 
 
 if __name__ == "__main__":

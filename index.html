@@ -453,6 +453,16 @@
       flex-shrink: 0;
     }
     .search-input:focus { border-color: #94a3b8; }
+    .cat-bar {
+      display: flex; gap: 0.35rem; flex-wrap: wrap;
+      padding: 0.7rem 1.1rem 0; background: #f8fafc;
+    }
+    .cat-btn {
+      border: 1px solid var(--surface-border); background: #fff; color: var(--text-sub);
+      font-size: 0.8rem; font-weight: 600; padding: 0.3rem 0.75rem; border-radius: 999px; cursor: pointer;
+    }
+    .cat-btn.active { background: #0f172a; border-color: #0f172a; color: #fff; }
+    .cat-tag { font-size: 0.66rem; font-weight: 600; color: #64748b; background: #f1f5f9; padding: 0.1rem 0.4rem; border-radius: 4px; white-space: nowrap; flex-shrink: 0; }
 
     /* 고정 너비 테이블 */
     .news-table {
@@ -915,6 +925,13 @@
       </div>
 
       <div class="table-container">
+        <div class="cat-bar" id="catTabs" role="group" aria-label="분야">
+          <button class="cat-btn active" data-cat="all">전체 분야</button>
+          <button class="cat-btn" data-cat="프로오디오">프로오디오</button>
+          <button class="cat-btn" data-cat="레코딩소프트웨어">레코딩 소프트웨어</button>
+          <button class="cat-btn" data-cat="컨슈머오디오">컨슈머 오디오</button>
+          <button class="cat-btn" data-cat="기타">기타</button>
+        </div>
         <div class="table-controls">
           <div class="tab-group" id="filterTabs">
             <button class="filter-btn active" data-filter="all">전체보기</button>
@@ -1037,6 +1054,7 @@
 
     let newsData = [];
     let currentFilter = 'all';
+    let currentCat = 'all';
     let searchQuery = '';
     let activeItem = null;
 
@@ -1086,7 +1104,8 @@
 
     // 주요 6선: 최근 소식 중 사진 있는 것·국내 소식을 우선
     function pickFeatured() {
-      const recent = newsData.slice(0, 24);
+      // 주요 6선은 프로오디오 분야에서만
+      const recent = newsData.filter(i => (i.category || '프로오디오') === '프로오디오').slice(0, 24);
       const score = i => (i.imageUrl ? 2 : 0) + (i.isDomestic ? 1 : 0);
       return recent
         .map((item, pos) => ({ item, pos }))
@@ -1167,6 +1186,7 @@
         if (currentFilter === '국내') matchFilter = item.isDomestic;
         else if (currentFilter !== 'all') matchFilter = (item.type === currentFilter);
 
+        if (currentCat !== 'all' && (item.category || '프로오디오') !== currentCat) matchFilter = false;
         const textToSearch = [item.brand, item.productName, item.company, item.summary].join(' ').toLowerCase();
         const matchSearch = !searchQuery || textToSearch.includes(searchQuery.toLowerCase());
         return matchFilter && matchSearch;
@@ -1213,6 +1233,7 @@
             <td class="col-product">
               <div class="product-cell-text">
                 ${item.isDomestic ? '<span class="mini-kr">국내</span>' : ''}
+                ${item.category && item.category !== '프로오디오' ? `<span class="cat-tag">${item.category === '레코딩소프트웨어' ? '레코딩SW' : item.category === '컨슈머오디오' ? '컨슈머' : '기타'}</span>` : ''}
                 <span class="product-name-span" title="${item.productName || item.brand}">${item.productName || item.brand}</span>
               </div>
             </td>
@@ -1271,6 +1292,15 @@
         currentFilter = e.target.getAttribute('data-filter');
         renderTable();
       }
+    });
+
+    document.getElementById('catTabs').addEventListener('click', (e) => {
+      const b = e.target.closest('.cat-btn');
+      if (!b) return;
+      document.querySelectorAll('.cat-btn').forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      currentCat = b.dataset.cat;
+      renderTable();
     });
 
     searchInput.addEventListener('input', (e) => {

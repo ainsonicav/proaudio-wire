@@ -11,7 +11,8 @@
     "evidence": "Wingman suggests chord progressions based on the music currently in the producer's DAW, Version 3.0 now provides more control over those suggestions.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://www.mixonline.com/wp-content/uploads/2026/09/2026-09-25-Wingman.jpg"
+    "imageUrl": "https://www.mixonline.com/wp-content/uploads/2026/09/2026-09-25-Wingman.jpg",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-114",
@@ -26,7 +27,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2FE%2FExpressiveEOsmose_01-DgoSBQqBlNu8jJU15W0cpzLltVt46XgU.jpg&w=640&default=1",
-    "imageSource": "body"
+    "imageSource": "body",
+    "category": "기타"
   },
   {
     "id": "news-115",
@@ -41,7 +43,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.soundonsound.com%2Fs3%2Ffiles%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fp%2Fpolyend_loop.jpg&w=640&default=1",
-    "imageSource": "body"
+    "imageSource": "body",
+    "category": "기타"
   },
   {
     "id": "news-106",
@@ -56,7 +59,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.noizefield.com%2Fwp-content%2Fuploads%2F2026%2F09%2FDJW-Audio_Lustre_1790448784.webp&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-107",
@@ -71,7 +75,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.kvraudio.com%2Fi%2Fb%2Fresoplate-four-metals.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-108",
@@ -86,7 +91,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.kvraudio.com%2Fi%2Fb%2Fmagicacx.png&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-109",
@@ -100,7 +106,8 @@
     "evidence": "The Torpedo Captor X Pro isn't just a beefed-up version of the Plus; Two Notes has packed in nearly every loadbox feature the technology has to offer.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://cdn.gearnews.com/wp-content/uploads/2026/09/TwoNotes_Torpedo_Captor_X_Pro_Teaser.jpg"
+    "imageUrl": "https://cdn.gearnews.com/wp-content/uploads/2026/09/TwoNotes_Torpedo_Captor_X_Pro_Teaser.jpg",
+    "category": "기타"
   },
   {
     "id": "news-110",
@@ -115,7 +122,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Ft%2Ftim_exile_finalist_2-B_T3XmiW.qc0vhXUSdeCDx19OOiAlaG_.jpg&w=640&default=1",
-    "imageSource": "body"
+    "imageSource": "body",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-111",
@@ -130,7 +138,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FbbcqFZ9uNU4%2Fmaxresdefault.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-112",
@@ -145,7 +154,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.kvraudio.com%2Fi%2Fb%2Fdlay-main-gui-1-1-0.png&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-105",
@@ -160,7 +170,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fravepubs.com%2Fwp-content%2Fuploads%2F2026%2F09%2FMuxLab-Symetrix-.webp&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "기타"
   },
   {
     "id": "news-104",
@@ -175,7 +186,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.zynaptiq.com%2Fuploads%2Ftx_imagecycle%2FLOUD_Artwork_Website_950x350.png&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-102",
@@ -189,7 +201,8 @@
     "evidence": "AutoTune Advanced is a real-time vocal tuning plugin built on a ground-up rebuild of the AutoTune algorithm, with the new (patent-pending) DVA™ engine that recognizes a singer's natural vibrato and leaves it intact.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://img.einnews.com/facebook/1197203/autotune-advanced-main-ui.jpeg"
+    "imageUrl": "https://img.einnews.com/facebook/1197203/autotune-advanced-main-ui.jpeg",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-103",
@@ -203,7 +216,8 @@
     "evidence": "The essential vocal editing time-saver that tightens the timing and pitch of multiple vocals in one workspace.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://cdn.prod.website-files.com/65d51e7b54a239fbf125ec65/6ab3cb53f5774112c0001055_SynchroArts_VocAlign-7.avif"
+    "imageUrl": "https://cdn.prod.website-files.com/65d51e7b54a239fbf125ec65/6ab3cb53f5774112c0001055_SynchroArts_VocAlign-7.avif",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-101",
@@ -217,7 +231,8 @@
     "evidence": "Compatibility has now been confirmed with the following Canon models: Canon EOS R6 V",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://tascam.com/wp-content/uploads/images/learn/thumbnail/product/tascam/ca-xlr2d_w_canon_r6_v.jpg"
+    "imageUrl": "https://tascam.com/wp-content/uploads/images/learn/thumbnail/product/tascam/ca-xlr2d_w_canon_r6_v.jpg",
+    "category": "컨슈머오디오"
   },
   {
     "id": "news-10",
@@ -232,7 +247,8 @@
     "evidence": "Nexadyne 드럼 마이크 패키지 스몰 은 7개의 마이크로 구성돼 있습니다",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjJfMTAx%2FMDAxNzkwMDU0MzYxNDgx.AzJq4DAjYFaPyo0GKsm62-n94IOWkilYAeAz0R9ncokg.PBgI3o8drY7sJIsgxoc21rdl4WdNfKysVy9qRa2AT9Yg.JPEG%2FShure_%25B5%25E5%25B7%25B3_%25B8%25B6%25C0%25CC%25C5%25A9_%25C6%25D0%25C5%25B0%25C1%25F6_%25BD%25E6%25B3%25D7%25C0%25CF.jpg%3Ftype%3Dw2&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjJfMTAx%2FMDAxNzkwMDU0MzYxNDgx.AzJq4DAjYFaPyo0GKsm62-n94IOWkilYAeAz0R9ncokg.PBgI3o8drY7sJIsgxoc21rdl4WdNfKysVy9qRa2AT9Yg.JPEG%2FShure_%25B5%25E5%25B7%25B3_%25B8%25B6%25C0%25CC%25C5%25A9_%25C6%25D0%25C5%25B0%25C1%25F6_%25BD%25E6%25B3%25D7%25C0%25CF.jpg%3Ftype%3Dw2&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-13",
@@ -247,7 +263,8 @@
     "evidence": "AFMG는 이러한 문제를 해결하기 위해 APS(Aggregated Point Sources, 집계 점음원) 모델을 도입했습니다.",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjNfODMg%2FMDAxNzkwMTI4MjkzMTA1.62cmdguKSiLg3120G2b_3eXLv6zOfOOruDgosWvS9Ocg.PMXmOPDrjODK-gOZM6Y0SRuyK1kZkNsjIUgCfSPbz4kg.PNG%2F1111.png%3Ftype%3Dw2&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjNfODMg%2FMDAxNzkwMTI4MjkzMTA1.62cmdguKSiLg3120G2b_3eXLv6zOfOOruDgosWvS9Ocg.PMXmOPDrjODK-gOZM6Y0SRuyK1kZkNsjIUgCfSPbz4kg.PNG%2F1111.png%3Ftype%3Dw2&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-14",
@@ -262,7 +279,8 @@
     "evidence": "sE Electronics X1 S Vocal Pack 정상가 334,000원 → 167,000원 | 50% 할인",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjNfMjQ2%2FMDAxNzkwMTM5MDA0MjM3.g3kpAL2zleLbuP_McxEduzEgWQfxy7tYeJ0YDCqw-Kwg.0CpxyCqBEjveBf6jowoLRdDRYHU1wc822UBBEyF6G0wg.JPEG%2Fimgi_622_m.jpg%3Ftype%3Dw2&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjNfMjQ2%2FMDAxNzkwMTM5MDA0MjM3.g3kpAL2zleLbuP_McxEduzEgWQfxy7tYeJ0YDCqw-Kwg.0CpxyCqBEjveBf6jowoLRdDRYHU1wc822UBBEyF6G0wg.JPEG%2Fimgi_622_m.jpg%3Ftype%3Dw2&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-25",
@@ -277,7 +295,8 @@
     "evidence": "RØDE의 RØDECaster Video/S 제품을 구매하고 신청서를 작성하시면, 콘텐츠 제작에 유용한 RØDE PODMIC [White] 혹은 Wireless ME TX 를 사은품으로 증정합니다.",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjJfMTY1%2FMDAxNzkwMDM1NDE4Mjgz.RO5Vs1fLn3B7uSHvuzd0gLRgNJrXhRIm7HunBaXsrhkg.SPkF7skAmUH3XC3v_GFlFpfyNfAOZVhDaBcXJAQGDQAg.PNG%2Fpopup.png%3Ftype%3Dw2&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjJfMTY1%2FMDAxNzkwMDM1NDE4Mjgz.RO5Vs1fLn3B7uSHvuzd0gLRgNJrXhRIm7HunBaXsrhkg.SPkF7skAmUH3XC3v_GFlFpfyNfAOZVhDaBcXJAQGDQAg.PNG%2Fpopup.png%3Ftype%3Dw2&default=1",
+    "category": "기타"
   },
   {
     "id": "news-26",
@@ -292,7 +311,8 @@
     "evidence": "현재 두 패키지를 9,900원부터 직접 경험해 볼 수 있습니다.",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjFfMTgw%2FMDAxNzg5OTYzODQxMTU3.Q18_bRSyiH4QLhtSqjVVG8ymluA10f2-kMhisv3vZWwg.BD8FqAF1-Ive5zBul1iuh_7_99gbmIzilZZmxI_AFUAg.PNG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.png%3Ftype%3Dw2&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjFfMTgw%2FMDAxNzg5OTYzODQxMTU3.Q18_bRSyiH4QLhtSqjVVG8ymluA10f2-kMhisv3vZWwg.BD8FqAF1-Ive5zBul1iuh_7_99gbmIzilZZmxI_AFUAg.PNG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.png%3Ftype%3Dw2&default=1",
+    "category": "컨슈머오디오"
   },
   {
     "id": "news-33",
@@ -307,7 +327,8 @@
     "evidence": "이번 프로모션은 2026년 9월 17일부터 10월 5일까지 진행되며, 대상 제품에 따라 최대 37% 할인 혜택이 적용됩니다.",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTdfMjE3%2FMDAxNzg5NjA2NDk4NzA4.PKFRBsjA_zMRcmcFufyn1wjK-YV6nMYGYVXdmQZ77lUg.NE8fdpvrMe5aAYGi_Yp8HXmohfiGz_onU_aLdYt5yWAg.JPEG%2Fimgi_615_m.jpg%3Ftype%3Dw2&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTdfMjE3%2FMDAxNzg5NjA2NDk4NzA4.PKFRBsjA_zMRcmcFufyn1wjK-YV6nMYGYVXdmQZ77lUg.NE8fdpvrMe5aAYGi_Yp8HXmohfiGz_onU_aLdYt5yWAg.JPEG%2Fimgi_615_m.jpg%3Ftype%3Dw2&default=1",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-37",
@@ -322,7 +343,8 @@
     "evidence": "고일은 이번 공식 Distributor 계약을 통해 AREAL의 다양한 Immersive Audio 솔루션을 국내에 소개하고",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTZfNjMg%2FMDAxNzg5NTM0OTk3NTQw.W3zy6p3QFK1_bFCnR2ANv8SIRpV9NZ90E0VcjFda82wg.9ZAUwqN5pk_GBqkAxelgMF623clXQCULL_i74Mxa46kg.JPEG%2FAREAL_DT_1.jpg%3Ftype%3Dw2&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTZfNjMg%2FMDAxNzg5NTM0OTk3NTQw.W3zy6p3QFK1_bFCnR2ANv8SIRpV9NZ90E0VcjFda82wg.9ZAUwqN5pk_GBqkAxelgMF623clXQCULL_i74Mxa46kg.JPEG%2FAREAL_DT_1.jpg%3Ftype%3Dw2&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-47",
@@ -337,7 +359,8 @@
     "evidence": "Audient가 새로운 플래그십 Thunderbolt 오디오 인터페이스, HORIZON 시리즈 를 해외에 공개했습니다.",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTVfNzIg%2FMDAxNzg5NDMzMDAyMTE2.r3V-eFfMtMTiQFHzT-pcEvvh3FODiKXbh-ZQq8j1aMEg.yDj5yVibx5RhZSJCKqnD2BTr-tcxzQe2ell0BJo_nk8g.PNG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.png%3Ftype%3Dw2&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTVfNzIg%2FMDAxNzg5NDMzMDAyMTE2.r3V-eFfMtMTiQFHzT-pcEvvh3FODiKXbh-ZQq8j1aMEg.yDj5yVibx5RhZSJCKqnD2BTr-tcxzQe2ell0BJo_nk8g.PNG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5.png%3Ftype%3Dw2&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-99",
@@ -352,7 +375,8 @@
     "evidence": "세미나 안내 Q-SYS RoomSuite Modular System & Basic Programming Training (2026년 9월) 삼아사운드 2026-09-07",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.samasound.co.kr%2Fweb%2Fupload%2Fshare-image-1-ebee775277b910b6d01eed6f132c1ed4.jpg&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.samasound.co.kr%2Fweb%2Fupload%2Fshare-image-1-ebee775277b910b6d01eed6f132c1ed4.jpg&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-52",
@@ -366,7 +390,8 @@
     "status": "published",
     "isDomestic": true,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fkr.yamaha.com%2Fko%2Ffiles%2Fthum_dm5_tcm144-3237432.png&default=1",
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "category": "프로오디오"
   },
   {
     "id": "news-62",
@@ -380,7 +405,8 @@
     "status": "published",
     "isDomestic": true,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTFfMTQ2%2FMDAxNzg5MTA5NzAyNjE3.F5AQDf95Kp5PlYcaoWUlYmX7YksAWDq_xfnQChXOGtog.kpe-Ekco-nKarIHrylBWdaA7vsraLkB-oZI_1yzq8QMg.PNG%2Fnew_product_newsletter_NT119S.png%3Ftype%3Dw2&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTFfMTQ2%2FMDAxNzg5MTA5NzAyNjE3.F5AQDf95Kp5PlYcaoWUlYmX7YksAWDq_xfnQChXOGtog.kpe-Ekco-nKarIHrylBWdaA7vsraLkB-oZI_1yzq8QMg.PNG%2Fnew_product_newsletter_NT119S.png%3Ftype%3Dw2&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-63",
@@ -394,7 +420,8 @@
     "status": "published",
     "isDomestic": true,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTRfNTIg%2FMDAxNzg5MzQ3OTUxMDgx.cTxfh-J9uorWdvq0DgADztMPXL5UcAVu0LWl8iHz7fQg.QQ3RL2q-u6LsAhSVdBzRsfsZa__qjPZ4Z4H_mFDx9Xcg.JPEG%2F4_cd5916ec-faf9-4d67-8a08-721fa24d0d60.jpg%3Ftype%3Dw2&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTRfNTIg%2FMDAxNzg5MzQ3OTUxMDgx.cTxfh-J9uorWdvq0DgADztMPXL5UcAVu0LWl8iHz7fQg.QQ3RL2q-u6LsAhSVdBzRsfsZa__qjPZ4Z4H_mFDx9Xcg.JPEG%2F4_cd5916ec-faf9-4d67-8a08-721fa24d0d60.jpg%3Ftype%3Dw2&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-88",
@@ -409,7 +436,8 @@
     "evidence": "지난 2026년 9월 2일(수)부터 9월 4일(금)까지 SETEC 컨벤션 센터에서 열린 2026 코사운드(KOSOUND)가 많은 분들의 뜨거운 관심과 방문 속에 성황리에 막을 내렸습니다.",
     "status": "published",
     "isDomestic": true,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDlfMTQz%2FMDAxNzg4OTE0MzA3MzM2.YmUaXi8iY9G4uIBYo2yKZeVvDN2yyVm21sGPO60Q-hQg.XYWD6WVmf89AL6Ff97-nS2e7Jy4zlzhvgQA4T-kOXVQg.JPEG%2FKakaoTalk_20260907_132547198_03.jpg%3Ftype%3Dw2&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDlfMTQz%2FMDAxNzg4OTE0MzA3MzM2.YmUaXi8iY9G4uIBYo2yKZeVvDN2yyVm21sGPO60Q-hQg.XYWD6WVmf89AL6Ff97-nS2e7Jy4zlzhvgQA4T-kOXVQg.JPEG%2FKakaoTalk_20260907_132547198_03.jpg%3Ftype%3Dw2&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-96",
@@ -423,7 +451,8 @@
     "status": "published",
     "isDomestic": true,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDhfMTIw%2FMDAxNzg4ODQ2NjM0OTc1.97_JxxkRJ7yDwttP3HZKQWmOf1QJTQVuxmmyhxueEccg.AzaRwI8gQ_wqutMND_UswKGSG86HM6cq-D3VSxybhakg.PNG%2F1.png%3Ftype%3Dw2&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDhfMTIw%2FMDAxNzg4ODQ2NjM0OTc1.97_JxxkRJ7yDwttP3HZKQWmOf1QJTQVuxmmyhxueEccg.AzaRwI8gQ_wqutMND_UswKGSG86HM6cq-D3VSxybhakg.PNG%2F1.png%3Ftype%3Dw2&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-100",
@@ -437,7 +466,8 @@
     "status": "published",
     "isDomestic": true,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDdfMjEx%2FMDAxNzg4NzU5Mzc5OTUz.dUss37EXJE3SawoUPcQxNV53iCdyqH8kx1UzRxLfTEQg.1B67u15ShOa_fmvmyEj8yKgclrk12FFZyhqcFS789e0g.PNG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5_%25281%2529.png%3Ftype%3Dw2&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDdfMjEx%2FMDAxNzg4NzU5Mzc5OTUz.dUss37EXJE3SawoUPcQxNV53iCdyqH8kx1UzRxLfTEQg.1B67u15ShOa_fmvmyEj8yKgclrk12FFZyhqcFS789e0g.PNG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5_%25281%2529.png%3Ftype%3Dw2&w=640&default=1",
+    "category": "기타"
   },
   {
     "id": "news-2",
@@ -452,7 +482,8 @@
     "evidence": "On Wednesday, October 7th at 7:00 p.m., Solid State Logic will present a live demonstration of content being mixed live on an SSL Live L350 Plus",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fsolidstatelogic.com%2Fassets%2Fuploads%2Fmedia%2FSSL%20Live%20-%20UT%20Dallas%20-%20Header_FINAL.png&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-3",
@@ -467,7 +498,8 @@
     "evidence": "leat con in Hamburg (6. – 8. Oktober) steht für Sennheiser ganz im Zeichen des Breitbandsystems Spectera",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2F0cf5b93b-5e7a-4102-869b-5e855a88665d%2F-%2Fpreview%2F600x600%2F&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-4",
@@ -483,7 +515,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.myportfolio.com%2F2cf6322e-8b6d-45ae-9345-6565305113ac%2F528506cc-1600-4119-8894-f6cc60c1c325_rwc_0x0x2048x2048x2048.png%3Fh%3Dc7f7461d355f5f4eef5fa26416377536&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-5",
@@ -499,7 +532,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fmedia.guitarcenter.com%2Fis%2Fimage%2FMMGS7%2FM30583000001000-01-600x600.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "기타"
   },
   {
     "id": "news-6",
@@ -514,7 +548,8 @@
     "evidence": "RCF and TT+ AUDIO return to Amsterdam Dance Event this October for Meet Me At The Hotel 2026 From October 21–25",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.rcf.it%2Fdocuments%2F20124%2F0%2FRCF%2BLogo.png%2Ff8147b2a-d51e-f372-aac6-cbadd31a9bac%3Fversion%3D1.0%26t%3D1650462118744%26imagePreview%3D1&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-7",
@@ -529,7 +564,8 @@
     "evidence": "The DR-10L Pro has released the latest version 2.14 for its firmware.",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Ftascam.com%2Fwp-content%2Fuploads%2Fimages%2Flearn%2Fthumbnail%2Fproduct%2Ftascam%2Fdr-10l_pro_fw_update.jpg&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-8",
@@ -544,7 +580,8 @@
     "evidence": "NUGEN Audio unveils DialogCheck v1.2, the latest evolution of its intelligent dialog intelligibility and compliance tool, at IBC 2026 (Pod P27).",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fnugenaudio.com%2Fwp-content%2Fuploads%2F2026%2F09%2FNUGEN_Post-and-Producer-Plans-Calendar-Shot-scaled.png&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-9",
@@ -559,7 +596,8 @@
     "evidence": "From 14 to 16 September 2026, we exhibited at Church Facilities Expo in Birmingham, Alabama",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fvoidacoustics.com%2Fwp-content%2Fuploads%2FCFX-HEADER-1.jpg&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-11",
@@ -574,7 +612,8 @@
     "evidence": "RØDECaster Video 1.4, a major free firmware update, unlocks 4K Capture Mode & RØDECaster Sync across RØDE's entire range of video interfaces.",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fedge.rode.com%2F%2Fimages%2Fpage%2F2662%2FRCV-4K-SYNC-OG.jpg&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "기타"
   },
   {
     "id": "news-12",
@@ -589,7 +628,8 @@
     "evidence": "RCF will take part in BITAM Show 2026, the professional audiovisual technology event taking place in Madrid, Spain, on October 28–29.",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.rcf.it%2Fdocuments%2F20124%2F0%2FRCF%2BLogo.png%2Ff8147b2a-d51e-f372-aac6-cbadd31a9bac%3Fversion%3D1.0%26t%3D1650462118744%26imagePreview%3D1&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-15",
@@ -604,7 +644,8 @@
     "evidence": "The Producer Plan starts at £19 per month or £199 per year, while the Post Plan starts at £49/ per month or £499 per year.",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fnugenaudio.com%2Fwp-content%2Fuploads%2F2026%2F09%2FNUGEN_Post-and-Producer-Plans-Calendar-Shot-scaled.png&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-16",
@@ -619,7 +660,8 @@
     "evidence": "Wave Agent X WAV File Utility for Mac OS and Windows Computers Next Generation Audio File and Metadata Management",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.sounddevices.com%2Fwp-content%2Fuploads%2F2026%2F08%2FWave-Agent-X-v3-scaled.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.sounddevices.com%2Fwp-content%2Fuploads%2F2026%2F08%2FWave-Agent-X-v3-scaled.png&w=640&default=1",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-17",
@@ -634,7 +676,8 @@
     "evidence": "Backnang, Germany, 22 September 2026 –Today, d&b audiotechnik announces System Auralization",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.dbaudio.com%2F_assets%2F7bc42ebed84e5185d75075dc3d9cd3c9%2FAssets%2Fdbaudio-socials-open-graph.jpg&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-18",
@@ -650,7 +693,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fmedia.wavescdn.com%2Fimages%2Fproducts%2Fmixers-racks%2Fmax%2Ftracks-live-v2.png%3Fh%3D300&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-19",
@@ -666,7 +710,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.ikmultimedia.com%2Fproducts%2Ftonextonenet%2Fimages%2F1.0%2FGUI_tonex_tonenet_20231211%2Ftonenet_tonex_collections_partner_20231211.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "기타"
   },
   {
     "id": "news-20",
@@ -681,7 +726,8 @@
     "evidence": "today announced a new integration with Moises , bringing Lyric Transcription and Chord Extraction directly into LUNA",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fwww.uaudio.com%2Fcdn%2Fshop%2Farticles%2FLuna-Moises-PR-EmailHero_965758c1-085f-458f-a679-4aae758ad6b1.jpg%3Fcrop%3Dcenter%26height%3D630%26v%3D1790107427%26width%3D1200&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-21",
@@ -696,7 +742,8 @@
     "evidence": "Genelec joined partner StageMix to showcase a range of Installed Sound solutions at InfoComm India 2026.",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimages.ctfassets.net%2F4zjnzn055a4v%2F4tI9oIwr6FcSchfEF1dLFJ%2F6572f57ff104fddc6925d497c99453ec%2F19.52.28.jpeg%3Fw%3D800&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-22",
@@ -711,7 +758,8 @@
     "evidence": "Martin Audio has announced the full commercial release of DISPLAY 3 its next generation 3D audio prediction and optimisa...",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fbranding%2Fmartin_audio.jpg&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-23",
@@ -727,7 +775,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRpPi0l3erkNRbU5GB52epebpjQQPMyTI7uyZ9HfBpEQQ%26s%3D10&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-24",
@@ -742,7 +791,8 @@
     "evidence": "Berlin, Germany, September 21, 2026 – Neumann unveils the KK 104 A and KK 105 A",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2F4179fca3-4e65-4701-92e4-512fd43917e8%2F-%2Fcrop%2F3000x1893%2F0%2C0%2F-%2Fpreview%2F-%2Fpreview%2F600x600%2F&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-27",
@@ -757,7 +807,8 @@
     "evidence": "MACKIE의 파워드 스피커 THUMP 시리즈가 새로운 V4로 출시됐습니다.",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fa2ZGRIKRyA4%2Fmaxresdefault.jpg&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-28",
@@ -772,7 +823,8 @@
     "evidence": "Genelec brought a range of broadcast and OB monitoring solutions to IBC 2026, held in Amsterdam from 11–14 September",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimages.ctfassets.net%2F4zjnzn055a4v%2F4Sxjtj7gFT122JFqy0YsoC%2F0627390426cce44281d46b84b8d73eaf%2F2026-IBC-PEOPLE-03.jpg%3Fw%3D800&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-29",
@@ -788,7 +840,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwharfedalepro.com%2Fwp-content%2Fuploads%2F2026%2F09%2FSound-Republic-XLA-Event-2026_Bangkok_1.png&w=640&default=1",
-    "imageSource": "original"
+    "imageSource": "original",
+    "category": "프로오디오"
   },
   {
     "id": "news-30",
@@ -803,7 +856,8 @@
     "evidence": "디지털하이테크가 PROEL의 한국 총판으로 함께하게 되었습니다.",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FbNjcXqx3GnY%2Fmaxresdefault.jpg&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-31",
@@ -818,7 +872,8 @@
     "evidence": "I monter B08:48 kan besökarna bland annat provlyssna på Neumanns helt nya studiomonitor KH 350",
     "status": "published",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2F4676a041-d08b-4edd-9f48-692ab9b47898%2F-%2Fpreview%2F600x600%2F&default=1",
-    "isDomestic": false
+    "isDomestic": false,
+    "category": "프로오디오"
   },
   {
     "id": "news-32",
@@ -834,7 +889,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.ikmultimedia.com%2Fproducts%2Fresing%2Fmain-banner-vol-2-producers-pack-everett%2Fmobile.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-34",
@@ -849,7 +905,8 @@
     "evidence": "From 10 to 12 September 2026, we joined our Colombian partner VIVO at La Feria de Diseño Medellín",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fvoidacoustics.com%2Fwp-content%2Fuploads%2FColombia-HEADER-1.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fvoidacoustics.com%2Fwp-content%2Fuploads%2FColombia-HEADER-1.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-35",
@@ -864,7 +921,8 @@
     "evidence": "Genelec and AMX are delighted to launch a new driver enabling seamless integration between the Genelec Smart IP family",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimages.ctfassets.net%2F4zjnzn055a4v%2F7yjIjunE7StILfuyAtlpNy%2F03e444a12099334f7902f6d4bc09ec8f%2F2026_AV_Partnership_layout_amxmuse_SmartIP_Partnership_Genelec_website_1250x703px.jpg%3Fw%3D800&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimages.ctfassets.net%2F4zjnzn055a4v%2F7yjIjunE7StILfuyAtlpNy%2F03e444a12099334f7902f6d4bc09ec8f%2F2026_AV_Partnership_layout_amxmuse_SmartIP_Partnership_Genelec_website_1250x703px.jpg%3Fw%3D800&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-36",
@@ -879,7 +937,8 @@
     "evidence": "Florence (Italy), 16 September 2026 – Powersoft has today released ArmoníaPlus 3.0, a significant platform release for its system management software.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.powersoft.com%2Fapi%2Fmedia%2Ffile%2FPS_A30-800x320.webp%3Fv%3Dmu43jr5h&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.powersoft.com%2Fapi%2Fmedia%2Ffile%2FPS_A30-800x320.webp%3Fv%3Dmu43jr5h&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-38",
@@ -894,7 +953,8 @@
     "evidence": "인강오디오㈜ 가 테크데이타피에스에 이어 DiGiCo Quantum 112 공식 대리점으로 새롭게 합류했습니다.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.imweb.me%2Fthumbnail%2F20260916%2F06215c6ec4c22.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.imweb.me%2Fthumbnail%2F20260916%2F06215c6ec4c22.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-39",
@@ -910,7 +970,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTSAEa4nZ1Fbr7vj41wz7FJ7Ym9-I8eHfr40TOZi1wUFQ%26s%3D10&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-40",
@@ -926,7 +987,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fassets.electrovoicedynacord.com%2Ftransform%2F65e7f57a-477c-45c4-a4ac-68226acf5bd4%2FEVIDn_01%3Fio%3Dtransform%3Afit%2Cwidth%3A1534%26format%3Dwebp%26quality%3D70&w=640&default=1",
-    "imageSource": "body"
+    "imageSource": "body",
+    "category": "프로오디오"
   },
   {
     "id": "news-41",
@@ -941,7 +1003,8 @@
     "evidence": "AlphaTheta is pleased to announce that VirtualDJ now supports the OneLibrary music library format for DJs.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fassets.alphatheta.com%2Fwp-content%2Fuploads%2F2026%2F04%2FNews_OneLibrary_Virtual_DJ_Support_Key-visual_1200x630.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fassets.alphatheta.com%2Fwp-content%2Fuploads%2F2026%2F04%2FNews_OneLibrary_Virtual_DJ_Support_Key-visual_1200x630.jpg&w=640&default=1",
+    "category": "기타"
   },
   {
     "id": "news-42",
@@ -956,7 +1019,8 @@
     "evidence": "The Master Buss Processor (MSRP $199 USD), 551 Inductor EQ (MSRP $129 USD) and 542 Tape Emulator (MSRP $129 USD) plug-ins are now available",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F5fe7b6498dc8ae15a0364652%2Ft%2F6aa95e5ed283af4551318dce%2F1789484638636%2Frnd-plugins-lifestyle-2-Edit.jpg%3Fformat%3D1500w&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F5fe7b6498dc8ae15a0364652%2Ft%2F6aa95e5ed283af4551318dce%2F1789484638636%2Frnd-plugins-lifestyle-2-Edit.jpg%3Fformat%3D1500w&w=640&default=1",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-43",
@@ -972,7 +1036,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn-data.motu.com%2Fdjango_prod%2Fimages%2Fproducts%2F2026%2F09%2FDP12_Store_Graphic.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-44",
@@ -988,7 +1053,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcR40WoQN1ab6veSo4Ksli_a7l40k4-42nX03OJ_h7KlCw%26s&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-45",
@@ -1004,7 +1070,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.uaudio.com%2Fcdn%2Fshop%2Farticles%2FLUNA_Free_Blog_Thumb_PR_8326f5b9-90d3-45fe-8c75-c8d2ce5dba52.jpg%3Fcrop%3Dcenter%26height%3D630%26v%3D1790107401%26width%3D1200&w=640&default=1",
-    "imageSource": "original"
+    "imageSource": "original",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-46",
@@ -1020,7 +1087,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.uaudio.com%2Fcdn%2Fshop%2Farticles%2Fspark_studio_pr_thumb_f78f1711-f4c2-404a-a36a-6ce207a90134.jpg%3Fcrop%3Dcenter%26height%3D630%26v%3D1789076870%26width%3D1200&w=640&default=1",
-    "imageSource": "original"
+    "imageSource": "original",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-48",
@@ -1035,7 +1103,8 @@
     "evidence": "Florence (Italy), 14 th September 2026: Powersoft and K-array, the two leading Italian audio manufacturers, will share a stand at InnoTrans 2026",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.powersoft.com%2Fapi%2Fmedia%2Ffile%2FPS_Innotrans26-800x320.webp%3Fv%3Dmu1au1iu&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.powersoft.com%2Fapi%2Fmedia%2Ffile%2FPS_Innotrans26-800x320.webp%3Fv%3Dmu1au1iu&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-49",
@@ -1050,7 +1119,8 @@
     "evidence": "Audient today announces the launch of Horizon, a new flagship Thunderbolt 3 audio interface range",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Faudient.com%2Fwp-content%2Fuploads%2F2026%2F08%2FHorizon-Range-Hero-1-2.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Faudient.com%2Fwp-content%2Fuploads%2F2026%2F08%2FHorizon-Range-Hero-1-2.png&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-50",
@@ -1066,7 +1136,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.dpamicrophones.com%2Fmedia%2Fz0inenms%2Fwireless-ibc-2026-09-15-133229_edited.png%3Fwidth%3D1400%26height%3D741%26v%3D1dd4506ed0bb270%26hmac%3D6e4453fa1403eabd5d816090d2d94ceeea7e5eba2b9121675afc389f57080d90&w=640&default=1",
-    "imageSource": "body"
+    "imageSource": "body",
+    "category": "프로오디오"
   },
   {
     "id": "news-51",
@@ -1081,7 +1152,8 @@
     "evidence": "Calrec expands its IP ecosystem with new, ready-to-use Type RT console and Apex M6 Modular I/O Platform at IBC 2026.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcalrec.com%2Fwp-content%2Fuploads%2F2026%2F09%2FType-RT_press_1200x675.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcalrec.com%2Fwp-content%2Fuploads%2F2026%2F09%2FType-RT_press_1200x675.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-82",
@@ -1096,7 +1168,8 @@
     "evidence": "Martin Audio s US Open Day takes place at the Amphitheatre in Doral Central Park Florida on Thursday 8 October 2026",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fbranding%2Fmartin_audio.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fbranding%2Fmartin_audio.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-53",
@@ -1110,7 +1183,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FSKZHL2pYEM0%2Fhqdefault.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FSKZHL2pYEM0%2Fhqdefault.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-54",
@@ -1125,7 +1199,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn-data.motu.com%2Fdjango_prod%2Ffiler_public%2F3a%2F74%2F3a741562-fd00-4d15-be81-cae3a2523bf6%2F16a-hero-on-black-bkgnd-3.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-55",
@@ -1140,7 +1215,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.rtw.com%2Fweb%2Fimage%2F6063-253286fe%2FRTW_TMxCore_230017NR_rear_1110x621px_Lupe.webp&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-56",
@@ -1155,7 +1231,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.rtw.com%2Fweb%2Fimage%2F6943-9c78b0bd%2FEssentials.png&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-57",
@@ -1170,7 +1247,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fvintageking.com%2Fmedia%2Fcatalog%2Fproduct%2Fr%2Ft%2Frtw-touchcontrol-5_455361_1.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-58",
@@ -1185,7 +1263,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.rtw.com%2Fweb%2Fimage%2F16514-74ed385f%2FAvatus_TMxCore.jpg&w=640&default=1",
-    "imageSource": "body"
+    "imageSource": "body",
+    "category": "프로오디오"
   },
   {
     "id": "news-59",
@@ -1199,7 +1278,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-09",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fedge.sitecorecloud.io%2Favidtech-d6a2e9a9%2Fmedia%2Fimages%2Fpress-room-archive%2F2026%2F09%2Favid_google_pr-v4.jpg%3Fh%3D1080%26iar%3D0%26w%3D1920&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fedge.sitecorecloud.io%2Favidtech-d6a2e9a9%2Fmedia%2Fimages%2Fpress-room-archive%2F2026%2F09%2Favid_google_pr-v4.jpg%3Fh%3D1080%26iar%3D0%26w%3D1920&w=640&default=1",
+    "category": "기타"
   },
   {
     "id": "news-60",
@@ -1214,7 +1294,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQDyZ_zo_f_o9b7xYZkrc9dOR8UrrJ7EFkFNjbBCKrBJA%26s%3D10&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-61",
@@ -1229,7 +1310,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Focl-steinberg-live.steinberg.net%2F_storage%2Fasset%2F348253%2Fstorage%2FJPG_extra-large_5500px%2F348253-extra-large.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-64",
@@ -1244,7 +1326,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQm68swR7zIN2Xvd6Kn0zjLhxBjUuvs9pm_ns6vB5HGdw%26s%3D10&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-65",
@@ -1259,7 +1342,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcS7yzTUW_nFvV2cPwQaRZwMkBiwH6pj8n6B9cQESaXjjw%26s%3D10&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "기타"
   },
   {
     "id": "news-66",
@@ -1273,7 +1357,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageTried": "2026-09-27:g"
+    "imageTried": "2026-09-27:g",
+    "category": "기타"
   },
   {
     "id": "news-67",
@@ -1287,7 +1372,8 @@
     "status": "published",
     "isDomestic": true,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fkr.yamaha.com%2Fko%2Ffiles%2F20260907_AUDIO_DM5_%25EC%258B%25A0%25EC%25A0%259C%25ED%2592%2588_%25EC%2584%25B8%25EB%25AF%25B8%25EB%2582%2598_%25EC%25A0%2595%25EB%25B0%25A9%25ED%2598%2595_%25EC%258D%25B8%25EB%2584%25A4%25EC%259D%25BC%2528w1000%2529-01_tcm144-3236802.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fkr.yamaha.com%2Fko%2Ffiles%2F20260907_AUDIO_DM5_%25EC%258B%25A0%25EC%25A0%259C%25ED%2592%2588_%25EC%2584%25B8%25EB%25AF%25B8%25EB%2582%2598_%25EC%25A0%2595%25EB%25B0%25A9%25ED%2598%2595_%25EC%258D%25B8%25EB%2584%25A4%25EC%259D%25BC%2528w1000%2529-01_tcm144-3236802.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-68",
@@ -1301,7 +1387,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimages.ctfassets.net%2F4zjnzn055a4v%2F4rMma20DncsnZVV9P4UNcD%2F6ab532ea81fb87cba259d5bb99bc6c89%2Fsmartip_certification_LI_1200x627.jpg%3Fw%3D800&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimages.ctfassets.net%2F4zjnzn055a4v%2F4rMma20DncsnZVV9P4UNcD%2F6ab532ea81fb87cba259d5bb99bc6c89%2Fsmartip_certification_LI_1200x627.jpg%3Fw%3D800&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-69",
@@ -1315,7 +1402,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm5_d0ef96d486bc4aedbbd8124ab62b2024.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm5_d0ef96d486bc4aedbbd8124ab62b2024.png&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-70",
@@ -1329,7 +1417,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm7_v20__ca7829d5c3413f16a82558cd121a9270.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm7_v20__ca7829d5c3413f16a82558cd121a9270.png&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-71",
@@ -1343,7 +1432,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm3_v31_6ba2bbe556f1c754cf432eb51ef42af0.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm3_v31_6ba2bbe556f1c754cf432eb51ef42af0.png&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-72",
@@ -1357,7 +1447,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2FDM7-5-V2.0-3rd-party-release-ogp_d1844ee3753211c126004cba9a1531db.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2FDM7-5-V2.0-3rd-party-release-ogp_d1844ee3753211c126004cba9a1531db.png&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-73",
@@ -1371,7 +1462,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-provisionaire_update_29b0ea4e533639d58ed28e6bc9d93bfa.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-provisionaire_update_29b0ea4e533639d58ed28e6bc9d93bfa.png&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-74",
@@ -1386,7 +1478,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FZs6hU5PNka9qDNFc7eehSR.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "기타"
   },
   {
     "id": "news-75",
@@ -1400,7 +1493,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2F87a7867e-a456-4dee-ac4d-44f9c2f5142d%2F-%2Fpreview%2F600x600%2F&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2F87a7867e-a456-4dee-ac4d-44f9c2f5142d%2F-%2Fpreview%2F600x600%2F&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-76",
@@ -1414,7 +1508,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2Fd89caf22-90d5-4ffc-b76c-038247fa606c%2F-%2Fcrop%2F4302x2778%2F879%2C706%2F-%2Fpreview%2F-%2Fpreview%2F600x600%2F&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2Fd89caf22-90d5-4ffc-b76c-038247fa606c%2F-%2Fcrop%2F4302x2778%2F879%2C706%2F-%2Fpreview%2F-%2Fpreview%2F600x600%2F&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-77",
@@ -1428,7 +1523,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Feurope1.discourse-cdn.com%2Fsteinberg%2Foriginal%2F3X%2Fb%2Fe%2Fbecc0b2f3a148c189008691bb9be347bc647ba07.svg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Feurope1.discourse-cdn.com%2Fsteinberg%2Foriginal%2F3X%2Fb%2Fe%2Fbecc0b2f3a148c189008691bb9be347bc647ba07.svg&w=640&default=1",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-78",
@@ -1442,7 +1538,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.alconsaudio.com%2Fwp-content%2Fuploads%2F2026%2F09%2FCEDIA-award-Alcons-Audio-groupshot-1920_1080.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.alconsaudio.com%2Fwp-content%2Fuploads%2F2026%2F09%2FCEDIA-award-Alcons-Audio-groupshot-1920_1080.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-79",
@@ -1456,7 +1553,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-10-06",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.telefunken-elektroakustik.com%2Fwp-content%2Fuploads%2F2022%2F08%2FTELEFUNKENElektro-2017-VertDiamond-Black.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.telefunken-elektroakustik.com%2Fwp-content%2Fuploads%2F2022%2F08%2FTELEFUNKENElektro-2017-VertDiamond-Black.png&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-80",
@@ -1470,7 +1568,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.telefunken-elektroakustik.com%2Fwp-content%2Fuploads%2F2022%2F08%2FTELEFUNKENElektro-2017-VertDiamond-Black.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.telefunken-elektroakustik.com%2Fwp-content%2Fuploads%2F2022%2F08%2FTELEFUNKENElektro-2017-VertDiamond-Black.png&w=640&default=1",
+    "category": "기타"
   },
   {
     "id": "news-81",
@@ -1484,7 +1583,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Ftascam.com%2Fwp-content%2Fuploads%2Fimages%2Flearn%2Fthumbnail%2Fpress_release%2Flearn_thumbnail_ss-r300n.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Ftascam.com%2Fwp-content%2Fuploads%2Fimages%2Flearn%2Fthumbnail%2Fpress_release%2Flearn_thumbnail_ss-r300n.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-83",
@@ -1499,7 +1599,8 @@
     "evidence": "Oct 2, 2026 – Oct 3, 2026LA, California, United States (US) Join Sound Devices at Trewlapalooza 2026 in Los Angeles.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.sounddevices.com%2Fwp-content%2Fuploads%2F2022%2F08%2Ftrewlapalooza2022.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.sounddevices.com%2Fwp-content%2Fuploads%2F2022%2F08%2Ftrewlapalooza2022.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-84",
@@ -1514,14 +1615,15 @@
     "evidence": "AMSTERDAM, September 9, 2026 — Shure today announced WAVETOOL 4 , the latest evolution of its professional audio monitoring and listening software.",
     "status": "published",
     "isDomestic": false,
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fshure.widen.net%2Fcontent%2Fzozk4piy4m%2Fwebp%2FWavetool_4_Theater_A2_Backstage_Medium.webp%3Fposition%3Dc%26color%3Dffffffff%26quality%3D80%26u%3Dqtzq6k&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fshure.widen.net%2Fcontent%2Fzozk4piy4m%2Fwebp%2FWavetool_4_Theater_A2_Backstage_Medium.webp%3Fposition%3Dc%26color%3Dffffffff%26quality%3D80%26u%3Dqtzq6k&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-85",
     "date": "2026-09-09",
     "rawDate": "https://news.dolby.com/en-WW/270399-dolby-expands-dolby-optiview-platform-with-new-capabilities-at-ibc-2026/",
     "company": "Lectrosonics",
-    "brand": "SS-R300N",
+    "brand": "Lectrosonics",
     "productName": "SMWB, SMDWB",
     "type": "업데이트",
     "summary": "Lectrosonics가 소형 벨트팩 무선 송신기 SMWB/SMDWB의 펌웨어 v8.14(SUPER)/v8.08(FPGA)/v8.03(BOOT)와 v7.19(SUPER)/v2.04(BOOT)를 2026년 9월 9일 공개했습니다. 두 버전 모두 이전 버전(v8.13, v7.18)에서 Auto-On 기능이 가끔 작동하지 않던 문제를 수정했습니다. v8.14는 8.xx 펌웨어 계열 장비, v7.19는 7.xx 계열 장비용이므로 사용 중인 버전에 맞춰 업데이트하면 됩니다.",
@@ -1530,7 +1632,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Flectrosonics.com%2Fwp-content%2Fuploads%2FGroup-1-LARGE-1024x1024.png&w=640&default=1",
-    "imageSource": "original"
+    "imageSource": "original",
+    "category": "프로오디오"
   },
   {
     "id": "news-86",
@@ -1545,7 +1648,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.audio-technica.com%2Fmedia%2Fconverted%2F.renditions%2Fwysiwyg%2FATH-AL5NC_09_1.webp&w=640&default=1",
-    "imageSource": "body"
+    "imageSource": "body",
+    "category": "컨슈머오디오"
   },
   {
     "id": "news-87",
@@ -1561,7 +1665,8 @@
     "status": "published",
     "isDomestic": false,
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.audio-technica.com%2Fmedia%2Fconverted%2F.renditions%2Fwysiwyg%2FBP880R_05.webp&w=640&default=1",
-    "imageSource": "body"
+    "imageSource": "body",
+    "category": "프로오디오"
   },
   {
     "id": "news-89",
@@ -1575,7 +1680,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.qsys.com%2Ffileadmin%2Fimages%2Fpr%2Fsystems%2FRMS_ZoomCert_PR_1080x540.png&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.qsys.com%2Ffileadmin%2Fimages%2Fpr%2Fsystems%2FRMS_ZoomCert_PR_1080x540.png&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-90",
@@ -1589,7 +1695,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fedge.sitecorecloud.io%2Favidtech-d6a2e9a9%2Fmedia%2Fimages%2Fpress-room-archive%2F2026%2F09%2Frundown-in-content-core-with-avid-assist.png%3Fh%3D2154%26iar%3D0%26w%3D3832&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fedge.sitecorecloud.io%2Favidtech-d6a2e9a9%2Fmedia%2Fimages%2Fpress-room-archive%2F2026%2F09%2Frundown-in-content-core-with-avid-assist.png%3Fh%3D2154%26iar%3D0%26w%3D3832&w=640&default=1",
+    "category": "기타"
   },
   {
     "id": "news-91",
@@ -1604,7 +1711,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fadn.harmanpro.com%2Fproduct_attachments%2Fproduct_attachments%2F3574_1728941510%2Fimage-efx12-front_original.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-92",
@@ -1619,7 +1727,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fsuccess.telosalliance.com%2Fhs-fs%2Fhubfs%2FAIXpressor.jpg%3Fwidth%3D2216%26name%3DAIXpressor.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-93",
@@ -1634,7 +1743,8 @@
     "isDomestic": false,
     "date": "2026-09-24",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Ftelosalliance-uat.s3.amazonaws.com%2Fpublic%2FLA%2520Product%2520Photos%2FARC%2FARC_Front_Carousel.png&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "category": "프로오디오"
   },
   {
     "id": "news-94",
@@ -1648,7 +1758,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.riedel.net%2Fwp-content%2Fuploads%2F2026%2F09%2FRiedel_OnAir_400_Series.webp&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.riedel.net%2Fwp-content%2Fuploads%2F2026%2F09%2FRiedel_OnAir_400_Series.webp&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-95",
@@ -1662,7 +1773,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.uaudio.com%2Fcdn%2Fshop%2Farticles%2Ftopline_vocal_tune_dsp_pr_thumb_73ceaeda-685f-4b93-9897-694e795d6533.jpg%3Fcrop%3Dcenter%26height%3D630%26v%3D1788909791%26width%3D1200&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.uaudio.com%2Fcdn%2Fshop%2Farticles%2Ftopline_vocal_tune_dsp_pr_thumb_73ceaeda-685f-4b93-9897-694e795d6533.jpg%3Fcrop%3Dcenter%26height%3D630%26v%3D1788909791%26width%3D1200&w=640&default=1",
+    "category": "레코딩소프트웨어"
   },
   {
     "id": "news-97",
@@ -1676,7 +1788,8 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Flawo.com%2Fwp-content%2Fuploads%2F2026%2F09%2FDMF_Setup_MCR_s.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Flawo.com%2Fwp-content%2Fuploads%2F2026%2F09%2FDMF_Setup_MCR_s.jpg&w=640&default=1",
+    "category": "프로오디오"
   },
   {
     "id": "news-98",
@@ -1690,6 +1803,7 @@
     "status": "published",
     "isDomestic": false,
     "date": "2026-09-24",
-    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.audinate.com%2Fwp-content%2Fuploads%2F2026%2F09%2Faudinate-ibc-2026.jpg&w=640&default=1"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.audinate.com%2Fwp-content%2Fuploads%2F2026%2F09%2Faudinate-ibc-2026.jpg&w=640&default=1",
+    "category": "프로오디오"
   }
 ]
