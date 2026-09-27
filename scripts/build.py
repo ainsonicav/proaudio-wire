@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """news.json 검사 + rss.xml 생성.
 
-사용법:  python3 scripts/build.py
+사용법:
+  python3 scripts/build.py              검사 + rss.xml·sitemap.xml·n/*.html·index.html 미리보기 목록 생성
+  python3 scripts/build.py --brief      news.json 전체를 읽지 않고 중복 확인용 요약만 출력
+  python3 scripts/build.py --add FILE   FILE(새 항목 배열)을 id 붙여 news.json 맨 앞에 넣고 빌드
 - news.json 형식을 검사하고, 문제가 있으면 목록을 출력한 뒤 실패(exit 1)합니다.
-- 통과하면 rss.xml을 news.json 기준으로 새로 만듭니다.
-자동화(n8n / GitHub Actions)는 news.json만 갱신한 뒤 이 스크립트를 실행하면 됩니다.
+  (--add는 검사를 통과할 때만 news.json에 저장합니다.)
 """
 import json
 import sys
@@ -12,6 +14,8 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
+
+from pages import build_pages
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_URL = "https://news.ainsonic.com"
@@ -71,12 +75,22 @@ def ratio_report(items, days=7):
     return lines
 
 
+TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def pub(i):
+    """게시일. 행사 날짜가 게시일로 들어온 미래 날짜는 오늘로 취급."""
+    return min(i["date"], TODAY)
+
+
+def rfc822(day):
+    return format_datetime(datetime.strptime(day, "%Y-%m-%d").replace(tzinfo=timezone.utc), usegmt=True)
+
+
 def build_rss(items):
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    # 행사 날짜가 게시일로 들어온 미래 날짜는 오늘로 취급
-    pub = lambda i: min(i["date"], today)
-    items = sorted(items, key=pub, reverse=True)[:RSS_LIMIT]
-    now = format_datetime(datetime.now(timezone.utc), usegmt=True)
+    items = sorted((i for i in items if i.get("status") != "hidden"), key=pub, reverse=True)[:RSS_LIMIT]
+    # 최신 소식 날짜 기준 → 내용이 같으면 rss.xml도 그대로 (불필요한 커밋 방지)
+    now = rfc822(pub(items[0])) if items else rfc822(TODAY)
     out = [
         '<?xml version="1.0" encoding="UTF-8" ?>',
         '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
@@ -89,16 +103,15 @@ def build_rss(items):
         f"    <lastBuildDate>{now}</lastBuildDate>",
     ]
     for it in items:
-        d = datetime.strptime(pub(it), "%Y-%m-%d").replace(tzinfo=timezone.utc)
         name = it.get("productName") or it["brand"]
         title = "[{}] {} - {}".format(it["type"], it["brand"], name)
         out += [
             "",
             "    <item>",
             f"      <title>{escape(title)}</title>",
-            f"      <link>{escape(it['link'])}</link>",
+            f"      <link>{SITE_URL}/n/{escape(it['id'])}.html</link>",
             f"      <description>{escape(it['summary'])}</description>",
-            f"      <pubDate>{format_datetime(d, usegmt=True)}</pubDate>",
+            f"      <pubDate>{rfc822(pub(it))}</pubDate>",
             f'      <guid isPermaLink="false">{escape(it["id"])}</guid>',
             f"      <category>{escape(it['type'])}</category>",
             f"      <category>{escape(it.get('category', ''))}</category>",
@@ -108,16 +121,68 @@ def build_rss(items):
     return "\n".join(out)
 
 
+def brief(items, days=60):
+    """자동 업데이트용 요약: 가장 큰 id, 분류 비율, 최근 소식의 링크·제품 (중복 확인용)."""
+    nums = [int(i["id"].split("-")[-1]) for i in items if i["id"].split("-")[-1].isdigit()]
+    print(f"전체 {len(items)}건, 가장 큰 id: news-{max(nums, default=0)}")
+    for line in ratio_report(items):
+        print("분류 비율 —", line)
+    today = datetime.now(timezone.utc).date()
+    print(f"최근 {days}일 소식 (id | 게시일 | 브랜드 | 제품명 | 원문):")
+    for i in items:
+        if (today - datetime.strptime(i["date"], "%Y-%m-%d").date()).days < days:
+            print(f"{i['id']} | {i['date']} | {i['brand']} | {i.get('productName', '')} | {i['link']}")
+
+
+def add(items, path):
+    """새 항목 파일을 id 붙여 맨 앞에 넣음. 이미 있는 원문 링크는 건너뜀."""
+    new = json.loads(Path(path).read_text(encoding="utf-8"))
+    if isinstance(new, dict):
+        new = [new]
+    links = {i["link"].rstrip("/") for i in items}
+    nums = [int(i["id"].split("-")[-1]) for i in items if i["id"].split("-")[-1].isdigit()]
+    n = max(nums, default=0)
+    fresh = []
+    for it in new:
+        if str(it.get("link", "")).rstrip("/") in links:
+            print(f"  건너뜀(이미 있는 원문): {it.get('brand')} — {it.get('productName')}")
+            continue
+        links.add(str(it.get("link", "")).rstrip("/"))
+        it.setdefault("status", "published")
+        fresh.append(it)
+    # 국내 먼저, 그다음 프로오디오, 그다음 최신 날짜
+    fresh.sort(key=lambda i: i.get("date", ""), reverse=True)
+    fresh.sort(key=lambda i: (not i.get("isDomestic"), i.get("category") != "프로오디오"))
+    for k, it in enumerate(fresh):
+        it.pop("id", None)
+        fresh[k] = {"id": f"news-{n + k + 1}", **it}
+    return fresh + items, fresh
+
+
 def main():
-    items = json.loads((ROOT / "news.json").read_text(encoding="utf-8"))
+    args = sys.argv[1:]
+    path = ROOT / "news.json"
+    items = json.loads(path.read_text(encoding="utf-8"))
+    if args[:1] == ["--brief"]:
+        brief(items)
+        return
+    fresh = []
+    if args[:1] == ["--add"] and len(args) == 2:
+        items, fresh = add(items, args[1])
     errors = validate(items)
     if errors:
         print(f"news.json 검사 실패 ({len(errors)}건):")
         for e in errors:
             print("  -", e)
         sys.exit(1)
+    if fresh:
+        path.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"추가 {len(fresh)}건:")
+        for it in fresh:
+            print(f"  {it['id']} [{it['category']}/{it['type']}] {it['brand']} — {it.get('productName', '')}")
     (ROOT / "rss.xml").write_text(build_rss(items), encoding="utf-8")
-    print(f"OK: {len(items)}건 검사 통과, rss.xml 생성 (최신 {min(len(items), RSS_LIMIT)}건)")
+    changed = build_pages(ROOT, items, pub)
+    print(f"OK: {len(items)}건 검사 통과, rss.xml 생성 (최신 {min(len(items), RSS_LIMIT)}건), 검색용 파일 {changed}개 갱신")
     for line in ratio_report(items):
         print("  분류 비율 —", line)
 
