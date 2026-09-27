@@ -2,17 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PRO AUDIO WIRE - 프로오디오 신제품 소식</title>
-    <link>https://proaudio.local</link>
+    <link>https://news.ainsonic.com/</link>
+    <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 25 Sep 2026 14:02:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 04:53:46 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
+      <link>https://www.telefunken-elektroakustik.com/hey-audio-student-telefunken-factory-tour-tuesday-october-12th-2026-12pm-est/</link>
+      <description>마이크 공장 온라인(Zoom) 투어 등록 안내. 제목은 10월 6일, 본문은 10월 12일로 표기되어 날짜 불일치.</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-79</guid>
+      <category>행사</category>
+    </item>
+
+    <item>
+      <title>[행사] Sound Devices - Astral wireless</title>
+      <link>https://www.sounddevices.com/trewlapalooza-2026/</link>
+      <description>Sound Devices가 2026년 10월 2~3일 LA에서 열리는 Trewlapalooza 2026에 참가해 Astral 무선 시스템 체험 및 10월 2일 오후 2시 세션을 진행한다고 안내.</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-83</guid>
+      <category>행사</category>
+    </item>
+
+    <item>
+      <title>[신제품] Yamaha - DM5</title>
+      <link>https://kr.yamaha.com/ko/news/2026/20260911-dm5serieslaunching.html</link>
+      <description>야마하뮤직코리아가 DM7과 동일한 GUI를 채택하고 Dante를 기본 탑재한 컴팩트 디지털 믹싱 콘솔 DM5를 국내 공식 출시함. 한글 채널명 지원, 틸트 디스플레이 등을 갖춤.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-52</guid>
+      <category>신제품</category>
+    </item>
+
+    <item>
+      <title>[신제품] EAW - EAW NT119S, NT219S</title>
+      <link>https://blog.naver.com/dasansr/224408414694</link>
+      <description>EAW가 Newport 라인업 액티브 서브우퍼 NT119S(싱글 19인치)와 NT219S(듀얼 19인치)를 새로 선보였다. NT119S 최대 SPL 135dB, NT219S 142dB.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-62</guid>
+      <category>신제품</category>
+    </item>
+
+    <item>
+      <title>[신제품] 야마하뮤직코리아 - Yamaha DM5, DM5 Compact</title>
+      <link>https://blog.naver.com/dasansr/224408250136</link>
+      <description>야마하가 DM7 기반 차세대 컴팩트 디지털 믹싱 콘솔 DM5 시리즈(DM5, DM5 Compact)를 공개했다. 13.3인치 틸팅 터치스크린, 64x64 Dante I/O 지원.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-63</guid>
+      <category>신제품</category>
+    </item>
+
+    <item>
+      <title>[신제품] Focusrite - Focusrite ISA C8X</title>
+      <link>https://blog.naver.com/sound8949/224404820027</link>
+      <description>Focusrite 최초의 ISA 오디오 인터페이스 ISA C8X가 국내에 입고되어 정식 출시를 앞두고 있다. 8채널 ISA 프리앰프를 2U 랙에 담았다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-96</guid>
+      <category>신제품</category>
+    </item>
+
+    <item>
+      <title>[신제품] Waldorf - Waldorf Protein</title>
+      <link>https://blog.naver.com/sound8949/224403812295</link>
+      <description>Waldorf의 8보이스 폴리포닉 웨이브테이블 신디사이저 Protein이 사운드캣에 정식 입고되었다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-100</guid>
+      <category>신제품</category>
+    </item>
 
     <item>
       <title>[행사] Solid State Logic - SSL Live L350 Plus, ORIGIN EVO, System T S500m</title>
       <link>https://solidstatelogic.com/media/from-live-to-studio-to-broadcast-solid-state-logic-to-showcase-powerful-workflow-solutions-at-university-of-texas-at-dallas</link>
       <description>SSL이 10월 7일 오후 7시 텍사스대 댈러스에서 L350 Plus 라이브 믹싱, ORIGIN EVO 녹음, System T S500m 이머시브 믹싱을 잇는 라이브 데모 행사를 연다고 발표.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-2</guid>
+      <guid isPermaLink="false">news-2</guid>
       <category>행사</category>
     </item>
 
@@ -21,7 +85,7 @@
       <link>https://newsroom.sennheiser.com/sennheiser-auf-der-leat-con</link>
       <description>젠하이저가 함부르크 leat con(10월 6~8일)에서 핸드헬드 송신기가 추가된 Spectera 광대역 무선 시스템을 중심으로 전시한다. 파트너 SoundBase의 RF 계획 앱과 새 Remote View 기능도 함께 소개된다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-3</guid>
+      <guid isPermaLink="false">news-3</guid>
       <category>행사</category>
     </item>
 
@@ -30,7 +94,7 @@
       <link>https://codaaudio.com/events/coda-audio-deutschland-is-heading-to-leat-con-26/</link>
       <description>CODA Audio 독일 법인이 2026년 10월 6~8일 함부르크 LEaT con(스탠드 A1-B09)에 참가해 APSi-PRO, ViFORCE, WIDEBAND Cardioid 기술을 선보인다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-4</guid>
+      <guid isPermaLink="false">news-4</guid>
       <category>행사</category>
     </item>
 
@@ -39,16 +103,16 @@
       <link>https://www.ikmultimedia.com/news/?item_id=19811</link>
       <description>9월 25~27일 독일 만하임 Guitar Summit 2026에서 TONEX Board 및 기타 장비 시연.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-5</guid>
+      <guid isPermaLink="false">news-5</guid>
       <category>행사</category>
     </item>
 
     <item>
       <title>[행사] RCF / TT+ Audio - RCF / TT+ Audio</title>
       <link>https://www.rcf.it/en/-/meet-rcf-at-amsterdam-dance-event-2026</link>
-      <description>RCF와 TT+ AUDIO가 10월 21~25일 암스테르담 Room Mate Aitana Hotel에서 열리는 ADE &apos;Meet Me At The Hotel 2026&apos;에 참여.</description>
+      <description>RCF와 TT+ AUDIO가 10월 21~25일 암스테르담 Room Mate Aitana Hotel에서 열리는 ADE 'Meet Me At The Hotel 2026'에 참여.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-6</guid>
+      <guid isPermaLink="false">news-6</guid>
       <category>행사</category>
     </item>
 
@@ -57,7 +121,7 @@
       <link>https://tascam.com/us/learn/detail/96185</link>
       <description>DR-10L Pro 펌웨어 2.14 버전 공개. TASCAM Update Manager로 업데이트 가능.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-7</guid>
+      <guid isPermaLink="false">news-7</guid>
       <category>업데이트</category>
     </item>
 
@@ -66,7 +130,7 @@
       <link>https://nugenaudio.com/nugen-audio-at-ibc-2026</link>
       <description>대사 명료도/컴플라이언스 도구 DialogCheck v1.2를 IBC 2026(Pod P27)에서 공개하고 데모를 진행.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-8</guid>
+      <guid isPermaLink="false">news-8</guid>
       <category>업데이트</category>
     </item>
 
@@ -75,296 +139,234 @@
       <link>https://voidacoustics.com/insights/church-facilities-expo/</link>
       <description>2026년 9월 14~16일 미국 앨라배마주 버밍엄 Church Facilities Expo에 참가해 Demo Room L에서 최신 스피커 시연과 세션을 진행했다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-9</guid>
+      <guid isPermaLink="false">news-9</guid>
       <category>행사</category>
     </item>
 
     <item>
-      <title>[신제품] Shure - Shure Nexadyne 드럼 마이크 패키지 (스몰/프리미엄)</title>
-      <link>https://blog.naver.com/samasound/224420915533</link>
-      <description>삼아사운드 공식 블로그가 Shure Nexadyne 시리즈 중심의 드럼 마이크 패키지(스몰 7개, 프리미엄 10개 마이크 구성)를 소개함.</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-10</guid>
+      <title>[신제품] DAS Audio - MIA Series (MIA-S110, MIA-S115 등)</title>
+      <link>https://www.youtube.com/watch?v=SKZHL2pYEM0</link>
+      <description>DAS Audio가 공식 유튜브를 통해 설치용 신규 MIA 시리즈를 소개. 5~12인치 패시브 동축 포인트소스 스피커 7종과 로우프로파일 서브우퍼 MIA-S110·MIA-S115로 구성되며 INTEGRAL-MA 앰프 매트릭스용 전용 FIR 프리셋을 제공.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-53</guid>
       <category>신제품</category>
     </item>
 
     <item>
-      <title>[업데이트] RØDE - RØDECaster Video 1.4 (RØDECaster Video, RØDECaster Video S, RØDECaster Video Core)</title>
-      <link>https://rode.com/en/about/news-info/rodecaster-video-4k-capture-sync</link>
-      <description>RØDECaster Video 제품군용 무료 펌웨어 1.4가 공개되어 4K Capture Mode(UHD 멀티카메라 NDI 출력·ISO 녹화)와 Full HD Capture Mode가 추가되고 RØDECaster Sync가 전체 콘솔 제품군으로 확장됨. Premiere Pro 타임라인 내보내기도 추가.</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-11</guid>
+      <title>[업데이트] MOTU - 16A, 848, 10pre 등 MOTU 인터페이스</title>
+      <link>https://motu.com/en-us/news/motu-and-macos-golden-gate/</link>
+      <description>MOTU가 macOS Golden Gate(27.x) 출시에 따른 자사 제품 호환성 안내를 게시했다(9/15 갱신). 16A, 848, 10pre는 완전 호환으로 보이나 최종 테스트가 진행 중이며 Pro Audio V2 드라이버 설치를 권장한다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-54</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[행사] RCF / TT+ Audio - GTX 7C, GTS 16C, TTR 16KD 등</title>
-      <link>https://www.rcf.it/en/-/rcf-at-bitam-show-2026-in-madrid</link>
-      <description>10월 28~29일 마드리드 BITAM Show 2026 참가(스탠드 B2). GTX 7C 카디오이드 라인어레이 모듈과 GTS 16C 서브우퍼를 TTR 16KD 앰프로 시연.</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-12</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[업데이트] AFMG - AFMG EASE 5, IMMI, APS</title>
-      <link>https://blog.naver.com/dasansr/224420729456</link>
-      <description>AFMG가 EASE 5 설계 결과를 IMMI 환경소음 평가에 활용하는 APS(Aggregated Point Sources) 모델/워크플로우를 도입했다고 소개.</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-13</guid>
+      <title>[업데이트] RTW - TMxCore, TouchMonitor 5, TouchControl 5</title>
+      <link>https://www.rtw.com/pr-rtw-unveils-major-software-expansion-across-tmxcore-and-compact-line-at-ibc2026</link>
+      <description>RTW가 IBC2026에서 TMxCore, TouchMonitor 5, TouchControl 5용 메이저 소프트웨어 업데이트를 발표했다. LAWO HOME·Genelec IP 스피커 연동, NMOS IS-07, Prometheus/Grafana 외부 로깅, TMxCore 모니터 컨트롤, 서라운드·이머시브 계측기 등이 추가됐다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-55</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[행사] sE Electronics - sE Electronics X1 S Vocal Pack, DM3, DM2 T.N.T.</title>
-      <link>https://blog.naver.com/sound8949/224420884394</link>
-      <description>추석 한정으로 sE Electronics X1 S Vocal Pack(167,000원), DM3(74,000원), DM2 T.N.T.(64,000원)를 50% 할인 판매하는 프로모션.</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-14</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[신제품] NUGEN Audio - Post Plan, Producer Plan</title>
-      <link>https://nugenaudio.com/nugen-audio-launches-new-post-and-producer-subscriptions</link>
-      <description>플러그인 구독 상품 Post Plan(월 £49/연 £499부터)과 Producer Plan(월 £19/연 £199부터)을 출시.</description>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-15</guid>
-      <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[신제품] Sound Devices - Wave Agent X</title>
-      <link>https://www.sounddevices.com/product/wave-agent-x/</link>
-      <description>프로덕션 사운드 믹서·포스트 편집자를 위한 WAV 파일/메타데이터 관리 유틸리티 Wave Agent X(macOS·Windows)의 다운로드 페이지와 제품 페이지가 게시됨. 4GB 초과 파일, 최대 32트랙, 32채널 믹서 등을 지원.</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-16</guid>
-      <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[업데이트] d&amp;b audiotechnik - ArrayCalc System Auralization</title>
-      <link>https://www.dbaudio.com/global/en/about-db/press-news/press-releases-and-articles/22092026-db-audiotechnik-introduces-system-auralization-for-arraycalc/</link>
-      <description>시스템 설치 전 설계한 스피커 시스템을 청취해 평가하는 ArrayCalc 신규 기능 발표.</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-17</guid>
+      <title>[업데이트] RTW - Compact Line, TMxCore (External Logging &amp; Integration license)</title>
+      <link>https://www.rtw.com/pr-rtw-expands-ip-integration-with-lawo-home-and-nmos-is-07-support</link>
+      <description>RTW가 새 External Logging &amp; Integration 라이선스를 통해 Compact Line과 TMxCore에 LAWO HOME 및 NMOS IS-07 지원을 추가했다. 오디오 I/O 구성과 무관하게 전 모델에서 사용 가능하다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-56</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[신제품] Waves - Tracks Live 2.0</title>
-      <link>https://www.waves.com/downloads/release-notes</link>
-      <description>eMotion LV1과 통합되는 라이브 멀티트랙 녹음 앱 2.0 발표.</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-18</guid>
-      <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[업데이트] IK Multimedia - TONEX Tone Partner Collections</title>
-      <link>https://www.ikmultimedia.com/news/?item_id=19809</link>
-      <description>Custom Guitar Tones의 컬렉션 2종과 번들 추가로 Premium Tone Model 27종 확장.</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-19</guid>
+      <title>[업데이트] RTW - TouchControl 5, TouchMonitor 5, TMxCore</title>
+      <link>https://www.rtw.com/pr-rtw-adds-genelec-smart-ip-loudspeaker-control-to-touchcontrol-5-touchmonitor-5-and-tmxcore</link>
+      <description>RTW 장비에서 Genelec Smart IP 스피커를 네트워크로 직접 제어(레벨, 뮤트, 프리셋 호출, 스탠바이 등)할 수 있도록 지원이 추가됐다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-57</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[업데이트] Universal Audio - LUNA Studio (Moises 연동)</title>
-      <link>https://www.uaudio.com/blogs/press/ua-and-moises-bring-powerful-lyric-transcription-and-chord-extraction-features-to-luna</link>
-      <description>Moises 연동으로 LUNA Studio에 가사 전사(Lyric Transcription)와 코드 추출(Chord Extraction) 기능을 추가했다고 발표.</description>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-20</guid>
+      <title>[업데이트] RTW - TMxCore, RTW Network Display</title>
+      <link>https://www.rtw.com/pr-stagetec-integrates-rtw-tmxcore-into-its-production-environment</link>
+      <description>RTW Network Display를 통해 TMxCore 계측 화면을 STAGETEC AVATUS 환경 안에서 바로 사용할 수 있는 연동이 발표됐다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-58</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[행사] Genelec - 4000 Series, Smart IP</title>
-      <link>https://www.genelec.com/-/news/genelec-showcases-4000-series-and-smart-ip-at-infocomm-india-2026</link>
-      <description>Genelec이 인도 파트너 StageMix와 함께 9월 16~18일 뭄바이 InfoComm India 2026에서 4000 시리즈와 Smart IP 설치용 스피커를 전시.</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-21</guid>
+      <title>[행사] Telos Alliance; Fraunhofer IDMT; NUGEN Audio; RTW; Steinberg - LEAP; LMMG</title>
+      <link>https://www.telosalliance.com/LEAP-dialog-intelligibility-IBC2026</link>
+      <description>IBC2026에서 대화 명료도 측정의 공통 구현 규약과 제조사 공동 접근 발표.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-60</guid>
       <category>행사</category>
     </item>
 
     <item>
-      <title>[업데이트] Martin Audio - DISPLAY 3</title>
-      <link>https://martin-audio.com/news/press-release/martin-audio-releases-next-generation-prediction-and-optimisation-software-display</link>
-      <description>Martin Audio가 차세대 3D 음향 예측·최적화 소프트웨어 DISPLAY 3의 정식 상용 출시를 발표.</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-22</guid>
+      <title>[행사] Steinberg - Dialog Intelligibility 공동 발표 (IBC2026)</title>
+      <link>https://www.steinberg.net/press/2026/dialog-intelligibility-at-ibc/</link>
+      <description>IBC에서 대사 명료도에 관한 오디오 제조사 공동 발표.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-61</guid>
+      <category>행사</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Lawo - mc² Software Release 12.4, Power Core</title>
+      <link>https://lawo.com/lawo-highlights-mc%c2%b2-and-power-core-innovations-at-ibc2026/</link>
+      <description>IBC2026(부스 8.B90)에서 mc² 콘솔 소프트웨어 릴리스 12.4(RTA 지원, 터치 줌 팝업, HOME API 확장 등)와 Power Core 신규 소프트웨어를 선보인다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-64</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[업데이트] Apogee - Apogee plugins (Plugin Alliance versions)</title>
-      <link>https://apogeedigital.com/blog/apogee-plugins-are-moving-to-plugin-alliance/</link>
-      <description>Apogee 플러그인의 구매·다운로드·라이선스·업데이트가 Plugin Alliance로 이전되며, 기존 사용자에게는 무료 바우처가 제공됨. 새 버전은 iLok이 필요 없고 창 크기 조절(scalable windows)을 지원함.</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-23</guid>
+      <title>[신제품] Lawo - HOME Stream Share App (SSA)</title>
+      <link>https://lawo.com/lawo-unveils-home-stream-share-app-at-ibc2026/</link>
+      <description>분산 제작 환경의 미디어 교환을 위한 NMOS 기반 HOME Apps 신제품 Stream Share App을 IBC2026에서 공개.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-65</guid>
+      <category>신제품</category>
+    </item>
+
+    <item>
+      <title>[신제품] Lawo - HOME Logo Inserter, HOME Key and Fill Extractor</title>
+      <link>https://lawo.com/lawo-expands-home-apps-ecosystem-with-new-graphics-processing-applications-at-ibc2026/</link>
+      <description>IBC2026에서 HOME Apps에 HOME Logo Inserter와 HOME Key and Fill Extractor 두 가지 그래픽 처리 앱을 추가 발표.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-66</guid>
+      <category>신제품</category>
+    </item>
+
+    <item>
+      <title>[행사] Yamaha - DM5 런칭 세미나</title>
+      <link>https://kr.yamaha.com/ko/news/2026/20260910-DM5launchingseminar.html</link>
+      <description>야마하뮤직코리아가 신형 디지털 믹서 DM5 런칭 세미나를 서울, 광주, 부산에서 개최한다고 공지함. 세부 일정은 이미지로 게시.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-67</guid>
+      <category>행사</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Genelec - Smart IP</title>
+      <link>https://www.genelec.com/-/news/genelec-smart-ip-loudspeakers-new-certifications</link>
+      <description>Genelec Smart IP PoE 네트워크 스피커 제품군이 IEC 62368-1 및 UL/KC/AS/NZS 62368 안전 인증을 새로 획득.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-68</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[신제품] Neumann - KK 104 A; KK 105 A</title>
-      <link>https://newsroom.neumann.com/neumann-introduces-kk-104-a-and-kk-105-a-wireless-capsule-heads-for-sennheiser-systems</link>
-      <description>Sennheiser Spectera, EW-D/EW-DX, Digital 6000/9000용 프리미엄 콘덴서 캡슐 헤드 발표.</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-24</guid>
+      <title>[신제품] 야마하뮤직코리아 - DM5, RUio1608SB-D, RUio0804-D</title>
+      <link>https://usa.yamaha.com/news_events/2026/0910_dm5.html</link>
+      <description>Yamaha가 DM5 시리즈 디지털 믹서와 새 R 시리즈 유틸리티 I/O 장치 라인업을 발표.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-69</guid>
       <category>신제품</category>
     </item>
 
     <item>
-      <title>[행사] RØDE - RØDECaster Video, RØDECaster Video S</title>
-      <link>https://blog.naver.com/sound8949/224418662268</link>
-      <description>RØDECaster Video/S 구매 후 신청 시 PODMIC(White) 또는 Wireless ME TX를 사은품으로 증정하는 이벤트(재고 소진 시 종료).</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-25</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[행사] Focusrite - Focusrite Vocaster One STUDIO, Vocaster Two STUDIO</title>
-      <link>https://blog.naver.com/sound8949/224418615922</link>
-      <description>캣츠렌탈 써보기 서비스로 Focusrite Vocaster One/Two STUDIO 패키지를 9,900원부터 체험할 수 있는 렌탈 프로모션.</description>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-26</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[신제품] MACKIE - THUMP12V4, THUMP15V4, THUMP15SV4, THUMP18SV4</title>
-      <link>https://www.youtube.com/watch?v=a2ZGRIKRyA4</link>
-      <description>MACKIE 파워드 스피커 THUMP V4 시리즈(풀레인지 2종, 서브우퍼 2종) 국내 출시 소개 영상. SoundCheck DSP 보이싱 모드, Bluetooth, Thump Connect 2 앱 제어를 지원한다.</description>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-27</guid>
-      <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[행사] Genelec - 8380A</title>
-      <link>https://www.genelec.com/-/news/genelec-wraps-successful-ibc-2026-in-amsterdam</link>
-      <description>Genelec이 IBC 2026(9월 11~14일)에서 8380A 기반 7.1.4 Dolby Atmos 시스템 등 방송·OB 모니터링 솔루션을 선보인 결과를 정리.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-28</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[행사] Wharfedale Pro - XLA Series, WLA-1 Series</title>
-      <link>https://wharfedalepro.com/sound-republic-showcase-xla-series-in-surat-thani/</link>
-      <description>태국 공식 유통사 Sound Republic이 수랏타니에서 딜러·업계 관계자 대상 행사를 열고 Wharfedale Pro XLA 및 WLA-1 라인어레이 시스템을 시연했다는 행사 결과 소식.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-29</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[신제품] PROEL - PROEL</title>
-      <link>https://www.youtube.com/watch?v=bNjcXqx3GnY</link>
-      <description>디지털하이테크가 PROEL의 한국 총판이 되어 앞으로 PROEL 음향 제품과 소식을 국내에 소개할 예정이라고 알렸다.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-30</guid>
-      <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[행사] Sennheiser Group (Sennheiser, Neumann) - Neumann KH 350, TeamConnect Ceiling Medium Plus</title>
-      <link>https://newsroom.sennheiser.com/sennheiser-group-visar-upp-sina-senaste-ljudlosningar-pa-llb-expo-2026</link>
-      <description>젠하이저 그룹이 북유럽 음향·조명·AV 전시회 LLB Expo 2026(부스 B08:48)에 참가해 Neumann 신형 스튜디오 모니터 KH 350, 광대역 무선 기술 등을 시연한다.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-31</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[신제품] IK Multimedia - ReSing Voices Vol 2 Producer’s Pack</title>
-      <link>https://www.ikmultimedia.com/news/?item_id=19790</link>
-      <description>ReSing용 영어 가수 음성 모델 10종 확장팩 출시.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-32</guid>
-      <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[행사] Sonarworks - SoundID Reference, SoundID VoiceAI</title>
-      <link>https://blog.naver.com/sound8949/224414667185</link>
-      <description>Sonarworks SoundID Reference, SoundID VoiceAI 등을 2026년 9월 17일~10월 5일 최대 37% 할인하는 AUTUMN SALE.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-33</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[행사] Void Acoustics - Void Acoustics</title>
-      <link>https://voidacoustics.com/insights/la-feria-de-diseno/</link>
-      <description>2026년 9월 10~12일 콜롬비아 파트너 VIVO와 함께 La Feria de Diseño Medellín(Booth AZ 19.3)에 참가.</description>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-34</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Genelec / AMX - Smart IP driver for AMX MUSE</title>
-      <link>https://www.genelec.com/-/news/genelec-and-amx-announce-smart-ip-integration-via-new-amx-muse-driver</link>
-      <description>Genelec과 AMX가 Smart IP 스피커를 AMX MUSE 자동화 플랫폼에서 제어·모니터링할 수 있는 새 드라이버를 출시.</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-35</guid>
+      <title>[업데이트] Yamaha - DM7</title>
+      <link>https://usa.yamaha.com/news_events/2026/0910_dm7_v20.html</link>
+      <description>Yamaha가 DM7 시리즈 디지털 믹싱 콘솔용 V2.0 펌웨어 및 관련 소프트웨어 업데이트를 공개.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-70</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[업데이트] Powersoft - ArmoníaPlus 3.0</title>
-      <link>https://www.powersoft.com/en/news/powersoft-armoniaplus-3-0-goes-multi-platform-with-native-macos-support</link>
-      <description>Powersoft가 시스템 관리 소프트웨어 ArmoníaPlus 3.0을 공개했다. Apple Silicon macOS 네이티브 지원이 추가되고 대규모 시스템 작업 응답성과 Interactive Tuning이 개선됐다.</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-36</guid>
+      <title>[업데이트] Yamaha - DM3</title>
+      <link>https://usa.yamaha.com/news_events/2026/0910_dm3_v31.html</link>
+      <description>DM3 V3.1 펌웨어로 새 RUio1608SB-D, RUio0804-D 유틸리티 I/O 지원 및 Ri8/Ro8의 Dante 자동 설정 지원, 안정성 개선.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-71</guid>
       <category>업데이트</category>
     </item>
 
     <item>
-      <title>[신제품] AREAL - AREAL Immersive Audio 솔루션</title>
-      <link>https://blog.naver.com/koil_corp/224413710183</link>
-      <description>고일이 이머시브 오디오 하드웨어/소프트웨어 기업 AREAL의 국내 공식 디스트리뷰터 계약을 맺고 AREAL 솔루션을 국내에 소개한다고 밝혔다.</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-37</guid>
+      <title>[업데이트] Yamaha - DM7, DM5</title>
+      <link>https://usa.yamaha.com/news_events/2026/0910_dm7_dm5_third_party.html</link>
+      <description>DM7/DM5 V2.0 펌웨어와 함께 Audio-Technica, DirectOut, STAGETEC과의 서드파티 연동을 확대.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-72</guid>
+      <category>업데이트</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Yamaha - ProVisionaire Design V3.2.0, Control PLUS/Kiosk V3.2.0, Edge V1.4.0</title>
+      <link>https://usa.yamaha.com/news_events/2026/0910_provisionaire_update.html</link>
+      <description>ProVisionaire Design/Control PLUS/Kiosk V3.2.0, Edge V1.4.0 공개. DM5 시리즈 지원 및 사용성 개선.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-73</guid>
+      <category>업데이트</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Dolby - Dolby OptiView, Dolby OptiView Sports Intelligence</title>
+      <link>https://news.dolby.com/en-WW/270399-dolby-expands-dolby-optiview-platform-with-new-capabilities-at-ibc-2026/</link>
+      <description>Dolby가 IBC 2026을 앞두고 라이브 스포츠 플랫폼 Dolby OptiView에 AI 기반 Sports Intelligence, Dolby Vision 지원, OptiView Ads 개선 등 주요 업데이트를 발표.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-74</guid>
+      <category>업데이트</category>
+    </item>
+
+    <item>
+      <title>[신제품] Sennheiser - Spectera SKM</title>
+      <link>https://newsroom.sennheiser.com/sennheisers-spectera-handheld-transmitter-is-now-shipping</link>
+      <description>젠하이저가 Spectera 광대역 무선 생태계용 SKM 핸드헬드 송신기 출하를 시작했다. 라이브, 공연, 방송, 종교시설용으로 베이스 스테이션과 양방향 통신해 원격 모니터링·설정이 가능하다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-75</guid>
       <category>신제품</category>
     </item>
 
     <item>
-      <title>[신제품] DiGiCo - DiGiCo Quantum 112</title>
-      <link>http://ingangaudio.com/ignews/?idx=174214650&amp;bmode=view</link>
-      <description>인강오디오가 테크데이타피에스에 이어 DiGiCo Quantum 112 공식 대리점으로 새로 합류해 국내 제품 상담과 기술 지원을 제공한다고 안내(국내 취급 개시).</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-38</guid>
+      <title>[신제품] Neumann - KH 310 II; KH 350</title>
+      <link>https://newsroom.neumann.com/neumann-expands-its-3-way-monitoring-portfolio-with-the-kh-310-ii-and-kh-350</link>
+      <description>DSP와 MA 1 자동 모니터 정렬을 지원하는 차세대 3웨이 스튜디오 모니터 2종 발표.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-76</guid>
       <category>신제품</category>
     </item>
 
     <item>
-      <title>[신제품] Electro-Voice - EVIDn</title>
-      <link>https://www.electrovoice.com/articles/news/2026/electro-voice-presents-evidn</link>
-      <description>PoE+ 기반 네트워크 설치용 스피커 제품군 EVIDn(천장·표면·펜던트 9개 모델)을 Integrate Expo 2026 시드니에서 세계 최초 공개. 2027년 초부터 순차 출시(본문 날짜는 &quot;Sep 2026&quot;, 일자는 CMS 게시 메타 기준).</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-39</guid>
-      <category>신제품</category>
+      <title>[업데이트] Steinberg - VST Live 3.0.60</title>
+      <link>https://forums.steinberg.net/t/vst-live-3-0-60-is-available-now/1040969</link>
+      <description>안정성, 워크플로, 버그 수정 및 새 기능을 포함한 유지보수 업데이트.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-77</guid>
+      <category>업데이트</category>
     </item>
 
     <item>
-      <title>[행사] Electro-Voice, Dynacord - EVIDn</title>
-      <link>https://www.electrovoice.com/articles/event/integrate-sydney</link>
-      <description>9월 Integrate Expo 2026 시드니에 호주·뉴질랜드 파트너 Jands와 참가해 EVIDn을 선보였고, Jands를 EV/Dynacord 독점 유통사로 지정. (일자는 CMS 게시 메타 기준)</description>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-40</guid>
+      <title>[행사] Alcons Audio - CRMSQ / CRMSC-SRHV</title>
+      <link>https://www.alconsaudio.com/pro-ribbon-immersive-experience-drives-successful-cedia-2026/</link>
+      <description>CEDIA Expo 2026에서 13.8.6채널 Pro-Ribbon Immersive Experience 시연과 수상 소식.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-78</guid>
       <category>행사</category>
     </item>
 
     <item>
-      <title>[업데이트] AlphaTheta - OneLibrary (VirtualDJ 지원)</title>
-      <link>https://alphatheta.com/en/information/virtualdj-officially-supports-onelibrary/</link>
-      <description>VirtualDJ가 DJ 음악 라이브러리 포맷 OneLibrary를 지원하게 되어, VirtualDJ 컬렉션을 USB로 내보내 CDJ-3000X, CDJ-1500X, XDJ-AZ, XDJ-AN, OPUS-QUAD, OMNIS-DUO에서 사용할 수 있다.</description>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <guid>news-41</guid>
-      <category>업데이트</category>
+      <title>[행사] Telefunken - Supernova Ska Festival 공식 마이크 스폰서</title>
+      <link>https://www.telefunken-elektroakustik.com/telefunken-elektroakustik-returns-to-supernova-ska-festival-as-official-microphone-sponsor-for-2026/</link>
+      <description>9월 12~13일 버지니아 Fort Monroe에서 열리는 Supernova 스카 페스티벌에 공식 마이크 스폰서로 참여해 두 무대에 마이크를 공급.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-80</guid>
+      <category>행사</category>
     </item>
+
+    <item>
+      <title>[신제품] TASCAM - SS-R300N</title>
+      <link>https://tascam.com/us/learn/detail/96097</link>
+      <description>설치용 네트워크 지원 솔리드스테이트 레코더/플레이어 SS-R300N을 발표했다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-81</guid>
+      <category>신제품</category>
+    </item>
+
   </channel>
 </rss>
