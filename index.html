@@ -480,6 +480,8 @@
     .news-table tr.main-row:hover {
       background-color: #f8fafc;
     }
+    .news-table tr.main-row.from-link { animation: linkFlash 2.4s ease; }
+    @keyframes linkFlash { 0%, 40% { background: #ffe4e6; } 100% { background: #fff1f2; } }
     .news-table tr.main-row.active {
       background-color: #fff1f2;
       border-left: 3px solid var(--accent);
@@ -1357,11 +1359,27 @@
         computeLatestDate();
         renderFeatured();
         renderTable();
+        openFromLink();
       } catch (err) {
         console.error('news.json 불러오기 실패:', err);
         totalCountText.innerText = '';
         newsTableBody.innerHTML = '<tr><td colspan="6" style="text-align:center; padding:2.5rem; color:var(--text-muted);">소식을 불러오지 못했습니다. 잠시 후 새로고침해 주세요.</td></tr>';
       }
+    }
+
+    // 메일·메신저 링크(?n=news-100)로 들어오면 그 소식을 펼쳐서 보여줌
+    function openFromLink() {
+      const id = new URLSearchParams(location.search).get('n');
+      if (!id) return;
+      const idx = newsData.findIndex(i => i.id === id);
+      if (idx < 0) return;
+      // 처음 열릴 때 아카이브는 전체보기 순서 그대로이므로 같은 순번의 행을 펼침
+      const rowId = `row-${idx}`, expandId = `expand-${idx}`;
+      if (!document.getElementById(rowId)) return;
+      handleRowClick(rowId, expandId);
+      const row = document.getElementById(rowId);
+      row.classList.add('from-link');
+      setTimeout(() => row.scrollIntoView({ behavior: 'smooth', block: 'center' }), 150);
     }
 
     loadNews();
