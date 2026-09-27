@@ -39,7 +39,12 @@ BAD_HINTS = ("logo", "favicon", "default-og", "og-default", "placeholder", "blan
 # 검색 결과에서 제외할 사이트 (무료 사진·배경화면·핀 모음 등 제품과 무관한 이미지가 많음)
 BAD_SITES = ("pexels.com", "unsplash.com", "pixabay.com", "wallpaper", "shutterstock", "istockphoto",
              "gettyimages", "pinterest", "pinimg.com", "freepik", "dreamstime", "123rf", "alamy",
-             "depositphotos", "vecteezy", "clipart", "wikimedia.org/wikipedia/commons/thumb")
+             "depositphotos", "vecteezy", "clipart", "wikimedia.org/wikipedia/commons/thumb", "wallup",
+             "facts.net", "srcdn.com", "wallhaven", "hdqwalls", "nature", "travel")
+# 브랜드명만으로 찾을 때는 음향 관련 단어가 함께 있어야 함
+AUDIO_WORDS = ("audio", "sound", "mic", "speaker", "mixer", "console", "plugin", "plug-in", "headphone",
+               "interface", "studio", "monitor", "amplifier", "amp", "wireless", "loudspeaker", "daw",
+               "synth", "recording", "broadcast", "pro audio", "음향", "스피커", "마이크")
 GOOGLE_KEY = os.environ.get("GOOGLE_API_KEY", "").strip()
 GOOGLE_CX = os.environ.get("GOOGLE_CSE_ID", "").strip()
 stats = {"original": 0, "reader": 0, "body": 0, "google": 0, "duckduckgo": 0, "bing": 0, "none": 0}
@@ -133,13 +138,14 @@ def images_from_html(base, html, it):
     if p.image_src:
         meta.append(urllib.parse.urljoin(base, p.image_src))
     body = []
-    toks = product_tokens(it) + brand_tokens(first_brand(it))
+    ptoks, btoks = product_tokens(it), brand_tokens(first_brand(it))
     for src, w, alt in p.imgs:
         full = urllib.parse.urljoin(base, src)
         if bad_image(full) or (w and w < 250):
             continue
-        hay = (urllib.parse.unquote(full) + " " + alt).lower().replace("_", " ").replace("-", " ")
-        if any(t in hay for t in toks):
+        u = urllib.parse.urlparse(full)  # 도메인은 빼고 파일 경로·설명만 봄
+        hay = (urllib.parse.unquote(u.path + " " + u.query) + " " + alt).lower().replace("_", " ").replace("-", " ")
+        if (ptoks and any(t in hay for t in ptoks)) or (not ptoks and all(t in hay for t in btoks)):
             body.append(full)
     return [m for m in meta if not bad_image(m)], body
 
@@ -183,7 +189,8 @@ def product_tokens(it):
     prod = re.split(r"[,;/(]| 및 | and ", it.get("productName") or "")[0].lower()
     words = re.sub(r"[^0-9a-z가-힣ø.]+", " ", prod.replace(brand, " ")).split()
     stop = {"the", "for", "new", "series", "update", "firmware", "version", "plugin", "plugins",
-            "공동", "발표", "업데이트", "신제품", "시리즈", "패키지", "종"}
+            "software", "release", "system", "license", "공동", "발표", "업데이트", "신제품", "시리즈",
+            "패키지", "플러그인", "인터페이스", "펌웨어", "소프트웨어"}
     return [w.strip(".") for w in words if len(w.strip(".")) >= 3 and w not in stop and not re.fullmatch(r"v?[\d.]+", w)]
 
 
@@ -200,6 +207,7 @@ def brand_tokens(brand):
     return [t for t in b if len(t) >= 2] or [brand.lower()]
 
 
+
 RELEVANCE = {"toks": []}
 
 
@@ -209,10 +217,12 @@ def relevant(brand, *texts):
     if any(b in blob for b in BAD_SITES):
         return False
     btoks = brand_tokens(brand)
-    if not (any(t in blob for t in btoks) or brand.lower().replace("ø", "o") in blob):
+    if not (all(t in blob for t in btoks) or brand.lower().replace("ø", "o") in blob):
         return False
     ptoks = RELEVANCE["toks"]
-    return not ptoks or any(t in blob for t in ptoks)
+    if ptoks:
+        return any(t in blob for t in ptoks)
+    return any(w in blob for w in AUDIO_WORDS)
 
 
 def search_google(q, brand):
