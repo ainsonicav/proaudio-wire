@@ -710,6 +710,25 @@
     @media (min-width: 641px) { .mobile-menu { display: none !important; } }
     #featured-section, #archive-section { scroll-margin-top: 76px; }
 
+    /* 알림 받기 창: 내용이 길어지면 창 안에서 스크롤 */
+    .modal-box { max-height: calc(100vh - 2rem); overflow-y: auto; }
+    .rss-help { margin-top: 0.7rem; font-size: 0.8rem; color: #334155; }
+    .rss-help summary {
+      cursor: pointer; font-weight: 600; color: var(--accent);
+      list-style: none; padding: 0.3rem 0;
+    }
+    .rss-help summary::-webkit-details-marker { display: none; }
+    .rss-help summary::before { content: "▸ "; }
+    .rss-help[open] summary::before { content: "▾ "; }
+    .rss-help-body {
+      background: #fff; border: 1px solid var(--surface-border); border-radius: 6px;
+      padding: 0.7rem 0.8rem; margin-top: 0.3rem; line-height: 1.6; word-break: keep-all;
+    }
+    .rss-help-body p { margin-bottom: 0.5rem; }
+    .rss-help-body ul { margin: 0 0 0.5rem 1.1rem; }
+    .rss-help-body li { margin-bottom: 0.3rem; }
+    .rss-help-note { color: #64748b; font-size: 0.75rem; margin-bottom: 0 !important; }
+
     /* ===== 모바일 (폰) : 좌우 잘림·어색한 줄바꿈 방지 ===== */
     html, body { max-width: 100%; overflow-x: hidden; }
     @media (max-width: 640px) {
@@ -999,13 +1018,45 @@
         <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">📡 RSS 피드 주소</div>
         <div style="display:flex; gap:0.4rem; margin-top:0.4rem;">
           <input type="text" value="https://news.ainsonic.com/rss.xml" readonly id="rssUrlInput" style="flex:1; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:0.45rem; border-radius:5px; font-size:0.8rem;">
-          <button onclick="navigator.clipboard.writeText(window.location.origin + '/rss.xml'); alert('RSS 주소가 복사되었습니다!');" style="background:var(--accent); color:#fff; border:none; padding:0.45rem 0.8rem; border-radius:5px; cursor:pointer; font-weight:600; font-size:0.8rem;">복사</button>
+          <button onclick="copyRssUrl()" style="background:var(--accent); color:#fff; border:none; padding:0.45rem 0.8rem; border-radius:5px; cursor:pointer; font-weight:600; font-size:0.8rem;">복사</button>
         </div>
+
+        <details class="rss-help">
+          <summary>RSS는 어떻게 쓰나요?</summary>
+          <div class="rss-help-body">
+            <p><strong>1. 주소 복사</strong><br>위 <b>복사</b> 버튼을 누르면 RSS 주소가 복사됩니다.</p>
+            <p><strong>2. 붙여넣을 곳 고르기</strong></p>
+            <ul>
+              <li><b>피드 구독 앱</b> (Feedly, Inoreader 등): "구독 추가"나 "+ Follow"에 붙여넣으면 새 소식이 앱에 자동으로 올라옵니다.</li>
+              <li><b>업무 메신저</b> (슬랙, 팀즈 등): RSS 연동 기능에 주소를 넣으면 채널로 새 소식이 들어옵니다.</li>
+              <li><b>내 홈페이지</b>: RSS 위젯에 넣으면 PRO AUDIO WIRE 최신 소식 목록을 띄울 수 있습니다.</li>
+            </ul>
+            <p><strong>3. 끝!</strong><br>새 소식이 올라올 때마다 자동으로 갱신됩니다(최신 40건). 따로 관리할 필요가 없습니다.</p>
+            <p class="rss-help-note">※ 상단의 📡 RSS 버튼은 피드 파일을 직접 여는 버튼이라 코드처럼 보일 수 있습니다. 구독할 때는 위 주소를 복사해 쓰세요.</p>
+          </div>
+        </details>
       </div>
     </div>
   </div>
 
   <script>
+    function copyRssUrl() {
+      const input = document.getElementById('rssUrlInput');
+      const url = input.value;
+      const done = () => alert('RSS 주소가 복사되었습니다!\n' + url);
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(url).then(done, fallback);
+      } else {
+        fallback();
+      }
+      function fallback() {
+        input.focus(); input.select(); input.setSelectionRange(0, url.length);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+        if (ok) done(); else alert('자동 복사가 안 되는 브라우저입니다.\n주소 칸을 길게 눌러 복사해 주세요:\n' + url);
+      }
+    }
+
     let newsData = [];
     let currentFilter = 'all';
     let searchQuery = '';
