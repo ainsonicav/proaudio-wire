@@ -34,7 +34,12 @@ RETRY_DAYS = 3
 MAX_PER_RUN = 120
 META_KEYS = ["og:image:secure_url", "og:image", "og:image:url", "twitter:image", "twitter:image:src"]
 BAD_HINTS = ("logo", "favicon", "default-og", "og-default", "placeholder", "blank.", "sprite",
-             "icon", "avatar", "banner-ad", "1x1", "pixel", ".svg", "gravatar")
+             "icon", "avatar", "banner-ad", "1x1", "pixel", ".svg", "gravatar", "/flags/", "flag_",
+             "localization", "store_switcher", "submenu", "/menu", "language", "country")
+# 검색 결과에서 제외할 사이트 (무료 사진·배경화면·핀 모음 등 제품과 무관한 이미지가 많음)
+BAD_SITES = ("pexels.com", "unsplash.com", "pixabay.com", "wallpaper", "shutterstock", "istockphoto",
+             "gettyimages", "pinterest", "pinimg.com", "freepik", "dreamstime", "123rf", "alamy",
+             "depositphotos", "vecteezy", "clipart", "wikimedia.org/wikipedia/commons/thumb")
 GOOGLE_KEY = os.environ.get("GOOGLE_API_KEY", "").strip()
 GOOGLE_CX = os.environ.get("GOOGLE_CSE_ID", "").strip()
 stats = {"original": 0, "reader": 0, "body": 0, "google": 0, "duckduckgo": 0, "bing": 0, "none": 0}
@@ -90,7 +95,7 @@ class PageParser(HTMLParser):
                 self.meta[key] = a["content"].strip()
         elif tag == "link" and a.get("rel", "").lower() == "image_src" and a.get("href"):
             self.image_src = a["href"].strip()
-        elif tag == "img" and len(self.imgs) < 60:
+        elif tag == "img" and len(self.imgs) < 80:
             src = a.get("data-src") or a.get("data-lazy-src") or a.get("src") or ""
             if not src and a.get("srcset"):
                 src = a["srcset"].split(",")[-1].strip().split(" ")[0]
@@ -99,7 +104,7 @@ class PageParser(HTMLParser):
             except ValueError:
                 w = 0
             if src and not src.startswith("data:"):
-                self.imgs.append((src.strip(), w))
+                self.imgs.append((src.strip(), w, (a.get("alt") or a.get("title") or "").strip()))
 
 
 def page_url(link):
@@ -117,8 +122,8 @@ def youtube_thumb(link):
     return f"https://i.ytimg.com/vi/{m.group(1)}/hqdefault.jpg" if m else None
 
 
-def images_from_html(base, html):
-    """(대표 이미지 후보들, 본문 사진 후보들)"""
+def images_from_html(base, html, it):
+    """(대표 이미지 후보들, 본문 사진 후보들). 본문 사진은 파일명·설명에 브랜드/제품명이 있는 것만."""
     p = PageParser()
     try:
         p.feed(html)
@@ -128,16 +133,19 @@ def images_from_html(base, html):
     if p.image_src:
         meta.append(urllib.parse.urljoin(base, p.image_src))
     body = []
-    for src, w in p.imgs:
+    toks = product_tokens(it) + brand_tokens(first_brand(it))
+    for src, w, alt in p.imgs:
         full = urllib.parse.urljoin(base, src)
         if bad_image(full) or (w and w < 250):
             continue
-        if re.search(r"\.(jpe?g|png|webp)(\?|$)", full.lower()) or "upload" in full.lower():
+        hay = (urllib.parse.unquote(full) + " " + alt).lower().replace("_", " ").replace("-", " ")
+        if any(t in hay for t in toks):
             body.append(full)
     return [m for m in meta if not bad_image(m)], body
 
 
-def from_original(link):
+def from_original(it):
+    link = it["link"]
     yt = youtube_thumb(link)
     if yt:
         return [("original", yt)]
@@ -155,20 +163,33 @@ def from_original(link):
         try:
             _, _, html = get_text("https://r.jina.ai/" + url, {"X-Return-Format": "html"})
             base = url
-            meta, body = images_from_html(base, html)
+            meta, body = images_from_html(base, html, it)
             return [("reader", m) for m in meta] + [("body", b) for b in body[:3]]
         except Exception:  # noqa: BLE001
             return []
-    meta, body = images_from_html(base, html)
+    meta, body = images_from_html(base, html, it)
     cands += [("original", m) for m in meta]
     cands += [("body", b) for b in body[:3]]
     return cands
 
 
 # ---------- 4단계: 이미지 검색 ----------
+def first_brand(it):
+    return re.split(r"[;,]", it.get("brand") or "")[0].strip()
+
+
+def product_tokens(it):
+    brand = first_brand(it).lower()
+    prod = re.split(r"[,;/(]| 및 | and ", it.get("productName") or "")[0].lower()
+    words = re.sub(r"[^0-9a-z가-힣ø.]+", " ", prod.replace(brand, " ")).split()
+    stop = {"the", "for", "new", "series", "update", "firmware", "version", "plugin", "plugins",
+            "공동", "발표", "업데이트", "신제품", "시리즈", "패키지", "종"}
+    return [w.strip(".") for w in words if len(w.strip(".")) >= 3 and w not in stop and not re.fullmatch(r"v?[\d.]+", w)]
+
+
 def search_query(it):
-    brand = (it.get("brand") or "").strip()
-    prod = re.split(r"[,/(]| 및 | and ", it.get("productName") or "")[0].strip()
+    brand = first_brand(it)
+    prod = re.split(r"[,;/(]| 및 | and ", it.get("productName") or "")[0].strip()
     if prod.lower().startswith(brand.lower()):
         prod = prod[len(brand):].strip()
     return f"{brand} {prod}".strip(), brand
@@ -179,10 +200,19 @@ def brand_tokens(brand):
     return [t for t in b if len(t) >= 2] or [brand.lower()]
 
 
+RELEVANCE = {"toks": []}
+
+
 def relevant(brand, *texts):
-    blob = " ".join(texts).lower()
-    toks = brand_tokens(brand)
-    return any(t in blob for t in toks) or brand.lower().replace("ø", "o") in blob
+    """브랜드명이 있어야 하고, 제품명 단어가 있으면 그중 하나도 있어야 함. 사진 모음 사이트는 제외."""
+    blob = urllib.parse.unquote(" ".join(texts)).lower().replace("_", " ").replace("-", " ")
+    if any(b in blob for b in BAD_SITES):
+        return False
+    btoks = brand_tokens(brand)
+    if not (any(t in blob for t in btoks) or brand.lower().replace("ø", "o") in blob):
+        return False
+    ptoks = RELEVANCE["toks"]
+    return not ptoks or any(t in blob for t in ptoks)
 
 
 def search_google(q, brand):
@@ -242,26 +272,36 @@ def from_search(it):
     q, brand = search_query(it)
     if not brand:
         return []
-    for fn in (search_google, search_ddg, search_bing):
-        try:
-            c = [x for x in fn(q, brand) if not bad_image(x[1]) or "bing.net" in x[1] or "ytimg" in x[1]]
-        except Exception as e:  # noqa: BLE001
-            print(f"    {fn.__name__} 실패: {type(e).__name__}: {str(e)[:60]}")
-            c = []
-        if c:
-            return c
-        time.sleep(1)
-    return []
+    # 4-a) 브랜드+제품명으로 검색, 제품명 단어까지 맞는 결과만
+    # 4-b) 없으면 "브랜드 audio"로 검색해 그 브랜드의 대표 제품 사진 (맥락상 관련 이미지)
+    for query, toks in ((q, product_tokens(it)), (f"{brand} audio", [])):
+        RELEVANCE["toks"] = toks
+        for fn in (search_google, search_ddg, search_bing):
+            try:
+                c = [x for x in fn(query, brand) if not bad_image(x[1]) or "bing.net" in x[1] or "ytimg" in x[1]]
+            except Exception as e:  # noqa: BLE001
+                print(f"    {fn.__name__} 실패: {type(e).__name__}: {str(e)[:60]}")
+                c = []
+            if c:
+                yield from c
+            time.sleep(1)
 
 
 # ---------- 실행 ----------
-def pick(cands):
+USED = {}  # 이미지 주소 → 이미 쓰인 소식의 제품명 (다른 제품에 같은 사진이면 사이트 공통 이미지로 보고 제외)
+
+
+def pick(cands, it):
     seen = set()
+    key = (it.get("productName") or it.get("id")).lower()
     for src, img in cands:
         if img in seen:
             continue
         seen.add(img)
+        if img in USED and USED[img] != key:
+            continue
         if image_works(img):
+            USED[img] = key
             return src, img
     return None, None
 
@@ -269,6 +309,10 @@ def pick(cands):
 def main():
     items = json.loads(NEWS.read_text(encoding="utf-8"))
     today = date.today()
+    for it in items:
+        if it.get("imageUrl"):
+            m = re.search(r"url=([^&]+)", it["imageUrl"])
+            USED[urllib.parse.unquote(m.group(1)) if m else it["imageUrl"]] = (it.get("productName") or it["id"]).lower()
     todo = []
     for it in items:
         it.pop("imageChecked", None)  # 옛 버전 표시 정리
@@ -285,12 +329,12 @@ def main():
 
     changed = False
     for it in todo[:MAX_PER_RUN]:
-        src, img = pick(from_original(it["link"]))
+        src, img = pick(from_original(it), it)
         if not img:
-            src, img = pick(from_search(it))
+            src, img = pick(from_search(it), it)
         if img:
             it["imageUrl"] = proxied(img)
-            it["imageSource"] = "search" if src in ("google", "duckduckgo", "bing") else "original"
+            it["imageSource"] = "search" if src in ("google", "duckduckgo", "bing") else ("body" if src == "body" else "original")
             it.pop("imageTried", None)
             stats[src] += 1
             print(f"  {it['id']}: [{src}] {img[:100]}")
