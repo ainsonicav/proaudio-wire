@@ -638,6 +638,65 @@
       .expand-content-wrapper { flex-direction: column; }
       .expand-thumb { width: 100%; height: 130px; }
     }
+
+    /* ===== 모바일 (폰) : 좌우 잘림·어색한 줄바꿈 방지 ===== */
+    html, body { max-width: 100%; overflow-x: hidden; }
+    @media (max-width: 640px) {
+      .header-inner { padding: 0.6rem 1rem; gap: 0.6rem; }
+      .brand-title { font-size: 1.1rem; }
+      .btn-action { padding: 0.38rem 0.7rem; font-size: 0.8rem; }
+      .nav-item { padding: 0.35rem 0.6rem; font-size: 0.8rem; }
+      .container { padding: 0 1rem; margin-top: 1.1rem; }
+
+      .section-header { flex-wrap: wrap; row-gap: 0.3rem; }
+      .section-header > div { flex-wrap: wrap; row-gap: 0.3rem; min-width: 0; }
+      .section-tip { display: none; }
+      #totalCountText { white-space: nowrap; }
+
+      .table-controls { padding: 0.65rem 0.75rem; }
+      .tab-group { flex-shrink: 1; min-width: 0; flex-wrap: wrap; gap: 0.3rem; }
+      .filter-btn { padding: 0.32rem 0.6rem; font-size: 0.8rem; }
+
+      /* 표 → 카드형 목록 */
+      .news-table, .news-table tbody { display: block; width: 100%; }
+      .news-table thead { display: none; }
+      .news-table tr.main-row {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas: "type date toggle" "product product product" "brand brand brand";
+        align-items: center;
+        column-gap: 0.55rem;
+        row-gap: 0.2rem;
+        padding: 0.75rem 0.9rem;
+        border-bottom: 1px solid #eef2f6;
+      }
+      .news-table tr.main-row.active { border-left-width: 3px; }
+      .news-table td { display: block; width: auto !important; padding: 0 !important; border: none; }
+      .news-table td.col-type { grid-area: type; text-align: left !important; }
+      .news-table td.col-date { grid-area: date; font-size: 0.78rem; }
+      .news-table td.col-toggle { grid-area: toggle; display: block !important; }
+      .news-table td.col-product { grid-area: product; }
+      .news-table td.col-brand { grid-area: brand; display: block !important; font-size: 0.78rem; font-weight: 500; color: #64748b; }
+      .news-table td.col-title { display: none !important; }
+      .product-cell-text { align-items: flex-start; }
+      .product-name-span {
+        white-space: normal;
+        display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+        font-size: 0.93rem; line-height: 1.4;
+      }
+      .mini-kr { margin-top: 0.15rem; }
+
+      .table-expand-row.active { display: block; }
+      .news-table td.table-expand-cell { display: block; padding: 0.9rem 0.9rem 1.1rem !important; border-bottom: 2px solid var(--surface-border); }
+      .expand-info h4, .expand-info-summary, .expand-summary, .product-name-span, .product-title { word-break: keep-all; overflow-wrap: anywhere; }
+      .expand-info { min-width: 0; }
+      .expand-info h4 { font-size: 0.98rem; }
+      .expand-thumb { height: 150px; }
+      .btn-table-out { width: 100%; justify-content: center; }
+
+      .modal-overlay { padding: 1rem; }
+      .modal-box { padding: 1.4rem 1.2rem; }
+    }
   
     /* 법적 고지 및 푸터 스타일 */
     footer {
