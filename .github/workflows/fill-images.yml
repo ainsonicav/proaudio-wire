@@ -1,0 +1,49 @@
+name: 소식 사진 자동 채우기
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "news.json"
+      - "scripts/fill_images.py"
+      - ".github/workflows/fill-images.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fill-images
+  cancel-in-progress: false
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 사진 없는 소식의 원문에서 대표 이미지 찾기
+        run: python3 scripts/fill_images.py
+
+      - name: 형식 검사 + RSS 갱신
+        run: python3 scripts/build.py
+
+      - name: 바뀐 내용 반영
+        run: |
+          if git diff --quiet -- news.json rss.xml; then
+            echo "바뀐 내용 없음"; exit 0
+          fi
+          git config user.name "proaudio-wire-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news.json rss.xml
+          git commit -m "소식 사진 자동 채우기"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "::error::푸시 실패 (다른 업데이트와 겹침). 다음 실행 때 다시 시도합니다."
+          exit 1

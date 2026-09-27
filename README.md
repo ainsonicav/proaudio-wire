@@ -38,3 +38,9 @@ PRO AUDIO WIRE — https://news.ainsonic.com (GitHub Pages)
 
 - `date`는 **게시일**입니다. 행사 개최일은 summary에 적어 주세요.
 - `status`를 `hidden`으로 바꾸면 사이트에서 숨겨집니다.
+
+## 사진 자동 채우기
+
+`news.json`이 바뀌면 GitHub Actions(`fill-images.yml`)가 사진(`imageUrl`)이 없는 소식의 원문을 열어
+대표 이미지(og:image)를 찾아 채웁니다. 못 찾은 항목에는 `imageChecked` 날짜가 남고 14일 뒤 다시 시도합니다.
+사진을 직접 넣고 싶으면 `imageUrl`에 주소를 적으면 됩니다.
