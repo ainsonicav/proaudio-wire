@@ -1519,8 +1519,8 @@
       const btn = document.getElementById('sub-submit-btn');
       btn.disabled = true; btn.textContent = '신청 중…';
       const data = {
-        org: name, contact_name: name, phone: '', email: email,
-        space: '뉴스 구독', region: '', types: '뉴스구독', message: '이메일 소식 구독 신청',
+        org: name || '이메일 구독', contact_name: name || '이메일 구독', phone: '-', email: email,
+        space: '뉴스 구독', region: '-', types: '뉴스구독', message: '이메일 소식 구독 신청',
         website: website, submitted_at: new Date().toISOString()
       };
       let ok = false;
