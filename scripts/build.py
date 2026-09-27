@@ -10,6 +10,7 @@
 """
 import json
 import sys
+from collections import Counter
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
@@ -73,6 +74,43 @@ def ratio_report(items, days=7):
             parts.append(f"{cat} {k}건 {pct}%(목표 {goal}%){mark}")
         lines.append(f"{label} {len(group)}건: " + " · ".join(parts))
     return lines
+
+
+def compute_stats(items):
+    """홈 화면 '이번 주 동향' 위젯용 통계. 새 소식이 없는 날도 최근 7일/30일
+    창(window)이 하루씩 밀리면서 값이 달라지므로 매일 stats.json이 바뀐다."""
+    today = datetime.now(timezone.utc).date()
+
+    def in_window(i, days):
+        try:
+            d = datetime.strptime(i["date"], "%Y-%m-%d").date()
+        except (KeyError, ValueError):
+            return False
+        return 0 <= (today - d).days < days
+
+    published = [i for i in items if i.get("status") != "hidden"]
+    week = [i for i in published if in_window(i, 7)]
+    month = [i for i in published if in_window(i, 30)]
+
+    brand_counts = Counter((i.get("brand") or "").strip() for i in week if i.get("brand"))
+    top_brands = [{"brand": b, "count": c} for b, c in brand_counts.most_common(5)]
+
+    def cat_ratio(group):
+        n = len(group) or 1
+        out = []
+        for cat in CATEGORY_RATIO:
+            k = sum(1 for i in group if i.get("category") == cat)
+            out.append({"category": cat, "count": k, "pct": round(k * 100 / n)})
+        return out
+
+    return {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "window_days": {"week": 7, "month": 30},
+        "counts": {"week": len(week), "month": len(month), "total": len(published)},
+        "top_brands_week": top_brands,
+        "category_ratio_week": cat_ratio(week),
+        "category_ratio_month": cat_ratio(month),
+    }
 
 
 TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -182,7 +220,9 @@ def main():
             print(f"  {it['id']} [{it['category']}/{it['type']}] {it['brand']} — {it.get('productName', '')}")
     (ROOT / "rss.xml").write_text(build_rss(items), encoding="utf-8")
     changed = build_pages(ROOT, items, pub)
-    print(f"OK: {len(items)}건 검사 통과, rss.xml 생성 (최신 {min(len(items), RSS_LIMIT)}건), 검색용 파일 {changed}개 갱신")
+    stats = compute_stats(items)
+    (ROOT / "stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"OK: {len(items)}건 검사 통과, rss.xml 생성 (최신 {min(len(items), RSS_LIMIT)}건), 검색용 파일 {changed}개 갱신, stats.json 갱신")
     for line in ratio_report(items):
         print("  분류 비율 —", line)
 

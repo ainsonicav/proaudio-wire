@@ -39,7 +39,7 @@ jobs:
 
       - name: 바뀐 내용 반영
         run: |
-          git add -A news.json rss.xml sitemap.xml index.html n
+          git add -A news.json rss.xml sitemap.xml stats.json index.html n
           if git diff --cached --quiet; then
             echo "바뀐 내용 없음"; exit 0
           fi

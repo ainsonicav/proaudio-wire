@@ -497,6 +497,27 @@
     .cat-btn.active { background: #0f172a; border-color: #0f172a; color: #fff; }
     .cat-tag { font-size: 0.66rem; font-weight: 600; color: #64748b; background: #f1f5f9; padding: 0.1rem 0.4rem; border-radius: 4px; white-space: nowrap; flex-shrink: 0; }
 
+    /* 이번 주 동향 위젯 */
+    .trend-widget { background: #fff; border: 1px solid var(--surface-border); border-radius: 10px; margin-bottom: 1.1rem; overflow: hidden; }
+    .trend-toggle { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; background: #f8fafc; border: none; padding: 0.7rem 1rem; cursor: pointer; font-weight: 700; font-size: 0.9rem; color: #0f172a; text-align: left; }
+    .trend-updated { font-size: 0.72rem; font-weight: 500; color: var(--text-muted); white-space: nowrap; }
+    .trend-body { display: grid; grid-template-columns: 1fr 1fr; gap: 1.1rem; padding: 0.9rem 1.1rem 1.1rem; }
+    .trend-widget.collapsed .trend-body { display: none; }
+    .trend-col h3 { font-size: 0.78rem; font-weight: 700; color: var(--text-sub); margin: 0 0 0.5rem; }
+    .trend-brands { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.35rem; }
+    .trend-brands li { display: flex; align-items: center; gap: 0.5rem; font-size: 0.84rem; }
+    .trend-brands .rk { flex-shrink: 0; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: #0f172a; color: #fff; font-size: 0.68rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+    .trend-brands .bn { flex: 1; font-weight: 600; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .trend-brands .cnt { font-size: 0.76rem; color: var(--text-muted); flex-shrink: 0; }
+    .trend-ratio-row { display: flex; align-items: center; gap: 0.5rem; font-size: 0.78rem; margin-bottom: 0.4rem; }
+    .trend-ratio-row .rl { width: 5.4rem; flex-shrink: 0; color: var(--text-sub); font-weight: 600; }
+    .trend-ratio-row .bar { flex: 1; height: 8px; background: #f1f5f9; border-radius: 4px; overflow: hidden; }
+    .trend-ratio-row .bar > i { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+    .trend-ratio-row .pv { width: 2.6rem; text-align: right; flex-shrink: 0; font-variant-numeric: tabular-nums; color: var(--text-muted); }
+    @media (max-width: 640px) {
+      .trend-body { grid-template-columns: 1fr; gap: 0.8rem; }
+    }
+
     /* 고정 너비 테이블 */
     .news-table {
       width: 100%;
@@ -977,7 +998,25 @@
   </header>
 
   <main class="container">
-    
+
+    <!-- 0. 이번 주 동향 위젯 (매일 자동 갱신) -->
+    <section class="trend-widget" id="trendWidget" hidden>
+      <button type="button" class="trend-toggle" id="trendToggle" aria-expanded="true">
+        <span>📊 이번 주 프로오디오 동향</span>
+        <span class="trend-updated" id="trendUpdated"></span>
+      </button>
+      <div class="trend-body" id="trendBody">
+        <div class="trend-col">
+          <h3>최근 7일 많이 다뤄진 브랜드</h3>
+          <ol class="trend-brands" id="trendBrands"></ol>
+        </div>
+        <div class="trend-col">
+          <h3>최근 7일 분야 비율</h3>
+          <div id="trendRatio"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- 1. 주요 6개 카드 (높이 완벽 일치) -->
     <section id="featured-section">
       <div class="section-header">
@@ -1583,6 +1622,38 @@
       row.classList.add('from-link');
       setTimeout(() => row.scrollIntoView({ behavior: 'smooth', block: 'center' }), 150);
     }
+
+    // 이번 주 동향 위젯 — 매일 build.py가 새로 계산해 커밋하는 stats.json을 불러와 표시
+    const CAT_LABEL = { '프로오디오': '프로오디오', '컨슈머오디오': '컨슈머오디오', '레코딩소프트웨어': '레코딩SW', '기타': '기타' };
+    async function loadTrend() {
+      const widget = document.getElementById('trendWidget');
+      try {
+        const res = await fetch('stats.json?v=' + Date.now(), { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const stats = await res.json();
+        const brandsEl = document.getElementById('trendBrands');
+        brandsEl.innerHTML = (stats.top_brands_week || []).map((b, i) =>
+          `<li><span class="rk">${i + 1}</span><span class="bn">${b.brand}</span><span class="cnt">${b.count}건</span></li>`
+        ).join('') || '<li style="color:var(--text-muted)">이번 주 소식 없음</li>';
+        const ratioEl = document.getElementById('trendRatio');
+        ratioEl.innerHTML = (stats.category_ratio_week || []).map(r =>
+          `<div class="trend-ratio-row"><span class="rl">${CAT_LABEL[r.category] || r.category}</span><span class="bar"><i style="width:${r.pct}%"></i></span><span class="pv">${r.pct}%</span></div>`
+        ).join('');
+        const d = new Date(stats.generated_at);
+        document.getElementById('trendUpdated').textContent = isNaN(d) ? '' :
+          `${d.getUTCFullYear()}.${String(d.getUTCMonth() + 1).padStart(2, '0')}.${String(d.getUTCDate()).padStart(2, '0')} 기준 · 최근 7일 ${stats.counts?.week ?? ''}건`;
+        widget.hidden = false;
+      } catch (err) {
+        console.error('stats.json 불러오기 실패:', err);
+        widget.hidden = true;
+      }
+    }
+    document.getElementById('trendToggle').addEventListener('click', () => {
+      const w = document.getElementById('trendWidget');
+      const collapsed = w.classList.toggle('collapsed');
+      document.getElementById('trendToggle').setAttribute('aria-expanded', String(!collapsed));
+    });
+    loadTrend();
 
     loadNews();
   </script>
