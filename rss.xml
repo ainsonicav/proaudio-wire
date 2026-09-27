@@ -6,7 +6,7 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 07:32:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 07:33:42 GMT</lastBuildDate>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
@@ -51,6 +51,15 @@
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-108</guid>
       <category>신제품</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Mixed In Key - Wingman 3.0</title>
+      <link>https://www.mixonline.com/technology/news-products/mixed-in-key-wingman-3-0-debuts</link>
+      <description>Mixed In Key가 DAW 속 음악을 분석해 코드 진행을 제안하는 Wingman을 3.0으로 업데이트해 패싱 코드 삽입·개별 코드 교체 등 편집 기능과 실제 녹음한 기타 연주, 장르별 드럼 패턴을 추가했습니다. 기존 사용자에게는 무료입니다.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-113</guid>
+      <category>업데이트</category>
     </item>
 
     <item>
@@ -105,6 +114,24 @@
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-101</guid>
       <category>업데이트</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Expressive E - Osmose 펌웨어 2.3</title>
+      <link>https://www.soundonsound.com/news/expressive-e-update-osmose</link>
+      <description>Expressive E가 Osmose 무료 펌웨어 2.3을 공개해 트랜스포트·메트로놈·트랙 탐색·믹싱 등 DAW 컨트롤 기능을 추가하고, 900개 이상 프리셋을 쓸 수 있는 Ctrl-e 플랫폼을 모든 사용자에게 무료로 제공합니다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-114</guid>
+      <category>업데이트</category>
+    </item>
+
+    <item>
+      <title>[신제품] Polyend - Polyend Loop</title>
+      <link>https://www.soundonsound.com/news/polyend-introduce-loop</link>
+      <description>Polyend가 독립 루프 트랙 4개와 4트랙 드럼머신, 100종 이상의 이펙트를 갖춘 스탠드얼론 루퍼 Loop를 발표했습니다. 가격은 €599이며 2026년 10월 출하 예정입니다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-115</guid>
+      <category>신제품</category>
     </item>
 
     <item>
@@ -339,33 +366,6 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-65</guid>
       <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[신제품] Lawo - HOME Logo Inserter, HOME Key and Fill Extractor</title>
-      <link>https://lawo.com/lawo-expands-home-apps-ecosystem-with-new-graphics-processing-applications-at-ibc2026/</link>
-      <description>IBC2026에서 HOME Apps에 HOME Logo Inserter와 HOME Key and Fill Extractor 두 가지 그래픽 처리 앱을 추가 발표.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-66</guid>
-      <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[행사] Yamaha - DM5 런칭 세미나</title>
-      <link>https://kr.yamaha.com/ko/news/2026/20260910-DM5launchingseminar.html</link>
-      <description>야마하뮤직코리아가 신형 디지털 믹서 DM5 런칭 세미나를 서울, 광주, 부산에서 개최한다고 공지함. 세부 일정은 이미지로 게시.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-67</guid>
-      <category>행사</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Genelec - Smart IP</title>
-      <link>https://www.genelec.com/-/news/genelec-smart-ip-loudspeakers-new-certifications</link>
-      <description>Genelec Smart IP PoE 네트워크 스피커 제품군이 IEC 62368-1 및 UL/KC/AS/NZS 62368 안전 인증을 새로 획득.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-68</guid>
-      <category>업데이트</category>
     </item>
 
   </channel>

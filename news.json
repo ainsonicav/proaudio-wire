@@ -1,5 +1,45 @@
 [
   {
+    "id": "news-113",
+    "date": "2026-09-25",
+    "company": "Mixed In Key",
+    "brand": "Mixed In Key",
+    "productName": "Wingman 3.0",
+    "type": "업데이트",
+    "summary": "Mixed In Key가 DAW 속 음악을 분석해 코드 진행을 제안하는 Wingman을 3.0으로 업데이트해 패싱 코드 삽입·개별 코드 교체 등 편집 기능과 실제 녹음한 기타 연주, 장르별 드럼 패턴을 추가했습니다. 기존 사용자에게는 무료입니다.",
+    "link": "https://www.mixonline.com/technology/news-products/mixed-in-key-wingman-3-0-debuts",
+    "evidence": "Wingman suggests chord progressions based on the music currently in the producer's DAW, Version 3.0 now provides more control over those suggestions.",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://www.mixonline.com/wp-content/uploads/2026/09/2026-09-25-Wingman.jpg"
+  },
+  {
+    "id": "news-114",
+    "date": "2026-09-24",
+    "company": "Expressive E",
+    "brand": "Expressive E",
+    "productName": "Osmose 펌웨어 2.3",
+    "type": "업데이트",
+    "summary": "Expressive E가 Osmose 무료 펌웨어 2.3을 공개해 트랜스포트·메트로놈·트랙 탐색·믹싱 등 DAW 컨트롤 기능을 추가하고, 900개 이상 프리셋을 쓸 수 있는 Ctrl-e 플랫폼을 모든 사용자에게 무료로 제공합니다.",
+    "link": "https://www.soundonsound.com/news/expressive-e-update-osmose",
+    "evidence": "Now available as a free update for all users, the version 2.3 update offers enhanced DAW control and free access to the company's Ctrl-e software platform.",
+    "status": "published",
+    "isDomestic": false
+  },
+  {
+    "id": "news-115",
+    "date": "2026-09-24",
+    "company": "Polyend",
+    "brand": "Polyend",
+    "productName": "Polyend Loop",
+    "type": "신제품",
+    "summary": "Polyend가 독립 루프 트랙 4개와 4트랙 드럼머신, 100종 이상의 이펙트를 갖춘 스탠드얼론 루퍼 Loop를 발표했습니다. 가격은 €599이며 2026년 10월 출하 예정입니다.",
+    "link": "https://www.soundonsound.com/news/polyend-introduce-loop",
+    "evidence": "An idea machine for musicians",
+    "status": "published",
+    "isDomestic": false
+  },
+  {
     "id": "news-106",
     "date": "2026-09-26",
     "company": "DJW Audio",
