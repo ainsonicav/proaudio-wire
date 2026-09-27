@@ -6,7 +6,7 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 04:53:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 05:09:42 GMT</lastBuildDate>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
@@ -24,6 +24,15 @@
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-83</guid>
       <category>행사</category>
+    </item>
+
+    <item>
+      <title>[업데이트] TASCAM - CA-XLR2d</title>
+      <link>https://tascam.com/us/learn/detail/96276</link>
+      <description>TASCAM이 카메라용 XLR 마이크 어댑터 CA-XLR2d의 호환 카메라 목록을 갱신해 캐논 EOS R6 V와의 호환성을 공식 확인했습니다.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-101</guid>
+      <category>업데이트</category>
     </item>
 
     <item>
@@ -357,15 +366,6 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-80</guid>
       <category>행사</category>
-    </item>
-
-    <item>
-      <title>[신제품] TASCAM - SS-R300N</title>
-      <link>https://tascam.com/us/learn/detail/96097</link>
-      <description>설치용 네트워크 지원 솔리드스테이트 레코더/플레이어 SS-R300N을 발표했다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-81</guid>
-      <category>신제품</category>
     </item>
 
   </channel>

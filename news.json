@@ -1,5 +1,19 @@
 [
   {
+    "id": "news-101",
+    "date": "2026-09-25",
+    "company": "TASCAM",
+    "brand": "TASCAM",
+    "productName": "CA-XLR2d",
+    "type": "업데이트",
+    "summary": "TASCAM이 카메라용 XLR 마이크 어댑터 CA-XLR2d의 호환 카메라 목록을 갱신해 캐논 EOS R6 V와의 호환성을 공식 확인했습니다.",
+    "link": "https://tascam.com/us/learn/detail/96276",
+    "evidence": "Compatibility has now been confirmed with the following Canon models: Canon EOS R6 V",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://tascam.com/wp-content/uploads/images/learn/thumbnail/product/tascam/ca-xlr2d_w_canon_r6_v.jpg"
+  },
+  {
     "id": "news-10",
     "date": "2026-09-23",
     "rawDate": 46288,
