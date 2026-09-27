@@ -24,7 +24,8 @@
     "link": "https://www.soundonsound.com/news/expressive-e-update-osmose",
     "evidence": "Now available as a free update for all users, the version 2.3 update offers enhanced DAW control and free access to the company's Ctrl-e software platform.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-115",
@@ -37,7 +38,8 @@
     "link": "https://www.soundonsound.com/news/polyend-introduce-loop",
     "evidence": "An idea machine for musicians",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-106",
@@ -50,7 +52,8 @@
     "link": "https://www.kvraudio.com/news/djw-audio-releases-lustre-true-stereo-algorithmic-reverb-for-macos-vst3-au-and-aax-68736",
     "evidence": "DJW Audio has released Lustre, a true-stereo algorithmic reverb for macOS in AU, VST3 and AAX formats.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-107",
@@ -63,7 +66,8 @@
     "link": "https://www.kvraudio.com/news/benjamin-guerrero-releases-resoplate-physically-modeled-plate-reverb-and-updates-sympiano-to-v1-0-7-68752",
     "evidence": "Benjamin Guerrero has released ResoPlate, a physically modeled plate reverb plugin, and updated the free Sympiano to v1.0.7.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-108",
@@ -76,7 +80,8 @@
     "link": "https://www.kvraudio.com/news/xgg-releases-magic-acx---realtime-audiobook-audio-processor-and-analyzer-for-windows-vst3-68750",
     "evidence": "xGG has announced the release of Magic ACX, a dedicated Windows VST3 audio processor and analyzer designed specifically for audiobook production workflows.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-109",
@@ -103,7 +108,8 @@
     "link": "https://www.soundonsound.com/news/finalist-2-tim-exile",
     "evidence": "Drop your stems, choose a preset, tweak it, export it.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-111",
@@ -116,7 +122,8 @@
     "link": "https://www.kvraudio.com/news/desert-moon-audio-launches-with-15-analog-inspired-plugins-vst3-au-and-aax-68747",
     "evidence": "Desert Moon Audio has released its first line of 15 audio plugins for macOS and Windows, covering tape, saturation, compression, EQ, reverb, delay and modulation.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-112",
@@ -129,7 +136,8 @@
     "link": "https://www.kvraudio.com/news/frctl-audio-updates-dlay-to-v1-3-0---modulation-band-ripple-motion-and-more-68720",
     "evidence": "FRCTL Audio has updated DLAY to v1.3.0, a free update to its multi-tap delay.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-105",
@@ -142,7 +150,8 @@
     "link": "https://ravepubs.com/muxlab-symetrix-composer-module-av-over-ip-control/",
     "evidence": "\"Open integration continues to be a key part of the MuxLab AV Ecosystem,\" stated Daniel Assaraf, CEO.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-104",
@@ -155,7 +164,8 @@
     "link": "https://www.kvraudio.com/news/zynaptiq-releases-loud-wide-master-iii-and-zap-vi-68729",
     "evidence": "Bring your sound into a good place, quickly and easily, with LOUD. Add density and heft to your sound, shape its tone, and make it loud, while preserving punch and presence.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-102",
@@ -359,7 +369,8 @@
     "evidence": "EAW가 액티브 서브우퍼 라인업을 확장하며 NT119S(싱글 19인치) 및 NT219S(듀얼 19인치) 모델을 새로 선보였습니다.",
     "status": "published",
     "isDomestic": true,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTFfMTQ2%2FMDAxNzg5MTA5NzAyNjE3.F5AQDf95Kp5PlYcaoWUlYmX7YksAWDq_xfnQChXOGtog.kpe-Ekco-nKarIHrylBWdaA7vsraLkB-oZI_1yzq8QMg.PNG%2Fnew_product_newsletter_NT119S.png%3Ftype%3Dw2&w=640&default=1"
   },
   {
     "id": "news-63",
@@ -372,7 +383,8 @@
     "evidence": "야마하(Yamaha)에서 자사의 플래그십 DNA를 그대로 이식한 차세대 디지털 믹싱 콘솔, DM5 시리즈를 전격 공개했습니다!",
     "status": "published",
     "isDomestic": true,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MTRfNTIg%2FMDAxNzg5MzQ3OTUxMDgx.cTxfh-J9uorWdvq0DgADztMPXL5UcAVu0LWl8iHz7fQg.QQ3RL2q-u6LsAhSVdBzRsfsZa__qjPZ4Z4H_mFDx9Xcg.JPEG%2F4_cd5916ec-faf9-4d67-8a08-721fa24d0d60.jpg%3Ftype%3Dw2&w=640&default=1"
   },
   {
     "id": "news-88",
@@ -386,7 +398,8 @@
     "link": "https://blog.naver.com/dasansr/224405675128",
     "evidence": "지난 2026년 9월 2일(수)부터 9월 4일(금)까지 SETEC 컨벤션 센터에서 열린 2026 코사운드(KOSOUND)가 많은 분들의 뜨거운 관심과 방문 속에 성황리에 막을 내렸습니다.",
     "status": "published",
-    "isDomestic": true
+    "isDomestic": true,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDlfMTQz%2FMDAxNzg4OTE0MzA3MzM2.YmUaXi8iY9G4uIBYo2yKZeVvDN2yyVm21sGPO60Q-hQg.XYWD6WVmf89AL6Ff97-nS2e7Jy4zlzhvgQA4T-kOXVQg.JPEG%2FKakaoTalk_20260907_132547198_03.jpg%3Ftype%3Dw2&w=640&default=1"
   },
   {
     "id": "news-96",
@@ -399,7 +412,8 @@
     "evidence": "Focusrite 최초의 ISA 오디오 인터페이스, ISA C8X 가 국내에 입고되어 정식 출시를 앞두고 있습니다.",
     "status": "published",
     "isDomestic": true,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDhfMTIw%2FMDAxNzg4ODQ2NjM0OTc1.97_JxxkRJ7yDwttP3HZKQWmOf1QJTQVuxmmyhxueEccg.AzaRwI8gQ_wqutMND_UswKGSG86HM6cq-D3VSxybhakg.PNG%2F1.png%3Ftype%3Dw2&w=640&default=1"
   },
   {
     "id": "news-100",
@@ -412,7 +426,8 @@
     "evidence": "Waldorf Protein(프로틴)이 출시 이후 입고를 기다려오신 분들!! 드디어 사운드캣에 정식 입고되었습니다!",
     "status": "published",
     "isDomestic": true,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MDdfMjEx%2FMDAxNzg4NzU5Mzc5OTUz.dUss37EXJE3SawoUPcQxNV53iCdyqH8kx1UzRxLfTEQg.1B67u15ShOa_fmvmyEj8yKgclrk12FFZyhqcFS789e0g.PNG%2F%25B4%25D9%25BF%25EE%25B7%25CE%25B5%25E5_%25281%2529.png%3Ftype%3Dw2&w=640&default=1"
   },
   {
     "id": "news-2",
@@ -456,7 +471,8 @@
     "link": "https://codaaudio.com/events/coda-audio-deutschland-is-heading-to-leat-con-26/",
     "evidence": "CODA Audio Deutschland will exhibit at LEaT con in Hamburg from 6–8 October 2026",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-5",
@@ -470,7 +486,8 @@
     "link": "https://www.ikmultimedia.com/news/?item_id=19811",
     "evidence": "24 Sep 2026 IK at Guitar Summit 2026",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-6",
@@ -589,7 +606,8 @@
     "link": "https://www.sounddevices.com/product/wave-agent-x/",
     "evidence": "Wave Agent X WAV File Utility for Mac OS and Windows Computers Next Generation Audio File and Metadata Management",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.sounddevices.com%2Fwp-content%2Fuploads%2F2026%2F08%2FWave-Agent-X-v3-scaled.png&w=640&default=1"
   },
   {
     "id": "news-17",
@@ -618,7 +636,8 @@
     "link": "https://www.waves.com/downloads/release-notes",
     "evidence": "September 22, 2026 New App: Tracks Live 2.0",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-19",
@@ -632,7 +651,8 @@
     "link": "https://www.ikmultimedia.com/news/?item_id=19809",
     "evidence": "IK releases 2 new TONEX Tone Partner Collections and one bundle, now available on ToneNET for demo and purchase.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-20",
@@ -691,7 +711,8 @@
     "link": "https://apogeedigital.com/blog/apogee-plugins-are-moving-to-plugin-alliance/",
     "evidence": "Apogee plugins are moving to Plugin Alliance, which will become the new home for purchasing, downloading, licensing, and updating Apogee software.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-24",
@@ -750,7 +771,8 @@
     "link": "https://wharfedalepro.com/sound-republic-showcase-xla-series-in-surat-thani/",
     "evidence": "XLA and WLA-1 Series Demonstrated at Sound Republic Event in Surat Thani.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-30",
@@ -794,7 +816,8 @@
     "link": "https://www.ikmultimedia.com/news/?item_id=19790",
     "evidence": "17 Sep 2026 ReSing Voices Vol 2 Released",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-34",
@@ -808,7 +831,8 @@
     "link": "https://voidacoustics.com/insights/la-feria-de-diseno/",
     "evidence": "From 10 to 12 September 2026, we joined our Colombian partner VIVO at La Feria de Diseño Medellín",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fvoidacoustics.com%2Fwp-content%2Fuploads%2FColombia-HEADER-1.jpg&w=640&default=1"
   },
   {
     "id": "news-35",
@@ -822,7 +846,8 @@
     "link": "https://www.genelec.com/-/news/genelec-and-amx-announce-smart-ip-integration-via-new-amx-muse-driver",
     "evidence": "Genelec and AMX are delighted to launch a new driver enabling seamless integration between the Genelec Smart IP family",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimages.ctfassets.net%2F4zjnzn055a4v%2F7yjIjunE7StILfuyAtlpNy%2F03e444a12099334f7902f6d4bc09ec8f%2F2026_AV_Partnership_layout_amxmuse_SmartIP_Partnership_Genelec_website_1250x703px.jpg%3Fw%3D800&w=640&default=1"
   },
   {
     "id": "news-36",
@@ -836,7 +861,8 @@
     "link": "https://www.powersoft.com/en/news/powersoft-armoniaplus-3-0-goes-multi-platform-with-native-macos-support",
     "evidence": "Florence (Italy), 16 September 2026 – Powersoft has today released ArmoníaPlus 3.0, a significant platform release for its system management software.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.powersoft.com%2Fapi%2Fmedia%2Ffile%2FPS_A30-800x320.webp%3Fv%3Dmu43jr5h&w=640&default=1"
   },
   {
     "id": "news-38",
@@ -850,7 +876,8 @@
     "link": "http://ingangaudio.com/ignews/?idx=174214650&bmode=view",
     "evidence": "인강오디오㈜ 가 테크데이타피에스에 이어 DiGiCo Quantum 112 공식 대리점으로 새롭게 합류했습니다.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.imweb.me%2Fthumbnail%2F20260916%2F06215c6ec4c22.jpg&w=640&default=1"
   },
   {
     "id": "news-39",
@@ -864,7 +891,8 @@
     "link": "https://www.electrovoice.com/articles/news/2026/electro-voice-presents-evidn",
     "evidence": "Sydney/Burnsville, Sep 2026 – Electro-Voice presents EVIDn, a new family of PoE+ loudspeakers for network-managed commercial audio installations.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-40",
@@ -878,7 +906,8 @@
     "link": "https://www.electrovoice.com/articles/event/integrate-sydney",
     "evidence": "Integrate Expo 2026 in Sydney was a September highlight for Electro-Voice, Dynacord, and our long-time Australian and New Zealand partner, Jands.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-41",
@@ -892,7 +921,8 @@
     "link": "https://alphatheta.com/en/information/virtualdj-officially-supports-onelibrary/",
     "evidence": "AlphaTheta is pleased to announce that VirtualDJ now supports the OneLibrary music library format for DJs.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fassets.alphatheta.com%2Fwp-content%2Fuploads%2F2026%2F04%2FNews_OneLibrary_Virtual_DJ_Support_Key-visual_1200x630.jpg&w=640&default=1"
   },
   {
     "id": "news-42",
@@ -906,7 +936,8 @@
     "link": "https://rupertneve.com/news/plugins",
     "evidence": "The Master Buss Processor (MSRP $199 USD), 551 Inductor EQ (MSRP $129 USD) and 542 Tape Emulator (MSRP $129 USD) plug-ins are now available",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fstatic1.squarespace.com%2Fstatic%2F5fe7b6498dc8ae15a0364652%2Ft%2F6aa95e5ed283af4551318dce%2F1789484638636%2Frnd-plugins-lifestyle-2-Edit.jpg%3Fformat%3D1500w&w=640&default=1"
   },
   {
     "id": "news-43",
@@ -920,7 +951,8 @@
     "link": "https://motu.com/en-us/news/digital-performer-12-ships-with-support-for-dolby-atmostm-mixing-ai-powered-stem-separation/",
     "evidence": "Digital Performer version 12 is now shipping! New features include support for immersive mixing in Dolby Atmos™, AI-powered stem separation",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-44",
@@ -934,7 +966,8 @@
     "link": "https://www.dpamicrophones.com/news/2026/dpas-6388-coreplus-debuts-at-ibc2026/",
     "evidence": "Discover the 6388 CORE+ Directional Headset Microphone at IBC2026 as DPA Microphones’ Bo Brinck introduces its supercardioid capsule",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-45",
@@ -948,7 +981,8 @@
     "link": "https://www.uaudio.com/blogs/press/universal-audio-introduces-luna-3-0",
     "evidence": "Universal Audio Inc. (UA), a worldwide leader in audio production tools, is proud to announce LUNA 3.0 , a landmark update to its award-winning DAW",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-46",
@@ -962,7 +996,8 @@
     "link": "https://www.uaudio.com/blogs/press/universal-audio-introduces-uad-spark-studio",
     "evidence": "UAD Spark Studio — $19.99/month or $149/year USD",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-48",
@@ -976,7 +1011,8 @@
     "link": "https://www.powersoft.com/en/news/pouwersoft-and-k-array-to-co-exhibit-at-innotrans-2026",
     "evidence": "Florence (Italy), 14 th September 2026: Powersoft and K-array, the two leading Italian audio manufacturers, will share a stand at InnoTrans 2026",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.powersoft.com%2Fapi%2Fmedia%2Ffile%2FPS_Innotrans26-800x320.webp%3Fv%3Dmu1au1iu&w=640&default=1"
   },
   {
     "id": "news-49",
@@ -990,7 +1026,8 @@
     "link": "https://audient.com/news/2026/09/14/horizon-launch/",
     "evidence": "Audient today announces the launch of Horizon, a new flagship Thunderbolt 3 audio interface range",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Faudient.com%2Fwp-content%2Fuploads%2F2026%2F08%2FHorizon-Range-Hero-1-2.png&w=640&default=1"
   },
   {
     "id": "news-50",
@@ -1004,7 +1041,8 @@
     "link": "https://www.dpamicrophones.com/news/2026/inside-dpas-n-series-at-ibc2026-wireless-audio-without-compromise/",
     "evidence": "At IBC2026, René Mørch explains how the N-Series combines DPA’s renowned microphone technology with a high-performance wireless platform",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-51",
@@ -1018,7 +1056,8 @@
     "link": "https://calrec.com/news/new-type-rt-console-and-apex-m6-modular-i-o-platform/",
     "evidence": "Calrec expands its IP ecosystem with new, ready-to-use Type RT console and Apex M6 Modular I/O Platform at IBC 2026.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcalrec.com%2Fwp-content%2Fuploads%2F2026%2F09%2FType-RT_press_1200x675.jpg&w=640&default=1"
   },
   {
     "id": "news-82",
@@ -1032,7 +1071,8 @@
     "link": "https://martin-audio.com/news/press-release/martin-audios-us-open-day-to-demonstrate-sound-control-in-the-open-air",
     "evidence": "Martin Audio s US Open Day takes place at the Amphitheatre in Doral Central Park Florida on Thursday 8 October 2026",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fbranding%2Fmartin_audio.jpg&w=640&default=1"
   },
   {
     "id": "news-53",
@@ -1045,7 +1085,8 @@
     "evidence": "Te presentamos MIA, la nueva serie de instalación de DAS AUDIO.",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fi.ytimg.com%2Fvi%2FSKZHL2pYEM0%2Fhqdefault.jpg&w=640&default=1"
   },
   {
     "id": "news-54",
@@ -1058,7 +1099,8 @@
     "evidence": "The new 16A, 848 and 10pre appear to be fully compatible with macOS Golden Gate , although final compatibility testing is still on-going",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-55",
@@ -1071,7 +1113,8 @@
     "evidence": "today announced a major software update for its TMxCore, TouchMonitor 5 and TouchControl 5 platforms at IBC2026",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-56",
@@ -1084,7 +1127,8 @@
     "evidence": "adding support for LAWO HOME and NMOS IS-07 through the new External Logging & Integration license",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-57",
@@ -1097,7 +1141,8 @@
     "evidence": "announces support for Genelec Smart IP loudspeakers across TouchControl 5, TouchMonitor 5 and TMxCore",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-58",
@@ -1110,7 +1155,8 @@
     "evidence": "today announced a new integration of its TMxCore audio metering solution with STAGETEC AVATUS",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-59",
@@ -1123,7 +1169,8 @@
     "evidence": "BURLINGTON, Mass. and SUNNYVALE, Calif.—Sept. 11, 2026",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-09"
+    "date": "2026-09-09",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fedge.sitecorecloud.io%2Favidtech-d6a2e9a9%2Fmedia%2Fimages%2Fpress-room-archive%2F2026%2F09%2Favid_google_pr-v4.jpg%3Fh%3D1080%26iar%3D0%26w%3D1920&w=640&default=1"
   },
   {
     "id": "news-60",
@@ -1136,7 +1183,8 @@
     "evidence": "Amsterdam, IBC2026, 11 September 2026",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-61",
@@ -1149,7 +1197,8 @@
     "evidence": "Leading Audio Manufacturers Join Forces on Dialog Intelligibility at IBC",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-64",
@@ -1162,7 +1211,8 @@
     "evidence": "A key highlight in Lawo’s audio production portfolio is mc² Software Release 12.4, which delivers numerous workflow enhancements",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-65",
@@ -1175,7 +1225,8 @@
     "evidence": "Visit Lawo at booth 8.B90 at IBC2026 to discover the new Stream Share App (SSA) in the HOME Apps ecosystem",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-66",
@@ -1188,7 +1239,8 @@
     "evidence": "Lawo answers these everyday broadcast challenges with two new additions to its HOME Apps ecosystem: HOME Logo Inserter and HOME Key and Fill Extractor",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-67",
@@ -1201,7 +1253,8 @@
     "evidence": "새로운 디지털 믹서, DM5 런칭 세미나 (서울, 광주, 부산) 10-9-2026",
     "status": "published",
     "isDomestic": true,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fkr.yamaha.com%2Fko%2Ffiles%2F20260907_AUDIO_DM5_%25EC%258B%25A0%25EC%25A0%259C%25ED%2592%2588_%25EC%2584%25B8%25EB%25AF%25B8%25EB%2582%2598_%25EC%25A0%2595%25EB%25B0%25A9%25ED%2598%2595_%25EC%258D%25B8%25EB%2584%25A4%25EC%259D%25BC%2528w1000%2529-01_tcm144-3236802.jpg&w=640&default=1"
   },
   {
     "id": "news-68",
@@ -1214,7 +1267,8 @@
     "evidence": "has now been tested and certified to the latest electrical safety standard IEC 62368-1, along with UL 62368-1, KC 62368-1",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimages.ctfassets.net%2F4zjnzn055a4v%2F4rMma20DncsnZVV9P4UNcD%2F6ab532ea81fb87cba259d5bb99bc6c89%2Fsmartip_certification_LI_1200x627.jpg%3Fw%3D800&w=640&default=1"
   },
   {
     "id": "news-69",
@@ -1227,7 +1281,8 @@
     "evidence": "Yamaha is pleased to announce its new DM5 series of professional digital mixers, alongside a lineup of new utility I/O devices",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm5_d0ef96d486bc4aedbbd8124ab62b2024.png&w=640&default=1"
   },
   {
     "id": "news-70",
@@ -1240,7 +1295,8 @@
     "evidence": "Yamaha has released the latest V2.0 firmware and related software updates for its DM7 series digital mixing consoles",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm7_v20__ca7829d5c3413f16a82558cd121a9270.png&w=640&default=1"
   },
   {
     "id": "news-71",
@@ -1253,7 +1309,8 @@
     "evidence": "Yamaha has released V3.1 firmware for its DM3 series digital mixing consoles, introducing support for the new RUio1608SB-D and RUio0804-D",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-dm3_v31_6ba2bbe556f1c754cf432eb51ef42af0.png&w=640&default=1"
   },
   {
     "id": "news-72",
@@ -1266,7 +1323,8 @@
     "evidence": "Yamaha is expanding its third party integration ecosystem through new collaborations with Audio-Technica, DirectOut and STAGETEC.",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2FDM7-5-V2.0-3rd-party-release-ogp_d1844ee3753211c126004cba9a1531db.png&w=640&default=1"
   },
   {
     "id": "news-73",
@@ -1279,7 +1337,8 @@
     "evidence": "Yamaha has released ProVisionaire Design V3.2.0, ProVisionaire Control PLUS / Kiosk V3.2.0, and ProVisionaire Edge V1.4.0.",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fusa.yamaha.com%2Ffiles%2Fogp-provisionaire_update_29b0ea4e533639d58ed28e6bc9d93bfa.png&w=640&default=1"
   },
   {
     "id": "news-74",
@@ -1292,7 +1351,8 @@
     "evidence": "today announced major updates to Dolby OptiView, its live sports platform, ahead of IBC 2026.",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-75",
@@ -1305,7 +1365,8 @@
     "evidence": "Wedemark/Amsterdam, 10 September 2026 – Sennheiser has started shipping the Spectera SKM handheld transmitter",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2F87a7867e-a456-4dee-ac4d-44f9c2f5142d%2F-%2Fpreview%2F600x600%2F&w=640&default=1"
   },
   {
     "id": "news-76",
@@ -1318,7 +1379,8 @@
     "evidence": "Berlin, Germany, September 10, 2026 – Neumann announces the KH 310 II and the all-new KH 350",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.uc.assets.prezly.com%2Fd89caf22-90d5-4ffc-b76c-038247fa606c%2F-%2Fcrop%2F4302x2778%2F879%2C706%2F-%2Fpreview%2F-%2Fpreview%2F600x600%2F&w=640&default=1"
   },
   {
     "id": "news-77",
@@ -1331,7 +1393,8 @@
     "evidence": "VST Live 3.0.60 Is Available Now",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Feurope1.discourse-cdn.com%2Fsteinberg%2Foriginal%2F3X%2Fb%2Fe%2Fbecc0b2f3a148c189008691bb9be347bc647ba07.svg&w=640&default=1"
   },
   {
     "id": "news-78",
@@ -1344,7 +1407,8 @@
     "evidence": "Alcons Audio concluded CEDIA Expo 2026 in Denver with packed demonstrations, strong dealer interest and two Best of CEDIA awards.",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.alconsaudio.com%2Fwp-content%2Fuploads%2F2026%2F09%2FCEDIA-award-Alcons-Audio-groupshot-1920_1080.jpg&w=640&default=1"
   },
   {
     "id": "news-79",
@@ -1357,7 +1421,8 @@
     "evidence": "Register below for the Zoom link to the session. REGISTER FOR FACTORY TOUR Tuesday, October 12th 2026 @ 12pm EST",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-10-06"
+    "date": "2026-10-06",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.telefunken-elektroakustik.com%2Fwp-content%2Fuploads%2F2022%2F08%2FTELEFUNKENElektro-2017-VertDiamond-Black.png&w=640&default=1"
   },
   {
     "id": "news-80",
@@ -1370,7 +1435,8 @@
     "evidence": "TELEFUNKEN Elektroakustik is proud to return to the Supernova International Ska Festival as an official microphone sponsor for the 2026 event",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.telefunken-elektroakustik.com%2Fwp-content%2Fuploads%2F2022%2F08%2FTELEFUNKENElektro-2017-VertDiamond-Black.png&w=640&default=1"
   },
   {
     "id": "news-81",
@@ -1383,7 +1449,8 @@
     "evidence": "TASCAM is pleased to announce the SS-R300N, a new network-enabled solid-state recorder/player",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Ftascam.com%2Fwp-content%2Fuploads%2Fimages%2Flearn%2Fthumbnail%2Fpress_release%2Flearn_thumbnail_ss-r300n.jpg&w=640&default=1"
   },
   {
     "id": "news-83",
@@ -1397,7 +1464,8 @@
     "link": "https://www.sounddevices.com/trewlapalooza-2026/",
     "evidence": "Oct 2, 2026 – Oct 3, 2026LA, California, United States (US) Join Sound Devices at Trewlapalooza 2026 in Los Angeles.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.sounddevices.com%2Fwp-content%2Fuploads%2F2022%2F08%2Ftrewlapalooza2022.jpg&w=640&default=1"
   },
   {
     "id": "news-84",
@@ -1411,7 +1479,8 @@
     "link": "https://www.shure.com/en-US/newsroom/shure-introduces-wavetool-4",
     "evidence": "AMSTERDAM, September 9, 2026 — Shure today announced WAVETOOL 4 , the latest evolution of its professional audio monitoring and listening software.",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fshure.widen.net%2Fcontent%2Fzozk4piy4m%2Fwebp%2FWavetool_4_Theater_A2_Backstage_Medium.webp%3Fposition%3Dc%26color%3Dffffffff%26quality%3D80%26u%3Dqtzq6k&w=640&default=1"
   },
   {
     "id": "news-85",
@@ -1425,7 +1494,8 @@
     "link": "https://lectrosonics.com/firmware-history-smwb-smdwb/",
     "evidence": "SMWB, SMDWB Firmware Update v8.14 (SUPER)/v8.08 (FPGA)/v8.03 (BOOT) – 09 September 2026 Eliminate vulnerability in Super v8.13 causing Auto-On feature",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-86",
@@ -1438,7 +1508,8 @@
     "link": "https://www.audio-technica.com/en-us/press/audio-technica-introduces-ath-al5nc-open-back-wireless-headphones-delivering-spacious-sound-without-the-wires",
     "evidence": "Published 9th September 2026",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-87",
@@ -1452,7 +1523,8 @@
     "link": "https://www.audio-technica.com/en-us/press/audio-technica-introduces-bp880r-contact-transducer-for-immersive-sports-broadcast-and-production-audio-enhancement",
     "evidence": "Audio-Technica introduces BP880R Contact Transducer for immersive sports broadcast and production audio enhancement",
     "status": "published",
-    "isDomestic": false
+    "isDomestic": false,
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-89",
@@ -1465,7 +1537,8 @@
     "evidence": "COSTA MESA, Calif. (September 8, 2026) – QSC ... today announced the Q-SYS® RoomSuite Modular System ... are now certified ProAV devices for Zoom Rooms",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.qsys.com%2Ffileadmin%2Fimages%2Fpr%2Fsystems%2FRMS_ZoomCert_PR_1080x540.png&w=640&default=1"
   },
   {
     "id": "news-90",
@@ -1478,7 +1551,8 @@
     "evidence": "BURLINGTON, Mass., September 8, 2026",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fedge.sitecorecloud.io%2Favidtech-d6a2e9a9%2Fmedia%2Fimages%2Fpress-room-archive%2F2026%2F09%2Frundown-in-content-core-with-avid-assist.png%3Fh%3D2154%26iar%3D0%26w%3D3832&w=640&default=1"
   },
   {
     "id": "news-91",
@@ -1491,7 +1565,8 @@
     "evidence": "Soundcraft는 오늘 Signature Plus Series 아날로그 커넥티드 믹싱 콘솔의 출시를 발표했습니다.",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-92",
@@ -1504,7 +1579,8 @@
     "evidence": "Jünger Audio Showcases Industry-First S-ADM Cloud Workflow at IBC 2026",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-93",
@@ -1517,7 +1593,8 @@
     "evidence": "Cleveland, Ohio, USA / Hilversum, The Netherlands (September 8, 2026)",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageChecked": "2026-09-27"
   },
   {
     "id": "news-94",
@@ -1530,7 +1607,8 @@
     "evidence": "Wuppertal | September 8, 2026 Riedel Introduces New OnAir Headset Platform",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.riedel.net%2Fwp-content%2Fuploads%2F2026%2F09%2FRiedel_OnAir_400_Series.webp&w=640&default=1"
   },
   {
     "id": "news-95",
@@ -1543,7 +1621,8 @@
     "evidence": "UAD Topline Vocal Tune — $99 USD | Intro Price $79 USD",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.uaudio.com%2Fcdn%2Fshop%2Farticles%2Ftopline_vocal_tune_dsp_pr_thumb_73ceaeda-685f-4b93-9897-694e795d6533.jpg%3Fcrop%3Dcenter%26height%3D630%26v%3D1788909791%26width%3D1200&w=640&default=1"
   },
   {
     "id": "news-97",
@@ -1556,7 +1635,8 @@
     "evidence": "At Booth 8.B90, visitors will experience new additions to the HOME ecosystem, the European premiere of Edge One",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Flawo.com%2Fwp-content%2Fuploads%2F2026%2F09%2FDMF_Setup_MCR_s.jpg&w=640&default=1"
   },
   {
     "id": "news-98",
@@ -1569,6 +1649,7 @@
     "evidence": "at IBC 2026, taking place September 10–14 at RAI Amsterdam. At Stand C31 in Hall 11, Audinate will demonstrate interoperability",
     "status": "published",
     "isDomestic": false,
-    "date": "2026-09-24"
+    "date": "2026-09-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.audinate.com%2Fwp-content%2Fuploads%2F2026%2F09%2Faudinate-ibc-2026.jpg&w=640&default=1"
   }
 ]
