@@ -1,5 +1,18 @@
 [
   {
+    "id": "news-104",
+    "date": "2026-09-25",
+    "company": "zynaptiq",
+    "brand": "zynaptiq",
+    "productName": "LOUD, WIDE, MASTER III, ZAP VI",
+    "type": "신제품",
+    "summary": "zynaptiq가 최대 16채널 이머시브 포맷을 지원하는 멀티밴드 리미터 LOUD와 스펙트럼 처리 기반 스테레오 이미징·모노→스테레오 업믹싱 플러그인 WIDE를 출시하고, 이를 포함한 MASTER III·ZAP VI 번들을 선보였습니다. 두 신제품은 10월 15일까지 출시 기념가로 판매됩니다.",
+    "link": "https://www.kvraudio.com/news/zynaptiq-releases-loud-wide-master-iii-and-zap-vi-68729",
+    "evidence": "Bring your sound into a good place, quickly and easily, with LOUD. Add density and heft to your sound, shape its tone, and make it loud, while preserving punch and presence.",
+    "status": "published",
+    "isDomestic": false
+  },
+  {
     "id": "news-102",
     "date": "2026-09-24",
     "company": "Antares Audio Technologies",

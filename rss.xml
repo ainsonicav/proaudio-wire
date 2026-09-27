@@ -6,7 +6,7 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 05:23:27 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 05:35:00 GMT</lastBuildDate>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
@@ -24,6 +24,15 @@
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-83</guid>
       <category>행사</category>
+    </item>
+
+    <item>
+      <title>[신제품] zynaptiq - LOUD, WIDE, MASTER III, ZAP VI</title>
+      <link>https://www.kvraudio.com/news/zynaptiq-releases-loud-wide-master-iii-and-zap-vi-68729</link>
+      <description>zynaptiq가 최대 16채널 이머시브 포맷을 지원하는 멀티밴드 리미터 LOUD와 스펙트럼 처리 기반 스테레오 이미징·모노→스테레오 업믹싱 플러그인 WIDE를 출시하고, 이를 포함한 MASTER III·ZAP VI 번들을 선보였습니다. 두 신제품은 10월 15일까지 출시 기념가로 판매됩니다.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-104</guid>
+      <category>신제품</category>
     </item>
 
     <item>
@@ -357,15 +366,6 @@
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-76</guid>
       <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Steinberg - VST Live 3.0.60</title>
-      <link>https://forums.steinberg.net/t/vst-live-3-0-60-is-available-now/1040969</link>
-      <description>안정성, 워크플로, 버그 수정 및 새 기능을 포함한 유지보수 업데이트.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-77</guid>
-      <category>업데이트</category>
     </item>
 
   </channel>
