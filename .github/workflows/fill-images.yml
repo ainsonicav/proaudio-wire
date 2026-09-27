@@ -8,6 +8,8 @@ on:
       - "scripts/fill_images.py"
       - ".github/workflows/fill-images.yml"
   workflow_dispatch:
+  schedule:
+    - cron: "30 23 * * *"   # 매일 오전 8:30(한국) 못 찾은 사진 재시도
 
 permissions:
   contents: write
@@ -19,6 +21,7 @@ concurrency:
 jobs:
   fill:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -26,7 +29,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: 사진 없는 소식의 원문에서 대표 이미지 찾기
+      - name: 사진 없는 소식에 썸네일 채우기 (원문 → 우회 → 본문 → 이미지 검색)
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
         run: python3 scripts/fill_images.py
 
       - name: 형식 검사 + RSS 갱신

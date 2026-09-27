@@ -39,8 +39,17 @@ PRO AUDIO WIRE — https://news.ainsonic.com (GitHub Pages)
 - `date`는 **게시일**입니다. 행사 개최일은 summary에 적어 주세요.
 - `status`를 `hidden`으로 바꾸면 사이트에서 숨겨집니다.
 
-## 사진 자동 채우기
+## 사진 자동 채우기 (썸네일 항상 표시)
 
-`news.json`이 바뀌면 GitHub Actions(`fill-images.yml`)가 사진(`imageUrl`)이 없는 소식의 원문을 열어
-대표 이미지(og:image)를 찾아 채웁니다. 못 찾은 항목에는 `imageChecked` 날짜가 남고 14일 뒤 다시 시도합니다.
-사진을 직접 넣고 싶으면 `imageUrl`에 주소를 적으면 됩니다.
+`news.json`이 바뀔 때와 매일 오전 8:30에 GitHub Actions(`fill-images.yml`)가 사진이 없는 소식을 채웁니다.
+
+1. 원문의 대표 이미지(og:image)
+2. 원문 사이트가 자동 접속을 막으면 페이지 읽기 서비스(r.jina.ai)로 우회
+3. 대표 이미지가 없으면 본문 속 큰 사진
+4. 그래도 없으면 "브랜드 + 제품명" 이미지 검색 — 브랜드명이 들어간 결과만 사용
+   - Google: 저장소 Secret `GOOGLE_API_KEY`, `GOOGLE_CSE_ID`를 등록하면 먼저 사용 (선택)
+   - 키가 없으면 DuckDuckGo → Bing 이미지 검색
+5. 모두 실패하면 사이트는 브랜드명 디자인 카드를 보여주고, 3일 뒤 다시 시도(`imageTried`)
+
+모든 이미지는 저장 전에 실제로 열리는지 확인합니다. 검색으로 찾은 사진은 `imageSource: "search"`로 표시되고
+사이트에 작게 "관련 이미지"라고 나옵니다. 사진을 직접 넣으려면 `imageUrl`에 주소를 적으면 됩니다.

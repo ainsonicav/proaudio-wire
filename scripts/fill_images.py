@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
-"""사진(imageUrl)이 없는 소식의 원문을 열어 대표 이미지를 찾아 채웁니다.
+"""사진(imageUrl)이 없는 소식에 썸네일을 채웁니다. GitHub Actions에서 실행됩니다.
 
-GitHub Actions에서 실행됩니다 (원문 사이트 접속이 필요해서).
-- 원문 페이지의 og:image / twitter:image 를 찾습니다.
-- 네이버 블로그는 모바일 주소(m.blog.naver.com)로, 유튜브는 영상 썸네일로 처리합니다.
-- 찾은 이미지는 wsrv.nl 이미지 중계 주소로 저장합니다
-  (일부 사이트가 다른 사이트에서 사진을 불러오는 것을 막기 때문).
-- 못 찾은 항목은 imageChecked 날짜를 남겨 매번 다시 시도하지 않습니다(14일 뒤 재시도).
+순서 (앞 단계에서 찾으면 멈춤):
+  1) 원문 페이지의 대표 이미지(og:image / twitter:image)
+  2) 원문 사이트가 자동 접속을 막으면 → 페이지 읽기 서비스(r.jina.ai)를 거쳐 다시 시도
+  3) 대표 이미지 표시가 없으면 → 본문 안의 큰 사진
+  4) 그래도 없으면 → "브랜드 + 제품명"으로 이미지 검색
+       - Google (저장소 Secret GOOGLE_API_KEY, GOOGLE_CSE_ID가 있을 때)
+       - 없거나 실패하면 DuckDuckGo → Bing 이미지 검색 (키 필요 없음)
+       - 제목·주소에 브랜드명이 들어간 결과만 씀
+  5) 모두 실패하면 사이트가 브랜드명 디자인 카드를 보여줌 (다음 실행 때 다시 시도)
 
-사용법: python3 scripts/fill_images.py   (바뀐 게 있으면 news.json 저장)
+찾은 이미지는 wsrv.nl 이미지 중계 주소로 저장하고, 저장 전에 실제로 열리는지 확인합니다.
+imageSource: "original"(원문 사진) / "search"(검색으로 찾은 관련 이미지)
 """
 import json
+import os
 import re
 import sys
+import time
 import urllib.parse
 import urllib.request
 from datetime import date, timedelta
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -23,18 +30,57 @@ ROOT = Path(__file__).resolve().parent.parent
 NEWS = ROOT / "news.json"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
-RETRY_DAYS = 14
-MAX_PER_RUN = 150
+RETRY_DAYS = 3
+MAX_PER_RUN = 120
 META_KEYS = ["og:image:secure_url", "og:image", "og:image:url", "twitter:image", "twitter:image:src"]
-# 사이트 공통 로고·기본 이미지로 보이는 것은 건너뜀
-BAD_HINTS = ("logo", "favicon", "default-og", "og-default", "placeholder", "blank.")
+BAD_HINTS = ("logo", "favicon", "default-og", "og-default", "placeholder", "blank.", "sprite",
+             "icon", "avatar", "banner-ad", "1x1", "pixel", ".svg", "gravatar")
+GOOGLE_KEY = os.environ.get("GOOGLE_API_KEY", "").strip()
+GOOGLE_CX = os.environ.get("GOOGLE_CSE_ID", "").strip()
+stats = {"original": 0, "reader": 0, "body": 0, "google": 0, "duckduckgo": 0, "bing": 0, "none": 0}
 
 
-class MetaParser(HTMLParser):
+# ---------- 공통 ----------
+def http_get(url, headers=None, limit=2_000_000, timeout=20):
+    h = {"User-Agent": UA, "Accept-Language": "ko,en;q=0.8"}
+    h.update(headers or {})
+    req = urllib.request.Request(url, headers=h)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        ctype = r.headers.get("Content-Type", "")
+        charset = r.headers.get_content_charset() or "utf-8"
+        raw = r.read(limit)
+        return r.geturl(), ctype, raw, charset
+
+
+def get_text(url, headers=None):
+    final, ctype, raw, charset = http_get(url, headers)
+    return final, ctype, raw.decode(charset, errors="replace")
+
+
+def bad_image(u):
+    lu = u.lower()
+    return (not lu.startswith("http")) or any(h in lu for h in BAD_HINTS)
+
+
+def proxied(img):
+    return "https://wsrv.nl/?url=" + urllib.parse.quote(img, safe="") + "&w=640&default=1"
+
+
+def image_works(img):
+    """중계 서비스를 거쳐 실제 이미지가 열리는지 확인 (사이트에서 보이는 그대로)."""
+    test = "https://wsrv.nl/?url=" + urllib.parse.quote(img, safe="") + "&w=64"
+    try:
+        _, ctype, raw, _ = http_get(test, limit=300_000, timeout=25)
+        return ctype.startswith("image/") and len(raw) > 300
+    except Exception:  # noqa: BLE001
+        return False
+
+
+# ---------- 1~3단계: 원문 ----------
+class PageParser(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.meta = {}
-        self.image_src = None
+        self.meta, self.imgs, self.image_src = {}, [], None
 
     def handle_starttag(self, tag, attrs):
         a = {k.lower(): (v or "") for k, v in attrs}
@@ -44,21 +90,21 @@ class MetaParser(HTMLParser):
                 self.meta[key] = a["content"].strip()
         elif tag == "link" and a.get("rel", "").lower() == "image_src" and a.get("href"):
             self.image_src = a["href"].strip()
-
-
-def fetch(url, limit=1_500_000):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko,en;q=0.8"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        ctype = r.headers.get("Content-Type", "")
-        charset = r.headers.get_content_charset() or "utf-8"
-        return r.geturl(), ctype, r.read(limit).decode(charset, errors="replace")
+        elif tag == "img" and len(self.imgs) < 60:
+            src = a.get("data-src") or a.get("data-lazy-src") or a.get("src") or ""
+            if not src and a.get("srcset"):
+                src = a["srcset"].split(",")[-1].strip().split(" ")[0]
+            try:
+                w = int(re.sub(r"\D", "", a.get("width", "")) or 0)
+            except ValueError:
+                w = 0
+            if src and not src.startswith("data:"):
+                self.imgs.append((src.strip(), w))
 
 
 def page_url(link):
-    """원문 주소를 대표 이미지를 읽기 쉬운 주소로 바꿈."""
     u = urllib.parse.urlparse(link)
-    host = u.netloc.lower()
-    if host in ("blog.naver.com", "www.blog.naver.com"):
+    if u.netloc.lower() in ("blog.naver.com", "www.blog.naver.com"):
         q = urllib.parse.parse_qs(u.query)
         if "blogId" in q and "logNo" in q:
             return f"https://m.blog.naver.com/{q['blogId'][0]}/{q['logNo'][0]}"
@@ -71,30 +117,153 @@ def youtube_thumb(link):
     return f"https://i.ytimg.com/vi/{m.group(1)}/hqdefault.jpg" if m else None
 
 
-def find_image(link):
-    yt = youtube_thumb(link)
-    if yt:
-        return yt
-    final, ctype, html = fetch(page_url(link))
-    if "html" not in ctype and "<html" not in html[:2000].lower():
-        return None
-    p = MetaParser()
+def images_from_html(base, html):
+    """(대표 이미지 후보들, 본문 사진 후보들)"""
+    p = PageParser()
     try:
         p.feed(html)
-    except Exception:  # noqa: BLE001 - 깨진 HTML도 앞부분만으로 충분
+    except Exception:  # noqa: BLE001
         pass
-    for k in META_KEYS:
-        if k in p.meta:
-            img = urllib.parse.urljoin(final, p.meta[k])
-            if img.startswith("http") and not any(h in img.lower() for h in BAD_HINTS):
-                return img
+    meta = [urllib.parse.urljoin(base, p.meta[k]) for k in META_KEYS if k in p.meta]
     if p.image_src:
-        return urllib.parse.urljoin(final, p.image_src)
-    return None
+        meta.append(urllib.parse.urljoin(base, p.image_src))
+    body = []
+    for src, w in p.imgs:
+        full = urllib.parse.urljoin(base, src)
+        if bad_image(full) or (w and w < 250):
+            continue
+        if re.search(r"\.(jpe?g|png|webp)(\?|$)", full.lower()) or "upload" in full.lower():
+            body.append(full)
+    return [m for m in meta if not bad_image(m)], body
 
 
-def proxied(img):
-    return "https://wsrv.nl/?url=" + urllib.parse.quote(img, safe="") + "&w=640&default=1"
+def from_original(link):
+    yt = youtube_thumb(link)
+    if yt:
+        return [("original", yt)]
+    url = page_url(link)
+    cands = []
+    html, base = None, url
+    try:
+        base, ctype, html = get_text(url)
+        if "html" not in ctype and "<html" not in html[:3000].lower():
+            html = None
+    except Exception:  # noqa: BLE001
+        html = None
+    if html is None:
+        # 2) 자동 접속 차단 시: 페이지 읽기 서비스로 우회
+        try:
+            _, _, html = get_text("https://r.jina.ai/" + url, {"X-Return-Format": "html"})
+            base = url
+            meta, body = images_from_html(base, html)
+            return [("reader", m) for m in meta] + [("body", b) for b in body[:3]]
+        except Exception:  # noqa: BLE001
+            return []
+    meta, body = images_from_html(base, html)
+    cands += [("original", m) for m in meta]
+    cands += [("body", b) for b in body[:3]]
+    return cands
+
+
+# ---------- 4단계: 이미지 검색 ----------
+def search_query(it):
+    brand = (it.get("brand") or "").strip()
+    prod = re.split(r"[,/(]| 및 | and ", it.get("productName") or "")[0].strip()
+    if prod.lower().startswith(brand.lower()):
+        prod = prod[len(brand):].strip()
+    return f"{brand} {prod}".strip(), brand
+
+
+def brand_tokens(brand):
+    b = re.sub(r"[^0-9a-z가-힣ø]+", " ", brand.lower()).split()
+    return [t for t in b if len(t) >= 2] or [brand.lower()]
+
+
+def relevant(brand, *texts):
+    blob = " ".join(texts).lower()
+    toks = brand_tokens(brand)
+    return any(t in blob for t in toks) or brand.lower().replace("ø", "o") in blob
+
+
+def search_google(q, brand):
+    if not (GOOGLE_KEY and GOOGLE_CX):
+        return []
+    url = ("https://www.googleapis.com/customsearch/v1?" + urllib.parse.urlencode(
+        {"key": GOOGLE_KEY, "cx": GOOGLE_CX, "q": q, "searchType": "image", "num": 8, "safe": "active"}))
+    _, _, txt = get_text(url)
+    out = []
+    for r in json.loads(txt).get("items", []):
+        ctx = (r.get("image") or {}).get("contextLink", "")
+        if relevant(brand, r.get("title", ""), r.get("link", ""), ctx):
+            out.append(("google", r["link"]))
+            thumb = (r.get("image") or {}).get("thumbnailLink")
+            if thumb:
+                out.append(("google", thumb))
+    return out
+
+
+def search_ddg(q, brand):
+    _, _, html = get_text("https://duckduckgo.com/?" + urllib.parse.urlencode({"q": q, "iax": "images", "ia": "images"}))
+    m = re.search(r"vqd=[\"']?([\d-]+)", html)
+    if not m:
+        return []
+    api = "https://duckduckgo.com/i.js?" + urllib.parse.urlencode(
+        {"l": "wt-wt", "o": "json", "q": q, "vqd": m.group(1), "f": ",,,,,", "p": "1"})
+    _, _, txt = get_text(api, {"Referer": "https://duckduckgo.com/", "Accept": "application/json"})
+    out = []
+    for r in json.loads(txt).get("results", [])[:15]:
+        if (r.get("width") or 999) < 250:
+            continue
+        if relevant(brand, r.get("title", ""), r.get("url", ""), r.get("image", "")):
+            out.append(("duckduckgo", r["image"]))
+            if r.get("thumbnail"):
+                out.append(("duckduckgo", r["thumbnail"]))
+    return out
+
+
+def search_bing(q, brand):
+    _, _, html = get_text("https://www.bing.com/images/search?" + urllib.parse.urlencode({"q": q, "form": "HDRSC2"}))
+    out = []
+    for m in re.finditer(r'class="iusc"[^>]*?\sm="([^"]+)"', html):
+        try:
+            d = json.loads(unescape(m.group(1)))
+        except ValueError:
+            continue
+        if relevant(brand, d.get("t", ""), d.get("purl", ""), d.get("murl", "")):
+            out.append(("bing", d["murl"]))
+            if d.get("turl"):
+                out.append(("bing", d["turl"]))
+        if len(out) >= 12:
+            break
+    return out
+
+
+def from_search(it):
+    q, brand = search_query(it)
+    if not brand:
+        return []
+    for fn in (search_google, search_ddg, search_bing):
+        try:
+            c = [x for x in fn(q, brand) if not bad_image(x[1]) or "bing.net" in x[1] or "ytimg" in x[1]]
+        except Exception as e:  # noqa: BLE001
+            print(f"    {fn.__name__} 실패: {type(e).__name__}: {str(e)[:60]}")
+            c = []
+        if c:
+            return c
+        time.sleep(1)
+    return []
+
+
+# ---------- 실행 ----------
+def pick(cands):
+    seen = set()
+    for src, img in cands:
+        if img in seen:
+            continue
+        seen.add(img)
+        if image_works(img):
+            return src, img
+    return None, None
 
 
 def main():
@@ -102,37 +271,43 @@ def main():
     today = date.today()
     todo = []
     for it in items:
+        it.pop("imageChecked", None)  # 옛 버전 표시 정리
         if it.get("imageUrl") or it.get("status") == "hidden" or not str(it.get("link", "")).startswith("http"):
             continue
-        checked = it.get("imageChecked")
-        if checked:
+        tried = it.get("imageTried")
+        if tried:
             try:
-                if date.fromisoformat(checked) > today - timedelta(days=RETRY_DAYS):
+                if date.fromisoformat(tried) > today - timedelta(days=RETRY_DAYS):
                     continue
             except ValueError:
                 pass
         todo.append(it)
 
-    found = missed = 0
+    changed = False
     for it in todo[:MAX_PER_RUN]:
-        try:
-            img = find_image(it["link"])
-        except Exception as e:  # noqa: BLE001
-            img = None
-            print(f"  {it['id']}: 열기 실패 ({type(e).__name__}: {str(e)[:80]})")
+        src, img = pick(from_original(it["link"]))
+        if not img:
+            src, img = pick(from_search(it))
         if img:
             it["imageUrl"] = proxied(img)
-            it.pop("imageChecked", None)
-            found += 1
-            print(f"  {it['id']}: 사진 찾음 {img[:90]}")
+            it["imageSource"] = "search" if src in ("google", "duckduckgo", "bing") else "original"
+            it.pop("imageTried", None)
+            stats[src] += 1
+            print(f"  {it['id']}: [{src}] {img[:100]}")
         else:
-            it["imageChecked"] = today.isoformat()
-            missed += 1
+            it["imageTried"] = today.isoformat()
+            stats["none"] += 1
+            print(f"  {it['id']}: 못 찾음")
+        changed = True
 
-    if found or missed:
-        NEWS.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"확인 {found + missed}건: 사진 추가 {found}건, 못 찾음 {missed}건")
-    print(f"::notice title=사진 채우기::사진 추가 {found}건, 못 찾음 {missed}건", flush=True)
+    # 옛 imageChecked 표시만 지운 경우도 저장
+    text = json.dumps(items, ensure_ascii=False, indent=2) + "\n"
+    if changed or text != NEWS.read_text(encoding="utf-8"):
+        NEWS.write_text(text, encoding="utf-8")
+    found = sum(v for k, v in stats.items() if k != "none")
+    detail = ", ".join(f"{k} {v}" for k, v in stats.items() if v)
+    print(f"사진 추가 {found}건, 못 찾음 {stats['none']}건 ({detail})")
+    print(f"::notice title=사진 채우기::사진 추가 {found}건, 못 찾음 {stats['none']}건 ({detail or '대상 없음'})", flush=True)
 
 
 if __name__ == "__main__":
