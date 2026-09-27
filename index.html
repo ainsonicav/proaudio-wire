@@ -1113,6 +1113,22 @@
       <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.3rem;">새로운 오디오 기어 소식을 실시간으로 받아보세요.</p>
       
       <div style="background:#f8fafc; padding:0.9rem; border-radius:8px; margin-bottom:0.9rem; border:1px solid var(--surface-border);">
+        <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">📧 이메일로 받기</div>
+        <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.6rem;">신제품·행사 소식을 정리해 이메일로 보내드립니다. 주 1회 내외, 언제든 수신거부 가능합니다.</p>
+        <form id="emailSubForm" style="display:flex; flex-direction:column; gap:0.5rem;">
+          <input type="email" id="sub-email" placeholder="이메일 주소 *" required style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
+          <input type="text" id="sub-name" placeholder="이름 또는 회사명 (선택)" style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
+          <input type="text" id="sub-website" name="website" autocomplete="off" tabindex="-1" style="position:absolute; left:-9999px; width:1px; height:1px; opacity:0;" aria-hidden="true">
+          <label style="display:flex; align-items:flex-start; gap:0.4rem; font-size:0.78rem; color:var(--text-muted); cursor:pointer;">
+            <input type="checkbox" id="sub-agree" style="margin-top:0.15rem; flex-shrink:0;">
+            <span>PRO AUDIO WIRE·아인소닉의 신제품·행사 소식(광고성 정보)을 이메일로 받는 데 동의합니다. 주 1회 내외, 언제든 수신거부 가능합니다.</span>
+          </label>
+          <button type="submit" id="sub-submit-btn" style="background:var(--accent); color:#fff; border:none; padding:0.55rem; border-radius:6px; cursor:pointer; font-weight:600; font-size:0.85rem;">구독 신청</button>
+          <p id="sub-msg" style="font-size:0.78rem; margin:0; min-height:1em;"></p>
+        </form>
+      </div>
+
+      <div style="background:#f8fafc; padding:0.9rem; border-radius:8px; margin-bottom:0.9rem; border:1px solid var(--surface-border);">
         <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">✈️ 텔레그램 실시간 채널</div>
         <p style="font-size:0.8rem; color:var(--text-muted);">신제품 출시와 펌웨어 업데이트 즉시 메신저로 전송됩니다.</p>
         <a href="https://t.me/proaudiowire" target="_blank" style="display:block; text-align:center; background:#0088cc; color:#fff; text-decoration:none; padding:0.5rem; border-radius:6px; font-weight:600; font-size:0.85rem; margin-top:0.5rem;">텔레그램 채널 입장하기 ↗</a>
@@ -1448,6 +1464,41 @@
       if (e.target === subModal) subModal.classList.remove('active');
     });
 
+    // 이메일 구독 (아인소닉 홈페이지 문의 접수 시트에 "뉴스 구독"으로 함께 기록)
+    const INQUIRY_ENDPOINT = "https://script.google.com/macros/s/AKfycbxV9MhvaEtD_fVxnH56IdnSw3QJWO0F6EhTh9QXsm7Q9nTROPNL_M6ija1OxoFbk7SC/exec";
+    document.getElementById('emailSubForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const msg = document.getElementById('sub-msg');
+      msg.style.color = '#dc2626';
+      const email = document.getElementById('sub-email').value.trim();
+      const name = document.getElementById('sub-name').value.trim();
+      const website = document.getElementById('sub-website').value;
+      const agree = document.getElementById('sub-agree').checked;
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { msg.textContent = '올바른 이메일 주소를 입력해 주세요.'; return; }
+      if (!agree) { msg.textContent = '이메일 수신에 동의해 주세요.'; return; }
+      if (website) { return; } // 스팸 방지(허니팟) — 조용히 무시
+      const btn = document.getElementById('sub-submit-btn');
+      btn.disabled = true; btn.textContent = '신청 중…';
+      const data = {
+        org: name, contact_name: name, phone: '', email: email,
+        space: '뉴스 구독', region: '', types: '뉴스구독', message: '이메일 소식 구독 신청',
+        website: website, submitted_at: new Date().toISOString()
+      };
+      let ok = false;
+      try {
+        await fetch(INQUIRY_ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(data) });
+        ok = true;
+      } catch (x) { ok = false; }
+      btn.disabled = false; btn.textContent = '구독 신청';
+      if (ok) {
+        msg.style.color = '#16a34a';
+        msg.textContent = '신청되었습니다! 곧 소식을 보내드릴게요.';
+        document.getElementById('emailSubForm').reset();
+      } else {
+        msg.textContent = '신청에 실패했습니다. 잠시 후 다시 시도해 주세요.';
+      }
+    });
+
     
     const legalTexts = {
       disclaimer: {
@@ -1465,11 +1516,11 @@
         title: '개인정보처리방침',
         body: `
           <h4>1. 수집하는 개인정보 항목</h4>
-          <p>본 사이트는 회원가입 없이 누구나 자유롭게 이용할 수 있습니다. 단, 자발적으로 모닝 브리핑 이메일 구독을 신청하는 경우에 한하여 <strong>[이메일 주소]</strong>만을 최소한으로 수집합니다.</p>
-          <h4>2. 개인정보의 이용 목적</h4>
-          <p>수집된 이메일은 프로오디오 신제품 및 펌웨어 업데이트 브리핑 메일 발송 외의 어떠한 상업적 목적으로도 사용되지 않으며, 제3자에게 일절 제공되지 않습니다.</p>
+          <p>본 사이트는 회원가입 없이 누구나 자유롭게 이용할 수 있습니다. 단, 자발적으로 이메일 소식 구독을 신청하는 경우에 한하여 <strong>[이메일 주소, 이름 또는 회사명(선택)]</strong>을 최소한으로 수집합니다.</p>
+          <h4>2. 개인정보의 이용 목적 및 수집 방법</h4>
+          <p>수집된 정보는 프로오디오 신제품·행사 소식(광고성 정보 포함) 이메일 발송 목적으로만 사용되며, 이 외의 어떠한 상업적 목적으로도 사용되지 않고 제3자에게 일절 제공되지 않습니다. 구독 신청 시 입력하신 정보는 운영자(아인소닉)가 관리하는 Google Sheets(구글 스프레드시트)에 저장되어 발송 대상 관리에 사용됩니다.</p>
           <h4>3. 보유 및 파기</h4>
-          <p>구독 취소를 요청하시는 경우 즉시 파기되며, 저장된 정보는 안전하게 관리됩니다.</p>
+          <p>수신거부(구독 취소)를 요청하시는 경우 지체 없이 발송 대상에서 제외 및 파기 처리하며, 저장된 정보는 안전하게 관리됩니다. 문의: ainsonicav@gmail.com</p>
         `
       },
       contact: {
