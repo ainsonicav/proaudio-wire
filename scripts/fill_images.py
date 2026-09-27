@@ -47,6 +47,7 @@ AUDIO_WORDS = ("audio", "sound", "mic", "speaker", "mixer", "console", "plugin",
                "synth", "recording", "broadcast", "pro audio", "음향", "스피커", "마이크")
 GOOGLE_KEY = os.environ.get("GOOGLE_API_KEY", "").strip()
 GOOGLE_CX = os.environ.get("GOOGLE_CSE_ID", "").strip()
+SEARCH_LOG = {}  # 검색 엔진별: 결과 있음 / 관련 결과 없음 / 오류
 stats = {"original": 0, "reader": 0, "body": 0, "google": 0, "duckduckgo": 0, "bing": 0, "none": 0}
 
 
@@ -246,7 +247,7 @@ def search_ddg(q, brand):
     _, _, html = get_text("https://duckduckgo.com/?" + urllib.parse.urlencode({"q": q, "iax": "images", "ia": "images"}))
     m = re.search(r"vqd=[\"']?([\d-]+)", html)
     if not m:
-        return []
+        raise RuntimeError(f"vqd 없음 (html {len(html)}자)")
     api = "https://duckduckgo.com/i.js?" + urllib.parse.urlencode(
         {"l": "wt-wt", "o": "json", "q": q, "vqd": m.group(1), "f": ",,,,,", "p": "1"})
     _, _, txt = get_text(api, {"Referer": "https://duckduckgo.com/", "Accept": "application/json"})
@@ -264,6 +265,10 @@ def search_ddg(q, brand):
 def search_bing(q, brand):
     _, _, html = get_text("https://www.bing.com/images/search?" + urllib.parse.urlencode({"q": q, "form": "HDRSC2"}))
     out = []
+    raw = re.findall(r'class="iusc"[^>]*?\sm="([^"]+)"', html)
+    SEARCH_LOG.setdefault("bing_raw", {"hit": 0, "empty": 0, "err": 0, "last": ""})["hit" if raw else "empty"] += 1
+    if not raw:
+        SEARCH_LOG["bing_raw"]["last"] = f"html {len(html)}자 murl {html.count('murl')}"
     for m in re.finditer(r'class="iusc"[^>]*?\sm="([^"]+)"', html):
         try:
             d = json.loads(unescape(m.group(1)))
@@ -287,10 +292,14 @@ def from_search(it):
     for query, toks in ((q, product_tokens(it)), (f"{brand} audio", [])):
         RELEVANCE["toks"] = toks
         for fn in (search_google, search_ddg, search_bing):
+            log = SEARCH_LOG.setdefault(fn.__name__[7:], {"hit": 0, "empty": 0, "err": 0, "last": ""})
             try:
                 c = [x for x in fn(query, brand) if not bad_image(x[1]) or "bing.net" in x[1] or "ytimg" in x[1]]
+                log["hit" if c else "empty"] += 1
             except Exception as e:  # noqa: BLE001
                 print(f"    {fn.__name__} 실패: {type(e).__name__}: {str(e)[:60]}")
+                log["err"] += 1
+                log["last"] = f"{type(e).__name__}: {str(e)[:50]}"
                 c = []
             if c:
                 yield from c
@@ -361,6 +370,9 @@ def main():
     found = sum(v for k, v in stats.items() if k != "none")
     detail = ", ".join(f"{k} {v}" for k, v in stats.items() if v)
     print(f"사진 추가 {found}건, 못 찾음 {stats['none']}건 ({detail})")
+    if SEARCH_LOG:
+        print("::notice title=이미지 검색 상태::" + " | ".join(
+            f"{k} 결과 {v['hit']} · 없음 {v['empty']} · 오류 {v['err']} {v['last']}" for k, v in SEARCH_LOG.items()), flush=True)
     print(f"::notice title=사진 채우기::사진 추가 {found}건, 못 찾음 {stats['none']}건 ({detail or '대상 없음'})", flush=True)
 
 
