@@ -6,7 +6,7 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 05:35:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 05:37:21 GMT</lastBuildDate>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
@@ -41,6 +41,15 @@
       <description>TASCAM이 카메라용 XLR 마이크 어댑터 CA-XLR2d의 호환 카메라 목록을 갱신해 캐논 EOS R6 V와의 호환성을 공식 확인했습니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-101</guid>
+      <category>업데이트</category>
+    </item>
+
+    <item>
+      <title>[업데이트] MuxLab - Symetrix Composer Control Module for MuxLab</title>
+      <link>https://ravepubs.com/muxlab-symetrix-composer-module-av-over-ip-control/</link>
+      <description>MuxLab이 Symetrix Composer 소프트웨어에서 MuxLab AV-over-IP 제품(Muximus 관리 플랫폼 포함)의 비디오 라우팅·스위칭·프리셋 호출 등을 제어할 수 있는 컨트롤 모듈을 공개했으며, 모듈은 현재 바로 사용할 수 있습니다.</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-105</guid>
       <category>업데이트</category>
     </item>
 
@@ -356,15 +365,6 @@
       <description>젠하이저가 Spectera 광대역 무선 생태계용 SKM 핸드헬드 송신기 출하를 시작했다. 라이브, 공연, 방송, 종교시설용으로 베이스 스테이션과 양방향 통신해 원격 모니터링·설정이 가능하다.</description>
       <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-75</guid>
-      <category>신제품</category>
-    </item>
-
-    <item>
-      <title>[신제품] Neumann - KH 310 II; KH 350</title>
-      <link>https://newsroom.neumann.com/neumann-expands-its-3-way-monitoring-portfolio-with-the-kh-310-ii-and-kh-350</link>
-      <description>DSP와 MA 1 자동 모니터 정렬을 지원하는 차세대 3웨이 스튜디오 모니터 2종 발표.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-76</guid>
       <category>신제품</category>
     </item>
 
