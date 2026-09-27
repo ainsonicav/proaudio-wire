@@ -129,6 +129,12 @@
       border-color: #fde68a;
     }
     .btn-rss:hover { background: #fef3c7; }
+    .btn-company {
+      background: #f8fafc;
+      color: #0f172a;
+      border-color: #cbd5e1;
+    }
+    .btn-company:hover { background: #f1f5f9; }
     .btn-sub {
       background: linear-gradient(135deg, #e11d48, #f43f5e);
       color: #fff;
@@ -398,6 +404,14 @@
       white-space: nowrap;
     }
     .btn-link-out:hover { text-decoration: underline; }
+    .btn-inquiry {
+      font-size: 0.76rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .btn-inquiry:hover { color: var(--accent); text-decoration: underline; }
 
     /* 테이블 아카이브 스타일 */
     .table-container {
@@ -867,6 +881,9 @@
       </nav>
 
       <div class="header-actions">
+        <a href="https://www.ainsonic.com" target="_blank" rel="noopener" class="btn-action btn-company">
+          <span>🏢 아인소닉</span>
+        </a>
         <a href="rss.xml" target="_blank" class="btn-action btn-rss">
           <span>📡 RSS</span>
         </a>
@@ -886,6 +903,7 @@
       <a href="#archive-section" class="mm-item">📋 전체 소식 아카이브</a>
       <a href="https://t.me/proaudiowire" target="_blank" rel="noopener" class="mm-item">✈️ 텔레그램 채널</a>
       <a href="rss.xml" target="_blank" class="mm-item">📡 RSS 피드</a>
+      <a href="https://www.ainsonic.com" target="_blank" rel="noopener" class="mm-item">🏢 아인소닉</a>
       <button type="button" class="mm-item mm-cta" id="mmSubBtn">🔔 신제품 알림 받기</button>
     </div>
   </header>
@@ -1122,6 +1140,7 @@
               ${showCompany ? `<span class="company-tag">${item.company}</span>` : '<span></span>'}
               <span class="card-actions">
                 <span class="toggle-indicator" id="indicator-${idx}">더보기 ▾</span>
+                <a href="https://www.ainsonic.com/#contact" target="_blank" rel="noopener" class="btn-inquiry" onclick="event.stopPropagation()">시공 문의</a>
                 <a href="${item.link}" target="_blank" rel="noopener noreferrer" class="btn-link-out" onclick="event.stopPropagation()">원문 ↗</a>
               </span>
             </div>
