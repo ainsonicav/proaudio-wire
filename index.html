@@ -874,6 +874,43 @@
       margin-bottom: 0.6rem;
     }
 
+
+    /* ===== 폰 가독성 보강: 카드 글이 사진 옆 좁은 칸에 갇혀 잘리지 않도록 ===== */
+    @media (max-width: 640px) {
+      /* 사진 옆에는 분류·제목만, 요약과 하단 줄은 카드 전체 폭 사용 */
+      .news-card {
+        grid-template-columns: 84px minmax(0, 1fr);
+        grid-template-rows: auto 1fr;
+        column-gap: 0.8rem;
+        row-gap: 0;
+        align-items: start;
+      }
+      .card-thumb-wrap { width: 84px; height: 84px; grid-row: 1 / span 2; }
+      .card-body { display: contents; }
+      .card-meta, .product-title { grid-column: 2; }
+      .card-summary, .card-expand-content, .card-footer { grid-column: 1 / -1; }
+      .card-summary { margin-top: 0.55rem; font-size: 0.9rem; line-height: 1.65; color: #334155; }
+      .card-meta { flex-wrap: wrap; row-gap: 0.2rem; font-size: 0.75rem; }
+      .card-meta .brand-name { overflow: visible; white-space: normal; }
+      .product-title { -webkit-line-clamp: 4; font-size: 1rem; }
+      .badge { font-size: 0.72rem; }
+      .card-footer { flex-wrap: wrap; row-gap: 0.4rem; padding-top: 0.7rem; }
+      .company-tag { white-space: normal; font-size: 0.75rem; }
+      .card-actions { gap: 0.8rem; margin-left: auto; }
+      .toggle-indicator, .btn-link-out, .btn-inquiry { font-size: 0.8rem; padding: 0.3rem 0; }
+      .domestic-badge { font-size: 0.66rem; }
+      .thumb-fallback { padding: 0 0.3rem; }
+      .tf-brand { font-size: 0.72rem; overflow-wrap: normal; }
+
+      /* 아카이브 목록: 회사명이 …으로 잘리지 않게 줄바꿈 */
+      .brand-cell-text { white-space: normal; word-break: keep-all; overflow-wrap: anywhere; }
+      .news-table td.col-date { font-size: 0.8rem; }
+      .mini-kr { font-size: 0.7rem; }
+      .new-tag { font-size: 0.66rem; }
+
+      footer { font-size: 0.85rem; }
+      .footer-legal-notice { word-break: keep-all; }
+    }
   </style>
 </head>
 <body>
