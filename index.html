@@ -1022,66 +1022,70 @@
     </div>
   </header>
 
-  <!-- 아인소닉 공지사항 (업무센터에서 관리 → notices.json 자동 반영) -->
-  <div id="noticeBanner" class="notice-banner" hidden>
-    <a id="noticeBannerLink" href="https://www.ainsonic.com/#notice" target="_blank" rel="noopener">
-      <span class="nb-tag">공지</span>
-      <span class="nb-title" id="noticeBannerTitle"></span>
-      <span class="nb-date" id="noticeBannerDate"></span>
-    </a>
-    <button type="button" id="noticeBannerClose" aria-label="공지 닫기">&times;</button>
-  </div>
   <style>
-    .notice-banner{display:flex;align-items:center;gap:10px;background:#0f172a;color:#e2e8f0;padding:9px 16px;font-size:0.86rem}
-    .notice-banner a{flex:1;min-width:0;display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none}
-    .notice-banner a:hover .nb-title{text-decoration:underline}
-    .notice-banner .nb-tag{flex:none;background:#f59e0b;color:#1e1300;font-weight:700;font-size:0.72rem;padding:2px 8px;border-radius:999px}
-    .notice-banner .nb-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-    .notice-banner .nb-date{flex:none;color:#94a3b8;font-size:0.78rem}
-    .notice-banner button{flex:none;background:none;border:0;color:#94a3b8;font-size:1.1rem;line-height:1;cursor:pointer;padding:2px 4px}
-    .notice-banner button:hover{color:#e2e8f0}
-    @media (max-width:640px){.notice-banner .nb-date{display:none}}
+    .top-row{display:flex;align-items:flex-start;gap:1.1rem;margin-bottom:1.1rem}
+    .top-row > .trend-widget,.top-row > .notice-panel{flex:1 1 50%;min-width:0;margin-bottom:0}
+    @media (max-width:760px){.top-row{flex-direction:column}}
+    .notice-panel{background:#fff;border:1px solid var(--surface-border);border-radius:10px;overflow:hidden}
+    .notice-panel-head{display:flex;align-items:center;justify-content:space-between;gap:0.6rem;background:#f8fafc;padding:0.7rem 1rem;font-weight:700;font-size:0.9rem;color:#0f172a}
+    .notice-panel-body{padding:0.7rem 1.1rem 0.9rem;display:flex;flex-direction:column;gap:0.55rem}
+    .notice-row{display:block;padding:0.4rem 0;border-bottom:1px dashed var(--surface-border);color:inherit;text-decoration:none}
+    .notice-row:last-child{border-bottom:none;padding-bottom:0}
+    .notice-row:hover .nr-title{text-decoration:underline}
+    .notice-row .nr-top{display:flex;align-items:center;gap:6px;margin-bottom:2px}
+    .notice-row .nr-tag{flex:none;background:#f59e0b;color:#1e1300;font-weight:700;font-size:0.66rem;padding:1px 7px;border-radius:999px}
+    .notice-row .nr-title{font-size:0.86rem;font-weight:600;color:var(--text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;min-width:0}
+    .notice-row .nr-date{flex:none;font-size:0.72rem;color:var(--text-muted)}
+    .notice-row .nr-content{font-size:0.78rem;color:var(--text-sub);overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
   </style>
   <script>
   (function(){
     fetch('/notices.json?_='+Date.now()).then(function(r){return r.ok?r.json():[]}).then(function(items){
       if(!Array.isArray(items)||!items.length)return;
       var sorted=items.slice().sort(function(a,b){return (b.pinned?1:0)-(a.pinned?1:0)||String(b.date||"").localeCompare(String(a.date||""))});
-      var n=sorted[0];if(!n||!n.title)return;
-      var key='ains_notice_dismissed_'+(n.date||'')+'_'+n.title;
-      try{if(localStorage.getItem(key))return}catch(e){}
       var esc=function(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[c]})};
-      document.getElementById('noticeBannerTitle').textContent=n.title;
-      document.getElementById('noticeBannerDate').textContent=String(n.date||'').replace(/-/g,'.');
-      document.getElementById('noticeBanner').hidden=false;
-      document.getElementById('noticeBannerClose').addEventListener('click',function(e){
-        e.preventDefault();e.stopPropagation();
-        try{localStorage.setItem(key,'1')}catch(e){}
-        document.getElementById('noticeBanner').hidden=true;
-      });
+      var body=document.getElementById('noticePanelBody');
+      body.innerHTML=sorted.slice(0,5).map(function(n){
+        return '<a class="notice-row" href="#" data-title="'+esc(n.title)+'">'+
+          '<div class="nr-top">'+(n.pinned?'<span class="nr-tag">고정</span>':'')+
+          '<span class="nr-title">'+esc(n.title)+'</span>'+
+          '<span class="nr-date">'+esc(String(n.date||'').replace(/-/g,'.'))+'</span></div>'+
+          (n.content?'<div class="nr-content">'+esc(n.content)+'</div>':'')+
+        '</a>';
+      }).join('');
+      body.querySelectorAll('.notice-row').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault()})});
+      document.getElementById('noticePanel').hidden=false;
     }).catch(function(){});
   })();
   </script>
 
   <main class="container">
 
-    <!-- 0. 이번 주 동향 위젯 (매일 자동 갱신) -->
-    <section class="trend-widget" id="trendWidget" hidden>
-      <button type="button" class="trend-toggle" id="trendToggle" aria-expanded="true">
-        <span>📊 이번 주 프로오디오 동향</span>
-        <span class="trend-updated" id="trendUpdated"></span>
-      </button>
-      <div class="trend-body" id="trendBody">
-        <div class="trend-col">
-          <h3>최근 7일 많이 다뤄진 브랜드</h3>
-          <ol class="trend-brands" id="trendBrands"></ol>
+    <!-- 0. 이번 주 동향 위젯 + 공지사항 (절반씩 나란히, 매일/실시간 자동 갱신) -->
+    <div class="top-row">
+      <section class="trend-widget" id="trendWidget" hidden>
+        <button type="button" class="trend-toggle" id="trendToggle" aria-expanded="true">
+          <span>📊 이번 주 프로오디오 동향</span>
+          <span class="trend-updated" id="trendUpdated"></span>
+        </button>
+        <div class="trend-body" id="trendBody">
+          <div class="trend-col">
+            <h3>최근 7일 많이 다뤄진 브랜드</h3>
+            <ol class="trend-brands" id="trendBrands"></ol>
+          </div>
+          <div class="trend-col">
+            <h3>최근 7일 분야 비율</h3>
+            <div id="trendRatio"></div>
+          </div>
         </div>
-        <div class="trend-col">
-          <h3>최근 7일 분야 비율</h3>
-          <div id="trendRatio"></div>
-        </div>
-      </div>
-    </section>
+      </section>
+
+      <!-- 아인소닉 공지사항 (업무센터 '공지사항(뉴스센터)'에서 관리 → notices.json 자동 반영) -->
+      <section class="notice-panel" id="noticePanel" hidden>
+        <div class="notice-panel-head"><span>📌 공지사항</span></div>
+        <div class="notice-panel-body" id="noticePanelBody"></div>
+      </section>
+    </div>
 
     <!-- 1. 주요 6개 카드 (높이 완벽 일치) -->
     <section id="featured-section">
