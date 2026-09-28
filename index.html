@@ -159,6 +159,12 @@
       color: #fff;
     }
     .btn-sub:hover { box-shadow: 0 4px 12px rgba(225, 29, 72, 0.25); }
+    .btn-tip {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-color: #bfdbfe;
+    }
+    .btn-tip:hover { background: #dbeafe; }
 
     .container {
       max-width: 1240px;
@@ -981,6 +987,9 @@
         <button class="btn-action btn-sub" id="openSubModalBtn">
           <span>🔔 알림 받기</span>
         </button>
+        <button class="btn-action btn-tip" id="openTipModalBtn">
+          <span>📮 제보하기</span>
+        </button>
       </div>
 
       <button class="menu-toggle" id="menuToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobileMenu">
@@ -995,6 +1004,7 @@
       <a href="https://t.me/proaudiowire" target="_blank" rel="noopener" class="mm-item">✈️ 텔레그램 채널</a>
       <a href="rss.xml" target="_blank" class="mm-item">📡 RSS 피드</a>
       <a href="https://www.ainsonic.com" target="_blank" rel="noopener" class="mm-item">🏢 아인소닉</a>
+      <button type="button" class="mm-item" id="mmTipBtn">📮 소식 제보하기</button>
       <button type="button" class="mm-item mm-cta" id="mmSubBtn">🔔 신제품 알림 받기</button>
     </div>
   </header>
@@ -1198,6 +1208,25 @@
           </div>
         </details>
       </div>
+    </div>
+  </div>
+
+  <!-- 소식 제보 모달 -->
+  <div class="modal-overlay" id="tipModal">
+    <div class="modal-box">
+      <button class="modal-close" id="closeTipModalBtn">&times;</button>
+      <h3 style="font-size:1.2rem; margin-bottom:0.4rem; color:#0f172a;">📮 소식 제보 / 보도자료 접수</h3>
+      <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.3rem;">신제품·행사·펌웨어 업데이트 소식을 알려주세요. 수입사·제조사의 보도자료도 환영합니다. 확인 후 소식에 반영해드립니다.</p>
+
+      <form id="tipForm" style="display:flex; flex-direction:column; gap:0.5rem;">
+        <input type="text" id="tip-org" placeholder="수입사/브랜드명 (선택)" style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
+        <input type="text" id="tip-name" placeholder="담당자 성함 (선택)" style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
+        <input type="email" id="tip-email" placeholder="이메일 주소 * (확인 연락용)" required style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
+        <textarea id="tip-content" placeholder="제보 내용 또는 보도자료 링크 *" required rows="4" style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem; font-family:inherit; resize:vertical;"></textarea>
+        <input type="text" id="tip-website" name="website" autocomplete="off" tabindex="-1" style="position:absolute; left:-9999px; width:1px; height:1px; opacity:0;" aria-hidden="true">
+        <button type="submit" id="tip-submit-btn" style="background:var(--accent); color:#fff; border:none; padding:0.55rem; border-radius:6px; cursor:pointer; font-weight:600; font-size:0.85rem;">제보 보내기</button>
+        <p id="tip-msg" style="font-size:0.78rem; margin:0; min-height:1em;"></p>
+      </form>
     </div>
   </div>
 
@@ -1515,6 +1544,9 @@
     const subModal = document.getElementById('subModal');
     document.getElementById('openSubModalBtn').addEventListener('click', () => subModal.classList.add('active'));
 
+    const tipModal = document.getElementById('tipModal');
+    document.getElementById('openTipModalBtn').addEventListener('click', () => tipModal.classList.add('active'));
+
     // 모바일 ☰ 드롭다운 메뉴
     const headerEl = document.querySelector('header');
     const menuToggle = document.getElementById('menuToggle');
@@ -1528,11 +1560,16 @@
     menuToggle.addEventListener('click', (e) => { e.stopPropagation(); setMenu(mobileMenu.hidden); });
     mobileMenu.querySelectorAll('a.mm-item').forEach(a => a.addEventListener('click', () => setMenu(false)));
     document.getElementById('mmSubBtn').addEventListener('click', () => { setMenu(false); subModal.classList.add('active'); });
+    document.getElementById('mmTipBtn').addEventListener('click', () => { setMenu(false); tipModal.classList.add('active'); });
     document.addEventListener('click', (e) => { if (!mobileMenu.hidden && !headerEl.contains(e.target)) setMenu(false); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMenu(false); });
     document.getElementById('closeSubModalBtn').addEventListener('click', () => subModal.classList.remove('active'));
     subModal.addEventListener('click', (e) => {
       if (e.target === subModal) subModal.classList.remove('active');
+    });
+    document.getElementById('closeTipModalBtn').addEventListener('click', () => tipModal.classList.remove('active'));
+    tipModal.addEventListener('click', (e) => {
+      if (e.target === tipModal) tipModal.classList.remove('active');
     });
 
     // 이메일 구독 (아인소닉 홈페이지 문의 접수 시트에 "뉴스 구독"으로 함께 기록)
@@ -1571,7 +1608,42 @@
       }
     });
 
-    
+    // 소식 제보 / 보도자료 접수 (같은 시트에 "소식 제보"로 기록, 업무센터 CRM에는 반영하지 않음)
+    document.getElementById('tipForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const msg = document.getElementById('tip-msg');
+      msg.style.color = '#dc2626';
+      const org = document.getElementById('tip-org').value.trim();
+      const name = document.getElementById('tip-name').value.trim();
+      const email = document.getElementById('tip-email').value.trim();
+      const content = document.getElementById('tip-content').value.trim();
+      const website = document.getElementById('tip-website').value;
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { msg.textContent = '올바른 이메일 주소를 입력해 주세요.'; return; }
+      if (!content) { msg.textContent = '제보 내용을 입력해 주세요.'; return; }
+      if (website) { return; } // 스팸 방지(허니팟) — 조용히 무시
+      const btn = document.getElementById('tip-submit-btn');
+      btn.disabled = true; btn.textContent = '보내는 중…';
+      const data = {
+        org: org || '-', contact_name: name || '익명 제보', phone: '-', email: email,
+        space: '소식 제보', region: '-', types: '제보', message: content,
+        website: website, submitted_at: new Date().toISOString()
+      };
+      let ok = false;
+      try {
+        await fetch(INQUIRY_ENDPOINT, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(data) });
+        ok = true;
+      } catch (x) { ok = false; }
+      btn.disabled = false; btn.textContent = '제보 보내기';
+      if (ok) {
+        msg.style.color = '#16a34a';
+        msg.textContent = '제보가 접수됐습니다! 확인 후 소식에 반영해드릴게요. 감사합니다.';
+        document.getElementById('tipForm').reset();
+      } else {
+        msg.textContent = '전송에 실패했습니다. 잠시 후 다시 시도해 주세요.';
+      }
+    });
+
+
     const legalTexts = {
       disclaimer: {
         title: '저작권 및 면책 고지 (Disclaimer)',
