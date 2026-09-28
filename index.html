@@ -1158,7 +1158,8 @@
         <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.6rem;">신제품·행사 소식을 정리해 이메일로 보내드립니다. 주 1회 내외, 언제든 수신거부 가능합니다.</p>
         <form id="emailSubForm" style="display:flex; flex-direction:column; gap:0.5rem;">
           <input type="email" id="sub-email" placeholder="이메일 주소 *" required style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
-          <input type="text" id="sub-name" placeholder="이름 또는 회사명 (선택)" style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
+          <input type="text" id="sub-name" placeholder="이름 (선택)" style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
+          <input type="text" id="sub-org" placeholder="회사명/상호 (선택)" style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
           <input type="text" id="sub-website" name="website" autocomplete="off" tabindex="-1" style="position:absolute; left:-9999px; width:1px; height:1px; opacity:0;" aria-hidden="true">
           <label style="display:flex; align-items:flex-start; gap:0.4rem; font-size:0.78rem; color:var(--text-muted); cursor:pointer;">
             <input type="checkbox" id="sub-agree" style="margin-top:0.15rem; flex-shrink:0;">
@@ -1513,6 +1514,7 @@
       msg.style.color = '#dc2626';
       const email = document.getElementById('sub-email').value.trim();
       const name = document.getElementById('sub-name').value.trim();
+      const org = document.getElementById('sub-org').value.trim();
       const website = document.getElementById('sub-website').value;
       const agree = document.getElementById('sub-agree').checked;
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { msg.textContent = '올바른 이메일 주소를 입력해 주세요.'; return; }
@@ -1521,7 +1523,7 @@
       const btn = document.getElementById('sub-submit-btn');
       btn.disabled = true; btn.textContent = '신청 중…';
       const data = {
-        org: name || '이메일 구독', contact_name: name || '이메일 구독', phone: '-', email: email,
+        org: org || '-', contact_name: name || '이메일 구독', phone: '-', email: email,
         space: '뉴스 구독', region: '-', types: '뉴스구독', message: '이메일 소식 구독 신청',
         website: website, submitted_at: new Date().toISOString()
       };
