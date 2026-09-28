@@ -1383,7 +1383,7 @@
       // 주요 6선은 프로오디오 분야에서만, 풀을 넉넉히 잡아 매일 다른 조합이 나오게 함
       const pool = newsData.filter(i => (i.category || '프로오디오') === '프로오디오').slice(0, 40);
       if (pool.length <= 6) return pool;
-      const weight = i => (i.imageUrl ? 2 : 0) + (i.isDomestic ? 1 : 0) + 1; // 최소 가중치 1: 누구나 뽑힐 기회
+      const weight = i => (i.imageUrl ? 2 : 0) + (i.isDomestic ? 4 : 0) + 1; // 최소 가중치 1: 누구나 뽑힐 기회. 국내 수입사 소식은 가중치를 크게 올려 주요 6선에 더 자주 노출
       const rand = seededRandom('featured-' + todayKST());
       const remaining = pool.map((item, pos) => ({ item, pos, w: weight(item) }));
       const picked = [];
