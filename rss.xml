@@ -6,13 +6,13 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 27 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
       <link>https://news.ainsonic.com/n/news-79.html</link>
       <description>TELEFUNKEN Elektroakustik이 오디오 전공 학생과 애호가를 대상으로 마이크 공장 내부를 보여주는 Zoom 온라인 투어를 진행합니다. 회사는 이 교육용 투어를 전 세계 수천 명의 학생에게 제공해 왔다고 밝혔습니다. 페이지 제목은 10월 6일, 본문은 10월 12일(화) 오후 12시(미 동부시간)로 표기돼 날짜가 일치하지 않으므로 확인이 필요합니다. 참가하려면 Google 양식으로 등록해 Zoom 링크를 받아야 합니다.</description>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-79</guid>
       <category>행사</category>
       <category>프로오디오</category>
@@ -22,7 +22,7 @@
       <title>[행사] Sound Devices - Astral wireless</title>
       <link>https://news.ainsonic.com/n/news-83.html</link>
       <description>Sound Devices가 2026년 10월 2~3일 미국 LA에서 열리는 Trewlapalooza 2026에 참가합니다. 현장에서는 Astral 무선 시스템을 직접 체험할 수 있으며 새로운 현장 녹음 워크플로를 소개합니다. 회사 세션은 10월 2일(금) 오후 2시에 진행됩니다. 입장권은 Tickettailor 행사 페이지에서 구매할 수 있습니다.</description>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-83</guid>
       <category>행사</category>
       <category>프로오디오</category>
@@ -56,6 +56,26 @@
       <guid isPermaLink="false">news-108</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] AISpeech - AISpeech AI 컨퍼런싱 장비 라인업 (POLAR 영국·아일랜드 독점 공급)</title>
+      <link>https://news.ainsonic.com/n/news-116.html</link>
+      <description>AISpeech가 영국·아일랜드 시장에 AI 기반 회의실 오디오·영상 장비 라인업을 선보입니다. 천장형 마이크 어레이는 360도 커버리지와 AI 소음 제거, 잔향 제거 기능을 갖췄고 4K 화질의 화자 추적 카메라도 함께 나옵니다. 현지 유통은 POLAR가 독점으로 맡으며 10월 14일 런던 Frezza 쇼룸에서 런칭 행사가 열립니다.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-116</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] RTI - RTI Commercial Amplifier Series 확장 모델 (Dante 지원 2·4·8채널)</title>
+      <link>https://news.ainsonic.com/n/news-117.html</link>
+      <description>RTI가 상업용 설치 현장을 위한 앰프 시리즈에 신제품 4종을 추가했습니다. 2·4·8채널 구성으로 나오고 이 중 3종은 Dante와 AES67 네트워크 오디오를 지원합니다. 저임피던스는 채널당 125W, 고임피던스(70V/100V)는 250W까지 출력하며, Cat5e 케이블 하나로 연결하는 벽면형 PoE 존 컨트롤러도 함께 나왔습니다. 프리셋을 잠그거나 내보내 프로젝트 간 공유할 수 있어 다구역 설치 현장의 커미셔닝 시간을 줄여줍니다.</description>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-117</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -386,26 +406,6 @@
       <guid isPermaLink="false">news-61</guid>
       <category>행사</category>
       <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Lawo - mc² Software Release 12.4, Power Core</title>
-      <link>https://news.ainsonic.com/n/news-64.html</link>
-      <description>Lawo가 IBC2026에서 방송용 디지털 믹싱 콘솔 mc²의 소프트웨어 릴리스 12.4와 오디오 프로세서 Power Core의 새 소프트웨어 10.0을 선보였습니다. mc² 12.4는 실시간 분석기(RTA) 지원과 DirectOut PRODIGY 등 외부 장비를 제어하는 HOME API 확장을 담았습니다. Power Core 10.0은 HOME 기반 소프트웨어 옵션과 파라메트릭 4밴드+필터 2밴드의 6밴드 EQ를 제공해 라디오·TV 제작에 씁니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-64</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Lawo - HOME Stream Share App (SSA)</title>
-      <link>https://news.ainsonic.com/n/news-65.html</link>
-      <description>Lawo가 IBC2026(부스 8.B90)에서 분산 제작 환경의 미디어 교환용 소프트웨어 앱인 HOME Stream Share App(SSA)을 공개했습니다. 개방형 NMOS 표준 기반으로 HD/3G/UHD 영상 최대 128개, 오디오 512개, 메타데이터 128개 스트림을 양방향으로 주고받을 수 있습니다. 여러 미디어 흐름을 하나의 인스턴스로 묶고 스트림 관리와 실제 사용을 분리해, 방송 시설·중계차·클라우드·협력사 간 연동 시 반복 설정과 호환성 문제를 줄이는 것이 목적입니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-65</guid>
-      <category>신제품</category>
-      <category>기타</category>
     </item>
 
   </channel>

@@ -1,5 +1,35 @@
 [
   {
+    "id": "news-116",
+    "date": "2026-09-25",
+    "company": "AISpeech",
+    "brand": "AISpeech",
+    "productName": "AISpeech AI 컨퍼런싱 장비 라인업 (POLAR 영국·아일랜드 독점 공급)",
+    "type": "신제품",
+    "category": "프로오디오",
+    "summary": "AISpeech가 영국·아일랜드 시장에 AI 기반 회의실 오디오·영상 장비 라인업을 선보입니다. 천장형 마이크 어레이는 360도 커버리지와 AI 소음 제거, 잔향 제거 기능을 갖췄고 4K 화질의 화자 추적 카메라도 함께 나옵니다. 현지 유통은 POLAR가 독점으로 맡으며 10월 14일 런던 Frezza 쇼룸에서 런칭 행사가 열립니다.",
+    "link": "https://www.installation-international.com/technology/unified-comms/aispeech-to-launch-ai-conferencing-range-in-uk-and-ireland",
+    "evidence": "AISpeech's award-winning technology fills a genuine gap in the UK conferencing market.",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://www.installation-international.com/wp-content/uploads/2026/09/2.jpg"
+  },
+  {
+    "id": "news-117",
+    "date": "2026-09-25",
+    "company": "RTI",
+    "brand": "RTI",
+    "productName": "RTI Commercial Amplifier Series 확장 모델 (Dante 지원 2·4·8채널)",
+    "type": "신제품",
+    "category": "프로오디오",
+    "summary": "RTI가 상업용 설치 현장을 위한 앰프 시리즈에 신제품 4종을 추가했습니다. 2·4·8채널 구성으로 나오고 이 중 3종은 Dante와 AES67 네트워크 오디오를 지원합니다. 저임피던스는 채널당 125W, 고임피던스(70V/100V)는 250W까지 출력하며, Cat5e 케이블 하나로 연결하는 벽면형 PoE 존 컨트롤러도 함께 나왔습니다. 프리셋을 잠그거나 내보내 프로젝트 간 공유할 수 있어 다구역 설치 현장의 커미셔닝 시간을 줄여줍니다.",
+    "link": "https://www.avnetwork.com/products/audio/rti-expands-commercial-amplifier-series-lineup",
+    "evidence": "Presets can be locked, exported, and shared across projects, reducing commissioning time and ensuring consistent tuning.",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://cdn.mos.cms.futurecdn.net/SuWcmzB2RZCsmEYG3hKvgV-2240-80.png"
+  },
+  {
     "id": "news-113",
     "date": "2026-09-25",
     "company": "Mixed In Key",
