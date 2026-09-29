@@ -26,6 +26,24 @@ TYPES = {"신제품", "업데이트", "행사"}
 CATEGORY_RATIO = {"프로오디오": 60, "컨슈머오디오": 10, "레코딩소프트웨어": 20, "기타": 10}
 REQUIRED = ["id", "date", "company", "brand", "type", "summary", "link", "category"]
 
+BRAND_ALIASES = {
+    "야마하뮤직코리아": "Yamaha",
+    "야마하": "Yamaha",
+    "yamaha music korea": "Yamaha",
+    "telefunken": "TELEFUNKEN",
+    "telefunken elektroakustik": "TELEFUNKEN",
+    "q-sys (qsc)": "Q-SYS",
+    "qsc": "Q-SYS",
+    "ssl": "Solid State Logic",
+    "solid state logic": "Solid State Logic"
+}
+
+def normalize_brand(brand):
+    if not brand:
+        return ""
+    b = brand.strip()
+    return BRAND_ALIASES.get(b.lower(), b)
+
 
 def validate(items):
     errors = []
@@ -92,7 +110,7 @@ def compute_stats(items):
     week = [i for i in published if in_window(i, 7)]
     month = [i for i in published if in_window(i, 30)]
 
-    brand_counts = Counter((i.get("brand") or "").strip() for i in week if i.get("brand"))
+    brand_counts = Counter(normalize_brand(i.get("brand")) for i in week if i.get("brand"))
     top_brands = [{"brand": b, "count": c} for b, c in brand_counts.most_common(5)]
 
     def cat_ratio(group):
