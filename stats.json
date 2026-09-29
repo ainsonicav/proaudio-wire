@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T02:37:14Z",
+  "generated_at": "2026-09-29T20:15:38Z",
   "window_days": {
     "week": 7,
     "month": 30
@@ -12,7 +12,7 @@
   "top_brands_week": [
     {
       "brand": "Yamaha",
-      "count": 6
+      "count": 8
     },
     {
       "brand": "RTW",
@@ -27,7 +27,7 @@
       "count": 3
     },
     {
-      "brand": "야마하뮤직코리아",
+      "brand": "Sennheiser",
       "count": 2
     }
   ],
