@@ -1,0 +1,56 @@
+name: 새 소식 추가 (자동 작업 결과 → 빌드)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "incoming/new.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: add-news
+  cancel-in-progress: false
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 새 소식 검사 후 추가 (id 부여, RSS·검색용 페이지 갱신)
+        run: |
+          if [ ! -f incoming/new.json ]; then echo "추가할 소식 없음"; exit 0; fi
+          python3 scripts/build.py --add incoming/new.json
+          rm -f incoming/new.json
+
+      - name: 사진 없는 소식에 썸네일 채우기
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python3 scripts/fill_images.py
+
+      - name: 형식 검사 + RSS·검색용 페이지 갱신
+        run: python3 scripts/build.py
+
+      - name: 바뀐 내용 반영
+        run: |
+          git add -A news.json rss.xml sitemap.xml stats.json index.html n incoming
+          if git diff --cached --quiet; then
+            echo "바뀐 내용 없음"; exit 0
+          fi
+          git config user.name "proaudio-wire-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "뉴스 자동 업데이트 $(TZ=Asia/Seoul date +%F)"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          echo "::error::푸시 실패"
+          exit 1
