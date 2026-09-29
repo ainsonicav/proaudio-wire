@@ -1026,6 +1026,16 @@
     .top-row{display:flex;align-items:flex-start;gap:1.1rem;margin-bottom:1.1rem}
     .top-row > .trend-widget,.top-row > .notice-panel{flex:1 1 50%;min-width:0;margin-bottom:0}
     @media (max-width:760px){.top-row{flex-direction:column}}
+    /* 두 카드를 하나의 구역으로 묶는 배경 밴드 (가독성·구분감) */
+    .top-row{background:#e8eef6;border:1px solid #d3deec;border-radius:14px;padding:1rem}
+    .top-row > .trend-widget,.top-row > .notice-panel{border-color:#cbd8e8;box-shadow:0 1px 3px rgba(15,23,42,.08)}
+    .top-row .trend-toggle,.top-row .notice-panel-head{background:#f1f5fa;border-bottom:1px solid #dbe4f0}
+    .top-row .trend-updated,.top-row .trend-brands .cnt,.top-row .trend-ratio-row .pv,.top-row .notice-row .nr-date{color:#475569}
+    .top-row .trend-col h3{color:#0f172a}
+    .top-row .notice-row .nr-content{color:#334155}
+    .top-row .trend-ratio-row .bar{background:#e2e8f0}
+    @media (max-width:760px){.top-row{padding:0.7rem;border-radius:12px;align-items:stretch}}
+    .top-row:not(:has(> section:not([hidden]))){display:none}
     .notice-panel{background:#fff;border:1px solid var(--surface-border);border-radius:10px;overflow:hidden}
     .notice-panel-head{display:flex;align-items:center;justify-content:space-between;gap:0.6rem;background:#f8fafc;padding:0.7rem 1rem;font-weight:700;font-size:0.9rem;color:#0f172a}
     .notice-panel-body{padding:0.7rem 1.1rem 0.9rem;display:flex;flex-direction:column;gap:0.55rem}
