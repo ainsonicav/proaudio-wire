@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-28T01:48:12Z",
+  "generated_at": "2026-09-29T02:37:14Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 77,
+    "week": 72,
     "month": 114,
     "total": 116
   },
@@ -34,8 +34,8 @@
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 43,
-      "pct": 56
+      "count": 42,
+      "pct": 58
     },
     {
       "category": "컨슈머오디오",
@@ -44,12 +44,12 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 19,
-      "pct": 25
+      "count": 16,
+      "pct": 22
     },
     {
       "category": "기타",
-      "count": 13,
+      "count": 12,
       "pct": 17
     }
   ],
