@@ -1,0 +1,47 @@
+[
+  {
+    "id": "news-126",
+    "date": "2026-10-01",
+    "company": "Yamaha",
+    "brand": "Yamaha",
+    "productName": "RIVAGE PM Firmware V7.10 및 Editor",
+    "type": "업데이트",
+    "category": "프로오디오",
+    "summary": "Yamaha가 플래그십 디지털 믹싱 시스템 RIVAGE PM 시리즈를 위한 v7.10 펌웨어 및 Mac/Windows 전용 에디터 소프트웨어를 공식 릴리즈했습니다. 시스템 내부 DSP 엔진 연동 최적화와 함께 콘솔 간 네트워크 통신 안정성을 향상시켰습니다.",
+    "link": "https://usa.yamaha.com/support/updates/rivage_pm_firm_v710.html",
+    "evidence": "RIVAGE PM Firmware V7.10 (Previous version) - Yamaha USA / Editor V7.10 release",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://usa.yamaha.com/files/ogp-rivage-pm_a0854584c9bc8dd81490895ef212e825.png"
+  },
+  {
+    "id": "news-127",
+    "date": "2026-10-01",
+    "company": "다산SR",
+    "brand": "Millennia",
+    "productName": "HV-316 16채널 Remote mic preamp",
+    "type": "신제품",
+    "category": "프로오디오",
+    "summary": "다산SR이 Millennia Media의 16채널 원격 제어 마이크 프리앰프 HV-316 소개 영상을 공개했습니다. 제37회 TEC Awards 후보에 오른 모델로, Dante 오디오 네트워크를 통한 초저지연 전송과 투명한 고음질 아날로그 프리앰프 서킷을 결합해 대규모 라이브 사운드 및 스튜디오 레코딩 환경에 최적화되었습니다.",
+    "link": "https://www.youtube.com/watch?v=HaIePuwZIpY",
+    "evidence": "밀레니아(Millennia Media) CEO John La Grou가 직접 설명하는 HV-316 Remote Microphone Preamplifier 소개",
+    "status": "published",
+    "isDomestic": true,
+    "imageUrl": "https://i.ytimg.com/vi/HaIePuwZIpY/maxresdefault.jpg"
+  },
+  {
+    "id": "news-128",
+    "date": "2026-10-01",
+    "company": "Martin Audio",
+    "brand": "Martin Audio",
+    "productName": "The Rex Rooms at 151 음향 인스톨레이션",
+    "type": "행사",
+    "category": "프로오디오",
+    "summary": "Martin Audio가 영국 런던 첼시의 프리미엄 프라이빗 멤버스 클럽 'The Rex Rooms at 151'에 맞춤형 사운드 시스템을 구축했다고 발표했습니다. Evolve Install 사가 설계를 맡아 공간 인테리어와 완벽히 융합되는 고해상도 분산 스피커 솔루션을 시공했습니다.",
+    "link": "https://martin-audio.com/news/press-release/evolve-install-specifies-martin-audio-for-chelseas-exclusive-the-rex-rooms-at",
+    "evidence": "evolve install specifies martin audio for chelsea’s exclusive the rex rooms at 151",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://static.martin-audio.com/img/branding/martin_audio.jpg"
+  }
+]
