@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-30T00:31:00Z",
+  "generated_at": "2026-09-30T00:42:55Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 71,
-    "month": 119,
-    "total": 121
+    "week": 75,
+    "month": 123,
+    "total": 125
   },
   "top_brands_week": [
     {
@@ -27,25 +27,25 @@
       "count": 3
     },
     {
-      "brand": "RØDE",
+      "brand": "Q-SYS",
       "count": 2
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 43,
+      "count": 46,
       "pct": 61
     },
     {
       "category": "컨슈머오디오",
-      "count": 2,
-      "pct": 3
+      "count": 3,
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
       "count": 15,
-      "pct": 21
+      "pct": 20
     },
     {
       "category": "기타",
@@ -56,18 +56,18 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 74,
-      "pct": 62
+      "count": 77,
+      "pct": 63
     },
     {
       "category": "컨슈머오디오",
-      "count": 3,
+      "count": 4,
       "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
       "count": 26,
-      "pct": 22
+      "pct": 21
     },
     {
       "category": "기타",
