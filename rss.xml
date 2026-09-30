@@ -6,13 +6,63 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 29 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Yamaha - 마테오 만쿠소 시그니처 일렉트릭 기타 ‘RS20MM’ 국내 출시</title>
+      <link>https://news.ainsonic.com/n/news-118.html</link>
+      <description>야마하뮤직코리아가 핑거스타일 테크니션 마테오 만쿠소의 시그니처 일렉트릭 기타 RS20MM을 국내 공식 출시했습니다. 레브스타(REVSTAR) 챔버 바디 설계를 계승하고 디마지오 PAF 36th 애니버서리 험버커 픽업 2기를 장착했습니다. 빈티지 선버스트 마감에 금장 하드웨어, 12프렛 커스텀 인레이를 적용해 정교한 핑거피킹 다이내믹스와 풍부한 레조넌스를 구현합니다.</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-118</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] RØDE - RØDECaster Video v1.4 대규모 펌웨어 업데이트 (4K 캡처·Sync 지원)</title>
+      <link>https://news.ainsonic.com/n/news-119.html</link>
+      <description>RØDE가 비디오 올인원 콘솔 RØDECaster Video의 v1.4 펌웨어를 발표했습니다. 최대 4K UHD 30fps HDMI 카메라 입력을 개별 NDI 스트림 및 외장 SSD 개별 트랙 ISO 녹화로 지원하는 4K Capture Mode가 추가되었습니다. 여러 대의 로드캐스터 장비를 정밀 타임코드와 마스터-슬레이브로 연동하는 RØDECaster Sync 기능도 함께 도입되었습니다.</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-119</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Polyend - Polyend 8트랙 퍼포먼스 루퍼 &amp; 드럼머신 페달 ‘Loop’ 전격 공개</title>
+      <link>https://news.ainsonic.com/n/news-120.html</link>
+      <description>폴리엔드(Polyend)가 4개의 독립 오디오 루프 트랙과 4트랙 샘플 기반 드럼머신을 결합한 8트랙 퍼포먼스 루퍼 Loop를 선보였습니다. 100종 이상의 스튜디오급 내장 이펙터, 직관적인 풋스위치 컨트롤, 스테레오 입출력 및 MIDI 클록 동기화를 탑재했습니다. 악기 루핑부터 비트 메이킹, 라이브 즉흥 연주까지 단일 페달보드에서 완결할 수 있습니다.</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-120</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Shure - Shure MV6 Gen 2 USB 게이밍 &amp; 방송용 다이내믹 마이크 출시</title>
+      <link>https://news.ainsonic.com/n/news-121.html</link>
+      <description>슈어(Shure)가 스트리머와 콘텐츠 크리에이터를 위한 데스크톱 마이크 MV6 Gen 2를 출시했습니다. SM7B의 DSP 기술을 계승하여 보이스 아이솔레이션, 디지털 팝필터(Digital Popper Stopper), 실시간 룸 노이즈 리덕션을 USB-C 단일 연결로 구동합니다. MOTIV Mix 앱과 연동되어 복잡한 오디오 인터페이스 없이도 방송급 보컬 밸런스를 즉각 제공합니다.</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-121</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] RØDE - RØDE LPA1 로우 프로파일 프로페셔널 스튜디오 암 출시</title>
+      <link>https://news.ainsonic.com/n/news-122.html</link>
+      <description>RØDE가 레코딩 스튜디오, 팟캐스트, 방송 환경을 위한 로우 프로파일 마이크 암 LPA1을 출시했습니다. 모니터 하단 시야를 가리지 않는 수평 관절 설계와 케이블 매니지먼트 슬롯, 360도 무소음 힌지 텐션 기구를 장착했습니다. 고중량 방송용 마이크까지 안정적으로 지지하며 콤팩트한 방송 데스크 공간을 최적화합니다.</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-122</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
       <link>https://news.ainsonic.com/n/news-79.html</link>
       <description>TELEFUNKEN Elektroakustik이 오디오 전공 학생과 애호가를 대상으로 마이크 공장 내부를 보여주는 Zoom 온라인 투어를 진행합니다. 회사는 이 교육용 투어를 전 세계 수천 명의 학생에게 제공해 왔다고 밝혔습니다. 페이지 제목은 10월 6일, 본문은 10월 12일(화) 오후 12시(미 동부시간)로 표기돼 날짜가 일치하지 않으므로 확인이 필요합니다. 참가하려면 Google 양식으로 등록해 Zoom 링크를 받아야 합니다.</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-79</guid>
       <category>행사</category>
       <category>프로오디오</category>
@@ -22,7 +72,7 @@
       <title>[행사] Sound Devices - Astral wireless</title>
       <link>https://news.ainsonic.com/n/news-83.html</link>
       <description>Sound Devices가 2026년 10월 2~3일 미국 LA에서 열리는 Trewlapalooza 2026에 참가합니다. 현장에서는 Astral 무선 시스템을 직접 체험할 수 있으며 새로운 현장 녹음 워크플로를 소개합니다. 회사 세션은 10월 2일(금) 오후 2시에 진행됩니다. 입장권은 Tickettailor 행사 페이지에서 구매할 수 있습니다.</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-83</guid>
       <category>행사</category>
       <category>프로오디오</category>
@@ -356,56 +406,6 @@
       <guid isPermaLink="false">news-55</guid>
       <category>업데이트</category>
       <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] RTW - Compact Line, TMxCore (External Logging &amp; Integration license)</title>
-      <link>https://news.ainsonic.com/n/news-56.html</link>
-      <description>RTW가 새 External Logging &amp; Integration 라이선스로 Compact Line과 TMxCore에 LAWO HOME 및 NMOS IS-07 지원을 추가했습니다. LAWO HOME 인프라에서 장비 검색·관리가 가능해지고, NMOS IS-07로 계측값과 상태 데이터를 네트워크 이벤트로 내보낼 수 있습니다. 외부 시스템이 RTW 화면 없이도 값을 감시할 수 있습니다. IBC2026 LAWO·RTW 부스에서 시연됐습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-56</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] RTW - TouchControl 5, TouchMonitor 5, TMxCore</title>
-      <link>https://news.ainsonic.com/n/news-57.html</link>
-      <description>RTW가 TouchControl 5, TouchMonitor 5, TMxCore에서 Genelec Smart IP 스피커를 네트워크로 직접 제어하는 기능을 추가했습니다. 레벨 조정, 뮤트, 프리셋 호출, LED 표시, 스탠바이를 제어하며 개별 스피커(유니캐스트)와 그룹(멀티캐스트)을 지원합니다. Genelec 제어 화면을 RTW 계측 화면과 함께 배치할 수 있어 네트워크 오디오 설비 설계자·설치업체를 대상으로 합니다. IBC2026 RTW 부스에서 시연됐으며 가격은 미공개입니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-57</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] RTW - TMxCore, RTW Network Display</title>
-      <link>https://news.ainsonic.com/n/news-58.html</link>
-      <description>RTW가 화면이 없는 방송용 오디오 계측 플랫폼 TMxCore를 STAGETEC의 AVATUS 제작 환경에 통합했다고 발표했습니다. 브라우저 기반 인터페이스 RTW Network Display로 별도 RTW 전용 디스플레이 없이도 네트워크로 TMxCore 계측 화면을 볼 수 있습니다. 계측 하드웨어와 화면 표시를 분리해 AVATUS 워크플로 안에서 계측을 바로 활용하려는 방송 운영자를 위한 연동입니다. IBC2026 RTW·STAGETEC 부스에서 시연됐습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-58</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Telos Alliance; Fraunhofer IDMT; NUGEN Audio; RTW; Steinberg - LEAP; LMMG</title>
-      <link>https://news.ainsonic.com/n/news-60.html</link>
-      <description>Telos Alliance, NUGEN Audio, RTW, Steinberg가 Fraunhofer IDMT와 함께 IBC2026에서 대사 명료도 측정의 공통 기준을 발표했습니다. AI 기반 기술 LEAP는 청취 노력을 추정해 명료도를 객관적으로 평가하며, 제조사 모임 LMMG는 결과를 0~100 범위의 DIU로 표시하는 구현 규약을 마련했습니다. 신호 처리와 표시 방식을 통일해 제조사가 달라도 측정값을 비교할 수 있게 했으며, 관련 제품이 순차 출시될 예정입니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-60</guid>
-      <category>행사</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[행사] Steinberg - Dialog Intelligibility 공동 발표 (IBC2026)</title>
-      <link>https://news.ainsonic.com/n/news-61.html</link>
-      <description>Steinberg가 Telos Alliance, NUGEN Audio, RTW, Fraunhofer IDMT와 함께 IBC2026에서 대사 명료도 측정 공동 발표를 했습니다. Fraunhofer IDMT의 AI 기반 LEAP 기술을 바탕으로 제조사 모임 LMMG가 결과를 0~100 범위의 DIU 단위로 표시하는 공통 구현 규약을 만들었습니다. 제조사가 달라도 같은 결과가 나오도록 신호 처리와 표시 방식을 통일했으며, 방송·포스트 프로덕션의 대사 품질 관리에 쓰일 예정입니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-61</guid>
-      <category>행사</category>
-      <category>레코딩소프트웨어</category>
     </item>
 
   </channel>

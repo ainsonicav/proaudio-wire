@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-29T21:23:29Z",
+  "generated_at": "2026-09-30T00:31:00Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 72,
-    "month": 114,
-    "total": 116
+    "week": 71,
+    "month": 119,
+    "total": 121
   },
   "top_brands_week": [
     {
       "brand": "Yamaha",
-      "count": 8
+      "count": 9
     },
     {
       "brand": "RTW",
@@ -27,15 +27,15 @@
       "count": 3
     },
     {
-      "brand": "Sennheiser",
+      "brand": "RØDE",
       "count": 2
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 42,
-      "pct": 58
+      "count": 43,
+      "pct": 61
     },
     {
       "category": "컨슈머오디오",
@@ -44,20 +44,20 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 16,
-      "pct": 22
+      "count": 15,
+      "pct": 21
     },
     {
       "category": "기타",
-      "count": 12,
-      "pct": 17
+      "count": 11,
+      "pct": 15
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 69,
-      "pct": 61
+      "count": 74,
+      "pct": 62
     },
     {
       "category": "컨슈머오디오",
@@ -67,12 +67,12 @@
     {
       "category": "레코딩소프트웨어",
       "count": 26,
-      "pct": 23
+      "pct": 22
     },
     {
       "category": "기타",
       "count": 16,
-      "pct": 14
+      "pct": 13
     }
   ]
 }
