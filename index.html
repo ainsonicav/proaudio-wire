@@ -1192,47 +1192,114 @@
 
 <!-- COUPANG_PICKS:START -->
 <!-- ============================================================== -->
-<!-- 프로오디오 뉴스 (news.ainsonic.com) - 쿠팡 파트너스 추천 장비 섹션 -->
+<!-- 프로오디오 뉴스 (news.ainsonic.com) - 사이드 광고 레일 (쿠팡/알리 파트너스 추천 장비) -->
 <!-- ============================================================== -->
-<section id="coupang-picks">
+<aside id="ad-rail">
   <style>
-    /* CSS 스코프: #coupang-picks 하위로 격리되어 기존 사이트와 스타일 충돌이 없습니다. */
-    #coupang-picks {
-      background-color: #F8FAFC;
-      color: #0F172A;
-      font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      padding: 40px 20px;
-      margin: 40px auto;
-      max-width: 1200px;
+    /* 글로벌 레이아웃 조작: 1280px 이상 데스크톱에서 main.container를 Grid로 변경 */
+    @media (min-width: 1280px) {
+      main.container {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 240px !important;
+        gap: 0 32px !important;
+        align-items: start;
+      }
+      main.container > * {
+        grid-column: 1;
+      }
+      main.container > #ad-rail {
+        grid-column: 2;
+        grid-row: 1 / 100; /* 맨 아래 DOM에 있어도 오른쪽 끝에 전체 높이로 배치 */
+      }
+    }
+
+    /* CSS 스코프: #ad-rail 하위로 격리 */
+    #ad-rail {
+      background-color: transparent;
       box-sizing: border-box;
       line-height: 1.6;
+      font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
-    #coupang-picks *, #coupang-picks *::before, #coupang-picks *::after {
+
+    /* 1280px 이상에서는 스티키 적용 */
+    @media (min-width: 1280px) {
+      #ad-rail {
+        position: sticky;
+        top: 16px;
+        max-height: calc(100vh - 32px);
+        overflow-y: auto;
+      }
+      /* 스크롤바 숨김 (선택 사항) */
+      #ad-rail::-webkit-scrollbar {
+        width: 6px;
+      }
+      #ad-rail::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+    }
+
+    /* 1280px 미만에서는 기존처럼 컨테이너 아래쪽 중앙 배치 */
+    @media (max-width: 1279px) {
+      #ad-rail {
+        margin: 40px auto;
+        max-width: 1200px;
+        background-color: transparent;
+      }
+    }
+
+    #ad-rail *, #ad-rail *::before, #ad-rail *::after {
       box-sizing: border-box;
     }
-    #coupang-picks .cp-header {
+
+    /* 섹션 공통 스타일 */
+    .ar-section {
+      background-color: #F8FAFC;
+      border-radius: 8px;
+      padding: 20px 16px;
       margin-bottom: 24px;
     }
-    #coupang-picks .cp-title {
-      margin: 0 0 8px 0;
-      font-size: 22px;
+
+    .ar-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .cp-header {
+      margin-bottom: 16px;
+    }
+    .cp-title {
+      margin: 0 0 6px 0;
+      font-size: 16px;
       font-weight: 700;
       color: #0F172A;
       letter-spacing: -0.02em;
     }
-    #coupang-picks .cp-notice-top {
+    .cp-notice-top {
       margin: 0;
-      font-size: 13px;
+      font-size: 11px;
       color: #64748B;
       letter-spacing: -0.01em;
-      line-height: 1.5;
+      line-height: 1.4;
     }
-    #coupang-picks .cp-grid {
+
+    /* 카드 그리드 */
+    .cp-grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 20px;
+      gap: 16px;
+      /* 기본적으로 모바일 1열, 데스크톱 1열 */
+      grid-template-columns: 1fr;
     }
-    #coupang-picks .cp-card {
+
+    /* 1280px 미만 (태블릿/작은 데스크톱) - 2열 */
+    @media (min-width: 600px) and (max-width: 1279px) {
+      .cp-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    /* 1280px 이상은 레일폭이 좁으므로 다시 1열 (기본값 적용) */
+
+    .cp-card {
       background: #FFFFFF;
       border: 1px solid #E2E8F0;
       border-radius: 6px;
@@ -1241,91 +1308,97 @@
       flex-direction: column;
       height: 100%;
     }
-    #coupang-picks .cp-img-wrap {
+
+    /* 이미지 영역 1:1, 안잘리게, 안쪽여백 8px */
+    .cp-img-wrap {
       position: relative;
       width: 100%;
-      aspect-ratio: 4 / 3;
-      background-color: #F1F5F9;
+      aspect-ratio: 1 / 1;
+      background-color: #FFFFFF;
+      padding: 8px;
       display: flex;
       align-items: center;
       justify-content: center;
       overflow: hidden;
       border-bottom: 1px solid #E2E8F0;
     }
-    #coupang-picks .cp-img {
+    .cp-img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
     }
-    #coupang-picks .cp-placeholder {
+
+    .cp-placeholder {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 8px;
+      gap: 6px;
       color: #94A3B8;
       width: 100%;
       height: 100%;
       background-color: #F1F5F9;
       user-select: none;
     }
-    #coupang-picks .cp-placeholder-icon {
-      width: 38px;
-      height: 38px;
+    .cp-placeholder-icon {
+      width: 24px;
+      height: 24px;
       stroke: #94A3B8;
       stroke-width: 1.5;
       fill: none;
     }
-    #coupang-picks .cp-placeholder-text {
-      font-size: 12px;
+    .cp-placeholder-text {
+      font-size: 11px;
       font-weight: 500;
       color: #94A3B8;
       letter-spacing: -0.01em;
     }
-    #coupang-picks .cp-body {
-      padding: 18px 16px 16px;
+
+    /* 본문 영역 */
+    .cp-body {
+      padding: 12px;
       display: flex;
       flex-direction: column;
       flex: 1;
     }
-    #coupang-picks .cp-brand {
-      font-size: 11px;
+    .cp-brand {
+      font-size: 10px;
       font-weight: 700;
       color: #334155;
       text-transform: uppercase;
       letter-spacing: 0.04em;
       margin-bottom: 4px;
     }
-    #coupang-picks .cp-name {
-      margin: 0 0 8px 0;
-      font-size: 15px;
+    .cp-name {
+      margin: 0 0 6px 0;
+      font-size: 13px;
       font-weight: 600;
       color: #0F172A;
-      line-height: 1.45;
+      line-height: 1.4;
       letter-spacing: -0.01em;
       display: -webkit-box;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
-      min-height: 44px;
+      min-height: 36px;
     }
-    #coupang-picks .cp-category {
-      font-size: 12px;
+    .cp-category {
+      font-size: 11px;
       color: #64748B;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
     }
-    #coupang-picks .cp-action {
+    .cp-action {
       margin-top: auto;
     }
-    #coupang-picks .cp-btn {
+    .cp-btn {
       display: block;
       width: 100%;
-      padding: 10px 14px;
+      padding: 8px 12px;
       background-color: #334155;
       color: #FFFFFF;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 600;
       text-align: center;
       text-decoration: none;
@@ -1336,64 +1409,44 @@
       line-height: 1.4;
       transition: background-color 0.15s ease, border-color 0.15s ease;
     }
-    #coupang-picks .cp-btn:hover {
+    .cp-btn:hover {
       background-color: #1E293B;
       border-color: #1E293B;
     }
-    #coupang-picks .cp-btn-disabled,
-    #coupang-picks .cp-btn-disabled:hover {
+    .cp-btn-disabled,
+    .cp-btn-disabled:hover {
       background-color: #F1F5F9;
       color: #94A3B8;
       border-color: #E2E8F0;
       cursor: not-allowed;
     }
-    #coupang-picks .cp-notice-bottom {
-      margin: 32px 0 0 0;
-      padding-top: 18px;
-      border-top: 1px solid #E2E8F0;
-      font-size: 12px;
-      color: #64748B;
-      letter-spacing: -0.01em;
-      text-align: center;
-      line-height: 1.5;
-    }
-    @media (max-width: 960px) {
-      #coupang-picks .cp-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-    @media (max-width: 600px) {
-      #coupang-picks {
-        padding: 24px 16px;
-      }
-      #coupang-picks .cp-grid {
-        grid-template-columns: 1fr;
-      }
-      #coupang-picks .cp-title {
-        font-size: 19px;
-      }
-    }
   </style>
 
-  <div class="cp-header">
-    <h2 class="cp-title">추천 장비 (쿠팡 파트너스)</h2>
-    <p class="cp-notice-top">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-  </div>
+  <!-- 쿠팡 파트너스 추천 장비 -->
+  <section id="coupang-picks" class="ar-section">
+    <div class="cp-header">
+      <h2 class="cp-title">추천 장비 (쿠팡 파트너스)</h2>
+      <p class="cp-notice-top">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+    </div>
+    <div id="coupang-picks-grid" class="cp-grid">
+      <!-- 쿠팡 제품 카드가 생성됩니다 -->
+    </div>
+  </section>
 
-  <div id="coupang-picks-grid" class="cp-grid">
-    <!-- 제품 카드가 스크립트에 의해 자동 생성됩니다 -->
-  </div>
-
-  <p class="cp-notice-bottom">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+  <!-- 알리익스프레스 추천 장비 -->
+  <section id="aliexpress-picks" class="ar-section">
+    <div class="cp-header">
+      <h2 class="cp-title">추천 장비 (알리익스프레스)</h2>
+      <p class="cp-notice-top">이 영역에는 알리익스프레스 제휴 링크가 포함되어 있으며, 구매 시 운영자가 일정 수수료를 받을 수 있습니다.</p>
+    </div>
+    <div id="aliexpress-picks-grid" class="cp-grid">
+      <!-- 알리 제품 카드가 생성됩니다 -->
+    </div>
+  </section>
 
   <script>
     (function () {
-      // ==========================================
-      // [제품 데이터 정의]
-      // 실제 정보 등록 시 아래 6개 항목의 값을 수정하세요.
-      // - url이 빈 문자열("")이면 자동으로 '링크 준비 중' 비활성화 버튼이 표시됩니다.
-      // - image가 빈 문자열("")이면 4:3 비율의 회색 자리표시자가 나타납니다.
-      // ==========================================
+      // 쿠팡 파트너스 데이터
       const PRODUCTS = [
         { brand: "Focusrite", name: "포커스라이트 Scarlett 2i2 4세대 오디오 인터페이스", category: "오디오 인터페이스", image: "https://t1c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2023/09/15/15/6/8d42e4f3-3d52-4c01-9b84-8704587923fe.jpg", url: "https://link.coupang.com/a/hsPh7tYH1M" },
         { brand: "Yamaha", name: "야마하 HS5 스튜디오 모니터 스피커", category: "스튜디오 모니터", image: "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/3a5e/20692ec2e81433d019b4d70a9dc81fc294ae44d8ee5383b2f9c75b8916ea.jpg", url: "https://link.coupang.com/a/hsQOK7OJVI" },
@@ -1401,6 +1454,16 @@
         { brand: "Audio-Technica", name: "오디오테크니카 ATH-M50x 모니터링 헤드폰 블랙", category: "헤드폰", image: "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2019/09/02/12/2/c0e12dc2-a813-4e70-872c-d86f43f3ace6.jpg", url: "https://link.coupang.com/a/hsPeU5CAHQ" },
         { brand: "Mogami", name: "MOGAMI Gold Studio XLR 마이크 케이블 3M", category: "케이블", image: "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/b05ea39f584bb8cff45e8f272ce1dd8bfb4769356becef4bae3319b6ed3a_1759137929903.jpg", url: "https://link.coupang.com/a/hsPfWHtjWe" },
         { brand: "K&M", name: "K&M 프로페셔널 스탠드 25400", category: "스탠드", image: "https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/df0b/005037712291480978d453150c9f0daeaf95dbc23c09869bad5f8b0b5bec.jpg", url: "https://link.coupang.com/a/hsPg48XOHQ" }
+      ];
+
+      // 알리익스프레스 데이터
+      const ALI_PRODUCTS = [
+        { brand: "the brilliant 3C Store", name: "XLR 마이크 케이블 (수-암, 1~10m)", category: "케이블", image: "https://ae-pic-a1.aliexpress-media.com/kf/S9742b1e5e4af4e57b5ca49bec5abaeb9H.jpg", url: "https://s.click.aliexpress.com/e/_c3fepNAD" },
+        { brand: "Guitary Best Shop", name: "Shure SM7B용 마이크 팝필터 윈드스크린", category: "마이크 액세서리", image: "https://ae-pic-a1.aliexpress-media.com/kf/Sfbc57a4141e44cad92ad5b7f7166d4043.jpg", url: "https://s.click.aliexpress.com/e/_c33S6DJ3" },
+        { brand: "perngy tech", name: "360도 회전 데스크탑 스피커 스탠드 (2개 1세트)", category: "스탠드", image: "https://ae-pic-a1.aliexpress-media.com/kf/S8cdc61decfc440e683b6f5a6cffb2693q.jpg", url: "https://s.click.aliexpress.com/e/_c3BkZkwd" },
+        { brand: "All Goods All Styles", name: "무타공 클립형 헤드폰 거치대", category: "헤드폰 액세서리", image: "https://ae-pic-a1.aliexpress-media.com/kf/S9e1951e59f9a4d7690e9a7fac9a838afC.jpg", url: "https://s.click.aliexpress.com/e/_c41cXkLJ" },
+        { brand: "JOYO", name: "JOYO MOMIX CAB 미니 USB 오디오 인터페이스", category: "오디오 인터페이스", image: "https://ae-pic-a1.aliexpress-media.com/kf/S3c27c7ed834548149763a7521e816c5bx.jpg", url: "https://s.click.aliexpress.com/e/_c3XxWeGD" },
+        { brand: "Audio Cable Shop", name: "6.35mm TRS - XLR 오디오 케이블", category: "케이블", image: "https://ae-pic-a1.aliexpress-media.com/kf/S3f74ea3284a2485ebd0549a14262b3b8W.jpg", url: "https://s.click.aliexpress.com/e/_c42zWBDf" }
       ];
 
       function escapeHtml(str) {
@@ -1413,8 +1476,8 @@
           .replace(/'/g, "&#039;");
       }
 
-      function renderCoupangPicks() {
-        const grid = document.getElementById("coupang-picks-grid");
+      function renderCards(gridId, data, btnText) {
+        const grid = document.getElementById(gridId);
         if (!grid) return;
 
         const placeholderSvg =
@@ -1424,7 +1487,7 @@
           '<polyline points="21 15 16 10 5 21"></polyline>' +
           '</svg>';
 
-        grid.innerHTML = PRODUCTS.map(function (item) {
+        grid.innerHTML = data.map(function (item) {
           const hasImage = item.image && item.image.trim() !== "";
           const hasUrl = item.url && item.url.trim() !== "";
 
@@ -1436,7 +1499,7 @@
               '</div>';
 
           const buttonContent = hasUrl
-            ? '<a href="' + escapeHtml(item.url) + '" target="_blank" rel="sponsored noopener noreferrer" class="cp-btn">쿠팡에서 보기</a>'
+            ? '<a href="' + escapeHtml(item.url) + '" target="_blank" rel="sponsored noopener noreferrer" class="cp-btn">' + btnText + '</a>'
             : '<button type="button" disabled class="cp-btn cp-btn-disabled">링크 준비 중</button>';
 
           return (
@@ -1457,14 +1520,19 @@
         }).join("");
       }
 
+      function renderAdRail() {
+        renderCards("coupang-picks-grid", PRODUCTS, "쿠팡에서 보기");
+        renderCards("aliexpress-picks-grid", ALI_PRODUCTS, "알리에서 보기");
+      }
+
       if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", renderCoupangPicks);
+        document.addEventListener("DOMContentLoaded", renderAdRail);
       } else {
-        renderCoupangPicks();
+        renderAdRail();
       }
     })();
   </script>
-</section>
+</aside>
 
 <!-- COUPANG_PICKS:END -->
   </main>
