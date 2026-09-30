@@ -194,5 +194,17 @@ def build_pages(root, items, pub):
     a, b = html.find(START), html.find(END)
     if a != -1 and b > a:
         new = html[: a + len(START)] + "\n" + render_rows(items) + "\n" + html[b:]
+
+        # COUPANG PICKS 삽입 로직
+        cp_path = root / "coupang_picks.html"
+        if cp_path.exists():
+            cp_html = cp_path.read_text(encoding="utf-8")
+            cp_start = "<!-- COUPANG_PICKS:START -->"
+            cp_end = "<!-- COUPANG_PICKS:END -->"
+            a_cp = new.find(cp_start)
+            b_cp = new.find(cp_end)
+            if a_cp != -1 and b_cp > a_cp:
+                new = new[: a_cp + len(cp_start)] + "\n" + cp_html + "\n" + new[b_cp:]
+
         changed += write_if_changed(index, new)
     return changed
