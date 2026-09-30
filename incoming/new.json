@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-09-30",
+    "company": "삼아사운드",
+    "brand": "Q-SYS",
+    "productName": "Q-SYS Architect 입문 교육 (2026년 10월)",
+    "type": "행사",
+    "category": "프로오디오",
+    "summary": "삼아사운드가 2026년 10월 Q-SYS Architect 입문 교육을 공지했습니다. 교육은 10월 8일(목) 오후 2시부터 6시까지 4시간 동안 서울 종로구 삼아사운드 11층 Q-SYS 체험센터에서 진행됩니다. 이수 후 시험에 합격하면 수료증이 발급되고 AVIXA RU 2점이 인정됩니다. 신청은 삼아사운드 카카오톡 채널로 받습니다.",
+    "link": "https://samasound.co.kr/article/공지사항/1/6559/",
+    "evidence": "Q-SYS ARCHITECT INTROCDUCTORY TRAINING (2026년 10월)",
+    "status": "published",
+    "isDomestic": true,
+    "imageUrl": "https://samasound.co.kr/web/upload/NNEditor/20260930/Q-SYS-ECA095EAB8B0EAB590EC9CA1_Architect_EAB3B5ECA780EBACB8.png"
+  },
+  {
+    "date": "2026-09-29",
+    "company": "삼아사운드",
+    "brand": "Allen & Heath",
+    "productName": "A&H Digital Training - Qu 정기 교육 (2026년 10월)",
+    "type": "행사",
+    "category": "프로오디오",
+    "summary": "삼아사운드가 Allen & Heath의 엔트리급 디지털 믹서 Qu 시리즈 정기 교육을 공지했습니다. 10월 7일(수) 오후 2시부터 5시까지 서울 종로구 삼아사운드 10층 대회의실에서 열리며 무료 주차와 점심 식사가 제공됩니다. 제품·시스템 이해, 입력·출력 설정, ME 퍼스널 믹서 활용, 현장 운용 실습을 다루고 신청은 삼아사운드 채널에서 받습니다.",
+    "link": "https://samasound.co.kr/article/공지사항/1/6558/",
+    "evidence": "A&H Digital Training - QU 정기 교육 (2026년 10월)",
+    "status": "published",
+    "isDomestic": true,
+    "imageUrl": "https://samasound.co.kr/web/upload/NNEditor/20260929/AH_QU_EC8BA0ECA09CED9288_EAB3B5ECA780EBACB8.png"
+  },
+  {
+    "date": "2026-09-29",
+    "company": "사운드캣",
+    "brand": "Cayin",
+    "productName": "Cayin Soul 170i",
+    "type": "신제품",
+    "category": "컨슈머오디오",
+    "summary": "사운드캣이 Cayin의 플래그십급 진공관 인티앰프 Soul 170i의 국내 정식 출시를 알렸습니다. KT170 출력관 4개를 쓰는 Class AB 푸시풀 구성으로 울트라리니어 모드에서 채널당 130W, 트라이오드 모드에서 채널당 75W를 냅니다. XLR 1개와 RCA 3개 입력, 4Ω/8Ω 스피커 출력을 갖췄고 무게는 38.7kg입니다.",
+    "link": "https://soundcat.co.kr/product_news/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174889120&t=board",
+    "evidence": "Cayin이 이러한 두 가지 매력을 하나의 앰프에 담아낸 플래그십급 진공관 인티앰프, Cayin Soul 170i가 국내에 정식 출시됩니다.",
+    "status": "published",
+    "isDomestic": true,
+    "imageUrl": "https://cdn.imweb.me/thumbnail/20260929/bbfd2636f7cd1.png"
+  },
+  {
+    "date": "2026-09-29",
+    "company": "DiGiCo",
+    "brand": "DiGiCo",
+    "productName": "Quantum638 / Quantum638T 믹싱 콘솔",
+    "type": "신제품",
+    "category": "프로오디오",
+    "summary": "디지코가 Quantum 시리즈에 새 디지털 믹싱 콘솔 Quantum638을 추가했습니다. 256개 입력 채널과 128개 aux/서브그룹 버스를 갖췄고 17인치 터치스크린 3개와 100mm 모터 페이더 38개를 탑재했습니다. 싱글·듀얼 엔진 버전이 있으며 듀얼 DMI 카드 슬롯과 핫스왑 전원부를 제공합니다. 극장용 Quantum638T도 함께 나옵니다.",
+    "link": "https://digico.biz/digico-launches-the-quantum638/",
+    "evidence": "DiGiCo announces the launch of its latest addition to the successful Quantum Range, the Quantum638 mixing console, previously codenamed “Tarpon,”",
+    "status": "published",
+    "isDomestic": false,
+    "imageUrl": "https://digico.biz/wp-content/uploads/2026/09/638-Thumbnail.jpg"
+  }
+]
