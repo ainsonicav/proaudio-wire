@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-09-30T23:56:03Z",
+  "generated_at": "2026-10-01T02:15:15Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 75,
-    "month": 123,
+    "week": 24,
+    "month": 126,
     "total": 128
   },
   "top_brands_week": [
     {
       "brand": "Yamaha",
-      "count": 9
+      "count": 2
     },
     {
-      "brand": "RTW",
-      "count": 4
+      "brand": "RØDE",
+      "count": 2
     },
     {
-      "brand": "Lawo",
-      "count": 4
+      "brand": "Millennia",
+      "count": 1
     },
     {
-      "brand": "TASCAM",
-      "count": 3
+      "brand": "Martin Audio",
+      "count": 1
     },
     {
       "brand": "Q-SYS",
-      "count": 2
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 46,
-      "pct": 61
+      "count": 13,
+      "pct": 54
     },
     {
       "category": "컨슈머오디오",
-      "count": 3,
-      "pct": 4
+      "count": 2,
+      "pct": 8
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 15,
-      "pct": 20
+      "count": 8,
+      "pct": 33
     },
     {
       "category": "기타",
-      "count": 11,
-      "pct": 15
+      "count": 1,
+      "pct": 4
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 77,
+      "count": 80,
       "pct": 63
     },
     {

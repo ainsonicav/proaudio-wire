@@ -6,13 +6,13 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
       <title>[신제품] Millennia - HV-316 16채널 Remote mic preamp</title>
       <link>https://news.ainsonic.com/n/news-127.html</link>
       <description>다산SR이 Millennia Media의 16채널 원격 제어 마이크 프리앰프 HV-316 소개 영상을 공개했습니다. 제37회 TEC Awards 후보에 오른 모델로, Dante 오디오 네트워크를 통한 초저지연 전송과 투명한 고음질 아날로그 프리앰프 서킷을 결합해 대규모 라이브 사운드 및 스튜디오 레코딩 환경에 최적화되었습니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-127</guid>
       <category>신제품</category>
       <category>프로오디오</category>
@@ -22,7 +22,7 @@
       <title>[업데이트] Yamaha - RIVAGE PM Firmware V7.10 및 Editor</title>
       <link>https://news.ainsonic.com/n/news-128.html</link>
       <description>Yamaha가 플래그십 디지털 믹싱 시스템 RIVAGE PM 시리즈를 위한 v7.10 펌웨어 및 Mac/Windows 전용 에디터 소프트웨어를 공식 릴리즈했습니다. 시스템 내부 DSP 엔진 연동 최적화와 함께 콘솔 간 네트워크 통신 안정성을 향상시켰습니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-128</guid>
       <category>업데이트</category>
       <category>프로오디오</category>
@@ -32,8 +32,28 @@
       <title>[행사] Martin Audio - The Rex Rooms at 151 음향 인스톨레이션</title>
       <link>https://news.ainsonic.com/n/news-129.html</link>
       <description>Martin Audio가 영국 런던 첼시의 프리미엄 프라이빗 멤버스 클럽 'The Rex Rooms at 151'에 맞춤형 사운드 시스템을 구축했다고 발표했습니다. Evolve Install 사가 설계를 맡아 공간 인테리어와 완벽히 융합되는 고해상도 분산 스피커 솔루션을 시공했습니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-129</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
+      <link>https://news.ainsonic.com/n/news-79.html</link>
+      <description>TELEFUNKEN Elektroakustik이 오디오 전공 학생과 애호가를 대상으로 마이크 공장 내부를 보여주는 Zoom 온라인 투어를 진행합니다. 회사는 이 교육용 투어를 전 세계 수천 명의 학생에게 제공해 왔다고 밝혔습니다. 페이지 제목은 10월 6일, 본문은 10월 12일(화) 오후 12시(미 동부시간)로 표기돼 날짜가 일치하지 않으므로 확인이 필요합니다. 참가하려면 Google 양식으로 등록해 Zoom 링크를 받아야 합니다.</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-79</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Sound Devices - Astral wireless</title>
+      <link>https://news.ainsonic.com/n/news-83.html</link>
+      <description>Sound Devices가 2026년 10월 2~3일 미국 LA에서 열리는 Trewlapalooza 2026에 참가합니다. 현장에서는 Astral 무선 시스템을 직접 체험할 수 있으며 새로운 현장 녹음 워크플로를 소개합니다. 회사 세션은 10월 2일(금) 오후 2시에 진행됩니다. 입장권은 Tickettailor 행사 페이지에서 구매할 수 있습니다.</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-83</guid>
       <category>행사</category>
       <category>프로오디오</category>
     </item>
@@ -95,26 +115,6 @@
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-122</guid>
       <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
-      <link>https://news.ainsonic.com/n/news-79.html</link>
-      <description>TELEFUNKEN Elektroakustik이 오디오 전공 학생과 애호가를 대상으로 마이크 공장 내부를 보여주는 Zoom 온라인 투어를 진행합니다. 회사는 이 교육용 투어를 전 세계 수천 명의 학생에게 제공해 왔다고 밝혔습니다. 페이지 제목은 10월 6일, 본문은 10월 12일(화) 오후 12시(미 동부시간)로 표기돼 날짜가 일치하지 않으므로 확인이 필요합니다. 참가하려면 Google 양식으로 등록해 Zoom 링크를 받아야 합니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-79</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Sound Devices - Astral wireless</title>
-      <link>https://news.ainsonic.com/n/news-83.html</link>
-      <description>Sound Devices가 2026년 10월 2~3일 미국 LA에서 열리는 Trewlapalooza 2026에 참가합니다. 현장에서는 Astral 무선 시스템을 직접 체험할 수 있으며 새로운 현장 녹음 워크플로를 소개합니다. 회사 세션은 10월 2일(금) 오후 2시에 진행됩니다. 입장권은 Tickettailor 행사 페이지에서 구매할 수 있습니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-83</guid>
-      <category>행사</category>
       <category>프로오디오</category>
     </item>
 
