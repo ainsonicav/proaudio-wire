@@ -227,6 +227,17 @@
       border-color: #E2E8F0;
       cursor: not-allowed;
     }
+  
+    /* 데스크톱 사이드 추천: 폭·링크·고지는 유지하고 카드 높이를 약 절반으로 축소 */
+    @media (min-width: 1280px) {
+      #ad-rail .cp-grid { gap: 8px; }
+      #ad-rail .cp-img-wrap { height: 64px; aspect-ratio: auto; padding: 4px; }
+      #ad-rail .cp-body { padding: 6px 8px; }
+      #ad-rail .cp-brand { margin-bottom: 2px; }
+      #ad-rail .cp-name { font-size: 12px; line-height: 1.35; min-height: 32.4px; margin-bottom: 4px; }
+      #ad-rail .cp-category { font-size: 10px; line-height: 1.4; margin-bottom: 4px; }
+      #ad-rail .cp-btn { padding: 4px 8px; font-size: 11px; line-height: 1.4; }
+    }
   </style>
 
   <!-- 쿠팡 파트너스 추천 장비 -->
