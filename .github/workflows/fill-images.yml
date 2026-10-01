@@ -29,6 +29,14 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 기본값(이 워크플로를 '깨운' 시점의 고정 SHA)이 아니라 밌치 최신 커밋을 명시적으로 요청합니다.
+          # concurrency 그룹(news-write)이 작업 '본문' 실행만 한 번에 하나로 막기 때문에, 이 작업이 대기열에서
+          # 기다리는 동안 다른 실행(수동 재실행 등)이 먼저 커밋·푸시를 끝냈을 수 있습니다. ref를 고정
+          # SHA 대신 브랜치명(main)으로 주면 체크아웃은 이 스텝이 실제로 실행되는 시점의 main 최신 커밋으로
+          # 해결되므로(actions/checkout 공식 동작), 추가 fetch/reset 명령 없이도 오래된 트리거 SHA로 멈추는
+          # 문제(대기 중 다른 실행이 먼저 생성 파일 커밋을 올려 이후 rebase가 충돌할 가능성)을 막습니다.
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -58,22 +66,51 @@ jobs:
           git config user.name "proaudio-wire-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "소식 사진 자동 채우기"
-          # force push는 절대 쓰지 않음. pull --rebase가 충돌로 실패하면 rebase를
-          # 중단해 저장소를 깨끗한 상태로 되돌린 뒤에만 재시도합니다(안 그러면 다음
-          # 시도도 중단된 rebase 상태에서 계속 실패함).
+          # force push는 절대 쓰지 않음. pull --rebase가 충돌로 실패하면:
+          #  - 충돌 파일이 전부 순수 생성 파일(stats.json/rss.xml/sitemap.xml/n/*.html)뿐이면
+          #    scripts/reconcile_generated.py로 병합된 news.json 기준으로 다시 계산해서만 이어갑니다.
+          #    index.html은 정적 구조와 생성 구간이 섮인 파일이라 이 허용 목록에서 제외했습니다(index.html
+          #    자체가 충돌된 경우는 항상 원본 충돌로 취급해 즉시 실패함 — PRERENDER/COUPANG_PICKS 주입
+          #    구간 밖에서 사람이 직접 고친 정적 내용이 충돌했을 수 있어 길린 git 충돌 표시가
+          #    조용히 커밋되는 일을 막기 위함). news.json은 이 스크립트가 읽기만 하고 절대 쓰지 않음.
+          #  - news.json/index.html 등 원본 충돌이 하나라도 섞여 있거나 재생성 자체가 실패하면
+          #    즉시 rebase를 중단하고 "명확하게 한 번" 실패합니다 — 자동으로 고쳐지지 않는
+          #    내용 충돌을 5번 동일하게 반복 재시도하지 않음(이전에는 매번 같은 충돌로 5회
+          #    모두 동일하게 실패해 사진은 처리되고도 아무것도 반영되지 못하는 문제가 있었음).
+          #  - 충돌이 아니라 네트워크 등으로 pull --rebase 자체가 실패하거나, rebase는 성공했는데
+          #    push만 경합으로 실패하는 경우는 여전히 재시도 대상입니다(일시적·경주성 문제일 수 있음).
+          #  - rebase --continue는 GIT_EDITOR=true로 돌려 커밋 메시지 편집기를 열지 않게 합니다(CI에는 TTY가
+          #    없어 편집기가 열리면 멈춤; `--no-edit`는 git 버전에 따라 `rebase --continue`에서
+          #    지원되지 않을 수 있어 써지 않음).
           for i in 1 2 3 4 5; do
             if git pull --rebase origin main; then
               if git push origin HEAD:main; then
                 echo "pushed=true" >> "$GITHUB_OUTPUT"
                 exit 0
               fi
+              echo "::warning::rebase는 성공했지만 push 실패(다른 업데이트와 경합) - 재시도 ($i/5)"
             else
-              git rebase --abort || true
-              echo "::warning::pull --rebase 실패(충돌 또는 네트워크) - 중단 후 재시도 ($i/5)"
+              conflicts="$(git diff --name-only --diff-filter=U)"
+              if [ -z "$conflicts" ]; then
+                git rebase --abort || true
+                echo "::warning::pull --rebase 실패(충돌 아님 — 네트워크 등) - 중단 후 재시도 ($i/5)"
+              elif python3 scripts/reconcile_generated.py; then
+                if GIT_EDITOR=true git rebase --continue; then
+                  echo "순수 생성 파일 전용 충돌을 재생성으로 해결하고 rebase를 이어감"
+                else
+                  git rebase --abort || true
+                  echo "::warning::재생성 후에도 rebase --continue 실패 - 중단 후 재시도 ($i/5)"
+                fi
+              else
+                git rebase --abort || true
+                echo "::error::news.json/index.html 등 원본 충돌이 있거나 재생성이 실패함 — 자동으로 고치지 않고 즉시 실패합니다 (고쳐지지 않는 충돌을 5번 반복 재시도하지 않음). 충돌 파일: $conflicts"
+                echo "pushed=false" >> "$GITHUB_OUTPUT"
+                exit 1
+              fi
             fi
             sleep $((i * 5))
           done
-          echo "::error::푸시 실패 (다른 업데이트와 겹침). 다음 실행 때 다시 시도합니다."
+          echo "::error::푸시 실패 (다른 업데이트와 겹침, 충돌은 아님). 다음 실행 때 다시 시도합니다."
           echo "pushed=false" >> "$GITHUB_OUTPUT"
           exit 1
 
