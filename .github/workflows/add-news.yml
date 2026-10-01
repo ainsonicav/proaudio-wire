@@ -9,15 +9,19 @@ on:
 
 permissions:
   contents: write
+  actions: write   # 게시 완료 후 fill-images·telegram-notify 워크플로를 명시적으로 깨우기 위함
+  pages: write    # 커밋 후 GitHub Pages 빌드를 명시적으로 요청하기 위함 (설정/소스는 바꾸지 않음)
 
+# fill-images.yml과 같은 그룹을 써서 news.json 쓰기 작업을 한 번에 하나만 실행합니다
+# (서로 다른 그룹을 쓰면 두 워크플로가 동시에 커밋·푸시를 시도해 충돌할 수 있었음).
 concurrency:
-  group: add-news
+  group: news-write
   cancel-in-progress: false
 
 jobs:
   add:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -26,32 +30,96 @@ jobs:
           python-version: "3.11"
 
       - name: 새 소식 검사 후 추가 (id 부여, RSS·검색용 페이지 갱신)
+        id: add
         run: |
           if [ ! -f incoming/new.json ]; then echo "추가할 소식 없음"; exit 0; fi
           python3 scripts/build.py --add incoming/new.json
           rm -f incoming/new.json
 
-      - name: 사진 없는 소식에 썸네일 채우기
-        env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-        run: python3 scripts/fill_images.py
-
-      - name: 형식 검사 + RSS·검색용 페이지 갱신
-        run: python3 scripts/build.py
+      # 사진 채우기는 여기서 동기적으로 돌리지 않습니다. 글 게시가 사진 검색/네트워크
+      # 지연 때문에 늦어지면 안 되므로, 아래에서 커밋·푸시가 끝난 뒤 fill-images.yml을
+      # 별도로 깨웁니다 (텍스트 게시는 사진 유무와 무관하게 항상 바로 끝남).
 
       - name: 바뀐 내용 반영
+        id: commit
         run: |
+          # 커밋 전의 정확한 기준점(base_sha)을 먼저 기록. 텔레그램 알림이 나중에(다른
+          # 커밋이 끼어들어도) 이 지점과 비교해야 방금 추가된 id를 확실히 찾음 (HEAD^만
+          # 믿으면 사진 채우기 커밋이 먼저 끼어들었을 때 기준점이 엇나로 밀려나 새 id를 놓칠 수 있음).
+          echo "base_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           git add -A news.json rss.xml sitemap.xml stats.json index.html n
           git add -A incoming || true
           if git diff --cached --quiet; then
-            echo "바뀐 내용 없음"; exit 0
+            echo "바뀐 내용 없음"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
           git config user.name "proaudio-wire-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "뉴스 자동 업데이트 $(TZ=Asia/Seoul date +%F)"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
-            sleep 5
+          # 다른 워크플로(fill-images)의 커밋과 겹칠 수 있으므로 rebase 후 재시도.
+          # force push는 절대 쓰지 않음. pull --rebase가 충돌로 실패하면 그대로 재시도하지
+          # 않고 rebase를 먼저 중단해 깨끗한 상태로 되돌린 뒤에만 다시 시도함 (충돌 상태로 눈 가려 재시도하면
+          # 계속 실패하고 저장소가 이상한 상태로 남을 수 있음).
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main; then
+              if git push origin HEAD:main; then
+                # rebase로 커밋 SHA가 바뀜 수 있으므로, 실제로 push된 커밋을 push 성공 직후에 다시 읽음.
+                echo "head_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+                echo "pushed=true" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              echo "::warning::pull --rebase 실패(충돌 또는 네트워크) - 중단 후 재시도 ($i/5)"
+            fi
+            sleep $((i * 5))
           done
-          echo "::error::푸시 실패"
+          echo "::error::푸시 실패 (재시도 5회 모두 실패)"
+          echo "pushed=false" >> "$GITHUB_OUTPUT"
           exit 1
+
+      - name: GitHub Pages 빌드 요청 (GITHUB_TOKEN 커밋은 Pages 빌드를 자동으로 트리거하지 않음 — 공식 문서 확인됨)
+        if: steps.commit.outputs.pushed == 'true'
+        uses: actions/github-script@v7
+        continue-on-error: true
+        with:
+          script: |
+            try {
+              await github.rest.repos.requestPagesBuild({ owner: context.repo.owner, repo: context.repo.repo });
+              core.notice('GitHub Pages 빌드를 요청했습니다.');
+            } catch (e) {
+              core.setFailed('GitHub Pages 빌드 요청 실패: ' + (e && e.message ? e.message : String(e)));
+            }
+
+      - name: 사진 채우기 신호 보내기 (게시는 이미 끝난 뒤, 실패해도 게시 결과엔 영향 없음)
+        if: steps.commit.outputs.pushed == 'true'
+        uses: actions/github-script@v7
+        continue-on-error: true
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'fill-images.yml',
+              ref: 'main',
+            });
+            core.notice('fill-images.yml 실행 신호를 보냈습니다.');
+
+      - name: 텔레그램 알림 신호 보내기 (새 소식이 실제로 1건 이상 있을 때만, 이 경로가 유일한 텔레그램 트리거 — push 트리거는 제거됨)
+        if: steps.commit.outputs.pushed == 'true' && fromJSON(steps.add.outputs.added_count || '0') > 0
+        uses: actions/github-script@v7
+        continue-on-error: true
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'telegram-notify.yml',
+              ref: 'main',
+              inputs: {
+                base_sha: '${{ steps.commit.outputs.base_sha }}',
+                head_sha: '${{ steps.commit.outputs.head_sha }}',
+              },
+            });
+            core.notice('telegram-notify.yml 실행 신호를 보냈습니다 (base ${{ steps.commit.outputs.base_sha }} -> head ${{ steps.commit.outputs.head_sha }}).');

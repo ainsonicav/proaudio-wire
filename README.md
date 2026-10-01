@@ -1,6 +1,10 @@
-# proaudio-wire
+# proaudio-wire (프로오디오뉴스)
 
-PRO AUDIO WIRE — https://news.ainsonic.com (GitHub Pages)
+프로오디오뉴스 PRO AUDIO WIRE — https://news.ainsonic.com (GitHub Pages)
+
+> 공식 서비스명: **프로오디오뉴스**(news.ainsonic.com). `PRO AUDIO WIRE`는 기존 로고/매 벌 및 텔레그램 채널명(@proaudiowire)과의 일관성을 위해 보조 브랜드로 함께 유지합니다. 관련 다른 공식 서비스: 아인소닉 홈페이지(www.ainsonic.com), 사이트관리센터(works.ainsonic.com, 검색엔진 미노출 · 관리 기능은 Apps Script "나만" 권한으로 제한).
+>
+> `scripts/pages.py`의 `SITE_NAME` 상수를 "프로오디오뉴스 PRO AUDIO WIRE"로 수정해 `<title>`, `og:site_name`, JSON-LD publisher/author, 각 소식 페이지(`n/*.html`) 헤더에 일괄 반영되도록 했습니다. **실제 반영은 다음 `python3 scripts/build.py` 실행(파이프라인 에이전트 담당) 시 처리됩니다** — 이 작업에서는 `index.html`의 정적 텍스트(title/meta/header)만 직접 수정했습니다.
 
 ## 구조
 

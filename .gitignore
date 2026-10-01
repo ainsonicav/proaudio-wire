@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 
 node_modules/
+
+# tests/test_build.py, tests/test_fill_images.py가 쓰는 일회용 임시 스크래치(각 테스트가 스스로 지움)
+tests/.tmp/

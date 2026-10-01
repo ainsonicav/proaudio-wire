@@ -9,6 +9,7 @@
   (--add는 검사를 통과할 때만 news.json에 저장합니다.)
 """
 import json
+import os
 import sys
 from collections import Counter
 from datetime import datetime, timezone
@@ -190,6 +191,30 @@ def brief(items, days=60):
             print(f"{i['id']} | {i['date']} | {i['brand']} | {i.get('productName', '')} | {i['link']}")
 
 
+# ---------------------------------------------------------------------------
+# 새로 들어오는 항목(전체 128건 과거 기록에는 적용하지 않음) 전용 추가 검사.
+#
+# summary/spec 내용이 사실인지 자체는 정규식으로 판단할 수 없으므로(의미 검증 불가),
+# 대신 생산자(수집 에이전트/제보자)에게 "출처 확인 책임"을 명시적으로 지우는 계약으로
+# 대체합니다: incoming/new.json의 각 항목은 (1) 원문 link가 https로 시작하는 절대 URL이고,
+# (2) productName 또는 evidence(원문 근거·인용) 중 적어도 하나는 비어있지 않아야 함.
+# 조건을 못 맞추는 항목은 명확한 사유와 함께 거부되고(조용히 통과시키지 않음),
+# 어떤 과거 기록도 이 기준으로 재검사되거나 무효화되지 않습니다.
+def validate_incoming(fresh):
+    errors = []
+    for it in fresh:
+        tag = it.get("brand", "") + " — " + (it.get("productName") or it.get("link", "(새 항목)"))
+        link = str(it.get("link", ""))
+        if not link.startswith("https://"):
+            errors.append(f"{tag}: 새 소식 link는 https:// 절대 URL이어야 함 (받은 값: {link[:70]!r})")
+        evidence = str(it.get("evidence", "")).strip()
+        product = str(it.get("productName", "")).strip()
+        if not evidence and not product:
+            errors.append(f"{tag}: productName 또는 evidence(원문 근거) 중 하나는 있어야 함 — "
+                           "자동 요약/스펙마는 검증할 수 없으므로 생산자가 출처를 명시해야 함")
+    return errors
+
+
 def add(items, path):
     """새 항목 파일을 id 붙여 맨 앞에 넣음. 이미 있는 원문 링크는 건너뜀."""
     new = json.loads(Path(path).read_text(encoding="utf-8"))
@@ -215,6 +240,15 @@ def add(items, path):
     return fresh + items, fresh
 
 
+def write_gh_output(key, value):
+    """GitHub Actions 워크플로에서만 효과 있음(GITHUB_OUTPUT 환경변수가 있을 때). 로컬 실행/테스트에서는 조용히 무시됨."""
+    gh_out = os.environ.get("GITHUB_OUTPUT")
+    if not gh_out:
+        return
+    with open(gh_out, "a", encoding="utf-8") as f:
+        f.write(f"{key}={value}\n")
+
+
 def main():
     args = sys.argv[1:]
     path = ROOT / "news.json"
@@ -225,12 +259,23 @@ def main():
     fresh = []
     if args[:1] == ["--add"] and len(args) == 2:
         items, fresh = add(items, args[1])
+        incoming_errors = validate_incoming(fresh)
+        if incoming_errors:
+            print(f"새 소식 사전 검사 실패 — 기존 {len(items) - len(fresh)}건은 그대로 두고 이번 들어온 항목만 거부함 ({len(incoming_errors)}건):")
+            for e in incoming_errors:
+                print("  -", e)
+            write_gh_output("added_count", "0")
+            sys.exit(1)
     errors = validate(items)
     if errors:
         print(f"news.json 검사 실패 ({len(errors)}건):")
         for e in errors:
             print("  -", e)
+        if args[:1] == ["--add"]:
+            write_gh_output("added_count", "0")
         sys.exit(1)
+    if args[:1] == ["--add"] and len(args) == 2:
+        write_gh_output("added_count", str(len(fresh)))
     if fresh:
         path.write_text(json.dumps(items, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"추가 {len(fresh)}건:")

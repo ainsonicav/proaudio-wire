@@ -1,24 +1,50 @@
 name: Telegram 새 소식 알림
 
+# 의도적으로 on: push 트리거가 없습니다. 이 작업은 add-news.yml이 보내는 명시적
+# workflow_dispatch 하나만으로만 실행됩니다(단일 경로). push 트리거와 명시적 dispatch를
+# 동시에 두면 봇 커밋은 push가 다른 워크플로를 연쇄 트리거하지 않는다는 GitHub의 제약 때문에 중복은
+# 거의 일어나지 않지만, 사람이 news.json을 직접 push하는 드문 경우에는 push가 정상 트리거되어
+# add-news의 dispatch와 중복될 수 있었습니다. 직렬화(concurrency) 가정에 의존하는 대신
+# 아예 가능성을 없애는 쪽을 택했습니다. news.json을 사람이 직접 고친 경우에는 이 작업탭에서
+# "Run workflow"로 직접 실행해야 합니다(자동 알림이 저절로 오지 않는다고 가정할 것).
 on:
-  push:
-    branches: [main]
-    paths:
-      - "news.json"
   workflow_dispatch:
     inputs:
       test:
-        description: "연결 테스트 메시지 보내기 (1 = 예)"
+        description: "연결 테스트 메시지 보내기 (1 = 예, 기본값 0 = 일반 전송)"
         required: false
-        default: "1"
+        default: "0"
+      base_sha:
+        description: "비교 기준점(이전) 커밋 SHA (add-news.yml이 명시적으로 넘겨줌; 비워두면 HEAD^ 사용)"
+        required: false
+        default: ""
+      head_sha:
+        description: "비교 대상(추가 직후) 정확한 커밋 SHA (add-news.yml이 push 성공 직후에 넘겨줌;
+          비워두면 체크아웃한 main 최신 상태를 쓰는데, 그 사이에 더 새 커밋이 들어오면 중간에
+          끼어든 데이터와 엮여 'id'가 주 참조로 잡힐 수 있음)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+# 같은 커밋(SHA)에 대해 두 번 실행되는 일을 막는 보조 안전장치(push 트리거가 없으므로
+# 지금은 거의 발생할 일이 없지만, 사람이 같은 커밋으로 두 번 수동 실행할 경우에 대비).
+concurrency:
+  group: telegram-${{ github.event.inputs.head_sha || github.sha }}
+  cancel-in-progress: false
 
 jobs:
   notify:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          # head_sha가 주어지면 그 정확한 커밋을 체크아웃(가변적인 main 최신 상태가 아니라).
+          # 비워두면(사람이 직접 실행) 기본 main 최신을 쓰고, 스크립트가 작업디렉터리의 news.json을 읽음.
+          ref: ${{ github.event.inputs.head_sha || github.ref }}
+          fetch-depth: 0   # base_sha가 여러 커밋 앞일 수 있어 전체 히스토리 필요
 
       - uses: actions/setup-python@v5
         with:
@@ -28,5 +54,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          TEST_MESSAGE: ${{ github.event_name == 'workflow_dispatch' && inputs.test || '0' }}
+          TEST_MESSAGE: ${{ inputs.test || '0' }}
+          BASE_SHA: ${{ inputs.base_sha || '' }}
+          HEAD_SHA: ${{ inputs.head_sha || '' }}
         run: python3 scripts/notify_telegram.py
