@@ -1,0 +1,39 @@
+/* news.ainsonic.com 접근성·터치 보강 (기존 스타일 위에 덮어쓰는 파일)
+   기존 index.html의 <head> 맨 끝에서 로드한다. 본문 중간의 <style>이 더 늦게 로드되므로
+   겹치는 규칙에는 body를 붙여 우선순위를 높였다. 디자인은 바꾸지 않고 사용성만 보강한다. */
+
+/* 키보드 초점: 기존에는 초점 표시가 전혀 없었다 */
+:focus-visible { outline: 3px solid #e11d48; outline-offset: 2px; border-radius: 4px; }
+.main-row:focus-visible, .news-card:focus-visible { outline-offset: -3px; }
+
+/* 본문으로 건너뛰기 */
+.np-skip { position: absolute; left: 12px; top: -60px; z-index: 1000; background: #0f172a; color: #fff; padding: 10px 16px; border-radius: 8px; text-decoration: none; font-weight: 600; }
+.np-skip:focus { top: 12px; }
+
+/* 움직임 줄이기 설정을 존중 */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* 12px 미만 글씨를 12px로 (실측으로 찾은 선택자만) */
+body .cp-brand, body .cp-category, body .cp-notice-top, body .badge, body .cat-tag,
+body .domestic-badge, body .mini-kr, body .new-tag, body .nr-date, body .nr-tag, body .rk,
+body .section-tag, body .table-arrow, body .tf-brand, body .trend-updated, body .brand-kicker {
+  font-size: 12px;
+}
+
+/* 안쪽 구조에서 더 구체적으로 지정된 항목 */
+body .notice-row .nr-tag, body .notice-row .nr-date, body .trend-brands li .rk, body .trend-brand-btn .rk { font-size: 12px; }
+
+/* 누르는 영역 최소 44px */
+body .btn-inquiry, body .btn-link-out, body .btn-table-out, body .cp-btn, body .cat-btn,
+body .filter-btn, body .trend-brand-btn, body .footer-link-btn, body .menu-toggle,
+body .search-input, body .mm-item {
+  min-height: 44px;
+}
+body .btn-inquiry, body .btn-link-out, body .btn-table-out, body .cp-btn,
+body .footer-link-btn, body .trend-brand-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+}
+body .brand-group { min-height: 44px; justify-content: center; }
