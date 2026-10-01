@@ -11,7 +11,7 @@ import re
 from html import escape
 
 SITE_URL = "https://news.ainsonic.com"
-SITE_NAME = "PRO AUDIO WIRE"
+SITE_NAME = "프로오디오뉴스 PRO AUDIO WIRE"
 PRERENDER_ROWS = 30
 START, END = "<!-- PRERENDER:START -->", "<!-- PRERENDER:END -->"
 
@@ -55,7 +55,7 @@ footer a{{color:#64748b}}
 </style>
 </head>
 <body>
-<header><a href="/"><span>PRO AUDIO</span>WIRE</a></header>
+<header><a href="/" title="프로오디오뉴스"><span>PRO AUDIO</span>WIRE</a></header>
 <main>
 <article>
 <p class="meta"><span class="badge">{type}</span>{category} · {brand_line} · <time datetime="{date}">{date}</time></p>

@@ -13,15 +13,20 @@ on:
 
 permissions:
   contents: write
+  pages: write   # 커밋 후 GitHub Pages 빌드를 명시적으로 요청하기 위함 (설정/소스는 바꾸지 않음)
 
+# add-news.yml과 같은 그룹: news.json에 쓰는 두 워크플로를 한 번에 하나만 실행합니다.
+# (주의) 같은 그룹을 쓰면 글 게시(add-news)가 이미 돌고 있는 사진 채우기 뒤에서 잠깐
+# 대기할 수 있습니다. 그 대기 시간이 길어지지 않도록 아래 FILL_IMAGES_TIME_BUDGET_SEC로
+# 한 번 실행 시간을 짧게 묶어 둡니다 (게시가 길게 막히는 일을 막기 위함).
 concurrency:
-  group: fill-images
+  group: news-write
   cancel-in-progress: false
 
 jobs:
   fill:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -32,23 +37,55 @@ jobs:
       - name: 사진 없는 소식에 썸네일 채우기 (원문 → 우회 → 본문 → 이미지 검색)
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          # 한 번 실행 시 이미지 검색에 쓰는 전체 시간 예산(초). 짧게 묶어서 같은
+          # concurrency 그룹을 기다리는 글 게시(add-news)가 오래 막히지 않게 함.
+          # 못 다 채운 항목은 다음 실행(하루 1회 예약 실행 또는 다음 게시 직후)에 이어서 처리.
+          FILL_IMAGES_TIME_BUDGET_SEC: "240"
         run: python3 scripts/fill_images.py
 
       - name: 형식 검사 + RSS·검색용 페이지 갱신
         run: python3 scripts/build.py
 
       - name: 바뀐 내용 반영
+        id: commit
         run: |
           git add -A news.json rss.xml sitemap.xml stats.json index.html n
           if git diff --cached --quiet; then
-            echo "바뀐 내용 없음"; exit 0
+            echo "바뀐 내용 없음"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
           git config user.name "proaudio-wire-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "소식 사진 자동 채우기"
-          for i in 1 2 3; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
-            sleep 5
+          # force push는 절대 쓰지 않음. pull --rebase가 충돌로 실패하면 rebase를
+          # 중단해 저장소를 깨끗한 상태로 되돌린 뒤에만 재시도합니다(안 그러면 다음
+          # 시도도 중단된 rebase 상태에서 계속 실패함).
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin main; then
+              if git push origin HEAD:main; then
+                echo "pushed=true" >> "$GITHUB_OUTPUT"
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+              echo "::warning::pull --rebase 실패(충돌 또는 네트워크) - 중단 후 재시도 ($i/5)"
+            fi
+            sleep $((i * 5))
           done
           echo "::error::푸시 실패 (다른 업데이트와 겹침). 다음 실행 때 다시 시도합니다."
+          echo "pushed=false" >> "$GITHUB_OUTPUT"
           exit 1
+
+      - name: GitHub Pages 빌드 요청 (GITHUB_TOKEN 커밋은 Pages 빌드를 자동으로 트리거하지 않음 — 공식 문서 확인됨)
+        if: steps.commit.outputs.pushed == 'true'
+        uses: actions/github-script@v7
+        continue-on-error: true
+        with:
+          script: |
+            try {
+              await github.rest.repos.requestPagesBuild({ owner: context.repo.owner, repo: context.repo.repo });
+              core.notice('GitHub Pages 빌드를 요청했습니다.');
+            } catch (e) {
+              core.setFailed('GitHub Pages 빌드 요청 실패: ' + (e && e.message ? e.message : String(e)));
+            }
