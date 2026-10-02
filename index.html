@@ -15,10 +15,12 @@
   <meta property="og:title" content="프로오디오뉴스 PRO AUDIO WIRE | 프로오디오 신제품·업데이트·행사 소식">
   <meta property="og:description" content="프로오디오 신제품, 펌웨어 업데이트, 국내 수입사 세미나·행사 소식을 매일 한국어로 정리합니다.">
   <meta property="og:url" content="https://news.ainsonic.com/">
-  <meta property="og:image" content="https://www.ainsonic.com/assets/logo-og.jpg">
+  <meta property="og:image" content="https://news.ainsonic.com/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="프로오디오뉴스 PRO AUDIO WIRE - 프로오디오 신제품·펌웨어 업데이트·행사 소식">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://www.ainsonic.com/assets/logo-og.jpg">
+  <meta name="twitter:image" content="https://news.ainsonic.com/og.jpg">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@graph":[
     {"@type":"WebSite","@id":"https://news.ainsonic.com/#website","name":"프로오디오뉴스","url":"https://news.ainsonic.com/","inLanguage":"ko","publisher":{"@id":"https://news.ainsonic.com/#org"}},
@@ -969,14 +971,62 @@
     }
   </style>
 <link rel="stylesheet" href="/news-plus/news-plus.css">
+
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <style id="v3-renewal">
+    /* v3 리뉴얼 (2026-10): 새 로고 · 아이콘 정리 · 표 칸 너비 · 더 보기. 기존 스타일 위에 덮어쓰기만 합니다. */
+    :root { --brand: var(--accent); --logo-ink: #9F1239; }
+    .v3-sr { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; margin:0; }
+    .v3-brand { flex-direction:row; align-items:center; color:var(--logo-ink); }
+    .v3-brand .logo { display:block; height:28px; width:auto; }
+    @media (max-width: 640px) { .v3-brand .logo { height:22px; } }
+    .v3-flogo { color:var(--logo-ink); margin:0; }
+    .v3-flogo .logo { display:block; height:24px; width:auto; }
+    .t-ic { width:1em; height:1em; margin-right:.45em; vertical-align:-.12em; color:var(--accent); flex:none; }
+    .trend-toggle > span:first-child, .notice-panel-head > span { display:inline-flex; align-items:center; }
+    .section-title { display:inline-flex; align-items:center; }
+    /* 국내 배지: 국기 이모지(윈도우에서 'KR'로 깨짐) 대신 글자 배지 */
+    .domestic-badge { font-weight:700; letter-spacing:.02em; }
+    /* 아카이브 표: 배지·제품명이 잘리지 않도록 칸 너비 재배분 */
+    @media (min-width: 769px) {
+      .news-table .col-type { width:112px; }
+      .news-table .col-date { width:122px; }
+      .news-table .col-brand { width:150px; }
+      .news-table .col-product { width:250px; }
+      .news-table .col-toggle { width:72px; }
+      .news-table th { white-space:nowrap; }
+      .news-table td.col-date { white-space:nowrap; }
+    }
+    .news-table .badge { white-space:nowrap; }
+    .news-table tr.pg-hide, .news-table tr.table-expand-row.pg-hide { display:none !important; }
+    .pg-more { display:flex; justify-content:center; padding:1.1rem 0 .4rem; }
+    .pg-more[hidden] { display:none; }
+    .pg-more button { min-height:44px; padding:0 1.6rem; border-radius:999px; border:1px solid var(--surface-border); background:var(--surface); color:var(--text); font:600 .92rem inherit; cursor:pointer; }
+    .pg-more button:hover { border-color:var(--accent); color:var(--accent); }
+    /* 가독성 다듬기: 12px 미만 글자 없애기, 대비 4.5:1 이상 */
+    body .section-tag { color:#be123c; }
+    body .mini-kr { color:#be123c; }
+    body .company-tag, body .cat-tag { color:#475569; font-size:max(12px, .75rem); }
+    body .brand-cell-text span, body .card-meta span[style*="94a3b8"] { color:#64748b !important; }
+    body .footer-copyright { color:#64748b; }
+    body .toggle-indicator { font-size:max(12px, .78rem); }
+    html body #ad-rail .cp-category { font-size:12px; color:#64748b; }
+    html body #ad-rail .cp-btn { font-size:12px; padding:6px 10px; }
+    /* 상단 동향·공지 상자 높이 맞춤 + 휴대폰에서 제목/날짜 줄바꿈 정리 */
+    @media (min-width: 761px) { body .top-row { align-items:stretch; } }
+    .trend-toggle { flex-wrap:wrap; row-gap:.2rem; }
+    @media (max-width: 760px) { .trend-toggle .trend-updated { flex-basis:100%; margin-left:0; text-align:left; } }
+  </style>
 </head>
 <body>
 
   <header>
     <div class="header-inner">
-      <a href="/" class="brand-group" title="프로오디오뉴스">
-        <span class="brand-kicker">PRO AUDIO WIRE</span>
-        <h1 class="brand-name">프로오디오뉴스</h1>
+      <a href="/" class="brand-group v3-brand" title="프로오디오뉴스 PRO AUDIO WIRE">
+        <svg class="logo" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="22.0 22.0 670.2 116.0"><defs><linearGradient id="glgN" gradientUnits="userSpaceOnUse" x1="24.00" y1="24.00" x2="136.00" y2="136.00"><stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#E11D48"/></linearGradient></defs><path d="M24.00,80.00 a56.00,56.00 0 1,0 112.00,0 a56.00,56.00 0 1,0 -112.00,0 Z M43.04,80.00 a36.96,36.96 0 1,1 73.92,0 a36.96,36.96 0 1,1 -73.92,0 Z" fill="url(#glgN)" fill-rule="evenodd"/><path d="M51.17,80.00 Q65.59,52.61 80.00,80.00 T108.83,80.00" fill="none" stroke="url(#glgN)" stroke-width="10.64" stroke-linecap="round" stroke-linejoin="round"/><path d="M185.018 86.231H178.446V101.85499999999999H167.844V58.33099999999999H185.018Q190.226 58.33099999999999 193.822 60.12899999999999Q197.418 61.92699999999999 199.216 65.089Q201.014 68.25099999999999 201.014 72.34299999999999Q201.014 76.12499999999999 199.27800000000002 79.25599999999999Q197.542 82.38699999999999 193.946 84.309Q190.35 86.231 185.018 86.231ZM190.226 72.34299999999999Q190.226 69.73899999999999 188.738 68.31299999999999Q187.25 66.887 184.212 66.887H178.446V77.79899999999999H184.212Q187.25 77.79899999999999 188.738 76.37299999999999Q190.226 74.94699999999999 190.226 72.34299999999999Z M229.968 101.85499999999999 220.916 85.42499999999998H218.374V101.85499999999999H207.772V58.33099999999999H225.566Q230.712 58.33099999999999 234.339 60.12899999999999Q237.966 61.92699999999999 239.764 65.05799999999999Q241.562 68.189 241.562 72.03299999999999Q241.562 76.37299999999999 239.113 79.78299999999999Q236.664 83.19299999999998 231.89 84.61899999999999L241.934 101.85499999999999ZM218.374 77.92299999999999H224.946Q227.85999999999999 77.92299999999999 229.317 76.49699999999999Q230.774 75.071 230.774 72.46699999999998Q230.774 69.987 229.317 68.56099999999999Q227.85999999999999 67.13499999999999 224.946 67.13499999999999H218.374Z M247.63799999999998 79.969Q247.63799999999998 73.583 250.64499999999998 68.499Q253.652 63.41499999999999 258.767 60.56299999999999Q263.882 57.71099999999999 270.02 57.71099999999999Q276.15799999999996 57.71099999999999 281.27299999999997 60.56299999999999Q286.388 63.41499999999999 289.33299999999997 68.499Q292.27799999999996 73.583 292.27799999999996 79.969Q292.27799999999996 86.35499999999999 289.30199999999996 91.47Q286.32599999999996 96.585 281.24199999999996 99.43699999999998Q276.15799999999996 102.28899999999999 270.02 102.28899999999999Q263.882 102.28899999999999 258.767 99.43699999999998Q253.652 96.585 250.64499999999998 91.47Q247.63799999999998 86.35499999999999 247.63799999999998 79.969ZM281.49 79.969Q281.49 74.20299999999999 278.35900000000004 70.762Q275.228 67.321 270.02 67.321Q264.75 67.321 261.619 70.731Q258.488 74.14099999999999 258.488 79.969Q258.488 85.73499999999999 261.619 89.17599999999999Q264.75 92.61699999999999 270.02 92.61699999999999Q275.228 92.61699999999999 278.35900000000004 89.14499999999998Q281.49 85.67299999999999 281.49 79.969Z M340.88599999999997 94.16699999999999H324.642L322.03799999999995 101.85499999999999H310.94L326.688 58.33099999999999H338.964L354.712 101.85499999999999H343.49ZM338.15799999999996 85.98299999999999 332.76399999999995 70.04899999999999 327.43199999999996 85.98299999999999Z M371.142 58.33099999999999V84.371Q371.142 88.27699999999999 373.06399999999996 90.38499999999999Q374.986 92.493 378.706 92.493Q382.426 92.493 384.40999999999997 90.38499999999999Q386.394 88.27699999999999 386.394 84.371V58.33099999999999H396.996V84.309Q396.996 90.13699999999999 394.51599999999996 94.16699999999999Q392.036 98.19699999999999 387.851 100.243Q383.666 102.28899999999999 378.52 102.28899999999999Q373.374 102.28899999999999 369.313 100.27399999999999Q365.252 98.25899999999999 362.896 94.19799999999998Q360.54 90.13699999999999 360.54 84.309V58.33099999999999Z M444.798 80.09299999999999Q444.798 86.47899999999998 441.977 91.439Q439.156 96.39899999999999 433.97900000000004 99.12699999999998Q428.802 101.85499999999999 421.98199999999997 101.85499999999999H405.676V58.33099999999999H421.98199999999997Q428.864 58.33099999999999 434.01 61.05899999999999Q439.156 63.78699999999999 441.977 68.71599999999998Q444.798 73.64499999999998 444.798 80.09299999999999ZM434.01 80.09299999999999Q434.01 74.079 430.662 70.731Q427.31399999999996 67.38299999999998 421.3 67.38299999999998H416.278V92.67899999999999H421.3Q427.31399999999996 92.67899999999999 430.662 89.39299999999999Q434.01 86.10699999999999 434.01 80.09299999999999Z M462.59200000000004 58.33099999999999V101.85499999999999H451.99V58.33099999999999Z M469.722 79.969Q469.722 73.583 472.729 68.499Q475.736 63.41499999999999 480.851 60.56299999999999Q485.966 57.71099999999999 492.104 57.71099999999999Q498.24199999999996 57.71099999999999 503.35699999999997 60.56299999999999Q508.472 63.41499999999999 511.417 68.499Q514.362 73.583 514.362 79.969Q514.362 86.35499999999999 511.38599999999997 91.47Q508.40999999999997 96.585 503.32599999999996 99.43699999999998Q498.24199999999996 102.28899999999999 492.104 102.28899999999999Q485.966 102.28899999999999 480.851 99.43699999999998Q475.736 96.585 472.729 91.47Q469.722 86.35499999999999 469.722 79.969ZM503.574 79.969Q503.574 74.20299999999999 500.443 70.762Q497.312 67.321 492.104 67.321Q486.834 67.321 483.703 70.731Q480.572 74.14099999999999 480.572 79.969Q480.572 85.73499999999999 483.703 89.17599999999999Q486.834 92.61699999999999 492.104 92.61699999999999Q497.312 92.61699999999999 500.443 89.14499999999998Q503.574 85.67299999999999 503.574 79.969Z M595.768 58.33099999999999 584.422 101.85499999999999H571.5880000000001L564.644 73.21099999999998L557.452 101.85499999999999H544.618L533.582 58.33099999999999H544.928L551.19 90.01299999999999L558.94 58.33099999999999H570.596L578.0360000000001 90.01299999999999L584.36 58.33099999999999Z M612.9420000000001 58.33099999999999V101.85499999999999H602.3400000000001V58.33099999999999Z M644.066 101.85499999999999 635.0140000000001 85.42499999999998H632.4720000000001V101.85499999999999H621.8700000000001V58.33099999999999H639.6640000000001Q644.8100000000001 58.33099999999999 648.4370000000001 60.12899999999999Q652.0640000000001 61.92699999999999 653.8620000000001 65.05799999999999Q655.6600000000001 68.189 655.6600000000001 72.03299999999999Q655.6600000000001 76.37299999999999 653.211 79.78299999999999Q650.7620000000001 83.19299999999998 645.988 84.61899999999999L656.032 101.85499999999999ZM632.4720000000001 77.92299999999999H639.0440000000001Q641.9580000000001 77.92299999999999 643.4150000000001 76.49699999999999Q644.8720000000001 75.071 644.8720000000001 72.46699999999998Q644.8720000000001 69.987 643.4150000000001 68.56099999999999Q641.9580000000001 67.13499999999999 639.0440000000001 67.13499999999999H632.4720000000001Z M674.1360000000001 66.82499999999999V75.62899999999999H688.3340000000001V83.81299999999999H674.1360000000001V93.36099999999999H690.1940000000001V101.85499999999999H663.5340000000001V58.33099999999999H690.1940000000001V66.82499999999999Z" fill="currentColor"/></svg>
+        <h1 class="v3-sr">프로오디오뉴스 PRO AUDIO WIRE</h1>
       </a>
 
       <nav class="nav-links">
@@ -1016,13 +1066,13 @@
 
     <!-- 모바일 드롭다운 메뉴 -->
     <div class="mobile-menu" id="mobileMenu" hidden>
-      <a href="#featured-section" class="mm-item">🔥 주요 6선</a>
-      <a href="#archive-section" class="mm-item">📋 전체 소식 아카이브</a>
-      <a href="https://t.me/proaudiowire" target="_blank" rel="noopener" class="mm-item">✈️ 텔레그램 채널</a>
-      <a href="rss.xml" target="_blank" class="mm-item">📡 RSS 피드</a>
-      <a href="https://www.ainsonic.com" target="_blank" rel="noopener" class="mm-item">🏢 아인소닉</a>
-      <button type="button" class="mm-item" id="mmTipBtn">📮 소식 제보하기</button>
-      <button type="button" class="mm-item mm-cta" id="mmSubBtn">🔔 신제품 알림 받기</button>
+      <a href="#featured-section" class="mm-item">주요 6선</a>
+      <a href="#archive-section" class="mm-item">전체 소식 아카이브</a>
+      <a href="https://t.me/proaudiowire" target="_blank" rel="noopener" class="mm-item">텔레그램 채널</a>
+      <a href="rss.xml" target="_blank" class="mm-item">RSS 피드</a>
+      <a href="https://www.ainsonic.com" target="_blank" rel="noopener" class="mm-item">아인소닉</a>
+      <button type="button" class="mm-item" id="mmTipBtn">소식 제보하기</button>
+      <button type="button" class="mm-item mm-cta" id="mmSubBtn">신제품 알림 받기</button>
     </div>
   </header>
 
@@ -1079,7 +1129,7 @@
     <div class="top-row">
       <section class="trend-widget" id="trendWidget" hidden>
         <button type="button" class="trend-toggle" id="trendToggle" aria-expanded="true">
-          <span>📊 이번 주 프로오디오 동향</span>
+          <span><svg class="t-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg>이번 주 프로오디오 동향</span>
           <span class="trend-updated" id="trendUpdated"></span>
         </button>
         <div class="trend-body" id="trendBody">
@@ -1096,7 +1146,7 @@
 
       <!-- 아인소닉 공지사항 (업무센터 '공지사항(뉴스센터)'에서 관리 → notices.json 자동 반영) -->
       <section class="notice-panel" id="noticePanel" hidden>
-        <div class="notice-panel-head"><span>📌 공지사항</span></div>
+        <div class="notice-panel-head"><span><svg class="t-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17v5"/><path d="M9 3h6l-1 6 3 3v2H7v-2l3-3z"/></svg>공지사항</span></div>
         <div class="notice-panel-body" id="noticePanelBody"></div>
       </section>
     </div>
@@ -1105,7 +1155,7 @@
     <section id="featured-section">
       <div class="section-header">
         <div style="display:flex; align-items:center; gap:0.45rem;">
-          <h2 class="section-title">🔥 주요 신제품 소식</h2>
+          <h2 class="section-title"><svg class="t-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>주요 신제품 소식</h2>
           <span class="section-tag">국내 수입사 &amp; 주요 런칭 6선</span>
         </div>
         <span class="section-tip">카드를 누르면 전체 요약이 펼쳐집니다</span>
@@ -1117,7 +1167,7 @@
     <section id="archive-section">
       <div class="section-header">
         <div style="display:flex; align-items:center; gap:0.45rem;">
-          <h2 class="section-title">📋 전체 소식 아카이브</h2>
+          <h2 class="section-title"><svg class="t-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5"/><line x1="10" y1="12" x2="14" y2="12"/></svg>전체 소식 아카이브</h2>
           <span style="font-size:0.8rem; color:var(--text-muted); font-weight:normal;" id="totalCountText"></span>
         </div>
         <span class="section-tip">행을 누르면 아래로 펼쳐집니다 (동시에 1개만 열림)</span>
@@ -1134,7 +1184,7 @@
         <div class="table-controls">
           <div class="tab-group" id="filterTabs">
             <button class="filter-btn active" data-filter="all">전체보기</button>
-            <button class="filter-btn" data-filter="국내">🇰🇷 국내 소식</button>
+            <button class="filter-btn" data-filter="국내">국내 소식</button>
             <button class="filter-btn" data-filter="신제품">신제품</button>
             <button class="filter-btn" data-filter="업데이트">업데이트</button>
             <button class="filter-btn" data-filter="행사">행사/데모</button>
@@ -1553,7 +1603,7 @@
     <div class="footer-inner">
       <div class="footer-top">
         <div class="footer-brand">
-          <h4>프로오디오뉴스 <small>PRO AUDIO WIRE</small></h4>
+          <h4 class="v3-flogo"><span class="v3-sr">프로오디오뉴스 PRO AUDIO WIRE</span><svg class="logo" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="22.0 22.0 670.2 116.0"><defs><linearGradient id="glgNf" gradientUnits="userSpaceOnUse" x1="24.00" y1="24.00" x2="136.00" y2="136.00"><stop offset="0" stop-color="#F43F5E"/><stop offset="1" stop-color="#E11D48"/></linearGradient></defs><path d="M24.00,80.00 a56.00,56.00 0 1,0 112.00,0 a56.00,56.00 0 1,0 -112.00,0 Z M43.04,80.00 a36.96,36.96 0 1,1 73.92,0 a36.96,36.96 0 1,1 -73.92,0 Z" fill="url(#glgNf)" fill-rule="evenodd"/><path d="M51.17,80.00 Q65.59,52.61 80.00,80.00 T108.83,80.00" fill="none" stroke="url(#glgNf)" stroke-width="10.64" stroke-linecap="round" stroke-linejoin="round"/><path d="M185.018 86.231H178.446V101.85499999999999H167.844V58.33099999999999H185.018Q190.226 58.33099999999999 193.822 60.12899999999999Q197.418 61.92699999999999 199.216 65.089Q201.014 68.25099999999999 201.014 72.34299999999999Q201.014 76.12499999999999 199.27800000000002 79.25599999999999Q197.542 82.38699999999999 193.946 84.309Q190.35 86.231 185.018 86.231ZM190.226 72.34299999999999Q190.226 69.73899999999999 188.738 68.31299999999999Q187.25 66.887 184.212 66.887H178.446V77.79899999999999H184.212Q187.25 77.79899999999999 188.738 76.37299999999999Q190.226 74.94699999999999 190.226 72.34299999999999Z M229.968 101.85499999999999 220.916 85.42499999999998H218.374V101.85499999999999H207.772V58.33099999999999H225.566Q230.712 58.33099999999999 234.339 60.12899999999999Q237.966 61.92699999999999 239.764 65.05799999999999Q241.562 68.189 241.562 72.03299999999999Q241.562 76.37299999999999 239.113 79.78299999999999Q236.664 83.19299999999998 231.89 84.61899999999999L241.934 101.85499999999999ZM218.374 77.92299999999999H224.946Q227.85999999999999 77.92299999999999 229.317 76.49699999999999Q230.774 75.071 230.774 72.46699999999998Q230.774 69.987 229.317 68.56099999999999Q227.85999999999999 67.13499999999999 224.946 67.13499999999999H218.374Z M247.63799999999998 79.969Q247.63799999999998 73.583 250.64499999999998 68.499Q253.652 63.41499999999999 258.767 60.56299999999999Q263.882 57.71099999999999 270.02 57.71099999999999Q276.15799999999996 57.71099999999999 281.27299999999997 60.56299999999999Q286.388 63.41499999999999 289.33299999999997 68.499Q292.27799999999996 73.583 292.27799999999996 79.969Q292.27799999999996 86.35499999999999 289.30199999999996 91.47Q286.32599999999996 96.585 281.24199999999996 99.43699999999998Q276.15799999999996 102.28899999999999 270.02 102.28899999999999Q263.882 102.28899999999999 258.767 99.43699999999998Q253.652 96.585 250.64499999999998 91.47Q247.63799999999998 86.35499999999999 247.63799999999998 79.969ZM281.49 79.969Q281.49 74.20299999999999 278.35900000000004 70.762Q275.228 67.321 270.02 67.321Q264.75 67.321 261.619 70.731Q258.488 74.14099999999999 258.488 79.969Q258.488 85.73499999999999 261.619 89.17599999999999Q264.75 92.61699999999999 270.02 92.61699999999999Q275.228 92.61699999999999 278.35900000000004 89.14499999999998Q281.49 85.67299999999999 281.49 79.969Z M340.88599999999997 94.16699999999999H324.642L322.03799999999995 101.85499999999999H310.94L326.688 58.33099999999999H338.964L354.712 101.85499999999999H343.49ZM338.15799999999996 85.98299999999999 332.76399999999995 70.04899999999999 327.43199999999996 85.98299999999999Z M371.142 58.33099999999999V84.371Q371.142 88.27699999999999 373.06399999999996 90.38499999999999Q374.986 92.493 378.706 92.493Q382.426 92.493 384.40999999999997 90.38499999999999Q386.394 88.27699999999999 386.394 84.371V58.33099999999999H396.996V84.309Q396.996 90.13699999999999 394.51599999999996 94.16699999999999Q392.036 98.19699999999999 387.851 100.243Q383.666 102.28899999999999 378.52 102.28899999999999Q373.374 102.28899999999999 369.313 100.27399999999999Q365.252 98.25899999999999 362.896 94.19799999999998Q360.54 90.13699999999999 360.54 84.309V58.33099999999999Z M444.798 80.09299999999999Q444.798 86.47899999999998 441.977 91.439Q439.156 96.39899999999999 433.97900000000004 99.12699999999998Q428.802 101.85499999999999 421.98199999999997 101.85499999999999H405.676V58.33099999999999H421.98199999999997Q428.864 58.33099999999999 434.01 61.05899999999999Q439.156 63.78699999999999 441.977 68.71599999999998Q444.798 73.64499999999998 444.798 80.09299999999999ZM434.01 80.09299999999999Q434.01 74.079 430.662 70.731Q427.31399999999996 67.38299999999998 421.3 67.38299999999998H416.278V92.67899999999999H421.3Q427.31399999999996 92.67899999999999 430.662 89.39299999999999Q434.01 86.10699999999999 434.01 80.09299999999999Z M462.59200000000004 58.33099999999999V101.85499999999999H451.99V58.33099999999999Z M469.722 79.969Q469.722 73.583 472.729 68.499Q475.736 63.41499999999999 480.851 60.56299999999999Q485.966 57.71099999999999 492.104 57.71099999999999Q498.24199999999996 57.71099999999999 503.35699999999997 60.56299999999999Q508.472 63.41499999999999 511.417 68.499Q514.362 73.583 514.362 79.969Q514.362 86.35499999999999 511.38599999999997 91.47Q508.40999999999997 96.585 503.32599999999996 99.43699999999998Q498.24199999999996 102.28899999999999 492.104 102.28899999999999Q485.966 102.28899999999999 480.851 99.43699999999998Q475.736 96.585 472.729 91.47Q469.722 86.35499999999999 469.722 79.969ZM503.574 79.969Q503.574 74.20299999999999 500.443 70.762Q497.312 67.321 492.104 67.321Q486.834 67.321 483.703 70.731Q480.572 74.14099999999999 480.572 79.969Q480.572 85.73499999999999 483.703 89.17599999999999Q486.834 92.61699999999999 492.104 92.61699999999999Q497.312 92.61699999999999 500.443 89.14499999999998Q503.574 85.67299999999999 503.574 79.969Z M595.768 58.33099999999999 584.422 101.85499999999999H571.5880000000001L564.644 73.21099999999998L557.452 101.85499999999999H544.618L533.582 58.33099999999999H544.928L551.19 90.01299999999999L558.94 58.33099999999999H570.596L578.0360000000001 90.01299999999999L584.36 58.33099999999999Z M612.9420000000001 58.33099999999999V101.85499999999999H602.3400000000001V58.33099999999999Z M644.066 101.85499999999999 635.0140000000001 85.42499999999998H632.4720000000001V101.85499999999999H621.8700000000001V58.33099999999999H639.6640000000001Q644.8100000000001 58.33099999999999 648.4370000000001 60.12899999999999Q652.0640000000001 61.92699999999999 653.8620000000001 65.05799999999999Q655.6600000000001 68.189 655.6600000000001 72.03299999999999Q655.6600000000001 76.37299999999999 653.211 79.78299999999999Q650.7620000000001 83.19299999999998 645.988 84.61899999999999L656.032 101.85499999999999ZM632.4720000000001 77.92299999999999H639.0440000000001Q641.9580000000001 77.92299999999999 643.4150000000001 76.49699999999999Q644.8720000000001 75.071 644.8720000000001 72.46699999999998Q644.8720000000001 69.987 643.4150000000001 68.56099999999999Q641.9580000000001 67.13499999999999 639.0440000000001 67.13499999999999H632.4720000000001Z M674.1360000000001 66.82499999999999V75.62899999999999H688.3340000000001V83.81299999999999H674.1360000000001V93.36099999999999H690.1940000000001V101.85499999999999H663.5340000000001V58.33099999999999H690.1940000000001V66.82499999999999Z" fill="currentColor"/></svg></h4>
           <p>프로오디오 신제품 · 펌웨어 업데이트 · 공식 런칭 큐레이션</p>
         </div>
         <div class="footer-links">
@@ -1592,7 +1642,7 @@
       <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.3rem;">새로운 오디오 기어 소식을 실시간으로 받아보세요.</p>
       
       <div style="background:#f8fafc; padding:0.9rem; border-radius:8px; margin-bottom:0.9rem; border:1px solid var(--surface-border);">
-        <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">📧 이메일로 받기</div>
+        <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">이메일로 받기</div>
         <p style="font-size:0.8rem; color:var(--text-muted); margin-bottom:0.6rem;">신제품·행사 소식을 정리해 이메일로 보내드립니다. 주 1회 내외, 언제든 수신거부 가능합니다.</p>
         <form id="emailSubForm" style="display:flex; flex-direction:column; gap:0.5rem;">
           <input type="email" id="sub-email" placeholder="이메일 주소 *" required style="padding:0.5rem; border:1px solid #cbd5e1; border-radius:5px; font-size:0.85rem;">
@@ -1609,13 +1659,13 @@
       </div>
 
       <div style="background:#f8fafc; padding:0.9rem; border-radius:8px; margin-bottom:0.9rem; border:1px solid var(--surface-border);">
-        <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">✈️ 텔레그램 실시간 채널</div>
+        <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">텔레그램 실시간 채널</div>
         <p style="font-size:0.8rem; color:var(--text-muted);">신제품 출시와 펌웨어 업데이트 즉시 메신저로 전송됩니다.</p>
         <a href="https://t.me/proaudiowire" target="_blank" style="display:block; text-align:center; background:#0088cc; color:#fff; text-decoration:none; padding:0.5rem; border-radius:6px; font-weight:600; font-size:0.85rem; margin-top:0.5rem;">텔레그램 채널 입장하기 ↗</a>
       </div>
 
       <div style="background:#f8fafc; padding:0.9rem; border-radius:8px; border:1px solid var(--surface-border);">
-        <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">📡 RSS 피드 주소</div>
+        <div style="font-weight:600; font-size:0.9rem; margin-bottom:0.3rem; color:#0f172a;">RSS 피드 주소</div>
         <div style="display:flex; gap:0.4rem; margin-top:0.4rem;">
           <input type="text" value="https://news.ainsonic.com/rss.xml" readonly id="rssUrlInput" style="flex:1; background:#ffffff; border:1px solid #cbd5e1; color:#0f172a; padding:0.45rem; border-radius:5px; font-size:0.8rem;">
           <button onclick="copyRssUrl()" style="background:var(--accent); color:#fff; border:none; padding:0.45rem 0.8rem; border-radius:5px; cursor:pointer; font-weight:600; font-size:0.8rem;">복사</button>
@@ -1632,7 +1682,7 @@
               <li><b>내 홈페이지</b>: RSS 위젯에 넣으면 PRO AUDIO WIRE 최신 소식 목록을 띄울 수 있습니다.</li>
             </ul>
             <p><strong>3. 끝!</strong><br>새 소식이 올라올 때마다 자동으로 갱신됩니다(최신 40건). 따로 관리할 필요가 없습니다.</p>
-            <p class="rss-help-note">※ 상단의 📡 RSS 버튼은 피드 파일을 직접 여는 버튼이라 코드처럼 보일 수 있습니다. 구독할 때는 위 주소를 복사해 쓰세요.</p>
+            <p class="rss-help-note">※ 상단의 RSS 버튼은 피드 파일을 직접 여는 버튼이라 코드처럼 보일 수 있습니다. 구독할 때는 위 주소를 복사해 쓰세요.</p>
           </div>
         </details>
       </div>
@@ -1643,7 +1693,7 @@
   <div class="modal-overlay" id="tipModal">
     <div class="modal-box">
       <button class="modal-close" id="closeTipModalBtn">&times;</button>
-      <h3 style="font-size:1.2rem; margin-bottom:0.4rem; color:#0f172a;">📮 소식 제보 / 보도자료 접수</h3>
+      <h3 style="font-size:1.2rem; margin-bottom:0.4rem; color:#0f172a;">소식 제보 / 보도자료 접수</h3>
       <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.3rem;">신제품·행사·펌웨어 업데이트 소식을 알려주세요. 수입사·제조사의 보도자료도 환영합니다. 확인 후 소식에 반영해드립니다.</p>
 
       <form id="tipForm" style="display:flex; flex-direction:column; gap:0.5rem;">
@@ -1861,7 +1911,7 @@
         return `
         <article class="news-card" id="card-${idx}" onclick="handleCardClick(${idx})">
           <div class="card-thumb-wrap">
-            ${item.isDomestic ? '<span class="domestic-badge">🇰🇷 국내</span>' : ''}
+            ${item.isDomestic ? '<span class="domestic-badge">국내</span>' : ''}
             ${getThumbImg(item)}
             ${item.imageUrl && item.imageSource === 'search' ? '<span class="ref-img-tag">관련 이미지</span>' : ''}
           </div>
@@ -2009,6 +2059,29 @@
       });
 
       newsTableBody.innerHTML = html;
+      pgLimit = PG_STEP; applyPaging();
+    }
+
+    // 아카이브 '더 보기': 처음엔 PG_STEP건만 보이고 버튼으로 이어서 표시 (데이터·필터 동작은 그대로)
+    const PG_STEP = 30;
+    let pgLimit = PG_STEP;
+    function applyPaging() {
+      const rows = newsTableBody.querySelectorAll('tr.main-row');
+      rows.forEach((r, i) => {
+        const hide = i >= pgLimit;
+        r.classList.toggle('pg-hide', hide);
+        const ex = r.nextElementSibling;
+        if (ex && ex.classList.contains('table-expand-row')) ex.classList.toggle('pg-hide', hide);
+      });
+      let box = document.getElementById('pgMore');
+      if (!box) {
+        box = document.createElement('div'); box.id = 'pgMore'; box.className = 'pg-more';
+        box.innerHTML = '<button type="button" id="pgMoreBtn"></button>';
+        newsTableBody.closest('.table-container').after(box);
+        box.querySelector('button').addEventListener('click', () => { pgLimit += PG_STEP; applyPaging(); });
+      }
+      box.hidden = rows.length <= pgLimit;
+      box.querySelector('button').textContent = `더 보기 (${Math.min(pgLimit, rows.length)} / ${rows.length})`;
     }
 
     function handleRowClick(rowId, expandId) {
@@ -2236,6 +2309,7 @@
       // 처음 열릴 때 아카이브는 전체보기 순서 그대로이므로 같은 순번의 행을 펼침
       const rowId = `row-${idx}`, expandId = `expand-${idx}`;
       if (!document.getElementById(rowId)) return;
+      if (idx >= pgLimit) { pgLimit = idx + 1; applyPaging(); }
       handleRowClick(rowId, expandId);
       const row = document.getElementById(rowId);
       row.classList.add('from-link');
