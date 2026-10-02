@@ -1005,6 +1005,19 @@
     .pg-more[hidden] { display:none; }
     .pg-more button { min-height:44px; padding:0 1.6rem; border-radius:999px; border:1px solid var(--surface-border); background:var(--surface); color:var(--text); font:600 .92rem inherit; cursor:pointer; }
     .pg-more button:hover { border-color:var(--accent); color:var(--accent); }
+    /* 가독성 다듬기: 12px 미만 글자 없애기, 대비 4.5:1 이상 */
+    body .section-tag { color:#be123c; }
+    body .mini-kr { color:#be123c; }
+    body .company-tag, body .cat-tag { color:#475569; font-size:max(12px, .75rem); }
+    body .brand-cell-text span, body .card-meta span[style*="94a3b8"] { color:#64748b !important; }
+    body .footer-copyright { color:#64748b; }
+    body .toggle-indicator { font-size:max(12px, .78rem); }
+    html body #ad-rail .cp-category { font-size:12px; color:#64748b; }
+    html body #ad-rail .cp-btn { font-size:12px; padding:6px 10px; }
+    /* 상단 동향·공지 상자 높이 맞춤 + 휴대폰에서 제목/날짜 줄바꿈 정리 */
+    @media (min-width: 761px) { body .top-row { align-items:stretch; } }
+    .trend-toggle { flex-wrap:wrap; row-gap:.2rem; }
+    @media (max-width: 760px) { .trend-toggle .trend-updated { flex-basis:100%; margin-left:0; text-align:left; } }
   </style>
 </head>
 <body>
