@@ -1,0 +1,311 @@
+/* ==========================================================================
+   아인소닉 자료실 · library.css  v1.0.0
+   - 모든 규칙은 .ains-lib 아래로 격리되어 기존 사이트 스타일에 영향을 주지 않습니다.
+   - 색상·서체는 --ains-* 변수만 바꾸면 됩니다 (news 라이트 테마용 조정 포인트는 맨 위).
+   - 본문 서체는 각 사이트의 기본 서체를 그대로 이어받고(font-family: inherit),
+     제목에만 Noto Serif KR을 씁니다.
+   ========================================================================== */
+
+.ains-lib {
+  /* ---- 조정 가능한 변수 ---- */
+  --ains-bg: #F6F1E7;          /* 아이보리 배경 */
+  --ains-surface: #FFFDF8;     /* 카드 면 */
+  --ains-sunk: #EFE8DA;        /* 썸네일 자리·스켈레톤 */
+  --ains-ink: #2A2926;         /* 차콜 텍스트 */
+  --ains-ink-2: #5C584F;       /* 보조 텍스트 */
+  --ains-line: #E2D9C6;        /* 구분선 */
+  --ains-gold: #B8975A;        /* 샴페인 골드 (선·포인트 전용) */
+  --ains-gold-ink: #7B6034;    /* 골드 계열 글자색 (대비 4.5:1 이상) */
+  --ains-btn-bg: #2A2926;
+  --ains-btn-ink: #FAF6EC;
+  --ains-err: #9A3B2E;
+  --ains-serif: "Noto Serif KR", "Nanum Myeongjo", "Apple SD Gothic Neo", Georgia, serif;
+  --ains-max: 1160px;
+
+  background: var(--ains-bg);
+  color: var(--ains-ink);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.7;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 다크 모드: www 사이트의 화면 모드 전환(data-theme)을 따릅니다. */
+:root[data-theme="dark"] .ains-lib,
+.ains-lib[data-ains-theme="dark"] {
+  --ains-bg: #1A1917;
+  --ains-surface: #232220;
+  --ains-sunk: #2C2A27;
+  --ains-ink: #F1ECE0;
+  --ains-ink-2: #BDB6A6;
+  --ains-line: #3A3731;
+  --ains-gold: #C9A96E;
+  --ains-gold-ink: #DCC38F;
+  --ains-btn-bg: #F1ECE0;
+  --ains-btn-ink: #1A1917;
+  --ains-err: #E8907F;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .ains-lib.ains-lib--auto-dark {
+    --ains-bg: #1A1917;
+    --ains-surface: #232220;
+    --ains-sunk: #2C2A27;
+    --ains-ink: #F1ECE0;
+    --ains-ink-2: #BDB6A6;
+    --ains-line: #3A3731;
+    --ains-gold: #C9A96E;
+    --ains-gold-ink: #DCC38F;
+    --ains-btn-bg: #F1ECE0;
+    --ains-btn-ink: #1A1917;
+    --ains-err: #E8907F;
+  }
+}
+
+.ains-lib *,
+.ains-lib *::before,
+.ains-lib *::after { box-sizing: border-box; }
+
+/* display 를 지정한 요소에서도 hidden 속성이 동작하도록 */
+.ains-lib [hidden] { display: none !important; }
+
+.ains-lib__wrap {
+  max-width: var(--ains-max);
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+.ains-lib__vh {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  margin: -1px; padding: 0; border: 0;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap;
+}
+
+/* ---- 포커스 (키보드 접근성) ---- */
+.ains-lib a:focus-visible,
+.ains-lib button:focus-visible,
+.ains-lib input:focus-visible,
+.ains-lib select:focus-visible,
+.ains-lib [tabindex]:focus-visible {
+  outline: 2px solid var(--ains-gold-ink);
+  outline-offset: 3px;
+}
+
+/* ---- 단독 페이지(news)용 상단 바 ---- */
+.ains-lib__topbar {
+  border-bottom: 1px solid var(--ains-line);
+  background: var(--ains-surface);
+}
+.ains-lib__topbar .ains-lib__wrap {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; min-height: 64px;
+}
+.ains-lib__topbar a {
+  display: inline-flex; align-items: center; min-height: 44px;
+  color: var(--ains-ink); text-decoration: none;
+}
+.ains-lib__topbar .ains-lib__brandname {
+  font-family: 'Plus Jakarta Sans', inherit, sans-serif;
+  font-weight: 800; font-size: 16px; letter-spacing: .14em;
+}
+.ains-lib__topbar nav { display: flex; gap: 20px; font-size: 14px; }
+.ains-lib__topbar nav a { color: var(--ains-ink-2); }
+.ains-lib__topbar nav a:hover { color: var(--ains-ink); text-decoration: underline; text-decoration-color: var(--ains-gold); text-underline-offset: 6px; }
+
+/* ---- 머리말 ---- */
+.ains-lib__head { padding: 72px 0 40px; }
+.ains-lib__eyebrow {
+  display: flex; align-items: center; gap: 14px;
+  margin: 0 0 18px;
+  font-size: 12px; font-weight: 600; letter-spacing: .24em; text-transform: uppercase;
+  color: var(--ains-gold-ink);
+}
+.ains-lib__eyebrow::before {
+  content: ""; width: 32px; height: 1px; background: var(--ains-gold);
+}
+.ains-lib__title {
+  margin: 0 0 16px;
+  font-family: var(--ains-serif);
+  font-weight: 600; font-size: 40px; line-height: 1.28; letter-spacing: -.01em;
+  color: var(--ains-ink);
+}
+.ains-lib__lede { margin: 0; max-width: 40em; color: var(--ains-ink-2); font-size: 16px; }
+
+/* ---- 도구 막대: 검색 · 분류 · 브랜드 · 정렬 ---- */
+.ains-lib__bar { display: grid; gap: 20px; padding-bottom: 28px; }
+.ains-lib__search { position: relative; }
+.ains-lib__search input {
+  width: 100%; height: 52px; padding: 0 4px;
+  border: 0; border-bottom: 1px solid var(--ains-ink);
+  border-radius: 0; background: transparent; color: var(--ains-ink);
+  font: inherit; font-size: 16px;   /* 16px 미만이면 iOS가 확대함 */
+  -webkit-appearance: none; appearance: none;
+}
+.ains-lib__search input::placeholder { color: var(--ains-ink-2); opacity: .85; }
+.ains-lib__search input:focus { border-bottom-color: var(--ains-gold-ink); }
+
+.ains-lib__chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.ains-lib__chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 44px; padding: 0 18px;
+  border: 1px solid var(--ains-line); border-radius: 0;
+  background: transparent; color: var(--ains-ink-2);
+  font: inherit; font-size: 14px; letter-spacing: .02em; cursor: pointer;
+  transition: border-color .15s, color .15s, background-color .15s;
+}
+.ains-lib__chip:hover { border-color: var(--ains-gold); color: var(--ains-ink); }
+.ains-lib__chip[aria-pressed="true"] {
+  background: var(--ains-btn-bg); border-color: var(--ains-btn-bg); color: var(--ains-btn-ink);
+  box-shadow: inset 0 -2px 0 var(--ains-gold);
+}
+.ains-lib__chip .ains-lib__n { font-size: 12px; opacity: .7; font-variant-numeric: tabular-nums; }
+
+.ains-lib__selects { display: flex; flex-wrap: wrap; gap: 20px 28px; }
+.ains-lib__field { display: grid; gap: 4px; min-width: 180px; }
+.ains-lib__field label {
+  font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--ains-gold-ink); font-weight: 600;
+}
+.ains-lib__field select {
+  height: 44px; padding: 0 28px 0 2px;
+  border: 0; border-bottom: 1px solid var(--ains-line); border-radius: 0;
+  background-color: transparent; color: var(--ains-ink);
+  font: inherit; font-size: 15px; cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ains-ink-2) 50%), linear-gradient(135deg, var(--ains-ink-2) 50%, transparent 50%);
+  background-position: calc(100% - 12px) 19px, calc(100% - 7px) 19px;
+  background-size: 5px 5px, 5px 5px; background-repeat: no-repeat;
+}
+.ains-lib__field select:hover { border-bottom-color: var(--ains-gold); }
+.ains-lib__field select option { color: #2A2926; background: #FFFDF8; }
+
+/* ---- 결과 줄 ---- */
+.ains-lib__meta-row {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  padding: 14px 0; border-top: 1px solid var(--ains-line);
+  font-size: 14px; color: var(--ains-ink-2);
+}
+.ains-lib__reset {
+  min-height: 44px; padding: 0 4px; border: 0; background: none; cursor: pointer;
+  color: var(--ains-gold-ink); font: inherit; font-size: 14px;
+  text-decoration: underline; text-underline-offset: 5px; text-decoration-color: var(--ains-gold);
+}
+
+/* ---- 카드 그리드 ---- */
+.ains-lib__results { padding: 12px 0 96px; }
+.ains-lib__grid {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 32px 28px;
+  grid-template-columns: repeat(auto-fill, minmax(264px, 1fr));
+}
+.ains-lib__grid > li { display: flex; min-width: 0; }
+
+.ains-lib__card {
+  display: flex; flex-direction: column; width: 100%;
+  background: var(--ains-surface);
+  border: 1px solid var(--ains-line);
+  transition: border-color .2s;
+}
+.ains-lib__card:hover,
+.ains-lib__card:focus-within { border-color: var(--ains-gold); }
+.ains-lib__card.is-target { border-color: var(--ains-gold); box-shadow: 0 0 0 2px var(--ains-gold); }
+
+.ains-lib__thumb {
+  position: relative; aspect-ratio: 4 / 3; overflow: hidden;
+  background: var(--ains-sunk); border-bottom: 1px solid var(--ains-line);
+}
+.ains-lib__thumb img {
+  display: block; width: 100%; height: 100%;
+  object-fit: cover; object-position: top center;
+}
+.ains-lib__ph {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  font-family: var(--ains-serif); font-size: 22px; letter-spacing: .28em;
+  color: var(--ains-gold-ink);
+}
+
+.ains-lib__body { display: flex; flex-direction: column; gap: 10px; flex: 1; padding: 20px 20px 22px; }
+.ains-lib__cat {
+  margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .16em; color: var(--ains-gold-ink);
+}
+.ains-lib__name {
+  margin: 0; min-height: calc(1.45em * 2);
+  font-family: var(--ains-serif); font-weight: 600; font-size: 18px; line-height: 1.45;
+  color: var(--ains-ink);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.ains-lib__facts { margin: 0; padding: 0; list-style: none; font-size: 13px; line-height: 1.7; color: var(--ains-ink-2); }
+.ains-lib__facts li { display: block; }
+.ains-lib__facts li + li { margin-top: 2px; }
+.ains-lib__facts .sep { margin: 0 .5em; color: var(--ains-gold); }
+.ains-lib__desc {
+  margin: 0; font-size: 14px; line-height: 1.65; color: var(--ains-ink-2);
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.ains-lib__actions { display: flex; gap: 10px; margin-top: auto; padding-top: 14px; }
+
+.ains-lib__btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  flex: 1 1 0; min-height: 44px; padding: 0 14px;
+  border: 1px solid var(--ains-ink); border-radius: 0;
+  background: transparent; color: var(--ains-ink);
+  font: inherit; font-size: 14px; font-weight: 600; letter-spacing: .02em; line-height: 1;
+  text-decoration: none; white-space: nowrap; cursor: pointer;
+  transition: background-color .15s, color .15s, border-color .15s;
+}
+.ains-lib__btn:hover { border-color: var(--ains-gold-ink); color: var(--ains-gold-ink); }
+.ains-lib__btn--main {
+  background: var(--ains-btn-bg); border-color: var(--ains-btn-bg); color: var(--ains-btn-ink);
+  box-shadow: inset 0 -2px 0 var(--ains-gold);
+}
+.ains-lib__btn--main:hover { background: var(--ains-btn-bg); color: var(--ains-btn-ink); border-color: var(--ains-btn-bg); filter: brightness(1.15); }
+
+/* ---- 상태: 로딩 · 빈 상태 · 오류 ---- */
+.ains-lib__state {
+  padding: 72px 20px; text-align: center;
+  border-top: 1px solid var(--ains-line); border-bottom: 1px solid var(--ains-line);
+}
+.ains-lib__state h2 {
+  margin: 0 0 10px; font-family: var(--ains-serif); font-weight: 600; font-size: 22px; line-height: 1.4;
+}
+.ains-lib__state p { margin: 0 auto 22px; max-width: 32em; color: var(--ains-ink-2); font-size: 15px; }
+.ains-lib__state--error h2 { color: var(--ains-err); }
+.ains-lib__state .ains-lib__btn { flex: 0 0 auto; min-width: 160px; }
+
+.ains-lib__sk .ains-lib__thumb,
+.ains-lib__sk .ains-lib__line {
+  background: linear-gradient(90deg, var(--ains-sunk) 0%, var(--ains-line) 50%, var(--ains-sunk) 100%);
+  background-size: 200% 100%;
+  animation: ains-lib-shimmer 1.4s ease-in-out infinite;
+}
+.ains-lib__sk .ains-lib__line { height: 14px; }
+.ains-lib__sk .ains-lib__line--s { width: 40%; }
+.ains-lib__sk .ains-lib__line--l { width: 90%; height: 20px; }
+@keyframes ains-lib-shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
+
+/* ---- 하단 안내 (단독 페이지용) ---- */
+.ains-lib__foot { border-top: 1px solid var(--ains-line); padding: 28px 0 40px; font-size: 13px; color: var(--ains-ink-2); }
+.ains-lib__foot a { color: var(--ains-ink); }
+.ains-lib__noscript { padding: 48px 0; color: var(--ains-ink-2); }
+
+/* ---- 모바일 ---- */
+@media (max-width: 640px) {
+  .ains-lib__head { padding: 44px 0 28px; }
+  .ains-lib__title { font-size: 30px; }
+  .ains-lib__chips {
+    flex-wrap: nowrap; overflow-x: auto; margin-inline: -20px; padding-inline: 20px; padding-bottom: 4px;
+    scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch;
+  }
+  .ains-lib__chip { flex: 0 0 auto; scroll-snap-align: start; }
+  .ains-lib__selects { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .ains-lib__field { min-width: 0; }
+  .ains-lib__grid { grid-template-columns: 1fr; gap: 24px; }
+  .ains-lib__topbar nav { gap: 12px; font-size: 13px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ains-lib *, .ains-lib *::before, .ains-lib *::after {
+    animation: none !important; transition: none !important; scroll-behavior: auto !important;
+  }
+}
