@@ -240,48 +240,54 @@
     }
   </style>
 
-  <!-- 쿠팡 파트너스 추천 장비 -->
-  <section id="coupang-picks" class="ar-section">
-    <div class="cp-header">
-      <h2 class="cp-title">추천 장비 (쿠팡 파트너스)</h2>
-      <p class="cp-notice-top">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-    </div>
-    <div id="coupang-picks-grid" class="cp-grid">
-      <!-- 쿠팡 제품 카드가 생성됩니다 -->
-    </div>
-  </section>
 
-  <!-- 알리익스프레스 추천 장비 -->
-  <section id="aliexpress-picks" class="ar-section">
-    <div class="cp-header">
-      <h2 class="cp-title">추천 장비 (알리익스프레스)</h2>
-      <p class="cp-notice-top">이 영역에는 알리익스프레스 제휴 링크가 포함되어 있으며, 구매 시 운영자가 일정 수수료를 받을 수 있습니다.</p>
-    </div>
-    <div id="aliexpress-picks-grid" class="cp-grid">
-      <!-- 알리 제품 카드가 생성됩니다 -->
-    </div>
+  <style>
+    /* 음향 / 영상 / CCTV 영역 구분 (#ad-rail 하위로만 적용) */
+    #ad-rail .ar-area-title { margin: 0 0 12px 0; padding-bottom: 8px; border-bottom: 2px solid #334155; font-size: 15px; font-weight: 800; color: #0F172A; letter-spacing: -0.02em; }
+    #ad-rail .ar-store { margin: 0 0 12px 0; }
+    #ad-rail .ar-store:last-child { margin-bottom: 0; }
+    #ad-rail .ar-store-title { margin: 0 0 4px 0; font-size: 13px; font-weight: 700; color: #334155; }
+    #ad-rail .ar-store .cp-notice-top { margin-bottom: 8px; }
+    #ad-rail .ar-empty { margin: 0; padding: 12px 8px; text-align: center; font-size: 12px; color: #64748B; background: #FFFFFF; border: 1px dashed #CBD5E1; border-radius: 6px; }
+  </style>
+
+  <!-- 음향 / 영상 / CCTV 영역 (제품은 아래 스크립트의 데이터에서 영역별로 렌더링) -->
+  <section id="area-audio" class="ar-section ar-area" data-area="audio">
+    <h2 class="ar-area-title">음향 추천 장비</h2>
+    <div class="ar-area-body"></div>
+  </section>
+  <section id="area-video" class="ar-section ar-area" data-area="video">
+    <h2 class="ar-area-title">영상 추천 장비</h2>
+    <div class="ar-area-body"></div>
+  </section>
+  <section id="area-cctv" class="ar-section ar-area" data-area="cctv">
+    <h2 class="ar-area-title">CCTV 추천 장비</h2>
+    <div class="ar-area-body"></div>
   </section>
 
   <script>
     (function () {
-      // 쿠팡 파트너스 데이터
+      // 영역별·쇼핑몰별 최대 표시 개수 (인기순으로 앞에서부터 이 개수만큼만 표시)
+      const MAX_PER_STORE = 6;
+
+      // 쿠팡 파트너스 데이터 (area: audio=음향, video=영상, cctv=CCTV / 배열 앞쪽일수록 인기순)
       const PRODUCTS = [
-        { brand: "Focusrite", name: "포커스라이트 Scarlett 2i2 4세대 오디오 인터페이스", category: "오디오 인터페이스", image: "https://t1c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2023/09/15/15/6/8d42e4f3-3d52-4c01-9b84-8704587923fe.jpg", url: "https://link.coupang.com/a/hsPh7tYH1M" },
-        { brand: "Yamaha", name: "야마하 HS5 스튜디오 모니터 스피커", category: "스튜디오 모니터", image: "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/3a5e/20692ec2e81433d019b4d70a9dc81fc294ae44d8ee5383b2f9c75b8916ea.jpg", url: "https://link.coupang.com/a/hsQOK7OJVI" },
-        { brand: "Shure", name: "슈어 SM58-LC 마이크 + 케이블 5m 세트", category: "마이크", image: "https://t2a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/5da90e14ce91d3b8561649c4fa0bb8c38206be01af3ff0d88be197dacd38_1771981080495.jpg", url: "https://link.coupang.com/a/hsPd5E6sA8" },
-        { brand: "Audio-Technica", name: "오디오테크니카 ATH-M50x 모니터링 헤드폰 블랙", category: "헤드폰", image: "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2019/09/02/12/2/c0e12dc2-a813-4e70-872c-d86f43f3ace6.jpg", url: "https://link.coupang.com/a/hsPeU5CAHQ" },
-        { brand: "Mogami", name: "MOGAMI Gold Studio XLR 마이크 케이블 3M", category: "케이블", image: "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/b05ea39f584bb8cff45e8f272ce1dd8bfb4769356becef4bae3319b6ed3a_1759137929903.jpg", url: "https://link.coupang.com/a/hsPfWHtjWe" },
-        { brand: "K&M", name: "K&M 프로페셔널 스탠드 25400", category: "스탠드", image: "https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/df0b/005037712291480978d453150c9f0daeaf95dbc23c09869bad5f8b0b5bec.jpg", url: "https://link.coupang.com/a/hsPg48XOHQ" }
+        { area: "audio", brand: "Focusrite", name: "포커스라이트 Scarlett 2i2 4세대 오디오 인터페이스", category: "오디오 인터페이스", image: "https://t1c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2023/09/15/15/6/8d42e4f3-3d52-4c01-9b84-8704587923fe.jpg", url: "https://link.coupang.com/a/hsPh7tYH1M" },
+        { area: "audio", brand: "Yamaha", name: "야마하 HS5 스튜디오 모니터 스피커", category: "스튜디오 모니터", image: "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/3a5e/20692ec2e81433d019b4d70a9dc81fc294ae44d8ee5383b2f9c75b8916ea.jpg", url: "https://link.coupang.com/a/hsQOK7OJVI" },
+        { area: "audio", brand: "Shure", name: "슈어 SM58-LC 마이크 + 케이블 5m 세트", category: "마이크", image: "https://t2a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/5da90e14ce91d3b8561649c4fa0bb8c38206be01af3ff0d88be197dacd38_1771981080495.jpg", url: "https://link.coupang.com/a/hsPd5E6sA8" },
+        { area: "audio", brand: "Audio-Technica", name: "오디오테크니카 ATH-M50x 모니터링 헤드폰 블랙", category: "헤드폰", image: "https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2019/09/02/12/2/c0e12dc2-a813-4e70-872c-d86f43f3ace6.jpg", url: "https://link.coupang.com/a/hsPeU5CAHQ" },
+        { area: "audio", brand: "Mogami", name: "MOGAMI Gold Studio XLR 마이크 케이블 3M", category: "케이블", image: "https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/b05ea39f584bb8cff45e8f272ce1dd8bfb4769356becef4bae3319b6ed3a_1759137929903.jpg", url: "https://link.coupang.com/a/hsPfWHtjWe" },
+        { area: "audio", brand: "K&M", name: "K&M 프로페셔널 스탠드 25400", category: "스탠드", image: "https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/df0b/005037712291480978d453150c9f0daeaf95dbc23c09869bad5f8b0b5bec.jpg", url: "https://link.coupang.com/a/hsPg48XOHQ" }
       ];
 
-      // 알리익스프레스 데이터
+      // 알리익스프레스 데이터 (area: audio=음향, video=영상, cctv=CCTV / 배열 앞쪽일수록 인기순)
       const ALI_PRODUCTS = [
-        { brand: "the brilliant 3C Store", name: "XLR 마이크 케이블 (수-암, 1~10m)", category: "케이블", image: "https://ae-pic-a1.aliexpress-media.com/kf/S9742b1e5e4af4e57b5ca49bec5abaeb9H.jpg", url: "https://s.click.aliexpress.com/e/_c3fepNAD" },
-        { brand: "Guitary Best Shop", name: "Shure SM7B용 마이크 팝필터 윈드스크린", category: "마이크 액세서리", image: "https://ae-pic-a1.aliexpress-media.com/kf/Sfbc57a4141e44cad92ad5b7f7166d4043.jpg", url: "https://s.click.aliexpress.com/e/_c33S6DJ3" },
-        { brand: "perngy tech", name: "360도 회전 데스크탑 스피커 스탠드 (2개 1세트)", category: "스탠드", image: "https://ae-pic-a1.aliexpress-media.com/kf/S8cdc61decfc440e683b6f5a6cffb2693q.jpg", url: "https://s.click.aliexpress.com/e/_c3BkZkwd" },
-        { brand: "All Goods All Styles", name: "무타공 클립형 헤드폰 거치대", category: "헤드폰 액세서리", image: "https://ae-pic-a1.aliexpress-media.com/kf/S9e1951e59f9a4d7690e9a7fac9a838afC.jpg", url: "https://s.click.aliexpress.com/e/_c41cXkLJ" },
-        { brand: "JOYO", name: "JOYO MOMIX CAB 미니 USB 오디오 인터페이스", category: "오디오 인터페이스", image: "https://ae-pic-a1.aliexpress-media.com/kf/S3c27c7ed834548149763a7521e816c5bx.jpg", url: "https://s.click.aliexpress.com/e/_c3XxWeGD" },
-        { brand: "Audio Cable Shop", name: "6.35mm TRS - XLR 오디오 케이블", category: "케이블", image: "https://ae-pic-a1.aliexpress-media.com/kf/S3f74ea3284a2485ebd0549a14262b3b8W.jpg", url: "https://s.click.aliexpress.com/e/_c42zWBDf" }
+        { area: "audio", brand: "the brilliant 3C Store", name: "XLR 마이크 케이블 (수-암, 1~10m)", category: "케이블", image: "https://ae-pic-a1.aliexpress-media.com/kf/S9742b1e5e4af4e57b5ca49bec5abaeb9H.jpg", url: "https://s.click.aliexpress.com/e/_c3fepNAD" },
+        { area: "audio", brand: "Guitary Best Shop", name: "Shure SM7B용 마이크 팝필터 윈드스크린", category: "마이크 액세서리", image: "https://ae-pic-a1.aliexpress-media.com/kf/Sfbc57a4141e44cad92ad5b7f7166d4043.jpg", url: "https://s.click.aliexpress.com/e/_c33S6DJ3" },
+        { area: "audio", brand: "perngy tech", name: "360도 회전 데스크탑 스피커 스탠드 (2개 1세트)", category: "스탠드", image: "https://ae-pic-a1.aliexpress-media.com/kf/S8cdc61decfc440e683b6f5a6cffb2693q.jpg", url: "https://s.click.aliexpress.com/e/_c3BkZkwd" },
+        { area: "audio", brand: "All Goods All Styles", name: "무타공 클립형 헤드폰 거치대", category: "헤드폰 액세서리", image: "https://ae-pic-a1.aliexpress-media.com/kf/S9e1951e59f9a4d7690e9a7fac9a838afC.jpg", url: "https://s.click.aliexpress.com/e/_c41cXkLJ" },
+        { area: "audio", brand: "JOYO", name: "JOYO MOMIX CAB 미니 USB 오디오 인터페이스", category: "오디오 인터페이스", image: "https://ae-pic-a1.aliexpress-media.com/kf/S3c27c7ed834548149763a7521e816c5bx.jpg", url: "https://s.click.aliexpress.com/e/_c3XxWeGD" },
+        { area: "audio", brand: "Audio Cable Shop", name: "6.35mm TRS - XLR 오디오 케이블", category: "케이블", image: "https://ae-pic-a1.aliexpress-media.com/kf/S3f74ea3284a2485ebd0549a14262b3b8W.jpg", url: "https://s.click.aliexpress.com/e/_c42zWBDf" }
       ];
 
       function escapeHtml(str) {
@@ -339,8 +345,30 @@
       }
 
       function renderAdRail() {
-        renderCards("coupang-picks-grid", PRODUCTS, "쿠팡에서 보기");
-        renderCards("aliexpress-picks-grid", ALI_PRODUCTS, "알리에서 보기");
+        document.querySelectorAll("#ad-rail .ar-area").forEach(function (sec) {
+          const area = sec.getAttribute("data-area");
+          const body = sec.querySelector(".ar-area-body");
+          if (!body) return;
+          const cpItems = PRODUCTS.filter(function (p) { return p.area === area; }).slice(0, MAX_PER_STORE);
+          const aliItems = ALI_PRODUCTS.filter(function (p) { return p.area === area; }).slice(0, MAX_PER_STORE);
+          let html = "";
+          if (cpItems.length) {
+            html += '<div class="ar-store">' +
+              '<h3 class="ar-store-title">쿠팡 파트너스</h3>' +
+              '<p class="cp-notice-top">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>' +
+              '<div id="coupang-picks-grid-' + area + '" class="cp-grid"></div></div>';
+          }
+          if (aliItems.length) {
+            html += '<div class="ar-store">' +
+              '<h3 class="ar-store-title">알리익스프레스</h3>' +
+              '<p class="cp-notice-top">이 영역에는 알리익스프레스 제휴 링크가 포함되어 있으며, 구매 시 운영자가 일정 수수료를 받을 수 있습니다.</p>' +
+              '<div id="aliexpress-picks-grid-' + area + '" class="cp-grid"></div></div>';
+          }
+          if (!html) html = '<p class="ar-empty">추천 제품 준비 중입니다.</p>';
+          body.innerHTML = html;
+          if (cpItems.length) renderCards("coupang-picks-grid-" + area, cpItems, "쿠팡에서 보기");
+          if (aliItems.length) renderCards("aliexpress-picks-grid-" + area, aliItems, "알리에서 보기");
+        });
       }
 
       if (document.readyState === "loading") {
