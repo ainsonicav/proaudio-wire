@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T02:09:45Z",
+  "generated_at": "2026-10-06T03:09:41Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 13,
-    "month": 126,
+    "week": 11,
+    "month": 127,
     "total": 128
   },
   "top_brands_week": [
@@ -34,13 +34,13 @@
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 12,
-      "pct": 92
+      "count": 11,
+      "pct": 100
     },
     {
       "category": "컨슈머오디오",
-      "count": 1,
-      "pct": 8
+      "count": 0,
+      "pct": 0
     },
     {
       "category": "레코딩소프트웨어",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 80,
-      "pct": 63
+      "count": 81,
+      "pct": 64
     },
     {
       "category": "컨슈머오디오",
@@ -67,7 +67,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 26,
-      "pct": 21
+      "pct": 20
     },
     {
       "category": "기타",
