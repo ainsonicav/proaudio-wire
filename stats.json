@@ -1,25 +1,21 @@
 {
-  "generated_at": "2026-10-06T03:09:41Z",
+  "generated_at": "2026-10-07T02:31:37Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 11,
-    "month": 127,
+    "week": 5,
+    "month": 126,
     "total": 128
   },
   "top_brands_week": [
     {
-      "brand": "Yamaha",
-      "count": 2
-    },
-    {
-      "brand": "RØDE",
-      "count": 2
-    },
-    {
       "brand": "Millennia",
+      "count": 1
+    },
+    {
+      "brand": "Yamaha",
       "count": 1
     },
     {
@@ -27,14 +23,18 @@
       "count": 1
     },
     {
-      "brand": "Q-SYS",
+      "brand": "TELEFUNKEN",
+      "count": 1
+    },
+    {
+      "brand": "Sound Devices",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 11,
+      "count": 5,
       "pct": 100
     },
     {
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 81,
-      "pct": 64
+      "count": 80,
+      "pct": 63
     },
     {
       "category": "컨슈머오디오",
@@ -67,7 +67,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 26,
-      "pct": 20
+      "pct": 21
     },
     {
       "category": "기타",
