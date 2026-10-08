@@ -1244,6 +1244,202 @@
       </div>
     </section>
 
+
+<!-- COUPANG_PICKS:START -->
+<!-- 운영 메모: 우측 세로 썸네일 배너(쿠팡 파트너스). scripts/build.py가 index.html의 COUPANG_PICKS 구간에 주입.
+     이 파일 자체는 _config.yml exclude로 공개 주소에서 제외(주입되므로 meta robots를 넣지 마세요).
+     링크/이미지: 파트너스 대시보드 '상품 링크 > 이미지+텍스트 > HTML(블로그용 태그)' 원문 그대로 사용(이미지 자체 호스팅 금지).
+     데스크톱(≥1280px): main.container 오른쪽 열(그리드) + sticky. 본문을 가리는 fixed/플로팅 배너 아님.
+     모바일(≤1279px): 본문 아래, 대가성 문구 → 가로 스크롤 카드. -->
+<aside id="ad-rail" aria-label="추천 장비 (쿠팡 파트너스)">
+  <style>
+    @media (min-width: 1280px) {
+      /* 기존 html,body{overflow-x:hidden}은 body를 스크롤 컨테이너로 만들어 sticky가 동작하지 않음 → clip(스크롤 컨테이너 아님) */
+      html, body { overflow-x: clip; }
+      main.container {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) 176px !important;
+        gap: 0 24px !important;
+        align-items: start;
+      }
+      main.container > * { grid-column: 1; }
+      main.container > #ad-rail {
+        grid-column: 2;
+        grid-row: 1 / 100; /* DOM 맨 아래에 있어도 오른쪽 열 전체 높이 */
+      }
+      #ad-rail {
+        position: sticky;
+        top: 80px; /* sticky 헤더 아래 */
+        max-height: calc(100vh - 96px);
+        overflow-y: auto;
+      }
+      #ad-rail::-webkit-scrollbar { width: 4px; }
+      #ad-rail::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    }
+    @media (max-width: 1279px) {
+      #ad-rail { margin: 2rem auto 0; max-width: 1240px; }
+    }
+
+    #ad-rail, #ad-rail * { box-sizing: border-box; }
+    #ad-rail {
+      width: 100%;
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 12px;
+      color: #0b1c30;
+      font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      font-size: 12px;
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
+    }
+    #ad-rail .ad-rail-header {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 6px; margin-bottom: 8px;
+    }
+    #ad-rail .ad-rail-title { font-size: 14px; font-weight: 700; color: #0b1c30; letter-spacing: -0.01em; }
+    #ad-rail .ad-rail-badge {
+      font-size: 11px; font-weight: 600; color: #475569;
+      background: #f1f5f9; padding: 2px 7px; border-radius: 4px; white-space: nowrap;
+    }
+    /* 대가성 문구: 레일 최상단(데스크톱·모바일 모두 카드보다 위) */
+    #ad-rail .ad-rail-notice {
+      margin: 0 0 10px;
+      padding: 8px 9px;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      border-radius: 8px;
+      color: #9a3412;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+    #ad-rail .ad-rail-list {
+      list-style: none; margin: 0; padding: 0;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    #ad-rail .ad-rail-list > li { margin: 0; padding: 0; }
+    #ad-rail .ad-rail-card {
+      display: flex; flex-direction: row; align-items: center; gap: 8px;
+      border: 1px solid #e2e8f0; border-radius: 10px;
+      padding: 6px; background: #f8fafc;
+      text-decoration: none; color: inherit;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    #ad-rail a.ad-rail-card:hover { border-color: #fb923c; box-shadow: 0 1px 4px rgba(15,23,42,.08); }
+    /* 쿠팡 배너 이미지(120×240) 원본 비율 그대로 표시 — 자르거나 변형하지 않음 */
+    #ad-rail .ad-rail-thumb {
+      flex: 0 0 auto;
+      width: 56px; height: auto; aspect-ratio: 1 / 2;
+      background: #fff; border-radius: 6px; display: block;
+    }
+    #ad-rail .ad-rail-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+    #ad-rail .ad-rail-brand {
+      font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: .02em;
+    }
+    #ad-rail .ad-rail-name {
+      font-size: 12px; font-weight: 700; color: #0f172a; word-break: keep-all;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    #ad-rail .ad-rail-cta {
+      margin-top: 2px; font-size: 11px; font-weight: 700; color: #c2410c; text-align: center;
+      background: #ffedd5; border-radius: 6px; padding: 4px 6px;
+    }
+    #ad-rail .ad-rail-hint { margin: 10px 0 0; font-size: 10px; color: #64748b; line-height: 1.35; }
+
+    @media (max-width: 1279px) {
+      #ad-rail .ad-rail-list {
+        flex-direction: row; overflow-x: auto; gap: 10px; padding-bottom: 4px;
+        -webkit-overflow-scrolling: touch;
+      }
+      #ad-rail .ad-rail-list > li { flex: 0 0 140px; display: flex; }
+      #ad-rail .ad-rail-card { flex-direction: column; align-items: stretch; width: 100%; padding: 8px; }
+      #ad-rail .ad-rail-thumb { width: 96px; margin: 0 auto; }
+      #ad-rail .ad-rail-text { flex: 1; }
+      #ad-rail .ad-rail-cta { margin-top: auto; }
+    }
+  </style>
+
+  <div class="ad-rail-header">
+    <span class="ad-rail-title">추천 장비</span>
+    <span class="ad-rail-badge">쿠팡</span>
+  </div>
+
+  <p class="ad-rail-notice" id="ad-rail-disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+
+  <ul class="ad-rail-list">
+    <!-- SLOT 1: Focusrite Scarlett 2i2 4th Gen (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGSvtqhenI" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="1" data-product="Focusrite Scarlett 2i2 4th Gen">
+        <img class="ad-rail-thumb" src="https://img4a.coupangcdn.com/image/affiliate/banner/8ad956c2bc42bc4cb3380feeec9cca5d@2x.jpg" alt="포커스라이트 Scarlett 2i2 4세대 오디오 인터페이스, Scarlett 2i2 4th Gen" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Focusrite</span>
+          <span class="ad-rail-name">Scarlett 2i2 4세대 오디오 인터페이스</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 2: Shure SM58SK (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGUqARR95M" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="2" data-product="Shure SM58SK">
+        <img class="ad-rail-thumb" src="https://image10.coupangcdn.com/image/affiliate/banner/2f56f6be8eb9be8f46992a3e2dbaf50f@2x.jpg" alt="SHURE SM58SK 유선 마이크 슈어 SM58 SK 다이나믹 마이크 스탠드 패키지 [벨크로3M증정], 4) SM58SK + 5M 케이블 + 탁상용 스탠드, 단품" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Shure</span>
+          <span class="ad-rail-name">SM58 다이나믹 마이크 스탠드 패키지</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 3: Audio-Technica AT2020 (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGSHAHR5wq" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="3" data-product="Audio-Technica AT2020">
+        <img class="ad-rail-thumb" src="https://image4.coupangcdn.com/image/affiliate/banner/2cb0658a16dffbc902a31ce92d6bfa09@2x.jpg" alt="[작곡가의 미디가게] Audio Technica AT2020 콘덴서 마이크 AT2020 입문용 콘덴서 마이크 홈레코딩" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Audio-Technica</span>
+          <span class="ad-rail-name">AT2020 콘덴서 마이크</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 4: Sony MDR-7506 (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGSH2oQ4qW" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="4" data-product="Sony MDR-7506">
+        <img class="ad-rail-thumb" src="https://image8.coupangcdn.com/image/affiliate/banner/ab7541f0c230ea5ab442e7c0ee21ad0c@2x.jpg" alt="소니 스튜디오 모니터링 헤드폰 MDR-7506 혼합색상 패시브노이즈캔슬링(PNC) 3.5mm단자" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Sony</span>
+          <span class="ad-rail-name">MDR-7506 모니터링 헤드폰</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 5: Yamaha HS5 (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGSIVQDBD2" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="5" data-product="Yamaha HS5">
+        <img class="ad-rail-thumb" src="https://image13.coupangcdn.com/image/affiliate/banner/4f7ceac965bd04aece0f4ff022bd80f3@2x.jpg" alt="야마하 HS5 스튜디오 모니터 스피커" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Yamaha</span>
+          <span class="ad-rail-name">HS5 스튜디오 모니터 스피커</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 6: Yamaha MG10XU (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGUrYU7X2G" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="6" data-product="Yamaha MG10XU">
+        <img class="ad-rail-thumb" src="https://img4a.coupangcdn.com/image/affiliate/banner/fec69bf02681e587b81938a820707bce@2x.jpg" alt="야마하 10채널 오디오믹서 이펙터 &amp; 오디오인터페이스, MG10XU" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Yamaha</span>
+          <span class="ad-rail-name">MG10XU 10채널 믹서</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+  </ul>
+
+  <p class="ad-rail-hint">가격·재고는 쿠팡에서 확인하세요.</p>
+</aside>
+
+<!-- COUPANG_PICKS:END -->
   </main>
 
   <footer>

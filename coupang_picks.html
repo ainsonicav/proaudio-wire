@@ -1,629 +1,192 @@
-<!-- 운영 메모: 2026-10 메인 화면에서 제휴(쿠팡·알리) 영역을 내렸습니다. 이 파일은 보관용이며 공개 주소로 내보내지 않습니다(_config.yml exclude). 검색엔진 수집 금지. -->
-<meta name="robots" content="noindex,nofollow">
-<!-- ==========================================================================
-     PRO AUDIO WIRE - 추천 장비 사이드 레일 (#ad-rail)
-     순수 HTML + CSS + 바닐라 JS 독립형 번들
-     ========================================================================== -->
-<aside id="ad-rail" aria-label="추천 장비">
+<!-- 운영 메모: 우측 세로 썸네일 배너(쿠팡 파트너스). scripts/build.py가 index.html의 COUPANG_PICKS 구간에 주입.
+     이 파일 자체는 _config.yml exclude로 공개 주소에서 제외(주입되므로 meta robots를 넣지 마세요).
+     링크/이미지: 파트너스 대시보드 '상품 링크 > 이미지+텍스트 > HTML(블로그용 태그)' 원문 그대로 사용(이미지 자체 호스팅 금지).
+     데스크톱(≥1280px): main.container 오른쪽 열(그리드) + sticky. 본문을 가리는 fixed/플로팅 배너 아님.
+     모바일(≤1279px): 본문 아래, 대가성 문구 → 가로 스크롤 카드. -->
+<aside id="ad-rail" aria-label="추천 장비 (쿠팡 파트너스)">
   <style>
-    /* 레이아웃: 데스크톱 우측 고정 레일 / 모바일 본문 아래 */
-    /* 글로벌 레이아웃 조작: 1280px 이상 데스크톱에서 main.container를 Grid로 변경 */
     @media (min-width: 1280px) {
+      /* 기존 html,body{overflow-x:hidden}은 body를 스크롤 컨테이너로 만들어 sticky가 동작하지 않음 → clip(스크롤 컨테이너 아님) */
+      html, body { overflow-x: clip; }
       main.container {
         display: grid !important;
-        grid-template-columns: minmax(0, 1fr) 240px !important;
-        gap: 0 32px !important;
+        grid-template-columns: minmax(0, 1fr) 176px !important;
+        gap: 0 24px !important;
         align-items: start;
       }
-      main.container > * {
-        grid-column: 1;
-      }
+      main.container > * { grid-column: 1; }
       main.container > #ad-rail {
         grid-column: 2;
-        grid-row: 1 / 100; /* 맨 아래 DOM에 있어도 오른쪽 끝에 전체 높이로 배치 */
+        grid-row: 1 / 100; /* DOM 맨 아래에 있어도 오른쪽 열 전체 높이 */
       }
-    }
-
-    /* CSS 스코프: #ad-rail 하위로 격리 */
-    #ad-rail {
-      background-color: transparent;
-      box-sizing: border-box;
-      line-height: 1.6;
-      font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    }
-
-    /* 1280px 이상에서는 스티키 적용 */
-    @media (min-width: 1280px) {
       #ad-rail {
         position: sticky;
-        top: 16px;
-        max-height: calc(100vh - 32px);
+        top: 80px; /* sticky 헤더 아래 */
+        max-height: calc(100vh - 96px);
         overflow-y: auto;
       }
-      /* 스크롤바 숨김 (선택 사항) */
-      #ad-rail::-webkit-scrollbar {
-        width: 6px;
-      }
-      #ad-rail::-webkit-scrollbar-thumb {
-        background: #cbd5e1;
-        border-radius: 4px;
-      }
+      #ad-rail::-webkit-scrollbar { width: 4px; }
+      #ad-rail::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
     }
-
-    /* 1280px 미만에서는 기존처럼 컨테이너 아래쪽 중앙 배치 */
     @media (max-width: 1279px) {
-      #ad-rail {
-        margin: 40px auto;
-        max-width: 1200px;
-        background-color: transparent;
-      }
+      #ad-rail { margin: 2rem auto 0; max-width: 1240px; }
     }
 
-    
-  </style>
-  <style>
-    #ad-rail, #ad-rail * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
-      -webkit-font-smoothing: antialiased;
-    }
+    #ad-rail, #ad-rail * { box-sizing: border-box; }
     #ad-rail {
       width: 100%;
-      background: #ffffff;
-      border-radius: 12px;
+      background: #fff;
       border: 1px solid #e2e8f0;
-      padding: 16px;
-      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+      border-radius: 12px;
+      padding: 12px;
       color: #0b1c30;
-      font-size: 13px;
-      line-height: 1.5;
+      font-family: Pretendard, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      font-size: 12px;
+      line-height: 1.45;
+      -webkit-font-smoothing: antialiased;
     }
     #ad-rail .ad-rail-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 12px;
-      gap: 8px;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 6px; margin-bottom: 8px;
     }
-    #ad-rail .ad-rail-title-wrap {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-    #ad-rail .ad-rail-icon {
-      width: 18px;
-      height: 18px;
-      color: #b80035;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-    #ad-rail .ad-rail-title {
-      font-size: 15px;
-      font-weight: 700;
-      color: #0b1c30;
-      letter-spacing: -0.01em;
-    }
+    #ad-rail .ad-rail-title { font-size: 14px; font-weight: 700; color: #0b1c30; letter-spacing: -0.01em; }
     #ad-rail .ad-rail-badge {
-      font-size: 12px;
-      font-weight: 600;
-      color: #545f73;
-      background: #f1f5f9;
-      padding: 2px 8px;
-      border-radius: 4px;
-      white-space: nowrap;
+      font-size: 11px; font-weight: 600; color: #475569;
+      background: #f1f5f9; padding: 2px 7px; border-radius: 4px; white-space: nowrap;
     }
-    #ad-rail .ad-rail-tabs {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 4px;
-      background: #e5eeff;
-      padding: 4px;
+    /* 대가성 문구: 레일 최상단(데스크톱·모바일 모두 카드보다 위) */
+    #ad-rail .ad-rail-notice {
+      margin: 0 0 10px;
+      padding: 8px 9px;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
       border-radius: 8px;
-      margin-bottom: 16px;
-    }
-    #ad-rail .ad-rail-tab {
-      appearance: none;
-      -webkit-appearance: none;
-      border: none;
-      background: transparent;
-      padding: 8px 4px;
-      font-size: 13px;
+      color: #9a3412;
+      font-size: 11px;
       font-weight: 600;
-      color: #545f73;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      text-align: center;
-      min-height: 38px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    #ad-rail .ad-rail-tab:hover { color: #0b1c30; }
-    #ad-rail .ad-rail-tab.is-active {
-      background: #ffffff;
-      color: #b80035;
-      font-weight: 700;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-    }
-    #ad-rail .ad-rail-tab:focus-visible {
-      outline: 2px solid #b80035;
-      outline-offset: 1px;
-    }
-    #ad-rail .ad-rail-store-block { margin-bottom: 20px; }
-    #ad-rail .ad-rail-store-block:last-child { margin-bottom: 0; }
-    #ad-rail .ad-rail-notice-box {
-      background: #eff4ff;
-      border: 1px solid #dce9ff;
-      border-radius: 6px;
-      padding: 10px;
-      margin-bottom: 10px;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-    #ad-rail .ad-rail-notice-text {
-      font-size: 12px;
-      line-height: 1.45;
-      color: #545f73;
-      word-break: keep-all;
-    }
-    #ad-rail .ad-rail-notice-sub {
-      font-size: 12px;
       line-height: 1.4;
-      color: #b80035;
-      font-weight: 500;
     }
-    #ad-rail .ad-rail-card-list {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+    #ad-rail .ad-rail-list {
+      list-style: none; margin: 0; padding: 0;
+      display: flex; flex-direction: column; gap: 8px;
     }
+    #ad-rail .ad-rail-list > li { margin: 0; padding: 0; }
     #ad-rail .ad-rail-card {
-      background: #f8f9ff;
-      border: 1px solid #e5eeff;
-      border-radius: 8px;
-      padding: 10px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+      display: flex; flex-direction: row; align-items: center; gap: 8px;
+      border: 1px solid #e2e8f0; border-radius: 10px;
+      padding: 6px; background: #f8fafc;
+      text-decoration: none; color: inherit;
+      transition: border-color .15s, box-shadow .15s;
     }
-    #ad-rail .ad-rail-card:hover {
-      border-color: #cbdbf5;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    #ad-rail a.ad-rail-card:hover { border-color: #fb923c; box-shadow: 0 1px 4px rgba(15,23,42,.08); }
+    /* 쿠팡 배너 이미지(120×240) 원본 비율 그대로 표시 — 자르거나 변형하지 않음 */
+    #ad-rail .ad-rail-thumb {
+      flex: 0 0 auto;
+      width: 56px; height: auto; aspect-ratio: 1 / 2;
+      background: #fff; border-radius: 6px; display: block;
     }
-    #ad-rail .ad-rail-card-body {
-      display: flex;
-      gap: 10px;
-      align-items: flex-start;
+    #ad-rail .ad-rail-text { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+    #ad-rail .ad-rail-brand {
+      font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase; letter-spacing: .02em;
     }
-    #ad-rail .ad-rail-card-thumb {
-      width: 64px;
-      height: 64px;
-      border-radius: 6px;
-      background: #ffffff;
-      border: 1px solid #e2e8f0;
-      overflow: hidden;
-      flex-shrink: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    #ad-rail .ad-rail-name {
+      font-size: 12px; font-weight: 700; color: #0f172a; word-break: keep-all;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
     }
-    #ad-rail .ad-rail-card-img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      display: block;
+    #ad-rail .ad-rail-cta {
+      margin-top: 2px; font-size: 11px; font-weight: 700; color: #c2410c; text-align: center;
+      background: #ffedd5; border-radius: 6px; padding: 4px 6px;
     }
-    #ad-rail .ad-rail-card-info {
-      flex: 1;
-      min-width: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-    #ad-rail .ad-rail-card-category {
-      font-size: 12px;
-      color: #545f73;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: block;
-    }
-    #ad-rail .ad-rail-card-name {
-      font-size: 13px;
-      font-weight: 600;
-      color: #0b1c30;
-      line-height: 1.35;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    #ad-rail .ad-rail-card-brand {
-      font-size: 12px;
-      font-weight: 700;
-      color: #213145;
-      margin-right: 4px;
-      text-transform: uppercase;
-    }
-    #ad-rail .ad-rail-card-price-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      gap: 0 6px;
-      margin-top: 3px;
-    }
-    #ad-rail .ad-rail-price-val {
-      white-space: nowrap;
-      font-size: 13px;
-      font-weight: 700;
-      color: #0b1c30;
-      font-variant-numeric: tabular-nums;
-    }
-    #ad-rail .ad-rail-price-checking {
-      font-size: 12px;
-      font-weight: 600;
-      color: #b80035;
-      background: #ffdada;
-      padding: 1px 6px;
-      border-radius: 4px;
-      display: inline-block;
-    }
-    #ad-rail .ad-rail-price-date {
-      white-space: nowrap;
-      font-size: 12px;
-      color: #545f73;
-    }
-    #ad-rail .ad-rail-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 5px;
-      width: 100%;
-      padding: 8px 12px;
-      background: #213145;
-      color: #ffffff;
-      font-size: 12px;
-      font-weight: 600;
-      text-decoration: none;
-      border-radius: 4px;
-      transition: background 0.15s ease;
-      min-height: 36px;
-    }
-    #ad-rail .ad-rail-btn:hover {
-      background: #0b1c30;
-      color: #ffffff;
-    }
-    #ad-rail .ad-rail-btn svg {
-      width: 13px;
-      height: 13px;
-      fill: none;
-      stroke: currentColor;
-      stroke-width: 2.2;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      flex-shrink: 0;
-    }
-    #ad-rail .ad-rail-empty-box {
-      background: #eff4ff;
-      border: 1px dashed #cbdbf5;
-      border-radius: 8px;
-      padding: 24px 16px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      margin-top: 4px;
-    }
-    #ad-rail .ad-rail-empty-icon {
-      width: 32px;
-      height: 32px;
-      color: #545f73;
-      margin-bottom: 2px;
-    }
-    #ad-rail .ad-rail-empty-title {
-      font-size: 14px;
-      font-weight: 700;
-      color: #0b1c30;
-    }
-    #ad-rail .ad-rail-empty-desc {
-      font-size: 12px;
-      color: #545f73;
-      line-height: 1.45;
-      max-width: 240px;
-      margin: 0 auto;
-      word-break: keep-all;
-    }
-    #ad-rail .ad-rail-empty-link {
-      font-size: 12px;
-      font-weight: 600;
-      color: #b80035;
-      text-decoration: none;
-      margin-top: 4px;
-      display: inline-flex;
-      align-items: center;
-      gap: 2px;
-    }
-    #ad-rail .ad-rail-empty-link:hover { text-decoration: underline; }
-    #ad-rail .ad-rail-teaser-box {
-      background: #eff4ff;
-      border-radius: 8px;
-      padding: 16px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 6px;
-      margin-top: 16px;
-    }
-    #ad-rail .ad-rail-teaser-icon {
-      width: 24px;
-      height: 24px;
-      color: #545f73;
-    }
-    #ad-rail .ad-rail-teaser-title {
-      font-size: 14px;
-      font-weight: 700;
-      color: #0b1c30;
-    }
-    #ad-rail .ad-rail-teaser-desc {
-      font-size: 12px;
-      color: #545f73;
-      line-height: 1.4;
-      word-break: keep-all;
-    }
-    #ad-rail .ad-rail-teaser-link {
-      font-size: 12px;
-      font-weight: 600;
-      color: #b80035;
-      text-decoration: none;
-      margin-top: 4px;
-    }
-    #ad-rail .ad-rail-teaser-link:hover { text-decoration: underline; }
-    @media (max-width: 640px) {
-      #ad-rail { max-width: 100%; padding: 14px 12px; border-radius: 8px; }
-      #ad-rail .ad-rail-tab { min-height: 42px; font-size: 13px; }
-      #ad-rail .ad-rail-btn { min-height: 40px; font-size: 13px; }
+    #ad-rail .ad-rail-hint { margin: 10px 0 0; font-size: 10px; color: #64748b; line-height: 1.35; }
+
+    @media (max-width: 1279px) {
+      #ad-rail .ad-rail-list {
+        flex-direction: row; overflow-x: auto; gap: 10px; padding-bottom: 4px;
+        -webkit-overflow-scrolling: touch;
+      }
+      #ad-rail .ad-rail-list > li { flex: 0 0 140px; display: flex; }
+      #ad-rail .ad-rail-card { flex-direction: column; align-items: stretch; width: 100%; padding: 8px; }
+      #ad-rail .ad-rail-thumb { width: 96px; margin: 0 auto; }
+      #ad-rail .ad-rail-text { flex: 1; }
+      #ad-rail .ad-rail-cta { margin-top: auto; }
     }
   </style>
 
   <div class="ad-rail-header">
-    <div class="ad-rail-title-wrap">
-      <span class="ad-rail-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/>
-          <path d="M3 6h18"/>
-          <path d="M16 10a4 4 0 0 1-8 0"/>
-        </svg>
-      </span>
-      <h3 class="ad-rail-title">추천 장비</h3>
-    </div>
-    <span class="ad-rail-badge">제휴 링크</span>
+    <span class="ad-rail-title">추천 장비</span>
+    <span class="ad-rail-badge">쿠팡</span>
   </div>
 
-  <div class="ad-rail-tabs" role="tablist" aria-label="장비 카테고리">
-    <button type="button" role="tab" id="tab-audio" class="ad-rail-tab is-active" aria-selected="true" aria-controls="ad-rail-tabpanel" data-area="audio">음향</button>
-    <button type="button" role="tab" id="tab-video" class="ad-rail-tab" aria-selected="false" aria-controls="ad-rail-tabpanel" data-area="video">영상</button>
-    <button type="button" role="tab" id="tab-cctv" class="ad-rail-tab" aria-selected="false" aria-controls="ad-rail-tabpanel" data-area="cctv">CCTV</button>
-  </div>
+  <p class="ad-rail-notice" id="ad-rail-disclosure">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
 
-  <div id="ad-rail-tabpanel" role="tabpanel" aria-labelledby="tab-audio"></div>
+  <ul class="ad-rail-list">
+    <!-- SLOT 1: Focusrite Scarlett 2i2 4th Gen (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGSvtqhenI" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="1" data-product="Focusrite Scarlett 2i2 4th Gen">
+        <img class="ad-rail-thumb" src="https://img4a.coupangcdn.com/image/affiliate/banner/8ad956c2bc42bc4cb3380feeec9cca5d@2x.jpg" alt="포커스라이트 Scarlett 2i2 4세대 오디오 인터페이스, Scarlett 2i2 4th Gen" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Focusrite</span>
+          <span class="ad-rail-name">Scarlett 2i2 4세대 오디오 인터페이스</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 2: Shure SM58SK (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGUqARR95M" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="2" data-product="Shure SM58SK">
+        <img class="ad-rail-thumb" src="https://image10.coupangcdn.com/image/affiliate/banner/2f56f6be8eb9be8f46992a3e2dbaf50f@2x.jpg" alt="SHURE SM58SK 유선 마이크 슈어 SM58 SK 다이나믹 마이크 스탠드 패키지 [벨크로3M증정], 4) SM58SK + 5M 케이블 + 탁상용 스탠드, 단품" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Shure</span>
+          <span class="ad-rail-name">SM58 다이나믹 마이크 스탠드 패키지</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 3: Audio-Technica AT2020 (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGSHAHR5wq" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="3" data-product="Audio-Technica AT2020">
+        <img class="ad-rail-thumb" src="https://image4.coupangcdn.com/image/affiliate/banner/2cb0658a16dffbc902a31ce92d6bfa09@2x.jpg" alt="[작곡가의 미디가게] Audio Technica AT2020 콘덴서 마이크 AT2020 입문용 콘덴서 마이크 홈레코딩" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Audio-Technica</span>
+          <span class="ad-rail-name">AT2020 콘덴서 마이크</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 4: Sony MDR-7506 (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGSH2oQ4qW" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="4" data-product="Sony MDR-7506">
+        <img class="ad-rail-thumb" src="https://image8.coupangcdn.com/image/affiliate/banner/ab7541f0c230ea5ab442e7c0ee21ad0c@2x.jpg" alt="소니 스튜디오 모니터링 헤드폰 MDR-7506 혼합색상 패시브노이즈캔슬링(PNC) 3.5mm단자" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Sony</span>
+          <span class="ad-rail-name">MDR-7506 모니터링 헤드폰</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 5: Yamaha HS5 (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGSIVQDBD2" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="5" data-product="Yamaha HS5">
+        <img class="ad-rail-thumb" src="https://image13.coupangcdn.com/image/affiliate/banner/4f7ceac965bd04aece0f4ff022bd80f3@2x.jpg" alt="야마하 HS5 스튜디오 모니터 스피커" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Yamaha</span>
+          <span class="ad-rail-name">HS5 스튜디오 모니터 스피커</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+    <!-- SLOT 6: Yamaha MG10XU (쿠팡 파트너스 이미지+텍스트, 블로그용 HTML 그대로) -->
+    <li>
+      <a class="ad-rail-card" href="https://link.coupang.com/a/hGUrYU7X2G" target="_blank" referrerpolicy="unsafe-url" rel="sponsored noopener" data-slot="6" data-product="Yamaha MG10XU">
+        <img class="ad-rail-thumb" src="https://img4a.coupangcdn.com/image/affiliate/banner/fec69bf02681e587b81938a820707bce@2x.jpg" alt="야마하 10채널 오디오믹서 이펙터 &amp; 오디오인터페이스, MG10XU" width="120" height="240">
+        <span class="ad-rail-text">
+          <span class="ad-rail-brand">Yamaha</span>
+          <span class="ad-rail-name">MG10XU 10채널 믹서</span>
+          <span class="ad-rail-cta">쿠팡에서 보기</span>
+        </span>
+      </a>
+    </li>
+  </ul>
 
-  <script>
-    (function () {
-      const PRODUCTS = [
-        {"area":"audio","store":"coupang","brand":"Focusrite","name":"포커스라이트 Scarlett 2i2 4세대 오디오 인터페이스","category":"오디오 인터페이스","image":"https://t1c.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2023/09/15/15/6/8d42e4f3-3d52-4c01-9b84-8704587923fe.jpg","url":"https://link.coupang.com/a/hsPh7tYH1M","price":"","priceDate":""},
-        {"area":"audio","store":"coupang","brand":"Yamaha","name":"야마하 HS5 스튜디오 모니터 스피커","category":"스튜디오 모니터","image":"https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/3a5e/20692ec2e81433d019b4d70a9dc81fc294ae44d8ee5383b2f9c75b8916ea.jpg","url":"https://link.coupang.com/a/hsQOK7OJVI","price":"","priceDate":""},
-        {"area":"audio","store":"coupang","brand":"Shure","name":"슈어 SM58-LC 마이크 + 케이블 5m 세트","category":"마이크","image":"https://t2a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/5da90e14ce91d3b8561649c4fa0bb8c38206be01af3ff0d88be197dacd38_1771981080495.jpg","url":"https://link.coupang.com/a/hsPd5E6sA8","price":"","priceDate":""},
-        {"area":"audio","store":"coupang","brand":"Audio-Technica","name":"오디오테크니카 ATH-M50x 모니터링 헤드폰 블랙","category":"헤드폰","image":"https://thumbnail8.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/2019/09/02/12/2/c0e12dc2-a813-4e70-872c-d86f43f3ace6.jpg","url":"https://link.coupang.com/a/hsPeU5CAHQ","price":"","priceDate":""},
-        {"area":"audio","store":"coupang","brand":"Mogami","name":"MOGAMI Gold Studio XLR 마이크 케이블 3M","category":"케이블","image":"https://t4a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/image_audit/stage/manual/b05ea39f584bb8cff45e8f272ce1dd8bfb4769356becef4bae3319b6ed3a_1759137929903.jpg","url":"https://link.coupang.com/a/hsPfWHtjWe","price":"","priceDate":""},
-        {"area":"audio","store":"coupang","brand":"K&M","name":"K&M 프로페셔널 스탠드 25400","category":"스탠드","image":"https://t1a.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/df0b/005037712291480978d453150c9f0daeaf95dbc23c09869bad5f8b0b5bec.jpg","url":"https://link.coupang.com/a/hsPg48XOHQ","price":"","priceDate":""},
-        {"area":"audio","store":"ali","brand":"the brilliant 3C Store","name":"XLR 마이크 케이블 (수-암, 1~10m)","category":"케이블","image":"https://ae-pic-a1.aliexpress-media.com/kf/S9742b1e5e4af4e57b5ca49bec5abaeb9H.jpg","url":"https://s.click.aliexpress.com/e/_c3fepNAD","price":"","priceDate":""},
-        {"area":"audio","store":"ali","brand":"Guitary Best Shop","name":"Shure SM7B용 마이크 팝필터 윈드스크린","category":"마이크 액세서리","image":"https://ae-pic-a1.aliexpress-media.com/kf/Sfbc57a4141e44cad92ad5b7f7166d4043.jpg","url":"https://s.click.aliexpress.com/e/_c33S6DJ3","price":"","priceDate":""},
-        {"area":"audio","store":"ali","brand":"perngy tech","name":"360도 회전 데스크탑 스피커 스탠드 (2개 1세트)","category":"스탠드","image":"https://ae-pic-a1.aliexpress-media.com/kf/S8cdc61decfc440e683b6f5a6cffb2693q.jpg","url":"https://s.click.aliexpress.com/e/_c3BkZkwd","price":"","priceDate":""},
-        {"area":"audio","store":"ali","brand":"All Goods All Styles","name":"무타공 클립형 헤드폰 거치대","category":"헤드폰 액세서리","image":"https://ae-pic-a1.aliexpress-media.com/kf/S9e1951e59f9a4d7690e9a7fac9a838afC.jpg","url":"https://s.click.aliexpress.com/e/_c41cXkLJ","price":"","priceDate":""},
-        {"area":"audio","store":"ali","brand":"JOYO","name":"JOYO MOMIX CAB 미니 USB 오디오 인터페이스","category":"오디오 인터페이스","image":"https://ae-pic-a1.aliexpress-media.com/kf/S3c27c7ed834548149763a7521e816c5bx.jpg","url":"https://s.click.aliexpress.com/e/_c3XxWeGD","price":"","priceDate":""},
-        {"area":"audio","store":"ali","brand":"Audio Cable Shop","name":"6.35mm TRS - XLR 오디오 케이블","category":"케이블","image":"https://ae-pic-a1.aliexpress-media.com/kf/S3f74ea3284a2485ebd0549a14262b3b8W.jpg","url":"https://s.click.aliexpress.com/e/_c42zWBDf","price":"","priceDate":""},
-        {"area":"video","store":"ali","brand":"","name":"HDMI 3포트 스위치 4K (3입력 1출력)","category":"HDMI 스위치","image":"https://ae-pic-a1.aliexpress-media.com/kf/S7021eb7bfd824434b4e22c5f36d1371fw.jpg","url":"https://s.click.aliexpress.com/e/_c3MfZJaH","price":"3020","priceDate":"2026-10-05"},
-        {"area":"video","store":"ali","brand":"UGREEN","name":"USB-C to HDMI 케이블 8K/60Hz 4K/120Hz","category":"영상 케이블","image":"https://ae-pic-a1.aliexpress-media.com/kf/S1e1bfdbbe7974be2a16d31e16853ec98R.jpg","url":"https://s.click.aliexpress.com/e/_c303SqqZ","price":"15500","priceDate":"2026-10-05"},
-        {"area":"video","store":"ali","brand":"","name":"초슬림 HDMI 2.0 케이블 4K 60Hz (1~5m)","category":"영상 케이블","image":"https://ae-pic-a1.aliexpress-media.com/kf/Sb2ec356d86b44526982956bd43780a90z.jpg","url":"https://s.click.aliexpress.com/e/_c38dE4xL","price":"2860","priceDate":"2026-10-05"},
-        {"area":"video","store":"ali","brand":"Lemorele","name":"무선 HDMI 송수신기 200m","category":"무선 영상 전송","image":"https://ae-pic-a1.aliexpress-media.com/kf/See91d4109ee6493bb8b561cde9ba0827H.jpg","url":"https://s.click.aliexpress.com/e/_c33TeohJ","price":"35700","priceDate":"2026-10-05"},
-        {"area":"video","store":"ali","brand":"EMEET","name":"C950 FHD 웹캠 (마이크, 프라이버시 커버)","category":"웹캠","image":"https://ae-pic-a1.aliexpress-media.com/kf/Sdc453eb459c246858a5246ab4620c83b6.jpg","url":"https://s.click.aliexpress.com/e/_c3gcz8LT","price":"17050","priceDate":"2026-10-05"},
-        {"area":"video","store":"ali","brand":"","name":"HDMI to RJ45 연장기 30M (Cat5e/6)","category":"영상 연장기","image":"https://ae-pic-a1.aliexpress-media.com/kf/S02989a25fb124059a60d3254aaaf43456.jpg","url":"https://s.click.aliexpress.com/e/_c34PqwmZ","price":"3200","priceDate":"2026-10-05"},
-        {"area":"cctv","store":"ali","brand":"MOES","name":"Tuya Wi-Fi 팬틸트 보안 카메라 4MP (실내)","category":"IP 카메라","image":"https://ae-pic-a1.aliexpress-media.com/kf/S0cfa69b3647c41be913a82ab9959e941L.jpg","url":"https://s.click.aliexpress.com/e/_c3hx4MHR","price":"23497","priceDate":"2026-10-05"},
-        {"area":"cctv","store":"ali","brand":"Baseus","name":"5MP 3K Wi-Fi IP 카메라 팬틸트 (실내)","category":"IP 카메라","image":"https://ae-pic-a1.aliexpress-media.com/kf/S52e2a146e8024449a2966467507a7b2cz.png","url":"https://s.click.aliexpress.com/e/_c3EgL6qp","price":"63500","priceDate":"2026-10-05"},
-        {"area":"cctv","store":"ali","brand":"IMOU","name":"Ranger Mini 3/5MP 360° 카메라","category":"IP 카메라","image":"https://ae-pic-a1.aliexpress-media.com/kf/S3febdb072f7f438c88e24f9a6ea8435dh.png","url":"https://s.click.aliexpress.com/e/_c3g8v2sV","price":"35900","priceDate":"2026-10-05"},
-        {"area":"cctv","store":"ali","brand":"SONOFF","name":"CAM-B1P 2K 실외 스마트 보안 카메라 IP65","category":"IP 카메라","image":"https://ae-pic-a1.aliexpress-media.com/kf/S2ae52488ccc941bb93a743997420ed02Y.jpg","url":"https://s.click.aliexpress.com/e/_c3lolFqN","price":"38900","priceDate":"2026-10-05"},
-        {"area":"cctv","store":"ali","brand":"BESDER","name":"4K 8MP Wi-Fi PTZ 실외 카메라 듀얼렌즈","category":"IP 카메라","image":"https://ae-pic-a1.aliexpress-media.com/kf/S0b6383c55cba4c07834ed4e7b75594c7W.png","url":"https://s.click.aliexpress.com/e/_c3X3OMNP","price":"31300","priceDate":"2026-10-05"},
-        {"area":"cctv","store":"ali","brand":"","name":"48V PoE 스위치 8/16포트 기가비트 (802.3af/at)","category":"PoE 스위치","image":"https://ae-pic-a1.aliexpress-media.com/kf/Sf97c520432dd46f4a639193de22c456a0.jpg","url":"https://s.click.aliexpress.com/e/_c3NnUNLB","price":"32100","priceDate":"2026-10-05"}
-      ];
-
-      const MAX_PER_STORE = 6;
-      const NOTICE_COUPANG = "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.";
-      const NOTICE_ALI = "이 영역에는 알리익스프레스 제휴 링크가 포함되어 있으며, 구매 시 운영자가 일정 수수료를 받을 수 있습니다.";
-
-      const rail = document.getElementById('ad-rail');
-      if (!rail) return;
-
-      const panel = rail.querySelector('#ad-rail-tabpanel');
-      const tabs = rail.querySelectorAll('.ad-rail-tab');
-      let currentArea = 'audio';
-
-      function escapeHtml(str) {
-        if (!str) return '';
-        return String(str)
-          .replace(/&/g, '&amp;')
-          .replace(/</g, '&lt;')
-          .replace(/>/g, '&gt;')
-          .replace(/"/g, '&quot;')
-          .replace(/'/g, '&#039;');
-      }
-
-      const linkSvg = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>';
-
-      const fallbackSvg = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='1.5'%3E%3Crect width='18' height='18' x='3' y='3' rx='2'/%3E%3Cpath d='m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21'/%3E%3C/svg%3E";
-
-      function renderCard(item) {
-        let priceHtml = '';
-        if (item.price && String(item.price).trim() !== '') {
-          const formattedPrice = isNaN(Number(item.price))
-            ? escapeHtml(item.price)
-            : Number(item.price).toLocaleString() + '원';
-          priceHtml = '<span class="ad-rail-price-val">' + formattedPrice + '</span>';
-          if (item.priceDate && String(item.priceDate).trim() !== '') {
-            priceHtml += '<span class="ad-rail-price-date">' + escapeHtml(item.priceDate) + ' 확인</span>';
-          }
-        } else {
-          priceHtml = '<span class="ad-rail-price-checking">가격 확인 중</span>';
-        }
-
-        const isCoupang = item.store === 'coupang';
-        const buttonLabel = isCoupang ? '쿠팡에서 보기' : '알리에서 보기';
-
-        return (
-          '<div class="ad-rail-card">' +
-            '<div class="ad-rail-card-body">' +
-              '<div class="ad-rail-card-thumb">' +
-                '<img class="ad-rail-card-img" src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.name) + '" loading="lazy" referrerpolicy="no-referrer" />' +
-              '</div>' +
-              '<div class="ad-rail-card-info">' +
-                '<span class="ad-rail-card-category">' + escapeHtml(item.category) + '</span>' +
-                '<h4 class="ad-rail-card-name">' +
-                  (item.brand ? '<span class="ad-rail-card-brand">' + escapeHtml(item.brand) + '</span>' : '') +
-                  escapeHtml(item.name) +
-                '</h4>' +
-                '<div class="ad-rail-card-price-row">' +
-                  priceHtml +
-                '</div>' +
-              '</div>' +
-            '</div>' +
-            '<a class="ad-rail-btn" href="' + escapeHtml(item.url) + '" target="_blank" rel="sponsored noopener noreferrer">' +
-              '<span>' + buttonLabel + '</span>' +
-              linkSvg +
-            '</a>' +
-          '</div>'
-        );
-      }
-
-      function renderRail() {
-        if (!panel) return;
-
-        const areaProducts = PRODUCTS.filter(function (p) {
-          return p.area === currentArea;
-        });
-
-        const coupangItems = areaProducts
-          .filter(function (p) { return p.store === 'coupang'; })
-          .slice(0, MAX_PER_STORE);
-
-        const aliItems = areaProducts
-          .filter(function (p) { return p.store === 'ali'; })
-          .slice(0, MAX_PER_STORE);
-
-        if (coupangItems.length === 0 && aliItems.length === 0) {
-          const areaLabel = currentArea === 'video' ? '영상' : currentArea === 'cctv' ? 'CCTV' : '장비';
-          panel.innerHTML = (
-            '<div class="ad-rail-empty-box">' +
-              '<svg class="ad-rail-empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
-                '<path d="m22 8-6 4 6 4V8Z"></path>' +
-                '<rect width="14" height="12" x="2" y="6" rx="2"></rect>' +
-              '</svg>' +
-              '<h4 class="ad-rail-empty-title">' + areaLabel + ' 추천 장비 준비 중</h4>' +
-              '<p class="ad-rail-empty-desc">' +
-                '추천 제품을 준비하고 있습니다.' +
-              '</p>'  +
-            '</div>'
-          );
-          return;
-        }
-
-        let html = '';
-
-        if (coupangItems.length > 0) {
-          html += (
-            '<div class="ad-rail-store-block">' +
-              '<div class="ad-rail-notice-box">' +
-                '<p class="ad-rail-notice-text">' + NOTICE_COUPANG + '</p>' +
-                '<span class="ad-rail-notice-sub">※ 실시간 가격 및 재고는 제휴처에서 확인하실 수 있습니다.</span>' +
-              '</div>' +
-              '<div class="ad-rail-card-list">' +
-                coupangItems.map(renderCard).join('') +
-              '</div>' +
-            '</div>'
-          );
-        }
-
-        if (aliItems.length > 0) {
-          html += (
-            '<div class="ad-rail-store-block">' +
-              '<div class="ad-rail-notice-box">' +
-                '<p class="ad-rail-notice-text">' + NOTICE_ALI + '</p>' +
-                '<span class="ad-rail-notice-sub">※ 환율 및 관세 규정에 따라 가격이 변동될 수 있습니다.</span>' +
-              '</div>' +
-              '<div class="ad-rail-card-list">' +
-                aliItems.map(renderCard).join('') +
-              '</div>' +
-            '</div>'
-          );
-        }
-
-        panel.innerHTML = html;
-        panel.querySelectorAll('img.ad-rail-card-img').forEach(function (img) {
-          img.addEventListener('error', function () {
-            if (img.getAttribute('data-fallback') === '1') return;
-            img.setAttribute('data-fallback', '1');
-            img.src = fallbackSvg;
-          });
-        });
-      }
-
-      tabs.forEach(function (tab, index) {
-        tab.addEventListener('click', function () {
-          const area = tab.getAttribute('data-area');
-          if (!area || area === currentArea) return;
-
-          currentArea = area;
-
-          tabs.forEach(function (t) {
-            const isActive = t === tab;
-            t.classList.toggle('is-active', isActive);
-            t.setAttribute('aria-selected', isActive ? 'true' : 'false');
-          });
-
-          panel.setAttribute('aria-labelledby', tab.id);
-          renderRail();
-        });
-
-        tab.addEventListener('keydown', function (e) {
-          let nextIndex = null;
-          if (e.key === 'ArrowRight') {
-            nextIndex = (index + 1) % tabs.length;
-          } else if (e.key === 'ArrowLeft') {
-            nextIndex = (index - 1 + tabs.length) % tabs.length;
-          } else if (e.key === 'Home') {
-            nextIndex = 0;
-          } else if (e.key === 'End') {
-            nextIndex = tabs.length - 1;
-          }
-
-          if (nextIndex !== null) {
-            e.preventDefault();
-            tabs[nextIndex].focus();
-            tabs[nextIndex].click();
-          }
-        });
-      });
-
-      renderRail();
-    })();
-  </script>
+  <p class="ad-rail-hint">가격·재고는 쿠팡에서 확인하세요.</p>
 </aside>
