@@ -74,7 +74,7 @@ footer a{{color:#64748b}}
 <h1>{h1}</h1>
 {img}<p class="summary">{summary}</p>
 {evidence}<p><a class="btn" href="{link}" target="_blank" rel="noopener noreferrer">원문 출처 보기 ↗</a><a class="btn sub" href="/?n={id}">전체 소식 목록</a></p>
-<aside class="sub-box"><p>새 소식을 가장 먼저 받아보세요<small>신제품·펌웨어·행사 소식을 매일 정리합니다</small></p><span><a class="btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener">텔레그램 채널</a> <a class="btn sub" href="{base}/rss.xml">RSS</a></span></aside>
+<aside class="sub-box"><p>새 소식을 가장 먼저 받아보세요<small>신제품·펌웨어·행사 소식을 한국어로 정리합니다</small></p><span><a class="btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener">텔레그램 채널</a> <a class="btn sub" href="{base}/rss.xml">RSS</a></span></aside>
 </article>
 {related}</main>
 <footer>{site} · 프로오디오 신제품 · 업데이트 · 행사 소식 큐레이션 · 운영 <a href="https://www.ainsonic.com">아인소닉</a></footer>
@@ -158,7 +158,9 @@ def render_rows(items):
     """index.html 아카이브 표에 미리 넣을 행 (JS가 불러오면 교체됨)."""
     e = lambda s: escape(str(s), quote=True)
     rows = []
-    for it in items[:PRERENDER_ROWS]:
+    # 화면의 아카이브 표와 같은 순서: 게시일 최신순(미래 날짜는 오늘로 취급), 같은 날짜는 news.json 순서 유지
+    ordered = sorted(items, key=lambda it: it.get("pub", it["date"]), reverse=True)
+    for it in ordered[:PRERENDER_ROWS]:
         rows.append(
             f'<tr class="main-row"><td class="col-type"><span class="badge badge-{e(it["type"])}">{e(it["type"])}</span></td>'
             f'<td class="col-date">{e(it["date"])}</td><td class="col-brand">{e(it["brand"])}</td>'
