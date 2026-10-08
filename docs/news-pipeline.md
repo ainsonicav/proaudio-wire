@@ -282,3 +282,15 @@ python3 -m unittest discover -s tests -p "test_*.py" -v
   이어지는지는 머지·실행 전까지 100% 보장할 수 없습니다(공식 문서와 현재
   Pages 설정 확인까지만 이번 범위에서 검증). 실제 실행 로그로 최종 확인이
   필요합니다.
+
+## 새 소식 멈춤 점검 (stall-check.yml, 2026-10 추가)
+
+- 새 소식 수집은 이 저장소 밖의 예약 작업이 `incoming/new.json`을 올려야 시작됩니다. 그 작업이
+  멈추면 Actions에는 실패가 남지 않고(아무것도 실행되지 않으므로) 사진 채우기 커밋만 계속 생깁니다.
+- `.github/workflows/stall-check.yml`이 매일 10:00(한국) `scripts/check_stall.py`를 실행해
+  "가장 큰 id가 처음 들어온 커밋 시각"을 마지막 새 소식 시각으로 보고, 48시간이 넘으면
+  `[자동 점검] 새 소식 …` 이슈를 엽니다(이미 열려 있으면 새로 열지 않음). 새 소식이 다시 들어오면
+  이슈에 댓글을 남기고 자동으로 닫습니다.
+- 텔레그램 알림은 Secret `TELEGRAM_ALERT_CHAT_ID`(운영자 개인 대화방 id)가 있을 때만 보냅니다.
+  `TELEGRAM_CHAT_ID`는 구독자용 공개 채널이므로 점검 알림에 쓰지 않습니다.
+- 테스트: `tests/test_check_stall.py` (오프라인).

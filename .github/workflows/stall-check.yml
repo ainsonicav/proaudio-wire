@@ -1,0 +1,32 @@
+name: 새 소식 멈춤 점검
+
+# 하루 한 번, 마지막으로 새 소식이 추가된 지 48시간이 넘었는지 확인합니다.
+# 넘었으면 GitHub 이슈를 열고(저장소 주인에게 메일 알림), Secret TELEGRAM_ALERT_CHAT_ID가 있으면
+# 운영자 개인 텔레그램으로도 알립니다. 구독자용 공개 채널(TELEGRAM_CHAT_ID)로는 보내지 않습니다.
+on:
+  schedule:
+    - cron: "0 1 * * *"   # 매일 오전 10:00(한국)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # news.json 변경 기록 전체가 필요
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 마지막 새 소식 시각 점검
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STALL_HOURS: "48"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ALERT_CHAT_ID: ${{ secrets.TELEGRAM_ALERT_CHAT_ID }}
+        run: python3 scripts/check_stall.py
