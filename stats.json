@@ -1,51 +1,51 @@
 {
-  "generated_at": "2026-10-09T02:59:42Z",
+  "generated_at": "2026-10-09T23:36:41Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 10,
-    "month": 131,
-    "total": 137
+    "week": 16,
+    "month": 137,
+    "total": 143
   },
   "top_brands_week": [
     {
-      "brand": "Solid State Logic",
+      "brand": "MOTU",
       "count": 1
     },
     {
-      "brand": "dBTechnologies",
+      "brand": "Logitech",
       "count": 1
     },
     {
-      "brand": "Shure",
+      "brand": "Violet Audio",
       "count": 1
     },
     {
-      "brand": "ADAM Audio",
+      "brand": "Lake People",
       "count": 1
     },
     {
-      "brand": "Extron",
+      "brand": "Biamp",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 7,
-      "pct": 70
+      "count": 12,
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 10
+      "pct": 6
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 2,
-      "pct": 20
+      "count": 3,
+      "pct": 19
     },
     {
       "category": "기타",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 83,
-      "pct": 63
+      "count": 88,
+      "pct": 64
     },
     {
       "category": "컨슈머오디오",
@@ -66,7 +66,7 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 28,
+      "count": 29,
       "pct": 21
     },
     {

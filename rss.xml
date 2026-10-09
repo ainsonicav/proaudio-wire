@@ -6,7 +6,57 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] MOTU - OctaLite</title>
+      <link>https://news.ainsonic.com/n/news-139.html</link>
+      <description>MOTU가 16x12 하프라크 USB 오디오 인터페이스 OctaLite를 출시했습니다. 콤보 XLR/TRS 마이크·라인·기타 입력 8개를 갖췄고 DSP 믹싱과 리버브, 4밴드 파라메트릭 EQ, 컴프레서, 게이트 이펙트를 내장했습니다. ADAT 광 입출력을 갖춰 다른 장비의 입력 확장용 익스팬더로도 쓸 수 있으며, 최대 192kHz 녹음과 2ms RTL 저지연 드라이버를 지원합니다. 가격은 849.95달러입니다.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-139</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Logitech - Rally Speaker 2 Pro, Rally Speaker 2 Max</title>
+      <link>https://news.ainsonic.com/n/news-140.html</link>
+      <description>로지텍이 Pro AV 시장에 진출하며 회의실용 스피커 Rally Speaker 2 Pro와 Rally Speaker 2 Max를 공개했습니다. 독자 기술인 Sound Shape를 적용해 웨이브필드 합성 원리로 소리를 청취 위치로 정밀하게 조향합니다. Pro 모델은 32개, Max 모델은 64개의 마이크로 드라이버를 탑재했고, 12미터 회의실에서 앞뒤 좌석 간 음량 차이가 거의 없다고 밝혔습니다. 상용 출시는 2027년 여름 예정입니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-140</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Violet Audio - dMix 128 펌웨어 V2</title>
+      <link>https://news.ainsonic.com/n/news-141.html</link>
+      <description>Violet Audio가 디지털 믹서 dMix 128용 펌웨어 V2를 발표했습니다. Mixer Split 기능으로 한 대의 dMix 128을 최대 4개의 독립 논리 믹서로 나눠 쓸 수 있고, 128채널을 64채널 96kHz 믹서 2대로 분리하는 구성도 가능합니다. 공유 프리앰프 게인 트래킹, 오프라인 에디터와 네트워크 매니저, 사용자 프로필 기반 접근 제어와 뮤지션용 퍼스널 믹스 인터페이스가 추가됐습니다. 매트릭스는 8x8에서 12x12로 확장됐습니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-141</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Lake People - MC100 랙마운트</title>
+      <link>https://news.ainsonic.com/n/news-142.html</link>
+      <description>Lake People이 모니터 컨트롤러 MC100용 19인치 전용 랙마운트를 내놨습니다. 2U 규격으로 표준 랙에 장착할 수 있으며 기존 MC100과 MC100 PRO, Violectric V550, V5902, V790에도 호환됩니다. MC100은 XLR, RCA, USB-C 5계통 입력과 개별 볼륨 조절이 가능한 밸런스드 출력 3계통, 서브우퍼 출력을 갖추고 헤드폰 앰프에 XFEED 회로를 탑재했습니다. 기존 제품에도 장착할 수 있으며 즉시 구매 가능합니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-142</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Boris FX - Samplitude 2026.5</title>
+      <link>https://news.ainsonic.com/n/news-144.html</link>
+      <description>Boris FX가 DAW Samplitude 2026.5를 공개했습니다. 스테레오, 서라운드, 이머시브 믹싱을 하나의 화면에서 다루는 Spatial Panner가 추가됐습니다. BandRack(주파수 대역별 플러그인 체인), Stream Deck OSC(Elgato Stream Deck 연동), CrumplePop SoundApp ARA(AI 스템 분리, 노이즈 제거) 플러그인이 포함됐습니다. EUCON 지원 개선과 32비트 정수 익스포트도 추가됐습니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-144</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[업데이트] Solid State Logic - SSL Live L650, L450, Live V5 소프트웨어</title>
@@ -66,6 +116,16 @@
       <guid isPermaLink="false">news-137</guid>
       <category>신제품</category>
       <category>컨슈머오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Biamp - Devio UCX 1000</title>
+      <link>https://news.ainsonic.com/n/news-143.html</link>
+      <description>Biamp가 중소 회의실용 화상회의 번들 Devio UCX 1000을 출시했습니다. UC 컴퓨트 플랫폼과 Parlé VBC 2800 컨퍼런싱 바, Apprimo Touch 10 터치 패널로 구성되며 Microsoft Teams 인증을 받았습니다. VBC 2800 바는 듀얼 4K ePTZ 카메라와 27개 마이크 어레이, Beamtracking과 AI 노이즈 제거를 탑재했습니다. Biamp Launch로 룸 어쿠스틱 측정과 에코 캔슬, EQ 자동 설정이 가능합니다.</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-143</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -344,66 +404,6 @@
       <description>zynaptiq가 트랙·버스·마스터용 라우드니스 처리 플러그인 LOUD와 스테레오 이미징·모노→스테레오 업믹싱 플러그인 WIDE를 출시했습니다. LOUD는 멀티밴드 리미터를 포함하고 최대 16채널 이머시브 포맷을 지원하며, WIDE는 스펙트럼 처리 기반으로 100% 모노 호환을 내세웁니다. 두 제품을 포함한 7종 번들 MASTER III($499)와 16종 번들 ZAP VI($1,299)도 함께 선보였습니다. 10월 15일까지 출시 기념가로 LOUD는 $49(정가 $99), WIDE는 $99(정가 $149)입니다.</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-104</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[업데이트] TASCAM - CA-XLR2d</title>
-      <link>https://news.ainsonic.com/n/news-101.html</link>
-      <description>TASCAM이 카메라에 XLR 마이크를 연결하는 어댑터 CA-XLR2d의 호환 카메라 목록을 갱신해 Canon EOS R6 V와의 호환성을 공식 확인했습니다. 앞서 Canon EOS R6 Mark III와 FUJIFILM 카메라 일부도 호환 목록에 추가된 바 있습니다. 전체 호환 카메라 목록은 TASCAM 제품 지원 페이지에서 확인할 수 있습니다.</description>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-101</guid>
-      <category>업데이트</category>
-      <category>컨슈머오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Expressive E - Osmose 펌웨어 2.3</title>
-      <link>https://news.ainsonic.com/n/news-114.html</link>
-      <description>Expressive E가 익스프레시브 신시사이저 Osmose용 펌웨어 2.3을 모든 사용자에게 무료로 공개했습니다. 트랜스포트, 메트로놈, 루프 관리, 트랙·씬·클립 탐색 등 DAW 컨트롤 기능이 추가됐습니다. 또한 Osmose 사용자는 900개 이상의 프리셋을 제공하는 Ctrl-e 플랫폼을 무료로 쓸 수 있으며, 이 라이선스는 프리셋에 한정됩니다. 업데이트는 Expressive E 웹사이트에서 바로 받을 수 있습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-114</guid>
-      <category>업데이트</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[신제품] Polyend - Polyend Loop</title>
-      <link>https://news.ainsonic.com/n/news-115.html</link>
-      <description>Polyend가 드럼머신과 이펙트 프로세서를 내장한 페달형 루퍼 Loop를 발표했습니다. 정방향·역방향·핑퐁 재생을 지원하는 독립 루프 트랙 4개, 350개 이상의 리듬 패턴과 500개 이상의 드럼 킷을 갖춘 4트랙 드럼 시퀀서, 100종 이상의 내장 이펙트를 제공합니다. 악기·라인 레벨 입력과 다이내믹 마이크 입력을 받으며, 기타리스트·송라이터·전자음악가를 위한 아이디어 스케치 장비로 소개됐습니다. 가격은 €599이며 2026년 10월 출하 예정입니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-115</guid>
-      <category>신제품</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[업데이트] MuxLab - Symetrix Composer Control Module for MuxLab</title>
-      <link>https://news.ainsonic.com/n/news-105.html</link>
-      <description>MuxLab이 Symetrix Composer 소프트웨어에서 자사 AV-over-IP 제품을 제어할 수 있는 컨트롤 모듈을 공개했습니다. Muximus 관리 플랫폼에 연결된 엔드포인트의 모니터링, 비디오 라우팅·스위칭, 프리셋 호출, API 명령을 Composer 안에서 실행할 수 있습니다. 회의실, 교육 시설, 기업, 디지털 사이니지 관제실, 의료 시설 등의 설치 현장을 대상으로 합니다. 모듈은 현재 바로 사용할 수 있으며 가격은 공개되지 않았습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-105</guid>
-      <category>업데이트</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[신제품] Antares - AutoTune Advanced</title>
-      <link>https://news.ainsonic.com/n/news-102.html</link>
-      <description>Antares가 AutoTune 알고리즘을 새로 설계한 실시간 보컬 튜닝 플러그인 AutoTune Advanced를 출시했습니다. 비브라토를 보존하는 DVA 엔진과 포먼트 디자이너를 갖췄고 Live(44.1kHz 기준 0.84ms)·Low Latency·High Quality 모드를 제공해 실시간 모니터링과 믹스 작업에 씁니다. 영구 라이선스 구매 또는 AutoTune Unlimited 구독으로 이용 가능하며 기존 구독자는 추가 비용 없이 받습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-102</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Synchro Arts - VocAlign 7 (Standard / Pro)</title>
-      <link>https://news.ainsonic.com/n/news-103.html</link>
-      <description>Synchro Arts가 보컬 타이밍·피치 정렬 플러그인 VocAlign 7을 Standard와 Pro 두 버전으로 출시했습니다. 여러 보컬 트랙을 한 작업 공간에서 다루는 멀티트랙 워크플로와 ARA 지원이 공통이며, Pro는 SmartPitch 피치 매칭, 포먼트 제어, RePitch 연동(SynchroLink 2.0)을 추가합니다. 하모니·더블·백보컬을 정리하는 보컬 편집 작업 시간을 줄이는 용도입니다. AU·VST3·AAX를 지원하며 VocAlign 3~6 사용자는 업그레이드 할인을 받을 수 있습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-103</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
     </item>
