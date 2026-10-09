@@ -9,6 +9,7 @@
   (--add는 검사를 통과할 때만 news.json에 저장합니다.)
 """
 import json
+from urllib.parse import urlsplit
 import os
 import sys
 from collections import Counter
@@ -196,17 +197,32 @@ def brief(items, days=60):
 #
 # summary/spec 내용이 사실인지 자체는 정규식으로 판단할 수 없으므로(의미 검증 불가),
 # 대신 생산자(수집 에이전트/제보자)에게 "출처 확인 책임"을 명시적으로 지우는 계약으로
-# 대체합니다: incoming/new.json의 각 항목은 (1) 원문 link가 https로 시작하는 절대 URL이고,
+# 대체합니다: incoming/new.json의 각 항목은 (1) 원문 link가 https로 시작하는 절대 URL이고(https 미지원 사이트는
+# HTTP_ALLOWED_DOMAINS에 있는 도메인만 http 허용),
 # (2) productName 또는 evidence(원문 근거·인용) 중 적어도 하나는 비어있지 않아야 함.
 # 조건을 못 맞추는 항목은 명확한 사유와 함께 거부되고(조용히 통과시키지 않음),
 # 어떤 과거 기록도 이 기준으로 재검사되거나 무효화되지 않습니다.
+# https를 지원하지 않는 사이트만 예외로 http:// 허용 (그 외 도메인은 https만).
+HTTP_ALLOWED_DOMAINS = {"ntusys.com", "www.ntusys.com"}
+
+
+def _link_scheme_ok(link):
+    if link.startswith("https://"):
+        return True
+    if link.startswith("http://"):
+        host = urlsplit(link).hostname or ""
+        return host.lower() in HTTP_ALLOWED_DOMAINS
+    return False
+
+
 def validate_incoming(fresh):
     errors = []
     for it in fresh:
         tag = it.get("brand", "") + " — " + (it.get("productName") or it.get("link", "(새 항목)"))
         link = str(it.get("link", ""))
-        if not link.startswith("https://"):
-            errors.append(f"{tag}: 새 소식 link는 https:// 절대 URL이어야 함 (받은 값: {link[:70]!r})")
+        if not _link_scheme_ok(link):
+            errors.append(f"{tag}: 새 소식 link는 https:// 절대 URL이어야 함 "
+                          f"(http는 {sorted(HTTP_ALLOWED_DOMAINS)}만 허용, 받은 값: {link[:70]!r})")
         evidence = str(it.get("evidence", "")).strip()
         product = str(it.get("productName", "")).strip()
         if not evidence and not product:

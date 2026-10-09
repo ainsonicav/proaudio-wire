@@ -173,6 +173,10 @@ main의 최신 상태"로 두면 두 가지 문제가 있었습니다.
 
 1. `link`가 **https://로 시작하는 절대 URL**이어야 함 (과거 기록은 `http`도
    허용되는 일반 검사만 받음 — 하위 호환, 재검사 없음).
+   예외: https를 지원하지 않는 사이트는 `scripts/build.py`의
+   `HTTP_ALLOWED_DOMAINS`에 있는 도메인만 `http://`를 허용함
+   (현재 `ntusys.com`, `www.ntusys.com` — 엔티유시스템즈). 다른 도메인의 `http://`,
+   하위 도메인 등 목록에 없는 호스트는 그대로 거부됨.
 2. `productName` 또는 `evidence`(원문 근거·인용) 중 **적어도 하나**는
    비어 있지 않아야 함.
 

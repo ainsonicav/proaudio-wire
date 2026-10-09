@@ -57,6 +57,16 @@ class ValidateIncomingTests(unittest.TestCase):
         self.assertEqual(len(errs), 1)
         self.assertIn("https", errs[0])
 
+    def test_accepts_http_for_allowed_domain(self):
+        for link in ("http://ntusys.com/inc/product_view.asp?nnum=55",
+                     "http://www.ntusys.com/", "http://NTUSYS.com/"):
+            self.assertEqual(build.validate_incoming([make_item(link=link)]), [], link)
+
+    def test_rejects_http_for_lookalike_or_sub_domain(self):
+        for link in ("http://ntusys.com.evil.example/", "http://evilntusys.com/",
+                     "http://news.ntusys.com/", "ftp://ntusys.com/"):
+            self.assertEqual(len(build.validate_incoming([make_item(link=link)])), 1, link)
+
     def test_rejects_missing_evidence_and_product_name(self):
         errs = build.validate_incoming([make_item(productName="", evidence="")])
         self.assertEqual(len(errs), 1)
