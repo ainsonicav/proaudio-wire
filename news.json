@@ -11,7 +11,9 @@
     "productName": "OctaLite",
     "status": "published",
     "summary": "MOTU가 16x12 하프라크 USB 오디오 인터페이스 OctaLite를 출시했습니다. 콤보 XLR/TRS 마이크·라인·기타 입력 8개를 갖췄고 DSP 믹싱과 리버브, 4밴드 파라메트릭 EQ, 컴프레서, 게이트 이펙트를 내장했습니다. ADAT 광 입출력을 갖춰 다른 장비의 입력 확장용 익스팬더로도 쓸 수 있으며, 최대 192kHz 녹음과 2ms RTL 저지연 드라이버를 지원합니다. 가격은 849.95달러입니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FMOTU-OctaLite.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-140",
@@ -25,7 +27,9 @@
     "productName": "Rally Speaker 2 Pro, Rally Speaker 2 Max",
     "status": "published",
     "summary": "로지텍이 Pro AV 시장에 진출하며 회의실용 스피커 Rally Speaker 2 Pro와 Rally Speaker 2 Max를 공개했습니다. 독자 기술인 Sound Shape를 적용해 웨이브필드 합성 원리로 소리를 청취 위치로 정밀하게 조향합니다. Pro 모델은 32개, Max 모델은 64개의 마이크로 드라이버를 탑재했고, 12미터 회의실에서 앞뒤 좌석 간 음량 차이가 거의 없다고 밝혔습니다. 상용 출시는 2027년 여름 예정입니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fresource.logitech.com%2Fw_776%2Ch_437%2Car_16%3A9%2Cc_fill%2Cq_auto%2Cf_auto%2Cdpr_1.0%2Fd_transparent.gif%2Fcontent%2Fdam%2Flogitech%2Fen%2Fbusiness%2Fproducts%2Fvideo-conferencing%2Frally-system-2-pro%2Frally-system-2-pro-smarter-video-better-audio-key-feature-1.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-141",
@@ -39,7 +43,8 @@
     "productName": "dMix 128 펌웨어 V2",
     "status": "published",
     "summary": "Violet Audio가 디지털 믹서 dMix 128용 펌웨어 V2를 발표했습니다. Mixer Split 기능으로 한 대의 dMix 128을 최대 4개의 독립 논리 믹서로 나눠 쓸 수 있고, 128채널을 64채널 96kHz 믹서 2대로 분리하는 구성도 가능합니다. 공유 프리앰프 게인 트래킹, 오프라인 에디터와 네트워크 매니저, 사용자 프로필 기반 접근 제어와 뮤지션용 퍼스널 믹스 인터페이스가 추가됐습니다. 매트릭스는 8x8에서 12x12로 확장됐습니다.",
-    "type": "업데이트"
+    "type": "업데이트",
+    "imageTried": "2026-10-09:g"
   },
   {
     "id": "news-142",
@@ -53,7 +58,9 @@
     "productName": "MC100 랙마운트",
     "status": "published",
     "summary": "Lake People이 모니터 컨트롤러 MC100용 19인치 전용 랙마운트를 내놨습니다. 2U 규격으로 표준 랙에 장착할 수 있으며 기존 MC100과 MC100 PRO, Violectric V550, V5902, V790에도 호환됩니다. MC100은 XLR, RCA, USB-C 5계통 입력과 개별 볼륨 조절이 가능한 밸런스드 출력 3계통, 서브우퍼 출력을 갖추고 헤드폰 앰프에 XFEED 회로를 탑재했습니다. 기존 제품에도 장착할 수 있으며 즉시 구매 가능합니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FLake-people-MC100.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-143",
@@ -67,7 +74,9 @@
     "productName": "Devio UCX 1000",
     "status": "published",
     "summary": "Biamp가 중소 회의실용 화상회의 번들 Devio UCX 1000을 출시했습니다. UC 컴퓨트 플랫폼과 Parlé VBC 2800 컨퍼런싱 바, Apprimo Touch 10 터치 패널로 구성되며 Microsoft Teams 인증을 받았습니다. VBC 2800 바는 듀얼 4K ePTZ 카메라와 27개 마이크 어레이, Beamtracking과 AI 노이즈 제거를 탑재했습니다. Biamp Launch로 룸 어쿠스틱 측정과 에코 캔슬, EQ 자동 설정이 가능합니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FDevio-UCX-1000-1024x576.png&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-144",
@@ -81,7 +90,9 @@
     "productName": "Samplitude 2026.5",
     "status": "published",
     "summary": "Boris FX가 DAW Samplitude 2026.5를 공개했습니다. 스테레오, 서라운드, 이머시브 믹싱을 하나의 화면에서 다루는 Spatial Panner가 추가됐습니다. BandRack(주파수 대역별 플러그인 체인), Stream Deck OSC(Elgato Stream Deck 연동), CrumplePop SoundApp ARA(AI 스템 분리, 노이즈 제거) 플러그인이 포함됐습니다. EUCON 지원 개선과 32비트 정수 익스포트도 추가됐습니다.",
-    "type": "업데이트"
+    "type": "업데이트",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FBoris-FX-Samplitude-2026.5-SoundApp-ARA-plugin-1024x576.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-130",
