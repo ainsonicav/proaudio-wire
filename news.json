@@ -11,7 +11,9 @@
     "evidence": "96kHz에서 240개의 믹스 패스(Channels, Stem Groups, Auxes, Masters)와 856 I/O를 지원하여 효율적이고 안정적인 오디오 처리를 구현.",
     "status": "published",
     "isDomestic": true,
-    "category": "프로오디오"
+    "category": "프로오디오",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjEwMDhfMTQ1%2FMDAxNzkxNDIzMDM2NjM0.5zKVnuiqOaAvo94k-wZTSpi2Eec6pQDAikqiZXM1qg8g.BbDhdowrO6G2DlF8SdYazoor1UvTaxuutQcZllxVqHAg.PNG%2FSSL_Live_V5_social_thumb_2.png%3Ftype%3Dw2&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-131",
@@ -25,7 +27,9 @@
     "evidence": "VIO L1608은 듀얼 8인치 네오디뮴 LF 드라이버와 동축 MF-HF 어셈블리를 탑재한 진정한 액티브 3웨이 시스템입니다.",
     "status": "published",
     "isDomestic": true,
-    "category": "프로오디오"
+    "category": "프로오디오",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fmblogthumb-phinf.pstatic.net%2FMjAyNjEwMDhfMTAw%2FMDAxNzkxNDQ3MzQwMDc1.KeMnwkhUWMscKBKNsnznFZQZI28yODEw5Mdw5zw1Dsog.tytL8aZxwqWdPgPnUo9Qip-WF2xa69UCQ8ZrjlKo1xUg.PNG%2FVIO_L1608_%25EC%258A%25A4%25ED%2594%25BC%25EC%25BB%25A4_%25EC%2599%2580%25EC%259D%25B4%25EB%2593%259C_%25EB%25B0%25B0%25EB%2584%2588.png%3Ftype%3Dw800&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-132",
@@ -39,7 +43,9 @@
     "evidence": "Shure has updated its Axient Digital Wireless System firmware with its new v1.6 update, providing two new features—Channel Linking and Preferred Access Point",
     "status": "published",
     "isDomestic": false,
-    "category": "프로오디오"
+    "category": "프로오디오",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.mixonline.com%2Fwp-content%2Fuploads%2F2026%2F05%2F2026-05-26-Shure-353x199.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-133",
@@ -53,7 +59,9 @@
     "evidence": "ADAM Audio’s monitoring range has just been expanded with two new DSP-equipped subwoofers, the Sub8 PRO and Sub10 PRO.",
     "status": "published",
     "isDomestic": false,
-    "category": "프로오디오"
+    "category": "프로오디오",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fa%2Fadam_audio_sub8_pro_sub10_pro-Q278Tg0D4sZ2qoesWXd10Fxw1nGscJ9W.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-134",
@@ -67,7 +75,8 @@
     "evidence": "Extron has announced the immediate availability of new VoiceLift Lite wireless microphone systems for classrooms, lecture halls, and training rooms",
     "status": "published",
     "isDomestic": false,
-    "category": "프로오디오"
+    "category": "프로오디오",
+    "imageTried": "2026-10-09:g"
   },
   {
     "id": "news-135",
@@ -81,7 +90,9 @@
     "evidence": "Waves Audio will bring its Better U live sound training series to Nashville on Friday, October 30, with a session focused on the eMotion LV1 Classic platform ahead of the AES convention.",
     "status": "published",
     "isDomestic": false,
-    "category": "프로오디오"
+    "category": "프로오디오",
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Faudiomediainternational.com%2Fwp-content%2Fuploads%2FBetterU_Clever_Sandstrom.jpeg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-136",
@@ -95,7 +106,9 @@
     "evidence": "Mercenary Magnetics has launched ADM Master QC, a macOS application that checks immersive audio ADM BWF masters against published major-label delivery specifications before delivery.",
     "status": "published",
     "isDomestic": false,
-    "category": "레코딩소프트웨어"
+    "category": "레코딩소프트웨어",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.mixonline.com%2Fwp-content%2Fuploads%2F2026%2F10%2F2026-10-08-Mercenary.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-137",
@@ -109,7 +122,9 @@
     "evidence": "Sony has now launched the ECM-AX10, a USB-C powered microphone that plugs into your phone and records spatial sound.",
     "status": "published",
     "isDomestic": false,
-    "category": "컨슈머오디오"
+    "category": "컨슈머오디오",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.mixonline.com%2Fwp-content%2Fuploads%2F2026%2F10%2F2026-10-08-Sony-MAIN.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-138",
@@ -123,7 +138,9 @@
     "evidence": "Combining granular signal processing with a graphical time sequencer, HyperWarp lets users dig into a sound by drawing speed shifts, stutter steps and direction changes",
     "status": "published",
     "isDomestic": false,
-    "category": "레코딩소프트웨어"
+    "category": "레코딩소프트웨어",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.mixonline.com%2Fwp-content%2Fuploads%2F2026%2F10%2F2026-10-06-BabyAudio.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-127",
