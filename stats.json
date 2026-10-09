@@ -1,39 +1,51 @@
 {
-  "generated_at": "2026-10-08T02:46:59Z",
+  "generated_at": "2026-10-09T01:55:47Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 2,
-    "month": 126,
-    "total": 128
+    "week": 10,
+    "month": 131,
+    "total": 137
   },
   "top_brands_week": [
     {
-      "brand": "TELEFUNKEN",
+      "brand": "Solid State Logic",
       "count": 1
     },
     {
-      "brand": "Sound Devices",
+      "brand": "dBTechnologies",
+      "count": 1
+    },
+    {
+      "brand": "Shure",
+      "count": 1
+    },
+    {
+      "brand": "ADAM Audio",
+      "count": 1
+    },
+    {
+      "brand": "Extron",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 2,
-      "pct": 100
+      "count": 7,
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
-      "count": 0,
-      "pct": 0
+      "count": 1,
+      "pct": 10
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 0,
-      "pct": 0
+      "count": 2,
+      "pct": 20
     },
     {
       "category": "기타",
@@ -44,23 +56,23 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 80,
+      "count": 83,
       "pct": 63
     },
     {
       "category": "컨슈머오디오",
-      "count": 4,
-      "pct": 3
+      "count": 5,
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 26,
+      "count": 28,
       "pct": 21
     },
     {
       "category": "기타",
-      "count": 16,
-      "pct": 13
+      "count": 15,
+      "pct": 11
     }
   ]
 }

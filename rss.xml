@@ -6,7 +6,97 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 06 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[업데이트] Solid State Logic - SSL Live L650, L450, Live V5 소프트웨어</title>
+      <link>https://news.ainsonic.com/n/news-130.html</link>
+      <description>SSL 수입원 다산SR이 SSL Live 콘솔 L650·L450과 Live V5 소프트웨어의 특징을 정리했습니다. L450은 96kHz에서 240개 믹스 패스와 856 I/O, 19인치 멀티 터치스크린을 갖췄고 Dante 카드로 최대 32x32 연결이 가능합니다. V5에는 Meyer Sound Spacemap Go 몰입형 제어와 Shure ULX-D·Axient Digital 무선 마이크 제어가 통합됐습니다. 견적·시연 문의는 다산SR이 받습니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-130</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] dBTechnologies - VIO L1608, A2Net</title>
+      <link>https://news.ainsonic.com/n/news-131.html</link>
+      <description>다산SR이 dBTechnologies 컴팩트 라인어레이 VIO L1608과 디지털 오디오·제어 프로토콜 A2Net이 Mix Best of Show(2026·2025)와 rAVe Best Live Events Audio 등 3개 상을 받았다고 전했습니다. VIO L1608은 듀얼 8인치 LF와 동축 MF-HF의 액티브 3웨이 시스템으로 1600W RMS Class-D 앰프를 내장했습니다. A2Net은 기본 탑재되며 RDNet 시스템과 호환됩니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-131</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Shure - Axient Digital 펌웨어 v1.6</title>
+      <link>https://news.ainsonic.com/n/news-132.html</link>
+      <description>Shure가 Axient Digital 무선 시스템 펌웨어 v1.6을 공개했습니다. Channel Linking은 AD4Q, AD4D, ADX5D, ANX4 수신기 채널을 연결해 주파수·송신기 등록·암호화·채널 이름을 보조 채널이 자동으로 이어받게 합니다. Preferred Access Point는 AD610이 여러 대인 시스템에서 송신기가 연결할 ShowLink 액세스 포인트를 지정합니다. Shure Update Utility에서 받을 수 있습니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-132</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] ADAM Audio - Sub8 PRO, Sub10 PRO, ADAM Control</title>
+      <link>https://news.ainsonic.com/n/news-133.html</link>
+      <description>ADAM Audio가 DSP 내장 스튜디오 서브우퍼 Sub8 PRO(8인치)와 Sub10 PRO(10인치)를 출시했습니다. Dolby Atmos용 LFE 모드와 Wide 모드, 아날로그 라인 입력과 최대 96kHz/24비트 AES3 입력을 갖췄습니다. 함께 나온 무료 소프트웨어 ADAM Control은 A Control을 대체해 이더넷으로 EQ·게인·위상·딜레이를 조정합니다. 가격은 1,199.99달러, 1,499.99달러이며 현재 판매 중입니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-133</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Mercenary Magnetics - ADM Master QC</title>
+      <link>https://news.ainsonic.com/n/news-136.html</link>
+      <description>미국 스튜디오 Mercenary Magnetics가 몰입형 오디오 ADM BWF 마스터를 음반사 납품 규격과 비교 검사하는 macOS 앱 ADM Master QC를 출시했습니다. Direct Render 설정, 라우드니스(LKFS)·트루 피크(dBTP), LFE, 베드·오브젝트 구성을 점검하고 실패 항목에 수정 방법을 표시합니다. 파일은 수정하지 않고 오프라인으로 동작하며, 출시가 79달러(정가 99달러) 영구 라이선스입니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-136</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Sony - ECM-AX10</title>
+      <link>https://news.ainsonic.com/n/news-137.html</link>
+      <description>소니가 스마트폰 USB-C 단자에 꽂아 공간 음향을 녹음하는 마이크 ECM-AX10을 발표했습니다. 무지향성 캡슐 4개로 앰비소닉(Eclipsa Audio 내보내기), 바이노럴, 스테레오 녹음을 지원하며 스마트폰용 마이크로는 처음 Eclipsa Audio 인증을 받았습니다. 전용 앱 Spatial Audio Video Tool로 촬영·편집·내보내기를 합니다. 무게 약 24g, 미국 가격 249.99달러로 10월 말 출하 예정입니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-137</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Extron - VoiceLift Lite 마이크 시스템</title>
+      <link>https://news.ainsonic.com/n/news-134.html</link>
+      <description>Extron이 교실, 강의실, 교육실용 무선 음성 확성 시스템 VoiceLift Lite를 출시했습니다. 펜던트 마이크 단독 또는 펜던트와 핸드헬드 마이크 구성 중에서 고를 수 있고, 두 구성 모두 파워앰프와 소형 표면 실장 스피커 2개, 케이블과 설치 부품을 포함합니다. 마이크는 완충 시 최대 8시간 사용할 수 있으며, 강사 목소리의 명료도를 높이고 성대 부담을 줄이는 용도입니다. 즉시 구매할 수 있습니다.</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-134</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Waves - Better U 라이브 사운드 교육 (eMotion LV1 Classic, 내슈빌)</title>
+      <link>https://news.ainsonic.com/n/news-135.html</link>
+      <description>Waves가 eMotion LV1 Classic 라이브 믹서 교육 Better U를 2026년 10월 30일(금) 12시~16시 45분(현지 시간) 미국 내슈빌 Worley Studio에서 엽니다. 콘솔 신호 흐름, 믹싱 전략, 몰입형 모니터링, 플러그인 연동을 다루며 FOH 엔지니어 Jeff Sandstrom과 Lloyd Williams가 함께합니다. 교회·투어·공연장 엔지니어 대상이며 참가비는 28.52달러, Eventbrite에서 신청합니다.</description>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-135</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Baby Audio - HyperWarp</title>
+      <link>https://news.ainsonic.com/n/news-138.html</link>
+      <description>Baby Audio가 시간과 음색을 변형하는 이펙트 플러그인 HyperWarp를 출시했습니다. 그래뉼러 처리와 그래프 방식 시퀀서를 결합해 속도 변화, 스터터, 재생 방향 전환을 그려 넣을 수 있습니다. 7가지 이펙트 프로파일과 4개의 매크로 노브, 190개 이상의 프리셋을 제공합니다. 출시 기념가는 49달러(정가 99달러)이며 Apple Silicon을 포함한 Mac·PC의 주요 DAW에서 사용할 수 있습니다.</description>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-138</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[행사] TELEFUNKEN - TELEFUNKEN</title>
@@ -316,96 +406,6 @@
       <guid isPermaLink="false">news-103</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Yamaha - DM5</title>
-      <link>https://news.ainsonic.com/n/news-52.html</link>
-      <description>야마하뮤직코리아가 컴팩트 디지털 믹싱 콘솔 DM5를 2026년 9월 11일 국내 공식 출시했습니다. DM7 시리즈와 GUI 및 데이터가 호환되며 Dante 네트워크를 기본 탑재했고, 한글 채널명 입력과 네 단계로 각도를 조절하는 틸트 디스플레이를 지원합니다. 중소규모 라이브 공연, 행사, 교회, 공연장, 강당을 주요 용도로 하며, Dante로 전용 I/O 박스를 연결하거나 옵션 PY-DSP 카드로 상위 콘솔의 플러그인을 추가할 수 있습니다. 전국 야마하 프로오디오 공식 판매점에서 구매할 수 있습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-52</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] EAW - EAW NT119S, NT219S</title>
-      <link>https://news.ainsonic.com/n/news-62.html</link>
-      <description>EAW가 Newport 시리즈의 액티브 서브우퍼 NT119S(싱글 19인치)와 NT219S(듀얼 19인치)를 새로 선보였다고 다산SR이 소개했습니다. NT119S는 4000W 앰프 내장에 최대 SPL 136dB, NT219S는 8000W에 142dB이며 두 모델 모두 25Hz까지 재생합니다. NT206L·NT208L 라인어레이와 짝을 이루는 저역용으로 플라잉·그라운드 스택 방식으로 투어, 페스티벌, 아레나 공연에 씁니다. 공인 파트너를 통해 구매할 수 있습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-62</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] 야마하뮤직코리아 - Yamaha DM5, DM5 Compact</title>
-      <link>https://news.ainsonic.com/n/news-63.html</link>
-      <description>야마하가 DM7 기반의 컴팩트 디지털 믹싱 콘솔 DM5 시리즈(DM5, DM5 Compact)를 공개했다고 다산SR이 소개했습니다. DM5는 60 입력 채널, 아날로그 32인/16아웃, 듀얼 페이더 베이이고, DM5 Compact는 48 입력 채널, 16인/16아웃, 싱글 페이더 베이 구성입니다. 두 모델 모두 13.3인치 메인 화면과 96kHz 기준 최대 64×64 Dante I/O, USB 18채널을 지원하며, 제조사는 중소규모 라이브, 기업 행사, 교회, 극장, 방송 용도를 대상으로 제시했습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-63</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Focusrite - Focusrite ISA C8X</title>
-      <link>https://news.ainsonic.com/n/news-96.html</link>
-      <description>Focusrite의 첫 ISA 오디오 인터페이스 ISA C8X가 국내에 입고되어 정식 출시를 앞두고 있다고 사운드캣이 전했습니다. 2U 랙 크기의 26인/28아웃 USB-C 인터페이스로, 8개의 마이크 프리앰프와 Lundahl LL1538 트랜스포머를 쓴 ISA 프리앰프, 24-bit/192kHz 변환을 갖췄습니다. 제조사는 모노·스테레오부터 7.1.4까지 모니터링을 지원하는 스튜디오 중심 장비로 소개했으며, 해외 가격은 2,299.99달러입니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-96</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Waldorf - Waldorf Protein</title>
-      <link>https://news.ainsonic.com/n/news-100.html</link>
-      <description>Waldorf의 데스크톱형 웨이브테이블 신디사이저 Protein이 사운드캣에 정식 입고됐습니다. 8보이스 폴리포닉에 최대 4개 레이어를 지원하며, 오리지널 Microwave 1 ASIC 오실레이터를 기반으로 합니다. 아르페지에이터, 스텝 시퀀서, 코드 모드, 리버브·딜레이·모듈레이션 이펙트를 갖췄고, 무게 0.9kg의 휴대하기 쉬운 크기에 150개 이상의 팩토리 프리셋을 제공합니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-100</guid>
-      <category>신제품</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[행사] Solid State Logic - SSL Live L350 Plus, ORIGIN EVO, System T S500m</title>
-      <link>https://news.ainsonic.com/n/news-2.html</link>
-      <description>SSL이 2026년 10월 7일 오후 7시 미국 텍사스대 댈러스(UT Dallas)에서 라이브·녹음·방송 믹싱을 잇는 라이브 데모 행사를 연다고 발표했습니다. 공연장의 SSL Live L350 Plus, 스튜디오 녹음용 ORIGIN EVO, 이머시브 방송 믹싱용 System T S500m 콘솔 3대를 Dante로 연결해 같은 공연을 동시에 믹싱합니다. 엔지니어·교육자·학생을 대상으로 스냅샷, 라우팅, Dante 구성을 다룹니다. 입장은 무료 선착순이며 Eventbrite에서 등록할 수 있습니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-2</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Sennheiser - Spectera</title>
-      <link>https://news.ainsonic.com/n/news-3.html</link>
-      <description>젠하이저가 10월 6~8일 함부르크 leat con에서 광대역 무선 시스템 Spectera를 중심으로 전시한다고 밝혔습니다. 새로 출시된 SKM 핸드헬드 송신기는 양방향 전송으로 배터리·RF 출력·오디오 레벨·신호 강도를 실시간 확인하고 게인과 로우컷을 원격 조정할 수 있습니다. 파트너 SoundBase의 RF 계획 앱은 Spectera를 지원하며, 새 Remote View 기능으로 제작팀이 모니터 데이터를 공유할 수 있습니다. 10월 8일에는 470~694MHz 대역 관련 패널 토론도 열립니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-3</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] CODA Audio - APSi-PRO, ViFORCE</title>
-      <link>https://news.ainsonic.com/n/news-4.html</link>
-      <description>CODA Audio 독일 법인이 2026년 10월 6~8일 함부르크 메세 LEaT con(스탠드 A1-B09)에 참가한다고 발표했습니다. 고정 설치용 라인소스 스피커 APSi-PRO와 4웨이 카디오이드 라인어레이 ViFORCE, 그리고 45Hz~21kHz 대역에서 지향성을 제어하는 WIDEBAND Cardioid 기술을 선보입니다. APSi-PRO는 투어용 APS-Pro 시리즈를 설치 현장용으로 발전시킨 제품입니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-4</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] IK Multimedia - TONEX Board</title>
-      <link>https://news.ainsonic.com/n/news-5.html</link>
-      <description>IK Multimedia가 9월 25~27일 독일 만하임에서 열리는 유럽 최대 기타 박람회 Guitar Summit 2026에 참가한다고 밝혔습니다. 부스(#142, Level 0)에서 기타 앰프·이펙트 모델링 페달보드 TONEX Board를 시연하며, 이 제품은 Tone Model 최대 4개 동시 사용, 76종 이펙트, 2,000개 Premium Tone Model, 5인치 터치스크린을 갖췄습니다. 현장 전문가가 장비 선택도 안내합니다.</description>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-5</guid>
-      <category>행사</category>
-      <category>기타</category>
     </item>
 
   </channel>
