@@ -9,6 +9,16 @@
     <lastBuildDate>Sun, 11 Oct 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>[신제품] WeissKlang - KlangFormer 2, V13 Special Edition</title>
+      <link>https://news.ainsonic.com/n/news-157.html</link>
+      <description>WeissKlang이 V13 모델링 마이크 전용 플러그인 KlangFormer 2를 공개했습니다. 기존보다 11개의 마이크 컬러레이션을 추가해 리본·진공관·트랜스포머 출력의 음색과 고조파 왜곡을 재현합니다. 인텐시티·에어·프록시미티 조절 컨트롤과 VU 미터, 입출력 컨트롤을 제공합니다. VST3·AU·AAX 포맷을 지원하며 V13 소유자에게는 무료입니다. 블랙 마감 한정판 V13 Special Edition도 함께 출시했습니다.</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-157</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
       <title>[신제품] NTU Systems - NMS-0112M</title>
       <link>https://news.ainsonic.com/n/news-145.html</link>
       <description>엔티유시스템즈가 HD-SDI 미니 분배기 NMS-0112M을 새로 내놨습니다. HD-SDI 입력 1개를 동일한 출력 12개로 분배하며, 일체형 브라켓으로 19인치 랙이 없는 곳에도 설치할 수 있는 미니 사이즈(250×30×60mm) 제품입니다. 입력 Lock LED로 신호 유무를 확인할 수 있고, 720p·1080i·1080p를 별도 설정 없이 자동 감지합니다. 팬쿨러가 없어 발열이 없고 5VDC 어댑터 전원으로 해외에서도 사용하기 쉽습니다.</description>
@@ -39,6 +49,46 @@
     </item>
 
     <item>
+      <title>[행사] Clear-Com - Arcadia Central Station, FreeSpeak II, FreeSpeak Icon</title>
+      <link>https://news.ainsonic.com/n/news-153.html</link>
+      <description>Clear-Com이 브라질 Rock in Rio 2026 페스티벌의 프로덕션 커뮤니케이션 인프라를 담당했습니다. Arcadia Central Station 시스템 4대와 무선 FreeSpeak II·FreeSpeak Icon 벨트팩 약 50대를 E1·IP 연결 트랜시버와 함께 배치해 다중 무대와 제작 구역을 커버했습니다. 현장 시스템은 Dante 전용 네트워크로 TV Globo 방송 시설과 연결되어 Clear-Com Eclipse 매트릭스 인프라와 오디오를 주고받았습니다.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-153</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Wharfedale Pro - 스피커·파워앰프 라인업</title>
+      <link>https://news.ainsonic.com/n/news-154.html</link>
+      <description>Wharfedale Pro가 콜롬비아의 신규 유통 파트너로 보고타의 Sonorizamos FMT S.A.S.를 발표했습니다. Sonorizamos는 2010년부터 프로오디오 시장에서 기술 전문성과 설치·A/S로 입지를 쌓은 업체입니다. Wharfedale Pro 측은 라틴·남미 시장의 장기적 확장에 대한 의지를 밝히며 콜롬비아 고객과의 관계 구축에 나서겠다고 전했습니다. 제품 라인업에는 스피커와 파워앰프 등이 포함됩니다.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-154</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Powersoft - UNICA</title>
+      <link>https://news.ainsonic.com/n/news-155.html</link>
+      <description>유타주 사우스조던의 새 야구장 The Ballpark at America First Square에 Powersoft UNICA 파워앰프 플랫폼 기반 음향 강화 시스템이 구축되었습니다. 야구 경기뿐 아니라 콘서트·커뮤니티 행사·연중 프로그램을 지원하는 다목적 설계로, 20대 이상의 앰프가 분산 배치되어 Dante 네트워크와 내장 DSP로 중앙 관리됩니다. 시공은 OneRevel이 맡았고 Fulcrum Acoustics 스피커와 연동됩니다.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-155</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] EAW - AC6 ADAPTive</title>
+      <link>https://news.ainsonic.com/n/news-156.html</link>
+      <description>캘리포니아주 웨스트레이크빌리지의 St. Jude's Catholic Church 예배당 주 음향 시스템이 EAW AC6 ADAPTive 컬럼 스피커로 교체되었습니다. DayTech Consulting이 Rat Sound Systems와 함께 AC6 4기를 양쪽에 2기씩 약 2.1m 어레이로 구성하고 EAW 18인치 서브우퍼 2기를 더했습니다. 기존 센터 클러스터를 없애 스테인드글라스를 가리지 않으면서 커버리지를 개선했습니다.</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-156</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
       <title>[행사] Sennheiser - TeamConnect Ceiling M Plus</title>
       <link>https://news.ainsonic.com/n/news-148.html</link>
       <description>중동 유통사 Venuetech가 10월 13일 두바이 알 쿠즈 교육센터에서 Sennheiser Middle East와 'Sennheiser Connect: Ceiling to Cloud' 워크숍을 엽니다. TeamConnect 컨퍼런싱 플랫폼을 시연하고 빔포밍·TruVoicelift, LUI·DeviceHub 제어 도구와 카메라 트래킹을 체험하는 실습형 프로그램입니다. 신제품 TeamConnect Ceiling M Plus는 천장 마이크 설치·운영을 간소화한 강화 빔포밍 기술을 갖췄습니다.</description>
@@ -56,6 +106,26 @@
       <guid isPermaLink="false">news-139</guid>
       <category>신제품</category>
       <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Sonora Cinematic - Penombra Celli, Penombra Viole</title>
+      <link>https://news.ainsonic.com/n/news-158.html</link>
+      <description>Sonora Cinematic이 Soundbox용 새 라이브러리 Penombra Celli와 Penombra Viole을 Founder's Locker 시리즈로 출시했습니다. Movimento Strings 녹음 세션에서 시작해 신스·기타 등과 레이어링 처리한 음원으로, Celli는 저역의 어두운 질감, Viole는 비올라 중역의 움직임을 담았습니다. 각 라이브러리에 12개 프리셋이 포함되고 Soundbox v1.3의 MPE 기능을 지원합니다. 영화·TV·게임 스코어링과 앰비언트 음악에 사용할 수 있습니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-158</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] IK Multimedia - Sinphonica Maestosa Strings</title>
+      <link>https://news.ainsonic.com/n/news-159.html</link>
+      <description>IK Multimedia가 새 Sinphonica 패밀리의 첫 컬렉션인 Sinphonica Maestosa Strings를 출시했습니다. 밀라노 Officine Meccaniche Studios에서 7년에 걸쳐 녹음한 60인조 스트링 오케스트라 라이브러리로, 5종의 트루 레가토 스타일과 40개 이상의 아티큘레이션, 다이내믹 레이어, 비브라토, 라운드로빈을 담았습니다. 8개의 마이크 포지션과 PALCO 가상 스테이지 포지셔닝을 지원하며 전체 컬렉션 또는 5개 섹션 개별 구매가 가능합니다.</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-159</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -336,76 +406,6 @@
       <guid isPermaLink="false">news-121</guid>
       <category>신제품</category>
       <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] RØDE - RØDE LPA1 로우 프로파일 프로페셔널 스튜디오 암 출시</title>
-      <link>https://news.ainsonic.com/n/news-122.html</link>
-      <description>RØDE가 레코딩 스튜디오, 팟캐스트, 방송 환경을 위한 로우 프로파일 마이크 암 LPA1을 출시했습니다. 모니터 하단 시야를 가리지 않는 수평 관절 설계와 케이블 매니지먼트 슬롯, 360도 무소음 힌지 텐션 기구를 장착했습니다. 고중량 방송용 마이크까지 안정적으로 지지하며 콤팩트한 방송 데스크 공간을 최적화합니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-122</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Allen &amp; Heath - A&amp;H Digital Training - Qu 정기 교육 (2026년 10월)</title>
-      <link>https://news.ainsonic.com/n/news-124.html</link>
-      <description>삼아사운드가 Allen &amp; Heath의 엔트리급 디지털 믹서 Qu 시리즈 정기 교육을 공지했습니다. 10월 7일(수) 오후 2시부터 5시까지 서울 종로구 삼아사운드 10층 대회의실에서 열리며 무료 주차와 점심 식사가 제공됩니다. 제품·시스템 이해, 입력·출력 설정, ME 퍼스널 믹서 활용, 현장 운용 실습을 다루고 신청은 삼아사운드 채널에서 받습니다.</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-124</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Cayin - Cayin Soul 170i</title>
-      <link>https://news.ainsonic.com/n/news-125.html</link>
-      <description>사운드캣이 Cayin의 플래그십급 진공관 인티앰프 Soul 170i의 국내 정식 출시를 알렸습니다. KT170 출력관 4개를 쓰는 Class AB 푸시풀 구성으로 울트라리니어 모드에서 채널당 130W, 트라이오드 모드에서 채널당 75W를 냅니다. XLR 1개와 RCA 3개 입력, 4Ω/8Ω 스피커 출력을 갖췄고 무게는 38.7kg입니다.</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-125</guid>
-      <category>신제품</category>
-      <category>컨슈머오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] DiGiCo - Quantum638 / Quantum638T 믹싱 콘솔</title>
-      <link>https://news.ainsonic.com/n/news-126.html</link>
-      <description>디지코가 Quantum 시리즈에 새 디지털 믹싱 콘솔 Quantum638을 추가했습니다. 256개 입력 채널과 128개 aux/서브그룹 버스를 갖췄고 17인치 터치스크린 3개와 100mm 모터 페이더 38개를 탑재했습니다. 싱글·듀얼 엔진 버전이 있으며 듀얼 DMI 카드 슬롯과 핫스왑 전원부를 제공합니다. 극장용 Quantum638T도 함께 나옵니다.</description>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-126</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] DJW Audio - Lustre</title>
-      <link>https://news.ainsonic.com/n/news-106.html</link>
-      <description>DJW Audio가 macOS용 트루 스테레오 알고리즘 리버브 플러그인 Lustre를 AU·VST3·AAX 포맷으로 출시했습니다. 홀·플레이트·룸·챔버·앰비언스·논리니어·스페이스 등 7개 알고리즘 계열과 계열별 10개씩 70개 프리셋을 제공하며, 16개 페이더로 잔향 시간·프리딜레이 등을 한 화면에서 조절합니다. IR 방식이 아닌 자체 알고리즘 엔진이며 Intel과 Apple Silicon Mac을 지원합니다. 가격은 £149(정가 £199)이고 14일 체험판이 제공됩니다.</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-106</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Benjamin Guerrero - ResoPlate, Sympiano v1.0.7</title>
-      <link>https://news.ainsonic.com/n/news-107.html</link>
-      <description>Benjamin Guerrero가 실시간 물리 시뮬레이션 방식의 플레이트 리버브 플러그인 ResoPlate를 출시하고, 무료 피아노 현 공명 플러그인 Sympiano를 v1.0.7로 업데이트했습니다. ResoPlate는 독립 플레이트 4개와 6종 금속 재질, 사이드체인 입력을 제공하며 macOS와 Windows를 지원합니다. Sympiano에는 사용자 프리셋과 Windows Arm64 지원 등이 추가됐습니다. ResoPlate 가격은 10월 31일까지 $39, 이후 정가 $59입니다.</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-107</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] xGG - Magic ACX</title>
-      <link>https://news.ainsonic.com/n/news-108.html</link>
-      <description>xGG가 오디오북 제작용 Windows VST3 실시간 오디오 프로세서·분석기 Magic ACX를 출시했습니다. 노이즈 감소, RMS 레벨 처리, 피크 제어 기능과 함께 노이즈 플로어·피크·RMS 분석 및 ACX 적합 여부 표시, 노이즈 프로파일 학습 기능을 제공합니다. Audible의 오디오북 플랫폼인 ACX 제출 기준에 맞춰 음원을 준비하려는 내레이터와 제작자를 대상으로 합니다. 가격은 $10이며 ko-fi.com에서 구매할 수 있습니다.</description>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-108</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
     </item>
 
   </channel>
