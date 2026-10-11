@@ -12,7 +12,7 @@
 ## 업계소식 (국내 업체)
 | 업체 | 홈페이지 | 수집 방법 | 메모 |
 |---|---|---|---|
-| 엔티유시스템즈 (NTU Systems) | http://ntusys.com/ | Tavily extract로 읽기 (https 미지원, 일반 fetch는 시간 초과) | HD 방송장비(비디오 믹서 등) 제조사. 별도 뉴스 게시판 없음 → 메인의 신제품 목록(`/inc/product_view.asp?nnum=` 번호가 커지면 새 제품)으로 신제품 확인. 마지막 확인 nnum=59 (NMS-0112, 2026-10-11; nnum=60은 설치사례 '군포신안교회'). 참고: 2026-10-11부터 일반 browser.open(http)도 정상 열림. |
+| 엔티유시스템즈 (NTU Systems) | http://ntusys.com/ | Tavily extract로 읽기 (https 미지원, 일반 fetch는 시간 초과) | HD 방송장비(비디오 믹서 등) 제조사. 별도 뉴스 게시판 없음 → 메인의 신제품 목록(`/inc/product_view.asp?nnum=` 번호가 커지면 새 제품)으로 신제품 확인. 마지막 확인 nnum=61 (2026-10-12; nnum=60은 설치사례 '군포신안교회', nnum=61은 빈 번호 → 새 제품 없음). 참고: 2026-10-11부터 일반 browser.open(http)도 정상 열림. |
 
 ## 업계 매체
 - Mixonline, Pro Sound News, AV 업계 전문지 등 공신력 있는 매체
