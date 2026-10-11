@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-10-10T23:37:28Z",
+  "generated_at": "2026-10-11T02:00:57Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 21,
-    "month": 142,
+    "week": 24,
+    "month": 145,
     "total": 151
   },
   "top_brands_week": [
+    {
+      "brand": "NTU Systems",
+      "count": 3
+    },
     {
       "brand": "Sennheiser",
       "count": 1
@@ -25,27 +29,23 @@
     {
       "brand": "Meyer Sound",
       "count": 1
-    },
-    {
-      "brand": "Listen",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 17,
-      "pct": 81
+      "count": 20,
+      "pct": 83
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 5
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
       "count": 3,
-      "pct": 14
+      "pct": 12
     },
     {
       "category": "기타",
@@ -56,13 +56,13 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 93,
-      "pct": 65
+      "count": 96,
+      "pct": 66
     },
     {
       "category": "컨슈머오디오",
       "count": 5,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
@@ -72,7 +72,7 @@
     {
       "category": "기타",
       "count": 15,
-      "pct": 11
+      "pct": 10
     }
   ]
 }
