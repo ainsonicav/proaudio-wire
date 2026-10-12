@@ -6,7 +6,67 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] NTU Systems - HS-100SC</title>
+      <link>https://news.ainsonic.com/n/news-160.html</link>
+      <description>엔티유시스템즈가 HDMI to SDI 스케일 컨버터 HS-100SC를 새로 내놨습니다. SDI(Full HD) 1채널 또는 HDMI 입력을 선택할 수 있고, 720p·1080i·1080p·2160P를 별도 설정 없이 자동 감지합니다. 1080p를 2160p30/60 4K로 업스케일링하고 4K를 1080으로 다운스케일링하며, 채널 전환 시 끊김 없는 Seamless 전환을 지원합니다. RS-232C 원격제어와 오디오 Mux/Demux, USB 펌웨어 업그레이드를 지원하고 12VDC 어댑터 전원을 사용합니다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-160</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] NTU Systems - NMS-0112H</title>
+      <link>https://news.ainsonic.com/n/news-161.html</link>
+      <description>엔티유시스템즈가 3G HD-SDI 분배기 NMS-0112H를 새로 내놨습니다. 3G HD-SDI 입력 1개를 12개의 3G HD-SDI와 3개의 HDMI로 동시에 출력하며, LCD 창으로 입력 신호를 실시간 영상으로 확인할 수 있습니다. LCD 자동 꺼짐과 ON/OFF 기능으로 고장을 줄였고, 720p·1080i·1080p를 별도 설정 없이 자동 감지합니다. 오디오 MUX(아날로그 L/R XLR 발란스)와 외부 입력 게인 -12dB~+40dB 조정, 오디오 Demux를 지원하며 팬쿨러 없이 동작합니다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-161</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] NEXO - GEO M10, MSUB15</title>
+      <link>https://news.ainsonic.com/n/news-162.html</link>
+      <description>아이슬란드 예술대학교의 Skriða 강의실·프레젠테이션 공간에 NEXO 시스템이 새로 설치됐습니다. AV 업체 Exton이 좌우 각 4통의 GEO M10 라인어레이(12도 3통+25도 다운필 1통)를 MSUB15 서브우퍼 1통 아래에 매달았고, NXAMP4X2Mk2 파워드 컨트롤러 2대로 구동합니다. NEXO NS-1 예측 소프트웨어로 설계했으며, 초기 측정부터 커미셔닝까지 3개월이 채 걸리지 않았습니다. 신학기 시작에 맞춰 완공됐습니다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-162</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] AES - AES</title>
+      <link>https://news.ainsonic.com/n/news-163.html</link>
+      <description>AES Show Nashville 2026의 키노트 프로그램이 공개됐습니다. 행사는 10월 30일~11월 1일 게일로드 오프리랜드 리조트에서 열리며, 12회 그래미 수상자 잭 화이트, 블랙버드 스튜디오 오너 존 맥브라이드, 22회 그래미 수상자 빈스 길의 키노트 인터뷰가 중심입니다. 프로듀서 발 가레이가 진행하는 돌리 파튼 헌정 세션, 로니 밀삽 인터뷰, 조지 마센버그의 3D 마스터클래스도 열립니다. 워렌 후아트가 노이만 CEO 야스민 리허스 인터뷰와 내슈빌 엔지니어 패널을 진행하고, 고 잭 더글러스 추모 세션도 마련됩니다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-163</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] DirectOut - DirectOut</title>
+      <link>https://news.ainsonic.com/n/news-164.html</link>
+      <description>DirectOut가 2025년 최우수 유통사 수상자를 발표했습니다. 글로벌 부문은 프랑스 Pilote Films(1982년 설립, 2013년부터 파트너십), EMEA 부문은 폴란드 Commercial Audio, APAC 부문은 Qvest Australia, LATAM 부문은 콜롬비아 Yamaki가 수상했습니다. 영업·사업개발 총괄 로렌조 사시는 수상자들이 탁월한 상업 성과뿐 아니라 전문성과 헌신, 현지 시장 지식을 보여줬다고 밝혔습니다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-164</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Funktion-One - Funktion-One</title>
+      <link>https://news.ainsonic.com/n/news-165.html</link>
+      <description>Funktion-One이 롭 스파이트를 테크니컬 마케팅 디렉터로 영입했습니다. 스파이트는 라이브·투어링·방송·기술 경영 분야에서 30년 이상 경력을 쌓았고, PA 업체와 FOH·모니터 엔지니어, 방송 제작·포스트 프로덕션을 거쳐 30년 넘게 오디오 전문 저널리스트로 활동했습니다. 앞으로 기술 커뮤니케이션과 제품 포지셔닝, 콘텐츠, 교육, 브랜드 전략을 맡아 엔지니어링·리더십 팀과 긴밀히 일합니다. 오랜 마케팅 디렉터 마이클 니콜슨의 뒤를 잇는 인사입니다.</description>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-165</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
 
     <item>
       <title>[신제품] WeissKlang - KlangFormer 2, V13 Special Edition</title>
@@ -345,66 +405,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-128</guid>
       <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Martin Audio - The Rex Rooms at 151 음향 인스톨레이션</title>
-      <link>https://news.ainsonic.com/n/news-129.html</link>
-      <description>Martin Audio가 영국 런던 첼시의 프리미엄 프라이빗 멤버스 클럽 'The Rex Rooms at 151'에 맞춤형 사운드 시스템을 구축했다고 발표했습니다. Evolve Install 사가 설계를 맡아 공간 인테리어와 완벽히 융합되는 고해상도 분산 스피커 솔루션을 시공했습니다.</description>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-129</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Q-SYS - Q-SYS Architect 입문 교육 (2026년 10월)</title>
-      <link>https://news.ainsonic.com/n/news-123.html</link>
-      <description>삼아사운드가 2026년 10월 Q-SYS Architect 입문 교육을 공지했습니다. 교육은 10월 8일(목) 오후 2시부터 6시까지 4시간 동안 서울 종로구 삼아사운드 11층 Q-SYS 체험센터에서 진행됩니다. 이수 후 시험에 합격하면 수료증이 발급되고 AVIXA RU 2점이 인정됩니다. 신청은 삼아사운드 카카오톡 채널로 받습니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-123</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Yamaha - 마테오 만쿠소 시그니처 일렉트릭 기타 ‘RS20MM’ 국내 출시</title>
-      <link>https://news.ainsonic.com/n/news-118.html</link>
-      <description>야마하뮤직코리아가 핑거스타일 테크니션 마테오 만쿠소의 시그니처 일렉트릭 기타 RS20MM을 국내 공식 출시했습니다. 레브스타(REVSTAR) 챔버 바디 설계를 계승하고 디마지오 PAF 36th 애니버서리 험버커 픽업 2기를 장착했습니다. 빈티지 선버스트 마감에 금장 하드웨어, 12프렛 커스텀 인레이를 적용해 정교한 핑거피킹 다이내믹스와 풍부한 레조넌스를 구현합니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-118</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] RØDE - RØDECaster Video v1.4 대규모 펌웨어 업데이트 (4K 캡처·Sync 지원)</title>
-      <link>https://news.ainsonic.com/n/news-119.html</link>
-      <description>RØDE가 비디오 올인원 콘솔 RØDECaster Video의 v1.4 펌웨어를 발표했습니다. 최대 4K UHD 30fps HDMI 카메라 입력을 개별 NDI 스트림 및 외장 SSD 개별 트랙 ISO 녹화로 지원하는 4K Capture Mode가 추가되었습니다. 여러 대의 로드캐스터 장비를 정밀 타임코드와 마스터-슬레이브로 연동하는 RØDECaster Sync 기능도 함께 도입되었습니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-119</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Polyend - Polyend 8트랙 퍼포먼스 루퍼 &amp; 드럼머신 페달 ‘Loop’ 전격 공개</title>
-      <link>https://news.ainsonic.com/n/news-120.html</link>
-      <description>폴리엔드(Polyend)가 4개의 독립 오디오 루프 트랙과 4트랙 샘플 기반 드럼머신을 결합한 8트랙 퍼포먼스 루퍼 Loop를 선보였습니다. 100종 이상의 스튜디오급 내장 이펙터, 직관적인 풋스위치 컨트롤, 스테레오 입출력 및 MIDI 클록 동기화를 탑재했습니다. 악기 루핑부터 비트 메이킹, 라이브 즉흥 연주까지 단일 페달보드에서 완결할 수 있습니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-120</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Shure - Shure MV6 Gen 2 USB 게이밍 &amp; 방송용 다이내믹 마이크 출시</title>
-      <link>https://news.ainsonic.com/n/news-121.html</link>
-      <description>슈어(Shure)가 스트리머와 콘텐츠 크리에이터를 위한 데스크톱 마이크 MV6 Gen 2를 출시했습니다. SM7B의 DSP 기술을 계승하여 보이스 아이솔레이션, 디지털 팝필터(Digital Popper Stopper), 실시간 룸 노이즈 리덕션을 USB-C 단일 연결로 구동합니다. MOTIV Mix 앱과 연동되어 복잡한 오디오 인터페이스 없이도 방송급 보컬 밸런스를 즉각 제공합니다.</description>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-121</guid>
-      <category>신제품</category>
       <category>프로오디오</category>
     </item>
 
