@@ -281,7 +281,8 @@
     "status": "published",
     "summary": "Violet Audio가 디지털 믹서 dMix 128용 펌웨어 V2를 발표했습니다. Mixer Split 기능으로 한 대의 dMix 128을 최대 4개의 독립 논리 믹서로 나눠 쓸 수 있고, 128채널을 64채널 96kHz 믹서 2대로 분리하는 구성도 가능합니다. 공유 프리앰프 게인 트래킹, 오프라인 에디터와 네트워크 매니저, 사용자 프로필 기반 접근 제어와 뮤지션용 퍼스널 믹스 인터페이스가 추가됐습니다. 매트릭스는 8x8에서 12x12로 확장됐습니다.",
     "type": "업데이트",
-    "imageTried": "2026-10-09:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FViolet-Audio-Mixer-Profile.jpeg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-142",
@@ -408,7 +409,8 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "imageTried": "2026-10-09:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FMOTU-OctaLite-300x250.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-135",

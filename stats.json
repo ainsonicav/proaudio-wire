@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T23:35:44Z",
+  "generated_at": "2026-10-12T02:31:34Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
     "week": 31,
-    "month": 152,
+    "month": 151,
     "total": 158
   },
   "top_brands_week": [
@@ -56,7 +56,7 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 100,
+      "count": 99,
       "pct": 66
     },
     {
