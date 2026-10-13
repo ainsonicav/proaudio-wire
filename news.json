@@ -11,7 +11,9 @@
     "productName": "One Connect",
     "status": "published",
     "summary": "IPC가 NAB New York 2026(10월 12~14일)에서 Dale Pro Audio 부스 내 특별 파트너로 WebRTC 기반 매트릭스 인터컴 플랫폼 One Connect를 시연합니다. 소프트웨어 인터컴과 물리 키패널을 결합한 IP 기반 시스템으로, 온프레미스·오프라인·클라우드 환경에서 보안과 저지연 통신을 지원합니다. One Link 키패널은 터치스크린과 프로그램 가능 버튼으로 포인트투포인트 호출·파티라인·IFB를 제공합니다.",
-    "type": "행사"
+    "type": "행사",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FIPC_One_Connect_Control.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-167",
@@ -25,7 +27,9 @@
     "productName": "FlexPoint FP12, SXC215",
     "status": "published",
     "summary": "미국 플로리다 파나마시티 Windmark Beach Church에 S&L Integration이 Martin Audio 시스템을 설치했습니다. 낮은 천장·기둥·시야선 제약을 해결하기 위해 전면 FlexPoint FP12 2대와 딜레이용 2대, 엔드파이어 배치의 플라잉 SXC215 카디오이드 서브우퍼 2대로 구성했습니다. DISPLAY3 3D 예측 소프트웨어로 설계를 검증했으며, 좌석 전역 최대 평균 100dBA·커버리지 편차 ±2.5dB를 목표로 삼았습니다.",
-    "type": "행사"
+    "type": "행사",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fproducts%2Fweb%2Ffp12-monitor.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-168",
@@ -39,7 +43,8 @@
     "productName": "IDL-3103, IDL-3203",
     "status": "published",
     "summary": "Immersive Design Labs가 AES Show 2026 Nashville(10월 30일~11월 1일, Gaylord Opryland)에서 Dangerous Music과 공동 부스 #608으로 IDL-3103(1인치)·IDL-3203(1/2인치) 마이크와 7.0.4 이머시브 캡처 어레이를 전시합니다. 두 마이크는 근접 효과 없이 20Hz~20kHz 응답을 제공하고, 어레이는 Dolby Atmos·Sony 360 Reality Audio를 지원합니다.",
-    "type": "행사"
+    "type": "행사",
+    "imageTried": "2026-10-13:g"
   },
   {
     "id": "news-169",
@@ -53,7 +58,9 @@
     "productName": "CONTOUR X CX 210 LT, CS 218, LINEAR 9",
     "status": "published",
     "summary": "크로아티아 오보냔섬 The Island Festival(5일간 하우스·테크노·일렉트로닉, 약 700명)에 HK Audio 시스템이 원형극장·바·풀·숲·Noir 파티보트 5곳에 배치됐습니다. 원형극장은 CS 218 서브우퍼 6대·CONTOUR X CX 210 LT 6대·C-DRIVE 8 PS X4 앰프랙 2대 구성으로, 서브우퍼는 저역 에너지 반사를 줄이기 위해 카디오이드 어레인지로 설치됐습니다.",
-    "type": "행사"
+    "type": "행사",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fhkaudio-production-dms.s3.eu-central-1.amazonaws.com%2Ffiles%2Fshares%2Fconcert-sound%2Fcontour-x%2Fcx210lt%2Fhk-audio-contour-x-210-lt-slanted.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-170",
@@ -67,7 +74,8 @@
     "productName": "AURI-RX1, AURI-D4, AURI-TX2N",
     "status": "published",
     "summary": "세인트루이스 James S. McDonnell Planetarium의 StarBay Theater(80피트 돔, 약 150석)에 Auri 청각 보조 시스템이 설치됐습니다. AURI-RX1 리시버 8대·AURI-D4 도킹 스테이션 2대·Dante 지원 AURI-TX2N 2채널 송신기로 구성되며, 전체 프로그램 믹스와 나레이션 전용 피드를 제공합니다. 설치 첫날 5~6명이 수신기를 요청했고 이후 보조 요청이 늘었다고 밝혔습니다.",
-    "type": "행사"
+    "type": "행사",
+    "imageTried": "2026-10-13:g"
   },
   {
     "id": "news-171",
@@ -81,7 +89,9 @@
     "productName": "2027 NAMM Show 공식 백라인 파트너",
     "status": "published",
     "summary": "NAMM이 CenterStaging을 2027 NAMM Show(1월 26~30일, 애너하임 컨벤션센터) 공식 백라인 파트너로 선정했습니다. Yamaha Grand Plaza Stage·RCF Arena Stage·TEC Awards·SheRocks Awards 등 여러 무대와 시상식의 백라인 장비 제공과 아티스트 요구 조율·운송·장비 확보를 담당합니다.",
-    "type": "행사"
+    "type": "행사",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FNAMM.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-160",
