@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-13T15:03:53Z",
+  "generated_at": "2026-10-13T23:48:41Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 35,
-    "month": 157,
-    "total": 164
+    "week": 41,
+    "month": 163,
+    "total": 170
   },
   "top_brands_week": [
     {
@@ -15,37 +15,37 @@
       "count": 5
     },
     {
-      "brand": "NEXO",
+      "brand": "IPC",
       "count": 1
     },
     {
-      "brand": "AES",
+      "brand": "Martin Audio",
       "count": 1
     },
     {
-      "brand": "DirectOut",
+      "brand": "Immersive Design Labs",
       "count": 1
     },
     {
-      "brand": "Funktion-One",
+      "brand": "HK Audio",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 29,
-      "pct": 83
+      "count": 35,
+      "pct": 85
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 3
+      "pct": 2
     },
     {
       "category": "레코딩소프트웨어",
       "count": 5,
-      "pct": 14
+      "pct": 12
     },
     {
       "category": "기타",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 105,
-      "pct": 67
+      "count": 111,
+      "pct": 68
     },
     {
       "category": "컨슈머오디오",
@@ -72,7 +72,7 @@
     {
       "category": "기타",
       "count": 15,
-      "pct": 10
+      "pct": 9
     }
   ]
 }
