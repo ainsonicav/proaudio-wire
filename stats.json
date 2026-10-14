@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-14T02:01:01Z",
+  "generated_at": "2026-10-14T23:33:15Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 38,
-    "month": 160,
-    "total": 170
+    "week": 45,
+    "month": 167,
+    "total": 177
   },
   "top_brands_week": [
     {
@@ -15,36 +15,36 @@
       "count": 5
     },
     {
-      "brand": "IPC",
-      "count": 1
-    },
-    {
       "brand": "Martin Audio",
-      "count": 1
+      "count": 2
     },
     {
-      "brand": "Immersive Design Labs",
-      "count": 1
+      "brand": "Solid State Logic",
+      "count": 2
     },
     {
-      "brand": "HK Audio",
+      "brand": "JBL Professional",
+      "count": 2
+    },
+    {
+      "brand": "SSOUNDS",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 32,
+      "count": 38,
       "pct": 84
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 3
+      "pct": 2
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
+      "count": 6,
       "pct": 13
     },
     {
@@ -56,7 +56,7 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 108,
+      "count": 114,
       "pct": 68
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 32,
+      "count": 33,
       "pct": 20
     },
     {
