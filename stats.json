@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-14T23:34:31Z",
+  "generated_at": "2026-10-15T01:36:45Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 45,
-    "month": 167,
+    "week": 29,
+    "month": 160,
     "total": 177
   },
   "top_brands_week": [
@@ -19,33 +19,33 @@
       "count": 2
     },
     {
-      "brand": "Solid State Logic",
-      "count": 2
-    },
-    {
-      "brand": "JBL Professional",
-      "count": 2
-    },
-    {
       "brand": "SSOUNDS",
+      "count": 1
+    },
+    {
+      "brand": "CODA Audio",
+      "count": 1
+    },
+    {
+      "brand": "LEA Professional",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 38,
-      "pct": 84
+      "count": 27,
+      "pct": 93
     },
     {
       "category": "컨슈머오디오",
-      "count": 1,
-      "pct": 2
+      "count": 0,
+      "pct": 0
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 13
+      "count": 2,
+      "pct": 7
     },
     {
       "category": "기타",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 114,
-      "pct": 68
+      "count": 112,
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
@@ -66,12 +66,12 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 33,
-      "pct": 20
+      "count": 29,
+      "pct": 18
     },
     {
       "category": "기타",
-      "count": 15,
+      "count": 14,
       "pct": 9
     }
   ]
