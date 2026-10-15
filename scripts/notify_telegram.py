@@ -47,10 +47,14 @@ import urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://news.ainsonic.com"
 
+# 필요한 저장소 Secret (Settings > Secrets and variables > Actions > Secrets):
+#   TELEGRAM_BOT_TOKEN  - BotFather가 준 봇 토큰
+#   TELEGRAM_CHAT_ID    - 채널 사용자명 또는 대상 chat_id 목록(쉼표 구분, 예: @proaudiowire,12345678)
 # 한 번에 모아서 보낼 최대 건수(배치 크기)와 전송 간 대기 시간(초).
 BATCH_SIZE = 20
 BATCH_PAUSE_SEC = 2.0
 SEND_PAUSE_SEC = 1.2
+TARGET_PAUSE_SEC = 0.25
 # 일시적(네트워크/429/5xx) 오류만 제한된 횟수로 재시도. 400대 단순 요청 오류
 # (잘못된 chat_id, HTML 파싱 오류 등)는 재시도해도 같은 결과라 제외.
 MAX_TRANSIENT_RETRIES = 2
@@ -165,9 +169,14 @@ def send_telegram_with_retry(token, chat_id, text):
 
 def main():
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
-    chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+    raw_chat_id = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
+    chat_ids = [c.strip() for c in raw_chat_id.split(",") if c.strip()]
 
-    missing = [n for n, v in (("TELEGRAM_BOT_TOKEN", token), ("TELEGRAM_CHAT_ID", chat_id)) if not v]
+    missing = []
+    if not token:
+        missing.append("TELEGRAM_BOT_TOKEN")
+    if not chat_ids:
+        missing.append("TELEGRAM_CHAT_ID")
     if missing:
         error(
             "저장소 Secret이 비어 있습니다: " + ", ".join(missing)
@@ -179,21 +188,31 @@ def main():
     if ":" not in token:
         error("TELEGRAM_BOT_TOKEN 형식이 이상합니다 (숫자:영문 형태여야 함).")
         sys.exit(1)
-    if not (chat_id.startswith("@") or chat_id.lstrip("-").isdigit()):
-        error(f"TELEGRAM_CHAT_ID는 @로 시작해야 합니다 (예: @proaudiowire). 현재 값 앞부분: {chat_id[:3]}...")
-        sys.exit(1)
+
+    for c in chat_ids:
+        if not (c.startswith("@") or c.lstrip("-").isdigit()):
+            error(f"TELEGRAM_CHAT_ID 항목은 @로 시작하거나 숫자(chat_id)여야 합니다: {c}")
+            sys.exit(1)
+
+    targets_desc = ", ".join(chat_ids)
 
     if os.environ.get("TEST_MESSAGE") == "1":
-        ok, why = send_telegram_with_retry(
-            token, chat_id,
+        test_msg = (
             "✅ <b>PRO AUDIO WIRE 연결 테스트</b>\n\n이 메시지가 보이면 새 소식 자동 알림이 정상 연결된 것입니다.\n"
-            f'<a href="{SITE_URL}">news.ainsonic.com</a>',
+            f'<a href="{SITE_URL}">news.ainsonic.com</a>'
         )
-        if ok:
-            notice(f"연결 테스트 메시지 전송 성공 → {chat_id}")
-            return
-        error(f"연결 테스트 전송 실패 ({chat_id}): {why}")
-        sys.exit(1)
+        test_fails = []
+        for i, cid in enumerate(chat_ids):
+            ok, why = send_telegram_with_retry(token, cid, test_msg)
+            if not ok:
+                test_fails.append(f"{cid}: {why}")
+            if i < len(chat_ids) - 1:
+                time.sleep(TARGET_PAUSE_SEC)
+        if test_fails:
+            error(f"연결 테스트 전송 실패: " + " | ".join(test_fails))
+            sys.exit(1)
+        notice(f"연결 테스트 메시지 전송 성공 → {targets_desc}")
+        return
 
     base_ref = os.environ.get("BASE_SHA", "").strip() or "HEAD^"
     head_ref = os.environ.get("HEAD_SHA", "").strip()
@@ -212,23 +231,28 @@ def main():
     new_items.sort(key=lambda i: not i.get("isDomestic"))
 
     sent, fails = 0, []
+    total_messages = len(new_items) * len(chat_ids)
     for batch_start in range(0, len(new_items), BATCH_SIZE):
         batch = new_items[batch_start:batch_start + BATCH_SIZE]
         for n, item in enumerate(batch):
-            ok, why = send_telegram_with_retry(token, chat_id, format_message(item))
-            if ok:
-                sent += 1
-            else:
-                fails.append(f"{item.get('id')}: {why}")
+            msg = format_message(item)
+            for c_idx, cid in enumerate(chat_ids):
+                ok, why = send_telegram_with_retry(token, cid, msg)
+                if ok:
+                    sent += 1
+                else:
+                    fails.append(f"{item.get('id')} ({cid}): {why}")
+                if c_idx < len(chat_ids) - 1:
+                    time.sleep(TARGET_PAUSE_SEC)
             if n < len(batch) - 1:
                 time.sleep(SEND_PAUSE_SEC)
         if batch_start + BATCH_SIZE < len(new_items):
             time.sleep(BATCH_PAUSE_SEC)
 
     if fails:
-        error(f"{sent}/{len(new_items)}건 전송, 실패 {len(fails)}건 → " + " | ".join(fails[:5]))
+        error(f"{sent}/{total_messages}건 전송(대상: {targets_desc}), 실패 {len(fails)}건 → " + " | ".join(fails[:5]))
         sys.exit(1)
-    notice(f"{sent}/{len(new_items)}건 전송 완료 → {chat_id} (기준 {compare_desc})")
+    notice(f"{sent}/{total_messages}건 전송 완료 → {targets_desc} (기준 {compare_desc})")
 
 
 if __name__ == "__main__":
