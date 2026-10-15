@@ -6,7 +6,77 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 14 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Sonnet - Echo III T5</title>
+      <link>https://news.ainsonic.com/n/news-179.html</link>
+      <description>Sonnet Technologies가 썬더볼트 5 외장 PCIe 확장 시스템 Echo III T5 패밀리를 전 세계 출시했습니다. 모듈·데스크톱·랙마운트 구성으로 최대 3장의 풀사이즈 PCIe 카드를 장착하며, Pro Tools용 Avid 인증을 받아 HDX 카드 1~3장을 지원합니다. 400W 전원 공급장치와 17dBA 저소음 냉각 팬을 갖춰 녹음 스튜디오와 편집실용입니다.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-179</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] TASCAM - AP-10</title>
+      <link>https://news.ainsonic.com/n/news-180.html</link>
+      <description>TASCAM이 2채널 안내방송용 SD 플레이어 AP-10을 발표했습니다. 다이렉트·싱글·인터벌·바이너리·프로그램 5가지 재생 모드를 제공하며, 바이너리 모드는 최대 250개 파일로 다국어 안내와 구역별 방송에 씁니다. GPIO와 OSC 외부 제어, 덕킹·듀얼모노 기능을 갖췄으며, 1U 하프랙 금속 섀시로 상업·공공시설용입니다.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-180</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Pliant Technologies - CrewCom Flex</title>
+      <link>https://news.ainsonic.com/n/news-181.html</link>
+      <description>Pliant Technologies가 프레임 없는 매트릭스 인터콤 플랫폼 CrewCom Flex를 NAB Show New York 2026(10월 21~22일, 자비츠 센터)에서 선보입니다. 유선·무선·가상 인터콤을 AES67·SMPTE ST 2110 IP망에 통합하며, 중앙 매트릭스 프레임 없이 각 패널이 분산 매트릭스로 동작합니다. CrewWare 2.0 소프트웨어로 설정·관리합니다.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-181</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] L-Acoustics - Soka, SB10i, 5XT, LA2Xi</title>
+      <link>https://news.ainsonic.com/n/news-182.html</link>
+      <description>캐나다 토론토의 공유오피스 운영사 iQ Offices가 1917년 개관한 유서 깊은 은행 홀에 L-Acoustics 음향 시스템을 설치했습니다. Soka 컬럼 스피커 3대와 SB10i 서브우퍼를 메인으로, 메자닌에는 5XT 3대를 배치하고 LA2Xi 앰프로 구동합니다. 대리석 보호를 위해 드릴 없이 실리콘 접착과 수직 파이프로 스피커를 띄워 설치했습니다.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-182</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] AtlasIED - Atmosphere AZM4-D, AS-5T</title>
+      <link>https://news.ainsonic.com/n/news-183.html</link>
+      <description>도미니카공화국 라스테레나스의 부티크 콘도미니엄 호텔 Project Amares에 AtlasIED 분산 음향 시스템이 설치됐습니다. Dante 지원 Atmosphere AZM4-D 4존 프로세서를 중심으로 AS-5T 스피커가 야외 수영장·정원·라운지를 커버합니다. 구역별 독립 음원·볼륨 제어가 가능하며, 비상 방송이 배경음악보다 우선합니다.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-183</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Sony - ECM-W5</title>
+      <link>https://news.ainsonic.com/n/news-184.html</link>
+      <description>소니가 영상 제작용 무선 마이크 시스템 ECM-W5를 발표했습니다. 송신기 2개와 수신기로 구성되며, 시야 확보 거리 최대 500m 전송과 32비트 플로트 녹음을 지원합니다. 송신기마다 64GB 내장 메모리로 백업 녹음이 가능하며, MI 슈로 카메라와 연결해 4채널 녹음과 타임코드를 지원합니다. 2026년 11월 출시 예정입니다.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-184</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Evergreen Audio - Version 26</title>
+      <link>https://news.ainsonic.com/n/news-185.html</link>
+      <description>Evergreen Audio가 미터링 소프트웨어 버전 26을 출시했습니다. Massive Meter·Massive Meter Pro·Meter Bridge Pro가 대상이며, 커스텀 미터 편집기와 전용 미터 창, 타임코드·HUI 카운터 지원, 스크리닝 모드, 오디오 유닛(AU) 지원을 추가했습니다. 2026년 1월 1일 이후 구매자는 무료로 업데이트되며, 2주 무료 체험도 제공됩니다.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-185</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[신제품] SSOUNDS - XTO 14X</title>
@@ -335,76 +405,6 @@
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-150</guid>
       <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Meyer Sound - Constellation(NADIA), Spacemap Go, Galileo GALAXY 816</title>
-      <link>https://news.ainsonic.com/n/news-151.html</link>
-      <description>브루클린의 라이브 공연장 National Sawdust가 Meyer Sound Constellation 시스템 업그레이드를 마쳤습니다. 기존 D-Mitri 프로세싱에서 NADIA 플랫폼으로 전환하고 Galileo GALAXY 816 네트워크 플랫폼을 추가했습니다. Milan AVB 네트워크에서 능동 음향과 증폭 오디오를 별도 경로로 처리하고, Spacemap Go가 증폭 오디오의 공간 믹싱을 담당합니다. 처리 경로는 3개로 늘어나 초기 반사음 제어가 추가됐습니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-151</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Listen - SCC-1</title>
-      <link>https://news.ainsonic.com/n/news-152.html</link>
-      <description>Listen이 이어버드·보청기 측정용 0.4cc 이어 커플러 SCC-1을 출시했습니다. IEC 60318-8 규격을 준수하며 최대 16kHz까지 측정할 수 있어 R&amp;D와 생산 테스트를 모두 겨냥합니다. 반복 가능한 장착을 위해 4종의 교체형 인서트(XS·S·M·L)를 제공하고 맞춤형 3D 프린팅 어댑터도 지원합니다. 1/4인치 측정 마이크를 장착하며 SCM-4 또는 SCM-4A 마이크와 패키지로도 구매할 수 있습니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-152</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Logitech - Rally Speaker 2 Pro, Rally Speaker 2 Max</title>
-      <link>https://news.ainsonic.com/n/news-140.html</link>
-      <description>로지텍이 Pro AV 시장에 진출하며 회의실용 스피커 Rally Speaker 2 Pro와 Rally Speaker 2 Max를 공개했습니다. 독자 기술인 Sound Shape를 적용해 웨이브필드 합성 원리로 소리를 청취 위치로 정밀하게 조향합니다. Pro 모델은 32개, Max 모델은 64개의 마이크로 드라이버를 탑재했고, 12미터 회의실에서 앞뒤 좌석 간 음량 차이가 거의 없다고 밝혔습니다. 상용 출시는 2027년 여름 예정입니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-140</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Violet Audio - dMix 128 펌웨어 V2</title>
-      <link>https://news.ainsonic.com/n/news-141.html</link>
-      <description>Violet Audio가 디지털 믹서 dMix 128용 펌웨어 V2를 발표했습니다. Mixer Split 기능으로 한 대의 dMix 128을 최대 4개의 독립 논리 믹서로 나눠 쓸 수 있고, 128채널을 64채널 96kHz 믹서 2대로 분리하는 구성도 가능합니다. 공유 프리앰프 게인 트래킹, 오프라인 에디터와 네트워크 매니저, 사용자 프로필 기반 접근 제어와 뮤지션용 퍼스널 믹스 인터페이스가 추가됐습니다. 매트릭스는 8x8에서 12x12로 확장됐습니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-141</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Lake People - MC100 랙마운트</title>
-      <link>https://news.ainsonic.com/n/news-142.html</link>
-      <description>Lake People이 모니터 컨트롤러 MC100용 19인치 전용 랙마운트를 내놨습니다. 2U 규격으로 표준 랙에 장착할 수 있으며 기존 MC100과 MC100 PRO, Violectric V550, V5902, V790에도 호환됩니다. MC100은 XLR, RCA, USB-C 5계통 입력과 개별 볼륨 조절이 가능한 밸런스드 출력 3계통, 서브우퍼 출력을 갖추고 헤드폰 앰프에 XFEED 회로를 탑재했습니다. 기존 제품에도 장착할 수 있으며 즉시 구매 가능합니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-142</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Boris FX - Samplitude 2026.5</title>
-      <link>https://news.ainsonic.com/n/news-144.html</link>
-      <description>Boris FX가 DAW Samplitude 2026.5를 공개했습니다. 스테레오, 서라운드, 이머시브 믹싱을 하나의 화면에서 다루는 Spatial Panner가 추가됐습니다. BandRack(주파수 대역별 플러그인 체인), Stream Deck OSC(Elgato Stream Deck 연동), CrumplePop SoundApp ARA(AI 스템 분리, 노이즈 제거) 플러그인이 포함됐습니다. EUCON 지원 개선과 32비트 정수 익스포트도 추가됐습니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-144</guid>
-      <category>업데이트</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Solid State Logic - SSL Live L650, L450, Live V5 소프트웨어</title>
-      <link>https://news.ainsonic.com/n/news-130.html</link>
-      <description>SSL 수입원 다산SR이 SSL Live 콘솔 L650·L450과 Live V5 소프트웨어의 특징을 정리했습니다. L450은 96kHz에서 240개 믹스 패스와 856 I/O, 19인치 멀티 터치스크린을 갖췄고 Dante 카드로 최대 32x32 연결이 가능합니다. V5에는 Meyer Sound Spacemap Go 몰입형 제어와 Shure ULX-D·Axient Digital 무선 마이크 제어가 통합됐습니다. 견적·시연 문의는 다산SR이 받습니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-130</guid>
-      <category>업데이트</category>
       <category>프로오디오</category>
     </item>
 

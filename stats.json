@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-15T01:36:45Z",
+  "generated_at": "2026-10-15T23:33:27Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 29,
-    "month": 160,
-    "total": 177
+    "week": 36,
+    "month": 167,
+    "total": 184
   },
   "top_brands_week": [
     {
@@ -19,33 +19,33 @@
       "count": 2
     },
     {
-      "brand": "SSOUNDS",
+      "brand": "Sonnet",
       "count": 1
     },
     {
-      "brand": "CODA Audio",
+      "brand": "TASCAM",
       "count": 1
     },
     {
-      "brand": "LEA Professional",
+      "brand": "Pliant Technologies",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 27,
-      "pct": 93
+      "count": 32,
+      "pct": 89
     },
     {
       "category": "컨슈머오디오",
-      "count": 0,
-      "pct": 0
+      "count": 1,
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 2,
-      "pct": 7
+      "count": 3,
+      "pct": 8
     },
     {
       "category": "기타",
@@ -56,23 +56,23 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 112,
+      "count": 117,
       "pct": 70
     },
     {
       "category": "컨슈머오디오",
-      "count": 5,
-      "pct": 3
+      "count": 6,
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 29,
+      "count": 30,
       "pct": 18
     },
     {
       "category": "기타",
       "count": 14,
-      "pct": 9
+      "pct": 8
     }
   ]
 }
