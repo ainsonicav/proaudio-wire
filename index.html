@@ -1090,12 +1090,18 @@
     .top-row .trend-updated,.top-row .trend-brands .cnt,.top-row .trend-ratio-row .pv,.top-row .notice-row .nr-date{color:#475569}
     .top-row .trend-col h3{color:#0f172a;font-size:0.72rem;margin:0 0 0.25rem}
     .top-row .trend-body{padding:0.45rem 0.75rem 0.5rem;gap:0.85rem}
-    body .top-row .trend-brand-btn{min-height:unset;display:flex;justify-content:flex-start;padding:0.08rem 0.25rem;font-size:0.78rem;line-height:1.25}
-    .top-row .trend-brands{gap:0.06rem}
-    .top-row .trend-brands .rk{width:0.95rem;height:0.95rem;font-size:0.6rem;line-height:0.95rem}
-    .top-row .trend-ratio-row{font-size:0.74rem;margin-bottom:0.2rem}
-    .top-row .trend-ratio-row .rl{width:4.8rem}
-    .top-row .trend-ratio-row .bar{height:6.5px;background:#e2e8f0}
+    /* 좌우 두 열의 줄 높이와 간격을 같게 맞춤 (한 줄 22px 기준) */
+    .top-row .trend-brands{gap:0 !important;margin:0;padding:0;list-style:none}
+    .top-row .trend-brands > li{height:22px;padding:0;display:flex;align-items:center}
+    body .top-row .trend-brand-btn{box-sizing:border-box;height:22px;min-height:22px;display:flex;align-items:center;justify-content:flex-start;gap:0.4rem;padding:0 0.25rem;font-size:0.78rem;line-height:22px}
+    .top-row .trend-brands .rk{width:0.95rem;height:0.95rem;font-size:0.6rem;line-height:0.95rem;flex-shrink:0}
+    .top-row .trend-brands .bn{flex:1;min-width:0;line-height:22px}
+    .top-row .trend-brands .cnt{min-width:2.2rem;text-align:right;line-height:22px}
+    .top-row .trend-ratio-row{height:22px;margin:0 !important;display:flex;align-items:center;font-size:0.74rem;line-height:22px}
+    .top-row .trend-col > div:not(.trend-brands){display:block}
+    .top-row .trend-ratio-row .rl{width:4.6rem;line-height:22px}
+    .top-row .trend-ratio-row .bar{flex:1;height:6.5px;background:#e2e8f0}
+    .top-row .trend-ratio-row .pv{width:2.6rem;line-height:22px}
     .top-row .notice-row .nr-content{color:#334155}
     @media (max-width:760px){.top-row{padding:0.6rem;border-radius:10px;align-items:stretch}}
     .top-row:not(:has(> section:not([hidden]))){display:none}
