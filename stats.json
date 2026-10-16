@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-16T01:32:54Z",
+  "generated_at": "2026-10-16T23:34:59Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 30,
-    "month": 161,
-    "total": 184
+    "week": 37,
+    "month": 168,
+    "total": 191
   },
   "top_brands_week": [
     {
@@ -15,27 +15,27 @@
       "count": 5
     },
     {
+      "brand": "Solid State Logic",
+      "count": 2
+    },
+    {
+      "brand": "NEXO",
+      "count": 2
+    },
+    {
       "brand": "Martin Audio",
       "count": 2
     },
     {
-      "brand": "Sonnet",
-      "count": 1
-    },
-    {
-      "brand": "TASCAM",
-      "count": 1
-    },
-    {
-      "brand": "Pliant Technologies",
+      "brand": "PK Sound",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 26,
-      "pct": 87
+      "count": 32,
+      "pct": 86
     },
     {
       "category": "컨슈머오디오",
@@ -44,8 +44,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 3,
-      "pct": 10
+      "count": 4,
+      "pct": 11
     },
     {
       "category": "기타",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 111,
-      "pct": 69
+      "count": 117,
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
@@ -66,13 +66,13 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 30,
-      "pct": 19
+      "count": 31,
+      "pct": 18
     },
     {
       "category": "기타",
       "count": 14,
-      "pct": 9
+      "pct": 8
     }
   ]
 }

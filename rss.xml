@@ -6,7 +6,77 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 15 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Solid State Logic - Bus Comp Classic</title>
+      <link>https://news.ainsonic.com/n/news-186.html</link>
+      <description>솔리드 스테이트 로직이 스테레오 버스 컴프레서 Bus Comp Classic을 출시했습니다. THAT 2181 VCA와 사이드체인 구조를 담은 1U 하드웨어로, 새로 추가된 VCA Drive 조절로 SuperAnalogue의 투명한 소리부터 4000 시리즈의 색채까지 조절할 수 있습니다. 6단계 사이드체인 하이패스 필터와 스테레오 외부 사이드체인 입력을 갖췄으며, 가격은 1,799달러입니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-186</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] PK Sound - T8, T18, Tx26</title>
+      <link>https://news.ainsonic.com/n/news-187.html</link>
+      <description>미국 캘리포니아의 마스터마인드 프로덕션 그룹이 PK 사운드 파트너 네트워크에 합류했습니다. T8 로봇 라인소스 엘리먼트 40개, T18 서브우퍼 12개, Tx26 포인트소스 모듈 8개로 구성된 시스템을 도입했습니다. PK Cell로 시스템을 구동하고 PK .dynamics 소프트웨어와 MOVE 모바일 앱으로 무선 제어하며, 기업 행사 현장에 투입됩니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-187</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Meyer Sound - LEOPARD, 2100-LFC, Galileo GALAXY</title>
+      <link>https://news.ainsonic.com/n/news-188.html</link>
+      <description>사운드 디자이너 바비 에이트켄이 뮤지컬 프라이드의 사운드 디자인을 마이어 사운드 시스템으로 구성했습니다. 런던 브리지 시어터에서는 좌우 각 10박스의 LEOPARD 라인어레이가 음악을, 7박스 센터 어레이가 보컬을 담당합니다. 2100-LFC 4개와 900-LFC, 갈릴레오 갤럭시 5대로 시스템을 처리하며, 프리뷰는 11월 12일 시작합니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-188</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] dBTechnologies - VIO L208, VIO S118R, IG2, IG3</title>
+      <link>https://news.ainsonic.com/n/news-189.html</link>
+      <description>독일 RÜ 옥토버페스트 2026에서 dBTechnologies VIO 시스템이 메인 사운드를 담당했습니다. 메인 텐트에 VIO L208 16개와 VIO S118R 서브우퍼 12개를 카디오이드 배치로 설치했습니다. 독립 전문가가 매일 5곳에서 소음을 측정하는 소음 제한 조건 아래, 구역별 레벨 조정으로 공연과 대화를 모두 만족시켰습니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-189</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] NEXO - ID14, ID24, IDS108, IDS110</title>
+      <link>https://news.ainsonic.com/n/news-190.html</link>
+      <description>아이슬란드 레이캬비크의 일본 레스토랑 시로에 NEXO ID 시리즈가 설치됐습니다. 메인 다이닝룸에는 ID14 5개와 IDS108 서브우퍼 2개가 천장 속에 숨겨졌고, 다실·가라오케룸·지하 바에도 ID14·ID24와 IDS108·IDS110이 들어갔습니다. 블루사운드 프로페셔널 스트리머로 오디오를 분배하고 Q-SYS로 직원이 제어합니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-190</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] 1 SOUND - CT212, SUB2112, CT28, SUB215</title>
+      <link>https://news.ainsonic.com/n/news-191.html</link>
+      <description>인도네시아 자카르타 치푸트라 대학교 디안 오디토리엄에 1 SOUND 시스템이 설치됐습니다. 메인 좌우에 3웨이 포인트소스 CT212와 SUB2112 서브우퍼를 플라잉했고, 100×50도 지향각으로 강연부터 라이브 공연까지 커버합니다. 휴대용 CT28·SUB215 시스템은 스테이지 필이나 추가 메인으로 활용할 수 있습니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-191</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Slate Digital - Complete Access, sonible 플러그인</title>
+      <link>https://news.ainsonic.com/n/news-192.html</link>
+      <description>슬레이트 디지털이 구독 라이브러리 컴플리트 액세스에 소니블의 AI 어시스트 플러그인을 추가했습니다. 소니블 플러그인은 오디오를 분석해 소스별 처리와 시작점을 제시하며, 사용자가 세부 조절할 수 있습니다. 기존 컴플리트 액세스의 이큐·컴프레서·리버브·딜레이와 함께 쓸 수 있고, 기존 구독자는 추가 요금 없이 이용하며 신규 구독자는 가입 시점부터 접근할 수 있습니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-192</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[신제품] Sonnet - Echo III T5</title>
@@ -334,76 +404,6 @@
       <description>유타주 사우스조던의 새 야구장 The Ballpark at America First Square에 Powersoft UNICA 파워앰프 플랫폼 기반 음향 강화 시스템이 구축되었습니다. 야구 경기뿐 아니라 콘서트·커뮤니티 행사·연중 프로그램을 지원하는 다목적 설계로, 20대 이상의 앰프가 분산 배치되어 Dante 네트워크와 내장 DSP로 중앙 관리됩니다. 시공은 OneRevel이 맡았고 Fulcrum Acoustics 스피커와 연동됩니다.</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-155</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] EAW - AC6 ADAPTive</title>
-      <link>https://news.ainsonic.com/n/news-156.html</link>
-      <description>캘리포니아주 웨스트레이크빌리지의 St. Jude's Catholic Church 예배당 주 음향 시스템이 EAW AC6 ADAPTive 컬럼 스피커로 교체되었습니다. DayTech Consulting이 Rat Sound Systems와 함께 AC6 4기를 양쪽에 2기씩 약 2.1m 어레이로 구성하고 EAW 18인치 서브우퍼 2기를 더했습니다. 기존 센터 클러스터를 없애 스테인드글라스를 가리지 않으면서 커버리지를 개선했습니다.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-156</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Sennheiser - TeamConnect Ceiling M Plus</title>
-      <link>https://news.ainsonic.com/n/news-148.html</link>
-      <description>중동 유통사 Venuetech가 10월 13일 두바이 알 쿠즈 교육센터에서 Sennheiser Middle East와 'Sennheiser Connect: Ceiling to Cloud' 워크숍을 엽니다. TeamConnect 컨퍼런싱 플랫폼을 시연하고 빔포밍·TruVoicelift, LUI·DeviceHub 제어 도구와 카메라 트래킹을 체험하는 실습형 프로그램입니다. 신제품 TeamConnect Ceiling M Plus는 천장 마이크 설치·운영을 간소화한 강화 빔포밍 기술을 갖췄습니다.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-148</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] MOTU - OctaLite</title>
-      <link>https://news.ainsonic.com/n/news-139.html</link>
-      <description>MOTU가 16x12 하프라크 USB 오디오 인터페이스 OctaLite를 출시했습니다. 콤보 XLR/TRS 마이크·라인·기타 입력 8개를 갖췄고 DSP 믹싱과 리버브, 4밴드 파라메트릭 EQ, 컴프레서, 게이트 이펙트를 내장했습니다. ADAT 광 입출력을 갖춰 다른 장비의 입력 확장용 익스팬더로도 쓸 수 있으며, 최대 192kHz 녹음과 2ms RTL 저지연 드라이버를 지원합니다. 가격은 849.95달러입니다.</description>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-139</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Sonora Cinematic - Penombra Celli, Penombra Viole</title>
-      <link>https://news.ainsonic.com/n/news-158.html</link>
-      <description>Sonora Cinematic이 Soundbox용 새 라이브러리 Penombra Celli와 Penombra Viole을 Founder's Locker 시리즈로 출시했습니다. Movimento Strings 녹음 세션에서 시작해 신스·기타 등과 레이어링 처리한 음원으로, Celli는 저역의 어두운 질감, Viole는 비올라 중역의 움직임을 담았습니다. 각 라이브러리에 12개 프리셋이 포함되고 Soundbox v1.3의 MPE 기능을 지원합니다. 영화·TV·게임 스코어링과 앰비언트 음악에 사용할 수 있습니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-158</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] IK Multimedia - Sinphonica Maestosa Strings</title>
-      <link>https://news.ainsonic.com/n/news-159.html</link>
-      <description>IK Multimedia가 새 Sinphonica 패밀리의 첫 컬렉션인 Sinphonica Maestosa Strings를 출시했습니다. 밀라노 Officine Meccaniche Studios에서 7년에 걸쳐 녹음한 60인조 스트링 오케스트라 라이브러리로, 5종의 트루 레가토 스타일과 40개 이상의 아티큘레이션, 다이내믹 레이어, 비브라토, 라운드로빈을 담았습니다. 8개의 마이크 포지션과 PALCO 가상 스테이지 포지셔닝을 지원하며 전체 컬렉션 또는 5개 섹션 개별 구매가 가능합니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-159</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[행사] K-array - Tornado KT2·KT2C, KY102 라인어레이, KS2P I, KGEAR GF82 I·GU210</title>
-      <link>https://news.ainsonic.com/n/news-149.html</link>
-      <description>중국 윈난성 달리 EDITION 리조트에 K-array·KGEAR 기반 구역별 음향 시스템이 구축됐습니다. 다이닝·로비·풀 구역에는 Tornado KT2 포인트소스와 KT2C 천장 스피커를, 볼룸에는 KY102 라인어레이와 매립형 KS2P I 서브우퍼를 배치했습니다. 테라스와 야외 바에는 내후성 KGEAR GF82 I 라인어레이와 GU210 서브우퍼를 설치해 주간 배경음악과 야간 공연에 대응합니다. 구역별 볼륨과 플레이리스트는 매트릭스·조닝 프로세서로 독립 제어합니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-149</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] JBL Professional - EON712·EON718S, PRX915·PRX918XLF</title>
-      <link>https://news.ainsonic.com/n/news-150.html</link>
-      <description>호치민의 가라오케(KTV) 업장 M Suite가 룸 크기에 맞춰 JBL Professional 시스템을 설치했습니다. 소형 룸은 EON712 파워드 스피커 2대와 EON718S 서브우퍼 1대, 중형은 EON710 2대를 추가해 후방 커버리지를 확장했고, 대형은 EON712 6대와 EON718S 2대를 사용했습니다. 시그니처 룸은 PRX915 6대를 서라운드로 배치하고 PRX918XLF 4대와 Soundcraft 믹서를 결합했습니다. 유통사 PGI의 KTV 첫 JBL 액티브 시스템 적용 사례입니다.</description>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-150</guid>
       <category>행사</category>
       <category>프로오디오</category>
     </item>
