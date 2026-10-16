@@ -264,7 +264,8 @@
     "status": "published",
     "summary": "Immersive Design Labs가 AES Show 2026 Nashville(10월 30일~11월 1일, Gaylord Opryland)에서 Dangerous Music과 공동 부스 #608으로 IDL-3103(1인치)·IDL-3203(1/2인치) 마이크와 7.0.4 이머시브 캡처 어레이를 전시합니다. 두 마이크는 근접 효과 없이 20Hz~20kHz 응답을 제공하고, 어레이는 Dolby Atmos·Sony 360 Reality Audio를 지원합니다.",
     "type": "행사",
-    "imageTried": "2026-10-13:g"
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fimmersivedesignlabs.com%2Fcdn%2Fshop%2Ffiles%2Fidl_400X400_ac5c82c0-3492-4667-ad05-1dfc71ca2e33.png%3Fv%3D1746641202%26width%3D2048&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-169",
@@ -295,7 +296,7 @@
     "status": "published",
     "summary": "세인트루이스 James S. McDonnell Planetarium의 StarBay Theater(80피트 돔, 약 150석)에 Auri 청각 보조 시스템이 설치됐습니다. AURI-RX1 리시버 8대·AURI-D4 도킹 스테이션 2대·Dante 지원 AURI-TX2N 2채널 송신기로 구성되며, 전체 프로그램 믹스와 나레이션 전용 피드를 제공합니다. 설치 첫날 5~6명이 수신기를 요청했고 이후 보조 요청이 늘었다고 밝혔습니다.",
     "type": "행사",
-    "imageTried": "2026-10-13:g"
+    "imageTried": "2026-10-16:g"
   },
   {
     "id": "news-171",
@@ -546,7 +547,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-10-13:g"
+    "imageTried": "2026-10-16:g"
   },
   {
     "id": "news-147",
@@ -561,7 +562,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-10-13:g"
+    "imageTried": "2026-10-16:g"
   },
   {
     "id": "news-148",
@@ -608,7 +609,7 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "imageTried": "2026-10-13:g"
+    "imageTried": "2026-10-16:g"
   },
   {
     "id": "news-151",
