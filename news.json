@@ -11,7 +11,9 @@
     "productName": "Spectera",
     "status": "published",
     "summary": "덴마크 극장 음향 제작사 Tone Art가 젠하이저의 무선 시스템 플랫폼 Spectera를 뮤지컬 제작에 도입했습니다. 하나의 바디팩 형식을 소프트웨어로 제어해 제작물 교체 시 설정을 간소화하고 장비 수를 줄였습니다. 초기 설치에서 라벨링·스캐닝·동기화 작업이 약 반나절 줄었고, 투어 시 소프트웨어에서 지역만 입력하면 준비가 끝납니다.",
-    "type": "행사"
+    "type": "행사",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FSennheiser-Spectera.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-194",
@@ -25,7 +27,8 @@
     "productName": "System T TCA Flypack",
     "status": "published",
     "summary": "Spiritland Productions가 사우스워크 대성당에서 열린 Max Richter의 Hamnet 공연을 SSL System T TCA Flypack으로 원격 믹싱해 애비 로드 스튜디오에서 실시간으로 바이닐에 커팅했습니다. 두 대의 T25 Tempest 엔진이 현장에서 믹스를 처리하고, 엔지니어는 애비 로드에서 S500 표면으로 일반 인터넷을 통해 조종했습니다. 제어 데이터 대역폭은 약 40Mbps였고, 약 120개 입력을 96kHz로 처리했습니다.",
-    "type": "행사"
+    "type": "행사",
+    "imageTried": "2026-10-17:g"
   },
   {
     "id": "news-195",
@@ -39,7 +42,9 @@
     "productName": "FOX3 302 Series",
     "status": "published",
     "summary": "Extron이 듀얼 디스플레이 워크스테이션용 광섬유 KVM 익스텐더 FOX3 302 시리즈를 발표했습니다. FOX3 T 302 송신기와 FOX3 SR 302 스케일링 수신기로 구성되며, 2개의 독립 HDMI 영상 신호와 USB, 스테레오 오디오, 제어, 3D 싱크를 광섬유로 전송합니다. 4K/60 4:4:4 해상도를 지원하고 FOX3 매트릭스 스위처와 호환됩니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FExtron-FOX3.png&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-196",
@@ -53,7 +58,9 @@
     "productName": "TD-07DMK2, TD-07KV2",
     "status": "published",
     "summary": "Roland이 입문용 전자드럼 TD-07 시리즈에 TD-07DMK2와 TD-07KV2 두 가지 키트를 추가했습니다. 두 키트 모두 V-Drums 3 시리즈 스네어·톰 패드와 듀얼 메시 헤드, KD-10 킥 패드를 갖추고 TD-07 모듈과 함께 동작합니다. 블루투스를 내장해 휴대전화 음악에 맞춰 연주하고 무선 오디오·MIDI를 쓸 수 있으며, 2026년 10월에 899.99달러와 1,099.99달러에 출시됩니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fr%2Froland_td-07-VZzctSIt.hnNHMWvC1DTc6XVXc2cS_uy.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-197",
@@ -67,7 +74,8 @@
     "productName": "PloseAssist",
     "status": "published",
     "summary": "NoiseWorks Audio가 보컬 녹음의 파열음을 자동으로 감지해 줄이는 무료 플러그인 PloseAssist를 출시했습니다. 파열음이 발생한 순간에만 약 250Hz 이하를 줄여 나머지 오디오는 그대로 두며, 문턱값 설정 없이 동작합니다. Amount와 Sub 두 가지 조절 기능을 제공하고, VST3·AU·AAX 형식으로 맥과 윈도우에서 쓸 수 있습니다. 무료 라이선스 키는 이메일로 받습니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageTried": "2026-10-17:g"
   },
   {
     "id": "news-186",
