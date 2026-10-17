@@ -233,7 +233,7 @@
     "status": "published",
     "summary": "영국-나이지리아 스피커 제조사 SSOUNDS가 대형 라인어레이 XTO 14X를 발표했습니다. 3웨이 4앰프 구성으로 14인치 저음 2개와 측면 10인치 2개로 카디오이드 저음 제어를 구현하고, 피크 153dB(1m 기준), 수평 70·110도 커버리지를 제공합니다. 각 유닛은 전용 D34X 앰프로 독립 구동하며, 스타디움·아레나·대규모 야외 공연용입니다.",
     "type": "신제품",
-    "imageTried": "2026-10-14:g"
+    "imageTried": "2026-10-17:g"
   },
   {
     "id": "news-173",
@@ -248,7 +248,8 @@
     "status": "published",
     "summary": "런던 메이페어의 웰니스 회원제 클럽 Tramp Health에 Evolve Install이 Martin Audio 멀티존 음향 시스템을 설치했습니다. 공용 공간에는 ADORN ACS-40T 천장 스피커와 ACS-55T를, 필라테스·HIIT실과 체육관에는 고출력 A80 캐비닛을 배치했습니다. 체육관의 A80T 6대는 100V 라인으로 동작하며, 개인 트레이닝 스위트에는 Q26 추가가 예정돼 있습니다.",
     "type": "행사",
-    "imageTried": "2026-10-14:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fproducts%2Fthumbs%2Facs-40t.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-174",
