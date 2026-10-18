@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-18T01:16:47Z",
+  "generated_at": "2026-10-18T23:53:15Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 38,
-    "month": 165,
-    "total": 196
+    "week": 41,
+    "month": 168,
+    "total": 199
   },
   "top_brands_week": [
     {
@@ -27,25 +27,25 @@
       "count": 2
     },
     {
-      "brand": "Sennheiser",
+      "brand": "IK Multimedia",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 31,
-      "pct": 82
+      "count": 32,
+      "pct": 78
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 3
+      "pct": 2
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 4,
-      "pct": 11
+      "count": 6,
+      "pct": 15
     },
     {
       "category": "기타",
@@ -56,7 +56,7 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 113,
+      "count": 114,
       "pct": 68
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 30,
-      "pct": 18
+      "count": 32,
+      "pct": 19
     },
     {
       "category": "기타",

@@ -39,6 +39,36 @@
     </item>
 
     <item>
+      <title>[신제품] IK Multimedia - ARC Studio+</title>
+      <link>https://news.ainsonic.com/n/news-198.html</link>
+      <description>IK Multimedia가 하드웨어 룸 보정 시스템 ARC Studio+를 발표했습니다. 측정 마이크를 본체에 직접 연결해 버튼 하나로 퀵 캘리브레이션을 실행하는 스탠드얼론 모드를 갖췄습니다. 서브우퍼 매니지먼트(크로스오버·레벨 매칭·위상 정렬)를 자동 처리하고 USB-C와 S/PDIF 디지털 입출력을 지원합니다. 온보드 DSP로 지연 없이 동작하며 전면 버튼으로 최대 세 개 프로필을 전환할 수 있습니다. 가격은 399.99달러, 현재 판매 중입니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-198</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Forma Labs Audio - Filament 1.2</title>
+      <link>https://news.ainsonic.com/n/news-199.html</link>
+      <description>Forma Labs Audio가 미디 오케스트레이션 Filament 1.2를 공개했습니다. 하나의 DAW 트랙에서 최대 64개의 악기를 호스팅하고 미디 라우팅과 보이스 분배를 처리합니다. 업데이트는 MPE 지원, 오토 디비시(코드 음을 파트별로 분배), 호스트 모드(DAW 편집 미디를 호스팅 악기로 재생)를 추가했습니다. 윈도우 10 이상과 맥OS 13 이상, VST3·스탠드얼론을 지원하고 가격은 149파운드입니다. 기존 사용자는 무료로 업데이트할 수 있습니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-199</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Zero-G - Elements Silentium</title>
+      <link>https://news.ainsonic.com/n/news-200.html</link>
+      <description>Zero-G가 시네마틱 가상 악기 Elements Silentium을 발표했습니다. Kontakt용 라이브러리로, 어두운 오가닉 텍스처와 에볼빙 스트링, 리추얼 보이스 등 24GB 분량의 소스를 600개 프리셋으로 담았습니다. 최신 영화 음악에서 영감을 얻어 분위기와 움직임을 표현하도록 설계됐습니다. VST3·AU·AAX를 지원하며 정식 버전 Kontakt 8.12.1 이상이 필요합니다. 출시 특가 126.95달러에 현재 판매 중입니다.</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-200</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
       <title>[신제품] Solid State Logic - Bus Comp Classic</title>
       <link>https://news.ainsonic.com/n/news-186.html</link>
       <description>솔리드 스테이트 로직이 스테레오 버스 컴프레서 Bus Comp Classic을 출시했습니다. THAT 2181 VCA와 사이드체인 구조를 담은 1U 하드웨어로, 새로 추가된 VCA Drive 조절로 SuperAnalogue의 투명한 소리부터 4000 시리즈의 색채까지 조절할 수 있습니다. 6단계 사이드체인 하이패스 필터와 스테레오 외부 사이드체인 입력을 갖췄으며, 가격은 1,799달러입니다.</description>
@@ -375,36 +405,6 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-164</guid>
       <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Funktion-One - Funktion-One</title>
-      <link>https://news.ainsonic.com/n/news-165.html</link>
-      <description>Funktion-One이 롭 스파이트를 테크니컬 마케팅 디렉터로 영입했습니다. 스파이트는 라이브·투어링·방송·기술 경영 분야에서 30년 이상 경력을 쌓았고, PA 업체와 FOH·모니터 엔지니어, 방송 제작·포스트 프로덕션을 거쳐 30년 넘게 오디오 전문 저널리스트로 활동했습니다. 앞으로 기술 커뮤니케이션과 제품 포지셔닝, 콘텐츠, 교육, 브랜드 전략을 맡아 엔지니어링·리더십 팀과 긴밀히 일합니다. 오랜 마케팅 디렉터 마이클 니콜슨의 뒤를 잇는 인사입니다.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-165</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] WeissKlang - KlangFormer 2, V13 Special Edition</title>
-      <link>https://news.ainsonic.com/n/news-157.html</link>
-      <description>WeissKlang이 V13 모델링 마이크 전용 플러그인 KlangFormer 2를 공개했습니다. 기존보다 11개의 마이크 컬러레이션을 추가해 리본·진공관·트랜스포머 출력의 음색과 고조파 왜곡을 재현합니다. 인텐시티·에어·프록시미티 조절 컨트롤과 VU 미터, 입출력 컨트롤을 제공합니다. VST3·AU·AAX 포맷을 지원하며 V13 소유자에게는 무료입니다. 블랙 마감 한정판 V13 Special Edition도 함께 출시했습니다.</description>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-157</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] NTU Systems - NMS-0112M</title>
-      <link>https://news.ainsonic.com/n/news-145.html</link>
-      <description>엔티유시스템즈가 HD-SDI 미니 분배기 NMS-0112M을 새로 내놨습니다. HD-SDI 입력 1개를 동일한 출력 12개로 분배하며, 일체형 브라켓으로 19인치 랙이 없는 곳에도 설치할 수 있는 미니 사이즈(250×30×60mm) 제품입니다. 입력 Lock LED로 신호 유무를 확인할 수 있고, 720p·1080i·1080p를 별도 설정 없이 자동 감지합니다. 팬쿨러가 없어 발열이 없고 5VDC 어댑터 전원으로 해외에서도 사용하기 쉽습니다.</description>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-145</guid>
-      <category>신제품</category>
       <category>프로오디오</category>
     </item>
 
