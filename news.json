@@ -11,7 +11,9 @@
     "productName": "ARC Studio+",
     "status": "published",
     "summary": "IK Multimedia가 하드웨어 룸 보정 시스템 ARC Studio+를 발표했습니다. 측정 마이크를 본체에 직접 연결해 버튼 하나로 퀵 캘리브레이션을 실행하는 스탠드얼론 모드를 갖췄습니다. 서브우퍼 매니지먼트(크로스오버·레벨 매칭·위상 정렬)를 자동 처리하고 USB-C와 S/PDIF 디지털 입출력을 지원합니다. 온보드 DSP로 지연 없이 동작하며 전면 버튼으로 최대 세 개 프로필을 전환할 수 있습니다. 가격은 399.99달러, 현재 판매 중입니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fikmultimedia.com%2Fcdn%2Fshop%2Ffiles%2Farc_studio_plus_prodmenu_2x_e5c724ff-33a2-4533-9679-5e0bbb0aad30.jpg%3Fv%3D1791443589%26width%3D1024&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-199",
@@ -25,7 +27,9 @@
     "productName": "Filament 1.2",
     "status": "published",
     "summary": "Forma Labs Audio가 미디 오케스트레이션 Filament 1.2를 공개했습니다. 하나의 DAW 트랙에서 최대 64개의 악기를 호스팅하고 미디 라우팅과 보이스 분배를 처리합니다. 업데이트는 MPE 지원, 오토 디비시(코드 음을 파트별로 분배), 호스트 모드(DAW 편집 미디를 호스팅 악기로 재생)를 추가했습니다. 윈도우 10 이상과 맥OS 13 이상, VST3·스탠드얼론을 지원하고 가격은 149파운드입니다. 기존 사용자는 무료로 업데이트할 수 있습니다.",
-    "type": "업데이트"
+    "type": "업데이트",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Ff%2Fforma_labs_audio_filament-1uZ0QzJnsOVBmdq83TBGqa6fMLrcZbjD.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-200",
@@ -39,7 +43,9 @@
     "productName": "Elements Silentium",
     "status": "published",
     "summary": "Zero-G가 시네마틱 가상 악기 Elements Silentium을 발표했습니다. Kontakt용 라이브러리로, 어두운 오가닉 텍스처와 에볼빙 스트링, 리추얼 보이스 등 24GB 분량의 소스를 600개 프리셋으로 담았습니다. 최신 영화 음악에서 영감을 얻어 분위기와 움직임을 표현하도록 설계됐습니다. VST3·AU·AAX를 지원하며 정식 버전 Kontakt 8.12.1 이상이 필요합니다. 출시 특가 126.95달러에 현재 판매 중입니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fz%2Fzero-g_silentium-WsDpc.yUTk7_iqPoMzHM3XrMQ8IFufxl.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-193",
