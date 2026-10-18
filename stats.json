@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-10-17T23:39:02Z",
+  "generated_at": "2026-10-18T01:16:47Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 42,
-    "month": 166,
+    "week": 38,
+    "month": 165,
     "total": 196
   },
   "top_brands_week": [
-    {
-      "brand": "NTU Systems",
-      "count": 5
-    },
     {
       "brand": "Solid State Logic",
       "count": 3
@@ -27,6 +23,10 @@
       "count": 2
     },
     {
+      "brand": "NTU Systems",
+      "count": 2
+    },
+    {
       "brand": "Sennheiser",
       "count": 1
     }
@@ -34,18 +34,18 @@
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 34,
-      "pct": 81
+      "count": 31,
+      "pct": 82
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 2
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
-      "pct": 12
+      "count": 4,
+      "pct": 11
     },
     {
       "category": "기타",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 114,
-      "pct": 69
+      "count": 113,
+      "pct": 68
     },
     {
       "category": "컨슈머오디오",
