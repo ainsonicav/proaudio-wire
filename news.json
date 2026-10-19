@@ -1,5 +1,33 @@
 [
   {
+    "id": "news-202",
+    "brand": "MOTU",
+    "category": "프로오디오",
+    "company": "MOTU",
+    "date": "2026-10-19",
+    "evidence": "The OctaLite is a 16-in, 12-out interface that operates via USB 2.0, and will deliver latency figures as low as 2ms when using MOTU's optimised drivers",
+    "isDomestic": false,
+    "link": "https://www.soundonsound.com/news/motu-introduce-octalite",
+    "productName": "OctaLite",
+    "status": "published",
+    "summary": "MOTU가 하프랙 USB 오디오 인터페이스 OctaLite를 출시했습니다. 16입력 12출력에 USB 2.0으로 연결되며 최적화 드라이버 사용 시 지연이 최저 2ms입니다. 마이크 프리앰프 8개를 내장한 하프랙 유일 제품으로, 개별 팬텀파워·-20dB 패드·극성 반전과 74dB 게인, EIN -129dB를 제공합니다. 리버브·4밴드 EQ·컴프레션·게이팅의 온보드 DSP와 ADAT 입출력을 갖췄고 판매가는 849.95달러입니다.",
+    "type": "신제품"
+  },
+  {
+    "id": "news-203",
+    "brand": "Past To Future",
+    "category": "레코딩소프트웨어",
+    "company": "Past To Future Plugins",
+    "date": "2026-10-17",
+    "evidence": "The PTF-350 by Past To Future Plugins is a detailed plugin recreation of a classic 1/4-inch studio tube tape recorder from the 1950s",
+    "isDomestic": false,
+    "link": "https://pasttofuturereverbs.gumroad.com/l/gkdxxy",
+    "productName": "PTF-350",
+    "status": "published",
+    "summary": "Past To Future Plugins가 테이프 레코더 플러그인 PTF-350을 출시했습니다. 1950년대 1/4인치 진공관 테이프 레코더를 회로도 재현과 뉴럴 모델링으로 복각했습니다. 녹음 앰프 3종 캡처와 테이프 포화·노이즈·재생 헤드를 재현하고 87초 분량 버추얼 테이프와 7.5·15 ips 두 속도를 제공합니다. VST3·AU(macOS), VST3(Windows)를 지원하고 출시 2주간 49달러, 이후 정가 79달러입니다.",
+    "type": "신제품"
+  },
+  {
     "id": "news-201",
     "brand": "Articulign",
     "category": "레코딩소프트웨어",

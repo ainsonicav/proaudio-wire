@@ -6,7 +6,27 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 17 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] MOTU - OctaLite</title>
+      <link>https://news.ainsonic.com/n/news-202.html</link>
+      <description>MOTU가 하프랙 USB 오디오 인터페이스 OctaLite를 출시했습니다. 16입력 12출력에 USB 2.0으로 연결되며 최적화 드라이버 사용 시 지연이 최저 2ms입니다. 마이크 프리앰프 8개를 내장한 하프랙 유일 제품으로, 개별 팬텀파워·-20dB 패드·극성 반전과 74dB 게인, EIN -129dB를 제공합니다. 리버브·4밴드 EQ·컴프레션·게이팅의 온보드 DSP와 ADAT 입출력을 갖췄고 판매가는 849.95달러입니다.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-202</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Past To Future - PTF-350</title>
+      <link>https://news.ainsonic.com/n/news-203.html</link>
+      <description>Past To Future Plugins가 테이프 레코더 플러그인 PTF-350을 출시했습니다. 1950년대 1/4인치 진공관 테이프 레코더를 회로도 재현과 뉴럴 모델링으로 복각했습니다. 녹음 앰프 3종 캡처와 테이프 포화·노이즈·재생 헤드를 재현하고 87초 분량 버추얼 테이프와 7.5·15 ips 두 속도를 제공합니다. VST3·AU(macOS), VST3(Windows)를 지원하고 출시 2주간 49달러, 이후 정가 79달러입니다.</description>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-203</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[행사] Sennheiser - Spectera</title>
@@ -385,26 +405,6 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-161</guid>
       <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] NEXO - GEO M10, MSUB15</title>
-      <link>https://news.ainsonic.com/n/news-162.html</link>
-      <description>아이슬란드 예술대학교의 Skriða 강의실·프레젠테이션 공간에 NEXO 시스템이 새로 설치됐습니다. AV 업체 Exton이 좌우 각 4통의 GEO M10 라인어레이(12도 3통+25도 다운필 1통)를 MSUB15 서브우퍼 1통 아래에 매달았고, NXAMP4X2Mk2 파워드 컨트롤러 2대로 구동합니다. NEXO NS-1 예측 소프트웨어로 설계했으며, 초기 측정부터 커미셔닝까지 3개월이 채 걸리지 않았습니다. 신학기 시작에 맞춰 완공됐습니다.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-162</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] AES - AES</title>
-      <link>https://news.ainsonic.com/n/news-163.html</link>
-      <description>AES Show Nashville 2026의 키노트 프로그램이 공개됐습니다. 행사는 10월 30일~11월 1일 게일로드 오프리랜드 리조트에서 열리며, 12회 그래미 수상자 잭 화이트, 블랙버드 스튜디오 오너 존 맥브라이드, 22회 그래미 수상자 빈스 길의 키노트 인터뷰가 중심입니다. 프로듀서 발 가레이가 진행하는 돌리 파튼 헌정 세션, 로니 밀삽 인터뷰, 조지 마센버그의 3D 마스터클래스도 열립니다. 워렌 후아트가 노이만 CEO 야스민 리허스 인터뷰와 내슈빌 엔지니어 패널을 진행하고, 고 잭 더글러스 추모 세션도 마련됩니다.</description>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-163</guid>
-      <category>행사</category>
       <category>프로오디오</category>
     </item>
 
