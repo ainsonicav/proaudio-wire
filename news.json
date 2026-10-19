@@ -11,7 +11,9 @@
     "productName": "GridVista",
     "status": "published",
     "summary": "작곡가 겸 프로듀서 리처드 데이비스의 아티큘라인이 맥 전용 앱 그리드비스타를 발표했습니다. 큐베이스와 누엔도 프로젝트 파일을 분석해 트랙 이름과 종류에 따라 악기 섹션과 라이브러리별 가시성 그룹을 만들고 아이패드용 메타그리드 프로 컨트롤 화면을 자동 생성합니다. 자주 쓰는 악기 조합은 씬으로 저장해 버튼 하나로 불러올 수 있습니다. 메타그리드 프로에서 49.99달러에 일회성 구매하며 맥OS 14 이상과 메타서버가 필요합니다.",
-    "type": "신제품"
+    "type": "신제품",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fmetagrid.app%2Fimages%2Fgridvista%2Farticulign-brand.png&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-198",
@@ -168,7 +170,7 @@
     "status": "published",
     "summary": "미국 캘리포니아의 마스터마인드 프로덕션 그룹이 PK 사운드 파트너 네트워크에 합류했습니다. T8 로봇 라인소스 엘리먼트 40개, T18 서브우퍼 12개, Tx26 포인트소스 모듈 8개로 구성된 시스템을 도입했습니다. PK Cell로 시스템을 구동하고 PK .dynamics 소프트웨어와 MOVE 모바일 앱으로 무선 제어하며, 기업 행사 현장에 투입됩니다.",
     "type": "행사",
-    "imageTried": "2026-10-16:g"
+    "imageTried": "2026-10-19:g"
   },
   {
     "id": "news-188",
@@ -548,7 +550,7 @@
     "status": "published",
     "summary": "세인트루이스 James S. McDonnell Planetarium의 StarBay Theater(80피트 돔, 약 150석)에 Auri 청각 보조 시스템이 설치됐습니다. AURI-RX1 리시버 8대·AURI-D4 도킹 스테이션 2대·Dante 지원 AURI-TX2N 2채널 송신기로 구성되며, 전체 프로그램 믹스와 나레이션 전용 피드를 제공합니다. 설치 첫날 5~6명이 수신기를 요청했고 이후 보조 요청이 늘었다고 밝혔습니다.",
     "type": "행사",
-    "imageTried": "2026-10-16:g"
+    "imageTried": "2026-10-19:g"
   },
   {
     "id": "news-171",
@@ -799,7 +801,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-10-16:g"
+    "imageTried": "2026-10-19:g"
   },
   {
     "id": "news-147",
@@ -814,7 +816,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-10-16:g"
+    "imageTried": "2026-10-19:g"
   },
   {
     "id": "news-148",
@@ -861,7 +863,7 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "imageTried": "2026-10-16:g"
+    "imageTried": "2026-10-19:g"
   },
   {
     "id": "news-151",
