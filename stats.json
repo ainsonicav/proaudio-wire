@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-19T23:41:42Z",
+  "generated_at": "2026-10-20T01:57:21Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 40,
+    "week": 32,
     "month": 171,
     "total": 202
   },
@@ -15,42 +15,42 @@
       "count": 3
     },
     {
-      "brand": "Martin Audio",
-      "count": 2
-    },
-    {
-      "brand": "NTU Systems",
-      "count": 2
-    },
-    {
       "brand": "MOTU",
       "count": 1
     },
     {
       "brand": "Past To Future",
       "count": 1
+    },
+    {
+      "brand": "Articulign",
+      "count": 1
+    },
+    {
+      "brand": "IK Multimedia",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 29,
-      "pct": 72
+      "count": 21,
+      "pct": 66
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 2
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
       "count": 8,
-      "pct": 20
+      "pct": 25
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 5
+      "pct": 6
     }
   ],
   "category_ratio_month": [

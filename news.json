@@ -124,7 +124,8 @@
     "status": "published",
     "summary": "Spiritland Productions가 사우스워크 대성당에서 열린 Max Richter의 Hamnet 공연을 SSL System T TCA Flypack으로 원격 믹싱해 애비 로드 스튜디오에서 실시간으로 바이닐에 커팅했습니다. 두 대의 T25 Tempest 엔진이 현장에서 믹스를 처리하고, 엔지니어는 애비 로드에서 S500 표면으로 일반 인터넷을 통해 조종했습니다. 제어 데이터 대역폭은 약 40Mbps였고, 약 120개 입력을 96kHz로 처리했습니다.",
     "type": "행사",
-    "imageTried": "2026-10-17:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fsolidstatelogic.com%2Fassets%2Fcomponents%2Fphpthumbof%2Fcache%2FRabbit_TCA.bee4624fd4299efc37fc62ad8f2e28a7.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-195",
@@ -171,7 +172,8 @@
     "status": "published",
     "summary": "NoiseWorks Audio가 보컬 녹음의 파열음을 자동으로 감지해 줄이는 무료 플러그인 PloseAssist를 출시했습니다. 파열음이 발생한 순간에만 약 250Hz 이하를 줄여 나머지 오디오는 그대로 두며, 문턱값 설정 없이 동작합니다. Amount와 Sub 두 가지 조절 기능을 제공하고, VST3·AU·AAX 형식으로 맥과 윈도우에서 쓸 수 있습니다. 무료 라이선스 키는 이메일로 받습니다.",
     "type": "신제품",
-    "imageTried": "2026-10-17:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fnoiseworksaudio.com%2Fwp-content%2Fuploads%2F2026%2F10%2Fbf32b8c5-8ee8-6b5a-c8c4-559f5d120514-scaled.png&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-186",
@@ -407,7 +409,7 @@
     "status": "published",
     "summary": "영국-나이지리아 스피커 제조사 SSOUNDS가 대형 라인어레이 XTO 14X를 발표했습니다. 3웨이 4앰프 구성으로 14인치 저음 2개와 측면 10인치 2개로 카디오이드 저음 제어를 구현하고, 피크 153dB(1m 기준), 수평 70·110도 커버리지를 제공합니다. 각 유닛은 전용 D34X 앰프로 독립 구동하며, 스타디움·아레나·대규모 야외 공연용입니다.",
     "type": "신제품",
-    "imageTried": "2026-10-17:g"
+    "imageTried": "2026-10-20:g"
   },
   {
     "id": "news-173",
