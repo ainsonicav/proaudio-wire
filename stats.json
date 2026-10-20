@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-20T01:57:21Z",
+  "generated_at": "2026-10-20T23:38:34Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 32,
-    "month": 171,
-    "total": 202
+    "week": 36,
+    "month": 175,
+    "total": 206
   },
   "top_brands_week": [
     {
@@ -15,27 +15,27 @@
       "count": 3
     },
     {
-      "brand": "MOTU",
-      "count": 1
-    },
-    {
-      "brand": "Past To Future",
-      "count": 1
-    },
-    {
-      "brand": "Articulign",
-      "count": 1
+      "brand": "Allen & Heath",
+      "count": 2
     },
     {
       "brand": "IK Multimedia",
+      "count": 2
+    },
+    {
+      "brand": "HK Audio",
+      "count": 1
+    },
+    {
+      "brand": "MOTU",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 21,
-      "pct": 66
+      "count": 25,
+      "pct": 69
     },
     {
       "category": "컨슈머오디오",
@@ -45,7 +45,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 8,
-      "pct": 25
+      "pct": 22
     },
     {
       "category": "기타",
@@ -56,18 +56,18 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 115,
-      "pct": 67
+      "count": 119,
+      "pct": 68
     },
     {
       "category": "컨슈머오디오",
       "count": 6,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
       "count": 34,
-      "pct": 20
+      "pct": 19
     },
     {
       "category": "기타",
