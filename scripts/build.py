@@ -234,7 +234,10 @@ def _link_scheme_ok(link):
 
 def validate_incoming(fresh):
     errors = []
-    today = datetime.now(timezone.utc).date()
+    # 2026-10-22: addedDate를 KST로 기록하므로 검증 기준일도 KST여야 함.
+    # UTC 기준이면 매일 00:00~09:00 KST(전날 15:00~24:00 UTC) 구간에서
+    # addedDate가 "미래 날짜"로 오판되어 08:30 크론이 항상 실패함.
+    today = _kst_today()
     for it in fresh:
         tag = it.get("brand", "") + " — " + (it.get("productName") or it.get("link", "(새 항목)"))
         link = str(it.get("link", ""))
