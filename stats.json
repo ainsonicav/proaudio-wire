@@ -1,26 +1,22 @@
 {
-  "generated_at": "2026-10-20T23:39:08Z",
+  "generated_at": "2026-10-21T00:40:03Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 36,
-    "month": 175,
+    "week": 27,
+    "month": 167,
     "total": 206
   },
   "top_brands_week": [
     {
       "brand": "Solid State Logic",
-      "count": 3
+      "count": 2
     },
     {
       "brand": "Allen & Heath",
-      "count": 2
-    },
-    {
-      "brand": "IK Multimedia",
-      "count": 2
+      "count": 1
     },
     {
       "brand": "HK Audio",
@@ -29,49 +25,53 @@
     {
       "brand": "MOTU",
       "count": 1
+    },
+    {
+      "brand": "Past To Future",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 25,
-      "pct": 69
+      "count": 17,
+      "pct": 63
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 3
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 8,
-      "pct": 22
+      "count": 7,
+      "pct": 26
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 6
+      "pct": 7
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 119,
+      "count": 114,
       "pct": 68
     },
     {
       "category": "컨슈머오디오",
-      "count": 6,
+      "count": 5,
       "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 34,
-      "pct": 19
+      "count": 33,
+      "pct": 20
     },
     {
       "category": "기타",
-      "count": 16,
+      "count": 15,
       "pct": 9
     }
   ]

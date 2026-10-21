@@ -13,6 +13,7 @@ import shutil
 import subprocess
 import sys
 import unittest
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import conftest_helper  # noqa: F401  (scripts/ 를 sys.path에 추가)
@@ -22,9 +23,21 @@ import build  # noqa: E402
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
+def _today():
+    """build.validate_incoming과 같은 기준(UTC)으로 오늘 날짜를 구합니다."""
+    return datetime.now(timezone.utc).date()
+
+
+def _ymd(d):
+    return d.strftime("%Y-%m-%d")
+
+
 def make_item(**over):
+    today = _ymd(_today())
     base = {
-        "date": "2026-09-20",
+        "date": today,
+        # 2026-10-21: 원문 발표일(sourceDate)은 필수이고 30일 안이어야 합니다.
+        "sourceDate": today,
         "company": "Example Co",
         "brand": "ExampleBrand",
         "type": "신제품",
@@ -71,6 +84,43 @@ class ValidateIncomingTests(unittest.TestCase):
         errs = build.validate_incoming([make_item(productName="", evidence="")])
         self.assertEqual(len(errs), 1)
         self.assertIn("productName", errs[0])
+
+    # --- 날짜 검사 (2026-10-21 추가) ---
+
+    def test_rejects_missing_source_date(self):
+        item = make_item()
+        item.pop("sourceDate")
+        errs = build.validate_incoming([item])
+        self.assertEqual(len(errs), 1)
+        self.assertIn("sourceDate", errs[0])
+
+    def test_rejects_stale_source_date(self):
+        old = _ymd(_today() - timedelta(days=build.MAX_SOURCE_AGE_DAYS + 5))
+        errs = build.validate_incoming([make_item(date=old, sourceDate=old)])
+        self.assertEqual(len(errs), 1)
+        self.assertIn("일 전", errs[0])
+
+    def test_accepts_source_date_at_limit(self):
+        edge = _ymd(_today() - timedelta(days=build.MAX_SOURCE_AGE_DAYS))
+        self.assertEqual(build.validate_incoming([make_item(date=edge, sourceDate=edge)]), [])
+
+    def test_rejects_future_date(self):
+        future = _ymd(_today() + timedelta(days=3))
+        errs = build.validate_incoming([make_item(date=future, sourceDate=future)])
+        # date와 sourceDate 둘 다 미래이므로 경고가 2건 나올 수 있음
+        self.assertGreaterEqual(len(errs), 1)
+        self.assertTrue(all("미래" in e for e in errs), errs)
+
+    def test_rejects_date_far_from_source_date(self):
+        # 몇 년 전 글을 오늘 날짜로 넣는 경우 (이번 사고 유형)
+        old = _ymd(_today() - timedelta(days=3))
+        stale = "2024-06-10"
+        errs = build.validate_incoming([make_item(date=old, sourceDate=stale)])
+        self.assertTrue(any("일 전" in e or "차이" in e for e in errs), errs)
+
+    def test_rejects_bad_date_format(self):
+        errs = build.validate_incoming([make_item(date="2026/10/21", sourceDate="2026/10/21")])
+        self.assertTrue(any("date 형식" in e for e in errs), errs)
 
     def test_does_not_touch_historical_items(self):
         """validate_incoming은 fresh(새 항목) 리스트만 보고, 과거 기록(validate)의

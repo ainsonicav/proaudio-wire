@@ -199,11 +199,23 @@ def brief(items, days=60):
 # 대신 생산자(수집 에이전트/제보자)에게 "출처 확인 책임"을 명시적으로 지우는 계약으로
 # 대체합니다: incoming/new.json의 각 항목은 (1) 원문 link가 https로 시작하는 절대 URL이고(https 미지원 사이트는
 # HTTP_ALLOWED_DOMAINS에 있는 도메인만 http 허용),
-# (2) productName 또는 evidence(원문 근거·인용) 중 적어도 하나는 비어있지 않아야 함.
+# (2) productName 또는 evidence(원문 근거·인용) 중 적어도 하나는 비어있지 않아야 하고,
+# (3) sourceDate(원문 발표일)를 YYYY-MM-DD로 적어야 하며 그 날짜가 30일 안이어야 함(2026-10-21 추가).
 # 조건을 못 맞추는 항목은 명확한 사유와 함께 거부되고(조용히 통과시키지 않음),
 # 어떤 과거 기록도 이 기준으로 재검사되거나 무효화되지 않습니다.
 # https를 지원하지 않는 사이트만 예외로 http:// 허용 (그 외 도메인은 https만).
 HTTP_ALLOWED_DOMAINS = {"ntusys.com", "www.ntusys.com"}
+
+# 원문 발표일(sourceDate)이 이보다 오래된 소식은 "새 소식"으로 받지 않습니다.
+# 2026-10-21: Gearspace 스레드처럼 몇 년 전 글을 오늘 날짜로 넣어 "최신 뉴스"가 된 사고가 있었다.
+MAX_SOURCE_AGE_DAYS = 30
+
+
+def _parse_ymd(value):
+    try:
+        return datetime.strptime(str(value).strip(), "%Y-%m-%d").date()
+    except (TypeError, ValueError):
+        return None
 
 
 def _link_scheme_ok(link):
@@ -217,6 +229,7 @@ def _link_scheme_ok(link):
 
 def validate_incoming(fresh):
     errors = []
+    today = datetime.now(timezone.utc).date()
     for it in fresh:
         tag = it.get("brand", "") + " — " + (it.get("productName") or it.get("link", "(새 항목)"))
         link = str(it.get("link", ""))
@@ -228,6 +241,28 @@ def validate_incoming(fresh):
         if not evidence and not product:
             errors.append(f"{tag}: productName 또는 evidence(원문 근거) 중 하나는 있어야 함 — "
                            "자동 요약/스펙마는 검증할 수 없으므로 생산자가 출처를 명시해야 함")
+
+        # 날짜 검사 (2026-10-21). date는 "게시일"이고, 원문 기사가 언제 나왔는지는 sourceDate에 적습니다.
+        d = _parse_ymd(it.get("date"))
+        if d is None:
+            errors.append(f"{tag}: date 형식 오류({it.get('date')!r}) — YYYY-MM-DD 필요")
+        elif d > today:
+            errors.append(f"{tag}: date가 미래 날짜임({d}) — 오늘({today}) 이후는 받지 않음")
+
+        sd = _parse_ymd(it.get("sourceDate"))
+        if sd is None:
+            errors.append(f"{tag}: sourceDate(원문 발표일)가 없거나 형식 오류({it.get('sourceDate')!r}) — "
+                           "원문 기사의 발표일을 YYYY-MM-DD로 넣어야 함(예전 글을 새 소식으로 올리는 것을 막는 필수 항목)")
+        else:
+            if sd > today:
+                errors.append(f"{tag}: sourceDate가 미래 날짜임({sd})")
+            age = (today - sd).days
+            if age > MAX_SOURCE_AGE_DAYS:
+                errors.append(f"{tag}: 원문 발표일이 {age}일 전({sd}) — {MAX_SOURCE_AGE_DAYS}일이 지난 소식은 새 소식으로 넣지 않음")
+            if d is not None and sd > d:
+                errors.append(f"{tag}: sourceDate({sd})가 date({d})보다 나중일 수 없음")
+            if d is not None and (d - sd).days > 1:
+                errors.append(f"{tag}: date({d})와 sourceDate({sd})가 2일 이상 차이 — 게시일은 원문 발표일과 같게")
     return errors
 
 

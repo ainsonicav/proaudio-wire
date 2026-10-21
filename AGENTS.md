@@ -24,10 +24,22 @@ python3 scripts/build.py
 
 명령을 실행하면 `news.json`을 읽고 검사한 뒤 `index.html`(일부 렌더링 영역), `n/*.html`, `rss.xml`, `sitemap.xml`, `stats.json` 파일이 업데이트되거나 새로 생성됩니다.
 
+## 새 소식 추가 계약 (incoming/new.json)
+
+수집 루틴이 만드는 각 항목은 아래를 지켜야 하며, `scripts/build.py --add`가 검사합니다(실패하면 그 항목만 거부됨).
+
+| 필드 | 필수 | 규칙 |
+| --- | --- | --- |
+| `link` | O | `https://` 절대 URL (http는 ntusys.com만 허용) |
+| `productName` / `evidence` | 최소 1개 | 원문 근거·인용 |
+| `date` | O | `YYYY-MM-DD`, 미래 불가, `sourceDate`와 같게 |
+| `sourceDate` | O | 원문 기사 발표일 `YYYY-MM-DD`, 오늘로부터 **30일 이내** |
+
+`sourceDate`가 필수인 이유: 2026-10-21 이전에는 수집한 날을 그대로 `date`에 넣어, 2024년 Gearspace 스레드가 "2026-10-17 최신 뉴스"로 사이트와 텔레그램에 나갔다. 원문 날짜를 적게 해야 빌드에서 검증할 수 있다.
+
 ## 규칙
 
-1.  **생성 파일 직접 수정 금지**: `index.html`, `n/*`, `rss.xml`, `sitemap.xml`, `stats.json` 등은 스크립트에 의해 자동 생성되므로 **절대 직접 수정하지 마십시오.** 변경이 필요하면 반드시 `scripts/` 내의 생성기(`build.py`, `pages.py`) 혹은 템플릿(코드 내부)을 수정하고 빌드 스크립트를 재실행해야 합니다.
-2.  `news.json` 데이터 및 스키마 임의 변경 금지: 사용자의 명시적인 요청이 없는 한 `news.json`의 원본 데이터나 구조(스키마)를 수정하지 마십시오.
+1.  **생성 파일 직접 수정 금지**: `index.html`, `n/*`, `rss.xml`, `sitemap.xml`, `stats.json` 등은 스크립트에 의해 자동 생성되므로 **절대 직접 수정하지 마십시오.** 변경이 필요하면 반드시 `scripts/` 내의 생성기(`build.py`, `pages.py`) 혹은 템플릿(코드 내부)을 수정하고 빌드 스크립트를 재실행해야 합니다.2.  `news.json` 데이터 및 스키마 임의 변경 금지: 사용자의 명시적인 요청이 없는 한 `news.json`의 원본 데이터나 구조(스키마)를 수정하지 마십시오.
 3.  **CSS 변경 제한**: 기존의 CSS 파일은 건드리지 마십시오. 새로운 섹션을 추가할 경우 해당 영역으로 범위를 제한하여 스타일을 적용하십시오.
 
 ## GitHub 워크플로 역할
