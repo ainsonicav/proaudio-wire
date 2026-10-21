@@ -15,6 +15,23 @@
 | `rss.xml`, `sitemap.xml`, `n/` | `scripts/build.py`가 `news.json`으로 자동 생성 |
 | `scripts/build.py` | `news.json` 형식 검사 + 생성 파일 만들기 (`scripts/pages.py` 사용) |
 
+## 테스트 실행
+
+테스트는 `tests/` 안에서 실행해야 합니다(모듈이 `conftest_helper`를 같은 폴더에서 가져옵니다).
+루트에서 `python -m unittest discover -s tests -t .`를 돌리면 `ModuleNotFoundError: conftest_helper`로 4개가 실패합니다.
+
+```powershell
+cd tests
+$env:PYTHONUTF8=1
+python -m unittest discover -s . -t .
+```
+
+기대 결과: `Ran 79 tests ... OK`. `build.py` 수정 후에는 `python scripts/build.py`도 같이 돌려 생성 파일이 어긋나지 않는지 확인합니다.
+
+## 새 소식 추가 계약 (incoming/new.json)
+
+`date`와 `sourceDate`는 **원문 기사 발표일**로 같게 넣고, `addedDate`는 수집한 날짜입니다(빌드가 자동으로 채움). 원문 발표일이 오늘로부터 30일을 넘으면 빌드가 그 항목을 거부합니다.
+
 ## 자동 업데이트가 할 일 (토큰 절약 순서)
 
 1. `python3 scripts/build.py --brief` — news.json(140KB+)을 통째로 읽지 말고 이 요약만 봅니다
@@ -43,6 +60,7 @@ GitHub Actions(사진 채우기)도 같은 스크립트로 이 파일들을 다�
 {
   "id": "news-100",
   "date": "2026-09-27",
+  "sourceDate": "2026-09-27",
   "company": "수입사/발표 주체 (예: 삼아프로사운드 (삼아사운드))",
   "brand": "브랜드 (예: Shure)",
   "productName": "제품명",
@@ -57,7 +75,8 @@ GitHub Actions(사진 채우기)도 같은 스크립트로 이 파일들을 다�
 }
 ```
 
-- `date`는 **게시일**입니다. 행사 개최일은 summary에 적어 주세요.
+- `date`는 **게시일**이고 값은 원문 발표일과 같습니다(`sourceDate`). 행사 개최일은 summary에 적어 주세요.
+- `addedDate`는 **수집일**(KST)이고 `scripts/build.py --add`가 자동으로 채웁니다. 직접 넣지 않아도 됩니다.
 - `summary`는 독자(교회·공연장 음향 담당, AV 설치업체, 방송·스튜디오 엔지니어) 입장의 3~4문장, 공백 포함 180~260자(최대 280자):
   ① 누가 무엇을 발표했는지(제품 종류를 쉬운 한국어로) ② 핵심 특징·사양 2~3개(원문 수치 그대로)
   ③ 어디에 쓰는지·무엇이 달라졌는지(원문 근거가 있을 때만) ④ 가격·출시 시기·국내 수입사·행사 일시/장소/신청 방법(있을 때).

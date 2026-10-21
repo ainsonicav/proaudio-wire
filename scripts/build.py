@@ -13,7 +13,7 @@ from urllib.parse import urlsplit
 import os
 import sys
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -211,6 +211,11 @@ HTTP_ALLOWED_DOMAINS = {"ntusys.com", "www.ntusys.com"}
 MAX_SOURCE_AGE_DAYS = 30
 
 
+def _kst_today():
+    """한국 날짜(UTC+9). 사이트 표시가 KST 기준이라 addedDate도 KST로 기록한다."""
+    return (datetime.now(timezone.utc) + timedelta(hours=9)).date()
+
+
 def _parse_ymd(value):
     try:
         return datetime.strptime(str(value).strip(), "%Y-%m-%d").date()
@@ -263,6 +268,14 @@ def validate_incoming(fresh):
                 errors.append(f"{tag}: sourceDate({sd})가 date({d})보다 나중일 수 없음")
             if d is not None and (d - sd).days > 1:
                 errors.append(f"{tag}: date({d})와 sourceDate({sd})가 2일 이상 차이 — 게시일은 원문 발표일과 같게")
+
+        # addedDate는 선택(과거 기록에는 없음). 있으면 형식과 미래 여부만 본다.
+        if it.get("addedDate"):
+            ad = _parse_ymd(it.get("addedDate"))
+            if ad is None:
+                errors.append(f"{tag}: addedDate 형식 오류({it.get('addedDate')!r}) — YYYY-MM-DD 필요")
+            elif ad > today:
+                errors.append(f"{tag}: addedDate가 미래 날짜임({ad})")
     return errors
 
 
@@ -281,6 +294,8 @@ def add(items, path):
             continue
         links.add(str(it.get("link", "")).rstrip("/"))
         it.setdefault("status", "published")
+        # 수집일(관리용). 2026-10-21부터 date는 "원문 발표일"이므로 수집 시점을 따로 남깁니다.
+        it.setdefault("addedDate", _kst_today().isoformat())
         fresh.append(it)
     # 국내 먼저, 그다음 프로오디오, 그다음 최신 날짜
     fresh.sort(key=lambda i: i.get("date", ""), reverse=True)

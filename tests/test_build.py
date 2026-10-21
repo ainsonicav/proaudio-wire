@@ -137,6 +137,30 @@ class ValidateIncomingTests(unittest.TestCase):
 
 
 class AddDedupTests(unittest.TestCase):
+    def test_sets_added_date_automatically(self):
+        """sourceDate 규칙으로 date가 원문 발표일이 되었으므로, 수집일은 addedDate에 따로 남긴다."""
+        incoming_path = _write_incoming([make_item(link="https://example.com/addeddate")])
+        try:
+            merged, fresh = build.add([], incoming_path)
+        finally:
+            os.unlink(incoming_path)
+        self.assertEqual(len(fresh), 1)
+        self.assertEqual(fresh[0]["addedDate"], _ymd(build._kst_today()))
+
+    def test_keeps_explicit_added_date(self):
+        incoming_path = _write_incoming([make_item(link="https://example.com/explicit", addedDate="2026-01-02")])
+        try:
+            merged, fresh = build.add([], incoming_path)
+        finally:
+            os.unlink(incoming_path)
+        self.assertEqual(fresh[0]["addedDate"], "2026-01-02")
+
+    def test_rejects_future_added_date(self):
+        future = _ymd(_today() + timedelta(days=2))
+        errs = build.validate_incoming([make_item(addedDate=future)])
+        self.assertEqual(len(errs), 1)
+        self.assertIn("addedDate", errs[0])
+
     def test_skips_duplicate_link(self):
         existing = [{**make_item(link="https://example.com/dup"), "id": "news-5"}]
         incoming_path = _write_incoming([make_item(link="https://example.com/dup", productName="Dup Product")])
