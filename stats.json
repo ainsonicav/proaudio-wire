@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-21T01:45:38Z",
+  "generated_at": "2026-10-21T23:57:06Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 27,
-    "month": 167,
-    "total": 206
+    "week": 30,
+    "month": 170,
+    "total": 209
   },
   "top_brands_week": [
     {
@@ -15,48 +15,48 @@
       "count": 2
     },
     {
+      "brand": "Technics",
+      "count": 1
+    },
+    {
+      "brand": "Yamaha",
+      "count": 1
+    },
+    {
+      "brand": "Temecula DSP",
+      "count": 1
+    },
+    {
       "brand": "Allen & Heath",
-      "count": 1
-    },
-    {
-      "brand": "HK Audio",
-      "count": 1
-    },
-    {
-      "brand": "MOTU",
-      "count": 1
-    },
-    {
-      "brand": "Past To Future",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 17,
-      "pct": 63
+      "count": 18,
+      "pct": 60
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 7,
-      "pct": 26
+      "count": 8,
+      "pct": 27
     },
     {
       "category": "기타",
-      "count": 2,
-      "pct": 7
+      "count": 3,
+      "pct": 10
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 114,
+      "count": 115,
       "pct": 68
     },
     {
@@ -66,12 +66,12 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 33,
+      "count": 34,
       "pct": 20
     },
     {
       "category": "기타",
-      "count": 15,
+      "count": 16,
       "pct": 9
     }
   ]

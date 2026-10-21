@@ -6,7 +6,27 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 20 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Technics - SL-1210MKX</title>
+      <link>https://news.ainsonic.com/n/news-208.html</link>
+      <description>테크닉스가 프로용 다이렉트 드라이브 DJ 턴테이블의 플래그십 신모델 SL-1210MKX를 10월 21일 암스테르담 댄스 이벤트에서 공개했습니다. SL-1210MK7의 상위 기종으로 더 무거운 섀시와 새로 설계된 아이솔레이션 피트를 갖춰 클럽·투어 환경의 진동과 음향 피드백에 강해졌습니다. SL-1200 시리즈 최초로 전용 ±4% 피치 레인지와 ±50% 레인지를 갖췄고 78rpm 재생·리버스·스타트 토크와 브레이크 속도 조절도 지원합니다. 2027년 1월 출시 예정이며 권장소비자가격은 1,499유로(1,299파운드)입니다.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-208</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Yamaha - CK76</title>
+      <link>https://news.ainsonic.com/n/news-209.html</link>
+      <description>야마하가 스테이지 건반 CK 시리즈의 신모델 CK76을 10월 21일 발표했습니다. 기존 CK61·CK88 라인업에 합류하는 76키 세미웨이트 스테이지 건반으로 내장 스피커와 배터리 구동을 갖췄습니다. 전원이나 별도 PA 없이도 바로 연주할 수 있어 이동 연주·리허설·소규모 공연에 어울리는 구성입니다.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-209</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
 
     <item>
       <title>[업데이트] Allen &amp; Heath - Qu V1.2</title>
@@ -26,6 +46,16 @@
       <guid isPermaLink="false">news-205</guid>
       <category>행사</category>
       <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Temecula DSP - LUX Collection (LUX81, LUX480, PT93)</title>
+      <link>https://news.ainsonic.com/n/news-210.html</link>
+      <description>테메큘라 DSP가 리버브·딜레이 플러그인 3종으로 구성된 LUX Collection을 출시했습니다. 렉시콘 PCM81에서 영감을 받은 리버브 LUX81, 480L 기반 리버브 LUX480, 프라임타임 93 기반 딜레이 PT93의 세 가지입니다. 가격은 LUX81과 LUX480이 각각 100달러, PT93이 75달러이며 세 제품을 묶은 LUX 번들은 243.75달러에 판매됩니다. Gearspace New Product Alert 게시판에 10월 19일 소개 글이 게시됐습니다.</description>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-210</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -374,36 +404,6 @@
       <description>Immersive Design Labs가 AES Show 2026 Nashville(10월 30일~11월 1일, Gaylord Opryland)에서 Dangerous Music과 공동 부스 #608으로 IDL-3103(1인치)·IDL-3203(1/2인치) 마이크와 7.0.4 이머시브 캡처 어레이를 전시합니다. 두 마이크는 근접 효과 없이 20Hz~20kHz 응답을 제공하고, 어레이는 Dolby Atmos·Sony 360 Reality Audio를 지원합니다.</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-168</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] HK Audio - CONTOUR X CX 210 LT, CS 218, LINEAR 9</title>
-      <link>https://news.ainsonic.com/n/news-169.html</link>
-      <description>크로아티아 오보냔섬 The Island Festival(5일간 하우스·테크노·일렉트로닉, 약 700명)에 HK Audio 시스템이 원형극장·바·풀·숲·Noir 파티보트 5곳에 배치됐습니다. 원형극장은 CS 218 서브우퍼 6대·CONTOUR X CX 210 LT 6대·C-DRIVE 8 PS X4 앰프랙 2대 구성으로, 서브우퍼는 저역 에너지 반사를 줄이기 위해 카디오이드 어레인지로 설치됐습니다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-169</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Auri - AURI-RX1, AURI-D4, AURI-TX2N</title>
-      <link>https://news.ainsonic.com/n/news-170.html</link>
-      <description>세인트루이스 James S. McDonnell Planetarium의 StarBay Theater(80피트 돔, 약 150석)에 Auri 청각 보조 시스템이 설치됐습니다. AURI-RX1 리시버 8대·AURI-D4 도킹 스테이션 2대·Dante 지원 AURI-TX2N 2채널 송신기로 구성되며, 전체 프로그램 믹스와 나레이션 전용 피드를 제공합니다. 설치 첫날 5~6명이 수신기를 요청했고 이후 보조 요청이 늘었다고 밝혔습니다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-170</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] CenterStaging - 2027 NAMM Show 공식 백라인 파트너</title>
-      <link>https://news.ainsonic.com/n/news-171.html</link>
-      <description>NAMM이 CenterStaging을 2027 NAMM Show(1월 26~30일, 애너하임 컨벤션센터) 공식 백라인 파트너로 선정했습니다. Yamaha Grand Plaza Stage·RCF Arena Stage·TEC Awards·SheRocks Awards 등 여러 무대와 시상식의 백라인 장비 제공과 아티스트 요구 조율·운송·장비 확보를 담당합니다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-171</guid>
       <category>행사</category>
       <category>프로오디오</category>
     </item>
