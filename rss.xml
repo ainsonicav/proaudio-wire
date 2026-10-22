@@ -6,7 +6,17 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 21 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] KLANG - DMI-KLANG</title>
+      <link>https://news.ainsonic.com/n/news-211.html</link>
+      <description>KLANG:technologies의 이머시브 인이어 모니터 믹싱 기술이 Hilary Duff의 'the lucky me tour'에 쓰이고 있다. 모니터 엔지니어 Nathan Bond는 DiGiCo Quantum338 콘솔에 DMI-KLANG 카드를 장착해 80채널이 넘는 입력과 토크백 채널을 관리하며, '모든 믹스에 KLANG을 쓰고 있다'고 밝혔다. Soundbox Productions가 장비를 공급했고, Rupert Neve Designs RMP-D8 프리앰프와 Dante 네트워크, MADI 플레이백 피드로 구성됐다.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-211</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
 
     <item>
       <title>[신제품] Technics - SL-1210MKX</title>
@@ -26,6 +36,16 @@
       <guid isPermaLink="false">news-209</guid>
       <category>신제품</category>
       <category>기타</category>
+    </item>
+
+    <item>
+      <title>[신제품] DAD - ST 2110-30 Expansion Card</title>
+      <link>https://news.ainsonic.com/n/news-212.html</link>
+      <description>Digital Audio Denmark(DAD)이 NAB New York에서 Thunder|Core 및 Penta 제품군용 ST 2110-30 확장 카드를 선보인다. Dale Pro Audio 부스 761번에서 공개되며, AES67과 RAVENNA 호환성을 더해 최대 128채널의 논블로킹 스트리밍을 지원한다. 내부 논블로킹 매트릭스는 최대 2048x2048까지 확장되고, 64채널 Pro|Mon 버스 서밍도 함께 제공한다.</description>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-212</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -384,26 +404,6 @@
       <description>IPC가 NAB New York 2026(10월 12~14일)에서 Dale Pro Audio 부스 내 특별 파트너로 WebRTC 기반 매트릭스 인터컴 플랫폼 One Connect를 시연합니다. 소프트웨어 인터컴과 물리 키패널을 결합한 IP 기반 시스템으로, 온프레미스·오프라인·클라우드 환경에서 보안과 저지연 통신을 지원합니다. One Link 키패널은 터치스크린과 프로그램 가능 버튼으로 포인트투포인트 호출·파티라인·IFB를 제공합니다.</description>
       <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-166</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Martin Audio - FlexPoint FP12, SXC215</title>
-      <link>https://news.ainsonic.com/n/news-167.html</link>
-      <description>미국 플로리다 파나마시티 Windmark Beach Church에 S&amp;L Integration이 Martin Audio 시스템을 설치했습니다. 낮은 천장·기둥·시야선 제약을 해결하기 위해 전면 FlexPoint FP12 2대와 딜레이용 2대, 엔드파이어 배치의 플라잉 SXC215 카디오이드 서브우퍼 2대로 구성했습니다. DISPLAY3 3D 예측 소프트웨어로 설계를 검증했으며, 좌석 전역 최대 평균 100dBA·커버리지 편차 ±2.5dB를 목표로 삼았습니다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-167</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Immersive Design Labs - IDL-3103, IDL-3203</title>
-      <link>https://news.ainsonic.com/n/news-168.html</link>
-      <description>Immersive Design Labs가 AES Show 2026 Nashville(10월 30일~11월 1일, Gaylord Opryland)에서 Dangerous Music과 공동 부스 #608으로 IDL-3103(1인치)·IDL-3203(1/2인치) 마이크와 7.0.4 이머시브 캡처 어레이를 전시합니다. 두 마이크는 근접 효과 없이 20Hz~20kHz 응답을 제공하고, 어레이는 Dolby Atmos·Sony 360 Reality Audio를 지원합니다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-168</guid>
       <category>행사</category>
       <category>프로오디오</category>
     </item>

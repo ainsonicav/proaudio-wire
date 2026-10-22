@@ -1,15 +1,23 @@
 {
-  "generated_at": "2026-10-22T01:39:36Z",
+  "generated_at": "2026-10-22T23:38:01Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 21,
-    "month": 165,
-    "total": 209
+    "week": 23,
+    "month": 168,
+    "total": 212
   },
   "top_brands_week": [
+    {
+      "brand": "KLANG",
+      "count": 1
+    },
+    {
+      "brand": "DAD",
+      "count": 1
+    },
     {
       "brand": "Technics",
       "count": 1
@@ -21,21 +29,13 @@
     {
       "brand": "Temecula DSP",
       "count": 1
-    },
-    {
-      "brand": "Allen & Heath",
-      "count": 1
-    },
-    {
-      "brand": "HK Audio",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 12,
-      "pct": 57
+      "count": 14,
+      "pct": 61
     },
     {
       "category": "컨슈머오디오",
@@ -45,19 +45,19 @@
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 29
+      "pct": 26
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 14
+      "pct": 13
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 114,
-      "pct": 69
+      "count": 117,
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
@@ -67,7 +67,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 31,
-      "pct": 19
+      "pct": 18
     },
     {
       "category": "기타",
