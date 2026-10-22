@@ -12,7 +12,9 @@
     "status": "published",
     "summary": "KLANG:technologies의 이머시브 인이어 모니터 믹싱 기술이 Hilary Duff의 'the lucky me tour'에 쓰이고 있다. 모니터 엔지니어 Nathan Bond는 DiGiCo Quantum338 콘솔에 DMI-KLANG 카드를 장착해 80채널이 넘는 입력과 토크백 채널을 관리하며, '모든 믹스에 KLANG을 쓰고 있다'고 밝혔다. Soundbox Productions가 장비를 공급했고, Rupert Neve Designs RMP-D8 프리앰프와 Dante 네트워크, MADI 플레이백 피드로 구성됐다.",
     "type": "행사",
-    "addedDate": "2026-10-23"
+    "addedDate": "2026-10-23",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.klang.com%2Fwp-content%2Fuploads%2F2025%2F10%2FDMI-Klang.png&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-212",
@@ -27,7 +29,9 @@
     "status": "published",
     "summary": "Digital Audio Denmark(DAD)이 NAB New York에서 Thunder|Core 및 Penta 제품군용 ST 2110-30 확장 카드를 선보인다. Dale Pro Audio 부스 761번에서 공개되며, AES67과 RAVENNA 호환성을 더해 최대 128채널의 논블로킹 스트리밍을 지원한다. 내부 논블로킹 매트릭스는 최대 2048x2048까지 확장되고, 64채널 Pro|Mon 버스 서밍도 함께 제공한다.",
     "type": "신제품",
-    "addedDate": "2026-10-23"
+    "addedDate": "2026-10-23",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FDAD-Interface.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-213",
@@ -42,7 +46,9 @@
     "status": "published",
     "summary": "Shure가 Axient Digital 무선 시스템용 소프트웨어 버전 1.6을 발표했다. 새로 추가된 Channel Linking은 AD4Q, AD4D, ADX5D와 Axient Digital 모드의 ANX4 수신 채널을 연결해 주파수, 송신기 등록, 암호화, 채널명 설정을 자동으로 상속받게 한다. Preferred Access Point는 다중 AD610 ShowLink 환경에서 송신기를 특정 액세스 포인트에 지정해 예측 가능한 연결을 만든다. Shure Update Utility로 다운로드할 수 있다.",
     "type": "업데이트",
-    "addedDate": "2026-10-23"
+    "addedDate": "2026-10-23",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FShure-Axient-Digital.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-208",
