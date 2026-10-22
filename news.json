@@ -325,7 +325,7 @@
     "status": "published",
     "summary": "미국 캘리포니아의 마스터마인드 프로덕션 그룹이 PK 사운드 파트너 네트워크에 합류했습니다. T8 로봇 라인소스 엘리먼트 40개, T18 서브우퍼 12개, Tx26 포인트소스 모듈 8개로 구성된 시스템을 도입했습니다. PK Cell로 시스템을 구동하고 PK .dynamics 소프트웨어와 MOVE 모바일 앱으로 무선 제어하며, 기업 행사 현장에 투입됩니다.",
     "type": "행사",
-    "imageTried": "2026-10-19:g"
+    "imageTried": "2026-10-22:g"
   },
   {
     "id": "news-188",
@@ -705,7 +705,8 @@
     "status": "published",
     "summary": "세인트루이스 James S. McDonnell Planetarium의 StarBay Theater(80피트 돔, 약 150석)에 Auri 청각 보조 시스템이 설치됐습니다. AURI-RX1 리시버 8대·AURI-D4 도킹 스테이션 2대·Dante 지원 AURI-TX2N 2채널 송신기로 구성되며, 전체 프로그램 믹스와 나레이션 전용 피드를 제공합니다. 설치 첫날 5~6명이 수신기를 요청했고 이후 보조 요청이 늘었다고 밝혔습니다.",
     "type": "행사",
-    "imageTried": "2026-10-19:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Feditmicro.co.za%2Fwp-content%2Fuploads%2F2026%2F04%2FAURI-RX1-Auri-Receiver.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-171",
@@ -956,7 +957,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-10-19:g"
+    "imageTried": "2026-10-22:g"
   },
   {
     "id": "news-147",
@@ -971,7 +972,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-10-19:g"
+    "imageTried": "2026-10-22:g"
   },
   {
     "id": "news-148",
@@ -1018,7 +1019,8 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "imageTried": "2026-10-19:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jbl-hrvatska.com%2Fwp-content%2Fuploads%2Fjbl-professional-audio-packages%2Feon712-eon718-pole-bundle-pair-b9.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-151",

@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-10-21T23:57:42Z",
+  "generated_at": "2026-10-22T01:39:36Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 30,
-    "month": 170,
+    "week": 21,
+    "month": 165,
     "total": 209
   },
   "top_brands_week": [
-    {
-      "brand": "Solid State Logic",
-      "count": 2
-    },
     {
       "brand": "Technics",
       "count": 1
@@ -29,35 +25,39 @@
     {
       "brand": "Allen & Heath",
       "count": 1
+    },
+    {
+      "brand": "HK Audio",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 18,
-      "pct": 60
+      "count": 12,
+      "pct": 57
     },
     {
       "category": "컨슈머오디오",
-      "count": 1,
-      "pct": 3
+      "count": 0,
+      "pct": 0
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 8,
-      "pct": 27
+      "count": 6,
+      "pct": 29
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 10
+      "pct": 14
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 115,
-      "pct": 68
+      "count": 114,
+      "pct": 69
     },
     {
       "category": "컨슈머오디오",
@@ -66,12 +66,12 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 34,
-      "pct": 20
+      "count": 31,
+      "pct": 19
     },
     {
       "category": "기타",
-      "count": 16,
+      "count": 15,
       "pct": 9
     }
   ]
