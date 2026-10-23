@@ -6,7 +6,57 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 22 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] RME - ADI-2/4 PRO EX</title>
+      <link>https://news.ainsonic.com/n/news-214.html</link>
+      <description>RME가 새 AD/DA 컨버터 ADI-2/4 PRO EX를 발표했습니다. AD/DA 변환과 듀얼 헤드폰 앰프, 클로킹, 디지털 신호 처리를 작은 본체에 담은 레코딩·마스터링·크리티컬 리스닝용 레퍼런스 장비입니다. 최대 768kHz 샘플레이트를 지원하고 재설계된 회로로 127 dBA 성능과 ELAR 기술, 정밀도 ±1ppm의 SteadyClock EX 클로킹을 갖췄습니다. 트루 밸런스드 헤드폰 출력과 DC·퓨즈리스 보호 회로가 포함됐습니다.</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-214</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Electro-Voice - EVOLVE G2 시리즈 (30M G2, 50 G2, 50M G2)</title>
+      <link>https://news.ainsonic.com/n/news-215.html</link>
+      <description>일렉트로보이스가 휴대용 컬럼 어레이 스피커 EVOLVE G2 시리즈를 2026년 10월 22일부터 전 세계 출시했습니다. 30M G2·50 G2·50M G2 세 모델 모두 1,500W 클래스 D 앰프를 탑재해 최대 음압이 125dB(30M G2), 129dB(50·50M G2)로 높아졌습니다. 컬러 LCD 화면과 개선된 블루투스, 피드백 억제, 자동 음량 낮춤 기능을 갖췄고 QuickSmart 앱 3.0으로 여러 대를 무선으로 함께 제어할 수 있습니다. 미국 가격은 1,499달러부터입니다.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-215</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] IK Multimedia - TONEX Free Unlimited</title>
+      <link>https://news.ainsonic.com/n/news-219.html</link>
+      <description>IK 멀티미디어가 기타·베이스 톤 소프트웨어의 무료 버전 TONEX 2 CS를 대폭 확장한 TONEX Free Unlimited를 발표했습니다. TONEX 버전 2.2 업데이트와 함께 제공되며 무료 ToneNET 다운로드와 Tone Model 생성이 무제한으로 열렸습니다. 프리미엄 Tone Model 40개와 Tone Partners 제작 80개를 합친 120개 Tone Model이 기본 포함되고 내장 이펙트 15개를 갖췄습니다. ToneNET 링크를 검색창에 붙여넣으면 바로 불러오는 기능도 추가됐습니다.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-219</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] fedDSP - ECO</title>
+      <link>https://news.ainsonic.com/n/news-220.html</link>
+      <description>fedDSP가 새 크리에이티브 딜레이 플러그인 ECO를 발표했습니다. 딜레이에 리버브·모듈레이션·컬러·웨트 신호 성형을 결합한 사운드 디자인용 플러그인입니다. 클린·테이프·아날로그·로파이 등 12개 딜레이 모드와 다섯 가지 내장 리버브 모드를 갖췄고, 원클릭 랜덤화와 설정 잠금, A/B 비교 기능을 지원합니다. 제로 레이턴시와 낮은 CPU 사용을 표방하며 설치 후 동글이나 인터넷 연결이 필요 없습니다.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-220</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Insta360 - Insta360 Mic</title>
+      <link>https://news.ainsonic.com/n/news-221.html</link>
+      <description>인스타360이 크리에이터용 무선 마이크 Insta360 Mic을 2026년 10월 22일 전 세계 출시했습니다. E-잉크 디스플레이를 자유롭게 꾸밀 수 있고 microSD 슬롯으로 32비트 플로트 내부 녹음이 가능한 무선 마이크입니다. AI 노이즈 캔슬링과 자동 게인 조절, 3가지 음색 프리셋을 지원하고 송신기 1대당 최대 13시간·충전 케이스 포함 최대 34시간 동작합니다. 1TX+1RX 구성은 139.99달러부터 판매 중입니다.</description>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-221</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
+    </item>
 
     <item>
       <title>[행사] KLANG - DMI-KLANG</title>
@@ -15,6 +65,36 @@
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-211</guid>
       <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] DiGiCo - Quantum112 Pulse·Quantum225 Pulse 소프트웨어 업그레이드</title>
+      <link>https://news.ainsonic.com/n/news-216.html</link>
+      <description>디지코가 Quantum112 펄스와 Quantum225 펄스 디지털 믹싱 콘솔용 소프트웨어 업그레이드를 배포했습니다. Quantum112 펄스는 입력 채널이 80개에서 96개로, aux·서브그룹 버스가 24개에서 48개로 늘어났고 매트릭스는 12×12로 확장됐습니다. Mustard 프로세싱 인스턴스는 20개에서 24개로, Nodal 프로세싱은 24개에서 32개로 증가했습니다. Quantum225 펄스는 입력이 96개에서 120개로 추가 비용 없이 늘어납니다.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-216</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Clear-Com - Mentrix Flex</title>
+      <link>https://news.ainsonic.com/n/news-217.html</link>
+      <description>클리어콤이 2026 NAB 쇼 뉴욕(부스 739)에서 새 인터콤 패널 Mentrix Flex를 공개했습니다. 물리적 조작부와 터치스크린을 결합한 하이브리드 패널로 방송·극장·중계차·라이브 이벤트용입니다. 16개 키셋(레버 키 8개, 로터리 키 8개 또는 16개)과 터치스크린 제어를 갖췄고, PoE 급전과 VESA 마운트, USB 연결, AoIP 네트워크 연결을 지원합니다. V시리즈 포트폴리오를 보완하는 Mentrix 라인의 첫 패널입니다.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-217</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Q-SYS - Q-SYS Microsoft Teams 인증 확대 (RoomSuite 모듈러·NC-90-G2·콜라보레이션 바)</title>
+      <link>https://news.ainsonic.com/n/news-218.html</link>
+      <description>QSC가 Q-SYS 제품 3종의 Microsoft Teams 인증을 추가로 획득했습니다. 인증 대상은 Q-SYS RoomSuite 모듈러 시스템, NC-90-G2 네트워크 카메라, 윈도우 기반 RoomSuite 콜라보레이션 바입니다. 세 가지 모두 Q-SYS Reflect로 관리되며 NC-90-G2와 조합하면 Teams Rooms에서 발언자 자동 화면 전환이 가능합니다. 콜라보레이션 바는 현재 50개국 이상에서 출하 중이며 공급 지역이 계속 늘어나고 있습니다.</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-218</guid>
+      <category>업데이트</category>
       <category>프로오디오</category>
     </item>
 
@@ -326,86 +406,6 @@
       <guid isPermaLink="false">news-185</guid>
       <category>업데이트</category>
       <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] SSOUNDS - XTO 14X</title>
-      <link>https://news.ainsonic.com/n/news-172.html</link>
-      <description>영국-나이지리아 스피커 제조사 SSOUNDS가 대형 라인어레이 XTO 14X를 발표했습니다. 3웨이 4앰프 구성으로 14인치 저음 2개와 측면 10인치 2개로 카디오이드 저음 제어를 구현하고, 피크 153dB(1m 기준), 수평 70·110도 커버리지를 제공합니다. 각 유닛은 전용 D34X 앰프로 독립 구동하며, 스타디움·아레나·대규모 야외 공연용입니다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-172</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Martin Audio - ADORN ACS-40T, ACS-55T, A80</title>
-      <link>https://news.ainsonic.com/n/news-173.html</link>
-      <description>런던 메이페어의 웰니스 회원제 클럽 Tramp Health에 Evolve Install이 Martin Audio 멀티존 음향 시스템을 설치했습니다. 공용 공간에는 ADORN ACS-40T 천장 스피커와 ACS-55T를, 필라테스·HIIT실과 체육관에는 고출력 A80 캐비닛을 배치했습니다. 체육관의 A80T 6대는 100V 라인으로 동작하며, 개인 트레이닝 스위트에는 Q26 추가가 예정돼 있습니다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-173</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] CODA Audio - N-RAY, SCN-F</title>
-      <link>https://news.ainsonic.com/n/news-174.html</link>
-      <description>일본 도쿄의 음향 전문업체 3NIL SOUND DESIGN이 CODA Audio N-RAY 라인어레이를 재고에 추가했습니다. 기존 포인트소스 시스템이 대형 공연에서 부족해 추가 렌탈이 필요했던 문제를 해결하기 위한 선택입니다. N-RAY는 비행·지상 적재가 가능한 3웨이 라인어레이로 SCN-F 센서 제어 서브우퍼와 LINUS DSP 앰프와 함께 쓰며, 요코하마 간나이홀 300석 공연에 처음 투입됐습니다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-174</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] LEA Professional - Connect Series</title>
-      <link>https://news.ainsonic.com/n/news-175.html</link>
-      <description>미국 신시내티 오픈 테니스 대회 시설 확장 공사에 LEA Professional 앰프 기반 음향 시스템이 도입됐습니다. 10개 경기 코트와 21개 연습 코트, 5개 신축 건물 등 54개 오디오 존을 Dante 지원 Connect 시리즈 앰프가 담당합니다. 경기장 음향과 전관 안내방송, 배경음악, 방송 음향 분배, 응급 안내방송을 지원하며, 채널별 80W부터 1500W까지 구성했습니다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-175</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Solid State Logic - ORIGIN 32, ORIGIN 16</title>
-      <link>https://news.ainsonic.com/n/news-176.html</link>
-      <description>미국 워싱턴주 쇼어라인 칼리지가 새로 연 Bracken 빌딩의 두 녹음 스튜디오에 Solid State Logic ORIGIN 아날로그 콘솔이 들어갔습니다. 스튜디오 A에는 ORIGIN 32, 스튜디오 B에는 ORIGIN 16을 배치해 두 스튜디오의 패치베이와 신호 흐름을 동일하게 맞췄습니다. 학생들은 녹음·믹싱·라우팅·게인 스테이징을 직접 다루며 배우고, MIDI 실습실에는 SSL 2+ MKII 인터페이스가 25대씩 설치됐습니다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-176</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] JBL Professional - VTX A8, VTX B18, SRX910, SRX928</title>
-      <link>https://news.ainsonic.com/n/news-177.html</link>
-      <description>영국 더비의 3500석 신규 공연장 Vaillant Live에 JBL Professional VTX 시스템이 설치됐습니다. 메인 시스템은 VTX A8 26대(좌우 각 13대)와 VTX B18 서브우퍼 8대로 구성했습니다. 소규모 공간용 이동 시스템으로 SRX910 8대와 SRX928 서브우퍼 2대도 함께 도입했으며, 설계는 IPW가, 시공은 NuWay Audio Visual이 맡았습니다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-177</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Universal Audio - FATSO Jr, FATSO Sr</title>
-      <link>https://news.ainsonic.com/n/news-178.html</link>
-      <description>Universal Audio가 Empirical Labs FATSO 테이프 시뮬레이터 플러그인의 네이티브 버전을 macOS·Windows용으로 출시했습니다. FATSO 설계자 Dave Derr과 협업해 오리지널 아날로그 하드웨어의 테이프식 포화와 컴프레션을 재현했습니다. Jr는 핵심 테이프 시뮬레이션과 컴프레션을, Sr는 확장된 컴프레션 컨트롤을 제공하며, 네 가지 컴프레션 모드와 사이드체인 필터, VST·AU·AAX 형식을 지원합니다.</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-178</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[행사] IPC - One Connect</title>
-      <link>https://news.ainsonic.com/n/news-166.html</link>
-      <description>IPC가 NAB New York 2026(10월 12~14일)에서 Dale Pro Audio 부스 내 특별 파트너로 WebRTC 기반 매트릭스 인터컴 플랫폼 One Connect를 시연합니다. 소프트웨어 인터컴과 물리 키패널을 결합한 IP 기반 시스템으로, 온프레미스·오프라인·클라우드 환경에서 보안과 저지연 통신을 지원합니다. One Link 키패널은 터치스크린과 프로그램 가능 버튼으로 포인트투포인트 호출·파티라인·IFB를 제공합니다.</description>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-166</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
     </item>
 
   </channel>

@@ -1,78 +1,78 @@
 {
-  "generated_at": "2026-10-23T01:41:49Z",
+  "generated_at": "2026-10-23T23:45:55Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 12,
-    "month": 162,
-    "total": 212
+    "week": 20,
+    "month": 170,
+    "total": 220
   },
   "top_brands_week": [
     {
-      "brand": "KLANG",
+      "brand": "RME",
       "count": 1
     },
     {
-      "brand": "DAD",
+      "brand": "Electro-Voice",
       "count": 1
     },
     {
-      "brand": "Technics",
+      "brand": "DiGiCo",
       "count": 1
     },
     {
-      "brand": "Yamaha",
+      "brand": "Clear-Com",
       "count": 1
     },
     {
-      "brand": "Temecula DSP",
+      "brand": "Q-SYS",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 7,
-      "pct": 58
+      "count": 12,
+      "pct": 60
     },
     {
       "category": "컨슈머오디오",
-      "count": 0,
-      "pct": 0
+      "count": 1,
+      "pct": 5
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 2,
-      "pct": 17
+      "count": 4,
+      "pct": 20
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 25
+      "pct": 15
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 113,
-      "pct": 70
+      "count": 118,
+      "pct": 69
     },
     {
       "category": "컨슈머오디오",
-      "count": 5,
-      "pct": 3
+      "count": 6,
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 30,
+      "count": 32,
       "pct": 19
     },
     {
       "category": "기타",
       "count": 14,
-      "pct": 9
+      "pct": 8
     }
   ]
 }
