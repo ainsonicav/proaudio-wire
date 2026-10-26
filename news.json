@@ -13,7 +13,9 @@
     "status": "published",
     "summary": "PSI Audio가 2026년 10월 31일부터 11월 1일까지 미국 테네시주 내슈빌 게이로드 오프리랜드 리조트에서 열리는 AES Show Nashville 2026에 참가합니다. 부스 508에서 Eleven Dimensions Media와 함께 전시합니다. 스튜디오 모니터 A17-M, A23-M, A226-MAIN과 액티브 베이스 트랩 AVAA C214을 선보입니다. AVAA는 기존 다공성 흡음재 최대 45배 크기에 맞먹는 흡음 성능을 낸다고 밝혔습니다.",
     "type": "행사",
-    "addedDate": "2026-10-27"
+    "addedDate": "2026-10-27",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.4rfv.co.uk%2Fimages%2Fimg_18.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-228",
@@ -29,7 +31,9 @@
     "status": "published",
     "summary": "MSolutions가 USB-C 노트북을 기존 HDMI 기반 AV 시스템에 연결하는 UniLink100 시리즈 연결 장치를 발표했습니다. 첫 제품 MS-UniLink100은 USB-C DisplayPort Alt Mode를 HDMI 2.0으로 변환하며 최대 4K60 4:4:4, 18Gbps, HDCP 2.1을 지원합니다. 4K 비디오 출력과 최대 100W 노트북 충전을 제공하며 드라이버가 필요 없습니다. 회의실, 교실, 협업 공간용이며 두 번째 장치는 2027년 1분기에 추가될 예정입니다.",
     "type": "신제품",
-    "addedDate": "2026-10-27"
+    "addedDate": "2026-10-27",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FMSolutions-UniLink100.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-229",
@@ -45,7 +49,9 @@
     "status": "published",
     "summary": "NUGEN Audio가 라우드니스 미터링 플러그인 VisLM 3을 출시했습니다. AES Nashville 2026에 앞서 공개된 신버전으로 스템 모니터링과 Jotter 기술 기반 타임스탬프 노트를 추가했습니다. 인터페이스를 새로 설계하고 이머시브 오디오 지원을 확대했습니다. 방송, 포스트, 팟캐스트, 음악, 이머시브 작업에 쓸 수 있습니다.",
     "type": "업데이트",
-    "addedDate": "2026-10-27"
+    "addedDate": "2026-10-27",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FNUGEN-VisLM-3.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-230",
@@ -61,7 +67,9 @@
     "status": "published",
     "summary": "NoiseWorks Audio가 플러그인 4종을 묶은 Complete Bundle을 출시했습니다. 보컬·대화 편집용 VoiceAssist Advanced, 실시간 보컬 라이더 GainAim, 트랜지언트 분리 도구 TranSplit, 트랜지언트 디자이너 Enshape로 구성됩니다. 가격은 349달러, 299파운드, 349유로이며 개별 구매보다 20% 이상 저렴합니다. 각 플러그인은 별도 라이선스로 2대 기기에서 쓸 수 있습니다.",
     "type": "신제품",
-    "addedDate": "2026-10-27"
+    "addedDate": "2026-10-27",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fn%2Fnoiseworks_audio_complete_bundle-LKcw9_6ARWlYKnznuNgDoHnQuzXVYd1O.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-226",
