@@ -351,7 +351,7 @@
     "status": "published",
     "summary": "앨런앤히스가 최신 세대 Qu 디지털 믹서용 펌웨어 Qu V1.2를 무료로 공개했습니다. 유료 애드온인 Dante 32×32 업그레이드로 Dante 용량이 16×16에서 32×32 채널로 확장됐으며, 윈도우·맥용 Qu-MixPad와 오프라인 쇼 준비 모드가 추가됐습니다. 입력 채널 익스팬더, 리슨 버스, DCA 스필 기능도 포함돼 라이브·방송·설치 환경의 워크플로우가 빨라집니다.",
     "type": "업데이트",
-    "imageTried": "2026-10-23:g"
+    "imageTried": "2026-10-26:g"
   },
   {
     "id": "news-205",
@@ -815,7 +815,8 @@
     "status": "published",
     "summary": "영국-나이지리아 스피커 제조사 SSOUNDS가 대형 라인어레이 XTO 14X를 발표했습니다. 3웨이 4앰프 구성으로 14인치 저음 2개와 측면 10인치 2개로 카디오이드 저음 제어를 구현하고, 피크 153dB(1m 기준), 수평 70·110도 커버리지를 제공합니다. 각 유닛은 전용 D34X 앰프로 독립 구동하며, 스타디움·아레나·대규모 야외 공연용입니다.",
     "type": "신제품",
-    "imageTried": "2026-10-23:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.mixonline.com%2Fwp-content%2Fuploads%2F2026%2F10%2F2026-10-14-Ssounds.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-173",
