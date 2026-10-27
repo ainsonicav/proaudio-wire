@@ -3,6 +3,13 @@
 (function () {
   'use strict';
 
+  /* 동향 위젯: 항목 수가 달라도 양쪽 목록의 위아래를 맞춘다. */
+  var trendStyle = document.createElement('style');
+  trendStyle.textContent = '.top-row .trend-col{display:flex;flex-direction:column}' +
+    '.top-row #trendRatio{display:flex;flex:1;flex-direction:column;justify-content:space-between;gap:.2rem}' +
+    'body .top-row .trend-ratio-row{margin-bottom:0}';
+  document.head.appendChild(trendStyle);
+
   /* ---- 3) 본문 건너뛰기 ---- */
   var main = document.querySelector('main');
   if (main && !main.id) main.id = 'main';
