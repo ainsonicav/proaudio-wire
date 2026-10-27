@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-10-27T02:13:19Z",
+  "generated_at": "2026-10-27T23:40:16Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 20,
-    "month": 113,
-    "total": 229
+    "week": 23,
+    "month": 116,
+    "total": 232
   },
   "top_brands_week": [
+    {
+      "brand": "Violet Audio",
+      "count": 1
+    },
+    {
+      "brand": "Alcons Audio",
+      "count": 1
+    },
+    {
+      "brand": "LD Systems",
+      "count": 1
+    },
     {
       "brand": "PSI Audio",
       "count": 1
@@ -17,57 +29,45 @@
     {
       "brand": "MSolutions",
       "count": 1
-    },
-    {
-      "brand": "NUGEN Audio",
-      "count": 1
-    },
-    {
-      "brand": "NoiseWorks Audio",
-      "count": 1
-    },
-    {
-      "brand": "ADAM Audio",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 11,
-      "pct": 55
+      "count": 14,
+      "pct": 61
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 5
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
       "count": 5,
-      "pct": 25
+      "pct": 22
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 15
+      "pct": 13
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 84,
-      "pct": 74
+      "count": 87,
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
       "count": 4,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
       "count": 20,
-      "pct": 18
+      "pct": 17
     },
     {
       "category": "기타",

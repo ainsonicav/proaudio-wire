@@ -6,7 +6,37 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Violet Audio - Spatia 2D (dMix 128용)</title>
+      <link>https://news.ainsonic.com/n/news-231.html</link>
+      <description>바이올렛 오디오가 dMix 128 디지털 믹싱 시스템용 오브젝트 기반 공간 오디오 애플리케이션 Spatia 2D를 발표했다. 최대 24개 라우드스피커 출력에 음원을 배치하고 이동과 자동화를 할 수 있으며, 이퀄 파워와 거리, 각도 가중 등 여러 패닝 방식을 고를 수 있다. 라이브와 극장, 방송, 기업 행사, 설치, 스튜디오용으로 설계됐고 MIDI와 타임코드, OSC 동기화를 지원한다.</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-231</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Alcons Audio - M-시리즈 모니터 시스템 (Gaoping Studio)</title>
+      <link>https://news.ainsonic.com/n/news-232.html</link>
+      <description>중국 산시성 Gaoping Future Music Technology Industrial Park의 새 이머시브 녹음 스튜디오에 알콘스 오디오 M-시리즈 모니터가 구축됐다. MR10 프로리본 레퍼런스 모니터 5개와 MB10 저주파 확장 시스템 2개, 인월 스피커 4개로 5.2.4 구성을 이뤘다. 중국에서 처음 구축된 M-시리즈 모니터 사례로 소개됐으며, 설계는 Bian Liunian, 공급은 EAD, 설치와 조정은 Niu Wenjie가 맡았다.</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-232</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] LD Systems - MAUI 44 G3 / MAUI 44 G3 MIX / MAUI 66 G3</title>
+      <link>https://news.ainsonic.com/n/news-233.html</link>
+      <description>LD 시스템즈가 액티브 4웨이 컬럼 시스템 MAUI 44 G3와 MAUI 44 G3 MIX, MAUI 66 G3를 발표했다. MAUI 44 G3 계열은 14개의 3.5인치 미드레인지 드라이버와 15인치 서브우퍼를 갖춰 34Hz까지 재생하고 최대 133dB를 낸다. MAUI 66 G3는 18인치 서브우퍼로 28Hz까지, 최대 135dB를 제공한다. MAUI 44 G3 MIX는 8개 XLR 입력과 6개 마이크 프리앰프를 갖춘 디지털 믹서 내장, 사전 주문 중이다.</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-233</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
 
     <item>
       <title>[행사] PSI Audio - AES Show Nashville 2026 전시</title>
@@ -376,36 +406,6 @@
       <guid isPermaLink="false">news-189</guid>
       <category>행사</category>
       <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] NEXO - ID14, ID24, IDS108, IDS110</title>
-      <link>https://news.ainsonic.com/n/news-190.html</link>
-      <description>아이슬란드 레이캬비크의 일본 레스토랑 시로에 NEXO ID 시리즈가 설치됐습니다. 메인 다이닝룸에는 ID14 5개와 IDS108 서브우퍼 2개가 천장 속에 숨겨졌고, 다실·가라오케룸·지하 바에도 ID14·ID24와 IDS108·IDS110이 들어갔습니다. 블루사운드 프로페셔널 스트리머로 오디오를 분배하고 Q-SYS로 직원이 제어합니다.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-190</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] 1 SOUND - CT212, SUB2112, CT28, SUB215</title>
-      <link>https://news.ainsonic.com/n/news-191.html</link>
-      <description>인도네시아 자카르타 치푸트라 대학교 디안 오디토리엄에 1 SOUND 시스템이 설치됐습니다. 메인 좌우에 3웨이 포인트소스 CT212와 SUB2112 서브우퍼를 플라잉했고, 100×50도 지향각으로 강연부터 라이브 공연까지 커버합니다. 휴대용 CT28·SUB215 시스템은 스테이지 필이나 추가 메인으로 활용할 수 있습니다.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-191</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Slate Digital - Complete Access, sonible 플러그인</title>
-      <link>https://news.ainsonic.com/n/news-192.html</link>
-      <description>슬레이트 디지털이 구독 라이브러리 컴플리트 액세스에 소니블의 AI 어시스트 플러그인을 추가했습니다. 소니블 플러그인은 오디오를 분석해 소스별 처리와 시작점을 제시하며, 사용자가 세부 조절할 수 있습니다. 기존 컴플리트 액세스의 이큐·컴프레서·리버브·딜레이와 함께 쓸 수 있고, 기존 구독자는 추가 요금 없이 이용하며 신규 구독자는 가입 시점부터 접근할 수 있습니다.</description>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-192</guid>
-      <category>업데이트</category>
-      <category>레코딩소프트웨어</category>
     </item>
 
   </channel>
