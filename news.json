@@ -13,7 +13,9 @@
     "link": "https://ravepubs.com/rants-raves-episode-1549/",
     "evidence": "Dan explained how EVID-N combines amplification, digital signal processing and networking directly within ceiling, surface-mount and pendant loudspeakers.",
     "status": "published",
-    "addedDate": "2026-10-29"
+    "addedDate": "2026-10-29",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fassets.electrovoicedynacord.com%2Ftransform%2F1340b337-d42d-456b-9be0-011298becad7%2FEV_EVIDn-S5XB_Front_Left%3Fio%3Dtransform%3Afit%2Cwidth%3A1534%26format%3Dwebp%26quality%3D70&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-235",
@@ -29,7 +31,9 @@
     "link": "https://www.premierguitar.com/news/positive-grid-introduces-the-spark-cab-2-powered-frfr-cabinet",
     "evidence": "Positive Grid announces Spark CAB 2, a powered FRFR speaker cabinet designed as the rig expander for the Spark guitar amp family.",
     "status": "published",
-    "addedDate": "2026-10-29"
+    "addedDate": "2026-10-29",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.premierguitar.com%2Fmedia-library%2Fimage.jpg%3Fid%3D68536361%26width%3D980%26quality%3D70&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-236",
@@ -45,7 +49,9 @@
     "link": "https://ravepubs.com/shure-axient-digital-and-axient-digital-psm-wireless-systems-power-gorillaz-world-tour/",
     "evidence": "Shure announced that its Shire Axient Digital and Axient Digital PSM wireless systems recently powered production of Gorillaz's \"The Mountain\" world tour.",
     "status": "published",
-    "addedDate": "2026-10-29"
+    "addedDate": "2026-10-29",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fproducts.shureweb.eu%2Fcdn-cgi%2Fimage%2Fwidth%3D1380%2Cheight%3D1380%2Cformat%3Dauto%2Fshure_product_db%2Fproduct_main_images%2Ffiles%2Fab0%2F20f%2F34-%2Foriginal%2F5dd3f03f31c345b6a9943f6c9cfce845.webp&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-237",
@@ -61,7 +67,8 @@
     "link": "https://ravepubs.com/allen-heath-selected-to-power-audio-for-old-world-village-in-california/",
     "evidence": "After exploring their options, the team selected an Allen & Heath AHM-32 – which features a 32×32 I/O matrix, along with advanced signal processing, automation, and several different options for control.",
     "status": "published",
-    "addedDate": "2026-10-29"
+    "addedDate": "2026-10-29",
+    "imageTried": "2026-10-28:g"
   },
   {
     "id": "news-238",
@@ -77,7 +84,9 @@
     "link": "https://ravepubs.com/jbl-introduces-l150-classic/",
     "evidence": "HARMAN Luxury Audio Group introduced the JBL L150 Classic, the new flagship of its Classic Series.",
     "status": "published",
-    "addedDate": "2026-10-29"
+    "addedDate": "2026-10-29",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.jbl.com%2Fdw%2Fimage%2Fv2%2FBFND_PRD%2Fon%2Fdemandware.static%2F-%2FSites-masterCatalog_Harman%2Fdefault%2Fdw9e71a200%2FJBL-Classic-L150-Front.png%3Fsw%3D535%26sh%3D535&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-239",
@@ -93,7 +102,9 @@
     "link": "https://www.soundonsound.com/news/native-instruments-launch-massive-xl",
     "evidence": "Native Instruments have just announced the launch of Massive XL, the latest version of their hugely popular flagship soft synth.",
     "status": "published",
-    "addedDate": "2026-10-29"
+    "addedDate": "2026-10-29",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fn%2Fnative_instruments_massive_xl-vKTXlBiMh3KNJ8lPzMuri3_dsNfDWlML.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-240",
@@ -109,7 +120,9 @@
     "link": "https://www.soundonsound.com/news/arturia-expand-minifreak-new-49-key-version",
     "evidence": "Arturia expand MiniFreak with new 49-key version",
     "status": "published",
-    "addedDate": "2026-10-29"
+    "addedDate": "2026-10-29",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fa%2Farturia_minifreak_49-0J3NMqfdX24IWO1k52_6ufXYrjo4__Jg.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-231",
