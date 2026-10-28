@@ -2304,7 +2304,7 @@
 <script data-goatcounter="https://ainsonic-news.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
 (function(){function gc(p,t){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,title:t,event:true});}catch(e){}}
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a)gc('telegram-click',a.href);},true);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a){var p=a.getAttribute('data-tg-pos');gc(p?'telegram-click-article-'+p:'telegram-click',a.href);}},true);
 document.addEventListener('submit',function(e){if(e.target&&e.target.id==='emailSubForm')gc('subscribe-submit','Email subscribe');},true);})();
 </script>
 </body>

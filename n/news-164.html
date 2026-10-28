@@ -48,6 +48,7 @@ h2{font-size:1rem;margin:2rem 0 .5rem}
 ul{padding-left:1.1rem} li a{color:#0f172a}
 footer{text-align:center;font-size:.8rem;color:#94a3b8;padding:1.5rem 1rem;border-top:1px solid #e2e8f0}
 footer a{color:#64748b}
+.tg-row{margin:.8rem 0} .tg-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.1rem;border-radius:999px;background:#229ED9;color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;box-shadow:0 1px 3px rgba(34,158,217,.35);transition:background .15s} .tg-btn:hover{background:#1c8cc2} .tg-btn svg{flex:none}
 </style>
 </head>
 <body>
@@ -56,9 +57,11 @@ footer a{color:#64748b}
 <article>
 <p class="meta"><span class="badge">행사</span>프로오디오 · DirectOut · <time datetime="2026-10-12">2026-10-12</time></p>
 <h1>DirectOut 행사 소식</h1>
+<p class="tg-row tg-top"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="top"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <p class="summary">DirectOut가 2025년 최우수 유통사 수상자를 발표했습니다. 글로벌 부문은 프랑스 Pilote Films(1982년 설립, 2013년부터 파트너십), EMEA 부문은 폴란드 Commercial Audio, APAC 부문은 Qvest Australia, LATAM 부문은 콜롬비아 Yamaki가 수상했습니다. 영업·사업개발 총괄 로렌조 사시는 수상자들이 탁월한 상업 성과뿐 아니라 전문성과 헌신, 현지 시장 지식을 보여줬다고 밝혔습니다.</p>
 <blockquote>원문: “원문: &#x27;Pilote Films has received DirectOut&#x27;s Distributor of the Year &quot;Global&quot; 2025 award&#x27;, &#x27;Commercial Audio … EMEA&#x27;, &#x27;Qvest Australia … APAC&#x27;, &#x27;Yamaki … LATAM&#x27;”</blockquote>
 <p><a class="btn" href="https://www.prosoundweb.com/directout-announces-2025-distributors-of-the-year/" target="_blank" rel="noopener noreferrer">원문 출처 보기 ↗</a><a class="btn sub" href="/?n=news-164">전체 소식 목록</a></p>
+<p class="tg-row tg-bottom"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="bottom"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <aside class="sub-box"><p>새 소식을 가장 먼저 받아보세요<small>신제품·펌웨어·행사 소식을 한국어로 정리합니다</small></p><span><a class="btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener">텔레그램 채널</a> <a class="btn sub" href="https://news.ainsonic.com/rss.xml">RSS</a></span></aside>
 </article>
 </main>
@@ -66,7 +69,7 @@ footer a{color:#64748b}
 <script data-goatcounter="https://ainsonic-news.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
 (function(){function gc(p,t){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,title:t,event:true});}catch(e){}}
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a)gc('telegram-click',a.href);},true);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a){var p=a.getAttribute('data-tg-pos');gc(p?'telegram-click-article-'+p:'telegram-click',a.href);}},true);
 document.addEventListener('submit',function(e){if(e.target&&e.target.id==='emailSubForm')gc('subscribe-submit','Email subscribe');},true);})();
 </script>
 </body>

@@ -48,6 +48,7 @@ h2{font-size:1rem;margin:2rem 0 .5rem}
 ul{padding-left:1.1rem} li a{color:#0f172a}
 footer{text-align:center;font-size:.8rem;color:#94a3b8;padding:1.5rem 1rem;border-top:1px solid #e2e8f0}
 footer a{color:#64748b}
+.tg-row{margin:.8rem 0} .tg-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.1rem;border-radius:999px;background:#229ED9;color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;box-shadow:0 1px 3px rgba(34,158,217,.35);transition:background .15s} .tg-btn:hover{background:#1c8cc2} .tg-btn svg{flex:none}
 </style>
 </head>
 <body>
@@ -56,10 +57,12 @@ footer a{color:#64748b}
 <article>
 <p class="meta"><span class="badge">신제품</span>프로오디오 · Yamaha (야마하뮤직코리아) · <time datetime="2026-09-24">2026-09-24</time></p>
 <h1>Yamaha DM5 신제품 소식</h1>
+<p class="tg-row tg-top"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="top"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <img src="https://wsrv.nl/?url=https%3A%2F%2Fkr.yamaha.com%2Fko%2Ffiles%2Fthum_dm5_tcm144-3237432.png&amp;default=1" alt="DM5" referrerpolicy="no-referrer" onerror="this.remove()">
 <p class="summary">야마하뮤직코리아가 컴팩트 디지털 믹싱 콘솔 DM5를 2026년 9월 11일 국내 공식 출시했습니다. DM7 시리즈와 GUI 및 데이터가 호환되며 Dante 네트워크를 기본 탑재했고, 한글 채널명 입력과 네 단계로 각도를 조절하는 틸트 디스플레이를 지원합니다. 중소규모 라이브 공연, 행사, 교회, 공연장, 강당을 주요 용도로 하며, Dante로 전용 I/O 박스를 연결하거나 옵션 PY-DSP 카드로 상위 콘솔의 플러그인을 추가할 수 있습니다. 전국 야마하 프로오디오 공식 판매점에서 구매할 수 있습니다.</p>
 <blockquote>원문: “차세대 컴팩트 디지털 믹싱 콘솔 ‘DM5’를 국내 공식 출시했다고 2026년 9월 11일 밝혔다”</blockquote>
 <p><a class="btn" href="https://kr.yamaha.com/ko/news/2026/20260911-dm5serieslaunching.html" target="_blank" rel="noopener noreferrer">원문 출처 보기 ↗</a><a class="btn sub" href="/?n=news-52">전체 소식 목록</a></p>
+<p class="tg-row tg-bottom"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="bottom"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <aside class="sub-box"><p>새 소식을 가장 먼저 받아보세요<small>신제품·펌웨어·행사 소식을 한국어로 정리합니다</small></p><span><a class="btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener">텔레그램 채널</a> <a class="btn sub" href="https://news.ainsonic.com/rss.xml">RSS</a></span></aside>
 </article>
 <section>
@@ -77,7 +80,7 @@ footer a{color:#64748b}
 <script data-goatcounter="https://ainsonic-news.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
 (function(){function gc(p,t){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,title:t,event:true});}catch(e){}}
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a)gc('telegram-click',a.href);},true);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a){var p=a.getAttribute('data-tg-pos');gc(p?'telegram-click-article-'+p:'telegram-click',a.href);}},true);
 document.addEventListener('submit',function(e){if(e.target&&e.target.id==='emailSubForm')gc('subscribe-submit','Email subscribe');},true);})();
 </script>
 </body>

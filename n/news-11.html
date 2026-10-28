@@ -48,6 +48,7 @@ h2{font-size:1rem;margin:2rem 0 .5rem}
 ul{padding-left:1.1rem} li a{color:#0f172a}
 footer{text-align:center;font-size:.8rem;color:#94a3b8;padding:1.5rem 1rem;border-top:1px solid #e2e8f0}
 footer a{color:#64748b}
+.tg-row{margin:.8rem 0} .tg-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.1rem;border-radius:999px;background:#229ED9;color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;box-shadow:0 1px 3px rgba(34,158,217,.35);transition:background .15s} .tg-btn:hover{background:#1c8cc2} .tg-btn svg{flex:none}
 </style>
 </head>
 <body>
@@ -56,10 +57,12 @@ footer a{color:#64748b}
 <article>
 <p class="meta"><span class="badge">업데이트</span>기타 · RØDE · <time datetime="2026-09-23">2026-09-23</time></p>
 <h1>RØDECaster Video 1.4 (RØDECaster Video, RØDECaster Video S, RØDECaster Video Core) 업데이트 소식</h1>
+<p class="tg-row tg-top"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="top"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <img src="https://wsrv.nl/?url=https%3A%2F%2Fedge.rode.com%2F%2Fimages%2Fpage%2F2662%2FRCV-4K-SYNC-OG.jpg&amp;default=1" alt="RØDECaster Video 1.4 (RØDECaster Video, RØDECaster Video S, RØDECaster Video Core)" referrerpolicy="no-referrer" onerror="this.remove()">
 <p class="summary">RØDE가 RØDECaster Video, Video S, Video Core용 무료 펌웨어 1.4를 공개했습니다. 4K Capture Mode는 UHD 카메라 영상을 UHD30 NDI 스트림으로 출력하고 외장 SSD에 ISO 녹화하며, Full HD Capture Mode는 1080p60을 지원합니다. Video Core 전용이던 RØDECaster Sync가 전 제품으로 확대돼 Pro II·Duo와 통합 제어가 가능해졌고 Premiere Pro 타임라인 내보내기도 추가됐습니다.</p>
 <blockquote>원문: “RØDECaster Video 1.4, a major free firmware update, unlocks 4K Capture Mode &amp; RØDECaster Sync across RØDE&#x27;s entire range of video interfaces.”</blockquote>
 <p><a class="btn" href="https://rode.com/en/about/news-info/rodecaster-video-4k-capture-sync" target="_blank" rel="noopener noreferrer">원문 출처 보기 ↗</a><a class="btn sub" href="/?n=news-11">전체 소식 목록</a></p>
+<p class="tg-row tg-bottom"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="bottom"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <aside class="sub-box"><p>새 소식을 가장 먼저 받아보세요<small>신제품·펌웨어·행사 소식을 한국어로 정리합니다</small></p><span><a class="btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener">텔레그램 채널</a> <a class="btn sub" href="https://news.ainsonic.com/rss.xml">RSS</a></span></aside>
 </article>
 <section>
@@ -75,7 +78,7 @@ footer a{color:#64748b}
 <script data-goatcounter="https://ainsonic-news.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
 (function(){function gc(p,t){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,title:t,event:true});}catch(e){}}
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a)gc('telegram-click',a.href);},true);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a){var p=a.getAttribute('data-tg-pos');gc(p?'telegram-click-article-'+p:'telegram-click',a.href);}},true);
 document.addEventListener('submit',function(e){if(e.target&&e.target.id==='emailSubForm')gc('subscribe-submit','Email subscribe');},true);})();
 </script>
 </body>

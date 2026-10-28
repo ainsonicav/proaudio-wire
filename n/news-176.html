@@ -48,6 +48,7 @@ h2{font-size:1rem;margin:2rem 0 .5rem}
 ul{padding-left:1.1rem} li a{color:#0f172a}
 footer{text-align:center;font-size:.8rem;color:#94a3b8;padding:1.5rem 1rem;border-top:1px solid #e2e8f0}
 footer a{color:#64748b}
+.tg-row{margin:.8rem 0} .tg-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.1rem;border-radius:999px;background:#229ED9;color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;box-shadow:0 1px 3px rgba(34,158,217,.35);transition:background .15s} .tg-btn:hover{background:#1c8cc2} .tg-btn svg{flex:none}
 </style>
 </head>
 <body>
@@ -56,10 +57,12 @@ footer a{color:#64748b}
 <article>
 <p class="meta"><span class="badge">행사</span>프로오디오 · Solid State Logic · <time datetime="2026-10-14">2026-10-14</time></p>
 <h1>Solid State Logic ORIGIN 32, ORIGIN 16 행사 소식</h1>
+<p class="tg-row tg-top"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="top"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <img src="https://wsrv.nl/?url=https%3A%2F%2Fmedia.sweetwater.com%2Fm%2Fproducts%2Fimage%2Fc1e3143b934918mY2eDdEdr4TGx5sghFwtITjUbi.jpg%3Fha%3Dc1e3143b9339828977643303c4649f318d3a486a%26quality%3D85%26height%3D1800&amp;w=640&amp;default=1" alt="ORIGIN 32, ORIGIN 16" referrerpolicy="no-referrer" onerror="this.remove()">
 <p class="summary">미국 워싱턴주 쇼어라인 칼리지가 새로 연 Bracken 빌딩의 두 녹음 스튜디오에 Solid State Logic ORIGIN 아날로그 콘솔이 들어갔습니다. 스튜디오 A에는 ORIGIN 32, 스튜디오 B에는 ORIGIN 16을 배치해 두 스튜디오의 패치베이와 신호 흐름을 동일하게 맞췄습니다. 학생들은 녹음·믹싱·라우팅·게인 스테이징을 직접 다루며 배우고, MIDI 실습실에는 SSL 2+ MKII 인터페이스가 25대씩 설치됐습니다.</p>
 <blockquote>원문: “Shoreline College has opened the new Bracken Building that includes two recording studios equipped with Solid State Logic ORIGIN 32- and 16-channel inline analogue consoles and SSL USB audio interfaces.”</blockquote>
 <p><a class="btn" href="https://www.prosoundweb.com/solid-state-origin-at-the-heart-of-new-recording-studios-at-shoreline-college-in-washington/" target="_blank" rel="noopener noreferrer">원문 출처 보기 ↗</a><a class="btn sub" href="/?n=news-176">전체 소식 목록</a></p>
+<p class="tg-row tg-bottom"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="bottom"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <aside class="sub-box"><p>새 소식을 가장 먼저 받아보세요<small>신제품·펌웨어·행사 소식을 한국어로 정리합니다</small></p><span><a class="btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener">텔레그램 채널</a> <a class="btn sub" href="https://news.ainsonic.com/rss.xml">RSS</a></span></aside>
 </article>
 <section>
@@ -76,7 +79,7 @@ footer a{color:#64748b}
 <script data-goatcounter="https://ainsonic-news.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
 (function(){function gc(p,t){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,title:t,event:true});}catch(e){}}
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a)gc('telegram-click',a.href);},true);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a){var p=a.getAttribute('data-tg-pos');gc(p?'telegram-click-article-'+p:'telegram-click',a.href);}},true);
 document.addEventListener('submit',function(e){if(e.target&&e.target.id==='emailSubForm')gc('subscribe-submit','Email subscribe');},true);})();
 </script>
 </body>

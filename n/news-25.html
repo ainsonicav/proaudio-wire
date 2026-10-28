@@ -48,6 +48,7 @@ h2{font-size:1rem;margin:2rem 0 .5rem}
 ul{padding-left:1.1rem} li a{color:#0f172a}
 footer{text-align:center;font-size:.8rem;color:#94a3b8;padding:1.5rem 1rem;border-top:1px solid #e2e8f0}
 footer a{color:#64748b}
+.tg-row{margin:.8rem 0} .tg-btn{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.1rem;border-radius:999px;background:#229ED9;color:#fff;text-decoration:none;font-weight:700;font-size:.9rem;box-shadow:0 1px 3px rgba(34,158,217,.35);transition:background .15s} .tg-btn:hover{background:#1c8cc2} .tg-btn svg{flex:none}
 </style>
 </head>
 <body>
@@ -56,10 +57,12 @@ footer a{color:#64748b}
 <article>
 <p class="meta"><span class="badge">행사</span>기타 · RØDE (사운드캣) · <time datetime="2026-09-21">2026-09-21</time></p>
 <h1>RØDECaster Video, RØDECaster Video S 행사 소식</h1>
+<p class="tg-row tg-top"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="top"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <img src="https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjA5MjJfMTY1%2FMDAxNzkwMDM1NDE4Mjgz.RO5Vs1fLn3B7uSHvuzd0gLRgNJrXhRIm7HunBaXsrhkg.SPkF7skAmUH3XC3v_GFlFpfyNfAOZVhDaBcXJAQGDQAg.PNG%2Fpopup.png%3Ftype%3Dw2&amp;default=1" alt="RØDECaster Video, RØDECaster Video S" referrerpolicy="no-referrer" onerror="this.remove()">
 <p class="summary">사운드캣이 RØDE의 RØDECaster Video 또는 Video S 구매 고객에게 사은품을 증정하는 이벤트를 진행합니다. 구매 후 신청서를 작성하면 RØDE PODMIC(White) 또는 Wireless ME TX 중 하나를 받을 수 있습니다. RØDECaster Video는 1080p HDMI 입력 4개 포함 최대 6개 영상 소스를 전환하고, Video S는 HDMI 3개·USB-C 1개·NDI 4개 입력을 지원합니다. 이벤트는 사은품 재고 소진 시 종료됩니다.</p>
 <blockquote>원문: “RØDE의 RØDECaster Video/S 제품을 구매하고 신청서를 작성하시면, 콘텐츠 제작에 유용한 RØDE PODMIC [White] 혹은 Wireless ME TX 를 사은품으로 증정합니다.”</blockquote>
 <p><a class="btn" href="https://blog.naver.com/sound8949/224418662268" target="_blank" rel="noopener noreferrer">원문 출처 보기 ↗</a><a class="btn sub" href="/?n=news-25">전체 소식 목록</a></p>
+<p class="tg-row tg-bottom"><a class="tg-btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener" data-tg-pos="bottom"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M9.8 15.6l-.4 5.4c.6 0 .8-.2 1.1-.5l2.6-2.5 5.4 4c1 .5 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.3 10.3c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7L19 6c.6-.4 1.1-.2.7.2z"/></svg><span>알림받기</span></a></p>
 <aside class="sub-box"><p>새 소식을 가장 먼저 받아보세요<small>신제품·펌웨어·행사 소식을 한국어로 정리합니다</small></p><span><a class="btn" href="https://t.me/proaudiowire" target="_blank" rel="noopener">텔레그램 채널</a> <a class="btn sub" href="https://news.ainsonic.com/rss.xml">RSS</a></span></aside>
 </article>
 <section>
@@ -75,7 +78,7 @@ footer a{color:#64748b}
 <script data-goatcounter="https://ainsonic-news.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
 (function(){function gc(p,t){try{if(window.goatcounter&&window.goatcounter.count)window.goatcounter.count({path:p,title:t,event:true});}catch(e){}}
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a)gc('telegram-click',a.href);},true);
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a[href*="t.me/"]');if(a){var p=a.getAttribute('data-tg-pos');gc(p?'telegram-click-article-'+p:'telegram-click',a.href);}},true);
 document.addEventListener('submit',function(e){if(e.target&&e.target.id==='emailSubForm')gc('subscribe-submit','Email subscribe');},true);})();
 </script>
 </body>
