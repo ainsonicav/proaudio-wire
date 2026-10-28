@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-10-28T23:35:31Z",
+  "generated_at": "2026-10-28T23:42:12Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 23,
-    "month": 123,
-    "total": 239
+    "week": 31,
+    "month": 131,
+    "total": 247
   },
   "top_brands_week": [
+    {
+      "brand": "KLANG",
+      "count": 2
+    },
     {
       "brand": "Electro-Voice",
       "count": 2
     },
     {
-      "brand": "Positive Grid",
+      "brand": "LEA Professional",
       "count": 1
     },
     {
-      "brand": "Shure",
+      "brand": "AEQ",
       "count": 1
     },
     {
-      "brand": "Allen & Heath",
-      "count": 1
-    },
-    {
-      "brand": "JBL",
+      "brand": "Focal",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 13,
-      "pct": 57
+      "count": 21,
+      "pct": 68
     },
     {
       "category": "컨슈머오디오",
       "count": 2,
-      "pct": 9
+      "pct": 6
     },
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 26
+      "pct": 19
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 9
+      "pct": 6
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 91,
-      "pct": 74
+      "count": 99,
+      "pct": 76
     },
     {
       "category": "컨슈머오디오",
@@ -67,7 +67,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 21,
-      "pct": 17
+      "pct": 16
     },
     {
       "category": "기타",
