@@ -1,78 +1,78 @@
 {
-  "generated_at": "2026-10-28T15:15:20Z",
+  "generated_at": "2026-10-28T23:34:56Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 17,
-    "month": 116,
-    "total": 232
+    "week": 23,
+    "month": 123,
+    "total": 239
   },
   "top_brands_week": [
     {
-      "brand": "Violet Audio",
+      "brand": "Electro-Voice",
+      "count": 2
+    },
+    {
+      "brand": "Positive Grid",
       "count": 1
     },
     {
-      "brand": "Alcons Audio",
+      "brand": "Shure",
       "count": 1
     },
     {
-      "brand": "LD Systems",
+      "brand": "Allen & Heath",
       "count": 1
     },
     {
-      "brand": "PSI Audio",
-      "count": 1
-    },
-    {
-      "brand": "MSolutions",
+      "brand": "JBL",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 9,
-      "pct": 53
+      "count": 13,
+      "pct": 57
     },
     {
       "category": "컨슈머오디오",
-      "count": 1,
-      "pct": 6
+      "count": 2,
+      "pct": 9
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
-      "pct": 29
+      "count": 6,
+      "pct": 26
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 12
+      "pct": 9
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 87,
-      "pct": 75
+      "count": 91,
+      "pct": 74
     },
     {
       "category": "컨슈머오디오",
-      "count": 4,
-      "pct": 3
+      "count": 5,
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 20,
+      "count": 21,
       "pct": 17
     },
     {
       "category": "기타",
-      "count": 5,
-      "pct": 4
+      "count": 6,
+      "pct": 5
     }
   ]
 }
