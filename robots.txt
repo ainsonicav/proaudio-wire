@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://news.ainsonic.com/sitemap.xml
+# RSS feed: https://news.ainsonic.com/rss.xml
