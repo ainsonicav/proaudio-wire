@@ -1,15 +1,23 @@
 {
-  "generated_at": "2026-10-29T23:33:48Z",
+  "generated_at": "2026-10-29T23:35:27Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 28,
-    "month": 133,
-    "total": 252
+    "week": 30,
+    "month": 135,
+    "total": 254
   },
   "top_brands_week": [
+    {
+      "brand": "IK Multimedia",
+      "count": 1
+    },
+    {
+      "brand": "Fender Studio",
+      "count": 1
+    },
     {
       "brand": "HK Audio",
       "count": 1
@@ -21,43 +29,35 @@
     {
       "brand": "dBTechnologies",
       "count": 1
-    },
-    {
-      "brand": "Sonnet",
-      "count": 1
-    },
-    {
-      "brand": "Klang.io",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
       "count": 21,
-      "pct": 75
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
-      "pct": 18
+      "count": 7,
+      "pct": 23
     },
     {
       "category": "기타",
       "count": 1,
-      "pct": 4
+      "pct": 3
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
       "count": 101,
-      "pct": 76
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
@@ -66,13 +66,13 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 22,
-      "pct": 17
+      "count": 24,
+      "pct": 18
     },
     {
       "category": "기타",
       "count": 6,
-      "pct": 5
+      "pct": 4
     }
   ]
 }

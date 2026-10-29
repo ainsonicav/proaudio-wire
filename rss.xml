@@ -9,6 +9,16 @@
     <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>[업데이트] IK Multimedia - TONEX Parametric Tone Model</title>
+      <link>https://news.ainsonic.com/n/news-254.html</link>
+      <description>IK 멀티미디어가 TONEX Parametric Tone Model 기술을 발표했다. 앰프나 페달의 특정 세팅 한 장면만 캡처하던 기존 방식과 달리, 노브와 스위치를 돌릴 때 소리가 어떻게 변하는지까지 AI로 재현한다. 최대 6개 컨트롤에 대해 컨트롤당 최대 10개 위치를 캡처하고, 그 사이 값과 조합은 신경망이 예측한다. 2026년 11월 무료 TONEX CS를 포함한 모든 TONEX Player 소프트웨어와 TONEX Board 하드웨어에 무료 업데이트로 제공될 예정이다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-254</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
       <title>[신제품] HK Audio - POLAR 15 MK2</title>
       <link>https://news.ainsonic.com/n/news-249.html</link>
       <description>HK Audio가 컬럼 PA 시스템 POLAR 15 MK2를 POLAR MK2 시리즈에 추가했다. 15인치 서브우퍼와 알루미늄 컬럼 스피커로 구성되며, 조명 장비용 M20 마운트 지점을 내장했다. 4채널 내장 믹서는 마이크·라인 입력 2개와 악기 입력, 보조 입력을 갖추고 블루투스 5.0 스트리밍과 TWS 스테레오 페어링을 지원한다. Music·Voice·DJ 사운드 모드와 3밴드 EQ, 사용자 프리셋 5개를 제공한다.</description>
@@ -54,6 +64,16 @@
       <description>Klang.io가 Transcription Studio와 Sing2Notes용 베타 기능 Choral Mode를 추가했다. 녹음에서 소프라노·알토·테너·베이스 4성부를 분리해 편집 가능한 악보로 변환한다. 음성 파일을 업로드하거나 직접 녹음할 수 있으며, 결과 악보는 Notion Editor에서 다듬을 수 있다. 베타는 기존 Transcription Studio와 Sing2Notes 사용자에게 제공된다.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-253</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Fender Studio - Fender Studio Pro 8.2</title>
+      <link>https://news.ainsonic.com/n/news-255.html</link>
+      <description>PreSonus Studio One을 기반으로 한 펜더의 DAW 소프트웨어 Fender Studio Pro가 8.2 버전으로 업데이트됐다. 트림 오토메이션, 다른 채널 음량만 줄여 주는 Dim Solo 모드, 여러 개의 마커 트랙을 새로 지원한다. 스템 분리에 기타와 피아노가 추가됐고, Vocal Tune에는 지연을 3ms 미만으로 줄인 저지연 모드가 생겼다. macOS와 Linux에서 MIDI 2.0도 지원하며, 자격 있는 Studio Pro 사용자와 Studio Pro+ 구독자에게 무료 업데이트로 제공된다.</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-255</guid>
       <category>업데이트</category>
       <category>레코딩소프트웨어</category>
     </item>
@@ -384,26 +404,6 @@
       <description>디지코가 Quantum112 펄스와 Quantum225 펄스 디지털 믹싱 콘솔용 소프트웨어 업그레이드를 배포했습니다. Quantum112 펄스는 입력 채널이 80개에서 96개로, aux·서브그룹 버스가 24개에서 48개로 늘어났고 매트릭스는 12×12로 확장됐습니다. Mustard 프로세싱 인스턴스는 20개에서 24개로, Nodal 프로세싱은 24개에서 32개로 증가했습니다. Quantum225 펄스는 입력이 96개에서 120개로 추가 비용 없이 늘어납니다.</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-216</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Clear-Com - Mentrix Flex</title>
-      <link>https://news.ainsonic.com/n/news-217.html</link>
-      <description>클리어콤이 2026 NAB 쇼 뉴욕(부스 739)에서 새 인터콤 패널 Mentrix Flex를 공개했습니다. 물리적 조작부와 터치스크린을 결합한 하이브리드 패널로 방송·극장·중계차·라이브 이벤트용입니다. 16개 키셋(레버 키 8개, 로터리 키 8개 또는 16개)과 터치스크린 제어를 갖췄고, PoE 급전과 VESA 마운트, USB 연결, AoIP 네트워크 연결을 지원합니다. V시리즈 포트폴리오를 보완하는 Mentrix 라인의 첫 패널입니다.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-217</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Q-SYS - Q-SYS Microsoft Teams 인증 확대 (RoomSuite 모듈러·NC-90-G2·콜라보레이션 바)</title>
-      <link>https://news.ainsonic.com/n/news-218.html</link>
-      <description>QSC가 Q-SYS 제품 3종의 Microsoft Teams 인증을 추가로 획득했습니다. 인증 대상은 Q-SYS RoomSuite 모듈러 시스템, NC-90-G2 네트워크 카메라, 윈도우 기반 RoomSuite 콜라보레이션 바입니다. 세 가지 모두 Q-SYS Reflect로 관리되며 NC-90-G2와 조합하면 Teams Rooms에서 발언자 자동 화면 전환이 가능합니다. 콜라보레이션 바는 현재 50개국 이상에서 출하 중이며 공급 지역이 계속 늘어나고 있습니다.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-218</guid>
       <category>업데이트</category>
       <category>프로오디오</category>
     </item>
