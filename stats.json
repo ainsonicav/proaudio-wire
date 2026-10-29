@@ -1,23 +1,15 @@
 {
-  "generated_at": "2026-10-28T23:43:17Z",
+  "generated_at": "2026-10-29T02:34:44Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 31,
-    "month": 131,
+    "week": 23,
+    "month": 128,
     "total": 247
   },
   "top_brands_week": [
-    {
-      "brand": "KLANG",
-      "count": 2
-    },
-    {
-      "brand": "Electro-Voice",
-      "count": 2
-    },
     {
       "brand": "LEA Professional",
       "count": 1
@@ -29,40 +21,48 @@
     {
       "brand": "Focal",
       "count": 1
+    },
+    {
+      "brand": "AuviTran",
+      "count": 1
+    },
+    {
+      "brand": "KLANG",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 21,
-      "pct": 68
+      "count": 17,
+      "pct": 74
     },
     {
       "category": "컨슈머오디오",
-      "count": 2,
-      "pct": 6
+      "count": 1,
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 19
+      "count": 4,
+      "pct": 17
     },
     {
       "category": "기타",
-      "count": 2,
-      "pct": 6
+      "count": 1,
+      "pct": 4
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 99,
+      "count": 97,
       "pct": 76
     },
     {
       "category": "컨슈머오디오",
-      "count": 5,
-      "pct": 4
+      "count": 4,
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
