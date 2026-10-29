@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-29T02:34:44Z",
+  "generated_at": "2026-10-29T23:33:13Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 23,
-    "month": 128,
-    "total": 247
+    "week": 28,
+    "month": 133,
+    "total": 252
   },
   "top_brands_week": [
     {
-      "brand": "LEA Professional",
+      "brand": "HK Audio",
       "count": 1
     },
     {
-      "brand": "AEQ",
+      "brand": "HEDD Audio",
       "count": 1
     },
     {
-      "brand": "Focal",
+      "brand": "dBTechnologies",
       "count": 1
     },
     {
-      "brand": "AuviTran",
+      "brand": "Sonnet",
       "count": 1
     },
     {
-      "brand": "KLANG",
+      "brand": "Klang.io",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 17,
-      "pct": 74
+      "count": 21,
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
@@ -44,8 +44,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 4,
-      "pct": 17
+      "count": 5,
+      "pct": 18
     },
     {
       "category": "기타",
@@ -56,7 +56,7 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 97,
+      "count": 101,
       "pct": 76
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 21,
-      "pct": 16
+      "count": 22,
+      "pct": 17
     },
     {
       "category": "기타",

@@ -6,7 +6,57 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 28 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] HK Audio - POLAR 15 MK2</title>
+      <link>https://news.ainsonic.com/n/news-249.html</link>
+      <description>HK Audio가 컬럼 PA 시스템 POLAR 15 MK2를 POLAR MK2 시리즈에 추가했다. 15인치 서브우퍼와 알루미늄 컬럼 스피커로 구성되며, 조명 장비용 M20 마운트 지점을 내장했다. 4채널 내장 믹서는 마이크·라인 입력 2개와 악기 입력, 보조 입력을 갖추고 블루투스 5.0 스트리밍과 TWS 스테레오 페어링을 지원한다. Music·Voice·DJ 사운드 모드와 3밴드 EQ, 사용자 프리셋 5개를 제공한다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-249</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] HEDD Audio - TYPE 40 Main·TYPE 40 System</title>
+      <link>https://news.ainsonic.com/n/news-250.html</link>
+      <description>HEDD Audio가 3웨이 액티브 모니터링 플랫폼 TYPE 40 Main과 TYPE 40 System을 발표했다. 밀폐형 Main은 별도 서브우퍼 없이 풀레인지로 동작하며, 선택형 XTD 모듈이 저역 출력과 지향성을 확장한다. Main은 4인치 미드레인지 2개와 AMT 트위터, 고출력 우퍼를 쓰며 저역이 20Hz까지 이어지고 최대 123dB SPL을 낸다. XTD 모듈 1개당 10.75인치 우퍼와 700W 클래스D 앰프를 갖췄다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-250</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] dBTechnologies - VIO L1608·OPERA 10·IS 시리즈 (Sounds of Screams)</title>
+      <link>https://news.ainsonic.com/n/news-251.html</link>
+      <description>미국 마이애미의 할로윈 체험시설 Sounds of Screams에 dBTechnologies 스피커 190대 이상이 설치됐다. 13에이커 부지의 유령의 집 5곳과 야외 공포 구역, 테마 공간을 커버하며, 메인 스테이지에는 VIO L1608 라인어레이 16개가 좌우로 배치됐다. 유령의 집 내부에는 OPERA 10과 SUB 612·SUB 615가, 야외에는 내후형 IS 시리즈가 쓰였다. 행사는 2026년 11월 1일까지 열린다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-251</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Sonnet - Echo SE III T5</title>
+      <link>https://news.ainsonic.com/n/news-252.html</link>
+      <description>Sonnet이 썬더볼트 5 PCIe 확장 시스템 Echo SE III T5를 발표했다. 썬더볼트 5 케이블 하나로 전문 카드 최대 3장을 컴퓨터에 연결하며, 썬더볼트 5·4와 USB4 포트 컴퓨터에서 동작한다. PCIe 3.1 x8 슬롯 3개에 풀하이트·하프렝스 카드 최대 7.75인치까지 장착할 수 있다. 전문 오디오와 DSP, 비디오 캡처, 10Gb·25Gb 이더넷, SSD 저장 용도로 쓸 수 있다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-252</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Klang.io - Choral Mode (Transcription Studio·Sing2Notes)</title>
+      <link>https://news.ainsonic.com/n/news-253.html</link>
+      <description>Klang.io가 Transcription Studio와 Sing2Notes용 베타 기능 Choral Mode를 추가했다. 녹음에서 소프라노·알토·테너·베이스 4성부를 분리해 편집 가능한 악보로 변환한다. 음성 파일을 업로드하거나 직접 녹음할 수 있으며, 결과 악보는 Notion Editor에서 다듬을 수 있다. 베타는 기존 Transcription Studio와 Sing2Notes 사용자에게 제공된다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-253</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[신제품] LEA Professional - Connect Series 1504 (Estadio Yldefonso Sola Morales)</title>
@@ -354,56 +404,6 @@
       <description>QSC가 Q-SYS 제품 3종의 Microsoft Teams 인증을 추가로 획득했습니다. 인증 대상은 Q-SYS RoomSuite 모듈러 시스템, NC-90-G2 네트워크 카메라, 윈도우 기반 RoomSuite 콜라보레이션 바입니다. 세 가지 모두 Q-SYS Reflect로 관리되며 NC-90-G2와 조합하면 Teams Rooms에서 발언자 자동 화면 전환이 가능합니다. 콜라보레이션 바는 현재 50개국 이상에서 출하 중이며 공급 지역이 계속 늘어나고 있습니다.</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-218</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Technics - SL-1210MKX</title>
-      <link>https://news.ainsonic.com/n/news-208.html</link>
-      <description>테크닉스가 프로용 다이렉트 드라이브 DJ 턴테이블의 플래그십 신모델 SL-1210MKX를 10월 21일 암스테르담 댄스 이벤트에서 공개했습니다. SL-1210MK7의 상위 기종으로 더 무거운 섀시와 새로 설계된 아이솔레이션 피트를 갖춰 클럽·투어 환경의 진동과 음향 피드백에 강해졌습니다. SL-1200 시리즈 최초로 전용 ±4% 피치 레인지와 ±50% 레인지를 갖췄고 78rpm 재생·리버스·스타트 토크와 브레이크 속도 조절도 지원합니다. 2027년 1월 출시 예정이며 권장소비자가격은 1,499유로(1,299파운드)입니다.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-208</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Yamaha - CK76</title>
-      <link>https://news.ainsonic.com/n/news-209.html</link>
-      <description>야마하가 스테이지 건반 CK 시리즈의 신모델 CK76을 10월 21일 발표했습니다. 기존 CK61·CK88 라인업에 합류하는 76키 세미웨이트 스테이지 건반으로 내장 스피커와 배터리 구동을 갖췄습니다. 전원이나 별도 PA 없이도 바로 연주할 수 있어 이동 연주·리허설·소규모 공연에 어울리는 구성입니다.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-209</guid>
-      <category>신제품</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[신제품] Arturia - MiniFreak 49</title>
-      <link>https://news.ainsonic.com/n/news-240.html</link>
-      <description>아투리아가 MiniFreak의 49건반 버전 MiniFreak 49를 발표했다. 6보이스 하이브리드 신스로 풀사이즈 세미 웨이티드 건반과 엔진별 전용 컨트롤, 압력 감지 XYZ 터치 매트릭스, 오디오 레이트 필터 FM을 갖췄다. 가격은 $849(€799)이며 MiniFreak V 소프트웨어가 포함된다.</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-240</guid>
-      <category>신제품</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[신제품] DAD - ST 2110-30 Expansion Card</title>
-      <link>https://news.ainsonic.com/n/news-212.html</link>
-      <description>Digital Audio Denmark(DAD)이 NAB New York에서 Thunder|Core 및 Penta 제품군용 ST 2110-30 확장 카드를 선보인다. Dale Pro Audio 부스 761번에서 공개되며, AES67과 RAVENNA 호환성을 더해 최대 128채널의 논블로킹 스트리밍을 지원한다. 내부 논블로킹 매트릭스는 최대 2048x2048까지 확장되고, 64채널 Pro|Mon 버스 서밍도 함께 제공한다.</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-212</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Allen &amp; Heath - Qu V1.2</title>
-      <link>https://news.ainsonic.com/n/news-204.html</link>
-      <description>앨런앤히스가 최신 세대 Qu 디지털 믹서용 펌웨어 Qu V1.2를 무료로 공개했습니다. 유료 애드온인 Dante 32×32 업그레이드로 Dante 용량이 16×16에서 32×32 채널로 확장됐으며, 윈도우·맥용 Qu-MixPad와 오프라인 쇼 준비 모드가 추가됐습니다. 입력 채널 익스팬더, 리슨 버스, DCA 스필 기능도 포함돼 라이브·방송·설치 환경의 워크플로우가 빨라집니다.</description>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-204</guid>
       <category>업데이트</category>
       <category>프로오디오</category>
     </item>
