@@ -13,7 +13,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "레코딩소프트웨어",
-    "addedDate": "2026-10-30"
+    "addedDate": "2026-10-30",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fikmultimedia.com%2Fcdn%2Fshop%2Farticles%2F20261029_Tonex_Par_news.jpg%3Fv%3D1793267526%26width%3D1024&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-255",
@@ -29,7 +31,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "레코딩소프트웨어",
-    "addedDate": "2026-10-30"
+    "addedDate": "2026-10-30",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Ff%2Ffender_studio_pro_8_2-00qzepFg91UBPCgajBk0y1umljvU7PKh.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-249",
