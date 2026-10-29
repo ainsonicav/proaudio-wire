@@ -1,0 +1,30 @@
+[
+ {
+  "date": "2026-10-29",
+  "sourceDate": "2026-10-29",
+  "company": "IK Multimedia",
+  "brand": "IK Multimedia",
+  "productName": "TONEX Parametric Tone Model",
+  "type": "업데이트",
+  "summary": "IK 멀티미디어가 TONEX Parametric Tone Model 기술을 발표했다. 앰프나 페달의 특정 세팅 한 장면만 캡처하던 기존 방식과 달리, 노브와 스위치를 돌릴 때 소리가 어떻게 변하는지까지 AI로 재현한다. 최대 6개 컨트롤에 대해 컨트롤당 최대 10개 위치를 캡처하고, 그 사이 값과 조합은 신경망이 예측한다. 2026년 11월 무료 TONEX CS를 포함한 모든 TONEX Player 소프트웨어와 TONEX Board 하드웨어에 무료 업데이트로 제공될 예정이다.",
+  "link": "https://ikmultimedia.com/en-us/blogs/news/announcing-tonex-parametric-tone-model-technology",
+  "evidence": "TONEX Parametric Tone Model technology captures up to 10 positions per control, across as many as six knobs or switches on an amplifier or pedal.",
+  "status": "published",
+  "isDomestic": false,
+  "category": "레코딩소프트웨어"
+ },
+ {
+  "date": "2026-10-28",
+  "sourceDate": "2026-10-28",
+  "company": "Fender",
+  "brand": "Fender Studio",
+  "productName": "Fender Studio Pro 8.2",
+  "type": "업데이트",
+  "summary": "PreSonus Studio One을 기반으로 한 펜더의 DAW 소프트웨어 Fender Studio Pro가 8.2 버전으로 업데이트됐다. 트림 오토메이션, 다른 채널 음량만 줄여 주는 Dim Solo 모드, 여러 개의 마커 트랙을 새로 지원한다. 스템 분리에 기타와 피아노가 추가됐고, Vocal Tune에는 지연을 3ms 미만으로 줄인 저지연 모드가 생겼다. macOS와 Linux에서 MIDI 2.0도 지원하며, 자격 있는 Studio Pro 사용자와 Studio Pro+ 구독자에게 무료 업데이트로 제공된다.",
+  "link": "https://www.soundonsound.com/news/fender-studio-pro-82-now-available",
+  "evidence": "Fender Studio Pro 8.2 introduces Trim Automation, a new Dim Solo mode (much requested by users) and the ability to employ multiple Marker Tracks, as well as improved stem separation, per-note Sound Variations and much more!",
+  "status": "published",
+  "isDomestic": false,
+  "category": "레코딩소프트웨어"
+ }
+]
