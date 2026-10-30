@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-30T02:44:01Z",
+  "generated_at": "2026-10-30T23:38:30Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 29,
-    "month": 129,
-    "total": 254
+    "week": 33,
+    "month": 133,
+    "total": 258
   },
   "top_brands_week": [
     {
+      "brand": "Native Instruments",
+      "count": 2
+    },
+    {
+      "brand": "Neumann",
+      "count": 1
+    },
+    {
+      "brand": "Art DSP",
+      "count": 1
+    },
+    {
+      "brand": "Moog",
+      "count": 1
+    },
+    {
       "brand": "IK Multimedia",
-      "count": 1
-    },
-    {
-      "brand": "Fender Studio",
-      "count": 1
-    },
-    {
-      "brand": "HK Audio",
-      "count": 1
-    },
-    {
-      "brand": "HEDD Audio",
-      "count": 1
-    },
-    {
-      "brand": "dBTechnologies",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 20,
-      "pct": 69
+      "count": 21,
+      "pct": 64
     },
     {
       "category": "컨슈머오디오",
@@ -44,20 +44,20 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 7,
-      "pct": 24
+      "count": 9,
+      "pct": 27
     },
     {
       "category": "기타",
-      "count": 1,
-      "pct": 3
+      "count": 2,
+      "pct": 6
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 95,
-      "pct": 74
+      "count": 96,
+      "pct": 72
     },
     {
       "category": "컨슈머오디오",
@@ -66,12 +66,12 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 24,
-      "pct": 19
+      "count": 26,
+      "pct": 20
     },
     {
       "category": "기타",
-      "count": 6,
+      "count": 7,
       "pct": 5
     }
   ]

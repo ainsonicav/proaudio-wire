@@ -6,7 +6,37 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 29 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Neumann - KK 15 슈퍼카디오이드 캡슐·MCM 115 인스트루먼트 세트</title>
+      <link>https://news.ainsonic.com/n/news-256.html</link>
+      <description>노이만이 미니어처 클립 마이크 시스템(MCM)에 KK 15 슈퍼카디오이드 캡슐과 MCM 115 악기용 세트 5종을 추가했다. 기존 KK 13(무지향)·KK 14(카디오이드)에 더해 세 가지 지향 패턴을 바꿔 끼울 수 있으며, 더 좁은 지향성으로 시끄러운 라이브 무대에서 하울링 마진과 음원 분리를 높였다. 티타늄 하우징을 쓰고 세 캡슐 간 음색 일관성을 유지하도록 설계됐다.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-256</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Art DSP - Canvas 비주얼 믹싱 플러그인</title>
+      <link>https://news.ainsonic.com/n/news-257.html</link>
+      <description>Art DSP가 스테레오 믹스를 3차원 공간에 시각화하는 믹싱 플러그인 Canvas를 출시했다. 각 트랙이 팬·주파수·볼륨에 따라 도형으로 배치되고, 이를 끌어 레벨과 위치를 조정한다. 스펙트럴 사이드체인, 내장 EQ 편집기, 리버브 연동, 믹스 템플릿을 지원하며 macOS·Windows용 VST3/AAX, macOS용 AU로 제공된다.</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-257</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Moog - Model 112·Model 210 FRFR 앰프</title>
+      <link>https://news.ainsonic.com/n/news-258.html</link>
+      <description>무그가 신시사이저·키보드·드럼머신·일렉기타·모델링 프로세서 등 전자악기용 다목적 FRFR(풀레인지·플랫 응답) 앰프 Model 112와 Model 210을 내놨다. 소형 Model 112는 799달러, Model 210은 999달러다.</description>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-258</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
 
     <item>
       <title>[업데이트] IK Multimedia - TONEX Parametric Tone Model</title>
@@ -146,6 +176,16 @@
       <guid isPermaLink="false">news-238</guid>
       <category>신제품</category>
       <category>컨슈머오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Native Instruments - Massive XL</title>
+      <link>https://news.ainsonic.com/n/news-259.html</link>
+      <description>네이티브 인스트루먼츠가 Massive 출시 20주년에 맞춰 3세대 소프트 신스 Massive XL을 공개했다. Massive X의 후속작으로, 샘플을 패치로 바꿔 주는 AI 프리셋 생성, 사용자 웨이브테이블 등을 더했고 무료 버전도 함께 나온다. inMusic 인수 이후 NI의 가장 큰 악기 출시다.</description>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-259</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
@@ -366,46 +406,6 @@
       <guid isPermaLink="false">news-220</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Insta360 - Insta360 Mic</title>
-      <link>https://news.ainsonic.com/n/news-221.html</link>
-      <description>인스타360이 크리에이터용 무선 마이크 Insta360 Mic을 2026년 10월 22일 전 세계 출시했습니다. E-잉크 디스플레이를 자유롭게 꾸밀 수 있고 microSD 슬롯으로 32비트 플로트 내부 녹음이 가능한 무선 마이크입니다. AI 노이즈 캔슬링과 자동 게인 조절, 3가지 음색 프리셋을 지원하고 송신기 1대당 최대 13시간·충전 케이스 포함 최대 34시간 동작합니다. 1TX+1RX 구성은 139.99달러부터 판매 중입니다.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-221</guid>
-      <category>신제품</category>
-      <category>컨슈머오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] KLANG - DMI-KLANG</title>
-      <link>https://news.ainsonic.com/n/news-211.html</link>
-      <description>KLANG:technologies의 이머시브 인이어 모니터 믹싱 기술이 Hilary Duff의 'the lucky me tour'에 쓰이고 있다. 모니터 엔지니어 Nathan Bond는 DiGiCo Quantum338 콘솔에 DMI-KLANG 카드를 장착해 80채널이 넘는 입력과 토크백 채널을 관리하며, '모든 믹스에 KLANG을 쓰고 있다'고 밝혔다. Soundbox Productions가 장비를 공급했고, Rupert Neve Designs RMP-D8 프리앰프와 Dante 네트워크, MADI 플레이백 피드로 구성됐다.</description>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-211</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Sparks Audio - ClipMap</title>
-      <link>https://news.ainsonic.com/n/news-223.html</link>
-      <description>Sparks Audio가 Pro Tools 세션을 닫지 않고 자료를 찾아보는 독립 실행 유틸리티 ClipMap을 출시했습니다. Pro Tools를 설치하지 않고 .ptx 파일을 직접 읽어 여러 세션을 탭으로 열어 비교할 수 있습니다. 세션 재생과 솔로·뮤트, 클립 이름·메모리 위치 검색과 대본 검색을 지원합니다. 오디오를 Pro Tools 타임라인으로 직접 드래그할 수 있고, Pro 버전은 동기화된 비디오 재생을 추가합니다.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-223</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] DiGiCo - Quantum112 Pulse·Quantum225 Pulse 소프트웨어 업그레이드</title>
-      <link>https://news.ainsonic.com/n/news-216.html</link>
-      <description>디지코가 Quantum112 펄스와 Quantum225 펄스 디지털 믹싱 콘솔용 소프트웨어 업그레이드를 배포했습니다. Quantum112 펄스는 입력 채널이 80개에서 96개로, aux·서브그룹 버스가 24개에서 48개로 늘어났고 매트릭스는 12×12로 확장됐습니다. Mustard 프로세싱 인스턴스는 20개에서 24개로, Nodal 프로세싱은 24개에서 32개로 증가했습니다. Quantum225 펄스는 입력이 96개에서 120개로 추가 비용 없이 늘어납니다.</description>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-216</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
     </item>
 
   </channel>
