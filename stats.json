@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-30T23:38:44Z",
+  "generated_at": "2026-10-30T23:42:59Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 33,
-    "month": 133,
-    "total": 258
+    "week": 36,
+    "month": 136,
+    "total": 261
   },
   "top_brands_week": [
     {
@@ -15,27 +15,27 @@
       "count": 2
     },
     {
+      "brand": "Neve",
+      "count": 1
+    },
+    {
+      "brand": "Yamaha",
+      "count": 1
+    },
+    {
+      "brand": "Solid State Logic",
+      "count": 1
+    },
+    {
       "brand": "Neumann",
-      "count": 1
-    },
-    {
-      "brand": "Art DSP",
-      "count": 1
-    },
-    {
-      "brand": "Moog",
-      "count": 1
-    },
-    {
-      "brand": "IK Multimedia",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 21,
-      "pct": 64
+      "count": 24,
+      "pct": 67
     },
     {
       "category": "컨슈머오디오",
@@ -45,7 +45,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 9,
-      "pct": 27
+      "pct": 25
     },
     {
       "category": "기타",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 96,
-      "pct": 72
+      "count": 99,
+      "pct": 73
     },
     {
       "category": "컨슈머오디오",
@@ -67,7 +67,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 26,
-      "pct": 20
+      "pct": 19
     },
     {
       "category": "기타",
