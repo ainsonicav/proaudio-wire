@@ -1,63 +1,63 @@
 {
-  "generated_at": "2026-10-31T02:33:26Z",
+  "generated_at": "2026-10-31T23:45:03Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 35,
-    "month": 133,
-    "total": 261
+    "week": 41,
+    "month": 139,
+    "total": 267
   },
   "top_brands_week": [
+    {
+      "brand": "L-Acoustics",
+      "count": 2
+    },
     {
       "brand": "Native Instruments",
       "count": 2
     },
     {
-      "brand": "Neve",
+      "brand": "JBL Professional",
       "count": 1
     },
     {
-      "brand": "Yamaha",
+      "brand": "DiGiCo",
       "count": 1
     },
     {
-      "brand": "Solid State Logic",
-      "count": 1
-    },
-    {
-      "brand": "Neumann",
+      "brand": "Martin Audio",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 24,
-      "pct": 69
+      "count": 29,
+      "pct": 71
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 3
+      "pct": 2
     },
     {
       "category": "레코딩소프트웨어",
       "count": 8,
-      "pct": 23
+      "pct": 20
     },
     {
       "category": "기타",
-      "count": 2,
-      "pct": 6
+      "count": 3,
+      "pct": 7
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 96,
-      "pct": 72
+      "count": 101,
+      "pct": 73
     },
     {
       "category": "컨슈머오디오",
@@ -67,12 +67,12 @@
     {
       "category": "레코딩소프트웨어",
       "count": 26,
-      "pct": 20
+      "pct": 19
     },
     {
       "category": "기타",
-      "count": 7,
-      "pct": 5
+      "count": 8,
+      "pct": 6
     }
   ]
 }
