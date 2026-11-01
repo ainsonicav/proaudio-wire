@@ -1,0 +1,16 @@
+[
+  {
+    "date": "2026-11-01",
+    "sourceDate": "2026-11-01",
+    "company": "Waldorf",
+    "brand": "Waldorf",
+    "productName": "Crema",
+    "type": "신제품",
+    "summary": "발도르프가 스트링 앙상블과 레이어드 패드, 진화하는 텍스처에 초점을 둔 신스 크레마를 발표했습니다. 텍스처 엔진은 스트링·웨이브테이블·FM 방식 24종 사운드를 제공하며 12보이스 폴리포니를 지원하고, 라인스 엔진은 8보이스 가상 아날로그 음색을 냅니다. USB-C 전원과 USB·3.5mm TRS MIDI, 스테레오 출력과 헤드폰 단자를 갖췄고 MPE를 지원하며 두 엔진을 별도 MIDI 채널로 제어할 수 있습니다. 현재 판매 중이며 가격은 €345.45입니다.",
+    "link": "https://www.soundonsound.com/news/waldorf-announce-crema",
+    "evidence": "The focus is on string ensembles, layered pads and evolving sound textures.",
+    "status": "published",
+    "isDomestic": false,
+    "category": "기타"
+  }
+]
