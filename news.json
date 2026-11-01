@@ -13,7 +13,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "기타",
-    "addedDate": "2026-11-02"
+    "addedDate": "2026-11-02",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.soundonsound.com%2Fs3%2Ffiles%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fw%2Fwaldorf_crema.jpeg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-263",
