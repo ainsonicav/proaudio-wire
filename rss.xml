@@ -6,7 +6,17 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 30 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Waldorf - Crema</title>
+      <link>https://news.ainsonic.com/n/news-269.html</link>
+      <description>발도르프가 스트링 앙상블과 레이어드 패드, 진화하는 텍스처에 초점을 둔 신스 크레마를 발표했습니다. 텍스처 엔진은 스트링·웨이브테이블·FM 방식 24종 사운드를 제공하며 12보이스 폴리포니를 지원하고, 라인스 엔진은 8보이스 가상 아날로그 음색을 냅니다. USB-C 전원과 USB·3.5mm TRS MIDI, 스테레오 출력과 헤드폰 단자를 갖췄고 MPE를 지원하며 두 엔진을 별도 MIDI 채널로 제어할 수 있습니다. 현재 판매 중이며 가격은 €345.45입니다.</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-269</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
 
     <item>
       <title>[신제품] JBL Professional - VTX A8·G28 시스템 (Victoria's Secret Fashion Show 2026)</title>
@@ -396,16 +406,6 @@
       <guid isPermaLink="false">news-228</guid>
       <category>신제품</category>
       <category>기타</category>
-    </item>
-
-    <item>
-      <title>[업데이트] NUGEN Audio - VisLM 3</title>
-      <link>https://news.ainsonic.com/n/news-229.html</link>
-      <description>NUGEN Audio가 라우드니스 미터링 플러그인 VisLM 3을 출시했습니다. AES Nashville 2026에 앞서 공개된 신버전으로 스템 모니터링과 Jotter 기술 기반 타임스탬프 노트를 추가했습니다. 인터페이스를 새로 설계하고 이머시브 오디오 지원을 확대했습니다. 방송, 포스트, 팟캐스트, 음악, 이머시브 작업에 쓸 수 있습니다.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-229</guid>
-      <category>업데이트</category>
-      <category>레코딩소프트웨어</category>
     </item>
 
   </channel>
