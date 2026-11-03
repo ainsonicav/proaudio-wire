@@ -13,7 +13,9 @@
     "status": "published",
     "summary": "미국 콜로라도주 리틀턴의 세인트 프랜시스 카브리니 가톨릭 교회가 '하트비트 프로젝트' 개보수에 NEXO와 야마하 음향 시스템을 갖췄습니다. 아쿠스테크가 NEXO M620, P12+, M1012, M1025 스피커와 MSUB18 서브우퍼를 NXAMP 앰프로 구동하고 야마하 DM7 콘솔과 Rio 32×16 스테이지박스 2대를 연결했습니다. 말소리와 음악에 각각 맞춘 별도 시스템으로 앞에서 뒤까지 약 95피트 구간에서 음량 차이가 약 2dB 수준으로 유지됩니다.",
     "type": "행사",
-    "addedDate": "2026-11-03"
+    "addedDate": "2026-11-03",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.nexo-sa.com%2Fwp-content%2Fuploads%2Fgeo-m620.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-271",
@@ -29,7 +31,9 @@
     "status": "published",
     "summary": "KLANG이 인이어 모니터링 운영체제 KOS 6.1 업데이트를 공개했습니다. 모든 믹스에 룸·홀·캐시드럴·플레이트 중 고르는 리버브가 들어가 시간과 리턴 레벨, 4밴드 EQ를 조절합니다. KLANG:kontroller에는 세이프티 리미터와 앰비언스 더커가 추가됐습니다. KLANG:konductor, KLANG:vokal, DMI-KLANG, KLANG:1pro에서 동작하고 무료 미리보기로 나오며 2026년 11월 말 정식 버전이 KOS 6.0을 대체합니다.",
     "type": "업데이트",
-    "addedDate": "2026-11-03"
+    "addedDate": "2026-11-03",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F11%2FKLANG-KOS_6pt1.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-272",
@@ -45,7 +49,9 @@
     "status": "published",
     "summary": "영국 옥스퍼드셔에서 열린 제15회 더 빅 피스티벌의 메인 무대 음향을 SWG Events가 마틴 오디오 시스템으로 맡았습니다. 좌우 각 12통의 WPL 대형 라인어레이와 좌우 각 12통의 WPC 아웃필, 카디오이드 배치의 SXH218 서브우퍼 14통, WPS 프론트필 12통으로 구성했습니다. 지연 시스템은 WPC 8통씩 2개 행과 SXH218 3통씩의 카디오이드 스택을 사용했습니다. 베이스먼트 잭스, 더 스트리츠, 바스틸 등이 출연했습니다.",
     "type": "행사",
-    "addedDate": "2026-11-03"
+    "addedDate": "2026-11-03",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fproducts%2Fthumbs%2Fsxh218.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-273",
@@ -61,7 +67,9 @@
     "status": "published",
     "summary": "2027 NAMM Show에서 첫 TEC Tracks 라이브 사운드 서밋이 열립니다. 2027년 1월 27일 수요일 오전 미국 애너하임 컨벤션 센터에서 반나절로 열리며, 프론트 오브 하우스 엔지니어와 크루가 라이브 사운드 현장의 기회와 현안을 논의합니다. 오디네이트의 3일간 Dante·콘솔 교육도 함께 열리고, ACC North 2층에는 DiGiCo, L-Acoustics, Adamson, RCF, QSC, Solid State Logic 등이 전시합니다.",
     "type": "행사",
-    "addedDate": "2026-11-03"
+    "addedDate": "2026-11-03",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F10%2FsoundGirls-Conference-300x250.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-274",
@@ -77,7 +85,9 @@
     "status": "published",
     "summary": "플레이페어 오디오가 Dynamic Grading 2.1 플러그인을 무료 업데이트로 내놨습니다. 내장 피크 리미터와 새로운 리슨 모드가 추가됐고, AU와 VST3에서는 프리젠테이션 지연 보상을 지원합니다. AAX는 해당하지 않습니다. 웹사이트와 사용자 계정을 새로 만들었고 렌트 투 오운 옵션도 제공합니다. 모든 라이선스는 이제 최대 4대의 기기에서 활성화되며, 2026년 11월 30일까지 99달러·99유로에 판매합니다.",
     "type": "업데이트",
-    "addedDate": "2026-11-03"
+    "addedDate": "2026-11-03",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F11%2FPlayfiar-Audio-Dynamic-Grading.png&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-269",
@@ -666,7 +676,7 @@
     "evidence": "After exploring their options, the team selected an Allen & Heath AHM-32 – which features a 32×32 I/O matrix, along with advanced signal processing, automation, and several different options for control.",
     "status": "published",
     "addedDate": "2026-10-29",
-    "imageTried": "2026-10-31:g"
+    "imageTried": "2026-11-03:g"
   },
   {
     "id": "news-238",
@@ -1459,7 +1469,7 @@
     "status": "published",
     "summary": "미국 캘리포니아의 마스터마인드 프로덕션 그룹이 PK 사운드 파트너 네트워크에 합류했습니다. T8 로봇 라인소스 엘리먼트 40개, T18 서브우퍼 12개, Tx26 포인트소스 모듈 8개로 구성된 시스템을 도입했습니다. PK Cell로 시스템을 구동하고 PK .dynamics 소프트웨어와 MOVE 모바일 앱으로 무선 제어하며, 기업 행사 현장에 투입됩니다.",
     "type": "행사",
-    "imageTried": "2026-10-31:g"
+    "imageTried": "2026-11-03:g"
   },
   {
     "id": "news-188",
@@ -2092,7 +2102,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-10-31:g"
+    "imageTried": "2026-11-03:g"
   },
   {
     "id": "news-147",
@@ -2107,7 +2117,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-10-31:g"
+    "imageTried": "2026-11-03:g"
   },
   {
     "id": "news-148",
