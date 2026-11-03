@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-11-03T03:57:42Z",
+  "generated_at": "2026-11-03T23:34:29Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 32,
-    "month": 144,
-    "total": 273
+    "week": 37,
+    "month": 149,
+    "total": 278
   },
   "top_brands_week": [
+    {
+      "brand": "NEXO",
+      "count": 2
+    },
     {
       "brand": "KLANG",
       "count": 2
@@ -19,23 +23,19 @@
       "count": 2
     },
     {
-      "brand": "NEXO",
+      "brand": "d&b audiotechnik",
       "count": 1
     },
     {
-      "brand": "TEC Tracks",
-      "count": 1
-    },
-    {
-      "brand": "Playfair Audio",
+      "brand": "Lectrosonics",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 23,
-      "pct": 72
+      "count": 27,
+      "pct": 73
     },
     {
       "category": "컨슈머오디오",
@@ -44,19 +44,19 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
+      "count": 6,
       "pct": 16
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 9
+      "pct": 8
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 104,
+      "count": 108,
       "pct": 72
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 27,
+      "count": 28,
       "pct": 19
     },
     {
