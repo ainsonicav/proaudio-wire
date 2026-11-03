@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-11-02T02:37:49Z",
+  "generated_at": "2026-11-03T00:45:25Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 36,
-    "month": 139,
-    "total": 268
+    "week": 32,
+    "month": 144,
+    "total": 273
   },
   "top_brands_week": [
     {
-      "brand": "L-Acoustics",
+      "brand": "KLANG",
       "count": 2
     },
     {
-      "brand": "Native Instruments",
+      "brand": "Martin Audio",
       "count": 2
     },
     {
-      "brand": "Waldorf",
+      "brand": "NEXO",
       "count": 1
     },
     {
-      "brand": "JBL Professional",
+      "brand": "TEC Tracks",
       "count": 1
     },
     {
-      "brand": "DiGiCo",
+      "brand": "Playfair Audio",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 26,
+      "count": 23,
       "pct": 72
     },
     {
@@ -44,19 +44,19 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 17
+      "count": 5,
+      "pct": 16
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 8
+      "pct": 9
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 100,
+      "count": 104,
       "pct": 72
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 26,
+      "count": 27,
       "pct": 19
     },
     {

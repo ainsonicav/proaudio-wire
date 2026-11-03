@@ -6,7 +6,57 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 01 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] NEXO - M620·P12+·M1012·M1025·MSUB18 (St. Frances Cabrini Catholic Church)</title>
+      <link>https://news.ainsonic.com/n/news-270.html</link>
+      <description>미국 콜로라도주 리틀턴의 세인트 프랜시스 카브리니 가톨릭 교회가 '하트비트 프로젝트' 개보수에 NEXO와 야마하 음향 시스템을 갖췄습니다. 아쿠스테크가 NEXO M620, P12+, M1012, M1025 스피커와 MSUB18 서브우퍼를 NXAMP 앰프로 구동하고 야마하 DM7 콘솔과 Rio 32×16 스테이지박스 2대를 연결했습니다. 말소리와 음악에 각각 맞춘 별도 시스템으로 앞에서 뒤까지 약 95피트 구간에서 음량 차이가 약 2dB 수준으로 유지됩니다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-270</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] KLANG - KOS 6.1</title>
+      <link>https://news.ainsonic.com/n/news-271.html</link>
+      <description>KLANG이 인이어 모니터링 운영체제 KOS 6.1 업데이트를 공개했습니다. 모든 믹스에 룸·홀·캐시드럴·플레이트 중 고르는 리버브가 들어가 시간과 리턴 레벨, 4밴드 EQ를 조절합니다. KLANG:kontroller에는 세이프티 리미터와 앰비언스 더커가 추가됐습니다. KLANG:konductor, KLANG:vokal, DMI-KLANG, KLANG:1pro에서 동작하고 무료 미리보기로 나오며 2026년 11월 말 정식 버전이 KOS 6.0을 대체합니다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-271</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Martin Audio - WPL·WPC·WPS·SXH218 (The Big Feastival)</title>
+      <link>https://news.ainsonic.com/n/news-272.html</link>
+      <description>영국 옥스퍼드셔에서 열린 제15회 더 빅 피스티벌의 메인 무대 음향을 SWG Events가 마틴 오디오 시스템으로 맡았습니다. 좌우 각 12통의 WPL 대형 라인어레이와 좌우 각 12통의 WPC 아웃필, 카디오이드 배치의 SXH218 서브우퍼 14통, WPS 프론트필 12통으로 구성했습니다. 지연 시스템은 WPC 8통씩 2개 행과 SXH218 3통씩의 카디오이드 스택을 사용했습니다. 베이스먼트 잭스, 더 스트리츠, 바스틸 등이 출연했습니다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-272</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] TEC Tracks - TEC Tracks Live Sound Summit</title>
+      <link>https://news.ainsonic.com/n/news-273.html</link>
+      <description>2027 NAMM Show에서 첫 TEC Tracks 라이브 사운드 서밋이 열립니다. 2027년 1월 27일 수요일 오전 미국 애너하임 컨벤션 센터에서 반나절로 열리며, 프론트 오브 하우스 엔지니어와 크루가 라이브 사운드 현장의 기회와 현안을 논의합니다. 오디네이트의 3일간 Dante·콘솔 교육도 함께 열리고, ACC North 2층에는 DiGiCo, L-Acoustics, Adamson, RCF, QSC, Solid State Logic 등이 전시합니다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-273</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Playfair Audio - Dynamic Grading 2.1</title>
+      <link>https://news.ainsonic.com/n/news-274.html</link>
+      <description>플레이페어 오디오가 Dynamic Grading 2.1 플러그인을 무료 업데이트로 내놨습니다. 내장 피크 리미터와 새로운 리슨 모드가 추가됐고, AU와 VST3에서는 프리젠테이션 지연 보상을 지원합니다. AAX는 해당하지 않습니다. 웹사이트와 사용자 계정을 새로 만들었고 렌트 투 오운 옵션도 제공합니다. 모든 라이선스는 이제 최대 4대의 기기에서 활성화되며, 2026년 11월 30일까지 99달러·99유로에 판매합니다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-274</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[신제품] Waldorf - Crema</title>
@@ -356,56 +406,6 @@
       <guid isPermaLink="false">news-232</guid>
       <category>신제품</category>
       <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] LD Systems - MAUI 44 G3 / MAUI 44 G3 MIX / MAUI 66 G3</title>
-      <link>https://news.ainsonic.com/n/news-233.html</link>
-      <description>LD 시스템즈가 액티브 4웨이 컬럼 시스템 MAUI 44 G3와 MAUI 44 G3 MIX, MAUI 66 G3를 발표했다. MAUI 44 G3 계열은 14개의 3.5인치 미드레인지 드라이버와 15인치 서브우퍼를 갖춰 34Hz까지 재생하고 최대 133dB를 낸다. MAUI 66 G3는 18인치 서브우퍼로 28Hz까지, 최대 135dB를 제공한다. MAUI 44 G3 MIX는 8개 XLR 입력과 6개 마이크 프리앰프를 갖춘 디지털 믹서 내장, 사전 주문 중이다.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-233</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Shure - Axient Digital, Axient Digital PSM (Gorillaz 월드 투어)</title>
-      <link>https://news.ainsonic.com/n/news-236.html</link>
-      <description>슈어 Axient Digital 무선 마이크와 Axient Digital PSM 인이어 시스템이 고릴라즈의 'The Mountain' 월드 투어에 쓰였다. 기타마다 AD1 바디팩을, 데이먼 알반용으로 KSM8 캡슐을 단 AD2 핸드헬드를 대기시켰고, 기존 인이어와의 간섭 문제를 Axient Digital PSM으로 해결했다. RF 전체는 Wireless Workbench로 관리했다.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-236</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Allen &amp; Heath - Qu 시리즈, AHM-32, DX88-P (Old World Village)</title>
-      <link>https://news.ainsonic.com/n/news-237.html</link>
-      <description>미국 캘리포니아 헌팅턴비치의 테마 마을 Old World Village 음향 시스템이 알렌앤히스 장비로 교체됐다. Qu 시리즈 믹서로 야외·실내 무대를 운영하고, 32x32 매트릭스 프로세서 AHM-32와 DX88-P 익스팬더로 식당과 각 구역에 음향을 분배한다.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-237</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] PSI Audio - AES Show Nashville 2026 전시</title>
-      <link>https://news.ainsonic.com/n/news-227.html</link>
-      <description>PSI Audio가 2026년 10월 31일부터 11월 1일까지 미국 테네시주 내슈빌 게이로드 오프리랜드 리조트에서 열리는 AES Show Nashville 2026에 참가합니다. 부스 508에서 Eleven Dimensions Media와 함께 전시합니다. 스튜디오 모니터 A17-M, A23-M, A226-MAIN과 액티브 베이스 트랩 AVAA C214을 선보입니다. AVAA는 기존 다공성 흡음재 최대 45배 크기에 맞먹는 흡음 성능을 낸다고 밝혔습니다.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-227</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] MSolutions - UniLink100 시리즈</title>
-      <link>https://news.ainsonic.com/n/news-228.html</link>
-      <description>MSolutions가 USB-C 노트북을 기존 HDMI 기반 AV 시스템에 연결하는 UniLink100 시리즈 연결 장치를 발표했습니다. 첫 제품 MS-UniLink100은 USB-C DisplayPort Alt Mode를 HDMI 2.0으로 변환하며 최대 4K60 4:4:4, 18Gbps, HDCP 2.1을 지원합니다. 4K 비디오 출력과 최대 100W 노트북 충전을 제공하며 드라이버가 필요 없습니다. 회의실, 교실, 협업 공간용이며 두 번째 장치는 2027년 1분기에 추가될 예정입니다.</description>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-228</guid>
-      <category>신제품</category>
-      <category>기타</category>
     </item>
 
   </channel>
