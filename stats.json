@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-11-04T03:04:06Z",
+  "generated_at": "2026-11-04T23:39:41Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 29,
-    "month": 149,
-    "total": 278
+    "week": 36,
+    "month": 156,
+    "total": 285
   },
   "top_brands_week": [
+    {
+      "brand": "L-Acoustics",
+      "count": 2
+    },
+    {
+      "brand": "DiGiCo",
+      "count": 2
+    },
+    {
+      "brand": "JBL Professional",
+      "count": 2
+    },
     {
       "brand": "NEXO",
       "count": 2
@@ -17,25 +29,13 @@
     {
       "brand": "Martin Audio",
       "count": 2
-    },
-    {
-      "brand": "d&b audiotechnik",
-      "count": 1
-    },
-    {
-      "brand": "Lectrosonics",
-      "count": 1
-    },
-    {
-      "brand": "Myburgh",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 21,
-      "pct": 72
+      "count": 27,
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
@@ -44,20 +44,20 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
+      "count": 6,
       "pct": 17
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 10
+      "pct": 8
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 108,
-      "pct": 72
+      "count": 114,
+      "pct": 73
     },
     {
       "category": "컨슈머오디오",
@@ -66,7 +66,7 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 28,
+      "count": 29,
       "pct": 19
     },
     {

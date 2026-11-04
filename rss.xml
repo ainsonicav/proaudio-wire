@@ -6,7 +6,57 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 03 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Allen &amp; Heath - Qu-3 / Qu-3D</title>
+      <link>https://news.ainsonic.com/n/news-280.html</link>
+      <description>앨런앤히스가 Qu 시리즈의 가장 작은 모델인 Qu-3와 단테 내장형 Qu-3D를 발표했습니다. 32채널 96kHz 프로세싱과 36개 입력, 12개 믹스, 4개 매트릭스, 6개 이펙트 엔진을 8+1 페이더 형식에 담았습니다. 128×128 SLink 포트와 32×32 USB-C 인터페이스, SD 카드 멀티트랙 녹음을 지원하고, Qu-3D는 16×16 단테를 내장해 32×32까지 확장할 수 있습니다. 공간이 부족한 현장에 적합합니다.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-280</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Alcons Audio - LR18 시스템 (Chorzowskie Centrum Kultury)</title>
+      <link>https://news.ainsonic.com/n/news-281.html</link>
+      <description>폴란드 호주프의 문화센터 대공연장이 앨콘스 오디오 프로리본 스피커 시스템으로 새로 갖춰졌습니다. 메인 시스템은 LR18 모듈 8개씩 2열의 어레이와 LR18B 서브우퍼 5개, 센티넬10 앰프 컨트롤러 5대로 구성됐습니다. 짧고 천장이 높은 객석 구조 때문에 고음역 커버리지 정밀도가 선택의 핵심이었다고 공연장 측은 설명했습니다. 록 공연과 연극, 가족 공연까지 다양한 프로그램을 소화하는 공연장이라 다목적 활용도가 강조됐습니다.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-281</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] L-Acoustics - L-ISA 시스템 (홍콩 Hedwig and the Angry Inch)</title>
+      <link>https://news.ainsonic.com/n/news-282.html</link>
+      <description>홍콩 프리 스페이스 더 박스에서 광둥어 뮤지컬 헤드윅 앤드 디 앵그리 인치 13회 공연에 L-어쿠스틱스 L-ISA 시스템이 쓰였습니다. 좌석 중앙과 양쪽 스탠딩 구역을 독립적으로 렌더링하는 3개 청취 존으로 공간 음향을 새로 구성했습니다. Kiva II 위치를 조정하고 X8을 추가해 구역별 서라운드 커버리지를 만들었습니다. 같은 시스템으로 공연 후 DJ 워밍업과 애프터파티까지 이어졌고, 아시아 첫 L-어쿠스틱스 DJ 기술 적용 사례라고 소개됐습니다.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-282</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] DiGiCo - Quantum 콘솔 (Raye 투어)</title>
+      <link>https://news.ainsonic.com/n/news-283.html</link>
+      <description>가수 레이의 투어에서 프론트오브하우스 엔지니어와 모니터 엔지니어가 디지코 퀀텀 콘솔을 쓰고 있습니다. 프론트오브하우스에는 퀀텀326, 모니터에는 공연 규모에 따라 퀀텀7과 Q338, Q225를 사용합니다. 대형 아레나와 스타디움부터 200석 재즈 클럽, TV 출연까지 편성이 크게 바뀌는 일정에서도 같은 쇼 파일과 워크플로를 유지할 수 있다고 엔지니어들은 설명했습니다. 솔로텍이 장비를 공급했고, 옵토코어 루프로 콘솔과 랙을 연결했습니다.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-283</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Steinberg - Cubase 16</title>
+      <link>https://news.ainsonic.com/n/news-286.html</link>
+      <description>스타인버그가 음악 제작 DAW 큐베이스 16을 발표했습니다. 여러 가상악기와 샘플러, 드럼 트랙을 하나의 악기처럼 쌓는 인스트루먼트 스택과 6개 스템 분리, 옴니보컬 베이직이 새로 들어갔습니다. 프로 버전은 채널당 오디오 센드가 8개에서 16개로, 컨트롤룸 큐 센드가 4개에서 8개로 늘었습니다. 프로 599.99달러, 아티스트 299.99달러, 엘리먼츠 99.99달러로 나왔고, 윈도우 10 이상과 macOS 15 이상에서 쓸 수 있습니다.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-286</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[업데이트] d&amp;b audiotechnik - ArrayCalc MVR Exchange</title>
@@ -56,6 +106,26 @@
       <guid isPermaLink="false">news-279</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] JBL Professional - 3 Series MkIII (305P MkIII / 306P MkIII / 308P MkIII / 310S MkIII)</title>
+      <link>https://news.ainsonic.com/n/news-284.html</link>
+      <description>JBL 프로페셔널이 3 시리즈의 가장 큰 개편인 MkIII 파워드 스튜디오 모니터를 발표했습니다. 305P·306P·308P MkIII 모니터와 310S MkIII 서브우퍼로 구성되며, 새로 설계한 드라이버와 웨이브가이드, 클래스 D 앰프를 적용했습니다. 풀레인지 모델마다 81가지 보정 조합의 원터치 룸 컨트롤 4개가 내장됐습니다. 아시아·태평양과 유럽, 중동, 아프리카에서는 2026년 11월 3일부터 판매되고, 북미는 2027년 1월 7일부터입니다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-284</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Steven Slate Audio - VSX Horizon One / VSX 8.0</title>
+      <link>https://news.ainsonic.com/n/news-285.html</link>
+      <description>스티븐 슬레이트 오디오가 밀폐형 레퍼런스 헤드폰 VSX 호라이즌 원과 스피커 모델링 소프트웨어 VSX 8.0을 내놨습니다. 호라이즌 원은 50mm 다이나믹 드라이버를 쓴 밀폐형 모델로, 소프트웨어 없이도 쓸 수 있습니다. VSX 8.0은 스피커가 더 앞에 있는 듯한 공간감을 주는 룸 기능을 추가했고, 기존 VSX 사용자에게는 무상 업데이트로 제공됩니다. 호라이즌 원은 에센셜 399달러, 플래티넘 599달러이며, 기존 사용자는 299달러에 살 수 있습니다.</description>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-285</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -334,76 +404,6 @@
       <description>캐나다 토론토의 프로듀서 겸 엔지니어 더글러스 로마노우의 스튜디오에 포칼 7.1.4 모니터링 시스템이 구축됐다. 좌·중앙·우 채널에 Twin6 ST6, 서라운드와 오버헤드 채널에 Solo6 ST6, 저역에는 Sub12 서브우퍼를 배치했다. 스테레오와 돌비 애트모스 믹싱을 위해 설계됐으며, 모든 채널에 같은 트위터를 써서 패닝 시 음색 변화가 없도록 했다. OMS 캐나다가 모니터 공급과 구성 자문, 배선을 맡았다.</description>
       <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-243</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] AuviTran - AV-HY64-AVB (Yamaha RIVAGE PM 펌웨어 V7.20 지원)</title>
-      <link>https://news.ainsonic.com/n/news-244.html</link>
-      <description>오비트란 AV-HY64-AVB 인터페이스 카드가 야마하 RIVAGE PM 펌웨어 V7.20에서 지원된다. RIVAGE PM10, PM7, PM5, PM3 믹싱 시스템과 AVB 네트워크를 직접 연결해 48kHz 또는 96kHz로 입출력 각 64채널을 제공한다. 주·보조 EtherCon 연결로 네트워크 이중화를 갖추고 AAF와 CRF 스트림 형식을 지원한다. AVS-Monitor 소프트웨어로 설정과 펌웨어 업데이트를 할 수 있다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-244</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] KLANG - KLANG+ 이머시브 인이어 믹싱 시스템 (First Baptist Church Pasadena)</title>
-      <link>https://news.ainsonic.com/n/news-245.html</link>
-      <description>미국 텍사스주 패서디나 제일침례교회가 KLANG+ 이머시브 인이어 믹싱 시스템 2대로 모니터 시스템을 확장했다. 현대 예배와 혼합 예배의 음악가와 예배 인도자를 위해 총 24개 믹스를 제공한다. 연주자와 보컬이 휴대폰 앱으로 직접 믹스를 조절해 예배 중 모니터팀에 요청을 전달할 필요가 줄었다. 두 예배 사이 15~20분의 짧은 전환 시간에는 프리셋 호출로 각 예배용 세션을 바로 불러온다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-245</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Electro-Voice - EVID-N 네트워크 스피커</title>
-      <link>https://news.ainsonic.com/n/news-234.html</link>
-      <description>일렉트로보이스의 첫 네트워크 스피커 라인 EVID-N이 소개됐다. 천장형·서피스형·펜던트형 스피커에 앰프와 DSP, 네트워크를 내장해 PoE+로 구동하며, 별도 앰프 랙 없이 Dante·AES67과 브라우저 기반 관리, 기업용 네트워크 보안을 지원한다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-234</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] JBL - L150 Classic</title>
-      <link>https://news.ainsonic.com/n/news-238.html</link>
-      <description>하만 럭셔리 오디오 그룹이 JBL Classic 시리즈의 새 플래그십 3웨이 플로어스탠딩 스피커 L150 Classic을 공개했다. 15인치 퓨어 펄프 우퍼와 6.5인치 미드레인지, 28mm 티타늄 돔 트위터를 쓰고 33Hz까지 재생하며, 바이와이어·바이앰핑을 지원한다. 출시는 2027년 예정이다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-238</guid>
-      <category>신제품</category>
-      <category>컨슈머오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Native Instruments - Massive XL</title>
-      <link>https://news.ainsonic.com/n/news-259.html</link>
-      <description>네이티브 인스트루먼츠가 Massive 출시 20주년에 맞춰 3세대 소프트 신스 Massive XL을 공개했다. Massive X의 후속작으로, 샘플을 패치로 바꿔 주는 AI 프리셋 생성, 사용자 웨이브테이블 등을 더했고 무료 버전도 함께 나온다. inMusic 인수 이후 NI의 가장 큰 악기 출시다.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-259</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Barefoot Sound - LFE12 Subwoofer (Footprint 시리즈용)</title>
-      <link>https://news.ainsonic.com/n/news-246.html</link>
-      <description>베어풋 사운드가 Footprint 시리즈 모니터용 서브우퍼 LFE12를 발표했다. 1400와트 출력과 Dual-Force 기술로 17Hz까지 저역을 확장한다. Footprint 01, 02, 03, 03C 모니터와 연동되며 스테레오와 서라운드, 돌비 애트모스 시스템에 쓸 수 있다. 미국 오리건주 포틀랜드에서 2026년 10월 27일 보도자료로 공개됐다.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-246</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Sennheiser - Spectera (Foo Fighters 투어 인이어 모니터)</title>
-      <link>https://news.ainsonic.com/n/news-247.html</link>
-      <description>푸 파이터스의 모니터 엔지니어 이안 베버리지가 투어에 젠하이저 Spectera 광대역 양방향 무선 시스템을 도입했다. 협대역 시스템과 달리 디지털 인이어 전송으로 좌우 분리도와 안정적인 스테레오 이미지를 유지한다. 주파수 변경 시 모든 바디팩이 약 20초 만에 새 TV 채널로 함께 이동해 무대 중간에도 간섭을 피할 수 있다. 기존 5피트 랙이 베이스 스테이션 2대와 노트북 2U 규모로 줄었다.</description>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-247</guid>
       <category>신제품</category>
       <category>프로오디오</category>
     </item>
