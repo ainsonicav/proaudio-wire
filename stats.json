@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-11-03T23:35:00Z",
+  "generated_at": "2026-11-04T03:04:06Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 37,
+    "week": 29,
     "month": 149,
     "total": 278
   },
   "top_brands_week": [
     {
       "brand": "NEXO",
-      "count": 2
-    },
-    {
-      "brand": "KLANG",
       "count": 2
     },
     {
@@ -29,28 +25,32 @@
     {
       "brand": "Lectrosonics",
       "count": 1
+    },
+    {
+      "brand": "Myburgh",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 27,
-      "pct": 73
+      "count": 21,
+      "pct": 72
     },
     {
       "category": "컨슈머오디오",
-      "count": 1,
-      "pct": 3
+      "count": 0,
+      "pct": 0
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 16
+      "count": 5,
+      "pct": 17
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 8
+      "pct": 10
     }
   ],
   "category_ratio_month": [
