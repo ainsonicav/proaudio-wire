@@ -1,15 +1,23 @@
 {
-  "generated_at": "2026-11-05T03:35:23Z",
+  "generated_at": "2026-11-05T23:50:23Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 27,
-    "month": 154,
-    "total": 285
+    "week": 32,
+    "month": 159,
+    "total": 290
   },
   "top_brands_week": [
+    {
+      "brand": "d&b audiotechnik",
+      "count": 2
+    },
+    {
+      "brand": "Solid State Logic",
+      "count": 2
+    },
     {
       "brand": "L-Acoustics",
       "count": 2
@@ -21,21 +29,13 @@
     {
       "brand": "JBL Professional",
       "count": 2
-    },
-    {
-      "brand": "NEXO",
-      "count": 2
-    },
-    {
-      "brand": "Allen & Heath",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 21,
-      "pct": 78
+      "count": 24,
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
@@ -44,19 +44,19 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 4,
-      "pct": 15
+      "count": 6,
+      "pct": 19
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 7
+      "pct": 6
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 113,
+      "count": 116,
       "pct": 73
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 28,
-      "pct": 18
+      "count": 30,
+      "pct": 19
     },
     {
       "category": "기타",

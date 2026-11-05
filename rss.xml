@@ -6,7 +6,57 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 04 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] d&amp;b audiotechnik - KSL, XSL, CCL</title>
+      <link>https://news.ainsonic.com/n/news-287.html</link>
+      <description>런던 로열 앨버트 홀이 d&amp;b audiotechnik 카디오이드 구성으로 하우스 음향 시스템을 업그레이드했습니다. 새 스피커 요소 140개 이상을 설치했으며, 메인 좌우 행은 12단 KSL 어레이로 구성했습니다. XSL은 아웃필과 합창석, Soundscape용 신규 중앙 행 2개에 배치했고, CCL은 서클 딜레이로, 42S는 프런트필로 추가했습니다. 40D 설치형 앰프로 구동하며, Soundscape 프로세서는 DS100 2대에서 DS110 3대로 확장했습니다.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-287</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] DPA - 2015 Compact Wide Cardioid, 2017 Compact Shotgun, 5100 Surround</title>
+      <link>https://news.ainsonic.com/n/news-288.html</link>
+      <description>DPA 마이크가 Hilary Duff의 'The Lucky Me Tour' 관객 사운드를 맡습니다. 2015 Compact Wide Cardioid와 2017 Compact Shotgun을 앰비언트 크라우드 마이크로 배치하고 5100 Surround 마이크를 추가했습니다. Wisycom MTK982 송신기와 MPR50·MPR60 수신기를 사용합니다. 무대 보컬은 더프 본인이 Austrian Audio 707, 나머지는 505 Active Dynamic을 사용합니다.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-288</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] SSL - SSL Live</title>
+      <link>https://news.ainsonic.com/n/news-289.html</link>
+      <description>Pierce The Veil의 FOH 엔지니어 J.P. Huff가 SSL Live 플랫폼을 사용합니다. L350 Plus에서 만든 쇼파일을 호환 모드로 L650, L200 Plus, L100 Plus에 그대로 전개합니다. 최근 호주 투어에서는 L550 Plus를 사용했으며, 스냅샷을 LTC 타임코드로 트리거합니다. SSL Revival 4000 채널 스트립 2개와 Harrison 32Classic MS Mix Strip도 호주 공연에서 처음 사용했습니다.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-289</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Avid - Pro Tools 2026.11</title>
+      <link>https://news.ainsonic.com/n/news-290.html</link>
+      <description>Avid가 Pro Tools 2026.11을 발표했습니다. Pro Tools Extensions 플랫폼을 도입하고 첫 Extension으로 Pro Tools Stem Separator를 내놨습니다. 보컬·드럼·베이스·기타·키·기타 악기 6개 스템으로 분리합니다. MIDI Polyphonic Expression과 Windows High DPI 지원, 플레이리스트 클립 색상 지정도 추가했습니다. Stem Separator는 모든 버전에 추가 비용 없이 포함됩니다.</description>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-290</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Universal Audio - Capitol Studios</title>
+      <link>https://news.ainsonic.com/n/news-291.html</link>
+      <description>Universal Audio가 네이티브 룸 모델링·리버브 플러그인 Capitol Studios를 내놨습니다. Capitol Studios A와 B, Dynamic Room Modeling, 지하 에코 챔버 4개를 담았습니다. 마이크 보관함과 콘솔, 아웃보드 장비도 모델링했습니다. macOS와 Windows에서 VST3, AU, AAX로 동작하며 Apollo나 UAD-2 하드웨어가 필요 없습니다. 가격은 249달러이며 UAD Spark Studio 구독에 포함됩니다.</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-291</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[신제품] Allen &amp; Heath - Qu-3 / Qu-3D</title>
@@ -354,56 +404,6 @@
       <description>Sonnet이 썬더볼트 5 PCIe 확장 시스템 Echo SE III T5를 발표했다. 썬더볼트 5 케이블 하나로 전문 카드 최대 3장을 컴퓨터에 연결하며, 썬더볼트 5·4와 USB4 포트 컴퓨터에서 동작한다. PCIe 3.1 x8 슬롯 3개에 풀하이트·하프렝스 카드 최대 7.75인치까지 장착할 수 있다. 전문 오디오와 DSP, 비디오 캡처, 10Gb·25Gb 이더넷, SSD 저장 용도로 쓸 수 있다.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-252</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Klang.io - Choral Mode (Transcription Studio·Sing2Notes)</title>
-      <link>https://news.ainsonic.com/n/news-253.html</link>
-      <description>Klang.io가 Transcription Studio와 Sing2Notes용 베타 기능 Choral Mode를 추가했다. 녹음에서 소프라노·알토·테너·베이스 4성부를 분리해 편집 가능한 악보로 변환한다. 음성 파일을 업로드하거나 직접 녹음할 수 있으며, 결과 악보는 Notion Editor에서 다듬을 수 있다. 베타는 기존 Transcription Studio와 Sing2Notes 사용자에게 제공된다.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-253</guid>
-      <category>업데이트</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Fender Studio - Fender Studio Pro 8.2</title>
-      <link>https://news.ainsonic.com/n/news-255.html</link>
-      <description>PreSonus Studio One을 기반으로 한 펜더의 DAW 소프트웨어 Fender Studio Pro가 8.2 버전으로 업데이트됐다. 트림 오토메이션, 다른 채널 음량만 줄여 주는 Dim Solo 모드, 여러 개의 마커 트랙을 새로 지원한다. 스템 분리에 기타와 피아노가 추가됐고, Vocal Tune에는 지연을 3ms 미만으로 줄인 저지연 모드가 생겼다. macOS와 Linux에서 MIDI 2.0도 지원하며, 자격 있는 Studio Pro 사용자와 Studio Pro+ 구독자에게 무료 업데이트로 제공된다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-255</guid>
-      <category>업데이트</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] LEA Professional - Connect Series 1504 (Estadio Yldefonso Sola Morales)</title>
-      <link>https://news.ainsonic.com/n/news-241.html</link>
-      <description>푸에르토리코 카구아스의 에스타디오 일데폰소 솔라 모랄레스 야구장에 LEA 프로페셔널 Connect Series 앰프 기반의 새 음향 시스템이 구축됐다. 1만 명 규모 구장의 관중석을 커버하기 위해 Connect Series 1504 4채널 앰프 9대가 EAW MK 시리즈 스피커 54대를 구동한다. 복도와 스위트룸, 화장실 스피커는 Connect Series 704 앰프가 맡았다. SharkWare로 앰프 설정과 원격 모니터링이 가능하고 LEA Cloud로도 관리할 수 있다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-241</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] AEQ - ATRIUM (Onda Madrid 새 스튜디오)</title>
-      <link>https://news.ainsonic.com/n/news-242.html</link>
-      <description>스페인 마드리드 공영방송 온다 마드리드의 새 스튜디오에 AEQ ATRIUM 디지털 오디오 콘솔이 설치됐다. 24개 모터 페이더와 페이더 모듈별 10.1인치 터치스크린을 갖췄고, 64개 Dante/AES67 입출력을 구성했다. 메인 스튜디오와 뉴스 스튜디오의 마이크와 헤드폰은 NETBOX 4MH 인터페이스 3대로 Dante 네트워크에 연결됐다. ATRIUM Virtual 소프트웨어로 콘솔 기능을 원격 조작할 수 있다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-242</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Focal - Twin6 ST6·Solo6 ST6·Sub12 7.1.4 모니터링 시스템 (Douglas Romanow 스튜디오)</title>
-      <link>https://news.ainsonic.com/n/news-243.html</link>
-      <description>캐나다 토론토의 프로듀서 겸 엔지니어 더글러스 로마노우의 스튜디오에 포칼 7.1.4 모니터링 시스템이 구축됐다. 좌·중앙·우 채널에 Twin6 ST6, 서라운드와 오버헤드 채널에 Solo6 ST6, 저역에는 Sub12 서브우퍼를 배치했다. 스테레오와 돌비 애트모스 믹싱을 위해 설계됐으며, 모든 채널에 같은 트위터를 써서 패닝 시 음색 변화가 없도록 했다. OMS 캐나다가 모니터 공급과 구성 자문, 배선을 맡았다.</description>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-243</guid>
       <category>신제품</category>
       <category>프로오디오</category>
     </item>
