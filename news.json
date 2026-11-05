@@ -13,7 +13,8 @@
     "status": "published",
     "summary": "런던 로열 앨버트 홀이 d&b audiotechnik 카디오이드 구성으로 하우스 음향 시스템을 업그레이드했습니다. 새 스피커 요소 140개 이상을 설치했으며, 메인 좌우 행은 12단 KSL 어레이로 구성했습니다. XSL은 아웃필과 합창석, Soundscape용 신규 중앙 행 2개에 배치했고, CCL은 서클 딜레이로, 42S는 프런트필로 추가했습니다. 40D 설치형 앰프로 구동하며, Soundscape 프로세서는 DS100 2대에서 DS110 3대로 확장했습니다.",
     "type": "행사",
-    "addedDate": "2026-11-06"
+    "addedDate": "2026-11-06",
+    "imageTried": "2026-11-05:g"
   },
   {
     "id": "news-288",
@@ -29,7 +30,9 @@
     "status": "published",
     "summary": "DPA 마이크가 Hilary Duff의 'The Lucky Me Tour' 관객 사운드를 맡습니다. 2015 Compact Wide Cardioid와 2017 Compact Shotgun을 앰비언트 크라우드 마이크로 배치하고 5100 Surround 마이크를 추가했습니다. Wisycom MTK982 송신기와 MPR50·MPR60 수신기를 사용합니다. 무대 보컬은 더프 본인이 Austrian Audio 707, 나머지는 505 Active Dynamic을 사용합니다.",
     "type": "행사",
-    "addedDate": "2026-11-06"
+    "addedDate": "2026-11-06",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQfrBtxUp3rly0gHM6-RwrToBlGZSoBE-PhrvACQ_Irwg%26s&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-289",
@@ -45,7 +48,9 @@
     "status": "published",
     "summary": "Pierce The Veil의 FOH 엔지니어 J.P. Huff가 SSL Live 플랫폼을 사용합니다. L350 Plus에서 만든 쇼파일을 호환 모드로 L650, L200 Plus, L100 Plus에 그대로 전개합니다. 최근 호주 투어에서는 L550 Plus를 사용했으며, 스냅샷을 LTC 타임코드로 트리거합니다. SSL Revival 4000 채널 스트립 2개와 Harrison 32Classic MS Mix Strip도 호주 공연에서 처음 사용했습니다.",
     "type": "행사",
-    "addedDate": "2026-11-06"
+    "addedDate": "2026-11-06",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fsolidstatelogic.com%2Fassets%2Fcomponents%2Fphpthumbof%2Fcache%2FSSL%2520Live.%2520L500_left_Blue%2520lights_arm_trans_web.f7b7f0093b99ca9e0e4a76b1ff28b3fe.png&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-290",
@@ -61,7 +66,9 @@
     "status": "published",
     "summary": "Avid가 Pro Tools 2026.11을 발표했습니다. Pro Tools Extensions 플랫폼을 도입하고 첫 Extension으로 Pro Tools Stem Separator를 내놨습니다. 보컬·드럼·베이스·기타·키·기타 악기 6개 스템으로 분리합니다. MIDI Polyphonic Expression과 Windows High DPI 지원, 플레이리스트 클립 색상 지정도 추가했습니다. Stem Separator는 모든 버전에 추가 비용 없이 포함됩니다.",
     "type": "업데이트",
-    "addedDate": "2026-11-06"
+    "addedDate": "2026-11-06",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fedge.sitecorecloud.io%2Favidtech-d6a2e9a9%2Fmedia%2Favidcom%2Fdev%2Fcarousels%2Fwhats-new-in-pro-tools.png%3Fh%3D192%26iar%3D0%26w%3D382&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-291",
@@ -77,7 +84,9 @@
     "status": "published",
     "summary": "Universal Audio가 네이티브 룸 모델링·리버브 플러그인 Capitol Studios를 내놨습니다. Capitol Studios A와 B, Dynamic Room Modeling, 지하 에코 챔버 4개를 담았습니다. 마이크 보관함과 콘솔, 아웃보드 장비도 모델링했습니다. macOS와 Windows에서 VST3, AU, AAX로 동작하며 Apollo나 UAD-2 하드웨어가 필요 없습니다. 가격은 249달러이며 UAD Spark Studio 구독에 포함됩니다.",
     "type": "신제품",
-    "addedDate": "2026-11-06"
+    "addedDate": "2026-11-06",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fu%2Funiversal_audio_capitol_studios-pAIPgDWWa99SIbvX32DiYL2aj7YDAVrr.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-280",
