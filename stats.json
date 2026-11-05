@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-04T23:40:17Z",
+  "generated_at": "2026-11-05T03:35:23Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 36,
-    "month": 156,
+    "week": 27,
+    "month": 154,
     "total": 285
   },
   "top_brands_week": [
@@ -27,15 +27,15 @@
       "count": 2
     },
     {
-      "brand": "Martin Audio",
-      "count": 2
+      "brand": "Allen & Heath",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 27,
-      "pct": 75
+      "count": 21,
+      "pct": 78
     },
     {
       "category": "컨슈머오디오",
@@ -44,19 +44,19 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 17
+      "count": 4,
+      "pct": 15
     },
     {
       "category": "기타",
-      "count": 3,
-      "pct": 8
+      "count": 2,
+      "pct": 7
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 114,
+      "count": 113,
       "pct": 73
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 29,
-      "pct": 19
+      "count": 28,
+      "pct": 18
     },
     {
       "category": "기타",
