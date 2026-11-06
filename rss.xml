@@ -6,7 +6,37 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 05 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Sontronics - SOLO W2</title>
+      <link>https://news.ainsonic.com/n/news-292.html</link>
+      <description>영국 마이크 제조사 손트로닉스가 무선 보컬 캡슐 솔로 W2를 발표했습니다. 슈퍼카디오이드 다이나믹 캡슐로 젠하이저 핸드헬드 무선 송신기와 호환되며 라이브 보컬과 스피치용으로 설계됐습니다. 슈어 호환 솔로 W1에 이은 두 번째 무선 캡슐로, 대리점을 통해 당일부터 판매를 시작했습니다. 공식 발표일은 11월 4일이며 제한적 평생 보증을 제공합니다.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-292</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Heritage Audio - i73 PRO</title>
+      <link>https://news.ainsonic.com/n/news-293.html</link>
+      <description>헤리티지 오디오가 오디오 인터페이스 i73 프로의 무료 펌웨어 업데이트로 NAM A2 모델 지원을 추가했습니다. 인터페이스 자체 DSP에서 NAM A2 모델을 구동하는 첫 사례로, 제로 레이턴시로 .nam 캡처와 IR을 사용할 수 있습니다. 톤3000 커뮤니티 모델도 쓸 수 있으며, 내장 믹서가 헤리티지 오디오 플러그인과 VST3 플러그인 모니터링도 지원합니다.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-293</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] IsoAcoustics - GAIA-TITAN Neo</title>
+      <link>https://news.ainsonic.com/n/news-294.html</link>
+      <description>아이소어쿠스틱스가 대형 플로어스탠딩 스피커와 서브우퍼용 아이솔레이션 피트 가이아-타이탄 네오를 전 세계에 출시했습니다. 3종으로 구성되며 최대 620파운드(약 280킬로그램)까지 지원하고 높이를 최대 8.5밀리미터까지 조절할 수 있습니다. 무공구로 설치할 수 있고 플러시핏 외관입니다. 4개 1세트 가격은 1,264.99달러부터입니다.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-294</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
+    </item>
 
     <item>
       <title>[행사] d&amp;b audiotechnik - KSL, XSL, CCL</title>
@@ -374,36 +404,6 @@
       <description>HK Audio가 컬럼 PA 시스템 POLAR 15 MK2를 POLAR MK2 시리즈에 추가했다. 15인치 서브우퍼와 알루미늄 컬럼 스피커로 구성되며, 조명 장비용 M20 마운트 지점을 내장했다. 4채널 내장 믹서는 마이크·라인 입력 2개와 악기 입력, 보조 입력을 갖추고 블루투스 5.0 스트리밍과 TWS 스테레오 페어링을 지원한다. Music·Voice·DJ 사운드 모드와 3밴드 EQ, 사용자 프리셋 5개를 제공한다.</description>
       <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-249</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] HEDD Audio - TYPE 40 Main·TYPE 40 System</title>
-      <link>https://news.ainsonic.com/n/news-250.html</link>
-      <description>HEDD Audio가 3웨이 액티브 모니터링 플랫폼 TYPE 40 Main과 TYPE 40 System을 발표했다. 밀폐형 Main은 별도 서브우퍼 없이 풀레인지로 동작하며, 선택형 XTD 모듈이 저역 출력과 지향성을 확장한다. Main은 4인치 미드레인지 2개와 AMT 트위터, 고출력 우퍼를 쓰며 저역이 20Hz까지 이어지고 최대 123dB SPL을 낸다. XTD 모듈 1개당 10.75인치 우퍼와 700W 클래스D 앰프를 갖췄다.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-250</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] dBTechnologies - VIO L1608·OPERA 10·IS 시리즈 (Sounds of Screams)</title>
-      <link>https://news.ainsonic.com/n/news-251.html</link>
-      <description>미국 마이애미의 할로윈 체험시설 Sounds of Screams에 dBTechnologies 스피커 190대 이상이 설치됐다. 13에이커 부지의 유령의 집 5곳과 야외 공포 구역, 테마 공간을 커버하며, 메인 스테이지에는 VIO L1608 라인어레이 16개가 좌우로 배치됐다. 유령의 집 내부에는 OPERA 10과 SUB 612·SUB 615가, 야외에는 내후형 IS 시리즈가 쓰였다. 행사는 2026년 11월 1일까지 열린다.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-251</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Sonnet - Echo SE III T5</title>
-      <link>https://news.ainsonic.com/n/news-252.html</link>
-      <description>Sonnet이 썬더볼트 5 PCIe 확장 시스템 Echo SE III T5를 발표했다. 썬더볼트 5 케이블 하나로 전문 카드 최대 3장을 컴퓨터에 연결하며, 썬더볼트 5·4와 USB4 포트 컴퓨터에서 동작한다. PCIe 3.1 x8 슬롯 3개에 풀하이트·하프렝스 카드 최대 7.75인치까지 장착할 수 있다. 전문 오디오와 DSP, 비디오 캡처, 10Gb·25Gb 이더넷, SSD 저장 용도로 쓸 수 있다.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-252</guid>
       <category>신제품</category>
       <category>프로오디오</category>
     </item>
