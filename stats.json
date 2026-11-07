@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-11-07T02:57:26Z",
+  "generated_at": "2026-11-07T23:36:12Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 26,
-    "month": 142,
-    "total": 293
+    "week": 29,
+    "month": 145,
+    "total": 296
   },
   "top_brands_week": [
+    {
+      "brand": "Martin Audio",
+      "count": 2
+    },
     {
       "brand": "d&b audiotechnik",
       "count": 2
@@ -19,44 +23,40 @@
       "count": 2
     },
     {
-      "brand": "Sontronics",
+      "brand": "Meyer Sound",
       "count": 1
     },
     {
-      "brand": "Heritage Audio",
-      "count": 1
-    },
-    {
-      "brand": "IsoAcoustics",
+      "brand": "IDL",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 19,
-      "pct": 73
+      "count": 22,
+      "pct": 76
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
       "count": 5,
-      "pct": 19
+      "pct": 17
     },
     {
       "category": "기타",
       "count": 1,
-      "pct": 4
+      "pct": 3
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 103,
+      "count": 106,
       "pct": 73
     },
     {
