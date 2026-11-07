@@ -13,7 +13,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "addedDate": "2026-11-08"
+    "addedDate": "2026-11-08",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fseries%2Fblacklineq%2FBlacklineQ-series.png&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-296",
@@ -29,7 +31,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "addedDate": "2026-11-08"
+    "addedDate": "2026-11-08",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcR8dx2Uam5T7eyZ0pHAFVigl2_KCpivAquHcZgCuwmXOA%26s%3D10&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-297",
@@ -45,7 +49,8 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "addedDate": "2026-11-08"
+    "addedDate": "2026-11-08",
+    "imageTried": "2026-11-07:g"
   },
   {
     "id": "news-292",
