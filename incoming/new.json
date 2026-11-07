@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026-11-06",
+    "sourceDate": "2026-11-06",
+    "company": "Martin Audio",
+    "brand": "Martin Audio",
+    "productName": "BlacklineQ, Q218",
+    "type": "행사",
+    "summary": "영국 맨체스터 록·메탈·펑크 클럽 새턴스 홀로가 25년 된 음향 시스템을 마틴오디오 블랙라인Q 중심으로 교체했습니다. 통합업체 뉴런 AV가 15인치 2대, 12인치 8대, 10인치 6대의 블랙라인Q 스피커와 듀얼 18인치 Q218 서브우퍼 4대를 설치했고 아이콘 앰프로 구동합니다. 클럽·라이브·대형 라이브 3가지 프리셋으로 DJ 공연과 라이브 전환을 바꿨으며 서브우퍼는 이동식 받침대에 올려 배치를 바꿉니다.",
+    "link": "https://www.prosoundweb.com/martin-audio-at-the-heart-of-sonic-upgrade-at-satans-hollow-in-the-uk/",
+    "evidence": "two 15-inch, eight 12-inch and six 10-inch BlacklineQ loudspeakers, along with four dual-18-inch Q218 subwoofers",
+    "status": "published",
+    "isDomestic": false,
+    "category": "프로오디오"
+  },
+  {
+    "date": "2026-11-06",
+    "sourceDate": "2026-11-06",
+    "company": "Meyer Sound",
+    "brand": "Meyer Sound",
+    "productName": "Constellation, NADIA",
+    "type": "행사",
+    "summary": "미국 필라델피아 레스토랑 자하브가 마이어사운드 컨스텔레이션 어쿠스틱 시스템을 설치했습니다. 나디아 디지털 오디오 플랫폼을 기반으로 마이크 16개, UP-4슬림 포인트 소스 스피커 13대와 서브우퍼를 메인 다이닝룸에 배치하고 바와 좌석 구역, 주방 쪽까지 4개 음향 구역으로 나눴습니다. 소음 변화에 따라 자동으로 반응해 대화를 방해하지 않으면서 배경음악과 분위기를 유지합니다.",
+    "link": "https://www.prosoundweb.com/meyer-sound-improves-acoustics-at-zahav-in-philadelphia/",
+    "evidence": "Philadelphia restaurant Zahav has installed a Meyer Sound Constellation acoustic system, utilizing the NADIA digital audio platform",
+    "status": "published",
+    "isDomestic": false,
+    "category": "프로오디오"
+  },
+  {
+    "date": "2026-11-06",
+    "sourceDate": "2026-11-06",
+    "company": "Immersive Design Labs",
+    "brand": "IDL",
+    "productName": "IDL-3203",
+    "type": "행사",
+    "summary": "이머시브 디자인 랩스(IDL) 마이크가 뉴욕 바드 칼리지 피셔 센터에서 오케스트라 나우 공연을 녹음합니다. 11월 14~15일 공연에 녹음 엔지니어 말런 배리가 IDL-3203 무지향 마이크 4대를 주 어레이로 배치해 오케스트라 전면을 담습니다. 조앤 팔레타 지휘, 미라 왕 협연으로 거슈윈의 파리의 미국인과 바그할터 바이올린 협주곡 미국 초연을 연주하며 공연은 라이브스트림으로 중계합니다.",
+    "link": "https://www.prosoundweb.com/idl-microphones-to-capture-the-orchestra-now-ton-performances-at-bard-college-in-new-york/",
+    "evidence": "Four IDL-3203 omnidirectional microphones will capture The Orchestra Now during its November performances at Bard College's Fisher Center",
+    "status": "published",
+    "isDomestic": false,
+    "category": "프로오디오"
+  }
+]
