@@ -6,7 +6,27 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 06 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] AnalogX - Genesis</title>
+      <link>https://news.ainsonic.com/n/news-299.html</link>
+      <description>AnalogX가 GPU 기반 믹싱 생태계 Genesis를 출시했습니다. GPU Audio Soundcore 기술로 아날로그 하드웨어 에뮬레이션 처리를 그래픽 카드에 맡겨 AnalogX Neural Expansion Pack과 NAM A2 모델을 CPU 부담 없이 구동합니다. Core는 39.99파운드, Pro는 89.99파운드이며 11월 30일까지 30% 할인합니다.</description>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-299</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Heritage Audio - i73 Pro</title>
+      <link>https://news.ainsonic.com/n/news-298.html</link>
+      <description>Heritage Audio가 i73 Pro 오디오 인터페이스용 무료 펌웨어 업데이트를 내놨습니다. NAM A2 캡처를 인터페이스 내장 DSP에서 직접 구동해 CPU 부담 없이 지연 없이 기타 앰프와 페달, 아웃보드 에뮬레이션을 녹음할 수 있습니다. .nam 파일과 IR, TONE3000 캡처를 불러오며 내장 믹서는 Heritage Audio 플러그인과 VST3 플러그인도 DSP에서 구동합니다.</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-298</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
 
     <item>
       <title>[행사] Martin Audio - BlacklineQ, Q218</title>
@@ -386,26 +406,6 @@
       <guid isPermaLink="false">news-257</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Martin Audio - W8L·MLA·WPL·WPS 시스템 (Audio Acústica, 멕시코 30년 협력)</title>
-      <link>https://news.ainsonic.com/n/news-266.html</link>
-      <description>멕시코시티 제작 업체 오디오 아쿠스티카가 마틴 오디오와 30년 넘게 협력해 온 사실이 소개됐습니다. 1979년 설립된 이 회사는 W8L 라인 어레이를 멕시코에 처음 도입했고, 이어 MLA 멀티셀룰러 스피커 어레이 기술을 도입했습니다. 설치 현장에는 CDD와 O-라인 제품이, 투어와 대형 행사에는 WPL·WPM·WPS 시스템과 XE 스테이지 모니터가 사용됩니다. 양사 협력으로 WS218X 서브우퍼가 개발돼 세계적으로 많이 팔리는 제품이 됐습니다.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-266</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] AES - AES Show Nashville 2026 뮤직 로우 히스토리 투어</title>
-      <link>https://news.ainsonic.com/n/news-267.html</link>
-      <description>오디오 엔지니어링 소사이어티가 AES Show Nashville 2026 기간인 10월 30일 뮤직 로우 히스토리 투어를 진행합니다. 투어는 오후 6시와 6시 30분(중부 시간)에 출발해 RCA 스튜디오 B·RCA 스튜디오 A·컬럼비아 스튜디오 A·퀀셋 헛 4곳을 방문합니다. 컨트리 뮤직 명예의 전당 박물관 입장도 포함되며, 각 투어는 50명으로 제한됩니다. 행사는 10월 30일부터 11월 1일까지 내슈빌 게일로드 오프리랜드 리조트에서 열립니다.</description>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-267</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
     </item>
 
   </channel>
