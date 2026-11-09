@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T02:48:49Z",
+  "generated_at": "2026-11-09T23:52:57Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 23,
-    "month": 141,
-    "total": 298
+    "week": 29,
+    "month": 147,
+    "total": 304
   },
   "top_brands_week": [
     {
@@ -19,33 +19,33 @@
       "count": 2
     },
     {
-      "brand": "AnalogX",
+      "brand": "Bose Professional",
       "count": 1
     },
     {
-      "brand": "Martin Audio",
+      "brand": "CODA Audio",
       "count": 1
     },
     {
-      "brand": "Meyer Sound",
+      "brand": "Neve",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 17,
-      "pct": 74
+      "count": 22,
+      "pct": 76
     },
     {
       "category": "컨슈머오디오",
-      "count": 1,
-      "pct": 4
+      "count": 2,
+      "pct": 7
     },
     {
       "category": "레코딩소프트웨어",
       "count": 5,
-      "pct": 22
+      "pct": 17
     },
     {
       "category": "기타",
@@ -56,18 +56,18 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 101,
+      "count": 106,
       "pct": 72
     },
     {
       "category": "컨슈머오디오",
-      "count": 4,
+      "count": 5,
       "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
       "count": 27,
-      "pct": 19
+      "pct": 18
     },
     {
       "category": "기타",

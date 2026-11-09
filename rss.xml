@@ -6,7 +6,67 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 08 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] Bose Professional - MA3 Micro Array</title>
+      <link>https://news.ainsonic.com/n/news-300.html</link>
+      <description>보스 프로페셔널이 소형 패시브 모듈러 스피커 시스템 MA3 마이크로 어레이를 발표했습니다. 모듈마다 1인치 컴프레션 드라이버와 2.25인치 우퍼 4개를 담았고, 각도를 조절해 수직 커버리지를 맞출 수 있습니다. 천장 매달기와 벽걸이 설치를 지원하고, 패시브 크로스오버와 플러그 단자로 배선을 단순화했습니다. 음향이 까다로운 공간의 스피치·음악 재생용으로, 모듈 단품 또는 4개 묶음으로 판매합니다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-300</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] CODA Audio - ViFORCE, SUB FORCE</title>
+      <link>https://news.ainsonic.com/n/news-301.html</link>
+      <description>폴란드 프로덕션 업체 레드포라이브가 코다 오디오 ViFORCE 라인어레이와 SUB FORCE 서브우퍼를 폴란드 최초로 도입했습니다. 4웨이 카디오이드 라인어레이 모듈 18개와 서브우퍼 4개로 구성됐고, 폴란드 유통사 토멕스가 공급했습니다. 뒤쪽으로 새는 소리를 줄여 무대 위 반사를 억제하는 카디오이드 설계가 특징입니다. 올슈틴의 바르미아 마주리 필하모닉에서 열린 안나 비슈코니 공연으로 첫 무대를 가졌습니다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-301</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Neve - Genesys Black</title>
+      <link>https://news.ainsonic.com/n/news-302.html</link>
+      <description>내슈빌의 인사이트 스튜디오가 스튜디오 A 컨트롤룸에 48채널 니브 Genesys Black 콘솔을 커스텀 설치했습니다. 프로 오디오 디자인이 시공했고, 디지털로 제어하는 아날로그 구조로 EQ·다이내믹스·레벨·보조 전송을 DAW 플러그인으로 조절합니다. 1073 프리앰프 48채널을 갖췄고, 사전 준비로 현장 작업은 10일로 줄였습니다. 돌비 애트모스 녹음·믹싱과 35인조 오케스트라 세션에 사용합니다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-302</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] JBL Professional - 306P MkII, LSR310, C414 XLII, K371</title>
+      <link>https://news.ainsonic.com/n/news-303.html</link>
+      <description>프로듀서 겸 뮤지션 랜디 잭슨이 LA 개인 녹음 스튜디오를 JBL 프로페셔널과 AKG 장비로 꾸몄습니다. 306P MkII 파워드 모니터와 LSR310 서브우퍼로 모니터링 환경을 만들고, C414 XLII 마이크와 K371 헤드폰으로 녹음·트래킹합니다. 잭슨은 머라이어 캐리·휘트니 휴스턴 등과 작업한 베테랑으로, 정확하고 일관된 소리를 이유로 두 브랜드를 선택했다고 밝혔습니다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-303</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Focusrite - ISA C8X</title>
+      <link>https://news.ainsonic.com/n/news-304.html</link>
+      <description>브루클린 프로듀서 니코 파니가 유튜브 시리즈 '레드 카우치 쇼' 녹음의 중심으로 포커스라이트 ISA C8X 인터페이스를 도입했습니다. 26입력 28출력 USB-C 인터페이스로, 룬달 트랜스포머를 쓴 ISA 프리앰프 2개를 포함해 마이크 프리앰프 8개를 갖췄습니다. 임피던스 전환·인서트·하이패스 필터와 디지털 라우팅·리콜 기능을 지원합니다. 300회 넘는 라이브 공연을 기록한 이 시리즈의 워크플로 속도와 단순함이 개선됐습니다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-304</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Maono - PD500W</title>
+      <link>https://news.ainsonic.com/n/news-305.html</link>
+      <description>마오노가 하이브리드 마이크 PD500W를 출시했습니다. 2.4GHz 무선·USB-C·XLR 세 가지 연결을 지원하고, 32비트 플로트 내장 녹음과 -9dB 세이프티 트랙 백업 기능을 갖췄습니다. 32GB 내장 저장 공간에 WAV 파일로 녹음하며, 멀티 출력 수신기와 함께 쓰면 타임코드 동기화도 됩니다. 베이직 399달러, 데스크 스탠드 번들 429달러로 마오노 웹사이트와 아마존 US에서 판매합니다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-305</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
+    </item>
 
     <item>
       <title>[신제품] AnalogX - Genesis</title>
@@ -346,66 +406,6 @@
       <guid isPermaLink="false">news-265</guid>
       <category>신제품</category>
       <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Spark - Spark Event (ISE 2027)</title>
-      <link>https://news.ainsonic.com/n/news-268.html</link>
-      <description>ISE가 만든 크리에이티브 테크놀로지 행사 스파크가 2027년 2월 3~4일 바르셀로나 피라 데 바르셀로나 몽주익 전시장 8번 홀에서 열립니다. 전시 면적은 2,500제곱미터가 넘고, 콘텐츠 무대 2개와 몰입형 체험 공간이 마련됩니다. 2026년 첫 행사에는 79개국에서 2,086명이 방문했고, 1,400개 회사 대표가 참석했습니다. 스파크 또는 ISE 배지 하나로 스파크·ISE·에드테크 콩그레스 전시장에 입장할 수 있습니다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-268</guid>
-      <category>행사</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[신제품] Neve - Elements, 8424E</title>
-      <link>https://news.ainsonic.com/n/news-260.html</link>
-      <description>AMS Neve가 소프트웨어로 제어하는 아날로그 프로세서 라인 Elements와 24채널 리셋 가능 콘솔 8424E를 발표했다. Elements는 88R EQ, 88R 다이나믹스, 1084 EQ 회로를 담은 2U 8채널 유닛 3종으로, 전용 플러그인과 앱으로 설정을 저장하고 불러올 수 있다. 8424E는 아날로그 신호 경로에 디지털 제어와 리콜을 결합했고, 기존 8424 콘솔도 Elements 생태계로 업그레이드할 수 있다. 2027년 1분기 출하 예정이다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-260</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Yamaha - AES Show Nashville 2026 야마하 워크숍</title>
-      <link>https://news.ainsonic.com/n/news-261.html</link>
-      <description>야마하가 AES Show Nashville 2026에서 10월 30일부터 11월 1일까지 6개 워크숍을 연다. 디지털 믹싱, 오디오 시스템 제어, 스피커 커버리지와 프로세싱을 다루며, 최근 출시된 DM5 시리즈 콘솔의 실습 시연도 포함된다. 'Discover DM5!' 세션 3회에서는 신호 구조와 워크플로, 프로세싱과 연동 방식을 살펴보고, 나머지 세션에서는 복잡한 오디오 제어 시스템 단순화와 스피커 지향성 설계, 플러그인과 프로세서 활용을 다룬다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-261</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Solid State Logic - System T Virtual Tempest Engine (VTE) 원격 프로덕션 실증</title>
-      <link>https://news.ainsonic.com/n/news-262.html</link>
-      <description>영국 중계 전문 업체 Cloudbass가 Solid State Logic의 System T Virtual Tempest Engine을 활용한 원격 프로덕션 실증을 마쳤다. 영국 투어링카 챔피언십 중계 현장에서는 오디오와 비디오 처리를 현장에 두고, 오퍼레이터는 본사에서 원격으로 제어했다. 현장 처리 덕분에 비압축 소스를 모두 전송하지 않아도 됐고, 제어와 모니터링에 필요한 약 50Mbps 업로드 대역폭만으로 운영이 가능했다. SSL과 Cloudbass는 11월 12일 런던에서 열리는 SVG Europe Sports Audio Summit에서 이 프로젝트를 발표한다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-262</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Neumann - KK 15 슈퍼카디오이드 캡슐·MCM 115 인스트루먼트 세트</title>
-      <link>https://news.ainsonic.com/n/news-256.html</link>
-      <description>노이만이 미니어처 클립 마이크 시스템(MCM)에 KK 15 슈퍼카디오이드 캡슐과 MCM 115 악기용 세트 5종을 추가했다. 기존 KK 13(무지향)·KK 14(카디오이드)에 더해 세 가지 지향 패턴을 바꿔 끼울 수 있으며, 더 좁은 지향성으로 시끄러운 라이브 무대에서 하울링 마진과 음원 분리를 높였다. 티타늄 하우징을 쓰고 세 캡슐 간 음색 일관성을 유지하도록 설계됐다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-256</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Art DSP - Canvas 비주얼 믹싱 플러그인</title>
-      <link>https://news.ainsonic.com/n/news-257.html</link>
-      <description>Art DSP가 스테레오 믹스를 3차원 공간에 시각화하는 믹싱 플러그인 Canvas를 출시했다. 각 트랙이 팬·주파수·볼륨에 따라 도형으로 배치되고, 이를 끌어 레벨과 위치를 조정한다. 스펙트럴 사이드체인, 내장 EQ 편집기, 리버브 연동, 믹스 템플릿을 지원하며 macOS·Windows용 VST3/AAX, macOS용 AU로 제공된다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-257</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
     </item>
 
   </channel>
