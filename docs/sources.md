@@ -26,7 +26,7 @@
 ## 업계소식 (국내 업체)
 | 업체 | 홈페이지 | 수집 방법 | 메모 |
 |---|---|---|---|
-| 엔티유시스템즈 (NTU Systems) | http://ntusys.com/ | Tavily extract로 읽기 (https 미지원, 일반 fetch는 시간 초과) | HD 방송장비(비디오 믹서 등) 제조사. 별도 뉴스 게시판 없음 → 메인의 신제품 목록(`/inc/product_view.asp?nnum=` 번호가 커지면 새 제품)으로 신제품 확인. 마지막 확인 nnum=63 (2026-10-13; nnum=62는 HS-100SC HDMI to SDI 스케일 컨버터, nnum=63은 NMS-0112H 3G HD-SDI 분배기 → 새 제품 2건 모두 게시). 2026-11-07 재확인: nnum=64 없음 — curl 시 302로 gabia 오류 페이지로 이동, 브라우저에서도 로드 불가. 참고: 2026-10-11부터 일반 browser.open(http)도 정상 열림. |
+| 엔티유시스템즈 (NTU Systems) | http://ntusys.com/ | Tavily extract로 읽기 (https 미지원, 일반 fetch는 시간 초과) | HD 방송장비(비디오 믹서 등) 제조사. 별도 뉴스 게시판 없음 → 메인의 신제품 목록(`/inc/product_view.asp?nnum=` 번호가 커지면 새 제품)으로 신제품 확인. 마지막 확인 nnum=63 (2026-10-13; nnum=62는 HS-100SC HDMI to SDI 스케일 컨버터, nnum=63은 NMS-0112H 3G HD-SDI 분배기 → 새 제품 2건 모두 게시). 2026-11-07 재확인: nnum=64 없음 — curl 시 302로 gabia 오류 페이지로 이동, 브라우저에서도 로드 불가. 참고: 2026-10-11부터 일반 browser.open(http)도 정상 열림. 2026-11-10 재확인: nnum=64 여전히 없음 — browser.open HTTP 500, 라이브 브라우저도 빈 오류 페이지로 로드 실패. |
 
 ## 업계 매체
 - Gearspace New Product Alert 게시판 — https://gearspace.com/board/new-product-alert/ (신제품 소식 주요 수집 대상)
