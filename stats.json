@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-08T23:36:15Z",
+  "generated_at": "2026-11-09T02:48:49Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 30,
+    "week": 23,
     "month": 141,
     "total": 298
   },
@@ -15,37 +15,37 @@
       "count": 2
     },
     {
-      "brand": "Martin Audio",
-      "count": 2
-    },
-    {
       "brand": "d&b audiotechnik",
       "count": 2
     },
     {
-      "brand": "NEXO",
-      "count": 2
+      "brand": "AnalogX",
+      "count": 1
     },
     {
-      "brand": "AnalogX",
+      "brand": "Martin Audio",
+      "count": 1
+    },
+    {
+      "brand": "Meyer Sound",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 23,
-      "pct": 77
+      "count": 17,
+      "pct": 74
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 3
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 20
+      "count": 5,
+      "pct": 22
     },
     {
       "category": "기타",
