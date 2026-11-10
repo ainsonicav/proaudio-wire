@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-10T04:41:38Z",
+  "generated_at": "2026-11-10T23:46:21Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 24,
-    "month": 143,
-    "total": 304
+    "week": 30,
+    "month": 149,
+    "total": 310
   },
   "top_brands_week": [
     {
@@ -15,49 +15,49 @@
       "count": 2
     },
     {
-      "brand": "Bose Professional",
+      "brand": "KV2 Audio",
       "count": 1
     },
     {
-      "brand": "CODA Audio",
+      "brand": "SKY Audio",
       "count": 1
     },
     {
-      "brand": "Neve",
+      "brand": "Sonic Days",
       "count": 1
     },
     {
-      "brand": "JBL Professional",
+      "brand": "Ableton",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 18,
-      "pct": 75
+      "count": 21,
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
       "count": 2,
-      "pct": 8
+      "pct": 7
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 4,
-      "pct": 17
+      "count": 6,
+      "pct": 20
     },
     {
       "category": "기타",
-      "count": 0,
-      "pct": 0
+      "count": 1,
+      "pct": 3
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 103,
-      "pct": 72
+      "count": 106,
+      "pct": 71
     },
     {
       "category": "컨슈머오디오",
@@ -66,13 +66,13 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 26,
-      "pct": 18
+      "count": 28,
+      "pct": 19
     },
     {
       "category": "기타",
-      "count": 9,
-      "pct": 6
+      "count": 10,
+      "pct": 7
     }
   ]
 }

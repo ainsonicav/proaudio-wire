@@ -6,7 +6,67 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 09 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] KV2 Audio - SL412, VHD8.10, VHD2.18J</title>
+      <link>https://news.ainsonic.com/n/news-306.html</link>
+      <description>이비자 클럽 아미네시아가 2026년 개장 50주년을 맞아 19시간짜리 클로징 페스티벌을 열었으며, 메인 룸과 테라스 음향에 KV2 Audio 스피커를 썼습니다. 메인 룸 시스템은 SL412 9개, VHD8.10 4개, VHD2.18J 서브우퍼 19개로 구성됐고, 2025년 새로 구축한 테라스 시스템은 SL412 8개와 VHD2.18J 24개를 갖췄습니다. 25명이 넘는 DJ가 출연했습니다.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-306</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] SKY Audio - VERDADE III, VERDADE III-S</title>
+      <link>https://news.ainsonic.com/n/news-307.html</link>
+      <description>독일 SKY Audio가 패시브 레퍼런스 스튜디오 모니터 VERDADE III와 매칭 서브우퍼 VERDADE III-S를 발표했습니다. 6.5인치 저역 드라이버와 진공 리본 트위터를 담은 2웨이 베이스 리플렉스 구조이며, 서브우퍼를 채널당 1~2개 더하는 모듈형 시스템으로 구성됩니다. 외장 앰프는 PURIFI 기반 Class-D이며, 2.0 시스템 한 쌍 가격은 6,490유로입니다.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-307</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[업데이트] Ableton - Live 13</title>
+      <link>https://news.ainsonic.com/n/news-309.html</link>
+      <description>에이블톤이 DAW Live 13을 발표하고 퍼블릭 베타를 시작했으며, 정식 출시는 2027년 초로 예정됐습니다. ARA 2 플러그인 지원, 새 스텝 시퀀서, 확장된 랙과 새 디바이스, 믹싱·사운드 디자인 도구가 추가됐고, Push 3에는 커스텀 레이아웃과 퍼포먼스 믹서가 더해집니다. Live 12 구매 시 무료 업그레이드가 제공됩니다.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-309</guid>
+      <category>업데이트</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] PSPaudioware - PSP ClassicQlite</title>
+      <link>https://news.ainsonic.com/n/news-310.html</link>
+      <description>PSP오디오웨어가 무료 EQ 플러그인 PSP ClassicQlite를 출시했습니다. 초기 Neve 회로를 바탕으로 한 ClassicQ의 무료 버전으로, Q 전환이 가능한 저·고역 셸빙 필터와 Auto Q 기능이 있는 중역 벨 필터를 갖췄고, SATuration 알고리즘으로 아날로그식 왜곡도 더할 수 있습니다. McQ, RetroQ, ClassicQ 업데이트도 함께 나왔습니다.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-310</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Schmidt-Synthesizer - Schmidt Vi</title>
+      <link>https://news.ainsonic.com/n/news-311.html</link>
+      <description>슈미트 신시사이저가 플래그십 아날로그 신스 Schmidt Eightvoice를 본뜬 플러그인 Schmidt Vi를 출시했습니다. UJAM과 함께 개발했으며, 오실레이터 4개와 링 모듈레이터 5개, Moog·Oberheim 방식 필터, LFO 16개와 엔벨로프 9개를 담았고 MPE를 지원합니다. 출시 특가는 179유로이며, 하드웨어 최종판 The Final Series 20대도 함께 나옵니다.</description>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-311</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
+
+    <item>
+      <title>[행사] Sonic Days - Sonic Days 2026</title>
+      <link>https://news.ainsonic.com/n/news-308.html</link>
+      <description>소닉 칼리지가 연례 오디오 컨퍼런스 소닉 데이즈 2026을 덴마크 콜딩에서 다섯 번째로 개최한다고 발표했습니다. 영화·TV 사운드, 게임 오디오, 음악 제작, 팟캐스트 등 9개 테마 트랙으로 워크숍과 강연, 콘서트를 진행하며 참가비는 무료입니다. Genelec, Neumann, Meyer Sound, Yamaha 등이 후원합니다.</description>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-308</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
 
     <item>
       <title>[신제품] Bose Professional - MA3 Micro Array</title>
@@ -345,66 +405,6 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-272</guid>
       <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] TEC Tracks - TEC Tracks Live Sound Summit</title>
-      <link>https://news.ainsonic.com/n/news-273.html</link>
-      <description>2027 NAMM Show에서 첫 TEC Tracks 라이브 사운드 서밋이 열립니다. 2027년 1월 27일 수요일 오전 미국 애너하임 컨벤션 센터에서 반나절로 열리며, 프론트 오브 하우스 엔지니어와 크루가 라이브 사운드 현장의 기회와 현안을 논의합니다. 오디네이트의 3일간 Dante·콘솔 교육도 함께 열리고, ACC North 2층에는 DiGiCo, L-Acoustics, Adamson, RCF, QSC, Solid State Logic 등이 전시합니다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-273</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Playfair Audio - Dynamic Grading 2.1</title>
-      <link>https://news.ainsonic.com/n/news-274.html</link>
-      <description>플레이페어 오디오가 Dynamic Grading 2.1 플러그인을 무료 업데이트로 내놨습니다. 내장 피크 리미터와 새로운 리슨 모드가 추가됐고, AU와 VST3에서는 프리젠테이션 지연 보상을 지원합니다. AAX는 해당하지 않습니다. 웹사이트와 사용자 계정을 새로 만들었고 렌트 투 오운 옵션도 제공합니다. 모든 라이선스는 이제 최대 4대의 기기에서 활성화되며, 2026년 11월 30일까지 99달러·99유로에 판매합니다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-274</guid>
-      <category>업데이트</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Waldorf - Crema</title>
-      <link>https://news.ainsonic.com/n/news-269.html</link>
-      <description>발도르프가 스트링 앙상블과 레이어드 패드, 진화하는 텍스처에 초점을 둔 신스 크레마를 발표했습니다. 텍스처 엔진은 스트링·웨이브테이블·FM 방식 24종 사운드를 제공하며 12보이스 폴리포니를 지원하고, 라인스 엔진은 8보이스 가상 아날로그 음색을 냅니다. USB-C 전원과 USB·3.5mm TRS MIDI, 스테레오 출력과 헤드폰 단자를 갖췄고 MPE를 지원하며 두 엔진을 별도 MIDI 채널로 제어할 수 있습니다. 현재 판매 중이며 가격은 €345.45입니다.</description>
-      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-269</guid>
-      <category>신제품</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[신제품] JBL Professional - VTX A8·G28 시스템 (Victoria's Secret Fashion Show 2026)</title>
-      <link>https://news.ainsonic.com/n/news-263.html</link>
-      <description>파이어하우스 프로덕션이 2026 빅토리아 시크릿 패션쇼에 JBL 프로페셔널 VTX A8 스피커 시스템을 공급했습니다. 메인 시스템은 VTX A8 120대를 12개 어레이로 배치했고, 지면에 쌓은 G28 서브우퍼 16대와 VTX F12 7대가 런웨이 채움용으로 더해졌습니다. 천장 조명과 장비가 공간을 많이 차지해 더 작은 VTX A8을 선택했으며, 베뉴 신서시스 소프트웨어로 커버리지를 모델링했습니다. 행사는 캘리포니아 컬버시티 소니 픽처스 스튜디오에서 열렸습니다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-263</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] L-Acoustics - K 시리즈·Source Intelligence (Train Drops of Jupiter 투어)</title>
-      <link>https://news.ainsonic.com/n/news-264.html</link>
-      <description>밴드 트레인의 Drops of Jupiter: 25 Years in the Atmosphere 투어에 L-어쿠스틱스 K 시리즈가 사용됐습니다. FOH 제이슨 제이-모 무어는 소스 인텔리전스 보컬 처리 기술로 무대 소음과 PA 간섭을 줄였습니다. 메인 PA는 한쪽당 K1 12대 위에 K2 6대 구성이었고, KS28 서브우퍼 28대와 카라 II 프런트 필이 더해졌습니다. 시스템은 LA12X 앰프 컨트롤러 51대와 LA-RAK II AVB 랙 17대로 구동됐습니다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-264</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] DiGiCo - Quantum 콘솔 이중 배치 (Tate McRae 페스티벌 공연)</title>
-      <link>https://news.ainsonic.com/n/news-265.html</link>
-      <description>가수 테이트 맥레이의 페스티벌 공연에 디지코 퀀텀 콘솔이 이중으로 배치됐습니다. FOH 엔지니어 커티스 매케나와 모니터 엔지니어 멜빈 고드프리는 몬트리올 오시아가와 시카고 롤라팔루자 공연에서 각각 퀀텀 콘솔을 사용했습니다. 롤라팔루자에서는 퀀텀326과 퀀텀338이, 오시아가에서는 퀀텀225와 퀀텀338이 공급됐습니다. 매케나는 매크로 기능으로 여러 콘솔 기능을 한 번에 자동화할 수 있는 점을 장점으로 꼽았습니다.</description>
-      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-265</guid>
-      <category>신제품</category>
       <category>프로오디오</category>
     </item>
 
