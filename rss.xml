@@ -6,7 +6,87 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 10 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] Martin Audio - Wavefront Precision WPS·WPM, SXCF118, FlexPoint FP8·FP12</title>
+      <link>https://news.ainsonic.com/n/news-312.html</link>
+      <description>영국 리버풀 대성당에서 열린 여름 콘서트 시리즈에 dBS Solutions가 마틴 오디오 Wavefront Precision 라인 어레이와 FlexPoint 스피커를 설치했습니다. 잔향이 13초에 이르는 어려운 공간에서 WPS 6개씩 양쪽에 달고 SXCF118 서브우퍼 6개, FP8 프론트 필을 썼습니다. DISPLAY 3 예측 소프트웨어로 천장과 반사면을 피해 소리를 관객석으로 향하게 설계했습니다. FP12 딜레이 스피커를 본당 길이 방향으로 배치해 공간 울림을 줄였습니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-312</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] JBL Professional - VTX A12</title>
+      <link>https://news.ainsonic.com/n/news-313.html</link>
+      <description>이탈리아 가수 풀미나치의 첫 아레나 투어 피렌체 공연에 JBL Professional VTX A12 라인 어레이가 투입됐습니다. 오디오 업체 Sonique가 유통사 Exhibo와 함께 시스템을 공급했고, 아레나 환경에서 균일한 커버리지와 보컬 명료도를 확인했습니다. 믹스 위치 음압은 약 100dB였고 앰프 여유가 충분했습니다. 조립과 해체가 빨라 세팅 시간을 줄이고 튜닝에 더 쓸 수 있었습니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-313</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] LEA Professional - Connect Series 168</title>
+      <link>https://news.ainsonic.com/n/news-314.html</link>
+      <description>미국 뉴욕주 캐츠킬 산맥의 한 리조트가 식당, 바, 공용 공간 오디오를 LEA Professional Connect Series 앰프로 교체했습니다. 기존 스피커와 배선은 그대로 두고 8채널 Connect Series 168 앰프를 넣어 채널당 160W로 여러 구역을 구동합니다. 96kHz 온보드 DSP와 LEA Cloud 원격 모니터링, PoE 전원 Connect Series Touch 벽면 컨트롤러 2개를 갖췄습니다. 시공은 Mood Media FCC가 맡았습니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-314</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Clear-Com - LQ Series, Gen-IC, Agent-IC, Station-IC</title>
+      <link>https://news.ainsonic.com/n/news-315.html</link>
+      <description>미국 일리노이주 마운트버넌의 센트럴 크리스천 교회가 Clear-Com 인터콤으로 여러 캠퍼스와 원격 제작진을 연결했습니다. LQ Series IP 인터페이스와 Gen-IC 가상 인터콤, Agent-IC 모바일 앱, Station-IC 데스크톱 클라이언트를 함께 씁니다. 사우스캐롤라이나로 이사한 조명 감독이 원격으로 참여하고, 카본데일 캠퍼스도 연결됐습니다. 매주 네 차례 예배를 페이스북, 유튜브, 온라인 캠퍼스, 지역 방송으로 송출합니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-315</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] d&amp;b audiotechnik - XSL-Series</title>
+      <link>https://news.ainsonic.com/n/news-316.html</link>
+      <description>1921년 개관한 미국 댈러스 마제스틱 극장이 d&amp;b audiotechnik XSL-Series 라인 어레이로 음향을 교체했습니다. 14년 쓴 기존 시스템을 바꾸며 1,700석 3층 객석에 맞게 C자 곡선 어레이로 소리를 좌석에 직접 향하게 했습니다. 한쪽당 12개씩 달았고, 박스당 무게는 약 86파운드입니다. Dante 연결은 DS10 브리지, 제어는 R1 소프트웨어로 합니다. 첫 공연은 조 잭슨, 버디 가이, 토드 런그런, 게리 클라크 주니어였습니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-316</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Pliant Technologies - CrewCom Flex</title>
+      <link>https://news.ainsonic.com/n/news-317.html</link>
+      <description>Pliant Technologies가 미국에서 CrewCom Flex 인터콤 제품군 출하를 시작했습니다. AES67과 SMPTE ST 2110 기반 IP 시스템으로 기존 매트릭스 프레임을 없애고 유선, 무선, 가상 통신을 하나로 묶었습니다. 중심은 CrewCom Flex 메인 패널 CKP-16과 데스크톱 패널 CDP-16, 4채널 벨트팩 CBP-24입니다. 각 패널이 자체 분산 매트릭스로 동작해 단일 장애 지점을 없앴습니다. 설정과 관리는 CrewWare 2.0 소프트웨어로 합니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-317</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Modbap - Wax Theory</title>
+      <link>https://news.ainsonic.com/n/news-318.html</link>
+      <description>모드뱁이 바이닐 소리를 내는 플러그인 Wax Theory를 내놨습니다. 한쪽 컨트롤로 바늘 위치에 따라 달라지는 트레이싱 왜곡, 표면 잡음, 흔들림, 대역폭을 함께 바꿉니다. LP, 45, 78 세 가지 포맷과 HiFi, DJ, Worn 세 가지 스타일러스 옵션을 골라 쓸 수 있습니다. Stop 컨트롤로 턴테이블이 멈추는 듯한 속도 변화도 만듭니다. 윈도우 10 이상과 맥OS 11 이상에서 VST3와 AU로 동작합니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-318</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Spitfire Audio - Eternity</title>
+      <link>https://news.ainsonic.com/n/news-319.html</link>
+      <description>스핏파이어 오디오가 작곡가 에릭 휘태커와 함께 만든 샘플 라이브러리 Eternity를 출시했습니다. 휘태커의 최신 앨범 녹음 세션에서 만든 세 번째로, 아날로그 신스와 피아노, 가공한 합창을 담았습니다. Soma Lyra-8, Minimoog Model D, Oberheim OB-X8, Hydrasynth 등이 들어갔습니다. 1903년산 Ludwig &amp; Co 피아노와 AIR Studios 합창 샘플도 있습니다. 가격은 부가세 포함 239파운드입니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-319</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[행사] KV2 Audio - SL412, VHD8.10, VHD2.18J</title>
@@ -325,86 +405,6 @@
       <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-276</guid>
       <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Lectrosonics - S1</title>
-      <link>https://news.ainsonic.com/n/news-277.html</link>
-      <description>작곡가 겸 사운드 디자이너 빌 콜이 렉트로소닉스 S1 슈퍼카디오이드 샷건 마이크를 게임 오디오 제작 현장에서 테스트했습니다. 2K 게임즈의 NBA와 WWE 프랜차이즈용으로 야외에서 농구공 바운스와 림 충돌, 네트 소리를 22개 마이크 구성으로 녹음했습니다. 스튜디오에서는 보이스오버와 ADR, 폴리 작업에도 사용했으며, 18~24인치 거리에서 따뜻하고 자연스러운 존재감이 느껴졌다고 평가했습니다.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-277</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Myburgh - M28</title>
-      <link>https://news.ainsonic.com/n/news-278.html</link>
-      <description>Myburgh가 오래 기다려온 M28 마이크를 출시했습니다. 독일산 CK12 캡슐을 중심으로 하되 1960년대 클래식을 재현하는 대신 새로 설계한 신호 경로를 사용했습니다. FET 앰프는 낮은 레벨에서는 깨끗하게, 강하게 입력되면 2차 고조파를 은은하게 더하며, 피카트론 맞춤 트랜스포머가 저역을 확장합니다. 패드를 쓰지 않고 최대 134dB까지 견디며 5가지 지향성을 선택할 수 있고, 가격은 4850유로입니다.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-278</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] iZotope - Photon</title>
-      <link>https://news.ainsonic.com/n/news-279.html</link>
-      <description>iZotope이 GPU 기반의 스템 분리·복원 도구 Photon을 출시했습니다. 이 소프트웨어는 음악을 4개 스템으로 나누고 드럼 트랙을 킥, 스네어, 하이햇, 탐, 심벌 5개로 분리하며, 한 녹음에서 최대 6명의 화자를 식별해 분리합니다. 복원 도구로 잔향과 바람, 교통 소음 등을 정리할 수 있고, 12개 모델이 로컬 GPU에서 동작합니다. 단독 앱과 ARA 플러그인으로 제공되며, 2026년 12월 7일까지 도입가 259달러에 판매합니다.</description>
-      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-279</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] JBL Professional - 3 Series MkIII (305P MkIII / 306P MkIII / 308P MkIII / 310S MkIII)</title>
-      <link>https://news.ainsonic.com/n/news-284.html</link>
-      <description>JBL 프로페셔널이 3 시리즈의 가장 큰 개편인 MkIII 파워드 스튜디오 모니터를 발표했습니다. 305P·306P·308P MkIII 모니터와 310S MkIII 서브우퍼로 구성되며, 새로 설계한 드라이버와 웨이브가이드, 클래스 D 앰프를 적용했습니다. 풀레인지 모델마다 81가지 보정 조합의 원터치 룸 컨트롤 4개가 내장됐습니다. 아시아·태평양과 유럽, 중동, 아프리카에서는 2026년 11월 3일부터 판매되고, 북미는 2027년 1월 7일부터입니다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-284</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Steven Slate Audio - VSX Horizon One / VSX 8.0</title>
-      <link>https://news.ainsonic.com/n/news-285.html</link>
-      <description>스티븐 슬레이트 오디오가 밀폐형 레퍼런스 헤드폰 VSX 호라이즌 원과 스피커 모델링 소프트웨어 VSX 8.0을 내놨습니다. 호라이즌 원은 50mm 다이나믹 드라이버를 쓴 밀폐형 모델로, 소프트웨어 없이도 쓸 수 있습니다. VSX 8.0은 스피커가 더 앞에 있는 듯한 공간감을 주는 룸 기능을 추가했고, 기존 VSX 사용자에게는 무상 업데이트로 제공됩니다. 호라이즌 원은 에센셜 399달러, 플래티넘 599달러이며, 기존 사용자는 299달러에 살 수 있습니다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-285</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] NEXO - M620·P12+·M1012·M1025·MSUB18 (St. Frances Cabrini Catholic Church)</title>
-      <link>https://news.ainsonic.com/n/news-270.html</link>
-      <description>미국 콜로라도주 리틀턴의 세인트 프랜시스 카브리니 가톨릭 교회가 '하트비트 프로젝트' 개보수에 NEXO와 야마하 음향 시스템을 갖췄습니다. 아쿠스테크가 NEXO M620, P12+, M1012, M1025 스피커와 MSUB18 서브우퍼를 NXAMP 앰프로 구동하고 야마하 DM7 콘솔과 Rio 32×16 스테이지박스 2대를 연결했습니다. 말소리와 음악에 각각 맞춘 별도 시스템으로 앞에서 뒤까지 약 95피트 구간에서 음량 차이가 약 2dB 수준으로 유지됩니다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-270</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] KLANG - KOS 6.1</title>
-      <link>https://news.ainsonic.com/n/news-271.html</link>
-      <description>KLANG이 인이어 모니터링 운영체제 KOS 6.1 업데이트를 공개했습니다. 모든 믹스에 룸·홀·캐시드럴·플레이트 중 고르는 리버브가 들어가 시간과 리턴 레벨, 4밴드 EQ를 조절합니다. KLANG:kontroller에는 세이프티 리미터와 앰비언스 더커가 추가됐습니다. KLANG:konductor, KLANG:vokal, DMI-KLANG, KLANG:1pro에서 동작하고 무료 미리보기로 나오며 2026년 11월 말 정식 버전이 KOS 6.0을 대체합니다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-271</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Martin Audio - WPL·WPC·WPS·SXH218 (The Big Feastival)</title>
-      <link>https://news.ainsonic.com/n/news-272.html</link>
-      <description>영국 옥스퍼드셔에서 열린 제15회 더 빅 피스티벌의 메인 무대 음향을 SWG Events가 마틴 오디오 시스템으로 맡았습니다. 좌우 각 12통의 WPL 대형 라인어레이와 좌우 각 12통의 WPC 아웃필, 카디오이드 배치의 SXH218 서브우퍼 14통, WPS 프론트필 12통으로 구성했습니다. 지연 시스템은 WPC 8통씩 2개 행과 SXH218 3통씩의 카디오이드 스택을 사용했습니다. 베이스먼트 잭스, 더 스트리츠, 바스틸 등이 출연했습니다.</description>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-272</guid>
-      <category>행사</category>
       <category>프로오디오</category>
     </item>
 
