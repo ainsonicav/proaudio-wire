@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-12T03:57:22Z",
+  "generated_at": "2026-11-12T23:48:39Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 28,
-    "month": 145,
-    "total": 318
+    "week": 32,
+    "month": 149,
+    "total": 322
   },
   "top_brands_week": [
     {
@@ -23,41 +23,41 @@
       "count": 2
     },
     {
-      "brand": "LEA Professional",
+      "brand": "Audient",
       "count": 1
     },
     {
-      "brand": "Clear-Com",
+      "brand": "HLabs",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 20,
-      "pct": 71
+      "count": 22,
+      "pct": 69
     },
     {
       "category": "컨슈머오디오",
       "count": 2,
-      "pct": 7
+      "pct": 6
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
-      "pct": 18
+      "count": 6,
+      "pct": 19
     },
     {
       "category": "기타",
-      "count": 1,
-      "pct": 4
+      "count": 2,
+      "pct": 6
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 100,
-      "pct": 69
+      "count": 102,
+      "pct": 68
     },
     {
       "category": "컨슈머오디오",
@@ -66,12 +66,12 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 30,
+      "count": 31,
       "pct": 21
     },
     {
       "category": "기타",
-      "count": 10,
+      "count": 11,
       "pct": 7
     }
   ]
