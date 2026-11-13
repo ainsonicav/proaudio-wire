@@ -1,78 +1,78 @@
 {
-  "generated_at": "2026-11-13T03:28:49Z",
+  "generated_at": "2026-11-13T23:35:18Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 25,
-    "month": 142,
-    "total": 322
+    "week": 32,
+    "month": 149,
+    "total": 329
   },
   "top_brands_week": [
+    {
+      "brand": "d&b audiotechnik",
+      "count": 2
+    },
+    {
+      "brand": "CODA Audio",
+      "count": 2
+    },
     {
       "brand": "JBL Professional",
       "count": 2
     },
     {
-      "brand": "Audient",
+      "brand": "L-Acoustics",
       "count": 1
     },
     {
-      "brand": "HLabs",
-      "count": 1
-    },
-    {
-      "brand": "IK Multimedia",
-      "count": 1
-    },
-    {
-      "brand": "MONO",
+      "brand": "NEXO",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 16,
-      "pct": 64
+      "count": 23,
+      "pct": 72
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 24
+      "pct": 19
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 8
+      "pct": 6
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 96,
-      "pct": 68
+      "count": 103,
+      "pct": 69
     },
     {
       "category": "컨슈머오디오",
       "count": 5,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
       "count": 30,
-      "pct": 21
+      "pct": 20
     },
     {
       "category": "기타",
       "count": 11,
-      "pct": 8
+      "pct": 7
     }
   ]
 }
