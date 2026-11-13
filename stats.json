@@ -1,25 +1,17 @@
 {
-  "generated_at": "2026-11-12T23:49:07Z",
+  "generated_at": "2026-11-13T03:28:49Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 32,
-    "month": 149,
+    "week": 25,
+    "month": 142,
     "total": 322
   },
   "top_brands_week": [
     {
-      "brand": "Martin Audio",
-      "count": 2
-    },
-    {
       "brand": "JBL Professional",
-      "count": 2
-    },
-    {
-      "brand": "Heritage Audio",
       "count": 2
     },
     {
@@ -29,50 +21,58 @@
     {
       "brand": "HLabs",
       "count": 1
+    },
+    {
+      "brand": "IK Multimedia",
+      "count": 1
+    },
+    {
+      "brand": "MONO",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 22,
-      "pct": 69
+      "count": 16,
+      "pct": 64
     },
     {
       "category": "컨슈머오디오",
-      "count": 2,
-      "pct": 6
+      "count": 1,
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 19
+      "pct": 24
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 6
+      "pct": 8
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 102,
+      "count": 96,
       "pct": 68
     },
     {
       "category": "컨슈머오디오",
       "count": 5,
-      "pct": 3
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 31,
+      "count": 30,
       "pct": 21
     },
     {
       "category": "기타",
       "count": 11,
-      "pct": 7
+      "pct": 8
     }
   ]
 }
