@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-14T03:24:57Z",
+  "generated_at": "2026-11-14T23:37:44Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 32,
-    "month": 140,
-    "total": 329
+    "week": 36,
+    "month": 144,
+    "total": 333
   },
   "top_brands_week": [
     {
@@ -23,18 +23,18 @@
       "count": 2
     },
     {
-      "brand": "L-Acoustics",
+      "brand": "beyerdynamic",
       "count": 1
     },
     {
-      "brand": "NEXO",
+      "brand": "Blackmagic Design",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 23,
+      "count": 26,
       "pct": 72
     },
     {
@@ -45,18 +45,18 @@
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 19
+      "pct": 17
     },
     {
       "category": "기타",
-      "count": 2,
-      "pct": 6
+      "count": 3,
+      "pct": 8
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 97,
+      "count": 100,
       "pct": 69
     },
     {
@@ -67,11 +67,11 @@
     {
       "category": "레코딩소프트웨어",
       "count": 28,
-      "pct": 20
+      "pct": 19
     },
     {
       "category": "기타",
-      "count": 11,
+      "count": 12,
       "pct": 8
     }
   ]
