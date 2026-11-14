@@ -13,7 +13,9 @@
     "status": "published",
     "summary": "베이어다이나믹이 스튜디오 헤드폰 4종에 한정 블랙 에디션을 내놨습니다. DT 770 PRO X, DT 990 PRO X, DT 700 PRO X, DT 900 PRO X를 올블랙 디자인으로 만들었으며, STELLAR.45 드라이버와 48옴 임피던스, 독일 제조 품질은 그대로 유지했습니다. 녹음·모니터링부터 믹싱·마스터링, 크리티컬 리스닝까지 용도별로 모델을 골라 쓸 수 있습니다. 2026년 11월 13일 한정 수량 판매하며, 가격은 199유로·249유로입니다.",
     "type": "신제품",
-    "addedDate": "2026-11-15"
+    "addedDate": "2026-11-15",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2F3eb84f_e26816ee1ff3488a8a986b0db959e4ad~mv2.jpg%2Fv1%2Ffill%2Fw_117%2Ch_45%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cblur_2%2Cenc_avif%2Cquality_auto%2F3eb84f_e26816ee1ff3488a8a986b0db959e4ad~mv2.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-332",
@@ -29,7 +31,9 @@
     "status": "published",
     "summary": "블랙매직디자인이 7차 앰비소닉 마이크를 발표했습니다. 디지털 MEMS 마이크 108개를 내장해 64채널 32비트 오디오를 실시간으로 출력하고, USB-C 케이블 하나로 전원과 오디오를 주고받습니다. 애플에서 라이선스한 어레이 형상과 인코딩 필터를 적용했으며, URSA Cine Immersive 카메라와 아이폰, 컴퓨터에 직접 녹음할 수 있습니다. 2026년 12월 출시, 가격은 1,695달러(관세·세금 별도)입니다.",
     "type": "신제품",
-    "addedDate": "2026-11-15"
+    "addedDate": "2026-11-15",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.xingosoftware.com%2Faudioxpress%2Fimages%2Ffetch%2Fdpr_1%2Fhttps%253A%252F%252Faudioxpress.com%252Fassets%252Fupload%252Fimages%252F1%252F20261112105811_Blackmagic-Ambisonic-Microphone-Splash-TWeb.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-333",
@@ -45,7 +49,9 @@
     "status": "published",
     "summary": "노르웨이 트론헤임의 공연장 비스세넨에 알콘스오디오 LR24 라인 어레이 시스템이 설치됐습니다. 좌우 각 8개의 LR24와 BF362 더블 18인치 서브우퍼 6개, VR8 프론트 필, 96kHz로 동작하는 Sentinel10 컨트롤러 5대로 구성됐습니다. 카이저스 오케스트라의 매진 공연에서 시범 운영한 뒤 다른 제조사 제품과 비교해 LR24를 최종 선택했습니다. 800석 규모의 공연장에서 연극부터 록 콘서트까지 다양한 공연에 쓰입니다.",
     "type": "행사",
-    "addedDate": "2026-11-15"
+    "addedDate": "2026-11-15",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.alconsaudio.com%2Fwp-content%2Fuploads%2F2020%2F01%2Falcons-prrgl24-system-image.jpg%3Fx72932&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-334",
@@ -61,7 +67,9 @@
     "status": "published",
     "summary": "ADDAC시스템이 기타에 직접 붙여 쓰는 모듈러 신스용 장치 2종을 내놨습니다. ADDAC006 로터리 익사이터 클램프는 분당 7,000회전하는 브러시리스 모터의 회전 자기장으로 현을 진동시키고, ADDAC007 레조네이터 클램프는 헤드스톡에 붙여 악기 전체를 공명체로 씁니다. 두 제품 모두 모듈러·라인 레벨 입력과 호환됩니다. 현재 판매 중이며 가격은 각 120유로와 200유로입니다.",
     "type": "신제품",
-    "addedDate": "2026-11-15"
+    "addedDate": "2026-11-15",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fa%2Faddac_rotary_exciter-4sFVKM.sIarqkgvwxTZOPg0mItI7_4qj.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-324",
