@@ -1,5 +1,37 @@
 [
   {
+    "id": "news-335",
+    "brand": "Yamaha",
+    "category": "프로오디오",
+    "company": "Yamaha",
+    "date": "2026-11-15",
+    "evidence": "MGX mixers gain FLEX12GEQ graphic EQ on stereo and mix output busses, GEQ Link across stereo-paired channels, a Recall Safe scene option and Console Lock.",
+    "isDomestic": false,
+    "link": "https://www.soundonsound.com/news/yamaha-launch-mgx-urx-cc1-updates",
+    "productName": "MGX, URX, CC1 펌웨어 업데이트",
+    "sourceDate": "2026-11-15",
+    "status": "published",
+    "summary": "야마하가 MGX 믹서·URX 인터페이스·CC1 컨트롤러용 펌웨어 업데이트를 내놨습니다. MGX는 스테레오와 믹스 출력 버스에 31개 밴드 중 12개를 골라 쓰는 FLEX12GEQ 그래픽 EQ와 스테레오 페어 채널 간 GEQ 링크, 리콜 세이프 장면 옵션, 콘솔 잠금 기능을 얻었습니다. CC1은 플러그인 프로파일과 스마트 오버라이드를 담은 컨트롤 센터 2, 피치 벤드·애프터터치를 포함한 7종 MIDI 메시지, 강화된 큐베이스·누엔도 연동을 지원합니다. 펌웨어는 야마하 홈페이지에서 받을 수 있습니다.",
+    "type": "업데이트",
+    "addedDate": "2026-11-16"
+  },
+  {
+    "id": "news-336",
+    "brand": "DiscoDSP",
+    "category": "레코딩소프트웨어",
+    "company": "DiscoDSP",
+    "date": "2026-11-15",
+    "evidence": "DiscoDSP releases OB-Xd 4 modeled on a real OB-X8.",
+    "isDomestic": false,
+    "link": "https://gearspace.com/threads/discodsp-releases-ob-xd-4-modeled-on-a-real-ob-x8.1471390/",
+    "productName": "OB-Xd 4",
+    "sourceDate": "2026-11-15",
+    "status": "published",
+    "summary": "디스코DSP가 오버하임 OB-X8을 본뜬 폴리포닉 신시사이저 OB-Xd 4를 내놨습니다. OB-X8의 모든 필터 타입과 스플릿·더블·바이노럴 모드, 아르페지에이터를 담았고 USB 연결로 OB-X8 라이브러리를 관리할 수 있습니다. 맥 AU·VST3·AAX·스탠드얼론, 윈도우 VST3·AAX·스탠드얼론, 리눅스 VST3·LV2·스탠드얼론 형식을 지원합니다. 가격은 12월 31일까지 99달러, 이후 199달러이며, 기존 OB-Xd 2·3과 TED-8 사용자는 29달러에 업그레이드할 수 있습니다.",
+    "type": "신제품",
+    "addedDate": "2026-11-16"
+  },
+  {
     "id": "news-331",
     "brand": "beyerdynamic",
     "category": "프로오디오",

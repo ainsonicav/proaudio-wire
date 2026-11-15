@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-15T02:53:50Z",
+  "generated_at": "2026-11-15T23:43:05Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 35,
-    "month": 133,
-    "total": 333
+    "week": 37,
+    "month": 135,
+    "total": 335
   },
   "top_brands_week": [
     {
@@ -23,19 +23,19 @@
       "count": 2
     },
     {
-      "brand": "beyerdynamic",
+      "brand": "Yamaha",
       "count": 1
     },
     {
-      "brand": "Blackmagic Design",
+      "brand": "DiscoDSP",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 26,
-      "pct": 74
+      "count": 27,
+      "pct": 73
     },
     {
       "category": "컨슈머오디오",
@@ -44,19 +44,19 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
-      "pct": 14
+      "count": 6,
+      "pct": 16
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 9
+      "pct": 8
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 93,
+      "count": 94,
       "pct": 70
     },
     {
@@ -66,8 +66,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 24,
-      "pct": 18
+      "count": 25,
+      "pct": 19
     },
     {
       "category": "기타",
