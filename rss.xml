@@ -6,7 +6,37 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 15 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] Martin Audio - Wavefront Precision WPC, WPS, FlexPoint FP15, iKON</title>
+      <link>https://news.ainsonic.com/n/news-337.html</link>
+      <description>영국 카디프대학교 학생회관의 두 공연장 그레이트 홀과 Y Plas에 마틴 오디오 시스템이 설치됐습니다. 그레이트 홀은 WPC 라인 어레이를 좌우 6통씩 달았고 FlexPoint FP15으로 외곽을 채웠습니다. Y Plas는 기존 W8LM을 WPS 어레이로 교체하고 iKON 앰프를 도입했습니다. SWG Events가 설계를 맡았고 DISPLAY3 소프트웨어로 커버리지를 예측했습니다.</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-337</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Sennheiser - Spectera</title>
+      <link>https://news.ainsonic.com/n/news-338.html</link>
+      <description>스노우 패트롤이 런던 로열 앨버트 홀에서 열린 9월 공연 3회 동안 젠하이저 Spectera 광대역 무선 시스템을 썼습니다. 인이어 모니터용 SEK 보디팩 24개가 14개의 스테레오 믹스를 전달했고, SKM 핸드헬드 3개가 보컬을 맡았습니다. 시스템 전체가 하나의 8MHz RF 캐리어 안에서 동작해 주파수 조정이 간단해졌다고 합니다.</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-338</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Eventide - SplitEQ 2</title>
+      <link>https://news.ainsonic.com/n/news-342.html</link>
+      <description>이벤트타이드가 EQ 플러그인 SplitEQ 2를 11월 17일에 출시합니다. 구조 분리 기술로 소리의 과도 성분과 음색 성분을 나눠 조절하는 방식에 밴드별 다이나믹스 기능을 새로 넣었습니다. 마스킹 구간을 찾는 언마스킹 도구와 8개 밴드의 독립 패닝도 지원합니다. VST3, AU, AAX 형식을 지원하며 도입가는 99달러로 2027년 1월 3일 이후 199달러가 됩니다.</description>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-342</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[업데이트] Yamaha - MGX, URX, CC1 펌웨어 업데이트</title>
@@ -36,6 +66,16 @@
       <guid isPermaLink="false">news-334</guid>
       <category>신제품</category>
       <category>기타</category>
+    </item>
+
+    <item>
+      <title>[신제품] Sonance - Professional Series High Output Loudspeakers</title>
+      <link>https://news.ainsonic.com/n/news-339.html</link>
+      <description>소낸스 프로페셔널이 고출력 스피커 시리즈 전 모델의 판매를 시작했습니다. 펜던트, 벽부형, 천장 매립형 등으로 구성되며 8인치 우퍼와 1.4인치 컴프레션 드라이버를 동축으로 배치했습니다. 저음은 41Hz까지 내려가 별도 서브우퍼 없이 쓸 수 있는 경우가 많다고 합니다. 120도와 80도 지향각을 바꾸는 가변 지향 기술이 특징이며 컨벤션센터, 예배당, 호텔, 상업 공간에 쓸 수 있습니다.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-339</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -166,6 +206,16 @@
       <guid isPermaLink="false">news-322</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] RCF - MMR 30T</title>
+      <link>https://news.ainsonic.com/n/news-340.html</link>
+      <description>RCF가 초소형 풀레인지 스피커 MMR 30T를 내놨습니다. 3인치 유닛 하나로 200Hz부터 20kHz를 재생하며 최대 음압은 1m에서 101dB입니다. 130도 원형 지향각으로 배경음악과 음성 전달에 쓸 수 있고 70V/100V 멀티탭 트랜스포머를 내장했습니다. IP55 등급으로 실내외 모두 설치할 수 있으며 무게는 2.1kg, 검정과 흰색 두 가지 색상입니다.</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-340</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -354,56 +404,6 @@
       <description>프로듀서 겸 뮤지션 랜디 잭슨이 LA 개인 녹음 스튜디오를 JBL 프로페셔널과 AKG 장비로 꾸몄습니다. 306P MkII 파워드 모니터와 LSR310 서브우퍼로 모니터링 환경을 만들고, C414 XLII 마이크와 K371 헤드폰으로 녹음·트래킹합니다. 잭슨은 머라이어 캐리·휘트니 휴스턴 등과 작업한 베테랑으로, 정확하고 일관된 소리를 이유로 두 브랜드를 선택했다고 밝혔습니다.</description>
       <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-303</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Focusrite - ISA C8X</title>
-      <link>https://news.ainsonic.com/n/news-304.html</link>
-      <description>브루클린 프로듀서 니코 파니가 유튜브 시리즈 '레드 카우치 쇼' 녹음의 중심으로 포커스라이트 ISA C8X 인터페이스를 도입했습니다. 26입력 28출력 USB-C 인터페이스로, 룬달 트랜스포머를 쓴 ISA 프리앰프 2개를 포함해 마이크 프리앰프 8개를 갖췄습니다. 임피던스 전환·인서트·하이패스 필터와 디지털 라우팅·리콜 기능을 지원합니다. 300회 넘는 라이브 공연을 기록한 이 시리즈의 워크플로 속도와 단순함이 개선됐습니다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-304</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Maono - PD500W</title>
-      <link>https://news.ainsonic.com/n/news-305.html</link>
-      <description>마오노가 하이브리드 마이크 PD500W를 출시했습니다. 2.4GHz 무선·USB-C·XLR 세 가지 연결을 지원하고, 32비트 플로트 내장 녹음과 -9dB 세이프티 트랙 백업 기능을 갖췄습니다. 32GB 내장 저장 공간에 WAV 파일로 녹음하며, 멀티 출력 수신기와 함께 쓰면 타임코드 동기화도 됩니다. 베이직 399달러, 데스크 스탠드 번들 429달러로 마오노 웹사이트와 아마존 US에서 판매합니다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-305</guid>
-      <category>신제품</category>
-      <category>컨슈머오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] AnalogX - Genesis</title>
-      <link>https://news.ainsonic.com/n/news-299.html</link>
-      <description>AnalogX가 GPU 기반 믹싱 생태계 Genesis를 출시했습니다. GPU Audio Soundcore 기술로 아날로그 하드웨어 에뮬레이션 처리를 그래픽 카드에 맡겨 AnalogX Neural Expansion Pack과 NAM A2 모델을 CPU 부담 없이 구동합니다. Core는 39.99파운드, Pro는 89.99파운드이며 11월 30일까지 30% 할인합니다.</description>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-299</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Heritage Audio - i73 Pro</title>
-      <link>https://news.ainsonic.com/n/news-298.html</link>
-      <description>Heritage Audio가 i73 Pro 오디오 인터페이스용 무료 펌웨어 업데이트를 내놨습니다. NAM A2 캡처를 인터페이스 내장 DSP에서 직접 구동해 CPU 부담 없이 지연 없이 기타 앰프와 페달, 아웃보드 에뮬레이션을 녹음할 수 있습니다. .nam 파일과 IR, TONE3000 캡처를 불러오며 내장 믹서는 Heritage Audio 플러그인과 VST3 플러그인도 DSP에서 구동합니다.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-298</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Martin Audio - BlacklineQ, Q218</title>
-      <link>https://news.ainsonic.com/n/news-295.html</link>
-      <description>영국 맨체스터 록·메탈·펑크 클럽 새턴스 홀로가 25년 된 음향 시스템을 마틴오디오 블랙라인Q 중심으로 교체했습니다. 통합업체 뉴런 AV가 15인치 2대, 12인치 8대, 10인치 6대의 블랙라인Q 스피커와 듀얼 18인치 Q218 서브우퍼 4대를 설치했고 아이콘 앰프로 구동합니다. 클럽·라이브·대형 라이브 3가지 프리셋으로 DJ 공연과 라이브 전환을 바꿨으며 서브우퍼는 이동식 받침대에 올려 배치를 바꿉니다.</description>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-295</guid>
       <category>행사</category>
       <category>프로오디오</category>
     </item>
