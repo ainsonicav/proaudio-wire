@@ -1,25 +1,17 @@
 {
-  "generated_at": "2026-11-15T23:43:22Z",
+  "generated_at": "2026-11-16T02:54:12Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 37,
-    "month": 135,
+    "week": 30,
+    "month": 131,
     "total": 335
   },
   "top_brands_week": [
     {
       "brand": "d&b audiotechnik",
-      "count": 2
-    },
-    {
-      "brand": "CODA Audio",
-      "count": 2
-    },
-    {
-      "brand": "JBL Professional",
       "count": 2
     },
     {
@@ -29,35 +21,43 @@
     {
       "brand": "DiscoDSP",
       "count": 1
+    },
+    {
+      "brand": "beyerdynamic",
+      "count": 1
+    },
+    {
+      "brand": "Blackmagic Design",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 27,
-      "pct": 73
+      "count": 21,
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
-      "count": 1,
-      "pct": 3
+      "count": 0,
+      "pct": 0
     },
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 16
+      "pct": 20
     },
     {
       "category": "기타",
       "count": 3,
-      "pct": 8
+      "pct": 10
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 94,
-      "pct": 70
+      "count": 93,
+      "pct": 71
     },
     {
       "category": "컨슈머오디오",
@@ -66,13 +66,13 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 25,
-      "pct": 19
+      "count": 24,
+      "pct": 18
     },
     {
       "category": "기타",
-      "count": 12,
-      "pct": 9
+      "count": 10,
+      "pct": 8
     }
   ]
 }
