@@ -6,7 +6,57 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 16 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] HK Audio - ELEMENTS MK2</title>
+      <link>https://news.ainsonic.com/n/news-343.html</link>
+      <description>삼아사운드가 고양 노루목 야외극장에서 연례 Xperience Day를 열고 HK 오디오 ELEMENTS MK2를 선보였습니다. 대리점, 설치업체, 렌탈업체, 공연장 관계자 등 약 65명이 참석해 제품을 직접 듣고 비교했습니다. HK 오디오 본사 임원들도 참석해 11년간 이어온 삼아사운드와의 협력을 소개했습니다. ELEMENTS MK2가 이날 행사의 중심 제품으로 주목받았습니다.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-343</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Yorkville Sound - Coliseum C441W</title>
+      <link>https://news.ainsonic.com/n/news-344.html</link>
+      <description>요크빌 사운드가 실외 설치용 컬럼 스피커 C441W를 내놨습니다. 4인치 저음 드라이버 4개와 1인치 고음 드라이버를 얇은 기둥형 인클로저에 담았고 IP56 방수방진 등급을 받았습니다. 70V 분산 시스템용 30·60·100W 탭을 갖췄고 8옴에서는 최대 130W까지 쓸 수 있습니다. 마운팅 브래킷 2개가 포함돼 상업 공간 실외 설치에 쓸 수 있습니다.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-344</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] HK Audio - POLAR 15 MK2</title>
+      <link>https://news.ainsonic.com/n/news-345.html</link>
+      <description>HK 오디오가 액티브 컬럼 PA 시스템 POLAR 15 MK2를 출시했습니다. 15인치 서브우퍼를 넉넉한 크기의 합판 인클로저에 담았고 M20 FlexMount로 조명 장비를 바로 올릴 수 있습니다. 4채널 믹서와 블루투스 5.0, DSP 사운드 모드(Music·Voice·DJ)를 내장했고 사용자 프리셋 5개를 저장할 수 있습니다. 지금 구매할 수 있으며 등록하면 5년 보증을 받을 수 있습니다.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-345</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Allen &amp; Heath - Qu-3, Qu-3D</title>
+      <link>https://news.ainsonic.com/n/news-346.html</link>
+      <description>앨런앤히스가 디지털 믹서 Qu-3와 Qu-3D를 내놨습니다. 96kHz XCVI 코어를 담아 DEEP 프로세싱을 쓸 수 있고 입력 36채널에 마이크·라인 콤비 소켓 16개를 갖췄습니다. 7인치 터치스크린과 100mm 모터 페이더 9개를 달았고 32x32 USB-C 오디오 인터페이스와 SD 멀티트랙 녹음을 지원합니다. Qu-3D는 16x16 Dante 인터페이스를 내장했습니다.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-346</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] MTHRBORD.STUDIO - ACL2500</title>
+      <link>https://news.ainsonic.com/n/news-347.html</link>
+      <description>MTHRBORD.STUDIO가 API 2500을 본뜬 무료 VCA 버스 컴프레서 ACL2500을 내놨습니다. 실제 API 2500 하드웨어를 녹음·측정해 만들었고 저음을 과하게 누르지 않는 THRUST 사이드체인과 NEW·OLD 모드를 담았습니다. 스텝 방식 어택·레이시오·릴리스, 패럴렐 블렌드, VU 미터를 갖췄습니다. macOS와 Windows용 VST3·AU·스탠드얼론으로 무료로 받을 수 있습니다.</description>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-347</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[행사] Martin Audio - Wavefront Precision WPC, WPS, FlexPoint FP15, iKON</title>
@@ -356,56 +406,6 @@
       <guid isPermaLink="false">news-311</guid>
       <category>신제품</category>
       <category>기타</category>
-    </item>
-
-    <item>
-      <title>[행사] Sonic Days - Sonic Days 2026</title>
-      <link>https://news.ainsonic.com/n/news-308.html</link>
-      <description>소닉 칼리지가 연례 오디오 컨퍼런스 소닉 데이즈 2026을 덴마크 콜딩에서 다섯 번째로 개최한다고 발표했습니다. 영화·TV 사운드, 게임 오디오, 음악 제작, 팟캐스트 등 9개 테마 트랙으로 워크숍과 강연, 콘서트를 진행하며 참가비는 무료입니다. Genelec, Neumann, Meyer Sound, Yamaha 등이 후원합니다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-308</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Bose Professional - MA3 Micro Array</title>
-      <link>https://news.ainsonic.com/n/news-300.html</link>
-      <description>보스 프로페셔널이 소형 패시브 모듈러 스피커 시스템 MA3 마이크로 어레이를 발표했습니다. 모듈마다 1인치 컴프레션 드라이버와 2.25인치 우퍼 4개를 담았고, 각도를 조절해 수직 커버리지를 맞출 수 있습니다. 천장 매달기와 벽걸이 설치를 지원하고, 패시브 크로스오버와 플러그 단자로 배선을 단순화했습니다. 음향이 까다로운 공간의 스피치·음악 재생용으로, 모듈 단품 또는 4개 묶음으로 판매합니다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-300</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] CODA Audio - ViFORCE, SUB FORCE</title>
-      <link>https://news.ainsonic.com/n/news-301.html</link>
-      <description>폴란드 프로덕션 업체 레드포라이브가 코다 오디오 ViFORCE 라인어레이와 SUB FORCE 서브우퍼를 폴란드 최초로 도입했습니다. 4웨이 카디오이드 라인어레이 모듈 18개와 서브우퍼 4개로 구성됐고, 폴란드 유통사 토멕스가 공급했습니다. 뒤쪽으로 새는 소리를 줄여 무대 위 반사를 억제하는 카디오이드 설계가 특징입니다. 올슈틴의 바르미아 마주리 필하모닉에서 열린 안나 비슈코니 공연으로 첫 무대를 가졌습니다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-301</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Neve - Genesys Black</title>
-      <link>https://news.ainsonic.com/n/news-302.html</link>
-      <description>내슈빌의 인사이트 스튜디오가 스튜디오 A 컨트롤룸에 48채널 니브 Genesys Black 콘솔을 커스텀 설치했습니다. 프로 오디오 디자인이 시공했고, 디지털로 제어하는 아날로그 구조로 EQ·다이내믹스·레벨·보조 전송을 DAW 플러그인으로 조절합니다. 1073 프리앰프 48채널을 갖췄고, 사전 준비로 현장 작업은 10일로 줄였습니다. 돌비 애트모스 녹음·믹싱과 35인조 오케스트라 세션에 사용합니다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-302</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] JBL Professional - 306P MkII, LSR310, C414 XLII, K371</title>
-      <link>https://news.ainsonic.com/n/news-303.html</link>
-      <description>프로듀서 겸 뮤지션 랜디 잭슨이 LA 개인 녹음 스튜디오를 JBL 프로페셔널과 AKG 장비로 꾸몄습니다. 306P MkII 파워드 모니터와 LSR310 서브우퍼로 모니터링 환경을 만들고, C414 XLII 마이크와 K371 헤드폰으로 녹음·트래킹합니다. 잭슨은 머라이어 캐리·휘트니 휴스턴 등과 작업한 베테랑으로, 정확하고 일관된 소리를 이유로 두 브랜드를 선택했다고 밝혔습니다.</description>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-303</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
     </item>
 
   </channel>

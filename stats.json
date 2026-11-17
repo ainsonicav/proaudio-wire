@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-11-17T05:09:26Z",
+  "generated_at": "2026-11-17T23:34:38Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 29,
-    "month": 137,
-    "total": 341
+    "week": 33,
+    "month": 141,
+    "total": 346
   },
   "top_brands_week": [
+    {
+      "brand": "HK Audio",
+      "count": 2
+    },
     {
       "brand": "Martin Audio",
       "count": 2
@@ -19,23 +23,19 @@
       "count": 2
     },
     {
-      "brand": "Sennheiser",
+      "brand": "Yorkville Sound",
       "count": 1
     },
     {
-      "brand": "Sonance",
-      "count": 1
-    },
-    {
-      "brand": "RCF",
+      "brand": "Allen & Heath",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 23,
-      "pct": 79
+      "count": 27,
+      "pct": 82
     },
     {
       "category": "컨슈머오디오",
@@ -45,7 +45,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 5,
-      "pct": 17
+      "pct": 15
     },
     {
       "category": "기타",
@@ -56,7 +56,7 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 98,
+      "count": 102,
       "pct": 72
     },
     {
