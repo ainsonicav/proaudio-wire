@@ -1,25 +1,17 @@
 {
-  "generated_at": "2026-11-17T23:35:44Z",
+  "generated_at": "2026-11-18T04:36:31Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 33,
-    "month": 141,
+    "week": 25,
+    "month": 140,
     "total": 346
   },
   "top_brands_week": [
     {
       "brand": "HK Audio",
-      "count": 2
-    },
-    {
-      "brand": "Martin Audio",
-      "count": 2
-    },
-    {
-      "brand": "d&b audiotechnik",
       "count": 2
     },
     {
@@ -29,13 +21,21 @@
     {
       "brand": "Allen & Heath",
       "count": 1
+    },
+    {
+      "brand": "MTHRBORD.STUDIO",
+      "count": 1
+    },
+    {
+      "brand": "Martin Audio",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 27,
-      "pct": 82
+      "count": 20,
+      "pct": 80
     },
     {
       "category": "컨슈머오디오",
@@ -44,19 +44,19 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
-      "pct": 15
+      "count": 4,
+      "pct": 16
     },
     {
       "category": "기타",
       "count": 1,
-      "pct": 3
+      "pct": 4
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 102,
+      "count": 101,
       "pct": 72
     },
     {

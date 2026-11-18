@@ -6,7 +6,17 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 17 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] MTHRBORD.STUDIO - ACL2500</title>
+      <link>https://news.ainsonic.com/n/news-347.html</link>
+      <description>MTHRBORD.STUDIO가 API 2500을 본뜬 무료 VCA 버스 컴프레서 ACL2500을 내놨습니다. 실제 API 2500 하드웨어를 녹음·측정해 만들었고 저음을 과하게 누르지 않는 THRUST 사이드체인과 NEW·OLD 모드를 담았습니다. 스텝 방식 어택·레이시오·릴리스, 패럴렐 블렌드, VU 미터를 갖췄습니다. macOS와 Windows용 VST3·AU·스탠드얼론으로 무료로 받을 수 있습니다.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-347</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[행사] HK Audio - ELEMENTS MK2</title>
@@ -46,16 +56,6 @@
       <guid isPermaLink="false">news-346</guid>
       <category>신제품</category>
       <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] MTHRBORD.STUDIO - ACL2500</title>
-      <link>https://news.ainsonic.com/n/news-347.html</link>
-      <description>MTHRBORD.STUDIO가 API 2500을 본뜬 무료 VCA 버스 컴프레서 ACL2500을 내놨습니다. 실제 API 2500 하드웨어를 녹음·측정해 만들었고 저음을 과하게 누르지 않는 THRUST 사이드체인과 NEW·OLD 모드를 담았습니다. 스텝 방식 어택·레이시오·릴리스, 패럴렐 블렌드, VU 미터를 갖췄습니다. macOS와 Windows용 VST3·AU·스탠드얼론으로 무료로 받을 수 있습니다.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-347</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
     </item>
 
     <item>
