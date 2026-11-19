@@ -6,7 +6,87 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Wed, 18 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] IK Multimedia - iLoud Micro Monitor 2</title>
+      <link>https://news.ainsonic.com/n/news-354.html</link>
+      <description>IK 멀티미디어가 소형 니어필드 스튜디오 모니터 iLoud Micro Monitor 2를 내놨습니다. 3인치 우퍼와 3/4인치 트위터에 클래스 D 앰프 4개로 총 50W RMS 출력을 냅니다. ARC X 룸 보정 기능이 내장됐고 USB-C 디지털 오디오와 블루투스를 지원합니다. 주파수 응답은 49Hz부터 28kHz이며 12월부터 배송을 시작합니다.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-354</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Lawo - HOME mc² DSP, mc²56 MkIII</title>
+      <link>https://news.ainsonic.com/n/news-355.html</link>
+      <description>스페인 바스크 공영방송 EITB가 빌바오 본사 5개 스튜디오 중 3번 스튜디오의 IP 오디오 인프라를 Lawo 시스템으로 교체했습니다. 스페인 최초로 HOME mc² DSP 애플리케이션을 쓴 사례로 58페이더 mc²56 MkIII 콘솔을 갖췄습니다. SMPTE ST 2110 구조에 512개 DSP 채널을 제공하며 최대 2,048채널까지 확장할 수 있습니다.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-355</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Riedel - MediorNet, Artist, Bolero</title>
+      <link>https://news.ainsonic.com/n/news-356.html</link>
+      <description>독일 지역방송 münchen.tv가 뮌헨 북부 신사옥 제작센터를 Riedel 장비로 업그레이드했습니다. MediorNet MicroN UHD 노드 13개로 신호를 분산 처리하고 Artist-1024 인터콤과 Bolero 무선 시스템 16개를 갖췄습니다. SimplyLive ViBox 서버 2대로 라이브 제작과 리플레이, 원격 제작을 지원합니다.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-356</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] L-Acoustics - A10i, Kiva II</title>
+      <link>https://news.ainsonic.com/n/news-357.html</link>
+      <description>독일 비스바덴의 역사적 공연장 쿠어하우스에 L-Acoustics 시스템이 설치됐습니다. 상설 시스템은 A10i 스피커 8대와 KS21i 서브우퍼 2대를 쓰고 이동 시스템은 Kiva II 24대와 SB15m 서브우퍼 6대를 씁니다. 문화재 건물이라 장비를 눈에 띄지 않게 숨겼고 1,350석 콘서트홀의 음성 명료도를 높였습니다.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-357</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Nektar - Impact GX49 Mk3, Impact GX61 Mk3</title>
+      <link>https://news.ainsonic.com/n/news-361.html</link>
+      <description>넥타가 미디 컨트롤러 키보드 Impact GX49 Mk3와 GX61 Mk3를 내놨습니다. LX Mk3와 같은 건반을 쓰고 스케일과 홀드 기능을 새로 담았습니다. 9개 RGB 버튼과 대형 엔코더로 DAW의 볼륨, 필터, 플러그인 파라미터를 조절할 수 있습니다. 가격은 49건반 119.99달러, 61건반 139.99달러입니다.</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-361</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
+
+    <item>
+      <title>[행사] JBL Professional - VTX V25-II-CS, VTX A12, VTX A8, VTX S28</title>
+      <link>https://news.ainsonic.com/n/news-358.html</link>
+      <description>썬더 프로덕션이 텍사스 AT&amp;T 스타디움에서 열린 예배 행사 ACCESS의 음향을 JBL VTX 시스템으로 맡았습니다. VTX V25-II-CS 72대, A12 72대, A8 24대와 S28 서브우퍼 48대를 썼습니다. 무대를 경기장 중앙에 두고 전 좌석에 고른 커버리지를 만들었으며 Crown 앰프로 구동했습니다.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-358</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Sound Devices - Astral</title>
+      <link>https://news.ainsonic.com/n/news-359.html</link>
+      <description>미니애폴리스의 히어로익 프로덕션이 기업 행사에 Sound Devices Astral 무선 시스템을 도입했습니다. ARX16 수신기와 HH 핸드헬드, TX 바디팩을 DiGiCo Quantum 225 등 콘솔과 함께 씁니다. 실시간 스펙트럼 분석으로 빈 주파수를 찾아 10분 안에 준비를 마칠 수 있고 NexLink 원격 제어로 콘솔에서 마이크를 관리합니다.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-359</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] IK Multimedia - TONEX Parametric Tone Models</title>
+      <link>https://news.ainsonic.com/n/news-362.html</link>
+      <description>IK 멀티미디어가 기타 앰프와 페달의 소리뿐 아니라 노브 반응까지 재현하는 파라메트릭 톤 모델 기술을 내놨습니다. 첫 컬렉션은 무료 모델 11종으로 Tonex 2 Player와 Tonex Board에서 쓸 수 있습니다. 모델마다 최대 6개 노브를 담았고 노브마다 최대 10개 위치를 캡처합니다. Tonex Pedal 지원은 2027년 1분기부터 시작합니다.</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-362</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[행사] LD Systems - MAUI P900, MAUI 28 G3, MAUI 11 G3 MIX</title>
@@ -326,86 +406,6 @@
       <guid isPermaLink="false">news-340</guid>
       <category>신제품</category>
       <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Martin Audio - Wavefront Precision WPS·WPM, SXCF118, FlexPoint FP8·FP12</title>
-      <link>https://news.ainsonic.com/n/news-312.html</link>
-      <description>영국 리버풀 대성당에서 열린 여름 콘서트 시리즈에 dBS Solutions가 마틴 오디오 Wavefront Precision 라인 어레이와 FlexPoint 스피커를 설치했습니다. 잔향이 13초에 이르는 어려운 공간에서 WPS 6개씩 양쪽에 달고 SXCF118 서브우퍼 6개, FP8 프론트 필을 썼습니다. DISPLAY 3 예측 소프트웨어로 천장과 반사면을 피해 소리를 관객석으로 향하게 설계했습니다. FP12 딜레이 스피커를 본당 길이 방향으로 배치해 공간 울림을 줄였습니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-312</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] JBL Professional - VTX A12</title>
-      <link>https://news.ainsonic.com/n/news-313.html</link>
-      <description>이탈리아 가수 풀미나치의 첫 아레나 투어 피렌체 공연에 JBL Professional VTX A12 라인 어레이가 투입됐습니다. 오디오 업체 Sonique가 유통사 Exhibo와 함께 시스템을 공급했고, 아레나 환경에서 균일한 커버리지와 보컬 명료도를 확인했습니다. 믹스 위치 음압은 약 100dB였고 앰프 여유가 충분했습니다. 조립과 해체가 빨라 세팅 시간을 줄이고 튜닝에 더 쓸 수 있었습니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-313</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] LEA Professional - Connect Series 168</title>
-      <link>https://news.ainsonic.com/n/news-314.html</link>
-      <description>미국 뉴욕주 캐츠킬 산맥의 한 리조트가 식당, 바, 공용 공간 오디오를 LEA Professional Connect Series 앰프로 교체했습니다. 기존 스피커와 배선은 그대로 두고 8채널 Connect Series 168 앰프를 넣어 채널당 160W로 여러 구역을 구동합니다. 96kHz 온보드 DSP와 LEA Cloud 원격 모니터링, PoE 전원 Connect Series Touch 벽면 컨트롤러 2개를 갖췄습니다. 시공은 Mood Media FCC가 맡았습니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-314</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Clear-Com - LQ Series, Gen-IC, Agent-IC, Station-IC</title>
-      <link>https://news.ainsonic.com/n/news-315.html</link>
-      <description>미국 일리노이주 마운트버넌의 센트럴 크리스천 교회가 Clear-Com 인터콤으로 여러 캠퍼스와 원격 제작진을 연결했습니다. LQ Series IP 인터페이스와 Gen-IC 가상 인터콤, Agent-IC 모바일 앱, Station-IC 데스크톱 클라이언트를 함께 씁니다. 사우스캐롤라이나로 이사한 조명 감독이 원격으로 참여하고, 카본데일 캠퍼스도 연결됐습니다. 매주 네 차례 예배를 페이스북, 유튜브, 온라인 캠퍼스, 지역 방송으로 송출합니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-315</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] d&amp;b audiotechnik - XSL-Series</title>
-      <link>https://news.ainsonic.com/n/news-316.html</link>
-      <description>1921년 개관한 미국 댈러스 마제스틱 극장이 d&amp;b audiotechnik XSL-Series 라인 어레이로 음향을 교체했습니다. 14년 쓴 기존 시스템을 바꾸며 1,700석 3층 객석에 맞게 C자 곡선 어레이로 소리를 좌석에 직접 향하게 했습니다. 한쪽당 12개씩 달았고, 박스당 무게는 약 86파운드입니다. Dante 연결은 DS10 브리지, 제어는 R1 소프트웨어로 합니다. 첫 공연은 조 잭슨, 버디 가이, 토드 런그런, 게리 클라크 주니어였습니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-316</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Pliant Technologies - CrewCom Flex</title>
-      <link>https://news.ainsonic.com/n/news-317.html</link>
-      <description>Pliant Technologies가 미국에서 CrewCom Flex 인터콤 제품군 출하를 시작했습니다. AES67과 SMPTE ST 2110 기반 IP 시스템으로 기존 매트릭스 프레임을 없애고 유선, 무선, 가상 통신을 하나로 묶었습니다. 중심은 CrewCom Flex 메인 패널 CKP-16과 데스크톱 패널 CDP-16, 4채널 벨트팩 CBP-24입니다. 각 패널이 자체 분산 매트릭스로 동작해 단일 장애 지점을 없앴습니다. 설정과 관리는 CrewWare 2.0 소프트웨어로 합니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-317</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Modbap - Wax Theory</title>
-      <link>https://news.ainsonic.com/n/news-318.html</link>
-      <description>모드뱁이 바이닐 소리를 내는 플러그인 Wax Theory를 내놨습니다. 한쪽 컨트롤로 바늘 위치에 따라 달라지는 트레이싱 왜곡, 표면 잡음, 흔들림, 대역폭을 함께 바꿉니다. LP, 45, 78 세 가지 포맷과 HiFi, DJ, Worn 세 가지 스타일러스 옵션을 골라 쓸 수 있습니다. Stop 컨트롤로 턴테이블이 멈추는 듯한 속도 변화도 만듭니다. 윈도우 10 이상과 맥OS 11 이상에서 VST3와 AU로 동작합니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-318</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Spitfire Audio - Eternity</title>
-      <link>https://news.ainsonic.com/n/news-319.html</link>
-      <description>스핏파이어 오디오가 작곡가 에릭 휘태커와 함께 만든 샘플 라이브러리 Eternity를 출시했습니다. 휘태커의 최신 앨범 녹음 세션에서 만든 세 번째로, 아날로그 신스와 피아노, 가공한 합창을 담았습니다. Soma Lyra-8, Minimoog Model D, Oberheim OB-X8, Hydrasynth 등이 들어갔습니다. 1903년산 Ludwig &amp; Co 피아노와 AIR Studios 합창 샘플도 있습니다. 가격은 부가세 포함 239파운드입니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-319</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
     </item>
 
   </channel>

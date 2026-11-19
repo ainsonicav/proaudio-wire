@@ -1,15 +1,23 @@
 {
-  "generated_at": "2026-11-19T04:18:08Z",
+  "generated_at": "2026-11-19T23:35:14Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 24,
-    "month": 142,
-    "total": 352
+    "week": 32,
+    "month": 151,
+    "total": 361
   },
   "top_brands_week": [
+    {
+      "brand": "IK Multimedia",
+      "count": 2
+    },
+    {
+      "brand": "L-Acoustics",
+      "count": 2
+    },
     {
       "brand": "Martin Audio",
       "count": 2
@@ -19,60 +27,52 @@
       "count": 2
     },
     {
-      "brand": "LD Systems",
-      "count": 1
-    },
-    {
-      "brand": "Dynacord",
-      "count": 1
-    },
-    {
-      "brand": "Genelec",
+      "brand": "Lawo",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 18,
+      "count": 24,
       "pct": 75
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 4,
-      "pct": 17
+      "count": 5,
+      "pct": 16
     },
     {
       "category": "기타",
-      "count": 1,
-      "pct": 4
+      "count": 2,
+      "pct": 6
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 102,
+      "count": 109,
       "pct": 72
     },
     {
       "category": "컨슈머오디오",
       "count": 5,
-      "pct": 4
+      "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 26,
+      "count": 27,
       "pct": 18
     },
     {
       "category": "기타",
-      "count": 9,
-      "pct": 6
+      "count": 10,
+      "pct": 7
     }
   ]
 }
