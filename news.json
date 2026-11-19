@@ -13,7 +13,9 @@
     "status": "published",
     "summary": "IK 멀티미디어가 소형 니어필드 스튜디오 모니터 iLoud Micro Monitor 2를 내놨습니다. 3인치 우퍼와 3/4인치 트위터에 클래스 D 앰프 4개로 총 50W RMS 출력을 냅니다. ARC X 룸 보정 기능이 내장됐고 USB-C 디지털 오디오와 블루투스를 지원합니다. 주파수 응답은 49Hz부터 28kHz이며 12월부터 배송을 시작합니다.",
     "type": "신제품",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F11%2FIK-Multimedia-Unveils-iLoud.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-355",
@@ -29,7 +31,9 @@
     "status": "published",
     "summary": "스페인 바스크 공영방송 EITB가 빌바오 본사 5개 스튜디오 중 3번 스튜디오의 IP 오디오 인프라를 Lawo 시스템으로 교체했습니다. 스페인 최초로 HOME mc² DSP 애플리케이션을 쓴 사례로 58페이더 mc²56 MkIII 콘솔을 갖췄습니다. SMPTE ST 2110 구조에 512개 DSP 채널을 제공하며 최대 2,048채널까지 확장할 수 있습니다.",
     "type": "행사",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fmc3-dsp-Lawo.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-356",
@@ -45,7 +49,9 @@
     "status": "published",
     "summary": "독일 지역방송 münchen.tv가 뮌헨 북부 신사옥 제작센터를 Riedel 장비로 업그레이드했습니다. MediorNet MicroN UHD 노드 13개로 신호를 분산 처리하고 Artist-1024 인터콤과 Bolero 무선 시스템 16개를 갖췄습니다. SimplyLive ViBox 서버 2대로 라이브 제작과 리플레이, 원격 제작을 지원합니다.",
     "type": "행사",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.riedel.net%2Fwp-content%2Fuploads%2F2026%2F07%2FRID_1910024_MN_Compact_Pro_01-1.webp&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-357",
@@ -61,7 +67,9 @@
     "status": "published",
     "summary": "독일 비스바덴의 역사적 공연장 쿠어하우스에 L-Acoustics 시스템이 설치됐습니다. 상설 시스템은 A10i 스피커 8대와 KS21i 서브우퍼 2대를 쓰고 이동 시스템은 Kiva II 24대와 SB15m 서브우퍼 6대를 씁니다. 문화재 건물이라 장비를 눈에 띄지 않게 숨겼고 1,350석 콘서트홀의 음성 명료도를 높였습니다.",
     "type": "행사",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.l-acoustics.com%2Fwp-content%2Fuploads%2F2021%2F12%2FA10i_Focus_Perspective_award.png&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-358",
@@ -77,7 +85,8 @@
     "status": "published",
     "summary": "썬더 프로덕션이 텍사스 AT&T 스타디움에서 열린 예배 행사 ACCESS의 음향을 JBL VTX 시스템으로 맡았습니다. VTX V25-II-CS 72대, A12 72대, A8 24대와 S28 서브우퍼 48대를 썼습니다. 무대를 경기장 중앙에 두고 전 좌석에 고른 커버리지를 만들었으며 Crown 앰프로 구동했습니다.",
     "type": "행사",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageTried": "2026-11-19:g"
   },
   {
     "id": "news-359",
@@ -93,7 +102,9 @@
     "status": "published",
     "summary": "미니애폴리스의 히어로익 프로덕션이 기업 행사에 Sound Devices Astral 무선 시스템을 도입했습니다. ARX16 수신기와 HH 핸드헬드, TX 바디팩을 DiGiCo Quantum 225 등 콘솔과 함께 씁니다. 실시간 스펙트럼 분석으로 빈 주파수를 찾아 10분 안에 준비를 마칠 수 있고 NexLink 원격 제어로 콘솔에서 마이크를 관리합니다.",
     "type": "행사",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.sounddevices.com%2Fwp-content%2Fuploads%2F2023%2F07%2FSound-Devices-Astral-ARX8-Front-2-scaled.png&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-360",
@@ -109,7 +120,9 @@
     "status": "published",
     "summary": "JBL 프로페셔널이 스튜디오 모니터 3 Series MkIII를 내놨습니다. 305P, 306P, 308P 모니터 3종과 310S 서브우퍼로 구성됐고 새 클래스 D 앰프와 재설계한 드라이버를 썼습니다. 원터치 룸 보정으로 81가지 EQ 조합을 제공하며 310S는 26Hz까지 냅니다. 아시아·유럽에서는 11월 3일부터 판매를 시작했습니다.",
     "type": "신제품",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fadn.harmanpro.com%2Ffeature%2F2110%2Fimage%2Flarge-ef36497b3d88cc5b79090564c466c43e.webp&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-361",
@@ -125,7 +138,9 @@
     "status": "published",
     "summary": "넥타가 미디 컨트롤러 키보드 Impact GX49 Mk3와 GX61 Mk3를 내놨습니다. LX Mk3와 같은 건반을 쓰고 스케일과 홀드 기능을 새로 담았습니다. 9개 RGB 버튼과 대형 엔코더로 DAW의 볼륨, 필터, 플러그인 파라미터를 조절할 수 있습니다. 가격은 49건반 119.99달러, 61건반 139.99달러입니다.",
     "type": "신제품",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fn%2Fnektar_impact_gx_mk3-YrvT9KVWP9xgFPnwz6.T8TOSs13KOF_P.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-362",
@@ -141,7 +156,9 @@
     "status": "published",
     "summary": "IK 멀티미디어가 기타 앰프와 페달의 소리뿐 아니라 노브 반응까지 재현하는 파라메트릭 톤 모델 기술을 내놨습니다. 첫 컬렉션은 무료 모델 11종으로 Tonex 2 Player와 Tonex Board에서 쓸 수 있습니다. 모델마다 최대 6개 노브를 담았고 노브마다 최대 10개 위치를 캡처합니다. Tonex Pedal 지원은 2027년 1분기부터 시작합니다.",
     "type": "신제품",
-    "addedDate": "2026-11-20"
+    "addedDate": "2026-11-20",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fi%2Fik_multimedia_tonex_parametric-cD96_mjHjkkOutruPy_acelRG2yR95MQ.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-348",
