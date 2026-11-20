@@ -6,7 +6,27 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 19 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] dBTechnologies - VIO W12T, VIO X315</title>
+      <link>https://news.ainsonic.com/n/news-363.html</link>
+      <description>미국 록 밴드 캔들박스가 2026년 가을 'Can't Quit You Tour' 32회 공연에 dBTechnologies VIO 모니터 시스템을 가져갔습니다. VIO W12T 웨지 6대와 VIO X315 사이드 필 2대로 구성한 8캐비닛 시스템으로, 매일 같은 모니터 환경을 유지했습니다. W12T는 12인치 우퍼와 1.3인치 고역 드라이버를 갖춘 2웨이 코액셜 모니터이며, 두 모델 모두 Digipro G4 클래스 D 앰프를 내장했습니다.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-363</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] DiGiCo - Quantum225 DS Pulse, SD-Rack</title>
+      <link>https://news.ainsonic.com/n/news-364.html</link>
+      <description>미국 밴드 기스가 'Getting Killed World Tour'에서 DiGiCo Quantum225 DS Pulse 콘솔 2대와 SD-Rack 2대를 사용했습니다. 두 대는 아날로그 스플릿으로 연결해 FOH 엔지니어 로스 해리스와 모니터 엔지니어 탈리아 크라우스가 나눠 운용했습니다. 듀얼 스크린 구성과 내장 Mustard, Spice Rack, Nodal Processing이 모니터 워크플로를 도왔고, 32입력 규모의 밴드에 충분한 성능을 냈다고 전했습니다.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-364</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
 
     <item>
       <title>[신제품] IK Multimedia - iLoud Micro Monitor 2</title>
@@ -259,6 +279,16 @@
     </item>
 
     <item>
+      <title>[신제품] Janus Audio - ParaQ</title>
+      <link>https://news.ainsonic.com/n/news-365.html</link>
+      <description>베를린의 신생 제조사 야누스 오디오가 500 시리즈 듀얼 채널 EQ ParaQ를 발표했습니다. 전 구간 아날로그 신호 경로에 자동 게인 보정을 넣어 EQ를 걸어도 전체 레벨이 유지되며, 채널당 5개 밴드와 7kHz~40kHz 에어 셸프를 갖췄습니다. 스테레오·좌우·미드사이드 모드를 지원하고 USB 미디로 DAW에서 원격 제어할 수 있으며, 예약 가격은 1,050유로입니다.</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-365</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
       <title>[신제품] Sonance - Professional Series High Output Loudspeakers</title>
       <link>https://news.ainsonic.com/n/news-339.html</link>
       <description>소낸스 프로페셔널이 고출력 스피커 시리즈 전 모델의 판매를 시작했습니다. 펜던트, 벽부형, 천장 매립형 등으로 구성되며 8인치 우퍼와 1.4인치 컴프레션 드라이버를 동축으로 배치했습니다. 저음은 41Hz까지 내려가 별도 서브우퍼 없이 쓸 수 있는 경우가 많다고 합니다. 120도와 80도 지향각을 바꾸는 가변 지향 기술이 특징이며 컨벤션센터, 예배당, 호텔, 상업 공간에 쓸 수 있습니다.</description>
@@ -374,36 +404,6 @@
       <description>오디언트가 USB 오디오 인터페이스 iD Mk3 라인업 4종을 내놨다. iD1(2입출력, 199달러)부터 iD4+(20입출력, 699달러)까지 구성되며, 75dB 게인의 콘솔 마이크 프리앰프와 온보드 DSP 기반 룸튜브 모니터 보정, 아날로그 톤 스위트를 담았다. 32비트 변환과 128dB 다이내믹 레인지, 최대 192kHz를 지원해 교회와 소규모 스튜디오 녹음·모니터링에 적합하다.</description>
       <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-320</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] HLabs - CL089</title>
-      <link>https://news.ainsonic.com/n/news-321.html</link>
-      <description>스위스 HLabs가 500 시리즈 PWM 컴프레서 CL089을 출시했다. 빈티지 스투더 089 콘솔의 컴프레서를 바탕으로 한 풀 아날로그 설계로, 1.5대1부터 리미트까지 4단계 비율과 자동을 포함한 5단계 릴리스, 스테레오 탠덤 동작을 제공한다. H101 디스크리트 오프앰프와 룬달 출력 트랜스포머를 써서 가격은 949유로부터 시작한다.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-321</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] IK Multimedia - ReSing Choir</title>
-      <link>https://news.ainsonic.com/n/news-322.html</link>
-      <description>IK 멀티미디어가 하나의 보컬 녹음을 섹션별로 최대 5명의 모델링 가수 합창으로 바꾸는 독립형 소프트웨어 리싱 콰이어를 출시했다. 10개 보이스 모델과 코드 인식 자동 하모나이저, 피아노 롤 편집을 갖췄고 구독 없이 영구 라이선스로 오프라인 처리한다. 출시 특가는 149.99달러이며, 리싱 사용자는 99.99달러에 업그레이드할 수 있다.</description>
-      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-322</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] RCF - MMR 30T</title>
-      <link>https://news.ainsonic.com/n/news-340.html</link>
-      <description>RCF가 초소형 풀레인지 스피커 MMR 30T를 내놨습니다. 3인치 유닛 하나로 200Hz부터 20kHz를 재생하며 최대 음압은 1m에서 101dB입니다. 130도 원형 지향각으로 배경음악과 음성 전달에 쓸 수 있고 70V/100V 멀티탭 트랜스포머를 내장했습니다. IP55 등급으로 실내외 모두 설치할 수 있으며 무게는 2.1kg, 검정과 흰색 두 가지 색상입니다.</description>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-340</guid>
       <category>신제품</category>
       <category>프로오디오</category>
     </item>

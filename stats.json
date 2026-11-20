@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-20T04:06:38Z",
+  "generated_at": "2026-11-20T23:44:10Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 25,
-    "month": 145,
-    "total": 361
+    "week": 27,
+    "month": 148,
+    "total": 364
   },
   "top_brands_week": [
     {
@@ -23,19 +23,19 @@
       "count": 2
     },
     {
-      "brand": "Lawo",
+      "brand": "dBTechnologies",
       "count": 1
     },
     {
-      "brand": "Riedel",
+      "brand": "DiGiCo",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 17,
-      "pct": 68
+      "count": 19,
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
@@ -45,18 +45,18 @@
     {
       "category": "레코딩소프트웨어",
       "count": 5,
-      "pct": 20
+      "pct": 19
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 8
+      "pct": 7
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 104,
+      "count": 107,
       "pct": 72
     },
     {
@@ -67,7 +67,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 27,
-      "pct": 19
+      "pct": 18
     },
     {
       "category": "기타",
