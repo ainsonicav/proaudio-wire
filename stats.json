@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-11-19T23:36:15Z",
+  "generated_at": "2026-11-20T04:06:38Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 32,
-    "month": 151,
+    "week": 25,
+    "month": 145,
     "total": 361
   },
   "top_brands_week": [
     {
       "brand": "IK Multimedia",
-      "count": 2
-    },
-    {
-      "brand": "L-Acoustics",
       "count": 2
     },
     {
@@ -29,34 +25,38 @@
     {
       "brand": "Lawo",
       "count": 1
+    },
+    {
+      "brand": "Riedel",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 24,
-      "pct": 75
+      "count": 17,
+      "pct": 68
     },
     {
       "category": "컨슈머오디오",
       "count": 1,
-      "pct": 3
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
       "count": 5,
-      "pct": 16
+      "pct": 20
     },
     {
       "category": "기타",
       "count": 2,
-      "pct": 6
+      "pct": 8
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 109,
+      "count": 104,
       "pct": 72
     },
     {
@@ -67,12 +67,12 @@
     {
       "category": "레코딩소프트웨어",
       "count": 27,
-      "pct": 18
+      "pct": 19
     },
     {
       "category": "기타",
-      "count": 10,
-      "pct": 7
+      "count": 9,
+      "pct": 6
     }
   ]
 }
