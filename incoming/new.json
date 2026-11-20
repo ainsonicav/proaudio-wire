@@ -1,0 +1,44 @@
+[
+ {
+  "brand": "dBTechnologies",
+  "category": "프로오디오",
+  "company": "dBTechnologies",
+  "date": "2026-11-20",
+  "evidence": "traveled with dBTechnologies VIO self-powered monitors for its fall 2026 'Can't Quit You Tour,' with W12T wedges and X315 loudspeakers serving as stage monitors and side fills.",
+  "isDomestic": false,
+  "link": "https://www.prosoundweb.com/candlebox-takes-dbtechnologies-on-the-cant-quit-you-tour/",
+  "productName": "VIO W12T, VIO X315",
+  "sourceDate": "2026-11-20",
+  "status": "published",
+  "summary": "미국 록 밴드 캔들박스가 2026년 가을 'Can't Quit You Tour' 32회 공연에 dBTechnologies VIO 모니터 시스템을 가져갔습니다. VIO W12T 웨지 6대와 VIO X315 사이드 필 2대로 구성한 8캐비닛 시스템으로, 매일 같은 모니터 환경을 유지했습니다. W12T는 12인치 우퍼와 1.3인치 고역 드라이버를 갖춘 2웨이 코액셜 모니터이며, 두 모델 모두 Digipro G4 클래스 D 앰프를 내장했습니다.",
+  "type": "행사"
+ },
+ {
+  "brand": "DiGiCo",
+  "category": "프로오디오",
+  "company": "DiGiCo",
+  "date": "2026-11-20",
+  "evidence": "supported by an audio team working with a pair of DiGiCo Quantum225 DS Pulse consoles for front of house and monitors, along with two SD-Racks",
+  "isDomestic": false,
+  "link": "https://www.prosoundweb.com/digico-helps-make-sure-geese-delivers-on-fly-dates-on-the-getting-killed-world-tour/",
+  "productName": "Quantum225 DS Pulse, SD-Rack",
+  "sourceDate": "2026-11-20",
+  "status": "published",
+  "summary": "미국 밴드 기스가 'Getting Killed World Tour'에서 DiGiCo Quantum225 DS Pulse 콘솔 2대와 SD-Rack 2대를 사용했습니다. 두 대는 아날로그 스플릿으로 연결해 FOH 엔지니어 로스 해리스와 모니터 엔지니어 탈리아 크라우스가 나눠 운용했습니다. 듀얼 스크린 구성과 내장 Mustard, Spice Rack, Nodal Processing이 모니터 워크플로를 도왔고, 32입력 규모의 밴드에 충분한 성능을 냈다고 전했습니다.",
+  "type": "행사"
+ },
+ {
+  "brand": "Janus Audio",
+  "category": "프로오디오",
+  "company": "Janus Audio",
+  "date": "2026-11-13",
+  "evidence": "we are happy to announce ParaQ, a dual-channel equalizer in API 500 format.",
+  "isDomestic": false,
+  "link": "https://gearspace.com/threads/janus-audio-introduces-paraq-a-dual-channel-500-series-eq-with-automatic-gain-compensation.1471312/",
+  "productName": "ParaQ",
+  "sourceDate": "2026-11-13",
+  "status": "published",
+  "summary": "베를린의 신생 제조사 야누스 오디오가 500 시리즈 듀얼 채널 EQ ParaQ를 발표했습니다. 전 구간 아날로그 신호 경로에 자동 게인 보정을 넣어 EQ를 걸어도 전체 레벨이 유지되며, 채널당 5개 밴드와 7kHz~40kHz 에어 셸프를 갖췄습니다. 스테레오·좌우·미드사이드 모드를 지원하고 USB 미디로 DAW에서 원격 제어할 수 있으며, 예약 가격은 1,050유로입니다.",
+  "type": "신제품"
+ }
+]
