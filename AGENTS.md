@@ -55,3 +55,12 @@ python3 scripts/build.py
 *   PR 제목은 반드시 `[proaudio-wire] 요약` 형식으로 작성합니다.
 *   PR을 제출하기 전에는 반드시 빌드 스크립트(`python3 scripts/build.py`)를 실행하여 오류가 없음을 확인하고, 그 실행 결과를 PR 설명 본문에 붙여넣어야 합니다.
 *   사이트 표시에 변경이 발생했다면, PR 설명에 변경 전과 변경 후의 차이점을 설명해야 합니다.
+
+## 공지 작성 규칙 (블로그 발행 소식)
+
+- 네이버 블로그(blog.naver.com/einsaircon) 새 글을 발행하면 `notices.json`에 `[블로그] 글 제목` 형식으로 공지 1건을 추가한다.
+- `content`는 2문장 안쪽 요약 + ` 블로그에서 보기: <글 URL>`. 공지 패널은 content를 2줄로 자르고, 첫 URL을 찾아 행을 클릭 링크로 만든다(`index.html`의 `urlOf`).
+- `pinned`는 false. 패널은 고정 우선 → 최신순으로 5건을 그리므로 배열 순서는 참고용이다.
+- 블로그 공지는 최대 2건 유지. `pinned` 항목은 건드리지 않는다.
+- 사이트관리센터 대시보드를 거치지 않고 이 파일을 직접 수정해 커밋한다(2026-11-22 지시). `notices.json`만 바꿨다면 `build.py` 재실행은 필요 없다.
+- 절차·검증: Aside 스킬 `ainsonic-blog-notice`.
