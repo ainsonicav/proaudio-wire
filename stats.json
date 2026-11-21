@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-21T16:20:26Z",
+  "generated_at": "2026-11-21T18:16:51Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 26,
-    "month": 141,
-    "total": 365
+    "week": 30,
+    "month": 146,
+    "total": 370
   },
   "top_brands_week": [
     {
@@ -23,62 +23,62 @@
       "count": 2
     },
     {
-      "brand": "dBTechnologies",
+      "brand": "Inter-M",
       "count": 1
     },
     {
-      "brand": "DiGiCo",
+      "brand": "Listen Technologies",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 19,
-      "pct": 73
+      "count": 21,
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
-      "count": 1,
-      "pct": 4
+      "count": 2,
+      "pct": 7
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 5,
-      "pct": 19
+      "count": 6,
+      "pct": 20
     },
     {
       "category": "기타",
       "count": 1,
-      "pct": 4
+      "pct": 3
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 104,
-      "pct": 74
+      "count": 107,
+      "pct": 73
     },
     {
       "category": "컨슈머오디오",
-      "count": 4,
+      "count": 5,
       "pct": 3
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 25,
+      "count": 26,
       "pct": 18
     },
     {
       "category": "기타",
       "count": 8,
-      "pct": 6
+      "pct": 5
     }
   ],
   "latency_hours_month": {
     "median": 24.0,
     "p90": 72.0,
-    "sample": 141
+    "sample": 146
   },
   "source_health": [
     {
@@ -93,8 +93,8 @@
     },
     {
       "host": "blog.naver.com",
-      "items": 18,
-      "last": "2026-10-08"
+      "items": 19,
+      "last": "2026-11-13"
     },
     {
       "host": "gearspace.com",
@@ -132,14 +132,14 @@
       "last": "2026-10-08"
     },
     {
+      "host": "gearnews.com",
+      "items": 4,
+      "last": "2026-11-21"
+    },
+    {
       "host": "newsroom.sennheiser.com",
       "items": 4,
       "last": "2026-10-27"
-    },
-    {
-      "host": "youtube.com",
-      "items": 4,
-      "last": "2026-10-01"
     }
   ]
 }
