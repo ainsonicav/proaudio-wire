@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:05:57Z",
+  "generated_at": "2026-11-21T16:17:52Z",
   "window_days": {
     "week": 7,
     "month": 30
@@ -73,6 +73,73 @@
       "category": "기타",
       "count": 8,
       "pct": 6
+    }
+  ],
+  "latency_hours_month": {
+    "median": 24.0,
+    "p90": 72.0,
+    "sample": 141
+  },
+  "source_health": [
+    {
+      "host": "prosoundweb.com",
+      "items": 137,
+      "last": "2026-11-20"
+    },
+    {
+      "host": "soundonsound.com",
+      "items": 37,
+      "last": "2026-11-19"
+    },
+    {
+      "host": "blog.naver.com",
+      "items": 18,
+      "last": "2026-10-08"
+    },
+    {
+      "host": "gearspace.com",
+      "items": 13,
+      "last": "2026-11-18"
+    },
+    {
+      "host": "usa.yamaha.com",
+      "items": 6,
+      "last": "2026-10-01"
+    },
+    {
+      "host": "kvraudio.com",
+      "items": 6,
+      "last": "2026-09-26"
+    },
+    {
+      "host": "ikmultimedia.com",
+      "items": 5,
+      "last": "2026-10-29"
+    },
+    {
+      "host": "ravepubs.com",
+      "items": 5,
+      "last": "2026-10-28"
+    },
+    {
+      "host": "ntusys.com",
+      "items": 5,
+      "last": "2026-10-13"
+    },
+    {
+      "host": "mixonline.com",
+      "items": 5,
+      "last": "2026-10-08"
+    },
+    {
+      "host": "newsroom.sennheiser.com",
+      "items": 4,
+      "last": "2026-10-27"
+    },
+    {
+      "host": "youtube.com",
+      "items": 4,
+      "last": "2026-10-01"
     }
   ]
 }

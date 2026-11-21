@@ -64,3 +64,11 @@ python3 scripts/build.py
 - 블로그 공지는 최대 2건 유지. `pinned` 항목은 건드리지 않는다.
 - 사이트관리센터 대시보드를 거치지 않고 이 파일을 직접 수정해 커밋한다(2026-11-22 지시). `notices.json`만 바꿨다면 `build.py` 재실행은 필요 없다.
 - 절차·검증: Aside 스킬 `ainsonic-blog-notice`.
+
+## 자동 수집 후보 승격 규칙 (2026-11-22)
+
+- `incoming/candidates.json`은 **후보**입니다. 그대로 게시하지 않습니다. 항목마다 한국어 요약(`summary`, 2~4문장, 원문 발표일 기준 사실만)을 쓰고 `incoming/new.json`으로 승격해야 사이트에 올라갑니다.
+- 승격 시 `sourceDate`와 `date`는 원문 발표일로 같게, `addedDate`는 비워 둡니다(빌드가 채움). `productName`·`brand`·`category`·`isDomestic`은 후보 값을 쓰되, 브랜드명은 기존 `news.json` 표기와 맞춥니다.
+- 같은 제품을 여러 매체가 보도하면 대표 1건만 승격합니다(브랜드+제품+3일 창).
+- 소스 추가·수정은 `feeds.json`만 고칩니다. 새 소스는 200 응답과 최근 항목을 직접 확인한 뒤 `verified`에 날짜를 남깁니다.
+- 수집이 48시간 이상 비면 `stall-check.yml`이 알립니다. 후보만 쌓이고 게시가 없으면 이 승격 단계가 멈춘 것이므로 `incoming/candidates.json`을 먼저 봅니다.

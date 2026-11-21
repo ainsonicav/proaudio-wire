@@ -31,3 +31,24 @@
 ## 업계 매체
 - Gearspace New Product Alert 게시판 — https://gearspace.com/board/new-product-alert/ (신제품 소식 주요 수집 대상)
 - Mixonline, Pro Sound News, AV 업계 전문지 등 공신력 있는 매체
+
+## 자동 수집 (feeds.json, 2026-11-22 추가)
+
+`scripts/collect.py`가 `feeds.json`을 읽어 3시간마다(`collect-feeds.yml`) `incoming/candidates.json`을 만듭니다. 후보는 제목·링크·원문 날짜만 있고 **한국어 요약이 없으므로**, 요약을 붙여 `incoming/new.json`으로 승격해야 사이트에 게시됩니다(요약 없이 게시하면 품질 기준 위반).
+
+| 소스 | 주소 | 종류 | 상태 |
+|---|---|---|---|
+| Martin Audio | https://martin-audio.com/news/rss.xml | RSS | 200, 1572건(2026-11-18까지) |
+| Gearnews | https://gearnews.com/feed/ | RSS | 200, 딜·할인 글은 skipPattern으로 제외 |
+| AVNetwork | https://www.avnetwork.com/rss.xml | RSS | 200, 50건 |
+| 다산SR | https://rss.blog.naver.com/dasansr.xml | RSS | 200, 50건(국내) |
+| 사운드캣 | https://soundcat.co.kr/product_news | HTML(Imweb) | 200, 국내 |
+| 인강오디오 | https://ingangaudio.com/ignews | HTML(Imweb) | 200, 국내 |
+| 삼아사운드 공지 | https://www.samasound.co.kr/board/free/list.html?board_no=1 | HTML(Cafe24) | 200, 국내 |
+| 인터엠 | https://inter-m.com/company/pr_news_list.php | HTML | 200, 국내 |
+| 디라직 | https://dlogixs.co.kr/press/ | HTML(KBoard) | 200, 국내(날짜는 상세 페이지에서 확인) |
+
+- **국내 소스는 2026-11-22에 7곳으로 확대**했습니다(다산SR·사운드캣·인강오디오·삼아사운드·인터엠·디라직 + 기존 삼아 취급 브랜드 확인). 국내 제조사·수입사 게시판은 RSS가 없어 HTML 수집으로 붙였습니다.
+- 수집 실패/미지원: prosoundweb·mixonline·commercialintegrator는 403(Cloudflare), HK Audio `/feed/`는 빈 값, L-Acoustics `/feed/`는 0건입니다. 이 소스들은 HTML 수집 또는 사람 확인이 필요합니다.
+- 소스 추가 절차: ① 주소를 직접 열어 200과 최근 항목 확인 ② `feeds.json`에 항목 추가(`verified`에 확인 날짜·결과 기록) ③ `python3 scripts/collect.py --dry-run`으로 후보가 나오는지 확인.
+- 중복 판정: 원문 링크가 같으면 제외, 브랜드+제목이 겹치면 3일 창에서 제외합니다. 제목에 deals/sale/black friday가 들어간 글은 `skipPattern`으로 걸러냅니다.

@@ -123,6 +123,41 @@ def compute_stats(items):
             out.append({"category": cat, "count": k, "pct": round(k * 100 / n)})
         return out
 
+    # 수집 지연(원문 발표일 → 수집일)과 소스 건강도. "느려졌다"를 숫자로 보기 위한 지표.
+    lat_hours = []
+    for i in month:
+        try:
+            src = datetime.strptime(i["sourceDate"], "%Y-%m-%d")
+            add = datetime.strptime(i["addedDate"], "%Y-%m-%d")
+        except (KeyError, ValueError):
+            continue
+        h = (add - src).total_seconds() / 3600
+        if 0 <= h <= 24 * 30:
+            lat_hours.append(h)
+    lat_hours.sort()
+
+    def pct(vals, q):
+        if not vals:
+            return None
+        idx = min(len(vals) - 1, max(0, int(round((len(vals) - 1) * q))))
+        return round(vals[idx], 1)
+
+    host_counts = Counter()
+    host_last = {}
+    for i in published:
+        link = str(i.get("link", ""))
+        host = link.split("//")[-1].split("/")[0].lower().removeprefix("www.")
+        if not host:
+            continue
+        host_counts[host] += 1
+        d = i.get("date", "")
+        if d > host_last.get(host, ""):
+            host_last[host] = d
+    source_health = [
+        {"host": h, "items": c, "last": host_last.get(h, "")}
+        for h, c in host_counts.most_common(12)
+    ]
+
     return {
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "window_days": {"week": 7, "month": 30},
@@ -130,6 +165,12 @@ def compute_stats(items):
         "top_brands_week": top_brands,
         "category_ratio_week": cat_ratio(week),
         "category_ratio_month": cat_ratio(month),
+        "latency_hours_month": {
+            "median": pct(lat_hours, 0.5),
+            "p90": pct(lat_hours, 0.9),
+            "sample": len(lat_hours),
+        },
+        "source_health": source_health,
     }
 
 

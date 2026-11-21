@@ -44,7 +44,7 @@ ROOT = Path(__file__).resolve().parent.parent
 NEWS = ROOT / "news.json"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
-RETRY_DAYS = 3
+RETRY_DAYS = 7  # 2026-11-22: 3일 → 7일(못 찾은 사진을 일주일간 재시도)
 MAX_PER_RUN = 120
 # 한 번 실행에 쓰는 전체 시간 예산(초). 이를 넘기면 남은 항목은 건너뛰고 지금까지 찾은 것만
 # 저장합니다(news-write concurrency 그룹을 길게 점유해 글 게시를 막지 않기 위함). 이 값은

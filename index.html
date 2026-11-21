@@ -1745,6 +1745,14 @@
         if (nb && PRIORITY_BRANDS.includes(nb.toLowerCase())) {
           w += 6;
         }
+        // 신선도 가중치(2026-11-22): 45일 풀 안에서 오래된 소식과 오늘 소식의 무게가 같아서
+        // 새 소식이 밀리는 문제가 있었다. 최근 3일 +4, 7일 +2, 14일 +1.
+        const d = String(i.date || '');
+        const k = d > todayStr ? todayStr : d;
+        const gap = daysBetween(k, todayStr);
+        if (gap <= 3) w += 4;
+        else if (gap <= 7) w += 2;
+        else if (gap <= 14) w += 1;
         return w;
       };
 

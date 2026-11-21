@@ -24,8 +24,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
 def _today():
-    """build.validate_incoming과 같은 기준(UTC)으로 오늘 날짜를 구합니다."""
-    return datetime.now(timezone.utc).date()
+    """build.validate_incoming과 같은 기준(KST)으로 오늘 날짜를 구합니다.
+
+    2026-11-22: build는 _kst_today()를 쓰는데 테스트만 UTC를 써서, 한국 00~09시에
+    경계 테스트(30일 제한)가 하루 어긋나 실패했습니다.
+    """
+    return build._kst_today()
 
 
 def _ymd(d):
