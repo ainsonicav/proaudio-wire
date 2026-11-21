@@ -1,17 +1,25 @@
 {
-  "generated_at": "2026-11-21T18:17:36Z",
+  "generated_at": "2026-11-21T23:35:11Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 30,
-    "month": 146,
-    "total": 370
+    "week": 37,
+    "month": 153,
+    "total": 377
   },
   "top_brands_week": [
     {
       "brand": "IK Multimedia",
+      "count": 3
+    },
+    {
+      "brand": "Inter-M",
+      "count": 2
+    },
+    {
+      "brand": "Sennheiser",
       "count": 2
     },
     {
@@ -21,31 +29,23 @@
     {
       "brand": "HK Audio",
       "count": 2
-    },
-    {
-      "brand": "Inter-M",
-      "count": 1
-    },
-    {
-      "brand": "Listen Technologies",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 21,
-      "pct": 70
+      "count": 27,
+      "pct": 73
     },
     {
       "category": "컨슈머오디오",
       "count": 2,
-      "pct": 7
+      "pct": 5
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 20
+      "count": 7,
+      "pct": 19
     },
     {
       "category": "기타",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 107,
-      "pct": 73
+      "count": 113,
+      "pct": 74
     },
     {
       "category": "컨슈머오디오",
@@ -66,7 +66,7 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 26,
+      "count": 27,
       "pct": 18
     },
     {
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 72.0,
-    "sample": 146
+    "sample": 153
   },
   "source_health": [
     {
@@ -93,13 +93,13 @@
     },
     {
       "host": "blog.naver.com",
-      "items": 19,
-      "last": "2026-11-13"
+      "items": 20,
+      "last": "2026-11-19"
     },
     {
       "host": "gearspace.com",
-      "items": 13,
-      "last": "2026-11-18"
+      "items": 17,
+      "last": "2026-11-21"
     },
     {
       "host": "usa.yamaha.com",
@@ -132,14 +132,14 @@
       "last": "2026-10-08"
     },
     {
+      "host": "avnetwork.com",
+      "items": 4,
+      "last": "2026-11-20"
+    },
+    {
       "host": "gearnews.com",
       "items": 4,
       "last": "2026-11-21"
-    },
-    {
-      "host": "newsroom.sennheiser.com",
-      "items": 4,
-      "last": "2026-10-27"
     }
   ]
 }
