@@ -1763,7 +1763,12 @@
       const seenBrands = new Set();
       // 최우선 1건은 추첨에 맡기지 않는다(2026-11-22): 신선도·국내·우선브랜드 점수가 가장 높은
       // 소식을 먼저 고정해, 새 소식이 추첨 운 때문에 6선에서 빠지는 일을 막는다.
-      const topPick = remaining.slice().sort((a, b) => (b.w - a.w) || (a.pos - b.pos))[0];
+      const topScore = x => {
+        const d = String(x.item.date || '');
+        const gap = daysBetween(d > todayStr ? todayStr : d, todayStr);
+        return x.w + (x.item.isDomestic ? 3 : 0) + (gap <= 7 ? 2 : 0);
+      };
+      const topPick = remaining.slice().sort((a, b) => (topScore(b) - topScore(a)) || (a.pos - b.pos))[0];
       if (topPick) {
         picked.push(topPick.item);
         const topBrand = normalizeBrand(topPick.item.brand || topPick.item.company);
