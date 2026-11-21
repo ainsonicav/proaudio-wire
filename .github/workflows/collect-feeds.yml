@@ -1,0 +1,54 @@
+name: 새 소식 후보 수집 (feeds.json → candidates)
+
+on:
+  schedule:
+    # 3시간마다(한국 02·05·08·11·14·17·20·23시 근처). GitHub cron은 UTC 기준입니다.
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: candidates-write
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 후보 수집 (feeds.json)
+        id: collect
+        run: |
+          python3 scripts/collect.py | tee /tmp/collect.log
+          if [ -f incoming/candidates.json ]; then
+            n=$(python3 -c "import json;print(len(json.load(open('incoming/candidates.json'))))")
+          else
+            n=0
+          fi
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+
+      - name: 바뀐 후보 파일 커밋
+        run: |
+          if [ ! -f incoming/candidates.json ]; then echo "후보 파일 없음"; exit 0; fi
+          git config user.name "proaudio-wire-bot"
+          git config user.email "proaudio-wire-bot@users.noreply.github.com"
+          git add incoming/candidates.json
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "새 소식 후보 수집 $(date -u '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && break
+            git rebase --abort || true
+            sleep 5
+          done
+
+      - name: 요약 단계 안내
+        run: |
+          echo "::notice title=후보 수집::candidates.json ${{ steps.collect.outputs.count }}건. 한국어 요약 후 incoming/new.json으로 승격해야 사이트에 게시됩니다."
