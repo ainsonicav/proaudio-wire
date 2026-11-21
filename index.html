@@ -1126,15 +1126,17 @@
       var sorted=items.slice().sort(function(a,b){return (b.pinned?1:0)-(a.pinned?1:0)||String(b.date||"").localeCompare(String(a.date||""))});
       var esc=function(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[c]})};
       var body=document.getElementById('noticePanelBody');
+      var urlOf=function(n){var m=String((n&&n.content)||"").match(/https?:\/\/[^\s]+/);return m?m[0]:""};
       body.innerHTML=sorted.slice(0,5).map(function(n){
-        return '<a class="notice-row" href="#" data-title="'+esc(n.title)+'">'+
+        var u=urlOf(n);
+        return '<a class="notice-row" href="'+(u?esc(u):"#")+'" data-title="'+esc(n.title)+'"'+(u?' target="_blank" rel="noopener nofollow"':'')+'>'+
           '<div class="nr-top">'+(n.pinned?'<span class="nr-tag">고정</span>':'')+
           '<span class="nr-title">'+esc(n.title)+'</span>'+
           '<span class="nr-date">'+esc(String(n.date||'').replace(/-/g,'.'))+'</span></div>'+
           (n.content?'<div class="nr-content">'+esc(n.content)+'</div>':'')+
         '</a>';
       }).join('');
-      body.querySelectorAll('.notice-row').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault()})});
+      body.querySelectorAll('.notice-row').forEach(function(a){if(a.getAttribute('href')==='#'){a.addEventListener('click',function(e){e.preventDefault()})}});
       document.getElementById('noticePanel').hidden=false;
     }).catch(function(){});
   })();
