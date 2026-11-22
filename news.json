@@ -13,7 +13,8 @@
     "status": "published",
     "summary": "런던 셰퍼드스부시의 옛 펍을 개조한 레스토랑 블랙 래빗(Black Rabbit)에 Genelec Smart IP 시스템이 설치됐습니다. 다이닝 공간 벽면을 따라 Smart IP 라인업 중 가장 큰 모델인 4430A 스피커 10대를 창문 사이 눈높이에 달았고, 방 양쪽 끝에는 흰색 3440A 서브우퍼 2대를 벽에 장착해 저음을 보강했습니다. 케이블 1개만 추가하면 되는 네트워크 구성으로 구역별·볼륨별 독립 제어가 가능하며, 시스템 통합은 HHB가 맡았습니다.",
     "type": "행사",
-    "addedDate": "2026-11-23"
+    "addedDate": "2026-11-23",
+    "imageTried": "2026-11-22:g"
   },
   {
     "id": "news-385",
@@ -29,7 +30,9 @@
     "status": "published",
     "summary": "무료 플러그인 3종이 소개됐습니다. 13X Audio의 리버브 LOFT는 빈티지 디지털 리버브 엔진에 리버브 테일을 비트 그리드 위에 직접 그리는 기능을 갖췄습니다. Audiolatry의 로파이 멀티이펙트 UZAT은 다섯 모듈로 낡은 녹음 같은 질감을 더합니다. Phil Speiser의 피치 보정 플러그인 THE_PITCH 2 MINI는 키·스케일 자동 감지와 3가지 지연 모드를 제공합니다. 세 플러그인 모두 macOS와 Windows에서 무료로 쓸 수 있습니다.",
     "type": "신제품",
-    "addedDate": "2026-11-23"
+    "addedDate": "2026-11-23",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Floft-free-plugins-11-22-26.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-383",
