@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-22T03:18:31Z",
+  "generated_at": "2026-11-22T03:25:03Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
     "week": 36,
-    "month": 156,
-    "total": 381
+    "month": 157,
+    "total": 382
   },
   "top_brands_week": [
     {
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 116,
-      "pct": 74
+      "count": 117,
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 72.0,
-    "sample": 156
+    "sample": 157
   },
   "source_health": [
     {
@@ -102,6 +102,11 @@
       "last": "2026-11-21"
     },
     {
+      "host": "martin-audio.com",
+      "items": 6,
+      "last": "2026-11-11"
+    },
+    {
       "host": "usa.yamaha.com",
       "items": 6,
       "last": "2026-10-01"
@@ -115,11 +120,6 @@
       "host": "avnetwork.com",
       "items": 5,
       "last": "2026-11-20"
-    },
-    {
-      "host": "martin-audio.com",
-      "items": 5,
-      "last": "2026-11-11"
     },
     {
       "host": "ikmultimedia.com",
