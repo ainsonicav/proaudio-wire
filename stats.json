@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-21T23:36:13Z",
+  "generated_at": "2026-11-22T00:52:49Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 37,
-    "month": 153,
-    "total": 377
+    "week": 36,
+    "month": 156,
+    "total": 381
   },
   "top_brands_week": [
     {
@@ -35,17 +35,17 @@
     {
       "category": "프로오디오",
       "count": 27,
-      "pct": 73
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
       "count": 2,
-      "pct": 5
+      "pct": 6
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 7,
-      "pct": 19
+      "count": 6,
+      "pct": 17
     },
     {
       "category": "기타",
@@ -56,7 +56,7 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 113,
+      "count": 116,
       "pct": 74
     },
     {
@@ -67,7 +67,7 @@
     {
       "category": "레코딩소프트웨어",
       "count": 27,
-      "pct": 18
+      "pct": 17
     },
     {
       "category": "기타",
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 72.0,
-    "sample": 153
+    "sample": 156
   },
   "source_health": [
     {
@@ -93,7 +93,7 @@
     },
     {
       "host": "blog.naver.com",
-      "items": 20,
+      "items": 21,
       "last": "2026-11-19"
     },
     {
@@ -110,6 +110,16 @@
       "host": "kvraudio.com",
       "items": 6,
       "last": "2026-09-26"
+    },
+    {
+      "host": "avnetwork.com",
+      "items": 5,
+      "last": "2026-11-20"
+    },
+    {
+      "host": "martin-audio.com",
+      "items": 5,
+      "last": "2026-11-11"
     },
     {
       "host": "ikmultimedia.com",
@@ -130,16 +140,6 @@
       "host": "mixonline.com",
       "items": 5,
       "last": "2026-10-08"
-    },
-    {
-      "host": "avnetwork.com",
-      "items": 4,
-      "last": "2026-11-20"
-    },
-    {
-      "host": "gearnews.com",
-      "items": 4,
-      "last": "2026-11-21"
     }
   ]
 }
