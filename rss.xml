@@ -6,7 +6,17 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 21 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] 13X Audio; Audiolatry; Phil Speiser - LOFT, UZAT, THE_PITCH 2 MINI</title>
+      <link>https://news.ainsonic.com/n/news-385.html</link>
+      <description>무료 플러그인 3종이 소개됐습니다. 13X Audio의 리버브 LOFT는 빈티지 디지털 리버브 엔진에 리버브 테일을 비트 그리드 위에 직접 그리는 기능을 갖췄습니다. Audiolatry의 로파이 멀티이펙트 UZAT은 다섯 모듈로 낡은 녹음 같은 질감을 더합니다. Phil Speiser의 피치 보정 플러그인 THE_PITCH 2 MINI는 키·스케일 자동 감지와 3가지 지연 모드를 제공합니다. 세 플러그인 모두 macOS와 Windows에서 무료로 쓸 수 있습니다.</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-385</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
 
     <item>
       <title>[신제품] Neve - Neve Elements (88R EQ, 88R Dynamics, 1084 EQ), 8424E</title>
@@ -46,6 +56,16 @@
       <guid isPermaLink="false">news-370</guid>
       <category>신제품</category>
       <category>컨슈머오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Genelec - 4430A Smart IP 스피커, 3440A 서브우퍼</title>
+      <link>https://news.ainsonic.com/n/news-384.html</link>
+      <description>런던 셰퍼드스부시의 옛 펍을 개조한 레스토랑 블랙 래빗(Black Rabbit)에 Genelec Smart IP 시스템이 설치됐습니다. 다이닝 공간 벽면을 따라 Smart IP 라인업 중 가장 큰 모델인 4430A 스피커 10대를 창문 사이 눈높이에 달았고, 방 양쪽 끝에는 흰색 3440A 서브우퍼 2대를 벽에 장착해 저음을 보강했습니다. 케이블 1개만 추가하면 되는 네트워크 구성으로 구역별·볼륨별 독립 제어가 가능하며, 시스템 통합은 HHB가 맡았습니다.</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-384</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
     </item>
 
     <item>
@@ -386,26 +406,6 @@
       <guid isPermaLink="false">news-336</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] ADDAC System - ADDAC006 Rotary Exciter Clamp, ADDAC007 Resonator Clamp</title>
-      <link>https://news.ainsonic.com/n/news-334.html</link>
-      <description>ADDAC시스템이 기타에 직접 붙여 쓰는 모듈러 신스용 장치 2종을 내놨습니다. ADDAC006 로터리 익사이터 클램프는 분당 7,000회전하는 브러시리스 모터의 회전 자기장으로 현을 진동시키고, ADDAC007 레조네이터 클램프는 헤드스톡에 붙여 악기 전체를 공명체로 씁니다. 두 제품 모두 모듈러·라인 레벨 입력과 호환됩니다. 현재 판매 중이며 가격은 각 120유로와 200유로입니다.</description>
-      <pubDate>Sat, 14 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-334</guid>
-      <category>신제품</category>
-      <category>기타</category>
-    </item>
-
-    <item>
-      <title>[신제품] Digital Audio Labs - Livemix Pro AD-16</title>
-      <link>https://news.ainsonic.com/n/news-368.html</link>
-      <description>다산에스알이 Digital Audio Labs의 Livemix Pro AD-16 아날로그-단테 컨버터를 소개했습니다. 8채널 DB-25 입력 2개(TASCAM 포맷)와 같은 규격의 스루 포트를 갖춰, 기존 콘솔과 아날로그 장비 사이에 연결하면 원래 신호는 그대로 통과시키면서 동일한 신호를 Dante 네트워크로 전송합니다. Dante 포트 2개를 스위치 모드나 리던던트 모드로 운용할 수 있고 최대 96kHz 샘플레이트를 지원합니다. 전면에 채널별 LED VU 미터와 펌웨어 업데이트용 USB 포트를 두었습니다.</description>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-368</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
     </item>
 
   </channel>

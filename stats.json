@@ -1,18 +1,22 @@
 {
-  "generated_at": "2026-11-22T03:25:17Z",
+  "generated_at": "2026-11-22T23:34:00Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 36,
-    "month": 157,
-    "total": 382
+    "week": 38,
+    "month": 159,
+    "total": 384
   },
   "top_brands_week": [
     {
       "brand": "IK Multimedia",
       "count": 3
+    },
+    {
+      "brand": "Genelec",
+      "count": 2
     },
     {
       "brand": "Inter-M",
@@ -25,27 +29,23 @@
     {
       "brand": "Martin Audio",
       "count": 2
-    },
-    {
-      "brand": "HK Audio",
-      "count": 2
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 27,
-      "pct": 75
+      "count": 28,
+      "pct": 74
     },
     {
       "category": "컨슈머오디오",
       "count": 2,
-      "pct": 6
+      "pct": 5
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 17
+      "count": 7,
+      "pct": 18
     },
     {
       "category": "기타",
@@ -56,8 +56,8 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 117,
-      "pct": 75
+      "count": 118,
+      "pct": 74
     },
     {
       "category": "컨슈머오디오",
@@ -66,8 +66,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 27,
-      "pct": 17
+      "count": 28,
+      "pct": 18
     },
     {
       "category": "기타",
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 72.0,
-    "sample": 157
+    "sample": 159
   },
   "source_health": [
     {
@@ -102,6 +102,11 @@
       "last": "2026-11-21"
     },
     {
+      "host": "avnetwork.com",
+      "items": 6,
+      "last": "2026-11-20"
+    },
+    {
       "host": "martin-audio.com",
       "items": 6,
       "last": "2026-11-11"
@@ -117,9 +122,9 @@
       "last": "2026-09-26"
     },
     {
-      "host": "avnetwork.com",
+      "host": "gearnews.com",
       "items": 5,
-      "last": "2026-11-20"
+      "last": "2026-11-22"
     },
     {
       "host": "ikmultimedia.com",
@@ -135,11 +140,6 @@
       "host": "ntusys.com",
       "items": 5,
       "last": "2026-10-13"
-    },
-    {
-      "host": "mixonline.com",
-      "items": 5,
-      "last": "2026-10-08"
     }
   ]
 }
