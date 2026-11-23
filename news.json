@@ -13,7 +13,9 @@
     "status": "published",
     "summary": "K-array 본사 엔지니어가 다산에스알을 방문해 음향 시뮬레이션 소프트웨어 K-framework 3 활용 교육을 진행했습니다. 가상 공간에서 스피커 배치와 소리 분포를 시뮬레이션하고 E.B.S.로 소리 방향과 각도를 조정하는 방법, 마감재를 반영한 STI·RT 예측과 AutoSplay 등을 다뤘습니다. 2027년 차기 버전에서 청취 영역 평균 음압 확인과 Horizontal Array 지원을 소개할 예정이라고 밝혔습니다.",
     "type": "행사",
-    "addedDate": "2026-11-24"
+    "addedDate": "2026-11-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.cepro.com%2Fwp-content%2Fuploads%2F2023%2F11%2FK-Framework3Tuning-small.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-389",
@@ -29,7 +31,9 @@
     "status": "published",
     "summary": "리스튼이 오디오 측정용 인터페이스 AudioConnect 6×2를 출시했습니다. USB-C 전원으로 동작하는 6입력 2출력 인터페이스로, 6채널 마이크 어레이와 가속도계, 차량 오디오 측정을 겨냥했습니다. TEDS와 SCM·IEPE 마이크 전원, 선택 가능한 게인과 S/PDIF, SoundCheck 연동 자동 레인징을 갖췄고 최대 192kHz·24비트를 지원합니다. AES 차량 오디오 표준에 맞춘 자동차 오디오 테스트 키트의 중심 장비입니다.",
     "type": "신제품",
-    "addedDate": "2026-11-24"
+    "addedDate": "2026-11-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.xingosoftware.com%2Faudioxpress%2Fimages%2Ffetch%2Fdpr_1%2Fhttps%253A%252F%252Faudioxpress.com%252Fassets%252Fupload%252Fimages%252F1%252F20261120162620_Listen-AudioConnect-6---45-TWeb.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-390",
@@ -45,7 +49,9 @@
     "status": "published",
     "summary": "줌이 휴대용 레코더 H6essential용 무료 펌웨어 V4.0을 공개했습니다. 새로 추가된 멀티트랙 녹음 모드에서는 내장 XY 스테레오 마이크와 입력 1~4번을 별도 트랙으로 최대 5트랙까지 동시에 녹음하고 믹스할 수 있습니다. 오버더빙과 펀치인·펀치아웃, 파일 할당, 트랙별 팬·볼륨 조절 후 스테레오 파일로 내보내는 믹스다운을 지원하며 녹음은 32비트 플로트 WAV로 저장됩니다.",
     "type": "업데이트",
-    "addedDate": "2026-11-24"
+    "addedDate": "2026-11-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fzoomcorp.com%2Fmedia%2Foriginal_images%2F10_H6essential_v4.0_MTR_HOME_C_2.jpg.1600x900_q65_crop_focal_area-408%252C340%252C696%252C457_size_canvas.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-391",
@@ -61,7 +67,9 @@
     "status": "published",
     "summary": "헤리티지 오디오가 자사 하드웨어 HERCHILD 670을 본뜬 네이티브 배리뮤 컴프레서 플러그인을 출시했습니다. 하드웨어 소리에 가깝게 재현하면서 블렌드 조절과 좌우 매칭, 푸시·풀 단계 조절, 7종 진공관 선택 등 고급 모드를 더했습니다. 윈도우와 macOS용 VST3·AU·AAX로 나오며 출시 특가는 75유로, 정가는 149유로입니다. 하드웨어 소유자는 무료로 받을 수 있습니다.",
     "type": "신제품",
-    "addedDate": "2026-11-24"
+    "addedDate": "2026-11-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Frekkerd.org%2Fwp-content%2Fuploads%2F2026%2F11%2FHeritage-Audio-HERCHILD-670.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-392",
@@ -77,7 +85,9 @@
     "status": "published",
     "summary": "유니버설 오디오가 1971년 오리지널 하드웨어를 재현한 Cooper Time Cube Delay 플러그인을 네이티브로 출시했습니다. 정원 호스를 이용해 딜레이를 만들던 원본의 소리를 두 개의 독립 딜레이 라인으로 재현하며 템포 동기화와 스테레오 확장, 트레블·베이스·컬러 톤 조절을 지원합니다. macOS와 윈도우용 VST3·AU·AAX로 나오며 출시 특가는 49달러, 정가는 99달러입니다.",
     "type": "신제품",
-    "addedDate": "2026-11-24"
+    "addedDate": "2026-11-24",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.prosoundweb.com%2Fwp-content%2Fuploads%2F2026%2F11%2FIK-Multimedia-Unveils-iLoud-300x250.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-386",
