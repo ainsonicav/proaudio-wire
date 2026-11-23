@@ -1,18 +1,22 @@
 {
-  "generated_at": "2026-11-23T03:51:03Z",
+  "generated_at": "2026-11-23T12:42:47Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 35,
-    "month": 158,
-    "total": 384
+    "week": 37,
+    "month": 160,
+    "total": 386
   },
   "top_brands_week": [
     {
       "brand": "IK Multimedia",
       "count": 3
+    },
+    {
+      "brand": "Martin Audio",
+      "count": 2
     },
     {
       "brand": "Genelec",
@@ -25,27 +29,23 @@
     {
       "brand": "HK Audio",
       "count": 2
-    },
-    {
-      "brand": "13X Audio; Audiolatry; Phil Speiser",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 26,
-      "pct": 74
+      "count": 27,
+      "pct": 73
     },
     {
       "category": "컨슈머오디오",
-      "count": 2,
-      "pct": 6
+      "count": 3,
+      "pct": 8
     },
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 17
+      "pct": 16
     },
     {
       "category": "기타",
@@ -56,13 +56,13 @@
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 118,
-      "pct": 75
+      "count": 119,
+      "pct": 74
     },
     {
       "category": "컨슈머오디오",
-      "count": 5,
-      "pct": 3
+      "count": 6,
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 72.0,
-    "sample": 158
+    "sample": 160
   },
   "source_health": [
     {
@@ -102,14 +102,14 @@
       "last": "2026-11-21"
     },
     {
+      "host": "martin-audio.com",
+      "items": 7,
+      "last": "2026-11-23"
+    },
+    {
       "host": "avnetwork.com",
       "items": 6,
       "last": "2026-11-20"
-    },
-    {
-      "host": "martin-audio.com",
-      "items": 6,
-      "last": "2026-11-11"
     },
     {
       "host": "usa.yamaha.com",

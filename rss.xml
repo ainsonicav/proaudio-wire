@@ -6,7 +6,27 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[행사] Martin Audio - TORUS, SX218, FlexPoint FP15</title>
+      <link>https://news.ainsonic.com/n/news-386.html</link>
+      <description>네덜란드 로테르담에서 1981년 문을 연 록·메탈 공연장 바로크(Baroeg)가 2024년 4월부터 진행한 대규모 보수를 마치고 Martin Audio TORUS 시스템으로 다시 열었습니다. 깊이 16m 규모의 홀에 TORUS 인클로저 4발을 한 조로 한 행을 좌우 수평으로 배치하고, 18인치 서브우퍼 SX218 4대와 무대 아래 FlexPoint FP15 2대를 더했습니다. 발코니 딜레이는 FlexPoint 12 3대, 무대 모니터는 XE300 8대와 드럼용 SXP118 1대가 맡고, 메인·딜레이·모니터 구동은 iKON 앰프 6대로 구성됐습니다. 설계는 네덜란드 유통사 Ampco Flashlight가 DISPLAY 3 예측으로 진행했습니다.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-386</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] qdc - FSF Blink Bound BD01</title>
+      <link>https://news.ainsonic.com/n/news-387.html</link>
+      <description>qdc가 게이밍 시장을 겨냥해 만든 서브 브랜드 FSF(Fire So Fast)의 첫 제품 Blink Bound BD01이 일본에서 먼저 출시됐습니다. 2026년 8월 8일 발매됐고 일본 희망소매가는 세금 포함 16,500엔입니다. 새로 개발한 10mm 풀레인지 다이내믹 드라이버(재생 대역 10Hz~30kHz)를 쓰고 USB-C(UAC 2.0, 최대 384kHz/32bit PCM)로 직결하며, 본체 물리 스위치로 e스포츠 모드와 ACG 뮤직 모드를 전환합니다. PC 브라우저용 FSF Audio Tuning에서 게임별 EQ 프리셋을 적용하면 설정이 이어폰 내 DSP에 저장되고, 마이크는 Goertek MEMS가 들어갔습니다. 케이블은 120cm 일체형입니다.</description>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-387</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
+    </item>
 
     <item>
       <title>[신제품] 13X Audio; Audiolatry; Phil Speiser - LOFT, UZAT, THE_PITCH 2 MINI</title>
@@ -384,26 +404,6 @@
       <description>이벤트타이드가 EQ 플러그인 SplitEQ 2를 11월 17일에 출시합니다. 구조 분리 기술로 소리의 과도 성분과 음색 성분을 나눠 조절하는 방식에 밴드별 다이나믹스 기능을 새로 넣었습니다. 마스킹 구간을 찾는 언마스킹 도구와 8개 밴드의 독립 패닝도 지원합니다. VST3, AU, AAX 형식을 지원하며 도입가는 99달러로 2027년 1월 3일 이후 199달러가 됩니다.</description>
       <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-342</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[업데이트] Yamaha - MGX, URX, CC1 펌웨어 업데이트</title>
-      <link>https://news.ainsonic.com/n/news-335.html</link>
-      <description>야마하가 MGX 믹서·URX 인터페이스·CC1 컨트롤러용 펌웨어 업데이트를 내놨습니다. MGX는 스테레오와 믹스 출력 버스에 31개 밴드 중 12개를 골라 쓰는 FLEX12GEQ 그래픽 EQ와 스테레오 페어 채널 간 GEQ 링크, 리콜 세이프 장면 옵션, 콘솔 잠금 기능을 얻었습니다. CC1은 플러그인 프로파일과 스마트 오버라이드를 담은 컨트롤 센터 2, 피치 벤드·애프터터치를 포함한 7종 MIDI 메시지, 강화된 큐베이스·누엔도 연동을 지원합니다. 펌웨어는 야마하 홈페이지에서 받을 수 있습니다.</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-335</guid>
-      <category>업데이트</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] DiscoDSP - OB-Xd 4</title>
-      <link>https://news.ainsonic.com/n/news-336.html</link>
-      <description>디스코DSP가 오버하임 OB-X8을 본뜬 폴리포닉 신시사이저 OB-Xd 4를 내놨습니다. OB-X8의 모든 필터 타입과 스플릿·더블·바이노럴 모드, 아르페지에이터를 담았고 USB 연결로 OB-X8 라이브러리를 관리할 수 있습니다. 맥 AU·VST3·AAX·스탠드얼론, 윈도우 VST3·AAX·스탠드얼론, 리눅스 VST3·LV2·스탠드얼론 형식을 지원합니다. 가격은 12월 31일까지 99달러, 이후 199달러이며, 기존 OB-Xd 2·3과 TED-8 사용자는 29달러에 업그레이드할 수 있습니다.</description>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-336</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
     </item>

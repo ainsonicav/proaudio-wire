@@ -1,5 +1,37 @@
 [
   {
+    "id": "news-386",
+    "brand": "Martin Audio",
+    "company": "Martin Audio",
+    "productName": "TORUS, SX218, FlexPoint FP15",
+    "category": "프로오디오",
+    "isDomestic": false,
+    "type": "행사",
+    "link": "https://martin-audio.com/news/press-release/martin-audio-torus-delivers-massive-impact-at-rotterdam-s-reborn-baroeg-venue",
+    "sourceDate": "2026-11-23",
+    "date": "2026-11-23",
+    "summary": "네덜란드 로테르담에서 1981년 문을 연 록·메탈 공연장 바로크(Baroeg)가 2024년 4월부터 진행한 대규모 보수를 마치고 Martin Audio TORUS 시스템으로 다시 열었습니다. 깊이 16m 규모의 홀에 TORUS 인클로저 4발을 한 조로 한 행을 좌우 수평으로 배치하고, 18인치 서브우퍼 SX218 4대와 무대 아래 FlexPoint FP15 2대를 더했습니다. 발코니 딜레이는 FlexPoint 12 3대, 무대 모니터는 XE300 8대와 드럼용 SXP118 1대가 맡고, 메인·딜레이·모니터 구동은 iKON 앰프 6대로 구성됐습니다. 설계는 네덜란드 유통사 Ampco Flashlight가 DISPLAY 3 예측으로 진행했습니다.",
+    "evidence": "The installed system is designed around a horizontal deployment of two hangs of four Martin Audio TORUS constant curvature enclosures. / Low-frequency support is delivered by four Martin Audio SX218 dual 18-inch subwoofers, whilst a pair of Martin Audio FlexPoint 15 (FP15) enclosures are positioned on stage below the main TORUS hangs.",
+    "status": "published",
+    "addedDate": "2026-11-23"
+  },
+  {
+    "id": "news-387",
+    "brand": "qdc",
+    "company": "사운드캣",
+    "productName": "FSF Blink Bound BD01",
+    "category": "컨슈머오디오",
+    "isDomestic": false,
+    "type": "신제품",
+    "link": "https://soundcat.co.kr/product_news/?idx=175866693&bmode=view",
+    "sourceDate": "2026-11-23",
+    "date": "2026-11-23",
+    "summary": "qdc가 게이밍 시장을 겨냥해 만든 서브 브랜드 FSF(Fire So Fast)의 첫 제품 Blink Bound BD01이 일본에서 먼저 출시됐습니다. 2026년 8월 8일 발매됐고 일본 희망소매가는 세금 포함 16,500엔입니다. 새로 개발한 10mm 풀레인지 다이내믹 드라이버(재생 대역 10Hz~30kHz)를 쓰고 USB-C(UAC 2.0, 최대 384kHz/32bit PCM)로 직결하며, 본체 물리 스위치로 e스포츠 모드와 ACG 뮤직 모드를 전환합니다. PC 브라우저용 FSF Audio Tuning에서 게임별 EQ 프리셋을 적용하면 설정이 이어폰 내 DSP에 저장되고, 마이크는 Goertek MEMS가 들어갔습니다. 케이블은 120cm 일체형입니다.",
+    "evidence": "BD01은 2026년 8월 8일 일본에서 먼저 발매됐으며, 현지 희망소매가는 세금 포함 16,500엔으로 책정됐습니다. / 드라이버: 신규 개발 특주 10mm 풀레인지 다이내믹 드라이버 (재생 대역 10Hz~30kHz)",
+    "status": "published",
+    "addedDate": "2026-11-23"
+  },
+  {
     "id": "news-384",
     "brand": "Genelec",
     "category": "프로오디오",
