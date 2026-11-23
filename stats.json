@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-22T23:34:39Z",
+  "generated_at": "2026-11-23T03:51:03Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 38,
-    "month": 159,
+    "week": 35,
+    "month": 158,
     "total": 384
   },
   "top_brands_week": [
@@ -23,29 +23,29 @@
       "count": 2
     },
     {
-      "brand": "Sennheiser",
+      "brand": "HK Audio",
       "count": 2
     },
     {
-      "brand": "Martin Audio",
-      "count": 2
+      "brand": "13X Audio; Audiolatry; Phil Speiser",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 28,
+      "count": 26,
       "pct": 74
     },
     {
       "category": "컨슈머오디오",
       "count": 2,
-      "pct": 5
+      "pct": 6
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 7,
-      "pct": 18
+      "count": 6,
+      "pct": 17
     },
     {
       "category": "기타",
@@ -57,7 +57,7 @@
     {
       "category": "프로오디오",
       "count": 118,
-      "pct": 74
+      "pct": 75
     },
     {
       "category": "컨슈머오디오",
@@ -66,8 +66,8 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 28,
-      "pct": 18
+      "count": 27,
+      "pct": 17
     },
     {
       "category": "기타",
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 72.0,
-    "sample": 159
+    "sample": 158
   },
   "source_health": [
     {
