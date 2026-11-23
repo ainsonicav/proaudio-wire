@@ -7,14 +7,14 @@
   },
   {
     "date": "2026-11-23",
-    "title": "[블로그] 믹싱 4일차: EQ는 컷이 아니라 공간 만들기",
-    "content": "EQ는 부스트보다 컷이 먼저입니다. 부스트 스윕 대신 -7 dB 컷 스윕으로 150~200 Hz를 찾고, 100~300 Hz는 주인 악기를 정해 한쪽만 양보합니다. 핵심 2~3개만 열고 나머지는 Low-Pass로 대비를 만드는 순서를 Fender Studio Pro 8의 Pro EQ3 화면으로 정리했습니다. 블로그에서 보기: https://blog.naver.com/einsaircon/224487721466",
+    "title": "[블로그] HK Audio 전 라인업 정리, 독일 PA 브랜드",
+    "content": "독일 St. Wendel에서 1979년 창업한 HK Audio의 역사와 방향, 2026년 기준 24개 제품군을 시리즈별로 정리했습니다. POLAR MK2와 ELEMENTS MK2의 용도와 경쟁 브랜드와의 차별점을 표로 비교했습니다. 블로그에서 보기: https://blog.naver.com/einsaircon/224489083535",
     "pinned": false
   },
   {
-    "date": "2026-11-21",
-    "title": "[블로그] UAD FATSO Jr/Sr 사용법: 테이프 새추레이션과 컴프 4모드",
-    "content": "Empirical Labs FATSO가 UAD 네이티브 플러그인으로 나왔습니다. 테이프 새추레이션과 하모닉스, 고역 정리, 컴프를 한 대에 담았고 컴프는 Buss·G.P.·Tracking·Spank 네 모드로 고릅니다. Jr와 Sr의 차이와 실사용 파라미터를 정리했습니다. 블로그에서 보기: https://blog.naver.com/einsaircon/224486425984",
+    "date": "2026-11-23",
+    "title": "[블로그] 믹싱 4일차: EQ는 컷이 아니라 공간 만들기",
+    "content": "EQ는 부스트보다 컷이 먼저입니다. 부스트 스윕 대신 -7 dB 컷 스윕으로 150~200 Hz를 찾고, 100~300 Hz는 주인 악기를 정해 한쪽만 양보합니다. 핵심 2~3개만 열고 나머지는 Low-Pass로 대비를 만드는 순서를 Fender Studio Pro 8의 Pro EQ3 화면으로 정리했습니다. 블로그에서 보기: https://blog.naver.com/einsaircon/224487721466",
     "pinned": false
   },
   {
