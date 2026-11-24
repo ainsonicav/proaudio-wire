@@ -9,6 +9,46 @@
     <lastBuildDate>Tue, 24 Nov 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>[신제품] Kemper - KEMPER PROFILER Native</title>
+      <link>https://news.ainsonic.com/n/news-396.html</link>
+      <description>Kemper가 Profiler MK2의 사운드와 워크플로를 담은 플러그인 Profiler Native를 출시했습니다. AU, VST3, CLAP 형식과 스탠드얼론 앱으로 제공되며 Classic부터 Liquid Profile, Profiling 2.0까지 모든 세대의 프로파일을 불러올 수 있습니다. 80종 이상의 이펙트와 Morphing 기능을 갖췄고 AAX 지원은 추후 추가될 예정입니다. 출시 특가 199유로, 정가 249유로이며 10일 무료 체험도 제공됩니다.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-396</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] iZotope - Nectar 5</title>
+      <link>https://news.ainsonic.com/n/news-397.html</link>
+      <description>iZotope이 보컬 프로덕션 스위트 Nectar 5를 출시했습니다. 가사를 인식해 선택한 단어나 구절에만 리버브, 더블링, 포먼트 시프트 같은 효과를 거는 ARA 플러그인 Moments가 새로 들어갔고, Serial Compressor와 Vocal Stabilizer 모듈도 추가됐습니다. Vocal Assistant는 Custom Flow로 개편됐습니다. 정가 249달러, 12월 7일까지 179달러에 판매됩니다.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-397</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Cherry Audio - DW-8K</title>
+      <link>https://news.ainsonic.com/n/news-398.html</link>
+      <description>Cherry Audio가 1985년 Korg DW-8000 하이브리드 신시사이저를 재현한 가상악기 DW-8K를 출시했습니다. 듀얼 레이어 구조로 레이어당 16보이스 폴리포니를 제공하고 MPE와 폴리포닉 애프터터치, 아르페지에이터, 스텝 시퀀서를 갖췄습니다. 원본 팩토리 프리셋 128개와 신규 프리셋 400개 이상이 들어 있습니다. 가격은 69달러이며 30일 무료 체험이 가능합니다.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-398</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
+
+    <item>
+      <title>[신제품] Fender - Godzilla Black Paisley Telecaster</title>
+      <link>https://news.ainsonic.com/n/news-399.html</link>
+      <description>Fender Japan이 고질라와 협업한 텔레캐스터 2종을 발표했습니다. Godzilla Black Paisley 텔레캐스터는 전 세계에 출시되며 커스텀 고질라 험버커 2개와 볼륨 노브를 누르면 작동하는 내장 디스토션 회로를 갖췄습니다. 가격은 2,500달러입니다. 일본 한정 커스텀숍 모델은 마스터 빌더가 직접 제작하며 550만 엔에 판매됩니다.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-399</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
+
+    <item>
       <title>[업데이트] AFMG - EASE 5 Fourth Edition (v5.87)</title>
       <link>https://news.ainsonic.com/n/news-393.html</link>
       <description>AFMG가 음향 시뮬레이션 소프트웨어 EASE 5를 4판(Fourth Edition, 버전 5.87)으로 업데이트했습니다. 초고속 계산 엔진 Acousteer에 '실시간 레이 트레이싱'이 통합되어 스피커를 옮기거나 벽면 각도를 기울이면 반사 경로와 시간축 반사도(Reflectogram)가 즉시 다시 그려집니다. 반사 차수는 1차부터 최대 20차까지 설정할 수 있고 특정 청취 위치나 벽면을 거치는 경로만 골라 볼 수 있으며, 도착 경로 계산에는 최대 음압 대비 레벨 범위 필터가 붙습니다. Standard·Pro 라이선스는 신규 기능을 모두 지원하고 EASE JR은 반사음 기능만 3차까지 지원하며, 기존 사용자는 무료로 업그레이드할 수 있습니다.</description>
@@ -364,46 +404,6 @@
       <description>미국 미시간주 배틀크릭의 퍼스트 장로교회에 마틴 오디오 O-Line 시스템이 설치됐습니다. 60피트 천장에 O-Line 어레이 16개를 달았고 SX118 서브우퍼 2대와 FP4, CDD5 스피커를 함께 썼습니다. 울림이 큰 공간에서 Hard Avoid 기능으로 원치 않는 방향의 소리를 줄였습니다. BC Sound가 설치를 맡았고 DISPLAY 데이터로 튜닝했습니다.</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-351</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Shure - MV360</title>
-      <link>https://news.ainsonic.com/n/news-352.html</link>
-      <description>슈어가 USB-C 공간 음향 마이크 MV360을 출시했습니다. 모노, 스테레오, 이머시브 바이노럴, 자동 추적 등 네 가지 캡처 모드를 갖췄고 최대 96kHz 32비트 플로트 녹음을 지원합니다. MOTIV 앱에서 게인, EQ, 컴프레션, 노이즈 제거를 조절할 수 있고 3.5mm 헤드폰 단자를 달았습니다. 가격은 349달러이며 지금 구매할 수 있습니다.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-352</guid>
-      <category>신제품</category>
-      <category>컨슈머오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Expressive E - Maestro Brass</title>
-      <link>https://news.ainsonic.com/n/news-353.html</link>
-      <description>익스프레시브 E가 브라스 가상악기 Maestro Brass를 출시했습니다. 수자폰, 베이스 트롬본, 트롬본, 트럼펫 네 가지 악기를 담았고 스마트 보이싱으로 음을 앙상블에 자동 배분합니다. 익스프레션, 그로울, 비브라토 세 가지 파라미터로 연주를 조절할 수 있고 프리셋 92개를 포함했습니다. 무료 UVI Player에서 돌아가며 지금 출시 특가로 살 수 있습니다.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-353</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] MTHRBORD.STUDIO - ACL2500</title>
-      <link>https://news.ainsonic.com/n/news-347.html</link>
-      <description>MTHRBORD.STUDIO가 API 2500을 본뜬 무료 VCA 버스 컴프레서 ACL2500을 내놨습니다. 실제 API 2500 하드웨어를 녹음·측정해 만들었고 저음을 과하게 누르지 않는 THRUST 사이드체인과 NEW·OLD 모드를 담았습니다. 스텝 방식 어택·레이시오·릴리스, 패럴렐 블렌드, VU 미터를 갖췄습니다. macOS와 Windows용 VST3·AU·스탠드얼론으로 무료로 받을 수 있습니다.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-347</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[행사] HK Audio - ELEMENTS MK2</title>
-      <link>https://news.ainsonic.com/n/news-343.html</link>
-      <description>삼아사운드가 고양 노루목 야외극장에서 연례 Xperience Day를 열고 HK 오디오 ELEMENTS MK2를 선보였습니다. 대리점, 설치업체, 렌탈업체, 공연장 관계자 등 약 65명이 참석해 제품을 직접 듣고 비교했습니다. HK 오디오 본사 임원들도 참석해 11년간 이어온 삼아사운드와의 협력을 소개했습니다. ELEMENTS MK2가 이날 행사의 중심 제품으로 주목받았습니다.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-343</guid>
       <category>행사</category>
       <category>프로오디오</category>
     </item>
