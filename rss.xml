@@ -6,7 +6,37 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 23 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[업데이트] AFMG - EASE 5 Fourth Edition (v5.87)</title>
+      <link>https://news.ainsonic.com/n/news-393.html</link>
+      <description>AFMG가 음향 시뮬레이션 소프트웨어 EASE 5를 4판(Fourth Edition, 버전 5.87)으로 업데이트했습니다. 초고속 계산 엔진 Acousteer에 '실시간 레이 트레이싱'이 통합되어 스피커를 옮기거나 벽면 각도를 기울이면 반사 경로와 시간축 반사도(Reflectogram)가 즉시 다시 그려집니다. 반사 차수는 1차부터 최대 20차까지 설정할 수 있고 특정 청취 위치나 벽면을 거치는 경로만 골라 볼 수 있으며, 도착 경로 계산에는 최대 음압 대비 레벨 범위 필터가 붙습니다. Standard·Pro 라이선스는 신규 기능을 모두 지원하고 EASE JR은 반사음 기능만 3차까지 지원하며, 기존 사용자는 무료로 업그레이드할 수 있습니다.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-393</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[행사] Inter-M - IP 방송장비 4종 (IP-1015BX 등)</title>
+      <link>https://news.ainsonic.com/n/news-394.html</link>
+      <description>인터엠이 IP 방송장비 4종에 대해 국제 사이버 보안 표준 ETSI EN 303 645:2020 기반의 IECEE CB 인증을 획득했습니다. 전관방송장비 분야 국내 최초 사례로, 국제전기기술위원회(IEC)의 시험인증 상호인정 제도인 IECEE CB 기준 평가를 통과했습니다. 인증 제품은 IP 앰프 IP-1015BX와 IP 스피커 IP-1015HSA·IP-1015WS·IP-1015CS 4종입니다.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-394</guid>
+      <category>행사</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] HEDD Audio - HEDDphone DX</title>
+      <link>https://news.ainsonic.com/n/news-395.html</link>
+      <description>HEDD Audio가 오픈백 헤드폰 HEDDphone D1의 상위 모델인 HEDDphone DX를 발표하고 사전 주문을 받고 있습니다. 50mm 고진폭 TPCD(Thin-Ply Carbon Diaphragm) 드라이버를 새로 채택해 서브베이스가 더 깊어지고 고역 해상도가 올라갔으며, 밀도 높은 믹스에서도 질감 구분이 쉬워졌습니다. Capra Audio와 함께 만든 서스펜션 헤드밴드를 적용했고 이 헤드밴드는 12월 초부터 D1 업그레이드 키트로 판매되며 D1은 내년 1월 말부터 업그레이드 사양으로 출고됩니다. 임피던스 32Ω, 감도 100dB/mW이고 2.2m 브레이디드 케이블과 케이스가 포함됩니다.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-395</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
 
     <item>
       <title>[행사] K-array - K-framework 3</title>
@@ -375,36 +405,6 @@
       <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-343</guid>
       <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Yorkville Sound - Coliseum C441W</title>
-      <link>https://news.ainsonic.com/n/news-344.html</link>
-      <description>요크빌 사운드가 실외 설치용 컬럼 스피커 C441W를 내놨습니다. 4인치 저음 드라이버 4개와 1인치 고음 드라이버를 얇은 기둥형 인클로저에 담았고 IP56 방수방진 등급을 받았습니다. 70V 분산 시스템용 30·60·100W 탭을 갖췄고 8옴에서는 최대 130W까지 쓸 수 있습니다. 마운팅 브래킷 2개가 포함돼 상업 공간 실외 설치에 쓸 수 있습니다.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-344</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] HK Audio - POLAR 15 MK2</title>
-      <link>https://news.ainsonic.com/n/news-345.html</link>
-      <description>HK 오디오가 액티브 컬럼 PA 시스템 POLAR 15 MK2를 출시했습니다. 15인치 서브우퍼를 넉넉한 크기의 합판 인클로저에 담았고 M20 FlexMount로 조명 장비를 바로 올릴 수 있습니다. 4채널 믹서와 블루투스 5.0, DSP 사운드 모드(Music·Voice·DJ)를 내장했고 사용자 프리셋 5개를 저장할 수 있습니다. 지금 구매할 수 있으며 등록하면 5년 보증을 받을 수 있습니다.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-345</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Allen &amp; Heath - Qu-3, Qu-3D</title>
-      <link>https://news.ainsonic.com/n/news-346.html</link>
-      <description>앨런앤히스가 디지털 믹서 Qu-3와 Qu-3D를 내놨습니다. 96kHz XCVI 코어를 담아 DEEP 프로세싱을 쓸 수 있고 입력 36채널에 마이크·라인 콤비 소켓 16개를 갖췄습니다. 7인치 터치스크린과 100mm 모터 페이더 9개를 달았고 32x32 USB-C 오디오 인터페이스와 SD 멀티트랙 녹음을 지원합니다. Qu-3D는 16x16 Dante 인터페이스를 내장했습니다.</description>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-346</guid>
-      <category>신제품</category>
       <category>프로오디오</category>
     </item>
 
