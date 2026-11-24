@@ -13,7 +13,9 @@
     "status": "published",
     "summary": "Kemper가 Profiler MK2의 사운드와 워크플로를 담은 플러그인 Profiler Native를 출시했습니다. AU, VST3, CLAP 형식과 스탠드얼론 앱으로 제공되며 Classic부터 Liquid Profile, Profiling 2.0까지 모든 세대의 프로파일을 불러올 수 있습니다. 80종 이상의 이펙트와 Morphing 기능을 갖췄고 AAX 지원은 추후 추가될 예정입니다. 출시 특가 199유로, 정가 249유로이며 10일 무료 체험도 제공됩니다.",
     "type": "신제품",
-    "addedDate": "2026-11-25"
+    "addedDate": "2026-11-25",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fprofiler-native_promotion_standalone-orange_landscape_teaser.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-397",
@@ -29,7 +31,9 @@
     "status": "published",
     "summary": "iZotope이 보컬 프로덕션 스위트 Nectar 5를 출시했습니다. 가사를 인식해 선택한 단어나 구절에만 리버브, 더블링, 포먼트 시프트 같은 효과를 거는 ARA 플러그인 Moments가 새로 들어갔고, Serial Compressor와 Vocal Stabilizer 모듈도 추가됐습니다. Vocal Assistant는 Custom Flow로 개편됐습니다. 정가 249달러, 12월 7일까지 179달러에 판매됩니다.",
     "type": "신제품",
-    "addedDate": "2026-11-25"
+    "addedDate": "2026-11-25",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Frekkerd.org%2Fwp-content%2Fuploads%2F2026%2F11%2FiZotope-Nectar-5.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-398",
@@ -45,7 +49,8 @@
     "status": "published",
     "summary": "Cherry Audio가 1985년 Korg DW-8000 하이브리드 신시사이저를 재현한 가상악기 DW-8K를 출시했습니다. 듀얼 레이어 구조로 레이어당 16보이스 폴리포니를 제공하고 MPE와 폴리포닉 애프터터치, 아르페지에이터, 스텝 시퀀서를 갖췄습니다. 원본 팩토리 프리셋 128개와 신규 프리셋 400개 이상이 들어 있습니다. 가격은 69달러이며 30일 무료 체험이 가능합니다.",
     "type": "신제품",
-    "addedDate": "2026-11-25"
+    "addedDate": "2026-11-25",
+    "imageTried": "2026-11-24:g"
   },
   {
     "id": "news-399",
@@ -61,7 +66,9 @@
     "status": "published",
     "summary": "Fender Japan이 고질라와 협업한 텔레캐스터 2종을 발표했습니다. Godzilla Black Paisley 텔레캐스터는 전 세계에 출시되며 커스텀 고질라 험버커 2개와 볼륨 노브를 누르면 작동하는 내장 디스토션 회로를 갖췄습니다. 가격은 2,500달러입니다. 일본 한정 커스텀숍 모델은 마스터 빌더가 직접 제작하며 550만 엔에 판매됩니다.",
     "type": "신제품",
-    "addedDate": "2026-11-25"
+    "addedDate": "2026-11-25",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2FFender-Godzilla-Black-Paisley-Telecasters-2-Monsters-Revealed.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-393",
