@@ -13,7 +13,9 @@
     "sourceDate": "2026-11-25",
     "category": "프로오디오",
     "status": "published",
-    "addedDate": "2026-11-25"
+    "addedDate": "2026-11-25",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fimg%2Fproducts%2Fthumbs%2Fwpc.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-403",
@@ -29,7 +31,9 @@
     "sourceDate": "2026-11-25",
     "category": "레코딩소프트웨어",
     "status": "published",
-    "addedDate": "2026-11-25"
+    "addedDate": "2026-11-25",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2025%2F11%2Ffl-studio-2026-ft.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-404",
@@ -45,7 +49,9 @@
     "sourceDate": "2026-11-25",
     "category": "기타",
     "status": "published",
-    "addedDate": "2026-11-25"
+    "addedDate": "2026-11-25",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2FWay-Huge-Smalls-Green-Rhino-Overdrive-95-Style.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-401",
