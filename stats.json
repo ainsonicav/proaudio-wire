@@ -1,73 +1,73 @@
 {
-  "generated_at": "2026-11-24T23:37:52Z",
+  "generated_at": "2026-11-25T00:18:32Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 43,
-    "month": 172,
-    "total": 398
+    "week": 31,
+    "month": 166,
+    "total": 399
   },
   "top_brands_week": [
-    {
-      "brand": "Inter-M",
-      "count": 3
-    },
-    {
-      "brand": "IK Multimedia",
-      "count": 3
-    },
     {
       "brand": "iZotope",
       "count": 2
     },
     {
-      "brand": "Martin Audio",
+      "brand": "IK Multimedia",
       "count": 2
     },
     {
-      "brand": "Genelec",
-      "count": 2
+      "brand": "AKAI",
+      "count": 1
+    },
+    {
+      "brand": "Kemper",
+      "count": 1
+    },
+    {
+      "brand": "Cherry Audio",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 28,
-      "pct": 65
+      "count": 19,
+      "pct": 61
     },
     {
       "category": "컨슈머오디오",
-      "count": 3,
-      "pct": 7
+      "count": 2,
+      "pct": 6
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 9,
-      "pct": 21
+      "count": 6,
+      "pct": 19
     },
     {
       "category": "기타",
-      "count": 3,
-      "pct": 7
+      "count": 4,
+      "pct": 13
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 125,
+      "count": 121,
       "pct": 73
     },
     {
       "category": "컨슈머오디오",
       "count": 6,
-      "pct": 3
+      "pct": 4
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 31,
-      "pct": 18
+      "count": 29,
+      "pct": 17
     },
     {
       "category": "기타",
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 96.0,
-    "sample": 172
+    "sample": 166
   },
   "source_health": [
     {
@@ -103,8 +103,8 @@
     },
     {
       "host": "gearnews.com",
-      "items": 9,
-      "last": "2026-11-24"
+      "items": 10,
+      "last": "2026-11-25"
     },
     {
       "host": "martin-audio.com",
