@@ -9,6 +9,16 @@
     <lastBuildDate>Wed, 25 Nov 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>[행사] DALI - DALI KUPID</title>
+      <link>https://news.ainsonic.com/n/news-401.html</link>
+      <description>덴마크 DALI의 입문형 북셸프 스피커 KUPID가 영국 매체 What Hi-Fi?의 Awards 2026에서 300파운드 미만 스탠드마운트 스피커 부문을 수상했습니다. 2025년 500파운드 미만 부문에 이은 2년 연속 수상이며 리뷰 점수는 사운드 5점, 만듦새 4점, 호환성 4점입니다. 26mm 소프트 돔 트위터와 4.5인치 페이퍼·우드 파이버 콘을 쓴 2웨이 후면 베이스 리플렉스로, 주파수 응답 63Hz~25kHz(±3dB), 크로스오버 2.1kHz, 감도 83dB(2.83V/1m), 공칭 임피던스 4Ω, 권장 앰프 출력 40~120W, 크기 237×140×195mm, 한 쌍 5.8kg입니다. 국내 출시 색상은 블랙 애시·카라멜 화이트·다크 월넛·칠리 블루·골든 옐로우 5가지입니다.</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-401</guid>
+      <category>행사</category>
+      <category>컨슈머오디오</category>
+    </item>
+
+    <item>
       <title>[업데이트] AKAI - MPC Sample 펌웨어 1.4</title>
       <link>https://news.ainsonic.com/n/news-400.html</link>
       <description>AKAI가 MPC Sample용 펌웨어 1.4를 공개했습니다. 가장 큰 변화는 커뮤니티 제작 이펙트 지원으로, MPC Plugin Builder SDK로 만든 커스텀 Knob FX 플러그인을 불러올 수 있고 VST2 형식이라 다른 독립형 MPC 모델에서도 동작합니다. MIDI Config를 통한 개발자 도구(USB 원격 접속, 내부 모니터링, 스크린샷, 원격 화면·오디오 공유)와 Resample Pad·Flatten Pad로 이펙트를 입힌 패드 사운드 렌더링, 시퀀스 길이 자동 재생, 16단계 튠(스케일) 모드도 추가됐습니다.</description>
@@ -395,16 +405,6 @@
       <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-349</guid>
       <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Genelec - 4430A Smart IP, 3440A</title>
-      <link>https://news.ainsonic.com/n/news-350.html</link>
-      <description>런던 레스토랑 블랙 래빗에 제네렉 스마트 IP 스피커 시스템이 설치됐습니다. 4430A 스피커 10대를 다이닝룸 벽면에 달아 고른 커버리지를 만들었고 3440A 서브우퍼 2대로 저음을 보강했습니다. 네트워크 연결로 배선을 줄였고 구역별 볼륨을 따로 조절할 수 있습니다. HHB가 설계를 맡았고 레스토랑은 2026년 10월에 문을 열었습니다.</description>
-      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-350</guid>
-      <category>행사</category>
       <category>프로오디오</category>
     </item>
 
