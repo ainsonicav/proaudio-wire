@@ -13,7 +13,9 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fblogthumb.pstatic.net%2FMjAyNjExMjVfMjU0%2FMDAxNzk1NTk4MzUyMTE5.13Rwr2jICHulC-q3yjjJbddzPnEDQvBnNizVjXVBfZwg.gB4rI7PgZVmtP7VKffKt-bN33Di8-aEXFTmKMxsDRXog.JPEG%2FETHOS.jpg%3Ftype%3Dw2&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-406",
@@ -29,7 +31,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fdt7v1i9vyp3mf.cloudfront.net%2Fstyles%2Fheader%2Fs3%2Fimagelibrary%2Fn%2Fnovation_launchkey_flkey_update_0-pwVOqsHYjJybfzpmo3.rLexPPMAGFdiw.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-407",
@@ -45,7 +49,8 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageTried": "2026-11-25:g"
   },
   {
     "id": "news-408",
@@ -61,7 +66,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Faudient.com%2Fwp-content%2Fuploads%2F2026%2F11%2FiDMK3-LP-FEATURES-VIDEO-scaled.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-409",
@@ -77,7 +84,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "프로오디오",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=http%3A%2F%2Fvintageking.com%2Fcdn%2Fshop%2Ffiles%2Fsteven-slate-audio-vsx-horizon-one-headphones_527999_1.jpg%3Fv%3D1793634836&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-410",
@@ -93,7 +102,9 @@
     "status": "published",
     "isDomestic": false,
     "category": "레코딩소프트웨어",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fikmultimedia.com%2Fcdn%2Fshop%2Ffiles%2F20261029_Tonex_Par_prodmenu.jpg%3Fv%3D1793271447%26width%3D1024&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-402",
