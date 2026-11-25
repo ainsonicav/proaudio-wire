@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-25T12:17:59Z",
+  "generated_at": "2026-11-25T23:37:18Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 35,
-    "month": 170,
-    "total": 403
+    "week": 38,
+    "month": 176,
+    "total": 409
   },
   "top_brands_week": [
     {
@@ -23,40 +23,40 @@
       "count": 2
     },
     {
-      "brand": "Image-Line",
+      "brand": "Earthworks Audio",
       "count": 1
     },
     {
-      "brand": "Way Huge",
+      "brand": "Novation",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 20,
-      "pct": 57
+      "count": 23,
+      "pct": 61
     },
     {
       "category": "컨슈머오디오",
       "count": 3,
-      "pct": 9
+      "pct": 8
     },
     {
       "category": "레코딩소프트웨어",
       "count": 7,
-      "pct": 20
+      "pct": 18
     },
     {
       "category": "기타",
       "count": 5,
-      "pct": 14
+      "pct": 13
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 122,
+      "count": 127,
       "pct": 72
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 30,
+      "count": 31,
       "pct": 18
     },
     {
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 96.0,
-    "sample": 170
+    "sample": 176
   },
   "source_health": [
     {
@@ -88,13 +88,13 @@
     },
     {
       "host": "soundonsound.com",
-      "items": 37,
-      "last": "2026-11-19"
+      "items": 38,
+      "last": "2026-11-25"
     },
     {
       "host": "blog.naver.com",
-      "items": 23,
-      "last": "2026-11-24"
+      "items": 24,
+      "last": "2026-11-25"
     },
     {
       "host": "gearspace.com",
@@ -113,8 +113,13 @@
     },
     {
       "host": "avnetwork.com",
+      "items": 7,
+      "last": "2026-11-25"
+    },
+    {
+      "host": "ikmultimedia.com",
       "items": 6,
-      "last": "2026-11-20"
+      "last": "2026-11-17"
     },
     {
       "host": "usa.yamaha.com",
@@ -125,11 +130,6 @@
       "host": "kvraudio.com",
       "items": 6,
       "last": "2026-09-26"
-    },
-    {
-      "host": "ikmultimedia.com",
-      "items": 5,
-      "last": "2026-10-29"
     },
     {
       "host": "ravepubs.com",
