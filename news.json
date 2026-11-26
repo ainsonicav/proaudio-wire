@@ -13,7 +13,9 @@
     "summary": "네덜란드 힐베르쉼의 '사운드 앤 비전 미디어 뮤지엄'에 K-array 오디오 시스템이 구축됐습니다. 스크린 없는 미디어 박물관을 목표로 5년 기획과 2년 반 리노베이션을 거쳐 재개관했고, 5개 구역을 잇는 300m 길이의 LED 조형물 '미디어 리액터'와 50여 개 인터랙티브 전시물, 70시간 분량의 시청각 자료가 들어갔습니다. 기존에는 전시 구역 간 소음이 섞였는데, 천장과 벽면 흡음 처리 후 지향성 스피커로 구역별 사운드를 분리해 1m 옆 관람객에게 소리가 새지 않도록 했습니다. 벽면용 2인치 포인트 소스 Tornado-KT2, 길이 26cm 초슬림 라인어레이 Vyper-KV25 I, 2x125W 미니 앰프 GA201이 쓰였고, 광역 구간은 Dante 기반 Q-SYS DSP로 통합 관리됩니다.",
     "evidence": "K-array의 소형 라인 어레이 스피커와 천장형 스피커를 적용해 좁은 빔 형태로 사운드를 방사하도록 설계했습니다. 덕분에 바로 옆 전시 구역(1미터 거리)에 있는 관람객에게도 소음이 전달되지 않아",
     "status": "published",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fmblogthumb-phinf.pstatic.net%2FMjAyNjExMjZfMTU0%2FMDAxNzk1NjkwOTA0MDQ2.8CQVY3V9YH9cyzOgSuxjNmEITCz8RPLkJy226fWXVAcg.fTxE7CcmFaAGMrTWY4eUaZ6ew2zHFX6nVWpKY2m6yS8g.JPEG%2FKT2Blackrightside.jpg%3Ftype%3Dw400&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-414",
@@ -29,7 +31,9 @@
     "summary": "오스트리아 린츠의 야외 멀티미디어 축제 '린처 클랑볼케'에 Riedel의 DIVA+ 인프라와 프라이빗 5G 네트워크 Easy5G가 투입됐습니다. 도나우강을 무대로 오케스트라 선박 1척, 합계 약 58㎡ LED를 실은 소형 보트 8척, 32㎡ LED 스크린을 단 드론 2대가 운용됐습니다. Easy5G는 비디오와 조명 제어(sACN), 타임코드, 오디오를 하나의 무선 계층으로 전송했고 FOH 코어와 강변 기지국, 선박·육상 수신기 14대로 구성됐습니다. DIVA+는 MediorNet·Bolero·Artist·SmartPanel·StageLink를 약 2.5km 광케이블과 스위치 13대에 결합했고, Bolero 벨트팩 63대와 안테나 25대, SmartPanel 7대가 인터컴으로 쓰였습니다.",
     "evidence": "Riedel's Easy5G Private 5G network played a central role in this effort, evolving from a solution initially intended for video transmission into a shared wireless infrastructure supporting multiple applications. A total of 63 Bolero beltpacks, 25 Bolero antennas, and seven SmartPanels were deployed.",
     "status": "published",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.riedel.net%2Fwp-content%2Fuploads%2F2026%2F11%2FReidel-LinzerKlangwolke-DIVARack-scaled.webp&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-415",
@@ -45,7 +49,9 @@
     "summary": "Universal Audio가 LUNA용 개발자 플랫폼 겸 커뮤니티 'UA Universe'를 퍼블릭 베타로 공개했습니다. JavaScript 기반 LUNA Builder Tools로 LUNA 작업 환경을 바꾸는 애드온을 직접 만들고 공유할 수 있으며, 악기나 플러그인 자체는 만들 수 없습니다. 애드온은 현재 LUNA 세션의 파라미터 제어와 MIDI 편집 같은 동작을 수행하고 실행 내역이 LUNA 실행 취소 기록에 남으며, 실제 적용 전에 목 환경에서 시험·디버깅할 수 있습니다. AI 코딩 에이전트에 자연어로 요청해 만드는 방식도 지원하며, 공개된 애드온으로는 스와이프 컴핑, MIDI Learn, Ableton Live 세션을 LUNA로 불러오는 InterDAW 등이 있습니다.",
     "evidence": "Now in public beta, UA Universe lets you create and share custom LUNA workflow tools and enhancements with its JavaScript-based development kit. While it doesn't allow the building of instruments or processing plugins, this new SDK lets you develop add-ons and customizations",
     "status": "published",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fua-universe-ft.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-411",
