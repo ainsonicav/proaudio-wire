@@ -13,7 +13,9 @@
     "summary": "영국 맨체스터의 록·메탈 클럽 사탄스 할로우(Satan's Hollow)가 25년 만에 음향 시스템을 교체했습니다. 시공은 Neuron AV가 맡아 Martin Audio BlacklineQ 시리즈를 도입했습니다. 15인치 2대, 12인치 8대, 10인치 6대 인클로저에 듀얼 18인치 Q218 서브우퍼 4대를 더했고, 서브우퍼는 커스텀 돌리에 실어 클럽과 공연에 맞춰 위치를 옮겨 씁니다. Club, Live, Large Live 세 가지 프리셋으로 원형 스테이지를 댄스플로어로 쓰거나 좌우 PA, 홀 전체 360도 커버리지로 전환합니다. Differential Dispersion 설계로 가까운 거리에서는 넓게, 먼 거리에서는 좁게 퍼집니다.",
     "evidence": "The final system comprises 2 x 15\", 8 x 12\" and 6 x 10\" cabinets. The installer provided three selectable presets: Club turns the stage into the main dancefloor ... Live reconfigures the system as a conventional left/right PA ... Large Live brings additional loudspeakers around the room into play, creating 360-degree coverage",
     "status": "published",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fstatic.martin-audio.com%2Fpressrelease%2Fmedium%2Fneuron-av-revamps-manchesters-satans-hollow-with-martin-audio-blacklineq-1.jpg&w=640&default=1",
+    "imageSource": "body"
   },
   {
     "id": "news-412",
@@ -29,7 +31,9 @@
     "summary": "Elektron이 Tonverk 펌웨어 1.5를 공개했습니다. 회사가 'Tonverk and a half'라고 부르는 대형 업데이트로, 프로젝트 템포에 샘플과 루프를 맞추는 타임스트레치 Machine Stretcher와 디튠 웨이브테이블 오실레이터를 쓰는 슈퍼소우 Machine Waveswarmer가 추가됐습니다. 이펙트는 트랜스 게이트 성격의 Pulse Gate, 어택과 서스테인을 조절하는 Transient Control, Channel EQ와 Parametric EQ 네 가지가 늘어 모든 오디오 트랙과 버스, 믹스 트랙에서 쓸 수 있습니다. 서브트랙별 FX 라우팅과 서브트랙 에디터, 멀티샘플 에디터, USB MIDI 호스팅, 유니슨 디튠·팬 스프레드도 포함됐습니다.",
     "evidence": "Stretcher \"brings time-stretching to Tonverk, combining it with pitch-shifting and letting you pull samples and loops to fit the tempo of your project or pattern.\" The new update also includes Waveswarmer, a supersaw-like Machine with detuned wavetable oscillators.",
     "status": "published",
-    "addedDate": "2026-11-26"
+    "addedDate": "2026-11-26",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F08%2Felektron-tonverk-1-5-ft.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-405",
@@ -975,7 +979,8 @@
     "summary": "썬더 프로덕션이 텍사스 AT&T 스타디움에서 열린 예배 행사 ACCESS의 음향을 JBL VTX 시스템으로 맡았습니다. VTX V25-II-CS 72대, A12 72대, A8 24대와 S28 서브우퍼 48대를 썼습니다. 무대를 경기장 중앙에 두고 전 좌석에 고른 커버리지를 만들었으며 Crown 앰프로 구동했습니다.",
     "type": "행사",
     "addedDate": "2026-11-20",
-    "imageTried": "2026-11-19:g"
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fadn.harmanpro.com%2Fproduct_attachments%2Fproduct_attachments%2F7789_1728932141%2Fvtxv25-ii-cs_angle_z_x_large.webp&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-359",
@@ -1476,7 +1481,7 @@
     "summary": "샤키라가 8년 만에 스페인으로 돌아와 마드리드 이베르드롤라 뮤직의 샤키라 스타디움에서 4주간 13회 공연을 열었다. 클레어 글로벌이 d&b audiotechnik SL-Series 어레이로 음향을 맡았고 70만 명이 넘는 관객이 공연을 찾았다. 메인·사이드 행에는 GSL 스피커, SL-SUB 어레이와 KSL 딜레이 시스템을 썼고 D90 앰프와 ArrayProcessing으로 커버리지를 조정했다.",
     "type": "행사",
     "addedDate": "2026-11-14",
-    "imageTried": "2026-11-19:g"
+    "imageTried": "2026-11-26:g"
   },
   {
     "id": "news-325",
@@ -1852,7 +1857,7 @@
     "summary": "소닉 칼리지가 연례 오디오 컨퍼런스 소닉 데이즈 2026을 덴마크 콜딩에서 다섯 번째로 개최한다고 발표했습니다. 영화·TV 사운드, 게임 오디오, 음악 제작, 팟캐스트 등 9개 테마 트랙으로 워크숍과 강연, 콘서트를 진행하며 참가비는 무료입니다. Genelec, Neumann, Meyer Sound, Yamaha 등이 후원합니다.",
     "type": "행사",
     "addedDate": "2026-11-11",
-    "imageTried": "2026-11-19:g"
+    "imageTried": "2026-11-26:g"
   },
   {
     "id": "news-309",
@@ -2103,7 +2108,7 @@
     "isDomestic": false,
     "category": "프로오디오",
     "addedDate": "2026-11-08",
-    "imageTried": "2026-11-19:g"
+    "imageTried": "2026-11-26:g"
   },
   {
     "id": "news-292",
@@ -2264,7 +2269,7 @@
     "summary": "앨런앤히스가 Qu 시리즈의 가장 작은 모델인 Qu-3와 단테 내장형 Qu-3D를 발표했습니다. 32채널 96kHz 프로세싱과 36개 입력, 12개 믹스, 4개 매트릭스, 6개 이펙트 엔진을 8+1 페이더 형식에 담았습니다. 128×128 SLink 포트와 32×32 USB-C 인터페이스, SD 카드 멀티트랙 녹음을 지원하고, Qu-3D는 16×16 단테를 내장해 32×32까지 확장할 수 있습니다. 공간이 부족한 현장에 적합합니다.",
     "type": "신제품",
     "addedDate": "2026-11-05",
-    "imageTried": "2026-11-19:g"
+    "imageTried": "2026-11-26:g"
   },
   {
     "id": "news-281",
@@ -3674,7 +3679,7 @@
     "status": "published",
     "summary": "앨런앤히스가 최신 세대 Qu 디지털 믹서용 펌웨어 Qu V1.2를 무료로 공개했습니다. 유료 애드온인 Dante 32×32 업그레이드로 Dante 용량이 16×16에서 32×32 채널로 확장됐으며, 윈도우·맥용 Qu-MixPad와 오프라인 쇼 준비 모드가 추가됐습니다. 입력 채널 익스팬더, 리슨 버스, DCA 스필 기능도 포함돼 라이브·방송·설치 환경의 워크플로우가 빨라집니다.",
     "type": "업데이트",
-    "imageTried": "2026-11-19:g"
+    "imageTried": "2026-11-26:g"
   },
   {
     "id": "news-205",
