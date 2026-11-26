@@ -9,6 +9,26 @@
     <lastBuildDate>Thu, 26 Nov 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>[업데이트] Melbourne Instruments - ROTO-CONTROL Cubase·FL Studio 네이티브 지원</title>
+      <link>https://news.ainsonic.com/n/news-416.html</link>
+      <description>멜버른 인스트루먼츠의 모터라이즈 미디 컨트롤러 로토-컨트롤이 큐베이스와 FL 스튜디오 네이티브 지원을 추가했다. 큐베이스에서는 마우스를 올린 페이더나 플러그인 노브를 AI 노브가 그대로 이어받아 조작하고, FL 스튜디오에서는 채널 랙에서 스텝을 누른 채 노브를 돌려 래칫을 넣을 수 있다. 기존 로직 프로, 비트윅, 에이블톤 라이브에 이어 지원 DAW가 다섯 개로 늘었다. 업데이트는 제조사 홈페이지에서 무료로 받을 수 있다.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-416</guid>
+      <category>업데이트</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] wozLOL - FoxWizard Hella, FoxWizard OG MKII</title>
+      <link>https://news.ainsonic.com/n/news-417.html</link>
+      <description>wozLOL이 미디 라우팅과 라이브 연주 도구를 담은 초소형 멀티툴 폭스위자드 헬라와 OG MK2를 내놨다. 헬라는 컴퓨터 없이 USB 미디 장비를 직접 연결하고 USB 허브와 블루투스 미디를 지원한다. 두 모델 모두 브라우저에서 설정하고 본체에 16개 프리셋을 저장하며, DIN과 TRS 미디 장비를 연결한다. 헬라 65달러, OG MK2 35달러에 블랙프라이데이 특가로 판매 중이다.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-417</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
       <title>[행사] K-array - Tornado-KT2, Vyper-KV25 I, GA201</title>
       <link>https://news.ainsonic.com/n/news-413.html</link>
       <description>네덜란드 힐베르쉼의 '사운드 앤 비전 미디어 뮤지엄'에 K-array 오디오 시스템이 구축됐습니다. 스크린 없는 미디어 박물관을 목표로 5년 기획과 2년 반 리노베이션을 거쳐 재개관했고, 5개 구역을 잇는 300m 길이의 LED 조형물 '미디어 리액터'와 50여 개 인터랙티브 전시물, 70시간 분량의 시청각 자료가 들어갔습니다. 기존에는 전시 구역 간 소음이 섞였는데, 천장과 벽면 흡음 처리 후 지향성 스피커로 구역별 사운드를 분리해 1m 옆 관람객에게 소리가 새지 않도록 했습니다. 벽면용 2인치 포인트 소스 Tornado-KT2, 길이 26cm 초슬림 라인어레이 Vyper-KV25 I, 2x125W 미니 앰프 GA201이 쓰였고, 광역 구간은 Dante 기반 Q-SYS DSP로 통합 관리됩니다.</description>
@@ -385,26 +405,6 @@
       <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-354</guid>
       <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Lawo - HOME mc² DSP, mc²56 MkIII</title>
-      <link>https://news.ainsonic.com/n/news-355.html</link>
-      <description>스페인 바스크 공영방송 EITB가 빌바오 본사 5개 스튜디오 중 3번 스튜디오의 IP 오디오 인프라를 Lawo 시스템으로 교체했습니다. 스페인 최초로 HOME mc² DSP 애플리케이션을 쓴 사례로 58페이더 mc²56 MkIII 콘솔을 갖췄습니다. SMPTE ST 2110 구조에 512개 DSP 채널을 제공하며 최대 2,048채널까지 확장할 수 있습니다.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-355</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[행사] Riedel - MediorNet, Artist, Bolero</title>
-      <link>https://news.ainsonic.com/n/news-356.html</link>
-      <description>독일 지역방송 münchen.tv가 뮌헨 북부 신사옥 제작센터를 Riedel 장비로 업그레이드했습니다. MediorNet MicroN UHD 노드 13개로 신호를 분산 처리하고 Artist-1024 인터콤과 Bolero 무선 시스템 16개를 갖췄습니다. SimplyLive ViBox 서버 2대로 라이브 제작과 리플레이, 원격 제작을 지원합니다.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-356</guid>
-      <category>행사</category>
       <category>프로오디오</category>
     </item>
 
