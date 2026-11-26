@@ -1,0 +1,28 @@
+[
+  {
+    "company": "Elektron",
+    "brand": "Elektron",
+    "productName": "Tonverk 1.5 펌웨어",
+    "category": "기타",
+    "isDomestic": false,
+    "type": "업데이트",
+    "link": "https://www.gearnews.com/elektron-tonverk-synth/",
+    "sourceDate": "2026-11-26",
+    "date": "2026-11-26",
+    "summary": "Elektron이 Tonverk 펌웨어 1.5를 공개했습니다. 회사가 'Tonverk and a half'라고 부르는 대형 업데이트로, 프로젝트 템포에 샘플과 루프를 맞추는 타임스트레치 Machine Stretcher와 디튠 웨이브테이블 오실레이터를 쓰는 슈퍼소우 Machine Waveswarmer가 추가됐습니다. 이펙트는 트랜스 게이트 성격의 Pulse Gate, 어택과 서스테인을 조절하는 Transient Control, Channel EQ와 Parametric EQ 네 가지가 늘어 모든 오디오 트랙과 버스, 믹스 트랙에서 쓸 수 있습니다. 서브트랙별 FX 라우팅과 서브트랙 에디터, 멀티샘플 에디터, USB MIDI 호스팅, 유니슨 디튠·팬 스프레드도 포함됐습니다.",
+    "evidence": "Stretcher \"brings time-stretching to Tonverk, combining it with pitch-shifting and letting you pull samples and loops to fit the tempo of your project or pattern.\" The new update also includes Waveswarmer, a supersaw-like Machine with detuned wavetable oscillators."
+  },
+  {
+    "company": "Martin Audio",
+    "brand": "Martin Audio",
+    "productName": "BlacklineQ 시리즈, Q218 서브우퍼",
+    "category": "프로오디오",
+    "isDomestic": false,
+    "type": "행사",
+    "link": "https://martin-audio.com/news/press-release/neuron-av-revamps-manchesters-satans-hollow-with-martin-audio-blacklineq",
+    "sourceDate": "2026-11-04",
+    "date": "2026-11-04",
+    "summary": "영국 맨체스터의 록·메탈 클럽 사탄스 할로우(Satan's Hollow)가 25년 만에 음향 시스템을 교체했습니다. 시공은 Neuron AV가 맡아 Martin Audio BlacklineQ 시리즈를 도입했습니다. 15인치 2대, 12인치 8대, 10인치 6대 인클로저에 듀얼 18인치 Q218 서브우퍼 4대를 더했고, 서브우퍼는 커스텀 돌리에 실어 클럽과 공연에 맞춰 위치를 옮겨 씁니다. Club, Live, Large Live 세 가지 프리셋으로 원형 스테이지를 댄스플로어로 쓰거나 좌우 PA, 홀 전체 360도 커버리지로 전환합니다. Differential Dispersion 설계로 가까운 거리에서는 넓게, 먼 거리에서는 좁게 퍼집니다.",
+    "evidence": "The final system comprises 2 x 15\", 8 x 12\" and 6 x 10\" cabinets. The installer provided three selectable presets: Club turns the stage into the main dancefloor ... Live reconfigures the system as a conventional left/right PA ... Large Live brings additional loudspeakers around the room into play, creating 360-degree coverage"
+  }
+]
