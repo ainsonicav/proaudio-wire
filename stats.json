@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-25T23:37:48Z",
+  "generated_at": "2026-11-26T01:15:55Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 38,
-    "month": 176,
-    "total": 409
+    "week": 31,
+    "month": 169,
+    "total": 411
   },
   "top_brands_week": [
     {
@@ -19,8 +19,8 @@
       "count": 2
     },
     {
-      "brand": "IK Multimedia",
-      "count": 2
+      "brand": "Elektron",
+      "count": 1
     },
     {
       "brand": "Earthworks Audio",
@@ -34,29 +34,29 @@
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 23,
-      "pct": 61
+      "count": 17,
+      "pct": 55
     },
     {
       "category": "컨슈머오디오",
       "count": 3,
-      "pct": 8
+      "pct": 10
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 7,
-      "pct": 18
+      "count": 6,
+      "pct": 19
     },
     {
       "category": "기타",
       "count": 5,
-      "pct": 13
+      "pct": 16
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 127,
+      "count": 121,
       "pct": 72
     },
     {
@@ -66,19 +66,19 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 31,
-      "pct": 18
+      "count": 29,
+      "pct": 17
     },
     {
       "category": "기타",
-      "count": 11,
-      "pct": 6
+      "count": 12,
+      "pct": 7
     }
   ],
   "latency_hours_month": {
     "median": 24.0,
     "p90": 96.0,
-    "sample": 176
+    "sample": 169
   },
   "source_health": [
     {
@@ -103,12 +103,12 @@
     },
     {
       "host": "gearnews.com",
-      "items": 12,
-      "last": "2026-11-25"
+      "items": 13,
+      "last": "2026-11-26"
     },
     {
       "host": "martin-audio.com",
-      "items": 8,
+      "items": 9,
       "last": "2026-11-25"
     },
     {
