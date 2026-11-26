@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-11-26T05:14:03Z",
+  "generated_at": "2026-11-26T12:18:34Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 31,
-    "month": 169,
-    "total": 411
+    "week": 34,
+    "month": 172,
+    "total": 414
   },
   "top_brands_week": [
+    {
+      "brand": "K-array",
+      "count": 2
+    },
     {
       "brand": "Martin Audio",
       "count": 2
@@ -19,44 +23,40 @@
       "count": 2
     },
     {
-      "brand": "Elektron",
+      "brand": "Riedel",
       "count": 1
     },
     {
-      "brand": "Earthworks Audio",
-      "count": 1
-    },
-    {
-      "brand": "Novation",
+      "brand": "Universal Audio",
       "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 17,
-      "pct": 55
+      "count": 19,
+      "pct": 56
     },
     {
       "category": "컨슈머오디오",
       "count": 3,
-      "pct": 10
+      "pct": 9
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 6,
-      "pct": 19
+      "count": 7,
+      "pct": 21
     },
     {
       "category": "기타",
       "count": 5,
-      "pct": 16
+      "pct": 15
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 121,
+      "count": 123,
       "pct": 72
     },
     {
@@ -66,7 +66,7 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 29,
+      "count": 30,
       "pct": 17
     },
     {
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 96.0,
-    "sample": 169
+    "sample": 172
   },
   "source_health": [
     {
@@ -93,8 +93,8 @@
     },
     {
       "host": "blog.naver.com",
-      "items": 24,
-      "last": "2026-11-25"
+      "items": 25,
+      "last": "2026-11-26"
     },
     {
       "host": "gearspace.com",
@@ -103,7 +103,7 @@
     },
     {
       "host": "gearnews.com",
-      "items": 13,
+      "items": 14,
       "last": "2026-11-26"
     },
     {
