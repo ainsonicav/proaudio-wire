@@ -13,7 +13,9 @@
     "status": "published",
     "summary": "음악 제작 매체 Sound On Sound가 2026년 올해의 장비로 오디언트 Horizon과 포커스라이트 ISA C8X를 선정했다. Horizon은 썬더볼트 기반 오디오 인터페이스로, 192kHz에서 0.99ms 왕복 레이턴시와 최대 4대 연결 시 200×200 입출력 확장이 강점이다. ISA C8X는 8개 마이크 프리앰프를 담은 ISA 시리즈 첫 오디오 인터페이스로, 1·2번 채널에 Lundahl LL1538 트랜스포머 기반 ISA 프리앰프를 탑재했다.",
     "type": "신제품",
-    "addedDate": "2026-11-28"
+    "addedDate": "2026-11-28",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fvintageking.com%2Fcdn%2Fshop%2Ffiles%2Faudient-horizon-8p-24-in-32-out-thunderbolt-audio-interface_521915_3.jpg%3Fv%3D1789493059&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-429",
@@ -29,7 +31,9 @@
     "status": "published",
     "summary": "베링거가 2022년 발표한 미니 신스 CS Mini를 4년 반 만에 정식 출시했다. 야마하 CS-80의 아날로그 보이스를 손바닥 크기 몸체에 담은 제품으로, 싱글 VCO와 링 모듈레이터, 로우·하이패스 아날로그 필터, 아날로그 VCA, 서브 오실레이터를 갖췄다. USB-C 전원과 내장 시퀀서, 싱크 입출력과 5핀 MIDI 인을 지원하며 가격은 98파운드·119유로·109달러다.",
     "type": "신제품",
-    "addedDate": "2026-11-28"
+    "addedDate": "2026-11-28",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2022%2F03%2Fbehringer-cs-mini-t.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-430",
@@ -45,7 +49,9 @@
     "status": "published",
     "summary": "무어가 NAM 프로파일을 지원하는 헤드리스 일렉트릭 기타 GTRS Wing 1000을 출시했다. G200 스마트박스가 12개 이펙트 슬롯과 229개 이펙트 모델, 20개 기타 시뮬레이션을 처리하며, 6축 IMU로 움직임에 파라미터를 할당할 수 있다. USB-C로 DAW 직접 녹음이 가능하고 4000mAh 배터리로 10시간 사용할 수 있다. 가격은 825달러·766파운드·899유로로 패딩 긱백이 포함된다.",
     "type": "신제품",
-    "addedDate": "2026-11-28"
+    "addedDate": "2026-11-28",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2FMooer-GTRS-W1000-Intelligent-Headless-Guitar-with-NAM.jpg&w=640&default=1",
+    "imageSource": "original"
   },
   {
     "id": "news-431",
@@ -61,7 +67,9 @@
     "status": "published",
     "summary": "아쿠스티카 오디오가 루카 프레톨레시, 스튜디오 DMI와 함께 드럼 리플레이스먼트·레이어링 플러그인 VEGA를 출시했다. 샘플 피칭 ±24세미톤과 자동 위상 정렬, 고급 히트 감지로 원본 드럼의 특성을 살리면서 샘플을 덧입힐 수 있다. 프레톨레시의 개인 드럼 샘플 라이브러리를 내장하고 사용자 WAV 가져오기를 지원한다. 출시 특가는 99유로, 정가는 199유로다.",
     "type": "신제품",
-    "addedDate": "2026-11-28"
+    "addedDate": "2026-11-28",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fecommerce.acustica-audio.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2F66e121a704b0bbe7e0f6fe9d75ce0c1e%2Fv%2Fe%2Fvega_detail.png&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-432",
@@ -77,7 +85,9 @@
     "status": "published",
     "summary": "켐퍼가 앰프 프로파일링 기술을 DAW 안에서 쓸 수 있는 소프트웨어 PROFILER Native를 출시했다. Profiler MK 2의 기능을 그대로 담아 스탠드얼론 앱과 AU·VST3·CLAP 플러그인으로 동작하며, 80개 이상의 이펙트와 모핑, 스필오버를 지원한다. 프로파일 생성은 하드웨어가 필요하고 AAX 지원은 추후 추가될 예정이다. 가격은 정가 249유로, 출시 특가 199유로다.",
     "type": "신제품",
-    "addedDate": "2026-11-28"
+    "addedDate": "2026-11-28",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.kemper-amps.com%2Fstore%2Fmedia%2Fcatalog%2Fproduct%2F2%2F4%2F24400001_theme.jpg&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-427",
