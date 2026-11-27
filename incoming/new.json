@@ -1,0 +1,54 @@
+[
+  {
+    "brand": "qdc",
+    "company": "사운드캣",
+    "productName": "EVOLVER (10.6mm DD·MST 복합 동축 IEM)",
+    "category": "컨슈머오디오",
+    "isDomestic": true,
+    "type": "신제품",
+    "link": "https://soundcat.co.kr/product_news/?idx=176018270&bmode=view",
+    "sourceDate": "2026-11-27",
+    "date": "2026-11-27",
+    "summary": "qdc가 일본 아유토(Aiuto)와 공동 기획한 유니버설 인이어 EVOLVER를 공개했습니다. 기존 엔트리 모델 SUPERIOR의 상위에 놓이는 모델로, 10.6mm 다이내믹 드라이버(20μm 알루미늄 진동판)와 10.6mm MST 드라이버(비정질 FeSiBCuNb 합금 진동판)를 하나의 복합 동축 구조로 묶었습니다. 재생 대역 10Hz~50kHz, 감도 105dB SPL/mW, 임피던스 13Ω, 차음 26dB이며 0.78mm 2핀 4심 은도금동 케이블(약 120cm)에 3.5mm·4.4mm 교체형 플러그를 씁니다. 빛의 각도에 따라 색이 바뀌는 Magic Powder 페이스플레이트를 적용했습니다.",
+    "evidence": "10.6mm 다이내믹 드라이버와 10.6mm MST 드라이버를 하나의 복합 동축(Coaxial) 구조로 통합했습니다. / 주파수 응답 10Hz~50kHz, 감도 105dB SPL/mW, 임피던스 13Ω"
+  },
+  {
+    "brand": "NICEHCK",
+    "company": "사운드캣",
+    "productName": "NX7 MK4",
+    "category": "컨슈머오디오",
+    "isDomestic": true,
+    "type": "신제품",
+    "link": "https://soundcat.co.kr/product_news/?idx=176018128&bmode=view",
+    "sourceDate": "2026-11-27",
+    "date": "2026-11-27",
+    "summary": "사운드캣이 NICEHCK의 하이브리드 인이어 NX7 MK4를 국내에 곧 선보입니다. NX7 시리즈 4세대로, 한쪽에 다이내믹 2기(10mm 베릴륨 도금)와 밸런스드 아마추어 4기, 7층 압전 세라믹 1기를 합친 2DD+4BA+1PZT 구성입니다. 노즐 필터를 골드·레드·블랙 3종으로 교체해 밸런스·중고음·저음 성향을 바꿀 수 있고 감도는 필터에 따라 110~113dB/mW입니다. 재생 대역 20Hz~28kHz, 임피던스 39Ω이며 스태빌라이즈드 우드 페이스플레이트에 OCC·은도금 혼합 0.78mm 2핀 케이블(약 1.2m)을 씁니다.",
+    "evidence": "2DD + 4BA + 1PZT라는 독특한 조합을 통해 서로 다른 드라이버의 장점을 하나의 이어폰에 담아냈습니다. / 주파수 응답 20Hz~28kHz, 임피던스 39Ω, 감도 골드 112 / 레드 113 / 블랙 110dB/mW"
+  },
+  {
+    "brand": "Sterling by Music Man",
+    "company": "Sterling by Music Man",
+    "productName": "StingRay 50th Anniversary LTD",
+    "category": "기타",
+    "isDomestic": false,
+    "type": "신제품",
+    "link": "https://www.gearnews.com/sterling-stingray-50th-anniversary-ltd-guitar/",
+    "sourceDate": "2026-11-26",
+    "date": "2026-11-26",
+    "summary": "뮤직맨 StingRay 50주년을 기념해 Sterling by Music Man이 레이34 기반의 한정 모델을 내놨습니다. 펄 화이트, 블랙 메탈릭, 발리 블루, 골드 스파클 4가지 색상에 헤드스톡을 본체와 같은 색으로 맞췄고, 오코우메 바디에 로스팅 메이플 넥(6볼트 조인트), 로즈우드 지판 21프렛, 34인치 스케일과 9.5인치 라디우스를 씁니다. 브리지에 알니코 험버커 1기를 달고 액티브 3밴드 프리앰프(볼륨·베이스·미들·트레블)를 쓰며, 펄로이드 블록 인레이와 골드 하드웨어, 오픈기어 튜너를 적용했습니다.",
+    "evidence": "Each model comes with an Okoume body, a roasted maple neck with a six-bolt joint, a rosewood fretboard, and 21 medium frets. / a single Alnico humbucker in the bridge position and an active three-band preamp"
+  },
+  {
+    "brand": "Orange",
+    "company": "Orange Amplification",
+    "productName": "Tiny Terror 20th Anniversary (British Racing Green)",
+    "category": "기타",
+    "isDomestic": false,
+    "type": "신제품",
+    "link": "https://www.gearnews.com/orange-tiny-terror-20th-anniversary/",
+    "sourceDate": "2026-11-26",
+    "date": "2026-11-26",
+    "summary": "오렌지 앰프가 2006년에 나온 런치박스 진공관 앰프 Tiny Terror의 20주년 기념 모델을 공개했습니다. 브리티시 레이싱 그린 마감으로 전 세계 1000대만 제작하며, 대당 창업자 클리프 쿠퍼가 직접 서명한 정품 인증서가 동봉됩니다. 12AX7 프리앰프관 2개와 EL84 파워관 2개를 쓴 싱글 채널 앰프로 15W와 7W 출력을 전환할 수 있고, 볼륨·톤·게인 조작계와 8Ω·16Ω 스피커 출력을 갖췄습니다. 이펙트 루프가 없는 단순 구성과 가벼운 무게로 이동이 잦은 기타리스트를 겨냥합니다.",
+    "evidence": "These Orange Tiny Terror 20th Anniversary models are limited to 1000 units worldwide, come in British Racing Green, and include a Certificate of Authenticity signed by Cliff Cooper / a simple dual 12AX7 preamp tube and a pair of EL84 power tubes, offering either a 7-watt or 15-watt power output"
+  }
+]
