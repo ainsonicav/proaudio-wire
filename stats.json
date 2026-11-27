@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-27T05:12:09Z",
+  "generated_at": "2026-11-27T06:18:03Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 33,
-    "month": 172,
-    "total": 423
+    "week": 35,
+    "month": 174,
+    "total": 425
   },
   "top_brands_week": [
     {
       "brand": "qdc",
+      "count": 3
+    },
+    {
+      "brand": "NICEHCK",
       "count": 2
     },
     {
@@ -25,32 +29,28 @@
     {
       "brand": "iZotope",
       "count": 2
-    },
-    {
-      "brand": "NICEHCK",
-      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
       "count": 15,
-      "pct": 45
+      "pct": 43
     },
     {
       "category": "컨슈머오디오",
-      "count": 5,
-      "pct": 15
+      "count": 7,
+      "pct": 20
     },
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 18
+      "pct": 17
     },
     {
       "category": "기타",
       "count": 7,
-      "pct": 21
+      "pct": 20
     }
   ],
   "category_ratio_month": [
@@ -61,8 +61,8 @@
     },
     {
       "category": "컨슈머오디오",
-      "count": 8,
-      "pct": 5
+      "count": 10,
+      "pct": 6
     },
     {
       "category": "레코딩소프트웨어",
@@ -78,7 +78,7 @@
   "latency_hours_month": {
     "median": 24.0,
     "p90": 96.0,
-    "sample": 172
+    "sample": 174
   },
   "source_health": [
     {
@@ -112,6 +112,11 @@
       "last": "2026-11-25"
     },
     {
+      "host": "soundcat.co.kr",
+      "items": 7,
+      "last": "2026-11-27"
+    },
+    {
       "host": "avnetwork.com",
       "items": 7,
       "last": "2026-11-25"
@@ -130,11 +135,6 @@
       "host": "kvraudio.com",
       "items": 6,
       "last": "2026-09-26"
-    },
-    {
-      "host": "soundcat.co.kr",
-      "items": 5,
-      "last": "2026-11-27"
     },
     {
       "host": "ravepubs.com",
