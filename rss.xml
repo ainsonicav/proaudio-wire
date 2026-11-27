@@ -9,6 +9,46 @@
     <lastBuildDate>Fri, 27 Nov 2026 00:00:00 GMT</lastBuildDate>
 
     <item>
+      <title>[신제품] Audient - Horizon, ISA C8X</title>
+      <link>https://news.ainsonic.com/n/news-428.html</link>
+      <description>음악 제작 매체 Sound On Sound가 2026년 올해의 장비로 오디언트 Horizon과 포커스라이트 ISA C8X를 선정했다. Horizon은 썬더볼트 기반 오디오 인터페이스로, 192kHz에서 0.99ms 왕복 레이턴시와 최대 4대 연결 시 200×200 입출력 확장이 강점이다. ISA C8X는 8개 마이크 프리앰프를 담은 ISA 시리즈 첫 오디오 인터페이스로, 1·2번 채널에 Lundahl LL1538 트랜스포머 기반 ISA 프리앰프를 탑재했다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-428</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Behringer - CS Mini</title>
+      <link>https://news.ainsonic.com/n/news-429.html</link>
+      <description>베링거가 2022년 발표한 미니 신스 CS Mini를 4년 반 만에 정식 출시했다. 야마하 CS-80의 아날로그 보이스를 손바닥 크기 몸체에 담은 제품으로, 싱글 VCO와 링 모듈레이터, 로우·하이패스 아날로그 필터, 아날로그 VCA, 서브 오실레이터를 갖췄다. USB-C 전원과 내장 시퀀서, 싱크 입출력과 5핀 MIDI 인을 지원하며 가격은 98파운드·119유로·109달러다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-429</guid>
+      <category>신제품</category>
+      <category>프로오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Mooer - GTRS Wing 1000</title>
+      <link>https://news.ainsonic.com/n/news-430.html</link>
+      <description>무어가 NAM 프로파일을 지원하는 헤드리스 일렉트릭 기타 GTRS Wing 1000을 출시했다. G200 스마트박스가 12개 이펙트 슬롯과 229개 이펙트 모델, 20개 기타 시뮬레이션을 처리하며, 6축 IMU로 움직임에 파라미터를 할당할 수 있다. USB-C로 DAW 직접 녹음이 가능하고 4000mAh 배터리로 10시간 사용할 수 있다. 가격은 825달러·766파운드·899유로로 패딩 긱백이 포함된다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-430</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
+
+    <item>
+      <title>[신제품] Acustica Audio - VEGA</title>
+      <link>https://news.ainsonic.com/n/news-431.html</link>
+      <description>아쿠스티카 오디오가 루카 프레톨레시, 스튜디오 DMI와 함께 드럼 리플레이스먼트·레이어링 플러그인 VEGA를 출시했다. 샘플 피칭 ±24세미톤과 자동 위상 정렬, 고급 히트 감지로 원본 드럼의 특성을 살리면서 샘플을 덧입힐 수 있다. 프레톨레시의 개인 드럼 샘플 라이브러리를 내장하고 사용자 WAV 가져오기를 지원한다. 출시 특가는 99유로, 정가는 199유로다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-431</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
       <title>[신제품] iFi audio - UP Play, UP Play Max (3g USB-C 블루투스 트랜스미터)</title>
       <link>https://news.ainsonic.com/n/news-427.html</link>
       <description>사운드캣이 영국 하이파이 브랜드 iFi audio의 초소형 USB-C 블루투스 트랜스미터 UP Play와 UP Play Max를 소개했습니다. UP Play는 블루투스 5.2와 LDAC, aptX Adaptive, 최대 24bit/96kHz 전송, JVCKENWOOD K2 Technology, 두 대 동시 송출, 저지연 모드를 지원합니다. UP Play Max는 블루투스 5.4와 aptX Lossless를 더해 16bit/44.1kHz CD 음질 무손실 전송이 가능하고 Auracast 방송 기능은 지원 예정입니다. 두 제품 모두 27.6×20.8×8mm, 3g이며 전용 앱 iFi Nexis로 코덱과 K2 설정, OTA 업데이트를 관리합니다.</description>
@@ -219,6 +259,16 @@
     </item>
 
     <item>
+      <title>[신제품] Kemper - PROFILER Native</title>
+      <link>https://news.ainsonic.com/n/news-432.html</link>
+      <description>켐퍼가 앰프 프로파일링 기술을 DAW 안에서 쓸 수 있는 소프트웨어 PROFILER Native를 출시했다. Profiler MK 2의 기능을 그대로 담아 스탠드얼론 앱과 AU·VST3·CLAP 플러그인으로 동작하며, 80개 이상의 이펙트와 모핑, 스필오버를 지원한다. 프로파일 생성은 하드웨어가 필요하고 AAX 지원은 추후 추가될 예정이다. 가격은 정가 249유로, 출시 특가 199유로다.</description>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-432</guid>
+      <category>신제품</category>
+      <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
       <title>[신제품] Kemper - KEMPER PROFILER Native</title>
       <link>https://news.ainsonic.com/n/news-396.html</link>
       <description>Kemper가 Profiler MK2의 사운드와 워크플로를 담은 플러그인 Profiler Native를 출시했습니다. AU, VST3, CLAP 형식과 스탠드얼론 앱으로 제공되며 Classic부터 Liquid Profile, Profiling 2.0까지 모든 세대의 프로파일을 불러올 수 있습니다. 80종 이상의 이펙트와 Morphing 기능을 갖췄고 AAX 지원은 추후 추가될 예정입니다. 출시 특가 199유로, 정가 249유로이며 10일 무료 체험도 제공됩니다.</description>
@@ -356,56 +406,6 @@
       <guid isPermaLink="false">news-378</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] Teenage Engineering - EP BC-1</title>
-      <link>https://news.ainsonic.com/n/news-370.html</link>
-      <description>Teenage Engineering이 EP BC-1 프로페셔널 CD 플레이어의 사전예약을 시작했고 다음 주부터 출하합니다. 바리스피드 컨트롤로 재생 속도를 50~150%까지 소수점 단위로 바꿀 수 있고, 비트 디텍션이 재생 중인 트랙의 BPM을 실시간으로 읽습니다. 비트 디텍션 신호를 TRS 미니잭 싱크 출력으로 내보내 드럼머신·신스·시퀀서 체인의 마스터 템포 장치로 쓸 수 있으며, 조그 휠 스크러빙과 큐 마커 기능도 갖췄습니다. Bluetooth와 Aurocast(원문 표기) 스트리밍, USB 연결을 통한 MP3 CD 재생을 지원합니다.</description>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-370</guid>
-      <category>신제품</category>
-      <category>컨슈머오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Listen - AudioConnect 6×2</title>
-      <link>https://news.ainsonic.com/n/news-389.html</link>
-      <description>리스튼이 오디오 측정용 인터페이스 AudioConnect 6×2를 출시했습니다. USB-C 전원으로 동작하는 6입력 2출력 인터페이스로, 6채널 마이크 어레이와 가속도계, 차량 오디오 측정을 겨냥했습니다. TEDS와 SCM·IEPE 마이크 전원, 선택 가능한 게인과 S/PDIF, SoundCheck 연동 자동 레인징을 갖췄고 최대 192kHz·24비트를 지원합니다. AES 차량 오디오 표준에 맞춘 자동차 오디오 테스트 키트의 중심 장비입니다.</description>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-389</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Heritage Audio - HERCHILD Model 670</title>
-      <link>https://news.ainsonic.com/n/news-391.html</link>
-      <description>헤리티지 오디오가 자사 하드웨어 HERCHILD 670을 본뜬 네이티브 배리뮤 컴프레서 플러그인을 출시했습니다. 하드웨어 소리에 가깝게 재현하면서 블렌드 조절과 좌우 매칭, 푸시·풀 단계 조절, 7종 진공관 선택 등 고급 모드를 더했습니다. 윈도우와 macOS용 VST3·AU·AAX로 나오며 출시 특가는 75유로, 정가는 149유로입니다. 하드웨어 소유자는 무료로 받을 수 있습니다.</description>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-391</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[행사] Genelec - 4430A Smart IP 스피커, 3440A 서브우퍼</title>
-      <link>https://news.ainsonic.com/n/news-384.html</link>
-      <description>런던 셰퍼드스부시의 옛 펍을 개조한 레스토랑 블랙 래빗(Black Rabbit)에 Genelec Smart IP 시스템이 설치됐습니다. 다이닝 공간 벽면을 따라 Smart IP 라인업 중 가장 큰 모델인 4430A 스피커 10대를 창문 사이 눈높이에 달았고, 방 양쪽 끝에는 흰색 3440A 서브우퍼 2대를 벽에 장착해 저음을 보강했습니다. 케이블 1개만 추가하면 되는 네트워크 구성으로 구역별·볼륨별 독립 제어가 가능하며, 시스템 통합은 HHB가 맡았습니다.</description>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-384</guid>
-      <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Audient - iD1, iD2, iD2+, iD4+</title>
-      <link>https://news.ainsonic.com/n/news-376.html</link>
-      <description>Audient가 데스크톱 오디오 인터페이스 iD MK3 라인업(iD1, iD2, iD2+, iD4+)을 발표했습니다. 플래그십 콘솔 ASP8024-HE 설계를 담은 마이크 프리앰프는 75dB 게인을 내고, 온보드 DSP로 동작하는 RoomTune 모니터 보정과 아날로그 톤 스위트를 무료로 제공합니다. 32비트 변환에 동적 범위 128dB, 최대 192kHz를 지원합니다. iD2·iD2+·iD4+는 지금 구매할 수 있고 가격은 299달러부터입니다.</description>
-      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-376</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
     </item>
 
   </channel>
