@@ -13,7 +13,9 @@
     "summary": "사운드캣이 NICEHCK의 오픈형 유선 이어폰 EB2S PRO를 곧 선보입니다. 귓바퀴에 걸쳐 쓰는 플랫헤드 구조로, 일본에서 수입한 15.4mm 다이내믹 드라이버에 LCP 진동판과 CCAW 보이스 코일, N50 마그네틱 회로를 적용했습니다. 주파수 응답 20Hz~25kHz, 임피던스 32Ω, 감도 112dB/mW이며 5축 CNC 가공 알루미늄 합금 하우징과 은도금·OCC 혼합 케이블(약 1.2m), 금도금 L자형 플러그를 씁니다. 3.5mm·4.4mm 플러그와 마이크 탑재형·미탑재형 중 선택할 수 있습니다.",
     "evidence": "일본에서 수입한 15.4mm 대구경 다이내믹 드라이버입니다. / 주파수 응답 20Hz~25kHz, 임피던스 32Ω, 감도 112dB/mW",
     "status": "published",
-    "addedDate": "2026-11-27"
+    "addedDate": "2026-11-27",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.nicehck.com%2Fcdn%2Fshop%2Ffiles%2FNICEHCK_eb2s_pro_hifi_wired_earphone_with_mic.jpg%3Fv%3D1763619787%26width%3D1946&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-426",
@@ -29,7 +31,9 @@
     "summary": "사운드캣이 qdc의 싱글 다이내믹 플래그십 IEM BASALT 출시를 전했습니다. 13mm 순수 다이아몬드 진동판을 CVD(화학 기상 증착) 방식의 고순도 다결정 다이아몬드막으로 제작해, 다이아몬드 유사 탄소(DLC)를 코팅한 방식과 다르다고 설명했습니다. 재생 대역 5Hz~50kHz, 감도 102dB SPL/mW, 임피던스 19Ω, 차음 26dB이며 블랙 티타늄 하우징과 0.78mm 2핀 커넥터, 3.5mm·4.4mm 2in1 멀티 플러그 케이블(약 120cm)을 갖췄습니다.",
     "evidence": "qdc는 화학 기상 증착법(CVD, Chemical Vapor Deposition)으로 제작한 고순도 다결정 다이아몬드막을 진동판에 사용했습니다. / 주파수 응답 5Hz~50kHz, 감도 102dB SPL/mW, 임피던스 19Ω",
     "status": "published",
-    "addedDate": "2026-11-27"
+    "addedDate": "2026-11-27",
+    "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fzeppelinandco.com%2Fcdn%2Fshop%2Ffiles%2FBASALT_01_600x.jpg%3Fv%3D1792924398&w=640&default=1",
+    "imageSource": "search"
   },
   {
     "id": "news-421",
