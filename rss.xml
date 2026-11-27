@@ -6,7 +6,47 @@
     <atom:link href="https://news.ainsonic.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>국내외 프로오디오 신제품, 펌웨어 업데이트, 공식 런칭 실시간 소식 피드</description>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 26 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>[신제품] qdc - EVOLVER (10.6mm DD·MST 복합 동축 IEM)</title>
+      <link>https://news.ainsonic.com/n/news-421.html</link>
+      <description>qdc가 일본 아유토(Aiuto)와 공동 기획한 유니버설 인이어 EVOLVER를 공개했습니다. 기존 엔트리 모델 SUPERIOR의 상위에 놓이는 모델로, 10.6mm 다이내믹 드라이버(20μm 알루미늄 진동판)와 10.6mm MST 드라이버(비정질 FeSiBCuNb 합금 진동판)를 하나의 복합 동축 구조로 묶었습니다. 재생 대역 10Hz~50kHz, 감도 105dB SPL/mW, 임피던스 13Ω, 차음 26dB이며 0.78mm 2핀 4심 은도금동 케이블(약 120cm)에 3.5mm·4.4mm 교체형 플러그를 씁니다. 빛의 각도에 따라 색이 바뀌는 Magic Powder 페이스플레이트를 적용했습니다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-421</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] NICEHCK - NX7 MK4</title>
+      <link>https://news.ainsonic.com/n/news-422.html</link>
+      <description>사운드캣이 NICEHCK의 하이브리드 인이어 NX7 MK4를 국내에 곧 선보입니다. NX7 시리즈 4세대로, 한쪽에 다이내믹 2기(10mm 베릴륨 도금)와 밸런스드 아마추어 4기, 7층 압전 세라믹 1기를 합친 2DD+4BA+1PZT 구성입니다. 노즐 필터를 골드·레드·블랙 3종으로 교체해 밸런스·중고음·저음 성향을 바꿀 수 있고 감도는 필터에 따라 110~113dB/mW입니다. 재생 대역 20Hz~28kHz, 임피던스 39Ω이며 스태빌라이즈드 우드 페이스플레이트에 OCC·은도금 혼합 0.78mm 2핀 케이블(약 1.2m)을 씁니다.</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-422</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
+    </item>
+
+    <item>
+      <title>[신제품] Sterling by Music Man - StingRay 50th Anniversary LTD</title>
+      <link>https://news.ainsonic.com/n/news-423.html</link>
+      <description>뮤직맨 StingRay 50주년을 기념해 Sterling by Music Man이 레이34 기반의 한정 모델을 내놨습니다. 펄 화이트, 블랙 메탈릭, 발리 블루, 골드 스파클 4가지 색상에 헤드스톡을 본체와 같은 색으로 맞췄고, 오코우메 바디에 로스팅 메이플 넥(6볼트 조인트), 로즈우드 지판 21프렛, 34인치 스케일과 9.5인치 라디우스를 씁니다. 브리지에 알니코 험버커 1기를 달고 액티브 3밴드 프리앰프(볼륨·베이스·미들·트레블)를 쓰며, 펄로이드 블록 인레이와 골드 하드웨어, 오픈기어 튜너를 적용했습니다.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-423</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
+
+    <item>
+      <title>[신제품] Orange - Tiny Terror 20th Anniversary (British Racing Green)</title>
+      <link>https://news.ainsonic.com/n/news-424.html</link>
+      <description>오렌지 앰프가 2006년에 나온 런치박스 진공관 앰프 Tiny Terror의 20주년 기념 모델을 공개했습니다. 브리티시 레이싱 그린 마감으로 전 세계 1000대만 제작하며, 대당 창업자 클리프 쿠퍼가 직접 서명한 정품 인증서가 동봉됩니다. 12AX7 프리앰프관 2개와 EL84 파워관 2개를 쓴 싱글 채널 앰프로 15W와 7W 출력을 전환할 수 있고, 볼륨·톤·게인 조작계와 8Ω·16Ω 스피커 출력을 갖췄습니다. 이펙트 루프가 없는 단순 구성과 가벼운 무게로 이동이 잦은 기타리스트를 겨냥합니다.</description>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-424</guid>
+      <category>신제품</category>
+      <category>기타</category>
+    </item>
 
     <item>
       <title>[업데이트] Melbourne Instruments - ROTO-CONTROL Cubase·FL Studio 네이티브 지원</title>
@@ -365,46 +405,6 @@
       <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="false">news-364</guid>
       <category>행사</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] AVPro Edge - AC-MXNET-10G-MSE</title>
-      <link>https://news.ainsonic.com/n/news-380.html</link>
-      <description>AVPro Edge가 10G 멀티스트림 AV over IP 인코더 AC-MXNET-10G-MSE를 출시했습니다. 이 제품은 비압축 4K SDVoE 영상과 1080p H.265 스트림을 동시에 내보내, 10G 시스템과 MXnet USP 엔드포인트를 하나의 엔드포인트로 연결합니다. AVPro Flow를 활용해 공간마다 필요한 성능만 쓰도록 설계해 소스·인코더·인프라의 중복을 줄이고 하드웨어 수와 통합 비용을 낮춘다는 설명입니다. 현재 판매 중입니다.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-380</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[신제품] Imersiv - D-1 DAC</title>
-      <link>https://news.ainsonic.com/n/news-372.html</link>
-      <description>다산에스알이 Millennia Audio의 자매 브랜드 Imersiv의 플래그십 컨버터 D-1 DAC를 소개했습니다. 미국 오디오 매거진 The Absolute Sound 2026년 12월호 리뷰에서 시니어 에디터 스티븐 스톤은 다이내믹 레인지·선형성·기저 노이즈 측정치가 다른 DAC보다 뛰어나다고 평가했습니다. 독자적인 멀티패스·HDR-A 아키텍처로 진정한 28비트 해상도를 구현했고, HV-3 프리앰프를 만든 Millennia의 설계 노하우가 담겼습니다.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-372</guid>
-      <category>신제품</category>
-      <category>프로오디오</category>
-    </item>
-
-    <item>
-      <title>[업데이트] NDI - NDI 6.4</title>
-      <link>https://news.ainsonic.com/n/news-371.html</link>
-      <description>NDI가 6.4 버전을 공개했습니다. 녹음·재생 API가 추가돼 어떤 NDI 스트림이든 영상과 여러 오디오 채널, 프레임 단위 메타데이터를 하나의 MKV 파일로 저장하고 기록 중인 파일도 바로 재생할 수 있습니다. HEVC 4:4:4 지원으로 인터페이스와 그래픽, 텍스트의 색 정확도를 낮은 비트레이트에서 유지하며, 수신 측 Wi-Fi 버퍼를 조절해 무선 지터를 흡수합니다. 세 기능 모두 NDI SDK와 NDI Advanced SDK에 별도 라이선스 없이 포함되고, Linux용 NDI Bridge 서비스는 별도 패키지로 제공됩니다.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-371</guid>
-      <category>업데이트</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
-      <title>[신제품] IK Multimedia - iLoud Micro Monitor 2</title>
-      <link>https://news.ainsonic.com/n/news-354.html</link>
-      <description>IK 멀티미디어가 소형 니어필드 스튜디오 모니터 iLoud Micro Monitor 2를 내놨습니다. 3인치 우퍼와 3/4인치 트위터에 클래스 D 앰프 4개로 총 50W RMS 출력을 냅니다. ARC X 룸 보정 기능이 내장됐고 USB-C 디지털 오디오와 블루투스를 지원합니다. 주파수 응답은 49Hz부터 28kHz이며 12월부터 배송을 시작합니다.</description>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-354</guid>
-      <category>신제품</category>
       <category>프로오디오</category>
     </item>
 
