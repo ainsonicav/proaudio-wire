@@ -25,8 +25,9 @@ FEEDS = ROOT / "feeds.json"
 NEWS = ROOT / "news.json"
 OUT = ROOT / "incoming" / "candidates.json"
 UA = "Mozilla/5.0 (compatible; PROAUDIOWIRE-Collector/1.0; +https://news.ainsonic.com)"
-MAX_AGE_DAYS = 30
+MAX_AGE_DAYS = 14  # 수집 창(2026-11-28: 30→14일). 30일 창은 이미 지난 소식이 매 회차 후보로 다시 올라와 재검토 낭비가 컸다. 게시 상한(빌드)은 30일 그대로.
 MAX_TOTAL = 40
+CANDIDATE_KEEP_DAYS = 14  # 후보 파일은 최근 14일만 유지(오래된 후보가 매 회차 다시 올라와 재검토되는 것을 막음)
 DEDUPE_DAYS = 3
 
 
@@ -231,7 +232,9 @@ def main() -> int:
 
     collected.sort(key=lambda c: c["sourceDate"], reverse=True)
     merged = collected + [c for c in prev if c["link"].rstrip("/") not in {x["link"].rstrip("/") for x in collected}]
-    merged = merged[:MAX_TOTAL]
+    # 오래된 후보 정리: 14일 지난 후보는 버린다(같은 후보가 회차마다 다시 검토되는 낭비 방지).
+    cutoff = (today - timedelta(days=CANDIDATE_KEEP_DAYS)).isoformat()
+    merged = [c for c in merged if str(c.get("sourceDate") or "") >= cutoff][:MAX_TOTAL]
 
     print("새 소식 후보 수집")
     print("\n".join(report))
