@@ -82,12 +82,13 @@
     "link": "https://gearspace.com/threads/introducing-kemper-profiler-native.1471828/",
     "productName": "PROFILER Native",
     "sourceDate": "2026-11-24",
-    "status": "published",
+    "status": "hidden",
     "summary": "켐퍼가 앰프 프로파일링 기술을 DAW 안에서 쓸 수 있는 소프트웨어 PROFILER Native를 출시했다. Profiler MK 2의 기능을 그대로 담아 스탠드얼론 앱과 AU·VST3·CLAP 플러그인으로 동작하며, 80개 이상의 이펙트와 모핑, 스필오버를 지원한다. 프로파일 생성은 하드웨어가 필요하고 AAX 지원은 추후 추가될 예정이다. 가격은 정가 249유로, 출시 특가 199유로다.",
     "type": "신제품",
     "addedDate": "2026-11-28",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.kemper-amps.com%2Fstore%2Fmedia%2Fcatalog%2Fproduct%2F2%2F4%2F24400001_theme.jpg&w=640&default=1",
-    "imageSource": "search"
+    "imageSource": "search",
+    "hiddenReason": "duplicate of news-396 (Kemper PROFILER Native, gearnews)"
   },
   {
     "id": "news-427",

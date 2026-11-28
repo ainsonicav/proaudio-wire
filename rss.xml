@@ -259,16 +259,6 @@
     </item>
 
     <item>
-      <title>[신제품] Kemper - PROFILER Native</title>
-      <link>https://news.ainsonic.com/n/news-432.html</link>
-      <description>켐퍼가 앰프 프로파일링 기술을 DAW 안에서 쓸 수 있는 소프트웨어 PROFILER Native를 출시했다. Profiler MK 2의 기능을 그대로 담아 스탠드얼론 앱과 AU·VST3·CLAP 플러그인으로 동작하며, 80개 이상의 이펙트와 모핑, 스필오버를 지원한다. 프로파일 생성은 하드웨어가 필요하고 AAX 지원은 추후 추가될 예정이다. 가격은 정가 249유로, 출시 특가 199유로다.</description>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="false">news-432</guid>
-      <category>신제품</category>
-      <category>레코딩소프트웨어</category>
-    </item>
-
-    <item>
       <title>[신제품] Kemper - KEMPER PROFILER Native</title>
       <link>https://news.ainsonic.com/n/news-396.html</link>
       <description>Kemper가 Profiler MK2의 사운드와 워크플로를 담은 플러그인 Profiler Native를 출시했습니다. AU, VST3, CLAP 형식과 스탠드얼론 앱으로 제공되며 Classic부터 Liquid Profile, Profiling 2.0까지 모든 세대의 프로파일을 불러올 수 있습니다. 80종 이상의 이펙트와 Morphing 기능을 갖췄고 AAX 지원은 추후 추가될 예정입니다. 출시 특가 199유로, 정가 249유로이며 10일 무료 체험도 제공됩니다.</description>
@@ -406,6 +396,16 @@
       <guid isPermaLink="false">news-378</guid>
       <category>신제품</category>
       <category>레코딩소프트웨어</category>
+    </item>
+
+    <item>
+      <title>[신제품] Teenage Engineering - EP BC-1</title>
+      <link>https://news.ainsonic.com/n/news-370.html</link>
+      <description>Teenage Engineering이 EP BC-1 프로페셔널 CD 플레이어의 사전예약을 시작했고 다음 주부터 출하합니다. 바리스피드 컨트롤로 재생 속도를 50~150%까지 소수점 단위로 바꿀 수 있고, 비트 디텍션이 재생 중인 트랙의 BPM을 실시간으로 읽습니다. 비트 디텍션 신호를 TRS 미니잭 싱크 출력으로 내보내 드럼머신·신스·시퀀서 체인의 마스터 템포 장치로 쓸 수 있으며, 조그 휠 스크러빙과 큐 마커 기능도 갖췄습니다. Bluetooth와 Aurocast(원문 표기) 스트리밍, USB 연결을 통한 MP3 CD 재생을 지원합니다.</description>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">news-370</guid>
+      <category>신제품</category>
+      <category>컨슈머오디오</category>
     </item>
 
   </channel>

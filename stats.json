@@ -1,22 +1,18 @@
 {
-  "generated_at": "2026-11-27T23:35:58Z",
+  "generated_at": "2026-11-28T03:24:17Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 41,
-    "month": 180,
-    "total": 431
+    "week": 36,
+    "month": 170,
+    "total": 430
   },
   "top_brands_week": [
     {
       "brand": "qdc",
       "count": 3
-    },
-    {
-      "brand": "Kemper",
-      "count": 2
     },
     {
       "brand": "NICEHCK",
@@ -29,35 +25,39 @@
     {
       "brand": "Martin Audio",
       "count": 2
+    },
+    {
+      "brand": "Audient",
+      "count": 1
     }
   ],
   "category_ratio_week": [
     {
       "category": "프로오디오",
-      "count": 17,
-      "pct": 41
+      "count": 15,
+      "pct": 42
     },
     {
       "category": "컨슈머오디오",
-      "count": 8,
-      "pct": 20
+      "count": 7,
+      "pct": 19
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 8,
-      "pct": 20
+      "count": 6,
+      "pct": 17
     },
     {
       "category": "기타",
       "count": 8,
-      "pct": 20
+      "pct": 22
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
-      "count": 123,
-      "pct": 68
+      "count": 117,
+      "pct": 69
     },
     {
       "category": "컨슈머오디오",
@@ -66,19 +66,19 @@
     },
     {
       "category": "레코딩소프트웨어",
-      "count": 31,
-      "pct": 17
+      "count": 28,
+      "pct": 16
     },
     {
       "category": "기타",
-      "count": 15,
+      "count": 14,
       "pct": 8
     }
   ],
   "latency_hours_month": {
     "median": 24.0,
     "p90": 96.0,
-    "sample": 180
+    "sample": 170
   },
   "source_health": [
     {
@@ -98,7 +98,7 @@
     },
     {
       "host": "gearspace.com",
-      "items": 22,
+      "items": 21,
       "last": "2026-11-27"
     },
     {
