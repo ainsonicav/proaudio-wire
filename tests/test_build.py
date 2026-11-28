@@ -165,6 +165,26 @@ class AddDedupTests(unittest.TestCase):
         self.assertEqual(len(errs), 1)
         self.assertIn("addedDate", errs[0])
 
+    def test_skips_same_product_from_other_source(self):
+        """같은 브랜드+제품명이 14일 안에 있으면, 링크가 달라도 중복으로 건너뛴다."""
+        existing = [{**make_item(link="https://example.com/a", date="2026-11-24", sourceDate="2026-11-24"), "id": "news-7"}]
+        incoming_path = _write_incoming([make_item(link="https://gearspace.com/b", date="2026-11-26", sourceDate="2026-11-26")])
+        try:
+            merged, fresh = build.add(existing, incoming_path)
+        finally:
+            os.unlink(incoming_path)
+        self.assertEqual(fresh, [])
+
+    def test_allows_same_product_after_window(self):
+        """14일이 지난 같은 제품(예: 후속 펌웨어)은 새 소식으로 받는다."""
+        existing = [{**make_item(link="https://example.com/a", date="2026-10-01", sourceDate="2026-10-01"), "id": "news-7"}]
+        incoming_path = _write_incoming([make_item(link="https://example.com/c", date="2026-11-26", sourceDate="2026-11-26")])
+        try:
+            merged, fresh = build.add(existing, incoming_path)
+        finally:
+            os.unlink(incoming_path)
+        self.assertEqual(len(fresh), 1)
+
     def test_skips_duplicate_link(self):
         existing = [{**make_item(link="https://example.com/dup"), "id": "news-5"}]
         incoming_path = _write_incoming([make_item(link="https://example.com/dup", productName="Dup Product")])

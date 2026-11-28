@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-28T04:48:04Z",
+  "generated_at": "2026-11-28T06:18:09Z",
   "window_days": {
     "week": 7,
     "month": 30
   },
   "counts": {
-    "week": 36,
-    "month": 170,
-    "total": 430
+    "week": 33,
+    "month": 167,
+    "total": 427
   },
   "top_brands_week": [
     {
@@ -35,50 +35,50 @@
     {
       "category": "프로오디오",
       "count": 15,
-      "pct": 42
+      "pct": 45
     },
     {
       "category": "컨슈머오디오",
       "count": 7,
-      "pct": 19
+      "pct": 21
     },
     {
       "category": "레코딩소프트웨어",
       "count": 6,
-      "pct": 17
+      "pct": 18
     },
     {
       "category": "기타",
-      "count": 8,
-      "pct": 22
+      "count": 5,
+      "pct": 15
     }
   ],
   "category_ratio_month": [
     {
       "category": "프로오디오",
       "count": 117,
-      "pct": 69
+      "pct": 70
     },
     {
       "category": "컨슈머오디오",
       "count": 11,
-      "pct": 6
+      "pct": 7
     },
     {
       "category": "레코딩소프트웨어",
       "count": 28,
-      "pct": 16
+      "pct": 17
     },
     {
       "category": "기타",
-      "count": 14,
-      "pct": 8
+      "count": 11,
+      "pct": 7
     }
   ],
   "latency_hours_month": {
     "median": 24.0,
     "p90": 96.0,
-    "sample": 170
+    "sample": 167
   },
   "source_health": [
     {
@@ -103,7 +103,7 @@
     },
     {
       "host": "gearnews.com",
-      "items": 19,
+      "items": 16,
       "last": "2026-11-27"
     },
     {

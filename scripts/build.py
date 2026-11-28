@@ -9,6 +9,7 @@
   (--add는 검사를 통과할 때만 news.json에 저장합니다.)
 """
 import json
+import re
 from urllib.parse import urlsplit
 import os
 import sys
@@ -323,12 +324,29 @@ def validate_incoming(fresh):
     return errors
 
 
+def product_key(item):
+    """브랜드+제품명 정규화 키. 같은 제품을 다른 매체가 보도한 중복을 걸러내는 데 씁니다."""
+    raw = f"{item.get('brand') or ''} {item.get('productName') or ''}".lower()
+    raw = re.sub(r"[^0-9a-z가-힣]+", " ", raw)
+    return re.sub(r"\s+", " ", raw).strip()[:48]
+
+
 def add(items, path):
-    """새 항목 파일을 id 붙여 맨 앞에 넣음. 이미 있는 원문 링크는 건너뜀."""
+    """새 항목 파일을 id 붙여 맨 앞에 넣음. 이미 있는 원문 링크·같은 제품 기사는 건너뜀."""
     new = json.loads(Path(path).read_text(encoding="utf-8"))
     if isinstance(new, dict):
         new = [new]
     links = {i["link"].rstrip("/") for i in items}
+    # 같은 브랜드+제품명이 14일 안에 이미 게시돼 있으면 중복으로 봅니다(발행 주체가 둘일 때
+    # 서로의 게시 이력을 몰라 같은 제품을 두 번 올리는 일이 있었다, 2026-11-28).
+    recent_keys = {}
+    for i in items:
+        if i.get("status") == "hidden":
+            continue
+        k = product_key(i)
+        d = str(i.get("date") or "")
+        if k and (k not in recent_keys or d > recent_keys[k]):
+            recent_keys[k] = d
     nums = [int(i["id"].split("-")[-1]) for i in items if i["id"].split("-")[-1].isdigit()]
     n = max(nums, default=0)
     fresh = []
@@ -337,6 +355,17 @@ def add(items, path):
             print(f"  건너뜀(이미 있는 원문): {it.get('brand')} — {it.get('productName')}")
             continue
         links.add(str(it.get("link", "")).rstrip("/"))
+        k = product_key(it)
+        prev = recent_keys.get(k)
+        if k and prev:
+            try:
+                gap = abs((_parse_ymd(it.get("date")) - _parse_ymd(prev)).days)
+            except (TypeError, AttributeError):
+                gap = 99
+            if gap <= 14:
+                print(f"  건너뜀(같은 제품이 {prev}에 이미 게시됨): {it.get('brand')} — {it.get('productName')}")
+                continue
+        recent_keys[k] = str(it.get("date") or "")
         it.setdefault("status", "published")
         # 수집일(관리용). 2026-10-21부터 date는 "원문 발표일"이므로 수집 시점을 따로 남깁니다.
         it.setdefault("addedDate", _kst_today().isoformat())

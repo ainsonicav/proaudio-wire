@@ -46,12 +46,13 @@
     "link": "https://www.gearnews.com/mooer-gtrs-wing-1000/",
     "productName": "GTRS Wing 1000",
     "sourceDate": "2026-11-27",
-    "status": "published",
+    "status": "hidden",
     "summary": "무어가 NAM 프로파일을 지원하는 헤드리스 일렉트릭 기타 GTRS Wing 1000을 출시했다. G200 스마트박스가 12개 이펙트 슬롯과 229개 이펙트 모델, 20개 기타 시뮬레이션을 처리하며, 6축 IMU로 움직임에 파라미터를 할당할 수 있다. USB-C로 DAW 직접 녹음이 가능하고 4000mAh 배터리로 10시간 사용할 수 있다. 가격은 825달러·766파운드·899유로로 패딩 긱백이 포함된다.",
     "type": "신제품",
     "addedDate": "2026-11-28",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2FMooer-GTRS-W1000-Intelligent-Headless-Guitar-with-NAM.jpg&w=640&default=1",
-    "imageSource": "original"
+    "imageSource": "original",
+    "hiddenReason": "악기(스마트 기타) — 사이트 주제 밖"
   },
   {
     "id": "news-431",
@@ -193,10 +194,11 @@
     "date": "2026-11-26",
     "summary": "뮤직맨 StingRay 50주년을 기념해 Sterling by Music Man이 레이34 기반의 한정 모델을 내놨습니다. 펄 화이트, 블랙 메탈릭, 발리 블루, 골드 스파클 4가지 색상에 헤드스톡을 본체와 같은 색으로 맞췄고, 오코우메 바디에 로스팅 메이플 넥(6볼트 조인트), 로즈우드 지판 21프렛, 34인치 스케일과 9.5인치 라디우스를 씁니다. 브리지에 알니코 험버커 1기를 달고 액티브 3밴드 프리앰프(볼륨·베이스·미들·트레블)를 쓰며, 펄로이드 블록 인레이와 골드 하드웨어, 오픈기어 튜너를 적용했습니다.",
     "evidence": "Each model comes with an Okoume body, a roasted maple neck with a six-bolt joint, a rosewood fretboard, and 21 medium frets. / a single Alnico humbucker in the bridge position and an active three-band preamp",
-    "status": "published",
+    "status": "hidden",
     "addedDate": "2026-11-27",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2Fsterling-stingray-50th-2.jpg&w=640&default=1",
-    "imageSource": "original"
+    "imageSource": "original",
+    "hiddenReason": "악기(베이스) — 사이트 주제(프로오디오·설치음향·레코딩) 밖"
   },
   {
     "id": "news-424",
@@ -211,10 +213,11 @@
     "date": "2026-11-26",
     "summary": "오렌지 앰프가 2006년에 나온 런치박스 진공관 앰프 Tiny Terror의 20주년 기념 모델을 공개했습니다. 브리티시 레이싱 그린 마감으로 전 세계 1000대만 제작하며, 대당 창업자 클리프 쿠퍼가 직접 서명한 정품 인증서가 동봉됩니다. 12AX7 프리앰프관 2개와 EL84 파워관 2개를 쓴 싱글 채널 앰프로 15W와 7W 출력을 전환할 수 있고, 볼륨·톤·게인 조작계와 8Ω·16Ω 스피커 출력을 갖췄습니다. 이펙트 루프가 없는 단순 구성과 가벼운 무게로 이동이 잦은 기타리스트를 겨냥합니다.",
     "evidence": "These Orange Tiny Terror 20th Anniversary models are limited to 1000 units worldwide, come in British Racing Green, and include a Certificate of Authenticity signed by Cliff Cooper / a simple dual 12AX7 preamp tube and a pair of EL84 power tubes, offering either a 7-watt or 15-watt power output",
-    "status": "published",
+    "status": "hidden",
     "addedDate": "2026-11-27",
     "imageUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.gearnews.com%2Fwp-content%2Fuploads%2F2026%2F11%2FOrange-Tiny-Terror-20th-Anniversary.jpg&w=640&default=1",
-    "imageSource": "original"
+    "imageSource": "original",
+    "hiddenReason": "악기(기타 앰프) — 사이트 주제 밖"
   },
   {
     "id": "news-416",
