@@ -1000,7 +1000,7 @@
     "type": "행사",
     "status": "published",
     "addedDate": "2026-11-22",
-    "imageTried": "2026-11-21:g",
+    "imageTried": "2026-11-28:g",
     "productName": "대림대 방송음향기술과 현장 견학"
   },
   {
@@ -1108,7 +1108,7 @@
     "type": "행사",
     "status": "published",
     "addedDate": "2026-11-22",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-368",
@@ -1161,7 +1161,7 @@
     "type": "신제품",
     "status": "published",
     "addedDate": "2026-11-22",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-371",
@@ -1178,7 +1178,7 @@
     "type": "업데이트",
     "status": "published",
     "addedDate": "2026-11-22",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-366",
@@ -1752,7 +1752,7 @@
     "summary": "디스코DSP가 오버하임 OB-X8을 본뜬 폴리포닉 신시사이저 OB-Xd 4를 내놨습니다. OB-X8의 모든 필터 타입과 스플릿·더블·바이노럴 모드, 아르페지에이터를 담았고 USB 연결로 OB-X8 라이브러리를 관리할 수 있습니다. 맥 AU·VST3·AAX·스탠드얼론, 윈도우 VST3·AAX·스탠드얼론, 리눅스 VST3·LV2·스탠드얼론 형식을 지원합니다. 가격은 12월 31일까지 99달러, 이후 199달러이며, 기존 OB-Xd 2·3과 TED-8 사용자는 29달러에 업그레이드할 수 있습니다.",
     "type": "신제품",
     "addedDate": "2026-11-16",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-331",
@@ -2790,7 +2790,7 @@
     "isDomestic": false,
     "category": "프로오디오",
     "addedDate": "2026-11-04",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-278",
@@ -3505,7 +3505,7 @@
     "evidence": "After exploring their options, the team selected an Allen & Heath AHM-32 – which features a 32×32 I/O matrix, along with advanced signal processing, automation, and several different options for control.",
     "status": "published",
     "addedDate": "2026-10-29",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-238",
@@ -4298,7 +4298,7 @@
     "status": "published",
     "summary": "미국 캘리포니아의 마스터마인드 프로덕션 그룹이 PK 사운드 파트너 네트워크에 합류했습니다. T8 로봇 라인소스 엘리먼트 40개, T18 서브우퍼 12개, Tx26 포인트소스 모듈 8개로 구성된 시스템을 도입했습니다. PK Cell로 시스템을 구동하고 PK .dynamics 소프트웨어와 MOVE 모바일 앱으로 무선 제어하며, 기업 행사 현장에 투입됩니다.",
     "type": "행사",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-188",
@@ -4931,7 +4931,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-147",
@@ -4946,7 +4946,7 @@
     "status": "published",
     "isDomestic": true,
     "category": "프로오디오",
-    "imageTried": "2026-11-21:g"
+    "imageTried": "2026-11-28:g"
   },
   {
     "id": "news-148",
